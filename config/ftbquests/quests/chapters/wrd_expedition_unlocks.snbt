@@ -1,0 +1,17 @@
+{
+ always_invisible: true
+ filename: "wrd_expedition_unlocks"
+ group: "7D7C000000000001"
+ id: "7D7CB00000000002"
+ order_index: 101
+ quests: [
+  {
+   id: "7D7CB20000000001"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:wrd/first_contact", criterion: "completed", id: "7D7CB30000000001", type: "advancement" }]
+   title: "Dungeon Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+ ]
+}

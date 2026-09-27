@@ -1,0 +1,4 @@
+[General]
+	# Automation is disabled so the Salvager requirement cannot be bypassed with hoppers.
+	Allow_automation = false
+	permanent_discover_button = false

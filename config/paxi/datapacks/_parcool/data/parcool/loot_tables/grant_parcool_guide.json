@@ -1,0 +1,20 @@
+{
+  "type": "advancement_reward",
+  "pools": [
+    {
+      "rolls": 0,
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:air",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{\"patchouli:book\": \"parcool:parcool_guide\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

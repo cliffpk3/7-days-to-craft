@@ -1,0 +1,118 @@
+{
+ default_hide_dependency_lines: false
+ default_quest_shape: ""
+ filename: "onboarding"
+ group: "7D7C000000000001"
+ id: "7D7C100000000001"
+ order_index: 0
+ quest_links: [ ]
+ quests: [
+  {
+   description: [
+    "Welcome to 7 Days to Craft. Craft or use a Crafting Table to establish your first workspace."
+    ""
+    "Completing this first step provides the wool needed for a bed. The world becomes more dangerous as the seventh day approaches."
+   ]
+   icon: "minecraft:compass"
+   id: "7D7C110000000001"
+   rewards: [
+    { count: 3, id: "7D7C1A0000000001", item: "minecraft:white_wool", type: "item" }
+   ]
+   tasks: [
+    { advancement: "seven_days_to_craft:onboarding/crafting_table", criterion: "completed", id: "7D7C1B0000000001", title: "Craft or use a Crafting Table", type: "advancement" }
+   ]
+   title: "Welcome, Survivor"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   dependencies: ["7D7C110000000001"]
+   description: [
+    "Use the wool from the previous step and gather wooden planks to make a bed, or interact with an existing bed."
+    ""
+    "A shared base may already have one. Using it also completes this step and establishes the same progression."
+   ]
+   icon: "minecraft:red_bed"
+   id: "7D7C110000000008"
+   rewards: [
+    { count: 4, id: "7D7C1A0000000002", item: "minecraft:bread", type: "item" }
+    { count: 16, id: "7D7C1A0000000012", item: "minecraft:torch", type: "item" }
+   ]
+   tasks: [{ advancement: "seven_days_to_craft:onboarding/any_bed", criterion: "completed", id: "7D7C1B0000000009", title: "Craft or interact with any Bed", type: "advancement" }]
+   title: "A Place to Sleep"
+   x: 2.0d
+   y: 0.0d
+  }
+  {
+   dependencies: ["7D7C110000000008"]
+   description: [
+    "Press K to open the skill tree. You begin with skill points available."
+    ""
+    "Spend your first point deliberately: skills control movement, scavenging, combat and engineering progression."
+   ]
+   icon: "minecraft:experience_bottle"
+   id: "7D7C110000000002"
+   rewards: [{ count: 8, id: "7D7C1A0000000003", item: "minecraft:leather", type: "item" }]
+   tasks: [{ advancement: "seven_days_to_craft:onboarding/first_skill", criterion: "completed", id: "7D7C1B0000000002", type: "advancement" }]
+   title: "Your First Skill"
+   x: 4.0d
+   y: 0.0d
+  }
+  {
+   dependencies: ["7D7C110000000002"]
+   description: [
+    "The custom Workbench is the main catalog for weapons, equipment, utilities and progression items."
+    ""
+    "Obtain a Workbench and inspect its categories before continuing."
+   ]
+   icon: "cgm:workbench"
+   id: "7D7C110000000003"
+   rewards: [
+    { count: 8, id: "7D7C1A0000000004", item: "minecraft:iron_ingot", type: "item" }
+    { count: 8, id: "7D7C1A0000000005", item: "minecraft:copper_ingot", type: "item" }
+   ]
+   tasks: [{ id: "7D7C1B0000000003", item: "cgm:workbench", type: "item" }]
+   title: "The Workbench"
+   x: 6.0d
+   y: 0.0d
+  }
+  {
+   dependencies: ["7D7C110000000003"]
+   description: [
+    "Prepare before the first horde cycle. A furnace supports food and material processing, while a complete set of armor provides essential protection."
+    ""
+    "The four armor pieces may use any material and do not need to match. Equip a helmet, chestplate, leggings and boots before continuing."
+   ]
+   icon: "minecraft:shield"
+   id: "7D7C110000000006"
+   rewards: [{ id: "7D7C1A0000000009", item: "minecraft:golden_apple", type: "item" }]
+   tasks: [
+    { id: "7D7C1B0000000007", item: "minecraft:furnace", type: "item" }
+    { advancement: "seven_days_to_craft:onboarding/armor_set", criterion: "completed", id: "7D7C1B0000000011", title: "Equip any complete armor set", type: "advancement" }
+   ]
+   title: "Prepare for the First Horde"
+   x: 8.0d
+   y: 0.0d
+  }
+  {
+   dependencies: ["7D7C110000000006"]
+   description: [
+    "Ordinary hostile mobs have a small chance to drop Level 1 Keys. Bring back Rotten Flesh from a zombie to complete your onboarding."
+    ""
+    "Your final reward contains a Level 1 Key and a Training Cache. Use the cache while carrying the key to receive exactly one random Rank 1 artifact. The key and cache are consumed."
+   ]
+   icon: "seven_days_locks:training_cache"
+   id: "7D7C110000000007"
+   rewards: [
+    { id: "7D7C1A0000000010", item: "wrd:keystrongholdchest_iron", type: "item" }
+    { id: "7D7C1A0000000011", item: "seven_days_locks:training_cache", type: "item" }
+   ]
+   tasks: [{ id: "7D7C1B0000000010", item: "minecraft:rotten_flesh", type: "item" }]
+   title: "Your First Cache"
+   x: 10.0d
+   y: 0.0d
+  }
+ ]
+ title: "Onboarding"
+}
+

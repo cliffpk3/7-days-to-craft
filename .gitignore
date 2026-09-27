@@ -1,0 +1,57 @@
+# 7 Days to Craft - dados pessoais e gerados
+/saves/
+/logs/
+/crash-reports/
+/natives/
+/xaero/
+/XaeroWaypoints_BACKUP*/
+/map_atlases/
+/schematics/
+/server-resource-packs/
+/modpack-backups/
+/local/
+/moonlight-global-datapacks/
+
+# Preferencias locais do jogador
+/options.txt
+/optionsof.txt
+/servers.dat
+/servers.dat_old
+/usercache.json
+/usernamecache.json
+/TrashSlotSaveState.json
+/rhino.local.properties
+
+# Arquivos temporarios e copias locais
+*.log
+*.tmp
+*.bak
+*.backup
+*.disabled
+*.before-*
+*.old
+*~
+
+# Mods guardados, mas inativos
+/disabled_mods/
+/disabled-mods/
+/mods/Wesley's+Roguelike+Dungeons+1.20.1-2.3.2.jar
+
+# Sistema e IDE local
+.DS_Store
+Thumbs.db
+desktop.ini
+.idea/
+
+# Git mantem as configuracoes do modpack em config/, defaultconfigs/, kubejs/ e tacz/.
+
+# Dados por mundo e preferencias detectados dentro de config
+/config/AdvancedCompass/waypoints/
+/config/jei/world/
+/config/embeddium-fingerprint.json
+/tacz/.export-state.json
+/.vscode/
+*.backup-*
+
+# Backups estruturais de desenvolvimento
+**/backup-before-*/

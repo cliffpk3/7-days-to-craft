@@ -1,0 +1,250 @@
+{
+ always_invisible: true
+ filename: "skill_training_unlocks"
+ group: "7D7C000000000001"
+ id: "7D7C380000000001"
+ order_index: 99
+ quests: [
+  {
+   id: "7D7C360000000001"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/wall_grip", criterion: "completed", id: "7D7C370000000001", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000002"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/grappler_license", criterion: "completed", id: "7D7C370000000002", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000003"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/backpack_license", criterion: "completed", id: "7D7C370000000003", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000004"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/cartography", criterion: "completed", id: "7D7C370000000004", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000005"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/ore_sense", criterion: "completed", id: "7D7C370000000005", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000006"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/lumberjack", criterion: "completed", id: "7D7C370000000006", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000007"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/key_hunter", criterion: "completed", id: "7D7C370000000007", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000008"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/salvager", criterion: "completed", id: "7D7C370000000008", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000009"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/gunsmithing", criterion: "completed", id: "7D7C370000000009", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C36000000000A"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/ammunition_1", criterion: "completed", id: "7D7C37000000000A", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C36000000000B"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/ammunition_2", criterion: "completed", id: "7D7C37000000000B", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C36000000000C"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/mechanics_1", criterion: "completed", id: "7D7C37000000000C", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C36000000000D"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/mechanics_2", criterion: "completed", id: "7D7C37000000000D", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C36000000000E"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/advanced_manufacturing", criterion: "completed", id: "7D7C37000000000E", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C36000000000F"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/sentry_engineering", criterion: "completed", id: "7D7C37000000000F", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000010"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/turret_engineering", criterion: "completed", id: "7D7C370000000010", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000011"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/emergency_mobility", criterion: "completed", id: "7D7C370000000011", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000012"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/breakfall_reflex", criterion: "completed", id: "7D7C370000000012", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000013"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/ender_traversal", criterion: "completed", id: "7D7C370000000013", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000014"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/pain_tolerance", criterion: "completed", id: "7D7C370000000014", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000015"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/second_wind", criterion: "completed", id: "7D7C370000000015", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000016"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/enduring_vitality", criterion: "completed", id: "7D7C370000000016", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000017"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/key_conservation", criterion: "completed", id: "7D7C370000000017", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000018"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/dark_adaptation", criterion: "completed", id: "7D7C370000000018", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000019"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/master_salvager", criterion: "completed", id: "7D7C370000000019", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C36000000001A"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/create_automation", criterion: "completed", id: "7D7C37000000001A", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C36000000001B"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/fortress_construction", criterion: "completed", id: "7D7C37000000001B", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C36000000001C"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/automated_defense", criterion: "completed", id: "7D7C37000000001C", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C36000000001D"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/minimap", criterion: "completed", id: "7D7C37000000001D", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C36000000001E"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/waypoint_navigation", criterion: "completed", id: "7D7C37000000001E", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+ ]
+ title: "Milestone Unlocks"
+}

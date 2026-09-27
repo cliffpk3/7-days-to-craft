@@ -1,0 +1,2508 @@
+{
+  "root": {
+    "title": "Survivor",
+    "description": "Foundation of every survivor specialization.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 0
+  },
+  "conditioning_1": {
+    "title": "Conditioning",
+    "description": "Each node grants +2% movement speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "conditioning_2": {
+    "title": "Conditioning",
+    "description": "Each node grants +2% movement speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "conditioning_3": {
+    "title": "Conditioning",
+    "description": "Each node grants +2% movement speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.movement_speed",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "vaulting": {
+    "title": "Ledge Grip",
+    "description": "Unlocks Cling To Cliff and Climb Up in ParCool, allowing you to grab block ledges and pull yourself up.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ladder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_parcool_basic"
+        }
+      }
+    ]
+  },
+  "strong_legs_1": {
+    "title": "Strong Legs",
+    "description": "Each node grants +10% jump strength.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.1,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "strong_legs_2": {
+    "title": "Strong Legs",
+    "description": "Each node grants +10% jump strength.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:jump",
+          "value": 0.1,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "soft_landing_1": {
+    "title": "Soft Landing",
+    "description": "Each node reduces fall damage by 15%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "soft_landing_2": {
+    "title": "Soft Landing",
+    "description": "Each node reduces fall damage by 15%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:fall_reduction",
+          "value": 0.15,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "urban_runner": {
+    "title": "Urban Runner",
+    "description": "+5% sprint speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_hide"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:sprinting_speed",
+          "value": 0.05,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_urban_runner"
+        }
+      }
+    ]
+  },
+  "wall_grip": {
+    "title": "Advanced Parkour",
+    "description": "Unlocks sprinting, vaulting, sliding, crawling, diving, fast swimming, safe landing, pole climbing, wall slide, wall jump and wall running in ParCool.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:ladder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_parcool_wall_grip"
+        }
+      }
+    ]
+  },
+  "grappler_license": {
+    "title": "Grappler License",
+    "description": "Allows use of standard and motorized Grappling Hooks. Ender equipment requires the Ender Traversal specialization.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fishing_rod"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_grappler"
+        }
+      }
+    ],
+    "required_spent_points": 1
+  },
+  "scavenger_1": {
+    "title": "Scavenger",
+    "description": "Each node adds +3% eligible container bonus chance and +0.5 Luck.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chest"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_scavenger_1"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "scavenger_2": {
+    "title": "Scavenger",
+    "description": "Each node adds +3% eligible container bonus chance and +0.5 Luck.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chest"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_scavenger_2"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "scavenger_3": {
+    "title": "Scavenger",
+    "description": "Each node adds +3% eligible container bonus chance and +0.5 Luck.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:chest"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_scavenger_3"
+        }
+      },
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.luck",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "forager_1": {
+    "title": "Forager",
+    "description": "Each node adds +5% chance for one extra eligible natural food drop.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_forager_1"
+        }
+      }
+    ]
+  },
+  "forager_2": {
+    "title": "Forager",
+    "description": "Each node adds +5% chance for one extra eligible natural food drop.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sweet_berries"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_forager_2"
+        }
+      }
+    ]
+  },
+  "prospector_1": {
+    "title": "Prospector",
+    "description": "Each node adds +2% chance for one extra raw ore from eligible ore blocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:raw_iron"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_prospector_1"
+        }
+      }
+    ]
+  },
+  "prospector_2": {
+    "title": "Prospector",
+    "description": "Each node adds +2% chance for one extra raw ore from eligible ore blocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:raw_iron"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_prospector_2"
+        }
+      }
+    ]
+  },
+  "prospector_3": {
+    "title": "Prospector",
+    "description": "Each node adds +2% chance for one extra raw ore from eligible ore blocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:raw_iron"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_prospector_3"
+        }
+      }
+    ]
+  },
+  "ore_sense": {
+    "title": "Ore Sense",
+    "description": "Highlights exposed ores within 12 blocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:amethyst_shard"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_ore_sense"
+        }
+      }
+    ],
+    "required_spent_points": 1
+  },
+  "backpack_license": {
+    "title": "Backpack Training",
+    "description": "Allows equipping and opening the Quark Backpack.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bundle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_backpack"
+        }
+      }
+    ]
+  },
+  "cartography": {
+    "title": "Cartography",
+    "description": "Unlocks Xaero's World Map. Press M to open the full-screen map.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:filled_map"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_cartography"
+        }
+      }
+    ]
+  },
+  "lumberjack": {
+    "title": "Lumberjack",
+    "description": "Fells a whole tree when its lowest log is broken with an axe. This intermediate milestone leads to the Scavenging specializations.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:diamond_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_lumberjack"
+        }
+      }
+    ],
+    "required_spent_points": 7
+  },
+  "toughness_1": {
+    "title": "Toughness",
+    "description": "Each node grants +1 maximum health.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "toughness_2": {
+    "title": "Toughness",
+    "description": "Each node grants +1 maximum health.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "toughness_3": {
+    "title": "Toughness",
+    "description": "Each node grants +1 maximum health.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "toughness_4": {
+    "title": "Toughness",
+    "description": "Each node grants +1 maximum health.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.max_health",
+          "value": 1,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "melee_training_1": {
+    "title": "Melee Training",
+    "description": "Each node grants +3% melee damage.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.03,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "fast_hands_1": {
+    "title": "Fast Hands",
+    "description": "Each node grants +2% attack speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "field_medicine_1": {
+    "title": "Armor Training",
+    "description": "Each node grants +0.5 armor.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_chestplate"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "marksman_1": {
+    "title": "Marksman",
+    "description": "Each node grants +2% projectile damage, including compatible firearms.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "melee_training_2": {
+    "title": "Melee Training",
+    "description": "Each node grants +3% melee damage.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.03,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "fast_hands_2": {
+    "title": "Fast Hands",
+    "description": "Each node grants +2% attack speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "field_medicine_2": {
+    "title": "Defensive Stance",
+    "description": "Each node grants +0.3 armor toughness.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.armor_toughness",
+          "value": 0.3,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "marksman_2": {
+    "title": "Marksman",
+    "description": "Each node grants +2% projectile damage, including compatible firearms.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "melee_training_3": {
+    "title": "Melee Training",
+    "description": "Each node grants +3% melee damage.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:melee_damage",
+          "value": 0.03,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "fast_hands_3": {
+    "title": "Fast Hands",
+    "description": "Each node grants +2% attack speed.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:clock"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_speed",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "field_medicine_3": {
+    "title": "Heavy Blows",
+    "description": "Each node grants +0.25 attack knockback.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "generic.attack_knockback",
+          "value": 0.25,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "marksman_3": {
+    "title": "Marksman",
+    "description": "Each node grants +2% projectile damage, including compatible firearms.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:arrow"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "puffish_attributes:ranged_damage",
+          "value": 0.02,
+          "operation": "multiply_total"
+        }
+      }
+    ]
+  },
+  "executioner": {
+    "title": "Executioner",
+    "description": "Deal 15% more damage to enemies at or below 25% health. Shared intermediate milestone.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_axe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_executioner"
+        }
+      }
+    ]
+  },
+  "pain_tolerance": {
+    "title": "Pain Tolerance",
+    "description": "At 20% health or lower, gain Resistance I for 60 seconds. 5-minute cooldown. Your first Combat specialization opens the other Combat paths.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:shield"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_pain_tolerance"
+        }
+      }
+    ],
+    "required_spent_points": 7
+  },
+  "second_wind": {
+    "title": "Second Wind",
+    "description": "Killing a hostile mob restores 2 health over 4 seconds. 10-second cooldown. Your first Combat specialization opens the other Combat paths.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_second_wind"
+        }
+      }
+    ],
+    "required_spent_points": 9
+  },
+  "maintenance_1": {
+    "title": "Maintenance",
+    "description": "Each node adds 5% chance for tools, weapons and armor to avoid durability loss.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_maintenance_1"
+        }
+      }
+    ]
+  },
+  "maintenance_2": {
+    "title": "Maintenance",
+    "description": "Each node adds 5% chance for tools, weapons and armor to avoid durability loss.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_maintenance_2"
+        }
+      }
+    ]
+  },
+  "maintenance_3": {
+    "title": "Maintenance",
+    "description": "Each node adds 5% chance for tools, weapons and armor to avoid durability loss.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_maintenance_3"
+        }
+      }
+    ]
+  },
+  "gunsmithing": {
+    "title": "Gunsmithing",
+    "description": "Unlocks firearm crafting in the custom Workbench.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:smithing_table"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_gunsmithing"
+        }
+      }
+    ]
+  },
+  "ammunition_1": {
+    "title": "Ammunition I",
+    "description": "Unlocks standard firearm ammunition in the custom Workbench.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_ammunition_1"
+        }
+      }
+    ]
+  },
+  "ammunition_2": {
+    "title": "Ammunition II",
+    "description": "Unlocks advanced and specialty ammunition in the custom Workbench.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:gunpowder"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_ammunition_2"
+        }
+      }
+    ]
+  },
+  "mechanics_1": {
+    "title": "Mechanical Foundations",
+    "description": "Unlocks Create kinetic sources, shafts, cogs, belts and basic transmission components.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:andesite"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_mechanics_1"
+        }
+      }
+    ]
+  },
+  "mechanics_2": {
+    "title": "Mechanical Processing",
+    "description": "Unlocks Create presses, mixers, saws, deployers and processing components.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:andesite"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_mechanics_2"
+        }
+      }
+    ]
+  },
+  "automation": {
+    "title": "Advanced Manufacturing",
+    "description": "Unlocks advanced Create components required before choosing Create Automation.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:andesite"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_automation"
+        }
+      }
+    ]
+  },
+  "fortification_1": {
+    "title": "Fortification 1",
+    "description": "Unlocks Tier I fortification blocks; zombies break them at 80% effectiveness.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bricks"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_fortification_1"
+        }
+      }
+    ]
+  },
+  "fortification_2": {
+    "title": "Fortification 2",
+    "description": "Unlocks Tier II fortification blocks; zombies break them at 60% effectiveness.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bricks"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_fortification_2"
+        }
+      }
+    ]
+  },
+  "fortification_3": {
+    "title": "Fortification 3",
+    "description": "Unlocks Tier III fortification blocks; zombies break them at 35% effectiveness.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bricks"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_fortification_3"
+        }
+      }
+    ]
+  },
+  "fortification_4": {
+    "title": "Structural Engineering",
+    "description": "Advanced structural knowledge required before choosing a final Engineering specialization.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:bricks"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_fortification_4"
+        }
+      }
+    ]
+  },
+  "mobility_root": {
+    "title": "Mobility",
+    "description": "Movement, parkour and traversal. Full branch ceiling: +70% jump strength, -100% fall damage (capped), +14% movement speed, +15% sprint speed and -9% exhaustion, plus traversal unlocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather_boots"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 0
+  },
+  "scavenging_root": {
+    "title": "Exploration & Scavenging",
+    "description": "Loot, gathering and exploration. Full branch ceiling: 30% animal yield, 8% extra ore chance, 20% food bonus, 15% container bonus with +2.5 Luck, 15% merchant discount, 10% durability preservation and 4% movement speed, plus map and utility unlocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 0
+  },
+  "combat_root": {
+    "title": "Combat",
+    "description": "Survivability and weapon training. Full branch ceiling: +18% melee damage, +4% projectile damage, +9 max health, +6% attack speed, +0.5 armor, +0.3 armor toughness and +0.25 knockback.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_sword"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 0
+  },
+  "engineering_root": {
+    "title": "Engineering",
+    "description": "Maintenance, fabrication and automation. Full branch ceiling: 20% tool speed, 24% component preservation, 30% repair power, 20% durability preservation and +1.5 block reach, plus Create, turret and fortress unlocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "create:brass_hand"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 0
+  },
+  "adrenaline_rush": {
+    "title": "Emergency Mobility",
+    "description": "At 20% health or lower, gain +20% movement speed and unlimited ParCool stamina for 15 seconds. 3-minute cooldown. Your first Mobility specialization opens the other Mobility paths.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:sugar"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_adrenaline_rush"
+        }
+      }
+    ],
+    "required_spent_points": 8
+  },
+  "efficient_metabolism": {
+    "title": "Efficient Metabolism",
+    "description": "Reduces exhaustion generated by all activities by 3%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:cooked_beef"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_efficient_metabolism"
+        }
+      }
+    ]
+  },
+  "enduring_vitality": {
+    "title": "Enduring Vitality",
+    "description": "After 20 seconds without taking damage, slowly restores 1 health every 45 seconds. Your first Combat specialization opens the other Combat paths.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glistering_melon_slice"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_enduring_vitality"
+        }
+      }
+    ],
+    "required_spent_points": 7
+  },
+  "field_recovery": {
+    "title": "Field Recovery",
+    "description": "Common Golden Apples restore 2 permanently lost hearts instead of 1. Shared intermediate milestone.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:golden_apple"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_field_recovery"
+        }
+      }
+    ],
+    "required_spent_points": 2
+  },
+  "key_hunter": {
+    "title": "Key Hunter",
+    "description": "Raises eligible mob key drops to 4% / 6% / 15% / 30% by level, and Fallen Adventurer skeleton chances to 68% / 36% / 25% / 15%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "wrd:keystrongholdchest_iron"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_key_hunter"
+        }
+      }
+    ],
+    "required_spent_points": 6
+  },
+  "sentry_engineering": {
+    "title": "Sentry Engineering",
+    "description": "Unlocks the Basic Turret and raises your global turret capacity to 1.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:dispenser"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 2,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_sentry_engineering"
+        }
+      }
+    ],
+    "required_spent_points": 2
+  },
+  "turret_engineering": {
+    "title": "Turret Engineering",
+    "description": "Unlocks Auto and Shotgun Turrets and raises your global turret capacity to 2.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:observer"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_turret_engineering"
+        }
+      }
+    ],
+    "required_spent_points": 6
+  },
+  "automated_defense": {
+    "title": "Automated Defense",
+    "description": "Unlocks the Explosive Turret, advanced turret modules and raises global turret capacity to 3. Explosive Turrets consume 2 capacity.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:target"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_automated_defense"
+        }
+      }
+    ],
+    "required_spent_points": 7
+  },
+  "create_automation": {
+    "title": "Create Automation",
+    "description": "Unlocks Create automatic assembly, logistics, trains and advanced production systems.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "create:mechanical_arm"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_create_automation"
+        }
+      }
+    ],
+    "required_spent_points": 12
+  },
+  "fortress_construction": {
+    "title": "Fortress Construction",
+    "description": "Allows placing Smooth Stone as a permanent fortification that Enhanced AI miners cannot break.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:smooth_stone"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_fortress_construction"
+        }
+      }
+    ],
+    "required_spent_points": 7
+  },
+  "salvager": {
+    "cost": 2,
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "required_spent_points": 2,
+    "title": "Salvager",
+    "icon": {
+      "data": {
+        "item": "minecraft:shears"
+      },
+      "type": "item"
+    },
+    "rewards": [
+      {
+        "data": {
+          "tag": "7dtc_salvager"
+        },
+        "type": "puffish_skills:tag"
+      }
+    ],
+    "description": "Allows placing and using the Recycler to recover part of the base materials from damaged or unwanted equipment."
+  },
+  "breakfall_reflex": {
+    "title": "Breakfall Reflex",
+    "description": "Completely prevents one instance of fall damage, then enters a 30-second cooldown. Your first Mobility specialization opens the other Mobility paths.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:feather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_breakfall_reflex"
+        }
+      }
+    ],
+    "required_spent_points": 7
+  },
+  "ender_traversal": {
+    "title": "Ender Traversal",
+    "description": "Allows use of the Ender Staff and Ender Grappling Hook. Your first Mobility specialization opens the other Mobility paths.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "grapplemod:launcheritem"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_ender_traversal"
+        }
+      }
+    ],
+    "required_spent_points": 11
+  },
+  "dark_adaptation": {
+    "title": "Dark Adaptation",
+    "description": "Raises minimum visibility in darkness to approximately 25% without granting full Night Vision. Planned Scavenging specialization.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:glow_berries"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_dark_adaptation"
+        }
+      }
+    ],
+    "required_spent_points": 11
+  },
+  "key_conservation": {
+    "title": "Key Conservation",
+    "description": "When unlocking a chest, has a 30% absolute chance to preserve the required key. Your first Scavenging specialization opens the other Scavenging paths.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "wrd:keystrongholdchest_gold"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_key_conservation"
+        }
+      }
+    ],
+    "required_spent_points": 10
+  },
+  "master_salvager": {
+    "title": "Master Salvager",
+    "description": "Improves Workbench dismantling efficiency while still excluding rare components. Your first Scavenging specialization opens the other Scavenging paths.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 4,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_master_salvager"
+        }
+      }
+    ],
+    "required_spent_points": 7
+  },
+  "haggler_1": {
+    "title": "Haggler",
+    "description": "Reduces merchant prices by 5% per node; current node contributes 5%, maximum 15%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_haggler_1"
+        }
+      }
+    ]
+  },
+  "field_dressing_1": {
+    "title": "Field Dressing",
+    "description": "Increases eligible animal resource yields by 10% per node; maximum 30%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_field_dressing_1"
+        }
+      }
+    ]
+  },
+  "repair_efficiency_1": {
+    "title": "Repair Efficiency",
+    "description": "Increases durability restored by repair kits by 10% per node; maximum 30%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_repair_efficiency_1"
+        }
+      }
+    ]
+  },
+  "workshop_efficiency_1": {
+    "title": "Workshop Efficiency",
+    "description": "Adds an 8% chance per node to preserve one common component used in the Custom Workbench; maximum 24%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "cgm:workbench"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_workshop_efficiency_1"
+        }
+      }
+    ]
+  },
+  "haggler_2": {
+    "title": "Haggler",
+    "description": "Reduces merchant prices by 5% per node; current node contributes 5%, maximum 15%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_haggler_2"
+        }
+      }
+    ]
+  },
+  "field_dressing_2": {
+    "title": "Field Dressing",
+    "description": "Increases eligible animal resource yields by 10% per node; maximum 30%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_field_dressing_2"
+        }
+      }
+    ]
+  },
+  "repair_efficiency_2": {
+    "title": "Repair Efficiency",
+    "description": "Increases durability restored by repair kits by 10% per node; maximum 30%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_repair_efficiency_2"
+        }
+      }
+    ]
+  },
+  "workshop_efficiency_2": {
+    "title": "Workshop Efficiency",
+    "description": "Adds an 8% chance per node to preserve one common component used in the Custom Workbench; maximum 24%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "cgm:workbench"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_workshop_efficiency_2"
+        }
+      }
+    ]
+  },
+  "haggler_3": {
+    "title": "Haggler",
+    "description": "Reduces merchant prices by 5% per node; current node contributes 5%, maximum 15%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:emerald"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_haggler_3"
+        }
+      }
+    ]
+  },
+  "field_dressing_3": {
+    "title": "Field Dressing",
+    "description": "Increases eligible animal resource yields by 10% per node; maximum 30%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:leather"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_field_dressing_3"
+        }
+      }
+    ]
+  },
+  "repair_efficiency_3": {
+    "title": "Repair Efficiency",
+    "description": "Increases durability restored by repair kits by 10% per node; maximum 30%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:anvil"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_repair_efficiency_3"
+        }
+      }
+    ]
+  },
+  "workshop_efficiency_3": {
+    "title": "Workshop Efficiency",
+    "description": "Adds an 8% chance per node to preserve one common component used in the Custom Workbench; maximum 24%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "cgm:workbench"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_workshop_efficiency_3"
+        }
+      }
+    ]
+  },
+  "tool_proficiency_1": {
+    "title": "Tool Proficiency",
+    "description": "Increases block breaking speed with the correct tool by 5% per node; maximum 20%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_tool_proficiency_1"
+        }
+      }
+    ]
+  },
+  "tool_proficiency_2": {
+    "title": "Tool Proficiency",
+    "description": "Increases block breaking speed with the correct tool by 5% per node; maximum 20%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_tool_proficiency_2"
+        }
+      }
+    ]
+  },
+  "tool_proficiency_3": {
+    "title": "Tool Proficiency",
+    "description": "Increases block breaking speed with the correct tool by 5% per node; maximum 20%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_tool_proficiency_3"
+        }
+      }
+    ]
+  },
+  "tool_proficiency_4": {
+    "title": "Tool Proficiency",
+    "description": "Increases block breaking speed with the correct tool by 5% per node; maximum 20%.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:iron_pickaxe"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_tool_proficiency_4"
+        }
+      }
+    ]
+  },
+  "builder_reach_1": {
+    "title": "Builder's Reach",
+    "description": "Increases block interaction reach by 0.5 blocks per node; maximum +1.5 blocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:scaffolding"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:block_reach",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "builder_reach_2": {
+    "title": "Builder's Reach",
+    "description": "Increases block interaction reach by 0.5 blocks per node; maximum +1.5 blocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:scaffolding"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:block_reach",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "builder_reach_3": {
+    "title": "Builder's Reach",
+    "description": "Increases block interaction reach by 0.5 blocks per node; maximum +1.5 blocks.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:scaffolding"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "task"
+      }
+    },
+    "cost": 1,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:block_reach",
+          "value": 0.5,
+          "operation": "addition"
+        }
+      }
+    ]
+  },
+  "survivor_root": {
+    "title": "Survivor",
+    "description": "Starting point of the skill tree. Unlock this node first, then choose among Mobility, Exploration & Scavenging, Combat and Engineering.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 0
+  },
+  "minimap_training": {
+    "title": "Minimap Training",
+    "description": "Unlocks Xaero's Minimap for continuous local navigation.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_minimap"
+        }
+      }
+    ]
+  },
+  "waypoint_navigation": {
+    "title": "Waypoint Navigation",
+    "description": "Unlocks waypoint creation and display in Xaero's map system.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:recovery_compass"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_waypoints"
+        }
+      }
+    ]
+  }
+}

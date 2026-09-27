@@ -1,0 +1,12 @@
+7 DAYS TO CRAFT — INSTALAÇÃO PELO TLAUNCHER
+
+1. Feche o Minecraft e o TLauncher.
+2. Extraia a pasta "7-days-to-craft" deste arquivo dentro de:
+   %APPDATA%\.minecraft\versions\
+3. Abra o TLauncher.
+4. Selecione a versão "7-days-to-craft".
+5. Use Java 17 se o launcher solicitar uma versão do Java.
+6. Inicie o jogo e aguarde o primeiro carregamento, que pode demorar.
+
+O pacote não contém mundos, mapas explorados, logs, screenshots ou dados pessoais.
+Todos os jogadores do servidor devem usar esta mesma versão do pacote.

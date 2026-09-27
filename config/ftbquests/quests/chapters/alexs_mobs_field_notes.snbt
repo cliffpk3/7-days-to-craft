@@ -1,0 +1,213 @@
+{
+ default_hide_dependency_lines: false
+ default_quest_shape: ""
+ filename: "alexs_mobs_field_notes"
+ group: "7D7C000000000001"
+ hide_quest_until_deps_visible: true
+ id: "7D7CA00000000001"
+ order_index: 3
+ quests: [
+  {
+   dependencies: ["7D7CA20000000001"]
+   require_sequential_tasks: true
+   description: ["You found Alex's Mobs' in-game field guide." "Open it for notes about creatures you encounter; it is a reference, not a required checklist."]
+   icon: "alexsmobs:animal_dictionary"
+   id: "7D7CA10000000001"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/field_guide_opened", criterion: "completed", id: "7D7CA40100000001", title: "Open the Animal Dictionary", type: "advancement" }
+   ]
+   rewards: [{ id: "7D7CA50000000001", item: "wrd:keystrongholdchest_iron", type: "item" }]
+   title: "Animal Dictionary"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   dependencies: ["7D7CA20000000002"]
+   require_sequential_tasks: true
+   description: ["Craft the feeder with 4 Copper Ingots, 2 Sunflowers and 1 Glass Bottle." "Place it on top of a solid block or hang it beneath one." "Right-click the placed feeder once with a Water Bottle and once with Sugar, in either order. A fully filled feeder attracts nearby hummingbirds so they can drink before returning to pollinate crops."]
+   icon: "alexsmobs:hummingbird_feeder"
+   id: "7D7CA10000000002"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/hummingbird_feeder_placed", criterion: "completed", id: "7D7CA40200000001", title: "Place a Hummingbird Feeder", type: "advancement" }
+    { id: "7D7CA40200000002", title: "Add 1 Water Bottle and 1 Sugar, then wait for a Hummingbird to drink", type: "checkmark" }
+   ]
+   rewards: [{ id: "7D7CA50000000002", item: "wrd:keystrongholdchest_iron", type: "item" }]
+   title: "Hummingbird Garden"
+   x: 3.0d
+   y: 0.0d
+  }
+  {
+   dependencies: ["7D7CA20000000003"]
+   require_sequential_tasks: true
+   description: ["Leafcutter ants form colonies around anthills; a pupa can establish a colony elsewhere."]
+   icon: "alexsmobs:leafcutter_ant_pupa"
+   id: "7D7CA10000000003"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/leafcutter_pupa_obtained", criterion: "completed", id: "7D7CA40300000001", title: "Obtain a Leafcutter Ant Pupa", type: "advancement" }
+    { id: "7D7CA40300000002", title: "Inspect an anthill or establish a colony", type: "checkmark" }
+   ]
+   rewards: [{ id: "7D7CA50000000003", item: "wrd:keystrongholdchest_iron", type: "item" }]
+   title: "Leafcutter Colony"
+   x: 6.0d
+   y: 0.0d
+  }
+  {
+   dependencies: ["7D7CA20000000004"]
+   require_sequential_tasks: true
+   description: ["Mosquito materials power unusual ranged weapons." "Their recipes are in the Custom Workbench Guns tab and require Gunsmithing."]
+   icon: "alexsmobs:blood_sprayer"
+   id: "7D7CA10000000004"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/blood_weapon_used", criterion: "completed", id: "7D7CA40400000001", title: "Use an unlocked biological weapon", type: "advancement" }
+   ]
+   rewards: [{ id: "7D7CA50000000004", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   title: "Mosquito Technology"
+   x: 9.0d
+   y: 0.0d
+  }
+  {
+   dependencies: ["7D7CA20000000005"]
+   require_sequential_tasks: true
+   description: ["Centipede Leggings and the Rocky Chestplate improve traversal and require Wall Grip."]
+   icon: "alexsmobs:centipede_leggings"
+   id: "7D7CA10000000005"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/climbing_gear_equipped", criterion: "completed", id: "7D7CA40500000001", title: "Equip unlocked climbing gear", type: "advancement" }
+   ]
+   rewards: [{ id: "7D7CA50000000005", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   title: "Natural Climbing Gear"
+   x: 0.0d
+   y: 2.2d
+  }
+  {
+   dependencies: ["7D7CA20000000006"]
+   require_sequential_tasks: true
+   description: ["The Grappling Squok and Vine Lasso require Grappler License."]
+   icon: "alexsmobs:squid_grapple"
+   id: "7D7CA10000000006"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/living_grapple_used", criterion: "completed", id: "7D7CA40600000001", title: "Use an unlocked living grapple", type: "advancement" }
+   ]
+   rewards: [{ id: "7D7CA50000000006", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   title: "Living Grapples"
+   x: 3.0d
+   y: 2.2d
+  }
+  {
+   dependencies: ["7D7CA20000000007"]
+   require_sequential_tasks: true
+   description: ["The Echolocator and Pupfish Locator extend the exploration toolkit and require Cartography."]
+   icon: "alexsmobs:echolocator"
+   id: "7D7CA10000000007"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/cave_locator_used", criterion: "completed", id: "7D7CA40700000001", title: "Use an unlocked locator", type: "advancement" }
+   ]
+   rewards: [{ id: "7D7CA50000000007", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   title: "Cave Echolocation"
+   x: 6.0d
+   y: 2.2d
+  }
+  {
+   dependencies: ["7D7CA20000000008"]
+   require_sequential_tasks: true
+   description: ["The Endolocator searches for a major End destination and requires Cartography."]
+   icon: "alexsmobs:endolocator"
+   id: "7D7CA10000000008"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/end_locator_used", criterion: "completed", id: "7D7CA40800000001", title: "Use the Endolocator", type: "advancement" }
+   ]
+   rewards: [{ id: "7D7CA50000000008", item: "wrd:keystrongholdchest_diamond", type: "item" }]
+   title: "End Echolocation"
+   x: 9.0d
+   y: 2.2d
+  }
+  {
+   dependencies: ["7D7CA20000000009"]
+   require_sequential_tasks: true
+   description: ["Bald eagles support an optional falconry system; it is not required for main progression."]
+   icon: "alexsmobs:falconry_glove"
+   id: "7D7CA10000000009"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/falconry_interaction", criterion: "completed", id: "7D7CA40900000001", title: "Interact with a Bald Eagle using falconry gear", type: "advancement" }
+   ]
+   rewards: [{ id: "7D7CA50000000009", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   title: "Falconry"
+   x: 0.0d
+   y: 4.4d
+  }
+  {
+   dependencies: ["7D7CA2000000000A"]
+   require_sequential_tasks: true
+   description: ["The Transmutation Table rerolls materials using experience and requires Master Salvager." "Outputs are restricted to curated loot tables."]
+   icon: "alexsmobs:transmutation_table"
+   id: "7D7CA1000000000A"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/transmutation_opened", criterion: "completed", id: "7D7CA40A00000001", title: "Open the table with Master Salvager", type: "advancement" }
+   ]
+   rewards: [{ id: "7D7CA5000000000A", item: "wrd:keystrongholdchest_diamond", type: "item" }]
+   title: "Controlled Transmutation"
+   x: 3.0d
+   y: 4.4d
+  }
+  {
+   dependencies: ["7D7CA2000000000B"]
+   require_sequential_tasks: true
+   description: ["The Void Worm is a dangerous optional encounter; Dimensional Carver use requires Ender Traversal."]
+   icon: "alexsmobs:void_worm_eye"
+   id: "7D7CA1000000000B"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/void_worm_encountered", criterion: "completed", id: "7D7CA40B00000001", title: "Encounter a Void Worm", type: "advancement" }
+    { id: "7D7CA40B00000002", title: "Study the materials it leaves behind", type: "checkmark" }
+   ]
+   rewards: [{ id: "7D7CA5000000000B", item: "wrd:keystrongholdchest_treasure", type: "item" }]
+   title: "Void Worm"
+   x: 6.0d
+   y: 4.4d
+  }
+  {
+   dependencies: ["7D7CA2000000000C"]
+   require_sequential_tasks: true
+   description: ["Some creatures inflict unique status effects. Retreat and read the effect before engaging again."]
+   icon: "alexsmobs:poison_bottle"
+   id: "7D7CA1000000000C"
+   tasks: [
+    { id: "7D7CA40C00000001", title: "Identify the active Alex's Mobs effect", type: "checkmark" }
+    { id: "7D7CA40C00000002", title: "Recover from or counter the effect", type: "checkmark" }
+   ]
+   rewards: [{ id: "7D7CA5000000000C", item: "wrd:keystrongholdchest_iron", type: "item" }]
+   title: "Unfamiliar Conditions"
+   x: 9.0d
+   y: 4.4d
+  }
+  {
+   dependencies: ["7D7CA2000000000D"]
+   require_sequential_tasks: true
+   description: ["Elephants have trust and feeding interactions. This optional note does not require taming every animal."]
+   icon: "alexsmobs:acacia_blossom"
+   id: "7D7CA1000000000D"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/elephant_fed", criterion: "completed", id: "7D7CA40D00000001", title: "Feed an Elephant an Acacia Blossom", type: "advancement" }
+   ]
+   rewards: [{ id: "7D7CA5000000000D", item: "wrd:keystrongholdchest_iron", type: "item" }]
+   title: "Elephants"
+   x: 0.0d
+   y: 6.6d
+  }
+  {
+   dependencies: ["7D7CA2000000000E"]
+   require_sequential_tasks: true
+   description: ["Tigers are territorial. Observe safely before attempting interaction."]
+   icon: "minecraft:porkchop"
+   id: "7D7CA1000000000E"
+   tasks: [
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/tiger_fed", criterion: "completed", id: "7D7CA40E00000001", title: "Feed a Tiger suitable meat", type: "advancement" }
+   ]
+   rewards: [{ id: "7D7CA5000000000E", item: "wrd:keystrongholdchest_iron", type: "item" }]
+   title: "Tigers"
+   x: 3.0d
+   y: 6.6d
+  }
+ ]
+ title: "Field Notes"
+}
+

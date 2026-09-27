@@ -1,0 +1,36 @@
+{
+ default_hide_dependency_lines: false
+ default_quest_shape: ""
+ filename: "wrd_expedition"
+ group: "7D7C000000000001"
+ hide_quest_until_deps_visible: true
+ id: "7D7CB00000000001"
+ order_index: 4
+ quests: [
+  {
+   dependencies: ["7D7CB20000000001"]
+   require_sequential_tasks: true
+   description: [
+    "You discovered a Wesley's Roguelike Dungeon. This first expedition teaches the dungeon loop without turning every room into a checklist."
+    ""
+    "Prepare food, armor and a reliable weapon before entering. Search the dungeon for its own Stronghold Chest Keys. Locked caches consume the matching key tier when opened."
+    ""
+    "Common room chests provide supplies. Artifacts are reserved for completion treasure: Treasure Chests can award Rank 2, Bone Chests Rank 3, and Final Chests Rank 4."
+    ""
+    "Defeat one of the dungeon guardians, then open the final treasure you earned."
+   ]
+   icon: "wrd:keystrongholdchest_gold"
+   id: "7D7CB10000000001"
+   rewards: [{ id: "7D7CB50000000001", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   tasks: [
+    { advancement: "seven_days_to_craft:wrd/obtain_key", criterion: "completed", id: "7D7CB40000000001", title: "Obtain a Stronghold Chest Key", type: "advancement" }
+    { advancement: "seven_days_to_craft:wrd/open_locked_chest", criterion: "completed", id: "7D7CB40000000002", title: "Use a key to open a locked dungeon chest", type: "advancement" }
+    { advancement: "seven_days_to_craft:wrd/defeat_guardian", criterion: "completed", id: "7D7CB40000000003", title: "Defeat a dungeon guardian", type: "advancement" }
+    { advancement: "seven_days_to_craft:wrd/claim_treasure", criterion: "completed", id: "7D7CB40000000004", title: "Open a completion treasure chest", type: "advancement" }
+   ]
+   title: "Your First Roguelike Dungeon"
+   x: 0.0d
+   y: 0.0d
+  }
+ ]
+}

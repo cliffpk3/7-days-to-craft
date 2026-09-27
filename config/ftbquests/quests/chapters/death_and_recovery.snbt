@@ -1,0 +1,45 @@
+{
+ default_hide_dependency_lines: false
+ default_quest_shape: ""
+ filename: "death_and_recovery"
+ group: "7D7C000000000001"
+ id: "7D7C200000000001"
+ order_index: 1
+ quest_links: [ ]
+ quests: [
+  {
+   dependencies: ["7D7C110000000001"]
+   description: [
+    "Death leaves a lasting injury: you lose 1 maximum heart per death, up to a total of 3 hearts."
+    ""
+    "Your Gravestone preserves your inventory. The compass creates a death marker to guide you back. After respawning, you receive 20 seconds of strong damage resistance, 10 seconds of regeneration and 30 seconds of infection immunity."
+   ]
+   icon: "minecraft:skeleton_skull"
+   id: "7D7C210000000001"
+   rewards: [{ id: "7D7C2A0000000001", item: "minecraft:golden_apple", type: "item" }]
+   tasks: [{ advancement: "seven_days_to_craft:medical/first_death", criterion: "completed", id: "7D7C2B0000000001", type: "advancement" }]
+   title: "Death and Recovery"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   dependencies: ["7D7C210000000001"]
+   description: [
+    "Eat a Golden Apple or Enchanted Golden Apple while maximum health is reduced to permanently recover 1 lost heart."
+    ""
+    "The death penalty can never remove more than 3 hearts. Golden Apples only repair hearts lost through this death system; their normal effects still apply."
+   ]
+   icon: "minecraft:golden_apple"
+   id: "7D7C210000000002"
+   rewards: [
+    { count: 4, id: "7D7C2A0000000002", item: "minecraft:gold_ingot", type: "item" }
+    { count: 2, id: "7D7C2A0000000003", item: "minecraft:apple", type: "item" }
+   ]
+   tasks: [{ advancement: "seven_days_to_craft:medical/recover_heart", criterion: "completed", id: "7D7C2B0000000002", type: "advancement" }]
+   title: "Treat the Injury"
+   x: 2.0d
+   y: 0.0d
+  }
+ ]
+ title: "Death and Recovery"
+}

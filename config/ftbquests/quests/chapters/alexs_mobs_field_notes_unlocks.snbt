@@ -1,0 +1,122 @@
+{
+ always_invisible: true
+ filename: "alexs_mobs_field_notes_unlocks"
+ group: "7D7C000000000001"
+ id: "7D7CA00000000002"
+ order_index: 100
+ quests: [
+  {
+   id: "7D7CA20000000001"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/field_guide", criterion: "completed", id: "7D7CA30000000001", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA20000000002"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/hummingbirds", criterion: "completed", id: "7D7CA30000000002", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA20000000003"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/leafcutters", criterion: "completed", id: "7D7CA30000000003", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA20000000004"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/blood_technology", criterion: "completed", id: "7D7CA30000000004", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA20000000005"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/climbing_gear", criterion: "completed", id: "7D7CA30000000005", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA20000000006"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/living_grapple", criterion: "completed", id: "7D7CA30000000006", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA20000000007"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/cave_locator", criterion: "completed", id: "7D7CA30000000007", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA20000000008"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/end_locator", criterion: "completed", id: "7D7CA30000000008", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA20000000009"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/falconry", criterion: "completed", id: "7D7CA30000000009", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA2000000000A"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/transmutation", criterion: "completed", id: "7D7CA3000000000A", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA2000000000B"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/void_worm", criterion: "completed", id: "7D7CA3000000000B", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA2000000000C"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/hazards", criterion: "completed", id: "7D7CA3000000000C", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA2000000000D"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/elephants", criterion: "completed", id: "7D7CA3000000000D", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7CA2000000000E"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:alexs_mobs/discovery/tigers", criterion: "completed", id: "7D7CA3000000000E", type: "advancement" }]
+   title: "Discovery Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+ ]
+ title: "Field Notes Unlocks"
+}

@@ -1,0 +1,15 @@
+{
+  "unlocked_by_default": true,
+  "starting_points": 8,
+  "spent_points_limit": 60,
+  "exclusive_root": false,
+  "title": "Survivor",
+  "description": "Mobility, scavenging, combat and engineering. Includes 8 test points while the tree is being refined.",
+  "icon": {
+    "type": "item",
+    "data": {
+      "item": "minecraft:compass"
+    }
+  },
+  "background": "textures/gui/advancements/backgrounds/stone.png"
+}
