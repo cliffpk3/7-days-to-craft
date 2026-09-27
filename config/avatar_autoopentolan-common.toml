@@ -1,0 +1,9 @@
+
+#Configure port server will listen
+[portConfig]
+	port = 9090
+
+#Configure PvP settings
+[pvpConfig]
+	pvpEnabled = false
+

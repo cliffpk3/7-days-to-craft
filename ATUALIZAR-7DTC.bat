@@ -28,6 +28,19 @@ powershell -NoProfile -ExecutionPolicy Bypass -File "tools\restore-large-mod.ps1
 echo.
 echo 7 Days to Craft atualizado com sucesso.
 echo Seus mundos, mapas, waypoints e opcoes pessoais foram preservados.
+echo Abrindo o TLauncher...
+
+if exist "%APPDATA%\.minecraft\TLauncher.exe" (
+  start "" "%APPDATA%\.minecraft\TLauncher.exe"
+) else if exist "%APPDATA%\.tlauncher\TLauncher.exe" (
+  start "" "%APPDATA%\.tlauncher\TLauncher.exe"
+) else if exist "%LOCALAPPDATA%\Programs\TLauncher\TLauncher.exe" (
+  start "" "%LOCALAPPDATA%\Programs\TLauncher\TLauncher.exe"
+) else (
+  echo AVISO: TLauncher.exe nao foi encontrado automaticamente.
+  echo Instale o TLauncher em uma pasta padrao ou abra-o manualmente.
+)
+
 pause
 exit /b 0
 
