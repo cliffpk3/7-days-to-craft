@@ -590,8 +590,8 @@
     ]
   },
   "cartography": {
-    "title": "Cartography",
-    "description": "Unlocks Xaero's World Map. Press M to open the full-screen map.",
+    "title": "Cartography & Minimap",
+    "description": "Unlocks Xaero's World Map and Minimap. Press M for the full map; the minimap records nearby visited terrain.",
     "icon": {
       "type": "item",
       "data": {
@@ -610,6 +610,12 @@
         "type": "puffish_skills:tag",
         "data": {
           "tag": "7dtc_cartography"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_minimap"
         }
       }
     ]
@@ -1476,7 +1482,108 @@
   },
   "mobility_root": {
     "title": "Mobility",
-    "description": "Movement, parkour and traversal. Full branch ceiling: +70% jump strength, -100% fall damage (capped), +14% movement speed, +15% sprint speed and -9% exhaustion, plus traversal unlocks.",
+    "description": [
+      {
+        "text": "Maximum available in this skill tree:",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Strong Legs: ",
+        "color": "gold"
+      },
+      {
+        "text": "+70% jump strength",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Soft Landing: ",
+        "color": "gold"
+      },
+      {
+        "text": "-100% fall damage (capped)",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Conditioning: ",
+        "color": "gold"
+      },
+      {
+        "text": "+14% movement speed",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Urban Runner: ",
+        "color": "gold"
+      },
+      {
+        "text": "+15% sprint speed",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Efficient Metabolism: ",
+        "color": "gold"
+      },
+      {
+        "text": "-9% exhaustion",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Mobility Milestones: ",
+        "color": "gold"
+      },
+      {
+        "text": "parkour and traversal unlocks",
+        "color": "gray"
+      }
+    ],
     "icon": {
       "type": "item",
       "data": {
@@ -1493,7 +1600,140 @@
   },
   "scavenging_root": {
     "title": "Exploration & Scavenging",
-    "description": "Loot, gathering and exploration. Full branch ceiling: 30% animal yield, 8% extra ore chance, 20% food bonus, 15% container bonus with +2.5 Luck, 15% merchant discount, 10% durability preservation and 4% movement speed, plus map and utility unlocks.",
+    "description": [
+      {
+        "text": "Maximum available in this skill tree:",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Field Dressing: ",
+        "color": "gold"
+      },
+      {
+        "text": "30% animal yield",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Prospector: ",
+        "color": "gold"
+      },
+      {
+        "text": "8% extra ore chance",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Forager: ",
+        "color": "gold"
+      },
+      {
+        "text": "20% food bonus",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Scavenger: ",
+        "color": "gold"
+      },
+      {
+        "text": "15% container bonus (+2.5 Luck)",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Haggler: ",
+        "color": "gold"
+      },
+      {
+        "text": "15% merchant discount",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Maintenance: ",
+        "color": "gold"
+      },
+      {
+        "text": "10% durability preservation",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Conditioning: ",
+        "color": "gold"
+      },
+      {
+        "text": "4% movement speed",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Exploration Milestones: ",
+        "color": "gold"
+      },
+      {
+        "text": "map and utility unlocks",
+        "color": "gray"
+      }
+    ],
     "icon": {
       "type": "item",
       "data": {
@@ -1510,7 +1750,124 @@
   },
   "combat_root": {
     "title": "Combat",
-    "description": "Survivability and weapon training. Full branch ceiling: +18% melee damage, +4% projectile damage, +9 max health, +6% attack speed, +0.5 armor, +0.3 armor toughness and +0.25 knockback.",
+    "description": [
+      {
+        "text": "Maximum available in this skill tree:",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Melee Training: ",
+        "color": "gold"
+      },
+      {
+        "text": "+18% melee damage",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Marksman: ",
+        "color": "gold"
+      },
+      {
+        "text": "+4% projectile damage",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Toughness: ",
+        "color": "gold"
+      },
+      {
+        "text": "+9 maximum health",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Fast Hands: ",
+        "color": "gold"
+      },
+      {
+        "text": "+6% attack speed",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Armor Training: ",
+        "color": "gold"
+      },
+      {
+        "text": "+0.5 armor",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Defensive Stance: ",
+        "color": "gold"
+      },
+      {
+        "text": "+0.3 armor toughness",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Heavy Blows: ",
+        "color": "gold"
+      },
+      {
+        "text": "+0.25 attack knockback",
+        "color": "gray"
+      }
+    ],
     "icon": {
       "type": "item",
       "data": {
@@ -1527,7 +1884,108 @@
   },
   "engineering_root": {
     "title": "Engineering",
-    "description": "Maintenance, fabrication and automation. Full branch ceiling: 20% tool speed, 24% component preservation, 30% repair power, 20% durability preservation and +1.5 block reach, plus Create, turret and fortress unlocks.",
+    "description": [
+      {
+        "text": "Maximum available in this skill tree:",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Tool Proficiency: ",
+        "color": "gold"
+      },
+      {
+        "text": "20% tool speed",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Workshop Efficiency: ",
+        "color": "gold"
+      },
+      {
+        "text": "24% component preservation",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Repair Efficiency: ",
+        "color": "gold"
+      },
+      {
+        "text": "30% repair power",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Maintenance: ",
+        "color": "gold"
+      },
+      {
+        "text": "20% durability preservation",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Builder's Reach: ",
+        "color": "gold"
+      },
+      {
+        "text": "+1.5 block reach",
+        "color": "gray"
+      },
+      {
+        "text": "\n"
+      },
+      {
+        "text": "",
+        "font": "seven_days_to_craft:skill_icons",
+        "color": "white"
+      },
+      {
+        "text": " Engineering Milestones: ",
+        "color": "gold"
+      },
+      {
+        "text": "Create, turret and fortress unlocks",
+        "color": "gray"
+      }
+    ],
     "icon": {
       "type": "item",
       "data": {
@@ -2455,31 +2913,6 @@
     },
     "cost": 0
   },
-  "minimap_training": {
-    "title": "Minimap Training",
-    "description": "Unlocks Xaero's Minimap for continuous local navigation.",
-    "icon": {
-      "type": "item",
-      "data": {
-        "item": "minecraft:compass"
-      }
-    },
-    "frame": {
-      "type": "advancement",
-      "data": {
-        "frame": "challenge"
-      }
-    },
-    "cost": 3,
-    "rewards": [
-      {
-        "type": "puffish_skills:tag",
-        "data": {
-          "tag": "7dtc_minimap"
-        }
-      }
-    ]
-  },
   "waypoint_navigation": {
     "title": "Waypoint Navigation",
     "description": "Unlocks waypoint creation and display in Xaero's map system.",
@@ -2501,6 +2934,114 @@
         "type": "puffish_skills:tag",
         "data": {
           "tag": "7dtc_waypoints"
+        }
+      }
+    ]
+  },
+  "low_profile": {
+    "title": "Low Profile",
+    "description": "Hostile mobs acquire you only at 65% of their normal detection distance. Close enemies can still notice and pursue you.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:fermented_spider_eye"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_low_profile"
+        }
+      }
+    ]
+  },
+  "double_jump": {
+    "title": "Reserve Jump",
+    "description": "Press Jump again while airborne to perform a second jump. The ability has a 30-second cooldown.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:rabbit_foot"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_double_jump"
+        }
+      }
+    ]
+  },
+  "beast_rider": {
+    "title": "Beast Rider",
+    "description": "Allows riding Alex's Mobs mounts after their normal taming or equipment requirements are met.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:saddle"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_beast_rider"
+        }
+      }
+    ]
+  },
+  "aquatic_mobility": {
+    "title": "Aquatic Mobility",
+    "description": "Grants +20% swimming speed for faster traversal through rivers, oceans and flooded caves.",
+    "icon": {
+      "type": "item",
+      "data": {
+        "item": "minecraft:heart_of_the_sea"
+      }
+    },
+    "frame": {
+      "type": "advancement",
+      "data": {
+        "frame": "challenge"
+      }
+    },
+    "cost": 3,
+    "rewards": [
+      {
+        "type": "puffish_skills:attribute",
+        "data": {
+          "attribute": "forge:swim_speed",
+          "value": 0.2,
+          "operation": "multiply_total"
+        }
+      },
+      {
+        "type": "puffish_skills:tag",
+        "data": {
+          "tag": "7dtc_aquatic_mobility"
         }
       }
     ]

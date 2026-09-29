@@ -61,17 +61,17 @@
   {
    dependencies: ["7D7C360000000004"]
    require_sequential_tasks: true
-   description: ["Open the map and practice creating a waypoint." "" "The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
+   description: ["Use Xaero's Minimap and World Map as one navigation system." "" "The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
    icon: "minecraft:filled_map"
    id: "7D7C310000000004"
    rewards: [{ id: "7D7C340000000004", item: "wrd:keystrongholdchest_gold", type: "item" }]
    tasks: [
 
-    { id: "7D7C350000000401", title: "Press M to open Xaero World Map", type: "checkmark" }
-    { id: "7D7C350000000402", title: "Travel into unexplored terrain", type: "checkmark" }
+    { id: "7D7C350000000401", title: "Confirm the minimap records nearby visited terrain", type: "checkmark" }
+    { id: "7D7C350000000402", title: "Press M to open Xaero World Map", type: "checkmark" }
     { id: "7D7C350000000403", title: "Confirm only visited terrain is recorded", type: "checkmark" }
    ]
-   title: "Cartography Training"
+   title: "Cartography & Minimap Training"
    x: 9.0d
    y: 0.0d
   }
@@ -484,22 +484,6 @@
    y: 12.0d
   }
   {
-   dependencies: ["7D7C36000000001D"]
-   description: ["Unlock and inspect the Xaero Minimap." "" "It records nearby visited terrain without revealing cave layers."]
-   icon: "minecraft:compass"
-   id: "7D7C31000000001D"
-   require_sequential_tasks: true
-   rewards: [{ id: "7D7C34000000001D", item: "wrd:keystrongholdchest_gold", type: "item" }]
-   tasks: [
-
-    { id: "7D7C3500000001D1", title: "Return to the game HUD", type: "checkmark" }
-    { id: "7D7C3500000001D2", title: "Confirm the minimap shows visited surroundings", type: "checkmark" }
-   ]
-   title: "Minimap Training"
-   x: 3.0d
-   y: 14.0d
-  }
-  {
    dependencies: ["7D7C36000000001E"]
    description: ["Unlock Xaero waypoint creation and navigation." "" "Mark bases, traders, structures, and routes that you discovered legitimately."]
    icon: "minecraft:recovery_compass"
@@ -516,7 +500,60 @@
    x: 6.0d
    y: 14.0d
   }
+  {
+   dependencies: ["7D7C36000000001F"]
+   description: ["Keep your distance and observe how much closer hostile mobs must come before noticing you." "" "Low Profile reduces hostile detection distance by 35%; enemies already close enough can still acquire you."]
+   icon: "minecraft:fermented_spider_eye"
+   id: "7D7C31000000001F"
+   rewards: [{ id: "7D7C34000000001F", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   tasks: [
+    { id: "7D7C3500000001F1", title: "Approach a hostile mob carefully", type: "checkmark" }
+    { id: "7D7C3500000001F2", title: "Compare its shorter detection distance", type: "checkmark" }
+   ]
+   title: "Low Profile Training"
+   x: 9.0d
+   y: 14.0d
+  }
+  {
+   dependencies: ["7D7C360000000020"]
+   description: ["Jump, release the Jump key, then press Jump once more while airborne." "" "The second jump has a 30-second cooldown and cannot be used while mounted, gliding or swimming."]
+   icon: "minecraft:rabbit_foot"
+   id: "7D7C310000000020"
+   rewards: [{ id: "7D7C340000000020", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   tasks: [{ advancement: "seven_days_to_craft:training/double_jump_use", criterion: "completed", id: "7D7C350000002001", title: "Perform a Double Jump", type: "advancement" }]
+   title: "Reserve Jump Training"
+   x: 0.0d
+   y: 16.0d
+  }
+  {
+   dependencies: ["7D7C360000000021"]
+   require_sequential_tasks: true
+   description: ["Train one Alex's Mobs mount: the Komodo Dragon." "" "Find a Komodo Dragon, feed it Rotten Flesh until hearts confirm taming, equip a Saddle, then mount it. The milestone also permits other native Alex's Mobs mounts when you discover their own requirements."]
+   icon: "minecraft:saddle"
+   id: "7D7C310000000021"
+   rewards: [{ id: "7D7C340000000021", item: "wrd:keystrongholdchest_diamond", type: "item" }]
+   tasks: [
+    { id: "7D7C350000000211", title: "Tame a Komodo Dragon with Rotten Flesh", type: "checkmark" }
+    { id: "7D7C350000000212", title: "Equip it with a Saddle", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/beast_rider_mount", criterion: "completed", id: "7D7C350000000213", title: "Mount the Komodo Dragon", type: "advancement" }
+   ]
+   title: "Beast Rider Training"
+   x: 3.0d
+   y: 16.0d
+  }
+  {
+   dependencies: ["7D7C360000000022"]
+   description: ["Swim through open water and compare your new travel speed." "" "Aquatic Mobility increases swimming speed by 20%."]
+   icon: "minecraft:heart_of_the_sea"
+   id: "7D7C310000000022"
+   rewards: [{ id: "7D7C340000000022", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   tasks: [{ id: "7D7C350000000221", title: "Swim at least twenty blocks", type: "checkmark" }]
+   title: "Aquatic Mobility Training"
+   x: 6.0d
+   y: 16.0d
+  }
  ]
  title: "Milestone Training"
 }
+
 

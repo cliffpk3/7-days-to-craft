@@ -1,0 +1,146 @@
+{
+  "minecraft:rabbit_foot": {
+    "source_node_item": "minecraft:rabbit_foot",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/rabbit_foot.png",
+    "glyph": "U+E001"
+  },
+  "minecraft:feather": {
+    "source_node_item": "minecraft:feather",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/feather.png",
+    "glyph": "U+E002"
+  },
+  "minecraft:leather_boots": {
+    "source_node_item": "minecraft:leather_boots",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/leather_boots.png",
+    "glyph": "U+E003"
+  },
+  "minecraft:rabbit_hide": {
+    "source_node_item": "minecraft:rabbit_hide",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/rabbit_hide.png",
+    "glyph": "U+E004"
+  },
+  "minecraft:cooked_beef": {
+    "source_node_item": "minecraft:cooked_beef",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/cooked_beef.png",
+    "glyph": "U+E005"
+  },
+  "minecraft:ender_pearl": {
+    "source_node_item": "minecraft:ender_pearl",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/ender_pearl.png",
+    "glyph": "U+E006"
+  },
+  "minecraft:leather": {
+    "source_node_item": "minecraft:leather",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/leather.png",
+    "glyph": "U+E007"
+  },
+  "minecraft:raw_iron": {
+    "source_node_item": "minecraft:raw_iron",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/raw_iron.png",
+    "glyph": "U+E008"
+  },
+  "minecraft:sweet_berries": {
+    "source_node_item": "minecraft:sweet_berries",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/sweet_berries.png",
+    "glyph": "U+E009"
+  },
+  "minecraft:chest": {
+    "source_node_item": "minecraft:chest",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/chest_minecart.png",
+    "glyph": "U+E00A"
+  },
+  "minecraft:emerald": {
+    "source_node_item": "minecraft:emerald",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/emerald.png",
+    "glyph": "U+E00B"
+  },
+  "minecraft:anvil": {
+    "source_node_item": "minecraft:anvil",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/block/anvil.png",
+    "glyph": "U+E00C"
+  },
+  "minecraft:compass": {
+    "source_node_item": "minecraft:compass",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/compass_16.png",
+    "glyph": "U+E00D"
+  },
+  "minecraft:iron_sword": {
+    "source_node_item": "minecraft:iron_sword",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/iron_sword.png",
+    "glyph": "U+E00E"
+  },
+  "minecraft:arrow": {
+    "source_node_item": "minecraft:arrow",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/arrow.png",
+    "glyph": "U+E00F"
+  },
+  "minecraft:apple": {
+    "source_node_item": "minecraft:apple",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/apple.png",
+    "glyph": "U+E010"
+  },
+  "minecraft:clock": {
+    "source_node_item": "minecraft:clock",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/clock_00.png",
+    "glyph": "U+E011"
+  },
+  "minecraft:iron_chestplate": {
+    "source_node_item": "minecraft:iron_chestplate",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/iron_chestplate.png",
+    "glyph": "U+E012"
+  },
+  "minecraft:shield": {
+    "source_node_item": "minecraft:shield",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/entity/shield_base.png",
+    "glyph": "U+E013"
+  },
+  "minecraft:iron_axe": {
+    "source_node_item": "minecraft:iron_axe",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/iron_axe.png",
+    "glyph": "U+E014"
+  },
+  "minecraft:iron_pickaxe": {
+    "source_node_item": "minecraft:iron_pickaxe",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/item/iron_pickaxe.png",
+    "glyph": "U+E015"
+  },
+  "cgm:workbench": {
+    "source_node_item": "cgm:workbench",
+    "jar": "CGM-Unofficial-1.4.20+Forge+1.20.1.jar",
+    "texture": "assets/cgm/textures/gui/workbench.png",
+    "glyph": "U+E016"
+  },
+  "minecraft:scaffolding": {
+    "source_node_item": "minecraft:scaffolding",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/block/scaffolding_top.png",
+    "glyph": "U+E017"
+  },
+  "minecraft:piston": {
+    "source_node_item": "minecraft:piston",
+    "jar": "7-days-to-craft.jar",
+    "texture": "assets/minecraft/textures/block/piston_top.png",
+    "glyph": "U+E018"
+  }
+}

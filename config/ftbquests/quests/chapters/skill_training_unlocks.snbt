@@ -245,6 +245,38 @@
    x: 0.0d
    y: 0.0d
   }
+  {
+   id: "7D7C36000000001F"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/low_profile", criterion: "completed", id: "7D7C37000000001F", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000020"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/double_jump", criterion: "completed", id: "7D7C370000000020", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000021"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/beast_rider", criterion: "completed", id: "7D7C370000000021", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000022"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/aquatic_mobility", criterion: "completed", id: "7D7C370000000022", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
  ]
  title: "Milestone Unlocks"
 }

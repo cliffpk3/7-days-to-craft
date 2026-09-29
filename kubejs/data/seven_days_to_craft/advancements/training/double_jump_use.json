@@ -1,0 +1,7 @@
+{
+  "criteria": {
+    "completed": {
+      "trigger": "minecraft:impossible"
+    }
+  }
+}

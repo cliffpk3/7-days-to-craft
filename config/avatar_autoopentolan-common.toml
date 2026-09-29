@@ -5,5 +5,5 @@
 
 #Configure PvP settings
 [pvpConfig]
-	pvpEnabled = false
+	pvpEnabled = true
 

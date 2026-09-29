@@ -14,10 +14,6 @@
         "cartography_7"
       ],
       [
-        "cartography_5",
-        "backpack_license_5"
-      ],
-      [
         "cartography_3",
         "cartography_2"
       ],
@@ -160,22 +156,6 @@
       [
         "scavenger_3",
         "prospector_2_3"
-      ],
-      [
-        "prospector_2_3",
-        "cartography_5"
-      ],
-      [
-        "cartography_5",
-        "cartography_6"
-      ],
-      [
-        "cartography_6",
-        "backpack_license_5"
-      ],
-      [
-        "backpack_license_5",
-        "backpack_license_4"
       ],
       [
         "backpack_license_4",
@@ -676,16 +656,28 @@
       [
         "engineering_root",
         "maintenance_2"
+      ],
+      [
+        "backpack_license_4",
+        "exploration_upper_inner"
+      ],
+      [
+        "exploration_upper_inner",
+        "exploration_upper_turn"
+      ],
+      [
+        "exploration_upper_turn",
+        "backpack_license_5"
+      ],
+      [
+        "backpack_license_5",
+        "prospector_2_3"
       ]
     ],
     "unidirectional": [
       [
         "prospector_3_2",
         "lumberjack_4"
-      ],
-      [
-        "cartography_6",
-        "lumberjack_3"
       ],
       [
         "lumberjack",
@@ -742,6 +734,10 @@
       [
         "maintenance_1",
         "scavenging_root"
+      ],
+      [
+        "exploration_upper_turn",
+        "lumberjack_3"
       ]
     ]
   }

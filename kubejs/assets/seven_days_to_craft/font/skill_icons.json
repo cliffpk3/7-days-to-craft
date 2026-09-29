@@ -1,0 +1,220 @@
+{
+  "providers": [
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__rabbit_foot.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__feather.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__leather_boots.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__rabbit_hide.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__cooked_beef.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__ender_pearl.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__leather.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__raw_iron.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__sweet_berries.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__chest.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__emerald.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__anvil.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__compass.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__iron_sword.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__arrow.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__apple.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__clock.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__iron_chestplate.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__shield.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__iron_axe.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__iron_pickaxe.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/cgm__workbench.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__scaffolding.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    },
+    {
+      "type": "bitmap",
+      "file": "seven_days_to_craft:font/skill_icons/minecraft__piston.png",
+      "ascent": 8,
+      "height": 9,
+      "chars": [
+        ""
+      ]
+    }
+  ]
+}
