@@ -2,6 +2,6 @@
   "oreLightLevel": {
     // The light value ore blocks give off, vanilla:0, 
     // Default: 3, max:15
-    "oreLightLevel": 3
+    "oreLightLevel": 0
   }
 }

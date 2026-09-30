@@ -78,15 +78,15 @@
   {
    dependencies: ["7D7C360000000005"]
    require_sequential_tasks: true
-   description: ["Look for highlighted nearby ores and learn the overlay range." "" "The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
+   description: ["Ore Sense makes ore blocks emit a subtle light at level 6 of 15." "" "Find an exposed ore in a dark place and confirm that it glows without the old outline overlay. The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
    icon: "minecraft:raw_iron"
    id: "7D7C310000000005"
    rewards: [{ id: "7D7C340000000005", item: "wrd:keystrongholdchest_gold", type: "item" }]
    tasks: [
 
     { id: "7D7C350000000501", title: "Find an exposed ore vein", type: "checkmark" }
-    { id: "7D7C350000000502", title: "Approach within twelve blocks", type: "checkmark" }
-    { id: "7D7C350000000503", title: "Confirm the ore is highlighted", type: "checkmark" }
+    { id: "7D7C350000000502", title: "Find an exposed ore in a dark place", type: "checkmark" }
+    { id: "7D7C350000000503", title: "Confirm that the ore emits light", type: "checkmark" }
    ]
    title: "Ore Sense Training"
    x: 0.0d

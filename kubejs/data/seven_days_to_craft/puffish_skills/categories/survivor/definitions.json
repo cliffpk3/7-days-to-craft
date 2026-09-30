@@ -540,7 +540,7 @@
   },
   "ore_sense": {
     "title": "Ore Sense",
-    "description": "Highlights exposed ores within 12 blocks.",
+    "description": "Makes ore blocks glow at light level 6 of 15.",
     "icon": {
       "type": "item",
       "data": {
