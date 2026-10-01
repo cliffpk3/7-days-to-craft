@@ -12,27 +12,27 @@
   "forager_1": {
     "x": -92,
     "y": 32,
-    "definition": "maintenance_1"
+    "definition": "field_dressing_1"
   },
   "melee_training_1": {
     "x": 93,
     "y": 32,
-    "definition": "toughness_1"
+    "definition": "melee_training_1"
   },
   "prospector_1": {
     "x": -110,
     "y": 0,
-    "definition": "scavenger_1"
+    "definition": "prospector_2"
   },
   "toughness_1": {
     "x": 111,
     "y": 0,
-    "definition": "melee_training_3"
+    "definition": "toughness_1"
   },
   "prospector_3": {
     "x": -184,
     "y": 0,
-    "definition": "salvager"
+    "definition": "ore_sense"
   },
   "field_medicine_1": {
     "x": 185,
@@ -42,17 +42,17 @@
   "scavenger_2": {
     "x": -147,
     "y": 128,
-    "definition": "prospector_2"
+    "definition": "prospector_1"
   },
   "marksman_1": {
     "x": 148,
     "y": 128,
-    "definition": "toughness_4"
+    "definition": "toughness_3"
   },
   "forager_1_2": {
     "x": -129,
     "y": 96,
-    "definition": "waypoint_navigation"
+    "definition": "salvager"
   },
   "melee_training_2": {
     "x": 130,
@@ -62,17 +62,17 @@
   "forager_2": {
     "x": -184,
     "y": 128,
-    "definition": "field_dressing_2"
+    "definition": "maintenance_2"
   },
   "toughness_4": {
     "x": 185,
     "y": 128,
-    "definition": "marksman_2"
+    "definition": "workshop_efficiency_3"
   },
   "backpack_license": {
     "x": -221,
     "y": 128,
-    "definition": "field_dressing_3"
+    "definition": "maintenance_1"
   },
   "melee_training_3": {
     "x": 222,
@@ -82,82 +82,82 @@
   "backpack_license_2": {
     "x": -240,
     "y": -32,
-    "definition": "scavenger_1"
+    "definition": "haggler_1"
   },
   "marksman_2": {
     "x": 241,
     "y": -32,
-    "definition": "toughness_3"
+    "definition": "fast_hands_3"
   },
   "backpack_license_3": {
     "x": -240,
     "y": 32,
-    "definition": "forager_2"
+    "definition": "haggler_2"
   },
   "toughness_3": {
     "x": 241,
     "y": 32,
-    "definition": "toughness_1"
+    "definition": "field_medicine_1"
   },
   "cartography": {
     "x": -277,
     "y": 32,
-    "definition": "scavenger_1"
+    "definition": "forager_2"
   },
   "executioner": {
     "x": 278,
     "y": 32,
-    "definition": "fast_hands_1"
+    "definition": "toughness_3"
   },
   "cartography_2": {
     "x": -314,
     "y": 32,
-    "definition": "prospector_3"
+    "definition": "scavenger_2"
   },
   "executioner_2": {
     "x": 315,
     "y": 32,
-    "definition": "urban_runner"
+    "definition": "melee_training_2"
   },
   "cartography_3": {
     "x": -314,
     "y": -32,
-    "definition": "scavenger_3"
+    "definition": "scavenger_1"
   },
   "executioner_3": {
     "x": 315,
     "y": -32,
-    "definition": "toughness_3"
+    "definition": "melee_training_1"
   },
   "cartography_4": {
     "x": -277,
     "y": -32,
-    "definition": "prospector_1"
+    "definition": "forager_1"
   },
   "field_medicine_3": {
     "x": 278,
     "y": -32,
-    "definition": "fast_hands_3"
+    "definition": "toughness_2"
   },
   "scavenger_2_2": {
     "x": -203,
     "y": -32,
-    "definition": "haggler_3"
+    "definition": "field_dressing_2"
   },
   "melee_training_2_2": {
     "x": 204,
     "y": -32,
-    "definition": "toughness_4"
+    "definition": "marksman_1"
   },
   "prospector_2": {
     "x": -203,
     "y": 32,
-    "definition": "conditioning_1"
+    "definition": "field_dressing_3"
   },
   "field_medicine_3_2": {
     "x": 204,
     "y": 32,
-    "definition": "field_medicine_1"
+    "definition": "marksman_2"
   },
   "lumberjack": {
     "x": -332,
@@ -172,7 +172,7 @@
   "prospector_2_2": {
     "x": -129,
     "y": -96,
-    "definition": "cartography"
+    "definition": "backpack_license"
   },
   "fast_hands_1": {
     "x": 130,
@@ -182,67 +182,67 @@
   "scavenger_1": {
     "x": -147,
     "y": -64,
-    "definition": "forager_1"
+    "definition": "scavenger_3"
   },
   "field_medicine_1_2": {
     "x": 148,
     "y": -64,
-    "definition": "melee_training_1"
+    "definition": "toughness_4"
   },
   "prospector_1_2": {
     "x": -147,
     "y": -128,
-    "definition": "haggler_1"
+    "definition": "forager_2"
   },
   "field_medicine_2": {
     "x": 148,
     "y": -128,
-    "definition": "marksman_1"
+    "definition": "toughness_2"
   },
   "scavenger_1_2": {
     "x": -184,
     "y": -64,
-    "definition": "forager_2"
+    "definition": "scavenger_1"
   },
   "toughness_2": {
     "x": 185,
     "y": -64,
-    "definition": "fast_hands_2"
+    "definition": "melee_training_2"
   },
   "scavenger_3": {
     "x": -184,
     "y": -128,
-    "definition": "maintenance_2"
+    "definition": "conditioning_2"
   },
   "fast_hands_2": {
     "x": 185,
     "y": -128,
-    "definition": "toughness_2"
+    "definition": "conditioning_1"
   },
   "backpack_license_4": {
     "x": -221,
     "y": -64,
-    "definition": "forager_1"
+    "definition": "haggler_3"
   },
   "field_medicine_2_2": {
     "x": 222,
     "y": -64,
-    "definition": "melee_training_2"
+    "definition": "fast_hands_1"
   },
   "prospector_2_3": {
     "x": -221,
     "y": -128,
-    "definition": "scavenger_2"
+    "definition": "conditioning_1"
   },
   "marksman_1_2": {
     "x": 222,
     "y": -128,
-    "definition": "field_medicine_3"
+    "definition": "urban_runner"
   },
   "backpack_license_5": {
     "x": -258,
     "y": -128,
-    "definition": "conditioning_2"
+    "definition": "scavenger_1"
   },
   "melee_training_2_3": {
     "x": 259,
@@ -252,7 +252,7 @@
   "marksman_3": {
     "x": 259,
     "y": -128,
-    "definition": "melee_training_1"
+    "definition": "toughness_1"
   },
   "toughness_4_2": {
     "x": 278,
@@ -262,32 +262,32 @@
   "forager_2_2": {
     "x": -147,
     "y": 64,
-    "definition": "haggler_2"
+    "definition": "forager_1"
   },
   "melee_training_1_2": {
     "x": 148,
     "y": 64,
-    "definition": "toughness_1"
+    "definition": "melee_training_1"
   },
   "cartography_7": {
     "x": -258,
     "y": 128,
-    "definition": "forager_1"
+    "definition": "prospector_1"
   },
   "executioner_4": {
     "x": 259,
     "y": 128,
-    "definition": "conditioning_1"
+    "definition": "toughness_4"
   },
   "scavenger_3_2": {
     "x": -258,
     "y": 64,
-    "definition": "haggler_1"
+    "definition": "prospector_3"
   },
   "fast_hands_3": {
     "x": 259,
     "y": 64,
-    "definition": "melee_training_1"
+    "definition": "field_medicine_3"
   },
   "backpack_license_6": {
     "x": -221,
@@ -297,17 +297,17 @@
   "melee_training_1_3": {
     "x": 222,
     "y": 64,
-    "definition": "workshop_efficiency_3"
+    "definition": "fast_hands_2"
   },
   "prospector_1_3": {
     "x": -184,
     "y": 64,
-    "definition": "prospector_1"
+    "definition": "scavenger_2"
   },
   "melee_training_3_2": {
     "x": 185,
     "y": 64,
-    "definition": "toughness_2"
+    "definition": "melee_training_3"
   },
   "lumberjack_2": {
     "x": -406,
@@ -342,12 +342,12 @@
   "scavenger_1_3": {
     "x": -92,
     "y": -32,
-    "definition": "scavenger_2"
+    "definition": "haggler_1"
   },
   "toughness_1_2": {
     "x": 93,
     "y": -32,
-    "definition": "melee_training_2"
+    "definition": "toughness_1"
   },
   "prospector_3_2": {
     "x": -277,
@@ -378,22 +378,22 @@
   "maintenance_3": {
     "x": -32,
     "y": 92,
-    "definition": "maintenance_1"
+    "definition": "workshop_efficiency_1"
   },
   "maintenance_2": {
     "x": 0,
     "y": 110,
-    "definition": "builder_reach_2"
+    "definition": "tool_proficiency_3"
   },
   "soft_landing_1": {
     "x": 0,
     "y": -111,
-    "definition": "soft_landing_2"
+    "definition": "strong_legs_2"
   },
   "fortification_1": {
     "x": 0,
     "y": 184,
-    "definition": "sentry_engineering"
+    "definition": "fortification_4"
   },
   "vaulting": {
     "x": 0,
@@ -403,12 +403,12 @@
   "mechanics_1": {
     "x": -128,
     "y": 147,
-    "definition": "tool_proficiency_4"
+    "definition": "builder_reach_2"
   },
   "conditioning_2": {
     "x": 128,
     "y": -148,
-    "definition": "strong_legs_1"
+    "definition": "strong_legs_2"
   },
   "gunsmithing": {
     "x": -96,
@@ -418,62 +418,62 @@
   "vaulting_2": {
     "x": 96,
     "y": -130,
-    "definition": "double_jump"
+    "definition": "low_profile"
   },
   "mechanics_1_2": {
     "x": -128,
     "y": 184,
-    "definition": "repair_efficiency_1"
+    "definition": "maintenance_3"
   },
   "soft_landing_1_2": {
     "x": 128,
     "y": -185,
-    "definition": "strong_legs_1"
+    "definition": "soft_landing_2"
   },
   "ammunition_1": {
     "x": -128,
     "y": 221,
-    "definition": "workshop_efficiency_1"
+    "definition": "builder_reach_1"
   },
   "urban_runner": {
     "x": 128,
     "y": -222,
-    "definition": "soft_landing_2"
+    "definition": "soft_landing_1"
   },
   "fortification_2": {
     "x": 32,
     "y": 240,
-    "definition": "repair_efficiency_3"
+    "definition": "maintenance_1"
   },
   "urban_runner_2": {
     "x": -32,
     "y": -241,
-    "definition": "efficient_metabolism"
+    "definition": "conditioning_3"
   },
   "maintenance_3_2": {
     "x": -32,
     "y": 240,
-    "definition": "maintenance_3"
+    "definition": "workshop_efficiency_3"
   },
   "urban_runner_3": {
     "x": 32,
     "y": -241,
-    "definition": "conditioning_1"
+    "definition": "urban_runner"
   },
   "mechanics_2": {
     "x": -32,
     "y": 277,
-    "definition": "maintenance_3"
+    "definition": "tool_proficiency_1"
   },
   "wall_grip": {
     "x": 32,
     "y": -278,
-    "definition": "efficient_metabolism"
+    "definition": "soft_landing_2"
   },
   "fortification_3": {
     "x": -32,
     "y": 314,
-    "definition": "builder_reach_3"
+    "definition": "tool_proficiency_2"
   },
   "wall_grip_2": {
     "x": 32,
@@ -483,42 +483,42 @@
   "automation": {
     "x": 32,
     "y": 314,
-    "definition": "repair_efficiency_2"
+    "definition": "maintenance_3"
   },
   "wall_grip_3": {
     "x": -32,
     "y": -315,
-    "definition": "soft_landing_1"
+    "definition": "conditioning_1"
   },
   "ammunition_2": {
     "x": 32,
     "y": 277,
-    "definition": "builder_reach_2"
+    "definition": "maintenance_2"
   },
   "urban_runner_4": {
     "x": -32,
     "y": -278,
-    "definition": "conditioning_1"
+    "definition": "conditioning_2"
   },
   "gunsmithing_2": {
     "x": 32,
     "y": 203,
-    "definition": "repair_efficiency_1"
+    "definition": "tool_proficiency_4"
   },
   "strong_legs_1": {
     "x": -32,
     "y": -204,
-    "definition": "strong_legs_2"
+    "definition": "strong_legs_1"
   },
   "mechanics_1_3": {
     "x": -32,
     "y": 203,
-    "definition": "builder_reach_1"
+    "definition": "workshop_efficiency_2"
   },
   "vaulting_3": {
     "x": 32,
     "y": -204,
-    "definition": "soft_landing_1"
+    "definition": "urban_runner"
   },
   "fortification_4": {
     "x": 0,
@@ -528,32 +528,32 @@
   "grappler_license": {
     "x": 0,
     "y": -333,
-    "definition": "beast_rider"
+    "definition": "aquatic_mobility"
   },
   "fortification_1_2": {
     "x": 96,
     "y": 129,
-    "definition": "fortification_4"
+    "definition": "sentry_engineering"
   },
   "soft_landing_2": {
     "x": -96,
     "y": -130,
-    "definition": "low_profile"
+    "definition": "wall_grip"
   },
   "fortification_1_3": {
     "x": 64,
     "y": 147,
-    "definition": "tool_proficiency_1"
+    "definition": "builder_reach_1"
   },
   "conditioning_1": {
     "x": -64,
     "y": -148,
-    "definition": "urban_runner"
+    "definition": "efficient_metabolism"
   },
   "gunsmithing_3": {
     "x": 128,
     "y": 147,
-    "definition": "workshop_efficiency_2"
+    "definition": "repair_efficiency_2"
   },
   "vaulting_4": {
     "x": -128,
@@ -563,17 +563,17 @@
   "fortification_1_4": {
     "x": 64,
     "y": 184,
-    "definition": "workshop_efficiency_2"
+    "definition": "builder_reach_2"
   },
   "vaulting_5": {
     "x": -64,
     "y": -185,
-    "definition": "strong_legs_2"
+    "definition": "urban_runner"
   },
   "ammunition_1_2": {
     "x": 128,
     "y": 184,
-    "definition": "builder_reach_3"
+    "definition": "workshop_efficiency_1"
   },
   "vaulting_6": {
     "x": -128,
@@ -583,17 +583,17 @@
   "fortification_2_2": {
     "x": 64,
     "y": 221,
-    "definition": "repair_efficiency_3"
+    "definition": "builder_reach_3"
   },
   "urban_runner_5": {
     "x": -64,
     "y": -222,
-    "definition": "strong_legs_2"
+    "definition": "soft_landing_1"
   },
   "fortification_2_3": {
     "x": 128,
     "y": 221,
-    "definition": "builder_reach_1"
+    "definition": "workshop_efficiency_2"
   },
   "conditioning_3": {
     "x": -128,
@@ -603,62 +603,62 @@
   "mechanics_2_2": {
     "x": 64,
     "y": 258,
-    "definition": "workshop_efficiency_3"
+    "definition": "repair_efficiency_1"
   },
   "urban_runner_6": {
     "x": -64,
     "y": -259,
-    "definition": "strong_legs_1"
+    "definition": "soft_landing_2"
   },
   "ammunition_2_2": {
     "x": 128,
     "y": 258,
-    "definition": "workshop_efficiency_1"
+    "definition": "repair_efficiency_3"
   },
   "soft_landing_2_2": {
     "x": -128,
     "y": -259,
-    "definition": "conditioning_3"
+    "definition": "strong_legs_2"
   },
   "fortification_3_2": {
     "x": 96,
     "y": 277,
-    "definition": "automation"
+    "definition": "turret_engineering"
   },
   "wall_grip_4": {
     "x": -96,
     "y": -278,
-    "definition": "wall_grip"
+    "definition": "double_jump"
   },
   "fortification_1_5": {
     "x": -64,
     "y": 147,
-    "definition": "maintenance_2"
+    "definition": "repair_efficiency_1"
   },
   "strong_legs_2": {
     "x": 64,
     "y": -148,
-    "definition": "soft_landing_2"
+    "definition": "conditioning_3"
   },
   "fortification_3_3": {
     "x": -128,
     "y": 258,
-    "definition": "workshop_efficiency_1"
+    "definition": "builder_reach_3"
   },
   "wall_grip_5": {
     "x": 128,
     "y": -259,
-    "definition": "conditioning_2"
+    "definition": "strong_legs_1"
   },
   "mechanics_2_3": {
     "x": -64,
     "y": 258,
-    "definition": "tool_proficiency_3"
+    "definition": "workshop_efficiency_1"
   },
   "strong_legs_2_2": {
     "x": 64,
     "y": -259,
-    "definition": "conditioning_3"
+    "definition": "efficient_metabolism"
   },
   "ammunition_1_3": {
     "x": -64,
@@ -668,7 +668,7 @@
   "urban_runner_7": {
     "x": 64,
     "y": -222,
-    "definition": "efficient_metabolism"
+    "definition": "conditioning_1"
   },
   "maintenance_2_2": {
     "x": -64,
@@ -678,7 +678,7 @@
   "vaulting_7": {
     "x": 64,
     "y": -185,
-    "definition": "urban_runner"
+    "definition": "conditioning_2"
   },
   "automation_2": {
     "x": 0,
@@ -713,36 +713,36 @@
   "maintenance_2_3": {
     "x": 32,
     "y": 92,
-    "definition": "tool_proficiency_2"
+    "definition": "repair_efficiency_3"
   },
   "conditioning_1_2": {
     "x": -32,
     "y": -96,
-    "definition": "conditioning_2"
+    "definition": "efficient_metabolism"
   },
   "fortification_3_4": {
     "x": -96,
     "y": 277,
-    "definition": "turret_engineering"
+    "definition": "automation"
   },
   "wall_grip_6": {
     "x": 96,
     "y": -278,
-    "definition": "aquatic_mobility"
+    "definition": "beast_rider"
   },
   "strong_legs_1_2": {
     "x": 32,
     "y": -96,
-    "definition": "urban_runner"
+    "definition": "strong_legs_1"
   },
   "exploration_upper_inner": {
     "x": -258,
     "y": -64,
-    "definition": "field_dressing_1"
+    "definition": "forager_1"
   },
   "exploration_upper_turn": {
     "x": -277,
     "y": -96,
-    "definition": "backpack_license"
+    "definition": "cartography"
   }
 }

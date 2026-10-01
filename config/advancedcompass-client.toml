@@ -25,7 +25,7 @@
 	#Show distance
 	showDistance = true
 	#Show mobs and players
-	showEntities = false
+	showEntities = true
 	#Show players
 	showPlayers = true
 	#Hide overlapped icons
