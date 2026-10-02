@@ -104,8 +104,8 @@
    icon: "seven_days_locks:training_cache"
    id: "7D7C110000000007"
    rewards: [
-    { id: "7D7C1A0000000010", item: "wrd:keystrongholdchest_iron", type: "item" }
-    { id: "7D7C1A0000000011", item: "seven_days_locks:training_cache", type: "item" }
+    { auto: "enabled", id: "7D7C1A0000000010", item: "wrd:keystrongholdchest_iron", type: "item" }
+    { auto: "enabled", id: "7D7C1A0000000011", item: "seven_days_locks:training_cache", type: "item" }
    ]
    tasks: [{ id: "7D7C1B0000000010", item: "minecraft:rotten_flesh", type: "item" }]
    title: "Your First Cache"

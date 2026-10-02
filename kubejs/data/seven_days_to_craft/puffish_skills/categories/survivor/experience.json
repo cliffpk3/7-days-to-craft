@@ -1,0 +1,110 @@
+{
+  "level_limit": 60,
+  "reset_on_death": false,
+  "experience_per_level": {
+    "type": "expression",
+    "data": {
+      "expression": "min(18 + level * 3 + level ^ 1.35, 120)"
+    }
+  },
+  "sources": [
+    {
+      "type": "puffish_skills:kill_entity",
+      "data": {
+        "variables": {
+          "dropped_xp": {
+            "operations": [
+              {
+                "type": "get_dropped_experience"
+              }
+            ]
+          },
+          "max_health": {
+            "operations": [
+              {
+                "type": "get_killed_living_entity"
+              },
+              {
+                "type": "get_max_health"
+              }
+            ]
+          }
+        },
+        "experience": [
+          {
+            "expression": "dropped_xp + max_health / 20"
+          }
+        ],
+        "anti_farming": {
+          "limit_per_chunk": 50,
+          "reset_after_seconds": 300
+        }
+      }
+    },
+    {
+      "type": "puffish_skills:mine_block",
+      "data": {
+        "variables": {
+          "is_ore": {
+            "operations": [
+              {
+                "type": "get_mined_block_state"
+              },
+              {
+                "type": "puffish_skills:test",
+                "data": {
+                  "block": "#forge:ores"
+                }
+              }
+            ]
+          }
+        },
+        "experience": [
+          {
+            "condition": "is_ore",
+            "expression": "2"
+          }
+        ]
+      }
+    },
+    {
+      "type": "puffish_skills:smelt_item",
+      "data": {
+        "experience": [
+          {
+            "expression": "0.25"
+          }
+        ]
+      }
+    },
+    {
+      "type": "puffish_skills:fish_item",
+      "data": {
+        "experience": [
+          {
+            "expression": "2"
+          }
+        ]
+      }
+    },
+    {
+      "type": "puffish_skills:enchant_item",
+      "data": {
+        "variables": {
+          "levels": {
+            "operations": [
+              {
+                "type": "get_levels"
+              }
+            ]
+          }
+        },
+        "experience": [
+          {
+            "expression": "levels * 0.5"
+          }
+        ]
+      }
+    }
+  ]
+}
