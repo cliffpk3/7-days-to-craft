@@ -1,0 +1,4722 @@
+{
+  "_documentation": {
+    "purpose": "Registro central de balanceamento dos mobs do 7 Days to Craft.",
+    "reload": "Use /reload para reler este arquivo. Alteracoes de mods e worldgen ainda podem exigir reinicio.",
+    "inheritance": "Valor null preserva o atributo nativo do mob. Listas vazias nao restringem dimensao ou bioma.",
+    "spawnRules": "minY/maxY limitam spawns avaliados pelo Forge. chance aceita 0.0 a 1.0 e apenas reduz spawns existentes.",
+    "example": "Para restringir zombies: defina minecraft:zombie.spawn.minY=-30 e maxY=30.",
+    "safety": "Bosses e criaturas multipartes permanecem nativos ate receberem uma substituicao explicita."
+  },
+  "settings": {
+    "enabled": true,
+    "logRejectedSpawns": false,
+    "schemaVersion": 1
+  },
+  "mobs": {
+    "alexscaves:atlatitan": {
+      "name": "Atlatitan",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:boundroid": {
+      "name": "Boundroid",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:brainiac": {
+      "name": "Brainiac",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:candicorn": {
+      "name": "Candicorn",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:caniac": {
+      "name": "Caniac",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:caramel_cube": {
+      "name": "Caramel Cube",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:corrodent": {
+      "name": "Corrodent",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:deep_one": {
+      "name": "Deep One",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:deep_one_knight": {
+      "name": "Deep One Knight",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:deep_one_mage": {
+      "name": "Deep One Mage",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:ferrouslime": {
+      "name": "Ferrouslime",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:forsaken": {
+      "name": "Forsaken",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:gammaroach": {
+      "name": "Gammaroach",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:gingerbread_man": {
+      "name": "Gingerbread Man",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:gloomoth": {
+      "name": "Gloomoth",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:gossamer_worm": {
+      "name": "Gossamer Worm",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:grottoceratops": {
+      "name": "Grottoceratops",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:gum_worm": {
+      "name": "Gum Worm",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:gumbeeper": {
+      "name": "Gumbeeper",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:gummy_bear": {
+      "name": "Gummy Bear",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:hullbreaker": {
+      "name": "Hullbreaker",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:lanternfish": {
+      "name": "Lanternfish",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:licowitch": {
+      "name": "Licowitch",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:luxtructosaurus": {
+      "name": "Luxtructosaurus",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:magnetron": {
+      "name": "Magnetron",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:mine_guardian": {
+      "name": "Mine Guardian",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:notor": {
+      "name": "Notor",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:nucleeper": {
+      "name": "Nucleeper",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:radgill": {
+      "name": "Radgill",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:raycat": {
+      "name": "Raycat",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:relicheirus": {
+      "name": "Relicheirus",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:sea_pig": {
+      "name": "Sea Pig",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:subterranodon": {
+      "name": "Subterranodon",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:sweetish_fish": {
+      "name": "Sweetish Fish",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:teletor": {
+      "name": "Teletor",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:tremorsaurus": {
+      "name": "Tremorsaurus",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:tremorzilla": {
+      "name": "Tremorzilla",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:trilocaris": {
+      "name": "Trilocaris",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:tripodfish": {
+      "name": "Tripodfish",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:underzealot": {
+      "name": "Underzealot",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:vallumraptor": {
+      "name": "Vallumraptor",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:vesper": {
+      "name": "Vesper",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexscaves:watcher": {
+      "name": "Watcher",
+      "source": "Alex's Caves",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:alligator_snapping_turtle": {
+      "name": "Alligator Snapping Turtle",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:anaconda": {
+      "name": "Anaconda",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:anteater": {
+      "name": "Anteater",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:bald_eagle": {
+      "name": "Bald Eagle",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:banana_slug": {
+      "name": "Banana Slug",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:bison": {
+      "name": "Bison",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:blobfish": {
+      "name": "Blobfish",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:blue_jay": {
+      "name": "Blue Jay",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:bone_serpent": {
+      "name": "Bone Serpent",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:bunfungus": {
+      "name": "Bunfungus",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:cachalot_whale": {
+      "name": "Cachalot Whale",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:caiman": {
+      "name": "Caiman",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:capuchin_monkey": {
+      "name": "Capuchin Monkey",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:catfish": {
+      "name": "Catfish",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:centipede": {
+      "name": "Centipede",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:centipede_body": {
+      "name": "Centipede Body",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:centipede_head": {
+      "name": "Centipede Head",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:cockroach": {
+      "name": "Cockroach",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:comb_jelly": {
+      "name": "Comb Jelly",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:cosmaw": {
+      "name": "Cosmaw",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:cosmic_cod": {
+      "name": "Cosmic Cod",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:crimson_mosquito": {
+      "name": "Crimson Mosquito",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:crocodile": {
+      "name": "Crocodile",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:crow": {
+      "name": "Crow",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:devils_hole_pupfish": {
+      "name": "Devil's Hole Pupfish",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:dropbear": {
+      "name": "Dropbear",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:elephant": {
+      "name": "Elephant",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:emu": {
+      "name": "Emu",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:endergrade": {
+      "name": "Endergrade",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:enderiophage": {
+      "name": "Enderiophage",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:farseer": {
+      "name": "Farseer",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:flutter": {
+      "name": "Flutter",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:fly": {
+      "name": "Fly",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:flying_fish": {
+      "name": "Flying Fish",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:frilled_shark": {
+      "name": "Frilled Shark",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:froststalker": {
+      "name": "Froststalker",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:gazelle": {
+      "name": "Gazelle",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:gelada_monkey": {
+      "name": "Gelada Monkey",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:giant_squid": {
+      "name": "Giant Squid",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:gorilla": {
+      "name": "Gorilla",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:grizzly_bear": {
+      "name": "Grizzly Bear",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:guster": {
+      "name": "Guster",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:hammerhead_shark": {
+      "name": "Hammerhead Shark",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:hummingbird": {
+      "name": "Hummingbird",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:jerboa": {
+      "name": "Jerboa",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:kangaroo": {
+      "name": "Kangaroo",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:komodo_dragon": {
+      "name": "Komodo Dragon",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:laviathan": {
+      "name": "Laviathan",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:leafcutter_ant": {
+      "name": "Leafcutter Ant",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:lobster": {
+      "name": "Lobster",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:maned_wolf": {
+      "name": "Maned Wolf",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:mantis_shrimp": {
+      "name": "Mantis Shrimp",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:mimic_octopus": {
+      "name": "Mimic Octopus",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:mimicube": {
+      "name": "Mimicube",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:moose": {
+      "name": "Moose",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:mudskipper": {
+      "name": "Mudskipper",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:mungus": {
+      "name": "Mungus",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:murmur": {
+      "name": "Murmur",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:murmur_head": {
+      "name": "Murmur Head",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:orca": {
+      "name": "Orca",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:platypus": {
+      "name": "Platypus",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:potoo": {
+      "name": "Potoo",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:raccoon": {
+      "name": "Raccoon",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:rain_frog": {
+      "name": "Rain Frog",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:rattlesnake": {
+      "name": "Rattlesnake",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:rhinoceros": {
+      "name": "Rhinoceros",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:roadrunner": {
+      "name": "Roadrunner",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:rocky_roller": {
+      "name": "Rocky Roller",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:seagull": {
+      "name": "Seagull",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:seal": {
+      "name": "Seal",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:shoebill": {
+      "name": "Shoebill",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:skelewag": {
+      "name": "Skelewag",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:skreecher": {
+      "name": "Skreecher",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:skunk": {
+      "name": "Skunk",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:snow_leopard": {
+      "name": "Snow Leopard",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:soul_vulture": {
+      "name": "Soul Vulture",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:spectre": {
+      "name": "Spectre",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:straddler": {
+      "name": "Straddler",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:stradpole": {
+      "name": "Stradpole",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:sugar_glider": {
+      "name": "Sugar Glider",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:sunbird": {
+      "name": "Sunbird",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:tarantula_hawk": {
+      "name": "Tarantula Hawk",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:tasmanian_devil": {
+      "name": "Tasmanian Devil",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:terrapin": {
+      "name": "Terrapin",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:tiger": {
+      "name": "Tiger",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:toucan": {
+      "name": "Toucan",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:triops": {
+      "name": "Triops",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:tusklin": {
+      "name": "Tusklin",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:underminer": {
+      "name": "Underminer",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:void_worm": {
+      "name": "Void Worm",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:warped_mosco": {
+      "name": "Warped Mosco",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "alexsmobs:warped_toad": {
+      "name": "Warped Toad",
+      "source": "Alex's Mobs",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "artifacts:mimic": {
+      "name": "Mimic",
+      "source": "Artifacts",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "hordes:zombie_player": {
+      "name": "Zombie Player",
+      "source": "The Hordes",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:allay": {
+      "name": "Allay",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:axolotl": {
+      "name": "Axolotl",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:bat": {
+      "name": "Bat",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:bee": {
+      "name": "Bee",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:blaze": {
+      "name": "Blaze",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:camel": {
+      "name": "Camel",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:cat": {
+      "name": "Cat",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:cave_spider": {
+      "name": "Cave Spider",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:chicken": {
+      "name": "Chicken",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:cod": {
+      "name": "Cod",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:cow": {
+      "name": "Cow",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:creeper": {
+      "name": "Creeper",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:dolphin": {
+      "name": "Dolphin",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:donkey": {
+      "name": "Donkey",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:drowned": {
+      "name": "Drowned",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:elder_guardian": {
+      "name": "Elder Guardian",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:ender_dragon": {
+      "name": "Ender Dragon",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:enderman": {
+      "name": "Enderman",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:endermite": {
+      "name": "Endermite",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:evoker": {
+      "name": "Evoker",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:fox": {
+      "name": "Fox",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:frog": {
+      "name": "Frog",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:ghast": {
+      "name": "Ghast",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:glow_squid": {
+      "name": "Glow Squid",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:goat": {
+      "name": "Goat",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:guardian": {
+      "name": "Guardian",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:hoglin": {
+      "name": "Hoglin",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:horse": {
+      "name": "Horse",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:husk": {
+      "name": "Husk",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:illusioner": {
+      "name": "Illusioner",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:iron_golem": {
+      "name": "Iron Golem",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:llama": {
+      "name": "Llama",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:magma_cube": {
+      "name": "Magma Cube",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:mooshroom": {
+      "name": "Mooshroom",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:mule": {
+      "name": "Mule",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:ocelot": {
+      "name": "Ocelot",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:panda": {
+      "name": "Panda",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:parrot": {
+      "name": "Parrot",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:phantom": {
+      "name": "Phantom",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:pig": {
+      "name": "Pig",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:piglin": {
+      "name": "Piglin",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:piglin_brute": {
+      "name": "Piglin Brute",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:pillager": {
+      "name": "Pillager",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:polar_bear": {
+      "name": "Polar Bear",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:pufferfish": {
+      "name": "Pufferfish",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:rabbit": {
+      "name": "Rabbit",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:ravager": {
+      "name": "Ravager",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:salmon": {
+      "name": "Salmon",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:sheep": {
+      "name": "Sheep",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:shulker": {
+      "name": "Shulker",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:silverfish": {
+      "name": "Silverfish",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:skeleton": {
+      "name": "Skeleton",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:skeleton_horse": {
+      "name": "Skeleton Horse",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:slime": {
+      "name": "Slime",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:sniffer": {
+      "name": "Sniffer",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:snow_golem": {
+      "name": "Snow Golem",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:spider": {
+      "name": "Spider",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:squid": {
+      "name": "Squid",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:stray": {
+      "name": "Stray",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:strider": {
+      "name": "Strider",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:tadpole": {
+      "name": "Tadpole",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:trader_llama": {
+      "name": "Trader Llama",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:tropical_fish": {
+      "name": "Tropical Fish",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:turtle": {
+      "name": "Turtle",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:vex": {
+      "name": "Vex",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:villager": {
+      "name": "Villager",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:vindicator": {
+      "name": "Vindicator",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:wandering_trader": {
+      "name": "Wandering Trader",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:warden": {
+      "name": "Warden",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:witch": {
+      "name": "Witch",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:wither": {
+      "name": "Wither",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:wither_skeleton": {
+      "name": "Wither Skeleton",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:wolf": {
+      "name": "Wolf",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:zoglin": {
+      "name": "Zoglin",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:zombie": {
+      "name": "Zombie",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:zombie_horse": {
+      "name": "Zombie Horse",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:zombie_villager": {
+      "name": "Zombie Villager",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "minecraft:zombified_piglin": {
+      "name": "Zombified Piglin",
+      "source": "Minecraft",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "mutantmonsters:mutant_creeper": {
+      "name": "Mutant Creeper",
+      "source": "Mutant Monsters",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "mutantmonsters:mutant_enderman": {
+      "name": "Mutant Enderman",
+      "source": "Mutant Monsters",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "mutantmonsters:mutant_skeleton": {
+      "name": "Mutant Skeleton",
+      "source": "Mutant Monsters",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "mutantmonsters:mutant_zombie": {
+      "name": "Mutant Zombie",
+      "source": "Mutant Monsters",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "quark:crab": {
+      "name": "Crab",
+      "source": "Quark",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "quark:forgotten": {
+      "name": "Forgotten",
+      "source": "Quark",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "quark:shiba": {
+      "name": "Shiba",
+      "source": "Quark",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "quark:stoneling": {
+      "name": "Stoneling",
+      "source": "Quark",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    },
+    "quark:toretoise": {
+      "name": "Toretoise",
+      "source": "Quark",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      }
+    }
+  }
+}
+

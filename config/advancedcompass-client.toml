@@ -57,7 +57,7 @@
 	iconScale = 50
 	#Auto icon generation type
 	#Allowed Values: HEAD_FIRST, FULL_BODY, OFF
-	generationType = "HEAD_FIRST"
+	generationType = "OFF"
 	#Show waypoints
 	showWaypoints = true
 	#Way to show waypoints from other mods
