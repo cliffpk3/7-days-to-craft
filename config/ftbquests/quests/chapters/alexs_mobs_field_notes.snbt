@@ -24,12 +24,11 @@
   {
    dependencies: ["7D7CA20000000002"]
    require_sequential_tasks: true
-   description: ["Craft the feeder with 4 Copper Ingots, 2 Sunflowers and 1 Glass Bottle." "Place it on top of a solid block or hang it beneath one." "Right-click the placed feeder once with a Water Bottle and once with Sugar, in either order. A fully filled feeder attracts nearby hummingbirds so they can drink before returning to pollinate crops."]
+   description: ["Craft or obtain the feeder; its recipe uses 4 Copper Ingots, 2 Sunflowers and 1 Glass Bottle." "Place it on top of a solid block or hang it beneath one. Interacting with an existing feeder also begins the lesson." "Right-click the placed feeder once with a Water Bottle and once with Sugar, in either order. A fully filled feeder attracts nearby hummingbirds so they can drink before returning to pollinate crops."]
    icon: "alexsmobs:hummingbird_feeder"
    id: "7D7CA10000000002"
    tasks: [
-    { advancement: "seven_days_to_craft:alexs_mobs/actions/hummingbird_feeder_placed", criterion: "completed", id: "7D7CA40200000001", title: "Place a Hummingbird Feeder", type: "advancement" }
-    { id: "7D7CA40200000002", title: "Add 1 Water Bottle and 1 Sugar, then wait for a Hummingbird to drink", type: "checkmark" }
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/hummingbird_feeder_placed", criterion: "completed", id: "7D7CA40200000001", title: "Craft, obtain or interact with a Hummingbird Feeder", type: "advancement" }
    ]
    rewards: [{ id: "7D7CA50000000002", item: "wrd:keystrongholdchest_iron", type: "item" }]
    title: "Hummingbird Garden"
@@ -44,7 +43,6 @@
    id: "7D7CA10000000003"
    tasks: [
     { advancement: "seven_days_to_craft:alexs_mobs/actions/leafcutter_pupa_obtained", criterion: "completed", id: "7D7CA40300000001", title: "Obtain a Leafcutter Ant Pupa", type: "advancement" }
-    { id: "7D7CA40300000002", title: "Inspect an anthill or establish a colony", type: "checkmark" }
    ]
    rewards: [{ id: "7D7CA50000000003", item: "wrd:keystrongholdchest_iron", type: "item" }]
    title: "Leafcutter Colony"
@@ -157,7 +155,6 @@
    id: "7D7CA1000000000B"
    tasks: [
     { advancement: "seven_days_to_craft:alexs_mobs/actions/void_worm_encountered", criterion: "completed", id: "7D7CA40B00000001", title: "Encounter a Void Worm", type: "advancement" }
-    { id: "7D7CA40B00000002", title: "Study the materials it leaves behind", type: "checkmark" }
    ]
    rewards: [{ id: "7D7CA5000000000B", item: "wrd:keystrongholdchest_treasure", type: "item" }]
    title: "Void Worm"
@@ -171,8 +168,7 @@
    icon: "alexsmobs:poison_bottle"
    id: "7D7CA1000000000C"
    tasks: [
-    { id: "7D7CA40C00000001", title: "Identify the active Alex's Mobs effect", type: "checkmark" }
-    { id: "7D7CA40C00000002", title: "Recover from or counter the effect", type: "checkmark" }
+    { advancement: "seven_days_to_craft:alexs_mobs/actions/unfamiliar_condition", criterion: "completed", id: "7D7CA40C00000001", title: "Experience a status effect caused by an Alex's Mobs creature", type: "advancement" }
    ]
    rewards: [{ id: "7D7CA5000000000C", item: "wrd:keystrongholdchest_iron", type: "item" }]
    title: "Unfamiliar Conditions"

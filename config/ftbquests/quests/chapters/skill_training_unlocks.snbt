@@ -238,14 +238,6 @@
    y: 0.0d
   }
   {
-   id: "7D7C36000000001E"
-   invisible: true
-   tasks: [{ advancement: "seven_days_to_craft:skills/waypoint_navigation", criterion: "completed", id: "7D7C37000000001E", type: "advancement" }]
-   title: "Milestone Unlock"
-   x: 0.0d
-   y: 0.0d
-  }
-  {
    id: "7D7C36000000001F"
    invisible: true
    tasks: [{ advancement: "seven_days_to_craft:skills/low_profile", criterion: "completed", id: "7D7C37000000001F", type: "advancement" }]
@@ -270,9 +262,33 @@
    y: 0.0d
   }
   {
-   id: "7D7C360000000022"
+   id: "7D7C360000000023"
    invisible: true
-   tasks: [{ advancement: "seven_days_to_craft:skills/aquatic_mobility", criterion: "completed", id: "7D7C370000000022", type: "advancement" }]
+   tasks: [{ advancement: "seven_days_to_craft:skills/threat_sense", criterion: "completed", id: "7D7C370000000023", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000024"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/ranger", criterion: "completed", id: "7D7C370000000024", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000025"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/evasive_rush", criterion: "completed", id: "7D7C370000000025", type: "advancement" }]
+   title: "Milestone Unlock"
+   x: 0.0d
+   y: 0.0d
+  }
+  {
+   id: "7D7C360000000026"
+   invisible: true
+   tasks: [{ advancement: "seven_days_to_craft:skills/extended_reach", criterion: "completed", id: "7D7C370000000026", type: "advancement" }]
    title: "Milestone Unlock"
    x: 0.0d
    y: 0.0d

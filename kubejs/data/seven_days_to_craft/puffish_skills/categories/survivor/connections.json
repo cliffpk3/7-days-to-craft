@@ -2,742 +2,742 @@
   "exclusive": {
     "bidirectional": [
       [
-        "prospector_1_2",
-        "scavenger_1"
+        "scavenging_1_slot14",
+        "scavenging_1_slot15"
       ],
       [
-        "forager_2_2",
-        "scavenger_2"
+        "scavenging_1_slot20",
+        "scavenging_1_slot03"
       ],
       [
-        "scavenger_3_2",
-        "cartography_7"
+        "scavenging_1_slot21",
+        "scavenging_1_slot25"
       ],
       [
-        "cartography_3",
-        "cartography_2"
+        "scavenging_1_slot10",
+        "scavenging_1_slot09"
       ],
       [
-        "scavenger_2_2",
-        "prospector_2"
+        "scavenging_1_slot12",
+        "scavenging_1_slot13"
       ],
       [
-        "marksman_1",
-        "melee_training_1_2"
+        "combat_1_slot03",
+        "combat_1_slot22"
       ],
       [
-        "field_medicine_1_2",
-        "field_medicine_2"
+        "combat_1_slot15",
+        "combat_1_slot14"
       ],
       [
-        "melee_training_2_3",
-        "marksman_3"
+        "combat_1_slot20",
+        "combat_1_slot21"
       ],
       [
-        "executioner_4",
-        "fast_hands_3"
+        "combat_1_slot27",
+        "combat_1_slot23"
       ],
       [
-        "executioner_2",
-        "executioner_3"
+        "combat_1_slot09",
+        "combat_1_slot10"
       ],
       [
-        "field_medicine_3_2",
-        "melee_training_2_2"
+        "combat_1_slot13",
+        "combat_1_slot12"
       ],
       [
-        "gunsmithing_3",
-        "fortification_1_3"
+        "engineering_1_slot14",
+        "engineering_1_slot15"
       ],
       [
-        "fortification_1_5",
-        "mechanics_1"
+        "engineering_1_slot22",
+        "engineering_1_slot03"
       ],
       [
-        "mechanics_2_3",
-        "fortification_3_3"
+        "engineering_1_slot23",
+        "engineering_1_slot27"
       ],
       [
-        "ammunition_2_2",
-        "mechanics_2_2"
+        "engineering_1_slot21",
+        "engineering_1_slot20"
       ],
       [
-        "automation",
-        "fortification_3"
+        "engineering_1_slot10",
+        "engineering_1_slot09"
       ],
       [
-        "gunsmithing_2",
-        "mechanics_1_3"
+        "engineering_1_slot12",
+        "engineering_1_slot13"
       ],
       [
-        "conditioning_2",
-        "strong_legs_2"
+        "mobility_1_slot02",
+        "mobility_1_slot21"
       ],
       [
-        "conditioning_1",
-        "vaulting_4"
+        "mobility_1_slot14",
+        "mobility_1_slot13"
       ],
       [
-        "urban_runner_6",
-        "soft_landing_2_2"
+        "mobility_1_slot19",
+        "mobility_1_slot20"
       ],
       [
-        "wall_grip_5",
-        "strong_legs_2_2"
+        "mobility_1_slot26",
+        "mobility_1_slot22"
       ],
       [
-        "wall_grip_2",
-        "wall_grip_3"
+        "mobility_1_slot08",
+        "mobility_1_slot09"
       ],
       [
-        "vaulting_3",
-        "strong_legs_1"
+        "mobility_1_slot12",
+        "mobility_1_slot11"
       ]
     ]
   },
   "normal": {
     "bidirectional": [
       [
-        "forager_1",
-        "forager_1_2"
+        "scavenging_1_slot01",
+        "scavenging_2_slot02"
       ],
       [
-        "forager_1_2",
-        "forager_2_2"
+        "scavenging_2_slot02",
+        "scavenging_1_slot20"
       ],
       [
-        "forager_2_2",
-        "prospector_1_3"
+        "scavenging_1_slot20",
+        "scavenging_1_slot23"
       ],
       [
-        "prospector_1_3",
-        "backpack_license_6"
+        "scavenging_1_slot23",
+        "scavenging_1_slot22"
       ],
       [
-        "backpack_license_6",
-        "scavenger_3_2"
+        "scavenging_1_slot22",
+        "scavenging_1_slot21"
       ],
       [
-        "scavenger_3_2",
-        "prospector_3_2"
+        "scavenging_1_slot21",
+        "scavenging_2_slot06"
       ],
       [
-        "prospector_3_2",
-        "cartography_7"
+        "scavenging_2_slot06",
+        "scavenging_1_slot25"
       ],
       [
-        "cartography_7",
-        "backpack_license"
+        "scavenging_1_slot25",
+        "scavenging_1_slot05"
       ],
       [
-        "backpack_license",
-        "forager_2"
+        "scavenging_1_slot05",
+        "scavenging_1_slot04"
       ],
       [
-        "forager_2",
-        "scavenger_2"
+        "scavenging_1_slot04",
+        "scavenging_1_slot03"
       ],
       [
-        "scavenger_2",
-        "forager_1_2"
+        "scavenging_1_slot03",
+        "scavenging_2_slot02"
       ],
       [
-        "scavenger_1_3",
-        "prospector_2_2"
+        "scavenging_1_slot24",
+        "scavenging_2_slot04"
       ],
       [
-        "prospector_2_2",
-        "prospector_1_2"
+        "scavenging_2_slot04",
+        "scavenging_1_slot14"
       ],
       [
-        "prospector_1_2",
-        "scavenger_3"
+        "scavenging_1_slot14",
+        "scavenging_1_slot17"
       ],
       [
-        "scavenger_3",
-        "prospector_2_3"
+        "scavenging_1_slot17",
+        "scavenging_1_slot19"
       ],
       [
-        "backpack_license_4",
-        "scavenger_1_2"
+        "scavenging_1_slot18",
+        "scavenging_1_slot16"
       ],
       [
-        "scavenger_1_2",
-        "scavenger_1"
+        "scavenging_1_slot16",
+        "scavenging_1_slot15"
       ],
       [
-        "scavenger_1",
-        "prospector_2_2"
+        "scavenging_1_slot15",
+        "scavenging_2_slot04"
       ],
       [
-        "prospector_1",
-        "prospector_3"
+        "scavenging_1_slot02",
+        "scavenging_2_slot01"
       ],
       [
-        "prospector_3",
-        "prospector_2"
+        "scavenging_2_slot01",
+        "scavenging_1_slot13"
       ],
       [
-        "prospector_2",
-        "backpack_license_3"
+        "scavenging_1_slot13",
+        "scavenging_1_slot07"
       ],
       [
-        "backpack_license_3",
-        "cartography"
+        "scavenging_1_slot07",
+        "scavenging_1_slot08"
       ],
       [
-        "cartography",
-        "cartography_2"
+        "scavenging_1_slot08",
+        "scavenging_1_slot09"
       ],
       [
-        "cartography_2",
-        "lumberjack"
+        "scavenging_1_slot09",
+        "scavenging_2_slot03"
       ],
       [
-        "lumberjack",
-        "cartography_3"
+        "scavenging_2_slot03",
+        "scavenging_1_slot10"
       ],
       [
-        "cartography_3",
-        "cartography_4"
+        "scavenging_1_slot10",
+        "scavenging_1_slot11"
       ],
       [
-        "cartography_4",
-        "backpack_license_2"
+        "scavenging_1_slot11",
+        "scavenging_1_slot06"
       ],
       [
-        "backpack_license_2",
-        "scavenger_2_2"
+        "scavenging_1_slot06",
+        "scavenging_1_slot12"
       ],
       [
-        "scavenger_2_2",
-        "prospector_3"
+        "scavenging_1_slot12",
+        "scavenging_2_slot01"
       ],
       [
-        "toughness_1",
+        "combat_1_slot02",
         "combat_root"
       ],
       [
         "combat_root",
-        "toughness_1_2"
+        "combat_1_slot26"
       ],
       [
-        "toughness_1_2",
-        "fast_hands_1"
+        "combat_1_slot26",
+        "combat_2_slot04"
       ],
       [
-        "fast_hands_1",
-        "field_medicine_1_2"
+        "combat_2_slot04",
+        "combat_1_slot15"
       ],
       [
-        "field_medicine_1_2",
-        "toughness_2"
+        "combat_1_slot15",
+        "combat_1_slot16"
       ],
       [
-        "toughness_2",
-        "field_medicine_2_2"
+        "combat_1_slot16",
+        "combat_1_slot18"
       ],
       [
-        "field_medicine_2_2",
-        "melee_training_2_3"
+        "combat_1_slot18",
+        "combat_1_slot20"
       ],
       [
-        "melee_training_2_3",
-        "toughness_4_2"
+        "combat_1_slot20",
+        "combat_2_slot05"
       ],
       [
-        "toughness_4_2",
-        "marksman_3"
+        "combat_2_slot05",
+        "combat_1_slot21"
       ],
       [
-        "marksman_3",
-        "marksman_1_2"
+        "combat_1_slot21",
+        "combat_1_slot19"
       ],
       [
-        "marksman_1_2",
-        "fast_hands_2"
+        "combat_1_slot19",
+        "combat_1_slot17"
       ],
       [
-        "fast_hands_2",
-        "field_medicine_2"
+        "combat_1_slot17",
+        "combat_1_slot14"
       ],
       [
-        "field_medicine_2",
-        "fast_hands_1"
+        "combat_1_slot14",
+        "combat_2_slot04"
       ],
       [
-        "melee_training_1",
-        "melee_training_2"
+        "combat_1_slot01",
+        "combat_2_slot02"
       ],
       [
-        "melee_training_2",
-        "marksman_1"
+        "combat_2_slot02",
+        "combat_1_slot03"
       ],
       [
-        "marksman_1",
-        "toughness_4"
+        "combat_1_slot03",
+        "combat_1_slot04"
       ],
       [
-        "toughness_4",
-        "melee_training_3"
+        "combat_1_slot04",
+        "combat_1_slot05"
       ],
       [
-        "melee_training_3",
-        "executioner_4"
+        "combat_1_slot05",
+        "combat_1_slot27"
       ],
       [
-        "executioner_4",
-        "executioner_5"
+        "combat_1_slot27",
+        "combat_2_slot06"
       ],
       [
-        "executioner_5",
-        "fast_hands_3"
+        "combat_2_slot06",
+        "combat_1_slot23"
       ],
       [
-        "fast_hands_3",
-        "melee_training_1_3"
+        "combat_1_slot23",
+        "combat_1_slot24"
       ],
       [
-        "melee_training_1_3",
-        "melee_training_3_2"
+        "combat_1_slot24",
+        "combat_1_slot25"
       ],
       [
-        "melee_training_3_2",
-        "melee_training_1_2"
+        "combat_1_slot25",
+        "combat_1_slot22"
       ],
       [
-        "melee_training_1_2",
-        "melee_training_2"
+        "combat_1_slot22",
+        "combat_2_slot02"
       ],
       [
-        "toughness_1",
-        "field_medicine_1"
+        "combat_1_slot02",
+        "combat_2_slot01"
       ],
       [
-        "field_medicine_1",
-        "melee_training_2_2"
+        "combat_2_slot01",
+        "combat_1_slot12"
       ],
       [
-        "melee_training_2_2",
-        "marksman_2"
+        "combat_1_slot12",
+        "combat_1_slot06"
       ],
       [
-        "marksman_2",
-        "field_medicine_3"
+        "combat_1_slot06",
+        "combat_1_slot11"
       ],
       [
-        "field_medicine_3",
-        "executioner_3"
+        "combat_1_slot11",
+        "combat_1_slot10"
       ],
       [
-        "executioner_3",
-        "pain_tolerance"
+        "combat_1_slot10",
+        "combat_2_slot03"
       ],
       [
-        "pain_tolerance",
-        "executioner_2"
+        "combat_2_slot03",
+        "combat_1_slot09"
       ],
       [
-        "executioner_2",
-        "executioner"
+        "combat_1_slot09",
+        "combat_1_slot08"
       ],
       [
-        "executioner",
-        "toughness_3"
+        "combat_1_slot08",
+        "combat_1_slot07"
       ],
       [
-        "toughness_3",
-        "field_medicine_3_2"
+        "combat_1_slot07",
+        "combat_1_slot13"
       ],
       [
-        "field_medicine_3_2",
-        "field_medicine_1"
-      ],
-      [
-        "scavenging_root",
-        "scavenger_1_3"
+        "combat_1_slot13",
+        "combat_2_slot01"
       ],
       [
         "scavenging_root",
-        "forager_1"
+        "scavenging_1_slot24"
       ],
       [
-        "melee_training_1",
+        "scavenging_root",
+        "scavenging_1_slot01"
+      ],
+      [
+        "combat_1_slot01",
         "combat_root"
       ],
       [
-        "maintenance_3",
-        "gunsmithing"
+        "engineering_1_slot01",
+        "engineering_2_slot01"
       ],
       [
-        "gunsmithing",
-        "fortification_1_5"
+        "engineering_2_slot01",
+        "engineering_1_slot22"
       ],
       [
-        "fortification_1_5",
-        "maintenance_2_2"
+        "engineering_1_slot22",
+        "engineering_1_slot25"
       ],
       [
-        "maintenance_2_2",
-        "ammunition_1_3"
+        "engineering_1_slot25",
+        "engineering_1_slot24"
       ],
       [
-        "ammunition_1_3",
-        "mechanics_2_3"
+        "engineering_1_slot24",
+        "engineering_1_slot23"
       ],
       [
-        "mechanics_2_3",
-        "fortification_3_4"
+        "engineering_1_slot23",
+        "engineering_2_slot04"
       ],
       [
-        "fortification_3_4",
-        "fortification_3_3"
+        "engineering_2_slot04",
+        "engineering_1_slot27"
       ],
       [
-        "fortification_3_3",
-        "ammunition_1"
+        "engineering_1_slot27",
+        "engineering_1_slot05"
       ],
       [
-        "ammunition_1",
-        "mechanics_1_2"
+        "engineering_1_slot05",
+        "engineering_1_slot04"
       ],
       [
-        "mechanics_1_2",
-        "mechanics_1"
+        "engineering_1_slot04",
+        "engineering_1_slot03"
       ],
       [
-        "mechanics_1",
-        "gunsmithing"
+        "engineering_1_slot03",
+        "engineering_2_slot01"
       ],
       [
-        "maintenance_2_3",
-        "fortification_1_2"
+        "engineering_1_slot26",
+        "engineering_2_slot02"
       ],
       [
-        "fortification_1_2",
-        "gunsmithing_3"
+        "engineering_2_slot02",
+        "engineering_1_slot14"
       ],
       [
-        "gunsmithing_3",
-        "ammunition_1_2"
+        "engineering_1_slot14",
+        "engineering_1_slot17"
       ],
       [
-        "ammunition_1_2",
-        "fortification_2_3"
+        "engineering_1_slot17",
+        "engineering_1_slot19"
       ],
       [
-        "fortification_2_3",
-        "ammunition_2_2"
+        "engineering_1_slot19",
+        "engineering_1_slot21"
       ],
       [
-        "ammunition_2_2",
-        "fortification_3_2"
+        "engineering_1_slot21",
+        "engineering_2_slot05"
       ],
       [
-        "fortification_3_2",
-        "mechanics_2_2"
+        "engineering_2_slot05",
+        "engineering_1_slot20"
       ],
       [
-        "mechanics_2_2",
-        "fortification_2_2"
+        "engineering_1_slot20",
+        "engineering_1_slot18"
       ],
       [
-        "fortification_2_2",
-        "fortification_1_4"
+        "engineering_1_slot18",
+        "engineering_1_slot16"
       ],
       [
-        "fortification_1_4",
-        "fortification_1_3"
+        "engineering_1_slot16",
+        "engineering_1_slot15"
       ],
       [
-        "fortification_1_3",
-        "fortification_1_2"
+        "engineering_1_slot15",
+        "engineering_2_slot02"
       ],
       [
-        "maintenance_2",
-        "fortification_1"
+        "engineering_1_slot02",
+        "engineering_2_slot03"
       ],
       [
-        "fortification_1",
-        "mechanics_1_3"
+        "engineering_2_slot03",
+        "engineering_1_slot13"
       ],
       [
-        "mechanics_1_3",
-        "maintenance_3_2"
+        "engineering_1_slot13",
+        "engineering_1_slot07"
       ],
       [
-        "maintenance_3_2",
-        "mechanics_2"
+        "engineering_1_slot07",
+        "engineering_1_slot08"
       ],
       [
-        "mechanics_2",
-        "fortification_3"
+        "engineering_1_slot08",
+        "engineering_1_slot09"
       ],
       [
-        "fortification_3",
-        "fortification_4"
+        "engineering_1_slot09",
+        "engineering_2_slot06"
       ],
       [
-        "fortification_4",
-        "automation"
+        "engineering_2_slot06",
+        "engineering_1_slot10"
       ],
       [
-        "automation",
-        "ammunition_2"
+        "engineering_1_slot10",
+        "engineering_1_slot11"
       ],
       [
-        "ammunition_2",
-        "fortification_2"
+        "engineering_1_slot11",
+        "engineering_1_slot06"
       ],
       [
-        "fortification_2",
-        "gunsmithing_2"
+        "engineering_1_slot06",
+        "engineering_1_slot12"
       ],
       [
-        "gunsmithing_2",
-        "fortification_1"
+        "engineering_1_slot12",
+        "engineering_2_slot03"
       ],
       [
-        "soft_landing_1",
+        "mobility_1_slot01",
         "mobility_root"
       ],
       [
         "mobility_root",
-        "conditioning_1_2"
+        "mobility_1_slot25"
       ],
       [
-        "conditioning_1_2",
-        "soft_landing_2"
+        "mobility_1_slot25",
+        "mobility_2_slot02"
       ],
       [
-        "soft_landing_2",
-        "conditioning_1"
+        "mobility_2_slot02",
+        "mobility_1_slot14"
       ],
       [
-        "conditioning_1",
-        "vaulting_5"
+        "mobility_1_slot14",
+        "mobility_1_slot15"
       ],
       [
-        "vaulting_5",
-        "urban_runner_5"
+        "mobility_1_slot15",
+        "mobility_1_slot17"
       ],
       [
-        "urban_runner_5",
-        "urban_runner_6"
+        "mobility_1_slot17",
+        "mobility_1_slot19"
       ],
       [
-        "urban_runner_6",
-        "wall_grip_4"
+        "mobility_1_slot19",
+        "mobility_2_slot04"
       ],
       [
-        "wall_grip_4",
-        "soft_landing_2_2"
+        "mobility_2_slot04",
+        "mobility_1_slot20"
       ],
       [
-        "soft_landing_2_2",
-        "conditioning_3"
+        "mobility_1_slot20",
+        "mobility_1_slot18"
       ],
       [
-        "conditioning_3",
-        "vaulting_6"
+        "mobility_1_slot18",
+        "mobility_1_slot16"
       ],
       [
-        "vaulting_6",
-        "vaulting_4"
+        "mobility_1_slot16",
+        "mobility_1_slot13"
       ],
       [
-        "vaulting_4",
-        "soft_landing_2"
+        "mobility_1_slot13",
+        "mobility_2_slot02"
       ],
       [
-        "vaulting_2",
-        "conditioning_2"
+        "mobility_2_slot03",
+        "mobility_1_slot02"
       ],
       [
-        "conditioning_2",
-        "soft_landing_1_2"
+        "mobility_1_slot02",
+        "mobility_1_slot03"
       ],
       [
-        "soft_landing_1_2",
-        "urban_runner"
+        "mobility_1_slot03",
+        "mobility_1_slot04"
       ],
       [
-        "urban_runner",
-        "wall_grip_5"
+        "mobility_1_slot04",
+        "mobility_1_slot26"
       ],
       [
-        "wall_grip_5",
-        "wall_grip_6"
+        "mobility_1_slot26",
+        "mobility_2_slot05"
       ],
       [
-        "wall_grip_6",
-        "strong_legs_2_2"
+        "mobility_2_slot05",
+        "mobility_1_slot22"
       ],
       [
-        "strong_legs_2_2",
-        "urban_runner_7"
+        "mobility_1_slot22",
+        "mobility_1_slot23"
       ],
       [
-        "urban_runner_7",
-        "vaulting_7"
+        "mobility_1_slot23",
+        "mobility_1_slot24"
       ],
       [
-        "vaulting_7",
-        "strong_legs_2"
+        "mobility_1_slot24",
+        "mobility_1_slot21"
       ],
       [
-        "strong_legs_2",
-        "vaulting_2"
+        "mobility_1_slot21",
+        "mobility_2_slot03"
       ],
       [
-        "soft_landing_1",
-        "vaulting"
+        "mobility_1_slot01",
+        "mobility_2_slot01"
       ],
       [
-        "vaulting",
-        "strong_legs_1"
+        "mobility_2_slot01",
+        "mobility_1_slot11"
       ],
       [
-        "strong_legs_1",
-        "urban_runner_2"
+        "mobility_1_slot11",
+        "mobility_1_slot05"
       ],
       [
-        "urban_runner_2",
-        "urban_runner_4"
+        "mobility_1_slot05",
+        "mobility_1_slot10"
       ],
       [
-        "urban_runner_4",
-        "wall_grip_3"
+        "mobility_1_slot10",
+        "mobility_1_slot09"
       ],
       [
-        "wall_grip_3",
-        "grappler_license"
+        "mobility_1_slot09",
+        "mobility_2_slot06"
       ],
       [
-        "grappler_license",
-        "wall_grip_2"
+        "mobility_2_slot06",
+        "mobility_1_slot08"
       ],
       [
-        "wall_grip_2",
-        "wall_grip"
+        "mobility_1_slot08",
+        "mobility_1_slot07"
       ],
       [
-        "wall_grip",
-        "urban_runner_3"
+        "mobility_1_slot07",
+        "mobility_1_slot06"
       ],
       [
-        "urban_runner_3",
-        "vaulting_3"
+        "mobility_1_slot06",
+        "mobility_1_slot12"
       ],
       [
-        "vaulting_3",
-        "vaulting"
-      ],
-      [
-        "engineering_root",
-        "maintenance_2_3"
+        "mobility_1_slot12",
+        "mobility_2_slot01"
       ],
       [
         "engineering_root",
-        "maintenance_3"
+        "engineering_1_slot26"
+      ],
+      [
+        "engineering_root",
+        "engineering_1_slot01"
       ],
       [
         "mobility_root",
-        "strong_legs_1_2"
+        "mobility_1_slot27"
       ],
       [
-        "strong_legs_1_2",
-        "vaulting_2"
+        "mobility_1_slot27",
+        "mobility_2_slot03"
       ],
       [
         "scavenging_root",
-        "prospector_1"
+        "scavenging_1_slot02"
       ],
       [
         "engineering_root",
-        "maintenance_2"
+        "engineering_1_slot02"
       ],
       [
-        "backpack_license_4",
-        "exploration_upper_inner"
+        "scavenging_1_slot18",
+        "scavenging_1_slot26"
       ],
       [
-        "exploration_upper_inner",
-        "exploration_upper_turn"
+        "scavenging_1_slot26",
+        "scavenging_2_slot05"
       ],
       [
-        "exploration_upper_turn",
-        "backpack_license_5"
+        "scavenging_2_slot05",
+        "scavenging_1_slot27"
       ],
       [
-        "backpack_license_5",
-        "prospector_2_3"
+        "scavenging_1_slot27",
+        "scavenging_1_slot19"
       ]
     ],
     "unidirectional": [
       [
-        "prospector_3_2",
-        "lumberjack_4"
+        "scavenging_2_slot06",
+        "scavenging_3_slot03"
       ],
       [
-        "lumberjack",
-        "lumberjack_2"
+        "scavenging_2_slot03",
+        "scavenging_3_slot01"
       ],
       [
-        "toughness_4_2",
-        "second_wind_2"
+        "combat_2_slot05",
+        "combat_3_slot01"
       ],
       [
-        "executioner_5",
-        "pain_tolerance_2"
+        "combat_2_slot06",
+        "combat_3_slot02"
       ],
       [
-        "pain_tolerance",
-        "second_wind"
+        "combat_2_slot03",
+        "combat_3_slot03"
       ],
       [
-        "fortification_3_4",
-        "fortification_4_2"
+        "engineering_2_slot04",
+        "engineering_3_slot02"
       ],
       [
-        "fortification_4",
-        "automation_2"
+        "engineering_2_slot06",
+        "engineering_3_slot01"
       ],
       [
-        "wall_grip_4",
-        "grappler_license_3"
+        "mobility_2_slot04",
+        "mobility_3_slot01"
       ],
       [
-        "wall_grip_6",
-        "grappler_license_4"
+        "mobility_2_slot05",
+        "mobility_3_slot02"
       ],
       [
-        "grappler_license",
-        "grappler_license_2"
+        "mobility_2_slot06",
+        "mobility_3_slot03"
       ],
       [
-        "fortification_3_2",
-        "automation_3"
+        "engineering_2_slot05",
+        "engineering_3_slot03"
       ],
       [
-        "maintenance_1",
+        "survivor_root",
         "combat_root"
       ],
       [
-        "maintenance_1",
+        "survivor_root",
         "engineering_root"
       ],
       [
-        "maintenance_1",
+        "survivor_root",
         "mobility_root"
       ],
       [
-        "maintenance_1",
+        "survivor_root",
         "scavenging_root"
       ],
       [
-        "exploration_upper_turn",
-        "lumberjack_3"
+        "scavenging_2_slot05",
+        "scavenging_3_slot02"
       ]
     ]
   }

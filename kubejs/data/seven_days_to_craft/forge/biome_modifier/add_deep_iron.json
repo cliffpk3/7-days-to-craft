@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "seven_days_to_craft:ore_iron_deep_risk",
+  "step": "underground_ores"
+}

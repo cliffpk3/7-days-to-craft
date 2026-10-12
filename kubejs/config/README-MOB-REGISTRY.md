@@ -49,3 +49,12 @@ Execute no PowerShell, na raiz do modpack:
 powershell -ExecutionPolicy Bypass -File tools/validate-mob-registry.ps1
 ```
 
+## Matriz de profundidade
+
+`7dtc_depth_matrix.json` concentra as faixas ambientais e os encontros adicionais. Depois de editar `encounters`, gere a configuração ativa do InControl:
+
+```powershell
+powershell -ExecutionPolicy Bypass -File tools/rebuild-depth-spawns.ps1
+```
+
+A classificação completa gerada está em `docs/CLASSIFICACAO-DE-AMEACAS.md`. Nível 0 é usado de forma intencional para fauna passiva, criaturas neutras, partes de entidades e utilidades.

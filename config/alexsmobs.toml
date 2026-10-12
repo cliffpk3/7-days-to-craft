@@ -139,7 +139,7 @@
 	crimsonMosquitoSpawnRolls = 4
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
-	caveCentipedeSpawnRolls = 4
+	caveCentipedeSpawnRolls = 2
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
 	cockroachSpawnRolls = 3
@@ -148,16 +148,16 @@
 	gusterSpawnRolls = 4
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
-	dropbearSpawnRolls = 4
+	dropbearSpawnRolls = 2
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
 	skelewagSpawnRolls = 3
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
-	skreecherSpawnRolls = 4
+	skreecherSpawnRolls = 2
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
-	murmurSpawnRolls = 4
+	murmurSpawnRolls = 2
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
 	grizzlyBearSpawnWeight = 8

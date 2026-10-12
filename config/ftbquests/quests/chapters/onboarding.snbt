@@ -79,7 +79,7 @@
   {
    dependencies: ["7D7C110000000003"]
    description: [
-    "Prepare before the first horde cycle. A furnace supports food and material processing, while a complete set of armor provides essential protection."
+    "Prepare before the first horde cycle. Craft, obtain or use a furnace for food and material processing, then equip a complete set of armor for protection."
     ""
     "The four armor pieces may use any material and do not need to match. Equip a helmet, chestplate, leggings and boots before continuing."
    ]
@@ -87,7 +87,7 @@
    id: "7D7C110000000006"
    rewards: [{ id: "7D7C1A0000000009", item: "minecraft:golden_apple", type: "item" }]
    tasks: [
-    { id: "7D7C1B0000000007", item: "minecraft:furnace", type: "item" }
+    { advancement: "seven_days_to_craft:onboarding/furnace", criterion: "completed", id: "7D7C1B0000000007", title: "Craft, obtain or use a Furnace", type: "advancement" }
     { advancement: "seven_days_to_craft:onboarding/armor_set", criterion: "completed", id: "7D7C1B0000000011", title: "Equip any complete armor set", type: "advancement" }
    ]
    title: "Prepare for the First Horde"

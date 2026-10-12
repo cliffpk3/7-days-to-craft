@@ -5,7 +5,8 @@
     "inheritance": "Valor null preserva o atributo nativo do mob. Listas vazias nao restringem dimensao ou bioma.",
     "spawnRules": "minY/maxY limitam spawns avaliados pelo Forge. chance aceita 0.0 a 1.0 e apenas reduz spawns existentes.",
     "example": "Para restringir zombies: defina minecraft:zombie.spawn.minY=-30 e maxY=30.",
-    "safety": "Bosses e criaturas multipartes permanecem nativos ate receberem uma substituicao explicita."
+    "safety": "Bosses e criaturas multipartes permanecem nativos ate receberem uma substituicao explicita.",
+    "threatTiers": "0=passive/neutral/utility, 1=common hostile, 2=dangerous, 3=elite, 4=boss. Threat Sense alerts tiers 3 and 4 after aggro."
   },
   "settings": {
     "enabled": true,
@@ -32,6 +33,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
       }
     },
     "alexscaves:boundroid": {
@@ -53,6 +58,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexscaves:brainiac": {
@@ -74,6 +83,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexscaves:candicorn": {
@@ -95,6 +108,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:caniac": {
@@ -116,6 +133,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexscaves:caramel_cube": {
@@ -137,6 +158,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "alexscaves:corrodent": {
@@ -158,6 +183,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexscaves:deep_one": {
@@ -179,6 +208,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexscaves:deep_one_knight": {
@@ -200,6 +233,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexscaves:deep_one_mage": {
@@ -221,6 +258,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexscaves:ferrouslime": {
@@ -242,6 +283,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexscaves:forsaken": {
@@ -263,6 +308,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
       }
     },
     "alexscaves:gammaroach": {
@@ -284,6 +333,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexscaves:gingerbread_man": {
@@ -305,6 +358,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "alexscaves:gloomoth": {
@@ -326,6 +383,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:gossamer_worm": {
@@ -347,6 +408,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:grottoceratops": {
@@ -368,6 +433,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:gum_worm": {
@@ -389,6 +458,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexscaves:gumbeeper": {
@@ -410,6 +483,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexscaves:gummy_bear": {
@@ -431,6 +508,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexscaves:hullbreaker": {
@@ -452,6 +533,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
       }
     },
     "alexscaves:lanternfish": {
@@ -473,6 +558,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:licowitch": {
@@ -494,6 +583,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexscaves:luxtructosaurus": {
@@ -515,6 +608,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
       }
     },
     "alexscaves:magnetron": {
@@ -536,6 +633,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexscaves:mine_guardian": {
@@ -557,6 +658,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexscaves:notor": {
@@ -578,6 +683,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:nucleeper": {
@@ -599,6 +708,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexscaves:radgill": {
@@ -620,6 +733,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:raycat": {
@@ -641,6 +758,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:relicheirus": {
@@ -662,6 +783,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:sea_pig": {
@@ -683,6 +808,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:subterranodon": {
@@ -704,6 +833,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexscaves:sweetish_fish": {
@@ -725,6 +858,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:teletor": {
@@ -746,6 +883,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexscaves:tremorsaurus": {
@@ -767,6 +908,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexscaves:tremorzilla": {
@@ -788,6 +933,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
       }
     },
     "alexscaves:trilocaris": {
@@ -809,6 +958,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:tripodfish": {
@@ -830,6 +983,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexscaves:underzealot": {
@@ -851,6 +1008,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexscaves:vallumraptor": {
@@ -872,6 +1033,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexscaves:vesper": {
@@ -893,6 +1058,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexscaves:watcher": {
@@ -909,11 +1078,15 @@
       },
       "spawn": {
         "allow": true,
-        "minY": null,
-        "maxY": null,
+        "minY": -64,
+        "maxY": -24,
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexsmobs:alligator_snapping_turtle": {
@@ -935,6 +1108,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:anaconda": {
@@ -956,6 +1133,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:anteater": {
@@ -977,6 +1158,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:bald_eagle": {
@@ -998,6 +1183,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:banana_slug": {
@@ -1019,6 +1208,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:bison": {
@@ -1040,6 +1233,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:blobfish": {
@@ -1061,6 +1258,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:blue_jay": {
@@ -1082,6 +1283,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:bone_serpent": {
@@ -1103,6 +1308,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:bunfungus": {
@@ -1124,6 +1333,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:cachalot_whale": {
@@ -1145,6 +1358,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:caiman": {
@@ -1166,6 +1383,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:capuchin_monkey": {
@@ -1187,6 +1408,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:catfish": {
@@ -1208,6 +1433,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:centipede": {
@@ -1229,6 +1458,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:centipede_body": {
@@ -1250,6 +1483,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:centipede_head": {
@@ -1266,11 +1503,15 @@
       },
       "spawn": {
         "allow": true,
-        "minY": null,
-        "maxY": null,
+        "minY": -64,
+        "maxY": -8,
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:cockroach": {
@@ -1292,6 +1533,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:comb_jelly": {
@@ -1313,6 +1558,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:cosmaw": {
@@ -1334,6 +1583,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:cosmic_cod": {
@@ -1355,6 +1608,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:crimson_mosquito": {
@@ -1376,6 +1633,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:crocodile": {
@@ -1397,6 +1658,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:crow": {
@@ -1418,6 +1683,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:devils_hole_pupfish": {
@@ -1439,6 +1708,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:dropbear": {
@@ -1460,6 +1733,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:elephant": {
@@ -1481,6 +1758,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:emu": {
@@ -1502,6 +1783,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:endergrade": {
@@ -1523,6 +1808,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:enderiophage": {
@@ -1544,6 +1833,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:farseer": {
@@ -1565,6 +1858,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexsmobs:flutter": {
@@ -1586,6 +1883,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:fly": {
@@ -1607,6 +1908,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:flying_fish": {
@@ -1628,6 +1933,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:frilled_shark": {
@@ -1649,6 +1958,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:froststalker": {
@@ -1670,6 +1983,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:gazelle": {
@@ -1691,6 +2008,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:gelada_monkey": {
@@ -1712,6 +2033,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:giant_squid": {
@@ -1733,6 +2058,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:gorilla": {
@@ -1754,6 +2083,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:grizzly_bear": {
@@ -1775,6 +2108,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:guster": {
@@ -1796,6 +2133,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:hammerhead_shark": {
@@ -1817,6 +2158,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:hummingbird": {
@@ -1838,6 +2183,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:jerboa": {
@@ -1859,6 +2208,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:kangaroo": {
@@ -1880,6 +2233,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:komodo_dragon": {
@@ -1901,6 +2258,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:laviathan": {
@@ -1922,6 +2283,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:leafcutter_ant": {
@@ -1943,6 +2308,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:lobster": {
@@ -1964,6 +2333,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:maned_wolf": {
@@ -1985,6 +2358,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:mantis_shrimp": {
@@ -2006,6 +2383,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:mimic_octopus": {
@@ -2027,6 +2408,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:mimicube": {
@@ -2048,6 +2433,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:moose": {
@@ -2069,6 +2458,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:mudskipper": {
@@ -2090,6 +2483,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:mungus": {
@@ -2111,6 +2508,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:murmur": {
@@ -2127,11 +2528,15 @@
       },
       "spawn": {
         "allow": true,
-        "minY": null,
-        "maxY": null,
+        "minY": -64,
+        "maxY": -40,
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:murmur_head": {
@@ -2153,6 +2558,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:orca": {
@@ -2174,6 +2583,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:platypus": {
@@ -2195,6 +2608,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:potoo": {
@@ -2216,6 +2633,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:raccoon": {
@@ -2237,6 +2658,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:rain_frog": {
@@ -2258,6 +2683,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:rattlesnake": {
@@ -2279,6 +2708,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "alexsmobs:rhinoceros": {
@@ -2300,6 +2733,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:roadrunner": {
@@ -2321,6 +2758,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:rocky_roller": {
@@ -2337,11 +2778,15 @@
       },
       "spawn": {
         "allow": true,
-        "minY": null,
-        "maxY": null,
+        "minY": -40,
+        "maxY": 24,
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:seagull": {
@@ -2363,6 +2808,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:seal": {
@@ -2384,6 +2833,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:shoebill": {
@@ -2405,6 +2858,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:skelewag": {
@@ -2426,6 +2883,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:skreecher": {
@@ -2447,6 +2908,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:skunk": {
@@ -2468,6 +2933,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:snow_leopard": {
@@ -2489,6 +2958,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:soul_vulture": {
@@ -2510,6 +2983,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "alexsmobs:spectre": {
@@ -2531,6 +3008,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:straddler": {
@@ -2552,6 +3033,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:stradpole": {
@@ -2573,6 +3058,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:sugar_glider": {
@@ -2594,6 +3083,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:sunbird": {
@@ -2615,6 +3108,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:tarantula_hawk": {
@@ -2636,6 +3133,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:tasmanian_devil": {
@@ -2657,6 +3158,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:terrapin": {
@@ -2678,6 +3183,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:tiger": {
@@ -2699,6 +3208,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:toucan": {
@@ -2720,6 +3233,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:triops": {
@@ -2741,6 +3258,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "alexsmobs:tusklin": {
@@ -2762,6 +3283,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:underminer": {
@@ -2783,6 +3308,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "alexsmobs:void_worm": {
@@ -2804,6 +3333,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
       }
     },
     "alexsmobs:warped_mosco": {
@@ -2825,6 +3358,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "alexsmobs:warped_toad": {
@@ -2846,6 +3383,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "artifacts:mimic": {
@@ -2867,6 +3408,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "hordes:zombie_player": {
@@ -2888,6 +3433,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:allay": {
@@ -2909,6 +3458,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:axolotl": {
@@ -2930,6 +3483,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:bat": {
@@ -2951,6 +3508,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:bee": {
@@ -2972,6 +3533,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:blaze": {
@@ -2993,6 +3558,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:camel": {
@@ -3014,6 +3583,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:cat": {
@@ -3035,6 +3608,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:cave_spider": {
@@ -3056,6 +3633,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:chicken": {
@@ -3077,6 +3658,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:cod": {
@@ -3098,6 +3683,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:cow": {
@@ -3119,6 +3708,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:creeper": {
@@ -3140,6 +3733,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "minecraft:dolphin": {
@@ -3161,6 +3758,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:donkey": {
@@ -3182,6 +3783,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:drowned": {
@@ -3203,6 +3808,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:elder_guardian": {
@@ -3224,6 +3833,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "minecraft:ender_dragon": {
@@ -3245,6 +3858,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
       }
     },
     "minecraft:enderman": {
@@ -3266,6 +3883,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "minecraft:endermite": {
@@ -3287,6 +3908,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:evoker": {
@@ -3308,6 +3933,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "minecraft:fox": {
@@ -3329,6 +3958,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:frog": {
@@ -3350,6 +3983,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:ghast": {
@@ -3371,6 +4008,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "minecraft:glow_squid": {
@@ -3392,6 +4033,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:goat": {
@@ -3413,6 +4058,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:guardian": {
@@ -3434,6 +4083,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "minecraft:hoglin": {
@@ -3455,6 +4108,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "minecraft:horse": {
@@ -3476,6 +4133,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:husk": {
@@ -3497,6 +4158,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:illusioner": {
@@ -3518,6 +4183,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "minecraft:iron_golem": {
@@ -3539,6 +4208,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:llama": {
@@ -3560,6 +4233,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:magma_cube": {
@@ -3581,6 +4258,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:mooshroom": {
@@ -3602,6 +4283,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:mule": {
@@ -3623,6 +4308,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:ocelot": {
@@ -3644,6 +4333,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:panda": {
@@ -3665,6 +4358,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:parrot": {
@@ -3686,6 +4383,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:phantom": {
@@ -3707,6 +4408,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:pig": {
@@ -3728,6 +4433,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:piglin": {
@@ -3749,6 +4458,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:piglin_brute": {
@@ -3770,6 +4483,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "minecraft:pillager": {
@@ -3791,6 +4508,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "minecraft:polar_bear": {
@@ -3812,6 +4533,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:pufferfish": {
@@ -3833,6 +4558,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:rabbit": {
@@ -3854,6 +4583,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:ravager": {
@@ -3875,6 +4608,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "minecraft:salmon": {
@@ -3896,6 +4633,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:sheep": {
@@ -3917,6 +4658,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:shulker": {
@@ -3938,6 +4683,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "minecraft:silverfish": {
@@ -3959,6 +4708,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:skeleton": {
@@ -3980,6 +4733,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:skeleton_horse": {
@@ -4001,6 +4758,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:slime": {
@@ -4022,6 +4783,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:sniffer": {
@@ -4043,6 +4808,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:snow_golem": {
@@ -4064,6 +4833,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:spider": {
@@ -4085,6 +4858,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:squid": {
@@ -4106,6 +4883,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:stray": {
@@ -4127,6 +4908,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:strider": {
@@ -4148,6 +4933,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:tadpole": {
@@ -4169,6 +4958,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:trader_llama": {
@@ -4190,6 +4983,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:tropical_fish": {
@@ -4211,6 +5008,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:turtle": {
@@ -4232,6 +5033,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:vex": {
@@ -4253,6 +5058,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "minecraft:villager": {
@@ -4274,6 +5083,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:vindicator": {
@@ -4295,6 +5108,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "minecraft:wandering_trader": {
@@ -4316,6 +5133,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:warden": {
@@ -4337,6 +5158,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
       }
     },
     "minecraft:witch": {
@@ -4358,6 +5183,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "minecraft:wither": {
@@ -4379,6 +5208,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
       }
     },
     "minecraft:wither_skeleton": {
@@ -4400,6 +5233,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "minecraft:wolf": {
@@ -4421,6 +5258,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:zoglin": {
@@ -4442,6 +5283,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "minecraft:zombie": {
@@ -4463,6 +5308,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:zombie_horse": {
@@ -4484,6 +5333,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "minecraft:zombie_villager": {
@@ -4505,6 +5358,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "minecraft:zombified_piglin": {
@@ -4526,6 +5383,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
       }
     },
     "mutantmonsters:mutant_creeper": {
@@ -4547,6 +5408,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "mutantmonsters:mutant_enderman": {
@@ -4568,6 +5433,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "mutantmonsters:mutant_skeleton": {
@@ -4589,6 +5458,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "mutantmonsters:mutant_zombie": {
@@ -4610,6 +5483,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
       }
     },
     "quark:crab": {
@@ -4631,6 +5508,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "quark:forgotten": {
@@ -4647,11 +5528,15 @@
       },
       "spawn": {
         "allow": true,
-        "minY": null,
-        "maxY": null,
+        "minY": -64,
+        "maxY": -12,
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
       }
     },
     "quark:shiba": {
@@ -4673,6 +5558,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "quark:stoneling": {
@@ -4694,6 +5583,10 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     },
     "quark:toretoise": {
@@ -4715,8 +5608,11 @@
         "dimensions": [],
         "biomes": [],
         "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
       }
     }
   }
 }
-

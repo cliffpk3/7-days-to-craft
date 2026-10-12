@@ -33,10 +33,8 @@
    id: "7D7C310000000002"
    rewards: [{ id: "7D7C340000000002", item: "wrd:keystrongholdchest_diamond", type: "item" }]
    tasks: [
-
     { advancement: "seven_days_to_craft:training/grappler_obtain", criterion: "completed", id: "7D7C350000000201", title: "Obtain a standard Grappling Hook", type: "advancement" }
-    { id: "7D7C350000000202", title: "Attach it to a solid surface", type: "checkmark" }
-    { id: "7D7C350000000203", title: "Cross a gap and recover safely", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/grappler_use", criterion: "completed", id: "7D7C350000000202", title: "Attach the Grappling Hook to a solid block", type: "advancement" }
    ]
    title: "Grappler License Training"
    x: 3.0d
@@ -61,32 +59,26 @@
   {
    dependencies: ["7D7C360000000004"]
    require_sequential_tasks: true
-   description: ["Use Xaero's Minimap and World Map as one navigation system." "" "The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
+   description: ["Travel at least 64 blocks after unlocking Cartography so the minimap and World Map record newly visited terrain."]
    icon: "minecraft:filled_map"
    id: "7D7C310000000004"
    rewards: [{ id: "7D7C340000000004", item: "wrd:keystrongholdchest_gold", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000000401", title: "Confirm the minimap records nearby visited terrain", type: "checkmark" }
-    { id: "7D7C350000000402", title: "Press M to open Xaero World Map", type: "checkmark" }
-    { id: "7D7C350000000403", title: "Confirm only visited terrain is recorded", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/cartography_travel", criterion: "completed", id: "7D7C350000000401", title: "Travel 64 blocks while mapping visited terrain", type: "advancement" }
    ]
-   title: "Cartography & Minimap Training"
+   title: "Cartography and Minimap Training"
    x: 9.0d
    y: 0.0d
   }
   {
    dependencies: ["7D7C360000000005"]
    require_sequential_tasks: true
-   description: ["Ore Sense makes ore blocks emit a subtle light at level 6 of 15." "" "Find an exposed ore in a dark place and confirm that it glows without the old outline overlay. The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
+   description: ["Find and mine an exposed ore in a dark place while Ore Sense is active. The ore emits a subtle light at level 6 of 15."]
    icon: "minecraft:raw_iron"
    id: "7D7C310000000005"
    rewards: [{ id: "7D7C340000000005", item: "wrd:keystrongholdchest_gold", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000000501", title: "Find an exposed ore vein", type: "checkmark" }
-    { id: "7D7C350000000502", title: "Find an exposed ore in a dark place", type: "checkmark" }
-    { id: "7D7C350000000503", title: "Confirm that the ore emits light", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/ore_sense_mine", criterion: "completed", id: "7D7C350000000501", title: "Mine an exposed ore in a dark place", type: "advancement" }
    ]
    title: "Ore Sense Training"
    x: 0.0d
@@ -95,15 +87,12 @@
   {
    dependencies: ["7D7C360000000006"]
    require_sequential_tasks: true
-   description: ["Use an axe to fell and process a tree." "" "The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
+   description: ["Use an axe to break a tree log while Lumberjack is active."]
    icon: "minecraft:iron_axe"
    id: "7D7C310000000006"
    rewards: [{ id: "7D7C340000000006", item: "wrd:keystrongholdchest_gold", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000000601", title: "Equip a suitable axe", type: "checkmark" }
-    { id: "7D7C350000000602", title: "Fell a complete tree", type: "checkmark" }
-    { id: "7D7C350000000603", title: "Collect and process its logs", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/lumberjack_fell", criterion: "completed", id: "7D7C350000000601", title: "Break a tree log with an axe", type: "advancement" }
    ]
    title: "Lumberjack Training"
    x: 3.0d
@@ -112,15 +101,12 @@
   {
    dependencies: ["7D7C360000000007"]
    require_sequential_tasks: true
-   description: ["Hunt eligible monsters. This skill adds an absolute bonus to their key drop chance." "" "The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
+   description: ["Defeat a hostile monster while Key Hunter is active. Eligible enemies have an improved chance to drop keys."]
    icon: "wrd:keystrongholdchest_iron"
    id: "7D7C310000000007"
    rewards: [{ id: "7D7C340000000007", item: "wrd:keystrongholdchest_gold", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000000701", title: "Hunt an eligible monster", type: "checkmark" }
-    { id: "7D7C350000000702", title: "Collect its loot", type: "checkmark" }
-    { id: "7D7C350000000703", title: "Identify a key drop from an eligible enemy", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/key_hunter_kill", criterion: "completed", id: "7D7C350000000701", title: "Defeat a hostile monster with Key Hunter active", type: "advancement" }
    ]
    title: "Key Hunter Training"
    x: 6.0d
@@ -129,15 +115,13 @@
   {
    dependencies: ["7D7C360000000008"]
    require_sequential_tasks: true
-   description: ["Build the Recycler in the Custom Workbench and dismantle unwanted equipment." "" "The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
+   description: ["Obtain a Recycler and interact with it while Salvager is active."]
    icon: "corail_recycler:recycler"
    id: "7D7C310000000008"
    rewards: [{ id: "7D7C340000000008", item: "wrd:keystrongholdchest_gold", type: "item" }]
    tasks: [
-
     { advancement: "seven_days_to_craft:training/recycler_obtain", criterion: "completed", id: "7D7C350000000801", title: "Obtain a Recycler", type: "advancement" }
-    { id: "7D7C350000000802", title: "Insert an unwanted damaged item", type: "checkmark" }
-    { id: "7D7C350000000803", title: "Recover part of its materials", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/salvager_use", criterion: "completed", id: "7D7C350000000802", title: "Interact with the Recycler", type: "advancement" }
    ]
    title: "Salvager Training"
    x: 9.0d
@@ -151,10 +135,7 @@
    id: "7D7C310000000009"
    rewards: [{ id: "7D7C340000000009", item: "wrd:keystrongholdchest_iron", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000000901", title: "Open the Guns Workbench tab", type: "checkmark" }
-    { id: "7D7C350000000902", title: "Inspect an unlocked firearm recipe", type: "checkmark" }
-    { id: "7D7C350000000903", title: "Craft one unlocked firearm", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/firearm_obtain_or_use", criterion: "completed", id: "7D7C350000000903", title: "Craft, obtain or use an unlocked firearm", type: "advancement" }
    ]
    title: "Gunsmithing Training"
    x: 0.0d
@@ -163,15 +144,12 @@
   {
    dependencies: ["7D7C36000000000A"]
    require_sequential_tasks: true
-   description: ["Craft a batch of basic ammunition in the Custom Workbench." "" "The milestone is active immediately. Complete this lesson once to claim its Level 1 Key."]
+   description: ["Craft, obtain or use a batch of basic ammunition." "" "The milestone is active immediately. Complete this lesson once to claim its Level 1 Key."]
    icon: "cgm:basic_bullet"
    id: "7D7C31000000000A"
    rewards: [{ id: "7D7C34000000000A", item: "wrd:keystrongholdchest_iron", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000000A01", title: "Open the ammunition tab", type: "checkmark" }
-    { id: "7D7C350000000A02", title: "Craft Basic Bullets", type: "checkmark" }
-    { id: "7D7C350000000A03", title: "Load them into a compatible firearm", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/basic_ammunition_obtain_or_use", criterion: "completed", id: "7D7C350000000A02", title: "Craft, obtain or use Basic Bullets", type: "advancement" }
    ]
    title: "Basic Ammunition Training"
    x: 3.0d
@@ -180,15 +158,12 @@
   {
    dependencies: ["7D7C36000000000B"]
    require_sequential_tasks: true
-   description: ["Inspect and craft an advanced ammunition type." "" "The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
+   description: ["Inspect, obtain or use an advanced ammunition type." "" "The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
    icon: "cgm:advanced_bullet"
    id: "7D7C31000000000B"
    rewards: [{ id: "7D7C34000000000B", item: "wrd:keystrongholdchest_gold", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000000B01", title: "Inspect advanced ammunition recipes", type: "checkmark" }
-    { id: "7D7C350000000B02", title: "Craft Advanced Bullets or Shells", type: "checkmark" }
-    { id: "7D7C350000000B03", title: "Load them into a compatible weapon", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/advanced_ammunition_obtain_or_use", criterion: "completed", id: "7D7C350000000B02", title: "Craft, obtain or use Advanced Bullets or Shells", type: "advancement" }
    ]
    title: "Advanced Ammunition Training"
    x: 6.0d
@@ -197,15 +172,12 @@
   {
    dependencies: ["7D7C36000000000C"]
    require_sequential_tasks: true
-   description: ["Craft and place a basic Create mechanical component." "" "The milestone is active immediately. Complete this lesson once to claim its Level 1 Key."]
+   description: ["Craft, obtain or interact with the basic Create mechanical components." "" "The milestone is active immediately. Complete this lesson once to claim its Level 1 Key."]
    icon: "create:cogwheel"
    id: "7D7C31000000000C"
    rewards: [{ id: "7D7C34000000000C", item: "wrd:keystrongholdchest_iron", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000000C01", title: "Craft a Cogwheel and Shaft", type: "checkmark" }
-    { id: "7D7C350000000C02", title: "Place both components", type: "checkmark" }
-    { id: "7D7C350000000C03", title: "Connect a working transmission", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/basic_components_obtain_or_use", criterion: "completed", id: "7D7C350000000C01", title: "Craft, obtain or use a Cogwheel and Shaft", type: "advancement" }
    ]
    title: "Basic Mechanics Training"
    x: 9.0d
@@ -214,15 +186,12 @@
   {
    dependencies: ["7D7C36000000000D"]
    require_sequential_tasks: true
-   description: ["Build a small powered Create mechanism." "" "The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
+   description: ["Build rotational power, then interact with a powered Create processing component."]
    icon: "create:large_cogwheel"
    id: "7D7C31000000000D"
    rewards: [{ id: "7D7C34000000000D", item: "wrd:keystrongholdchest_gold", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000000D01", title: "Create rotational power", type: "checkmark" }
-    { id: "7D7C350000000D02", title: "Connect a processing component", type: "checkmark" }
-    { id: "7D7C350000000D03", title: "Process one item", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/advanced_mechanics_use", criterion: "completed", id: "7D7C350000000D01", title: "Interact with a powered Create processing component", type: "advancement" }
    ]
    title: "Advanced Mechanics Training"
    x: 0.0d
@@ -236,10 +205,7 @@
    id: "7D7C31000000000E"
    rewards: [{ id: "7D7C34000000000E", item: "wrd:keystrongholdchest_diamond", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000000E01", title: "Inspect advanced Create components", type: "checkmark" }
-    { id: "7D7C350000000E02", title: "Build an advanced processing component", type: "checkmark" }
-    { id: "7D7C350000000E03", title: "Run one item through it", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/advanced_component_obtain_or_use", criterion: "completed", id: "7D7C350000000E02", title: "Craft, obtain or use an advanced processing component", type: "advancement" }
    ]
    title: "Advanced Manufacturing Training"
    x: 3.0d
@@ -248,13 +214,13 @@
   {
    dependencies: ["7D7C36000000000F"]
    require_sequential_tasks: true
-   description: ["Build a Basic Turret and load it with turret ammunition." "" "The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
+   description: ["Craft, obtain or interact with a Basic Turret, then install and load it with turret ammunition." "" "The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."]
    icon: "seven_days_defense:basic_turret"
    id: "7D7C31000000000F"
    rewards: [{ id: "7D7C34000000000F", item: "wrd:keystrongholdchest_gold", type: "item" }]
    tasks: [
 
-    { advancement: "seven_days_defense:training/basic_crafted", criterion: "completed", id: "7D7C3200000200F1", title: "Craft the turret", type: "advancement" }
+    { advancement: "seven_days_defense:training/basic_crafted", criterion: "completed", id: "7D7C3200000200F1", title: "Craft, obtain or interact with the turret", type: "advancement" }
     { advancement: "seven_days_defense:training/basic_placed", criterion: "completed", id: "7D7C3200000200F2", title: "Install the turret", type: "advancement" }
     { advancement: "seven_days_defense:training/basic_loaded", criterion: "completed", id: "7D7C3200000200F3", title: "Load compatible ammunition", type: "advancement" }
    ]
@@ -265,13 +231,13 @@
   {
    dependencies: ["7D7C360000000010"]
    require_sequential_tasks: true
-   description: ["Build an advanced or shotgun turret and verify the shared capacity limit." "" "The milestone is active immediately. Complete this lesson once to claim its Level 3 Key."]
+   description: ["Craft, obtain or interact with an advanced or shotgun turret, then verify the shared capacity limit." "" "The milestone is active immediately. Complete this lesson once to claim its Level 3 Key."]
    icon: "seven_days_defense:advanced_turret"
    id: "7D7C310000000010"
    rewards: [{ id: "7D7C340000000010", item: "wrd:keystrongholdchest_diamond", type: "item" }]
    tasks: [
 
-    { advancement: "seven_days_defense:training/advanced_crafted", criterion: "completed", id: "7D7C320000020101", title: "Craft the turret", type: "advancement" }
+    { advancement: "seven_days_defense:training/advanced_crafted", criterion: "completed", id: "7D7C320000020101", title: "Craft, obtain or interact with the turret", type: "advancement" }
     { advancement: "seven_days_defense:training/advanced_placed", criterion: "completed", id: "7D7C320000020102", title: "Install the turret", type: "advancement" }
     { advancement: "seven_days_defense:training/advanced_loaded", criterion: "completed", id: "7D7C320000020103", title: "Load compatible ammunition", type: "advancement" }
    ]
@@ -321,10 +287,8 @@
    id: "7D7C310000000013"
    rewards: [{ id: "7D7C340000000013", item: "wrd:keystrongholdchest_treasure", type: "item" }]
    tasks: [
-
     { advancement: "seven_days_to_craft:training/ender_obtain", criterion: "completed", id: "7D7C350000001301", title: "Obtain an Ender traversal item", type: "advancement" }
-    { id: "7D7C350000001302", title: "Use it for emergency movement", type: "checkmark" }
-    { id: "7D7C350000001303", title: "Reach a position beyond the standard hook", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/ender_use", criterion: "completed", id: "7D7C350000001302", title: "Use an Ender traversal item", type: "advancement" }
    ]
    title: "Ender Traversal Training"
    x: 6.0d
@@ -384,15 +348,12 @@
   {
    dependencies: ["7D7C360000000017"]
    require_sequential_tasks: true
-   description: ["Open locked chests and observe the 30% chance to preserve the key." "" "The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."]
+   description: ["Bring the matching key and open a locked chest while Key Conservation is active."]
    icon: "wrd:keystrongholdchest_gold"
    id: "7D7C310000000017"
    rewards: [{ id: "7D7C340000000017", item: "wrd:keystrongholdchest_treasure", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000001701", title: "Bring a matching key to a locked chest", type: "checkmark" }
-    { id: "7D7C350000001702", title: "Open the chest", type: "checkmark" }
-    { id: "7D7C350000001703", title: "Check whether the key was preserved", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/key_conservation_open", criterion: "completed", id: "7D7C350000001701", title: "Open a locked chest with Key Conservation active", type: "advancement" }
    ]
    title: "Key Conservation Training"
    x: 6.0d
@@ -418,15 +379,12 @@
   {
    dependencies: ["7D7C360000000019"]
    require_sequential_tasks: true
-   description: ["Use the Recycler on damaged equipment and compare the recovered materials." "" "The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."]
+   description: ["Interact with a Recycler while Master Salvager is active to verify the improved recovery system."]
    icon: "minecraft:anvil"
    id: "7D7C310000000019"
    rewards: [{ id: "7D7C340000000019", item: "wrd:keystrongholdchest_treasure", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000001901", title: "Choose a damaged loot item", type: "checkmark" }
-    { id: "7D7C350000001902", title: "Recycle the item", type: "checkmark" }
-    { id: "7D7C350000001903", title: "Compare recovery with remaining durability", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/master_salvager_use", criterion: "completed", id: "7D7C350000001901", title: "Use a Recycler with Master Salvager active", type: "advancement" }
    ]
    title: "Master Salvager Training"
    x: 0.0d
@@ -435,15 +393,12 @@
   {
    dependencies: ["7D7C36000000001A"]
    require_sequential_tasks: true
-   description: ["Build a small automated Create process with transport and processing." "" "The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."]
+   description: ["Interact with a Create component used for transport or automatic processing while Create Automation is active."]
    icon: "create:mechanical_arm"
    id: "7D7C31000000001A"
    rewards: [{ id: "7D7C34000000001A", item: "wrd:keystrongholdchest_treasure", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000001A01", title: "Build an input and transport line", type: "checkmark" }
-    { id: "7D7C350000001A02", title: "Add automatic processing", type: "checkmark" }
-    { id: "7D7C350000001A03", title: "Deliver output to storage", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/create_automation_use", criterion: "completed", id: "7D7C350000001A01", title: "Interact with a Create automation component", type: "advancement" }
    ]
    title: "Create Automation Training"
    x: 3.0d
@@ -452,15 +407,13 @@
   {
    dependencies: ["7D7C36000000001B"]
    require_sequential_tasks: true
-   description: ["Smelt Smooth Stone and place it as a monster-resistant fortification." "" "The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."]
+   description: ["Smelt, obtain or interact with Smooth Stone, then place it as a monster-resistant fortification." "" "The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."]
    icon: "minecraft:smooth_stone"
    id: "7D7C31000000001B"
    rewards: [{ id: "7D7C34000000001B", item: "wrd:keystrongholdchest_treasure", type: "item" }]
    tasks: [
-
-    { id: "7D7C350000001B01", title: "Smelt Smooth Stone", type: "checkmark" }
-    { id: "7D7C350000001B02", title: "Place it as a fortification", type: "checkmark" }
-    { id: "7D7C350000001B03", title: "Let a hostile mob test the wall", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/smooth_stone_obtain_or_use", criterion: "completed", id: "7D7C350000001B01", title: "Smelt, obtain or use Smooth Stone", type: "advancement" }
+    { advancement: "seven_days_to_craft:training/fortress_place", criterion: "completed", id: "7D7C350000001B02", title: "Place Smooth Stone as a fortification", type: "advancement" }
    ]
    title: "Fortress Construction Training"
    x: 6.0d
@@ -469,13 +422,13 @@
   {
    dependencies: ["7D7C36000000001C"]
    require_sequential_tasks: true
-   description: ["Build an Explosive Turret and verify that it consumes two shared turret slots." "" "The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."]
+   description: ["Craft, obtain or interact with an Explosive Turret, then verify that it consumes two shared turret slots." "" "The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."]
    icon: "seven_days_defense:explosive_turret"
    id: "7D7C31000000001C"
    rewards: [{ id: "7D7C34000000001C", item: "wrd:keystrongholdchest_treasure", type: "item" }]
    tasks: [
 
-    { advancement: "seven_days_defense:training/explosive_crafted", criterion: "completed", id: "7D7C3200000201C1", title: "Craft the turret", type: "advancement" }
+    { advancement: "seven_days_defense:training/explosive_crafted", criterion: "completed", id: "7D7C3200000201C1", title: "Craft, obtain or interact with the turret", type: "advancement" }
     { advancement: "seven_days_defense:training/explosive_placed", criterion: "completed", id: "7D7C3200000201C2", title: "Install the turret", type: "advancement" }
     { advancement: "seven_days_defense:training/explosive_loaded", criterion: "completed", id: "7D7C3200000201C3", title: "Load compatible ammunition", type: "advancement" }
    ]
@@ -484,31 +437,13 @@
    y: 12.0d
   }
   {
-   dependencies: ["7D7C36000000001E"]
-   description: ["Unlock Xaero waypoint creation and navigation." "" "Mark bases, traders, structures, and routes that you discovered legitimately."]
-   icon: "minecraft:recovery_compass"
-   id: "7D7C31000000001E"
-   require_sequential_tasks: true
-   rewards: [{ id: "7D7C34000000001E", item: "wrd:keystrongholdchest_diamond", type: "item" }]
-   tasks: [
-
-    { id: "7D7C3500000001E1", title: "Create a waypoint at a known location", type: "checkmark" }
-    { id: "7D7C3500000001E2", title: "Hide and show the waypoint", type: "checkmark" }
-    { id: "7D7C3500000001E3", title: "Navigate back to the marked location", type: "checkmark" }
-   ]
-   title: "Waypoint Navigation Training"
-   x: 6.0d
-   y: 14.0d
-  }
-  {
    dependencies: ["7D7C36000000001F"]
-   description: ["Keep your distance and observe how much closer hostile mobs must come before noticing you." "" "Low Profile reduces hostile detection distance by 35%; enemies already close enough can still acquire you."]
+   description: ["Sneak within eight blocks of a hostile monster that has not detected you."]
    icon: "minecraft:fermented_spider_eye"
    id: "7D7C31000000001F"
    rewards: [{ id: "7D7C34000000001F", item: "wrd:keystrongholdchest_gold", type: "item" }]
    tasks: [
-    { id: "7D7C3500000001F1", title: "Approach a hostile mob carefully", type: "checkmark" }
-    { id: "7D7C3500000001F2", title: "Compare its shorter detection distance", type: "checkmark" }
+    { advancement: "seven_days_to_craft:training/low_profile_approach", criterion: "completed", id: "7D7C3500000001F1", title: "Sneak within 8 blocks of an unaware hostile monster", type: "advancement" }
    ]
    title: "Low Profile Training"
    x: 9.0d
@@ -533,24 +468,59 @@
    id: "7D7C310000000021"
    rewards: [{ id: "7D7C340000000021", item: "wrd:keystrongholdchest_diamond", type: "item" }]
    tasks: [
-    { id: "7D7C350000000211", title: "Tame a Komodo Dragon with Rotten Flesh", type: "checkmark" }
-    { id: "7D7C350000000212", title: "Equip it with a Saddle", type: "checkmark" }
-    { advancement: "seven_days_to_craft:training/beast_rider_mount", criterion: "completed", id: "7D7C350000000213", title: "Mount the Komodo Dragon", type: "advancement" }
+    { advancement: "seven_days_to_craft:training/beast_rider_mount", criterion: "completed", id: "7D7C350000000213", title: "Mount a tamed Komodo Dragon", type: "advancement" }
    ]
    title: "Beast Rider Training"
    x: 3.0d
    y: 16.0d
   }
   {
-   dependencies: ["7D7C360000000022"]
-   description: ["Swim through open water and compare your new travel speed." "" "Aquatic Mobility increases swimming speed by 20%."]
-   icon: "minecraft:heart_of_the_sea"
-   id: "7D7C310000000022"
-   rewards: [{ id: "7D7C340000000022", item: "wrd:keystrongholdchest_gold", type: "item" }]
-   tasks: [{ id: "7D7C350000000221", title: "Swim at least twenty blocks", type: "checkmark" }]
-   title: "Aquatic Mobility Training"
-   x: 6.0d
+   dependencies: ["7D7C360000000023"]
+   description: ["Threat Sense warns you when a dangerous creature has targeted you." "" "The warning uses a hostile sound and a red edge effect. The Aggro Indicator exclamation mark is also enabled for every mob that targets you."]
+   icon: "minecraft:echo_shard"
+   id: "7D7C310000000023"
+   rewards: [{ id: "7D7C340000000023", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   tasks: [{ advancement: "seven_days_to_craft:training/threat_sense_alert", criterion: "completed", id: "7D7C350000002301", title: "Receive a dangerous-creature warning", type: "advancement" }]
+   title: "Threat Sense Training"
+   x: 9.0d
    y: 16.0d
+  }
+  {
+   dependencies: ["7D7C360000000024"]
+   description: ["Ranger increases damage dealt by ranged weapons by 25%." "" "Use a bow, crossbow, or firearm to damage a hostile creature and confirm the specialization."]
+   icon: "minecraft:bow"
+   id: "7D7C310000000024"
+   rewards: [{ id: "7D7C340000000024", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   tasks: [{ advancement: "seven_days_to_craft:training/ranger_hit", criterion: "completed", id: "7D7C350000002401", title: "Hit a hostile creature with a ranged weapon", type: "advancement" }]
+   title: "Ranger Training"
+   x: 0.0d
+   y: 18.0d
+  }
+  {
+   dependencies: ["7D7C360000000025"]
+   require_sequential_tasks: true
+   description: ["After you take damage, Evasive Rush increases movement speed by 25% for five seconds." "" "The response can activate once every 30 seconds. Take damage, then sprint while the speed boost is active."]
+   icon: "minecraft:rabbit_foot"
+   id: "7D7C310000000025"
+   rewards: [{ id: "7D7C340000000025", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   tasks: [
+    { advancement: "seven_days_to_craft:training/evasive_rush_trigger", criterion: "completed", id: "7D7C350000002501", title: "Take damage and trigger Evasive Rush", type: "advancement" }
+    { advancement: "seven_days_to_craft:training/evasive_rush_sprint", criterion: "completed", id: "7D7C350000002502", title: "Sprint during the five-second boost", type: "advancement" }
+   ]
+   title: "Evasive Rush Training"
+   x: 3.0d
+   y: 18.0d
+  }
+  {
+   dependencies: ["7D7C360000000026"]
+   description: ["Extended Reach adds two blocks to your melee attack and entity interaction reach." "" "Strike a hostile creature from at least 3.5 blocks away to prove that you can use the extra distance."]
+   icon: "divine_weaponry:iron_spear"
+   id: "7D7C310000000026"
+   rewards: [{ id: "7D7C340000000026", item: "wrd:keystrongholdchest_gold", type: "item" }]
+   tasks: [{ advancement: "seven_days_to_craft:training/extended_reach_hit", criterion: "completed", id: "7D7C350000002601", title: "Hit a hostile creature from at least 3.5 blocks away", type: "advancement" }]
+   title: "Extended Reach Training"
+   x: 6.0d
+   y: 18.0d
   }
  ]
  title: "Milestone Training"

@@ -4,7 +4,7 @@
   "experience_per_level": {
     "type": "expression",
     "data": {
-      "expression": "min(18 + level * 6 + level ^ 1.7, 360)"
+      "expression": "min(24 + level * 8 + level ^ 1.8, 480)"
     }
   },
   "sources": [
@@ -57,12 +57,29 @@
                 }
               }
             ]
+      },
+      "is_copper": {
+        "operations": [
+          {
+            "type": "get_mined_block_state"
+          },
+          {
+            "type": "puffish_skills:test",
+            "data": {
+              "block": "#minecraft:copper_ores"
+            }
+          }
+        ]
           }
         },
         "experience": [
           {
             "condition": "is_ore",
             "expression": "2"
+      },
+      {
+        "condition": "is_copper",
+        "expression": "4"
           }
         ]
       }
