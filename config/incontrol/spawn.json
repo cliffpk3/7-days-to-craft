@@ -1,2 +1,9 @@
-[]
-
+[
+  {
+    "when": "position",
+    "dimension": "minecraft:overworld",
+    "mod": "realmrpg_demons",
+    "incontrol": false,
+    "result": "deny"
+  }
+]

@@ -1,78 +1,99 @@
 [
   {
-    "attempts": 2,
+    "attempts": 12,
+    "mob": "minecraft:zombie",
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "persecond": 0.018,
+    "weights": 1,
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "maxlocal": 4,
+      "maxheight": 16,
+      "mindist": 24,
+      "maxdist": 48,
+      "minheight": -24
+    }
+  },
+  {
+    "attempts": 12,
+    "mob": "minecraft:skeleton",
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "persecond": 0.014,
+    "weights": 1,
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "maxlocal": 3,
+      "maxheight": 16,
+      "mindist": 24,
+      "maxdist": 48,
+      "minheight": -24
+    }
+  },
+  {
+    "attempts": 14,
     "mob": "alexsmobs:rocky_roller",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.035,
+    "persecond": 0.03,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
-      "maxthis": 2,
+      "maxlocal": 2,
       "maxheight": 24,
       "mindist": 24,
       "maxdist": 56,
-      "minheight": -40
+      "minheight": -40,
+      "maxthis": 8
     }
   },
   {
-    "attempts": 2,
+    "attempts": 12,
+    "mob": "minecraft:cave_spider",
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "persecond": 0.014,
+    "weights": 1,
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "maxlocal": 3,
+      "maxheight": 0,
+      "mindist": 24,
+      "maxdist": 56,
+      "minheight": -48,
+      "maxthis": 10
+    }
+  },
+  {
+    "attempts": 14,
     "mob": "alexsmobs:centipede_head",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.025,
+    "persecond": 0.018,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
-      "maxthis": 2,
+      "maxlocal": 2,
       "maxheight": -8,
       "mindist": 24,
       "maxdist": 56,
-      "minheight": -64
+      "minheight": -64,
+      "maxthis": 8
     }
   },
   {
-    "attempts": 1,
-    "mob": "alexscaves:watcher",
-    "amount": {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "persecond": 0.006,
-    "weights": 1,
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "maxthis": 1,
-      "maxheight": -24,
-      "mindist": 32,
-      "maxdist": 64,
-      "minheight": -64
-    }
-  },
-  {
-    "attempts": 1,
-    "mob": "alexsmobs:murmur",
-    "amount": {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "persecond": 0.003,
-    "weights": 1,
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "maxthis": 1,
-      "maxheight": -40,
-      "mindist": 40,
-      "maxdist": 72,
-      "minheight": -64
-    }
-  },
-  {
-    "attempts": 1,
+    "attempts": 16,
     "mob": "quark:forgotten",
     "amount": {
       "minimum": 1,
@@ -82,47 +103,69 @@
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
-      "maxthis": 1,
+      "maxlocal": 1,
       "maxheight": -12,
       "mindist": 32,
       "maxdist": 64,
-      "minheight": -64
+      "minheight": -64,
+      "maxthis": 4
     }
   },
   {
-    "attempts": 2,
-    "mob": "minecraft:cave_spider",
+    "attempts": 18,
+    "mob": "alexscaves:watcher",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.012,
+    "persecond": 0.005,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
-      "maxthis": 3,
-      "maxheight": 0,
-      "mindist": 24,
-      "maxdist": 56,
-      "minheight": -48
+      "maxlocal": 1,
+      "maxheight": -24,
+      "mindist": 32,
+      "maxdist": 64,
+      "minheight": -64,
+      "maxthis": 4
     }
   },
   {
-    "attempts": 2,
+    "attempts": 12,
     "mob": "minecraft:silverfish",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.008,
+    "persecond": 0.006,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
-      "maxthis": 3,
+      "maxlocal": 3,
       "maxheight": -20,
       "mindist": 24,
       "maxdist": 56,
-      "minheight": -64
+      "minheight": -64,
+      "maxthis": 10
+    }
+  },
+  {
+    "attempts": 20,
+    "mob": "alexsmobs:murmur",
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "persecond": 0.0025,
+    "weights": 1,
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "maxlocal": 1,
+      "maxheight": -40,
+      "mindist": 40,
+      "maxdist": 72,
+      "minheight": -64,
+      "maxthis": 3
     }
   }
 ]

@@ -1,111 +1,163 @@
 {
-  "schemaVersion": 1,
-  "notes": "This file documents the intended cave composition. config/incontrol/spawner.json is the active generated encounter list.",
+  "schemaVersion": 2,
+  "notes": "Controlled cave encounters supplement vanilla spawning. Normal hostiles remain active through Y -32. Below Y -33, the code only thins ordinary zombies/skeletons after replacement mobs are already nearby. All entries require complete darkness, use local caps, and spawn as singles.",
   "bands": [
     {
       "id": 1,
-      "threat": "mostly tier 1",
+      "name": "surface and entrances",
+      "minY": 33,
       "maxY": 320,
-      "resources": "regular small veins",
-      "minY": 33
+      "threat": "natural tier 1; no artificial cave floor",
+      "resources": "regular small veins"
     },
     {
       "id": 2,
-      "threat": "tier 1 with tier 2 encounters",
+      "name": "shallow caves",
+      "minY": 0,
       "maxY": 32,
-      "resources": "regular veins",
-      "minY": 0
+      "threat": "common hostiles plus occasional Rocky Roller/Chort",
+      "resources": "regular veins"
     },
     {
       "id": 3,
-      "threat": "tier 2 with rare tier 3 encounters",
+      "name": "middle caves",
+      "minY": -24,
       "maxY": -1,
-      "resources": "regular veins plus occasional deep deposits",
-      "minY": -32
+      "threat": "common hostiles with tier 2 replacements introduced gradually",
+      "resources": "regular veins plus occasional deep deposits"
     },
     {
       "id": 4,
-      "threat": "tier 2 and tier 3; tier 4 only explicit events",
-      "maxY": -33,
-      "resources": "best underground yield",
-      "minY": -64
+      "name": "deep caves",
+      "minY": -40,
+      "maxY": -25,
+      "threat": "tier 2 population with rare tier 3; commons thin only after replacements arrive",
+      "resources": "improved underground yield"
+    },
+    {
+      "id": 5,
+      "name": "abyssal caves",
+      "minY": -64,
+      "maxY": -41,
+      "threat": "tier 2 and tier 3; Demon Lord is exceptionally rare",
+      "resources": "best underground yield"
     }
   ],
   "encounters": [
     {
-      "attempts": 2,
+      "attempts": 12,
+      "mob": "minecraft:zombie",
+      "amount": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "persecond": 0.018,
+      "weights": 1,
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "maxlocal": 4,
+        "maxheight": 16,
+        "mindist": 24,
+        "maxdist": 48,
+        "minheight": -24
+      }
+    },
+    {
+      "attempts": 12,
+      "mob": "minecraft:skeleton",
+      "amount": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "persecond": 0.014,
+      "weights": 1,
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "maxlocal": 3,
+        "maxheight": 16,
+        "mindist": 24,
+        "maxdist": 48,
+        "minheight": -24
+      }
+    },
+    {
+      "attempts": 14,
+      "mob": "realmrpg_demons:chort",
+      "amount": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "persecond": 0.018,
+      "weights": 1,
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "maxlocal": 2,
+        "maxheight": 16,
+        "mindist": 24,
+        "maxdist": 52,
+        "minheight": -24,
+        "maxthis": 8
+      }
+    },
+    {
+      "attempts": 14,
       "mob": "alexsmobs:rocky_roller",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.035,
+      "persecond": 0.03,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
-        "maxthis": 2,
+        "maxlocal": 2,
         "maxheight": 24,
         "mindist": 24,
         "maxdist": 56,
-        "minheight": -40
+        "minheight": -40,
+        "maxthis": 8
       }
     },
     {
-      "attempts": 2,
+      "attempts": 12,
+      "mob": "minecraft:cave_spider",
+      "amount": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "persecond": 0.014,
+      "weights": 1,
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "maxlocal": 3,
+        "maxheight": 0,
+        "mindist": 24,
+        "maxdist": 56,
+        "minheight": -48,
+        "maxthis": 10
+      }
+    },
+    {
+      "attempts": 14,
       "mob": "alexsmobs:centipede_head",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.025,
+      "persecond": 0.018,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
-        "maxthis": 2,
+        "maxlocal": 2,
         "maxheight": -8,
         "mindist": 24,
         "maxdist": 56,
-        "minheight": -64
+        "minheight": -64,
+        "maxthis": 8
       }
     },
     {
-      "attempts": 1,
-      "mob": "alexscaves:watcher",
-      "amount": {
-        "minimum": 1,
-        "maximum": 1
-      },
-      "persecond": 0.006,
-      "weights": 1,
-      "conditions": {
-        "dimension": "minecraft:overworld",
-        "maxthis": 1,
-        "maxheight": -24,
-        "mindist": 32,
-        "maxdist": 64,
-        "minheight": -64
-      }
-    },
-    {
-      "attempts": 1,
-      "mob": "alexsmobs:murmur",
-      "amount": {
-        "minimum": 1,
-        "maximum": 1
-      },
-      "persecond": 0.003,
-      "weights": 1,
-      "conditions": {
-        "dimension": "minecraft:overworld",
-        "maxthis": 1,
-        "maxheight": -40,
-        "mindist": 40,
-        "maxdist": 72,
-        "minheight": -64
-      }
-    },
-    {
-      "attempts": 1,
+      "attempts": 16,
       "mob": "quark:forgotten",
       "amount": {
         "minimum": 1,
@@ -115,16 +167,17 @@
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
-        "maxthis": 1,
+        "maxlocal": 1,
         "maxheight": -12,
         "mindist": 32,
         "maxdist": 64,
-        "minheight": -64
+        "minheight": -64,
+        "maxthis": 4
       }
     },
     {
-      "attempts": 2,
-      "mob": "minecraft:cave_spider",
+      "attempts": 14,
+      "mob": "realmrpg_demons:imp",
       "amount": {
         "minimum": 1,
         "maximum": 1
@@ -133,30 +186,134 @@
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
-        "maxthis": 3,
-        "maxheight": 0,
-        "mindist": 24,
+        "maxlocal": 2,
+        "maxheight": -16,
+        "mindist": 28,
         "maxdist": 56,
-        "minheight": -48
+        "minheight": -48,
+        "maxthis": 8
       }
     },
     {
-      "attempts": 2,
+      "attempts": 18,
+      "mob": "alexscaves:watcher",
+      "amount": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "persecond": 0.005,
+      "weights": 1,
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "maxlocal": 1,
+        "maxheight": -24,
+        "mindist": 32,
+        "maxdist": 64,
+        "minheight": -64,
+        "maxthis": 4
+      }
+    },
+    {
+      "attempts": 16,
+      "mob": "realmrpg_demons:imp_guard",
+      "amount": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "persecond": 0.007,
+      "weights": 1,
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "maxlocal": 1,
+        "maxheight": -24,
+        "mindist": 28,
+        "maxdist": 60,
+        "minheight": -56,
+        "maxthis": 4
+      }
+    },
+    {
+      "attempts": 12,
       "mob": "minecraft:silverfish",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.008,
+      "persecond": 0.006,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
-        "maxthis": 3,
+        "maxlocal": 3,
         "maxheight": -20,
         "mindist": 24,
         "maxdist": 56,
-        "minheight": -64
+        "minheight": -64,
+        "maxthis": 10
+      }
+    },
+    {
+      "attempts": 18,
+      "mob": "realmrpg_demons:demon",
+      "amount": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "persecond": 0.004,
+      "weights": 1,
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "maxlocal": 1,
+        "maxheight": -32,
+        "mindist": 32,
+        "maxdist": 64,
+        "minheight": -64,
+        "maxthis": 3
+      }
+    },
+    {
+      "attempts": 20,
+      "mob": "alexsmobs:murmur",
+      "amount": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "persecond": 0.0025,
+      "weights": 1,
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "maxlocal": 1,
+        "maxheight": -40,
+        "mindist": 40,
+        "maxdist": 72,
+        "minheight": -64,
+        "maxthis": 3
+      }
+    },
+    {
+      "attempts": 24,
+      "mob": "realmrpg_demons:demon_lord",
+      "amount": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "persecond": 0.001,
+      "weights": 1,
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "maxlocal": 1,
+        "maxheight": -48,
+        "mindist": 40,
+        "maxdist": 72,
+        "minheight": -64,
+        "maxthis": 1
       }
     }
-  ]
+  ],
+  "environmentRules": {
+    "darkness": "Controlled spawns keep each entity type's native placement/light validation. In Control 9.5.0 does not accept maxlight as a direct spawner condition.",
+    "openSpace": "In Control searches several candidate positions; entity collision and spawn placement still apply.",
+    "biomes": "Overworld cave filler is biome-neutral. Native biome-specialist mobs remain governed by their own mods.",
+    "localCaps": "Each controlled type has a small per-player-area cap to avoid crowding.",
+    "deepReplacementSafety": "Ordinary deep zombies/skeletons are retained whenever no replacement population is nearby."
+  }
 }

@@ -5613,6 +5613,195 @@
         "tier": 0,
         "category": "passive, neutral or utility"
       }
+    },
+    "realmrpg_demons:chort": {
+      "name": "Chort",
+      "source": "Realm RPG: Imps & Demons",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 16,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "realmrpg_demons:imp": {
+      "name": "Imp",
+      "source": "Realm RPG: Imps & Demons",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -48,
+        "maxY": -16,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "realmrpg_demons:imp_guard": {
+      "name": "Imp Guard",
+      "source": "Realm RPG: Imps & Demons",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -56,
+        "maxY": -24,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "realmrpg_demons:demon": {
+      "name": "Demon",
+      "source": "Realm RPG: Imps & Demons",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -64,
+        "maxY": -32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "realmrpg_demons:demon_lord": {
+      "name": "Demon Lord",
+      "source": "Realm RPG: Imps & Demons",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -64,
+        "maxY": -48,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
+    "realmrpg_demons:ancient_demon_lord": {
+      "name": "Ancient Demon Lord",
+      "source": "Realm RPG: Imps & Demons",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": false,
+        "minY": -64,
+        "maxY": -48,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
+    "realmrpg_demons:demon_minion": {
+      "name": "Demon Minion",
+      "source": "Realm RPG: Imps & Demons",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": false,
+        "minY": -64,
+        "maxY": -32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
     }
   }
 }
