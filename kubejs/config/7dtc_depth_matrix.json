@@ -45,7 +45,7 @@
   ],
   "encounters": [
     {
-      "attempts": 12,
+      "attempts": 20,
       "mob": "minecraft:zombie",
       "amount": {
         "minimum": 1,
@@ -57,13 +57,26 @@
         "dimension": "minecraft:overworld",
         "maxlocal": 4,
         "maxheight": 16,
-        "mindist": 24,
+        "mindist": 32,
         "maxdist": 48,
-        "minheight": -24
+        "minheight": -24,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
-      "attempts": 12,
+      "attempts": 20,
       "mob": "minecraft:skeleton",
       "amount": {
         "minimum": 1,
@@ -75,13 +88,26 @@
         "dimension": "minecraft:overworld",
         "maxlocal": 3,
         "maxheight": 16,
-        "mindist": 24,
+        "mindist": 32,
         "maxdist": 48,
-        "minheight": -24
+        "minheight": -24,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
-      "attempts": 14,
+      "attempts": 20,
       "mob": "realmrpg_demons:chort",
       "amount": {
         "minimum": 1,
@@ -93,14 +119,27 @@
         "dimension": "minecraft:overworld",
         "maxlocal": 2,
         "maxheight": 16,
-        "mindist": 24,
+        "mindist": 32,
         "maxdist": 52,
         "minheight": -24,
-        "maxthis": 8
+        "maxthis": 8,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
-      "attempts": 14,
+      "attempts": 20,
       "mob": "alexsmobs:rocky_roller",
       "amount": {
         "minimum": 1,
@@ -112,14 +151,27 @@
         "dimension": "minecraft:overworld",
         "maxlocal": 2,
         "maxheight": 24,
-        "mindist": 24,
-        "maxdist": 56,
+        "mindist": 40,
+        "maxdist": 64,
         "minheight": -40,
-        "maxthis": 8
+        "maxthis": 8,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
-      "attempts": 12,
+      "attempts": 20,
       "mob": "minecraft:cave_spider",
       "amount": {
         "minimum": 1,
@@ -131,14 +183,27 @@
         "dimension": "minecraft:overworld",
         "maxlocal": 3,
         "maxheight": 0,
-        "mindist": 24,
+        "mindist": 32,
         "maxdist": 56,
         "minheight": -48,
-        "maxthis": 10
+        "maxthis": 10,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
-      "attempts": 14,
+      "attempts": 20,
       "mob": "alexsmobs:centipede_head",
       "amount": {
         "minimum": 1,
@@ -150,14 +215,27 @@
         "dimension": "minecraft:overworld",
         "maxlocal": 2,
         "maxheight": -8,
-        "mindist": 24,
-        "maxdist": 56,
+        "mindist": 40,
+        "maxdist": 64,
         "minheight": -64,
-        "maxthis": 8
+        "maxthis": 8,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
-      "attempts": 16,
+      "attempts": 20,
       "mob": "quark:forgotten",
       "amount": {
         "minimum": 1,
@@ -172,11 +250,24 @@
         "mindist": 32,
         "maxdist": 64,
         "minheight": -64,
-        "maxthis": 4
+        "maxthis": 4,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
-      "attempts": 14,
+      "attempts": 20,
       "mob": "realmrpg_demons:imp",
       "amount": {
         "minimum": 1,
@@ -188,14 +279,27 @@
         "dimension": "minecraft:overworld",
         "maxlocal": 2,
         "maxheight": -16,
-        "mindist": 28,
+        "mindist": 32,
         "maxdist": 56,
         "minheight": -48,
-        "maxthis": 8
+        "maxthis": 8,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
-      "attempts": 18,
+      "attempts": 20,
       "mob": "alexscaves:watcher",
       "amount": {
         "minimum": 1,
@@ -210,11 +314,24 @@
         "mindist": 32,
         "maxdist": 64,
         "minheight": -64,
-        "maxthis": 4
+        "maxthis": 4,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
-      "attempts": 16,
+      "attempts": 20,
       "mob": "realmrpg_demons:imp_guard",
       "amount": {
         "minimum": 1,
@@ -226,14 +343,27 @@
         "dimension": "minecraft:overworld",
         "maxlocal": 1,
         "maxheight": -24,
-        "mindist": 28,
+        "mindist": 32,
         "maxdist": 60,
         "minheight": -56,
-        "maxthis": 4
+        "maxthis": 4,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
-      "attempts": 12,
+      "attempts": 20,
       "mob": "minecraft:silverfish",
       "amount": {
         "minimum": 1,
@@ -245,14 +375,27 @@
         "dimension": "minecraft:overworld",
         "maxlocal": 3,
         "maxheight": -20,
-        "mindist": 24,
+        "mindist": 32,
         "maxdist": 56,
         "minheight": -64,
-        "maxthis": 10
+        "maxthis": 10,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
-      "attempts": 18,
+      "attempts": 20,
       "mob": "realmrpg_demons:demon",
       "amount": {
         "minimum": 1,
@@ -267,7 +410,20 @@
         "mindist": 32,
         "maxdist": 64,
         "minheight": -64,
-        "maxthis": 3
+        "maxthis": 3,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
@@ -286,7 +442,20 @@
         "mindist": 40,
         "maxdist": 72,
         "minheight": -64,
-        "maxthis": 3
+        "maxthis": 3,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     },
     {
@@ -305,14 +474,27 @@
         "mindist": 40,
         "maxdist": 72,
         "minheight": -64,
-        "maxthis": 1
+        "maxthis": 1,
+        "and": {
+          "maxlight": 0,
+          "cave": true
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     }
   ],
   "environmentRules": {
-    "darkness": "Controlled spawns keep each entity type's native placement/light validation. In Control 9.5.0 does not accept maxlight as a direct spawner condition.",
-    "openSpace": "In Control searches several candidate positions; entity collision and spawn placement still apply.",
-    "biomes": "Overworld cave filler is biome-neutral. Native biome-specialist mobs remain governed by their own mods.",
+    "darkness": "Controlled spawns require complete block darkness through conditions.and.maxlight.",
+    "openSpace": "Each rule uses at least 20 placement attempts, cave=true, entity collision checks, and local caps.",
+    "biomes": "Generic cave filler excludes Deep Dark, every Alex's Caves biome, and forge:no_default_monsters biomes. Those locations keep their own authored populations and atmosphere.",
     "localCaps": "Each controlled type has a small per-player-area cap to avoid crowding.",
     "deepReplacementSafety": "Ordinary deep zombies/skeletons are retained whenever no replacement population is nearby."
   }

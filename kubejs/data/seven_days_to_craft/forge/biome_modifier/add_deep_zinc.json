@@ -1,0 +1,6 @@
+{
+  "type": "forge:add_features",
+  "biomes": "#minecraft:is_overworld",
+  "features": "seven_days_to_craft:ore_zinc_deep",
+  "step": "underground_ores"
+}

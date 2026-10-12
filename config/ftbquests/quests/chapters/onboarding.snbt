@@ -96,11 +96,11 @@
   }
   {
    dependencies: ["7D7C110000000006"]
-   description: [
-    "Ordinary hostile mobs have a small chance to drop Level 1 Keys. Bring back Rotten Flesh from a zombie to complete your onboarding."
-    ""
-    "Your final reward contains a Level 1 Key and a Training Cache. Use the cache while carrying the key to receive exactly one random Rank 1 artifact. The key and cache are consumed."
-   ]
+    description: [
+     "Ordinary hostile mobs have a small chance to drop Level 1 Keys. Bring back Rotten Flesh from a zombie to complete your onboarding."
+     ""
+     "Your final reward contains an Iron Level 1 Key and a portable locked chest. Place the chest, then unlock it with the key. This onboarding chest always contains one random Rank 1 amulet in addition to its normal Level 1 supplies."
+    ]
    icon: "seven_days_locks:training_cache"
    id: "7D7C110000000007"
    rewards: [
@@ -108,7 +108,7 @@
     { auto: "enabled", id: "7D7C1A0000000011", item: "seven_days_locks:training_cache", type: "item" }
    ]
    tasks: [{ id: "7D7C1B0000000010", item: "minecraft:rotten_flesh", type: "item" }]
-   title: "Your First Cache"
+    title: "Your First Locked Cache"
    x: 10.0d
    y: 0.0d
   }

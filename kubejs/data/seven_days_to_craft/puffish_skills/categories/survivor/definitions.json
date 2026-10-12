@@ -1376,7 +1376,7 @@
   },
   "scavenging_2_cartographyminimap": {
     "title": "Cartography, Minimap and Waypoints",
-    "description": "Unlocks Xaero's World Map, Minimap and waypoint creation/display. Press M for the full map; only nearby visited terrain is recorded.",
+    "description": "Unlocks the exploration Atlas, Xaero Minimap and waypoint creation/display. Craft the Atlas once, carry it and press M for the full map. It expands automatically and records terrain only as you travel nearby; no spare maps or paper are required.",
     "icon": {
       "type": "item",
       "data": {

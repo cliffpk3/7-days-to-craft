@@ -1,5 +1,23 @@
 [
   {
+    "when": "onjoin",
+    "hostile": true,
+    "spawntype": [
+      "natural",
+      "reinforcement"
+    ],
+    "maxdist": 31,
+    "result": "deny"
+  },
+  {
+    "when": "onjoin",
+    "dimension": "minecraft:overworld",
+    "mob": "minecraft:enderman",
+    "spawntype": "natural",
+    "random": 0.6,
+    "result": "deny"
+  },
+  {
     "when": "position",
     "dimension": "minecraft:overworld",
     "mod": "realmrpg_demons",

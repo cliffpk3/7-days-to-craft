@@ -25,10 +25,12 @@ git fetch origin main || goto :erro
 git reset --hard origin/main || goto :erro
 powershell -NoProfile -ExecutionPolicy Bypass -File "tools\restore-large-mod.ps1" || goto :erro
 powershell -NoProfile -ExecutionPolicy Bypass -File "tools\rebuild-depth-spawns.ps1" || goto :erro
+powershell -NoProfile -ExecutionPolicy Bypass -File "tools\apply-keybindings.ps1" || goto :erro
 
 echo.
 echo 7 Days to Craft atualizado com sucesso.
-echo Seus mundos, mapas, waypoints e opcoes pessoais foram preservados.
+echo Seus mundos, mapas e preferencias pessoais foram preservados.
+echo Os atalhos oficiais do 7 Days to Craft foram sincronizados.
 echo Abrindo o TLauncher...
 
 if exist "%APPDATA%\.minecraft\TLauncher.exe" (

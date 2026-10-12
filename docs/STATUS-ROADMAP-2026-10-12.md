@@ -9,7 +9,7 @@
 | 2 — Divine Weaponry | **Implementado** | Loot exclusivo por ameaça, uma arma Divine no máximo, desgaste variável e receitas removidas. |
 | 3 — Classificação de monstros | **Concluído estaticamente** | 224 registros revisados; fauna passiva/neutra permanece intencionalmente no nível 0. |
 | 4 — EnhancedAI | **Implementado** | Módulo geral de mobs e Anti-Cheese desativados; equipamentos/funções de hordas continuam no módulo próprio. |
-| 5 — Profundidade e risco | **Implementado para teste** | Matriz central, sete encontros subterrâneos e pequeno depósito profundo de ferro. |
+| 5 — Profundidade e risco | **Implementado e corrigido para teste** | Matriz central com 14 encontros, proteção de biomas especiais e substituição segura dos comuns. |
 | 6 — Equipamento como loot | **Implementado para teste** | Armaduras por tier e armas de fogo somente em bosses/Infernal Mobs, sempre com baixa chance. |
 | 7 — XP | **Implementado para teste** | Primeiro ponto passa de 18 para 24 XP; curva posterior mais íngreme e teto de 480 XP. |
 | 8 — Fuel Efficiency / Treasure Sense | **Pendente por decisão** | Sem alteração nesta rodada. |
@@ -61,7 +61,7 @@ A classificação é suficiente para ativar as probabilidades de loot, Threat Se
 
 A fonte central é `kubejs/config/7dtc_depth_matrix.json`, que gera `config/incontrol/spawner.json` por `tools/rebuild-depth-spawns.ps1`.
 
-Encontros ativos:
+Encontros ativos depois da ampliação:
 
 - Rocky Roller: Y 24 até -40;
 - Cave Centipede: Y -8 até -64;
@@ -70,6 +70,20 @@ Encontros ativos:
 - Forgotten: Y -12 até -64, raro;
 - Cave Spider: Y 0 até -48;
 - Silverfish: Y -20 até -64.
+- Chort: Y 16 até -24;
+- Imp: Y -16 até -48;
+- Imp Guard: Y -24 até -56;
+- Demon: Y -32 até -64;
+- Demon Lord: Y -48 até -64, extremamente raro.
+
+Todas as regras complementares exigem luz de bloco 0, posição de caverna e ao
+menos 20 tentativas de posicionamento. Deep Dark, biomas sem monstros comuns e
+os seis biomas do Alex's Caves foram excluídos da matriz genérica. A distribuição
+detalhada fica em `docs/DISTRIBUICAO-DE-MOBS-POR-PROFUNDIDADE.md`.
+
+O erro `Invalid condition 'maxlight' for spawner rule` foi corrigido: no In
+Control 9.5.0, `maxlight` deve ficar dentro de `conditions.and`. O erro fazia as
+regras complementares serem rejeitadas e explicava cavernas comuns vazias.
 
 O ferro comum permanece com 20% menos tentativas que o vanilla. Chunks novos recebem ainda duas tentativas de um depósito profundo de até sete blocos entre Y -64 e -32. Isso aumenta um pouco a recompensa das cavernas profundas sem devolver a abundância geral anterior.
 

@@ -3414,6 +3414,1897 @@
         "category": "elite"
       }
     },
+    "born_in_chaos_v1:baby_skeleton": {
+      "name": "Baby Skeleton",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.75
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:baby_skeleton_minion": {
+      "name": "Baby Skeleton",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:barrel_zombie": {
+      "name": "Barrel Zombie",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -40,
+        "maxY": 32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.6
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:bloody_gadfly": {
+      "name": "Bloody Gadfly",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.75
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:bone_imp": {
+      "name": "Bone Imp",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 0.7
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:bone_imp_minion": {
+      "name": "Bone Imp",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:bonescaller": {
+      "name": "Bonescaller",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -40,
+        "maxY": 32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.6
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:bonescaller_not_despawn": {
+      "name": "Bonescaller",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:controlled_baby_skeleton": {
+      "name": "Controlled Baby Skeleton",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:controlled_spiritual_assistant": {
+      "name": "Controlled Baby Skeleton",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:corpse_fish": {
+      "name": "Corpse Fish",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
+      }
+    },
+    "born_in_chaos_v1:corpse_fly": {
+      "name": "Corpse Fly",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.75
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:dark_vortex": {
+      "name": "Dark Vortex",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -40,
+        "maxY": 32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.6
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:decaying_zombie": {
+      "name": "Decaying Zombie",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.75
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:decaying_zombie_not_despawn": {
+      "name": "Decaying Zombie",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:decrepit_skeleton": {
+      "name": "Decrepit Skeleton",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.75
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:diamond_termite": {
+      "name": "Diamond Termite",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:dire_hound_leader": {
+      "name": "Dire Hound Leader",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -64,
+        "maxY": -8,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.4
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:door_knight": {
+      "name": "Door Knight",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -40,
+        "maxY": 32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.6
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:door_knight_not_despawn": {
+      "name": "Door Knight",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:dread_hound": {
+      "name": "Dread Hound",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -40,
+        "maxY": 32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.6
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:dread_hound_not_despawn": {
+      "name": "Dread Hound",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:fallen_chaos_knight": {
+      "name": "Fallen Chaos Knight",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -64,
+        "maxY": -8,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.4
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:felsteed": {
+      "name": "Felsteed",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
+      }
+    },
+    "born_in_chaos_v1:firelight": {
+      "name": "Firelight",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 0.7
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:firelight_not_despawn": {
+      "name": "Firelight",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:glutton_fish": {
+      "name": "Glutton Fish",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:infernal_spirit": {
+      "name": "Infernal Spirit",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:lifestealer": {
+      "name": "Lifestealer",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -64,
+        "maxY": -40,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.18
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
+    "born_in_chaos_v1:lifestealer_true_form": {
+      "name": "Lifestealer",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
+    "born_in_chaos_v1:lord_pumpkinhead": {
+      "name": "Lord Pumpkinhead",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
+    "born_in_chaos_v1:lord_pumpkinhead_head": {
+      "name": "Lord Pumpkinhead",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
+    "born_in_chaos_v1:lord_pumpkinhead_withouta_horse": {
+      "name": "Lord Pumpkinhead",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
+    "born_in_chaos_v1:lord_the_headless": {
+      "name": "Lord The Headless",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
+    "born_in_chaos_v1:lords_felsteed": {
+      "name": "Lord's Felsteed",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
+    "born_in_chaos_v1:maggot": {
+      "name": "Corpse Maggot",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:missioner": {
+      "name": "Missionary",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -64,
+        "maxY": -40,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.18
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
+    "born_in_chaos_v1:mr_pumpkin": {
+      "name": "Mr. Pumpkin",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -16,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.55
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:mr_pumpkin_controlled": {
+      "name": "Mr. Pumpkin",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:nightmare_stalker": {
+      "name": "Nightmare Stalker",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -64,
+        "maxY": -8,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.4
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:phantom_creeper": {
+      "name": "Phantom Creeper",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -40,
+        "maxY": 32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.6
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:phantom_creeper_copy": {
+      "name": "Phantom Creeper",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:pumpkin_spirit": {
+      "name": "Pumpkin Spirit",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:pumpkinhead": {
+      "name": "Pumpkinhead",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:restless_spirit": {
+      "name": "Restless Spirit",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.75
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:riding_felsteed": {
+      "name": "Felsteed",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 0,
+        "category": "passive, neutral or utility"
+      }
+    },
+    "born_in_chaos_v1:riding_lords_felsteed": {
+      "name": "Felsteed",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
+    "born_in_chaos_v1:scarlet_persecutor": {
+      "name": "Scarlet Persecutor",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:seared_spirit": {
+      "name": "Seared Spirit",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -40,
+        "maxY": 32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.6
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:seared_spirit_not_despawn": {
+      "name": "Seared Spirit",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:senor_pumpkin": {
+      "name": "Senor Pumpkin",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:siamese_skeletons": {
+      "name": "Siamese Skeletons",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -40,
+        "maxY": 32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.6
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:siamese_skeletonsleft": {
+      "name": "Siamese Skeleton",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:siamese_skeletonsright": {
+      "name": "Siamese Skeleton",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:sir_pumpkinhead": {
+      "name": "Sir Pumpkinhead",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -64,
+        "maxY": -8,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.4
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:sir_pumpkinhead_without_horse": {
+      "name": "Sir Pumpkinhead",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:sir_the_headless": {
+      "name": "Sir The Headless",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:skeleton_demoman": {
+      "name": "Skeleton Demoman",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -40,
+        "maxY": 32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.6
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:skeleton_thrasher": {
+      "name": "Skeleton Thrasher",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -64,
+        "maxY": -8,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.4
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:skeleton_thrasher_not_despawn": {
+      "name": "Skeleton Thrasher",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:spirit_guide": {
+      "name": "Spirit Guide",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -40,
+        "maxY": 32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.6
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:spirit_guide_assistant": {
+      "name": "Spirit Guide Assistant",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.75
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:spiritof_chaos": {
+      "name": "Spirit of Chaos",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -40,
+        "maxY": 32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.6
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "born_in_chaos_v1:supreme_bonescaller": {
+      "name": "Supreme Bonescaller",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -64,
+        "maxY": -8,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.4
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:supreme_bonescaller_not_despawn": {
+      "name": "Supreme Bonescaller",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:supreme_bonescaller_stage_2": {
+      "name": "Supreme Bonescaller",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:swarmer": {
+      "name": "Swarmer",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.75
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:thornshell_crab": {
+      "name": "Thornshell Crab",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.75
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:zombie_bruiser": {
+      "name": "Zombie Bruiser",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -64,
+        "maxY": -8,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.4
+      },
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "born_in_chaos_v1:zombie_clown": {
+      "name": "Zombie Clown",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.75
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:zombie_clown_not_despawn": {
+      "name": "Zombie Clown",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": null,
+        "maxY": null,
+        "dimensions": [],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:zombie_fisherman": {
+      "name": "Zombie Fisherman",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.75
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "born_in_chaos_v1:zombie_lumberjack": {
+      "name": "Zombie Lumberjack",
+      "source": "Born in Chaos",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -24,
+        "maxY": 96,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 0.75
+      },
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
     "hordes:zombie_player": {
       "name": "Zombie Player",
       "source": "The Hordes",
@@ -5614,6 +7505,33 @@
         "category": "passive, neutral or utility"
       }
     },
+    "realmrpg_demons:ancient_demon_lord": {
+      "name": "Ancient Demon Lord",
+      "source": "Realm RPG: Imps & Demons",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": false,
+        "minY": -64,
+        "maxY": -48,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
     "realmrpg_demons:chort": {
       "name": "Chort",
       "source": "Realm RPG: Imps & Demons",
@@ -5630,60 +7548,6 @@
         "allow": true,
         "minY": -24,
         "maxY": 16,
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "biomes": [],
-        "chance": 1.0
-      },
-      "threat": {
-        "tier": 2,
-        "category": "dangerous"
-      }
-    },
-    "realmrpg_demons:imp": {
-      "name": "Imp",
-      "source": "Realm RPG: Imps & Demons",
-      "attributes": {
-        "maxHealth": null,
-        "attackDamage": null,
-        "armor": null,
-        "armorToughness": null,
-        "movementSpeed": null,
-        "followRange": null,
-        "knockbackResistance": null
-      },
-      "spawn": {
-        "allow": true,
-        "minY": -48,
-        "maxY": -16,
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "biomes": [],
-        "chance": 1.0
-      },
-      "threat": {
-        "tier": 2,
-        "category": "dangerous"
-      }
-    },
-    "realmrpg_demons:imp_guard": {
-      "name": "Imp Guard",
-      "source": "Realm RPG: Imps & Demons",
-      "attributes": {
-        "maxHealth": null,
-        "attackDamage": null,
-        "armor": null,
-        "armorToughness": null,
-        "movementSpeed": null,
-        "followRange": null,
-        "knockbackResistance": null
-      },
-      "spawn": {
-        "allow": true,
-        "minY": -56,
-        "maxY": -24,
         "dimensions": [
           "minecraft:overworld"
         ],
@@ -5749,33 +7613,6 @@
         "category": "boss"
       }
     },
-    "realmrpg_demons:ancient_demon_lord": {
-      "name": "Ancient Demon Lord",
-      "source": "Realm RPG: Imps & Demons",
-      "attributes": {
-        "maxHealth": null,
-        "attackDamage": null,
-        "armor": null,
-        "armorToughness": null,
-        "movementSpeed": null,
-        "followRange": null,
-        "knockbackResistance": null
-      },
-      "spawn": {
-        "allow": false,
-        "minY": -64,
-        "maxY": -48,
-        "dimensions": [
-          "minecraft:overworld"
-        ],
-        "biomes": [],
-        "chance": 1.0
-      },
-      "threat": {
-        "tier": 4,
-        "category": "boss"
-      }
-    },
     "realmrpg_demons:demon_minion": {
       "name": "Demon Minion",
       "source": "Realm RPG: Imps & Demons",
@@ -5792,6 +7629,60 @@
         "allow": false,
         "minY": -64,
         "maxY": -32,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "realmrpg_demons:imp": {
+      "name": "Imp",
+      "source": "Realm RPG: Imps & Demons",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -48,
+        "maxY": -16,
+        "dimensions": [
+          "minecraft:overworld"
+        ],
+        "biomes": [],
+        "chance": 1.0
+      },
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "realmrpg_demons:imp_guard": {
+      "name": "Imp Guard",
+      "source": "Realm RPG: Imps & Demons",
+      "attributes": {
+        "maxHealth": null,
+        "attackDamage": null,
+        "armor": null,
+        "armorToughness": null,
+        "movementSpeed": null,
+        "followRange": null,
+        "knockbackResistance": null
+      },
+      "spawn": {
+        "allow": true,
+        "minY": -56,
+        "maxY": -24,
         "dimensions": [
           "minecraft:overworld"
         ],
