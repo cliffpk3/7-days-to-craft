@@ -27,8 +27,8 @@ foreach ($rule in $encounters) {
 $encounters | ConvertTo-Json -Depth 30 | Set-Content -LiteralPath $outputPath -Encoding utf8
 
 # Parse the generated file once more so a partial or malformed output never reaches InControl.
-$generated = @(Get-Content -Raw -LiteralPath $outputPath | ConvertFrom-Json)
-if ($generated.Count -ne $encounters.Count) {
+$generated = Get-Content -Raw -LiteralPath $outputPath | ConvertFrom-Json
+if ($generated -isnot [array] -or $generated.Count -ne $encounters.Count) {
     throw "Generated rule count mismatch: expected $($encounters.Count), got $($generated.Count)."
 }
 
