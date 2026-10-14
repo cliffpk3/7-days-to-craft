@@ -1273,7 +1273,7 @@
   },
   "scavenging_2_oresense": {
     "title": "Ore Sense",
-    "description": "Makes ore blocks glow at light level 6 of 15.",
+    "description": "Makes ore blocks within 20 blocks glow at light level 6 of 15.",
     "icon": {
       "type": "item",
       "data": {

@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "notes": "Controlled cave encounters supplement vanilla spawning. Normal hostiles remain active through Y -32. Below Y -33, the code only thins ordinary zombies/skeletons after replacement mobs are already nearby. All entries require complete darkness, use local caps, and spawn as singles.",
+  "notes": "Cave threat test: more frequent encounters, especially tier 2/3 in deep caves. Darkness, biome exclusions and local caps remain; extra encounters stay at least 32 blocks from players.",
   "bands": [
     {
       "id": 1,
@@ -45,13 +45,13 @@
   ],
   "encounters": [
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "minecraft:zombie",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.018,
+      "persecond": 0.035,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -72,17 +72,18 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "minecraft:skeleton",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.014,
+      "persecond": 0.03,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -103,17 +104,18 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "realmrpg_demons:chort",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.018,
+      "persecond": 0.05,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -135,17 +137,18 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "alexsmobs:rocky_roller",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.03,
+      "persecond": 0.055,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -167,17 +170,18 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "minecraft:cave_spider",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.014,
+      "persecond": 0.028,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -199,17 +203,18 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "alexsmobs:centipede_head",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.018,
+      "persecond": 0.04,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -231,17 +236,18 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "quark:forgotten",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.006,
+      "persecond": 0.02,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -263,17 +269,18 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "realmrpg_demons:imp",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.012,
+      "persecond": 0.04,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -295,17 +302,18 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "alexscaves:watcher",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.005,
+      "persecond": 0.015,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -327,17 +335,18 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "realmrpg_demons:imp_guard",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.007,
+      "persecond": 0.025,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -359,17 +368,18 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "minecraft:silverfish",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.006,
+      "persecond": 0.016,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -391,17 +401,18 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "realmrpg_demons:demon",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.004,
+      "persecond": 0.013,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -423,17 +434,18 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
-      "attempts": 20,
+      "attempts": 28,
       "mob": "alexsmobs:murmur",
       "amount": {
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.0025,
+      "persecond": 0.008,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -455,7 +467,8 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     },
     {
@@ -465,7 +478,7 @@
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.001,
+      "persecond": 0.0025,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -487,13 +500,14 @@
             "alexscaves:alexs_caves_biomes",
             "forge:no_default_monsters"
           ]
-        }
+        },
+        "maxverticaldist": 16
       }
     }
   ],
   "environmentRules": {
     "darkness": "Controlled spawns require complete block darkness through conditions.and.maxlight.",
-    "openSpace": "Each rule uses at least 20 placement attempts, cave=true, entity collision checks, and local caps.",
+    "openSpace": "Each rule uses at least 20 placement attempts, a vertical distance limit of 16, cave=true, entity collision checks, and local caps.",
     "biomes": "Generic cave filler excludes Deep Dark, every Alex's Caves biome, and forge:no_default_monsters biomes. Those locations keep their own authored populations and atmosphere.",
     "localCaps": "Each controlled type has a small per-player-area cap to avoid crowding.",
     "deepReplacementSafety": "Ordinary deep zombies/skeletons are retained whenever no replacement population is nearby."

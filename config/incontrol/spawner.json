@@ -1,12 +1,12 @@
 [
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "minecraft:zombie",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.018,
+    "persecond": 0.035,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -27,17 +27,18 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "minecraft:skeleton",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.014,
+    "persecond": 0.03,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -58,17 +59,18 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "realmrpg_demons:chort",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.018,
+    "persecond": 0.05,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -90,17 +92,18 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "alexsmobs:rocky_roller",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.03,
+    "persecond": 0.055,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -122,17 +125,18 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "minecraft:cave_spider",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.014,
+    "persecond": 0.028,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -154,17 +158,18 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "alexsmobs:centipede_head",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.018,
+    "persecond": 0.04,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -186,17 +191,18 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "quark:forgotten",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.006,
+    "persecond": 0.02,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -218,17 +224,18 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "realmrpg_demons:imp",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.012,
+    "persecond": 0.04,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -250,17 +257,18 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "alexscaves:watcher",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.005,
+    "persecond": 0.015,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -282,17 +290,18 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "realmrpg_demons:imp_guard",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.007,
+    "persecond": 0.025,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -314,17 +323,18 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "minecraft:silverfish",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.006,
+    "persecond": 0.016,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -346,17 +356,18 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "realmrpg_demons:demon",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.004,
+    "persecond": 0.013,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -378,17 +389,18 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
-    "attempts": 20,
+    "attempts": 28,
     "mob": "alexsmobs:murmur",
     "amount": {
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.0025,
+    "persecond": 0.008,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -410,7 +422,8 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   },
   {
@@ -420,7 +433,7 @@
       "minimum": 1,
       "maximum": 1
     },
-    "persecond": 0.001,
+    "persecond": 0.0025,
     "weights": 1,
     "conditions": {
       "dimension": "minecraft:overworld",
@@ -442,7 +455,8 @@
           "alexscaves:alexs_caves_biomes",
           "forge:no_default_monsters"
         ]
-      }
+      },
+      "maxverticaldist": 16
     }
   }
 ]
