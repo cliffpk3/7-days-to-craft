@@ -208,4 +208,4 @@ key_key.l2mods.swap:key.keyboard.r
 key_key.trashslot.toggle:key.keyboard.unknown
 key_key.trashslot.toggleLock:key.keyboard.unknown
 key_key.trashslot.delete:key.keyboard.delete
-key_key.trashslot.deleteAll:key.keyboard.delete:SHIFT
+key_key.trashslot.deleteAll:key.keyboard.d
