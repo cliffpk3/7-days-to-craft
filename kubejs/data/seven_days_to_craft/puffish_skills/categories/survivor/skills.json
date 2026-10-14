@@ -172,7 +172,7 @@
   "scavenging_2_slot04": {
     "x": -129,
     "y": -96,
-    "definition": "scavenging_2_cartographyminimap"
+    "definition": "scavenging_2_oresense"
   },
   "combat_2_slot04": {
     "x": 130,
@@ -743,6 +743,6 @@
   "scavenging_2_slot05": {
     "x": -277,
     "y": -96,
-    "definition": "scavenging_2_oresense"
+    "definition": "scavenging_2_cartographyminimap"
   }
 }

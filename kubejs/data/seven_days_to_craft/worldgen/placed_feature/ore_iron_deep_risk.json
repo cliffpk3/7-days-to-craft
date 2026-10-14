@@ -1,7 +1,7 @@
 {
   "feature": "seven_days_to_craft:ore_iron_deep_risk",
   "placement": [
-    { "type": "minecraft:count", "count": 2 },
+    { "type": "minecraft:count", "count": 3 },
     { "type": "minecraft:in_square" },
     {
       "type": "minecraft:height_range",
