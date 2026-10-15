@@ -1,0 +1,34 @@
+{
+  "tier1": {
+    "chance": 0.02,
+    "blueprints": [
+      "pistol",
+      "machine_pistol"
+    ]
+  },
+  "tier2": {
+    "chance": 0.04,
+    "blueprints": [
+      "rifle",
+      "shotgun",
+      "blood_sprayer",
+      "stink_ray"
+    ]
+  },
+  "tier3": {
+    "chance": 0.06,
+    "blueprints": [
+      "assault_rifle",
+      "heavy_rifle",
+      "grenade_launcher",
+      "hemolymph_blaster"
+    ]
+  },
+  "tier4": {
+    "chance": 0.1,
+    "blueprints": [
+      "mini_gun",
+      "bazooka"
+    ]
+  }
+}
