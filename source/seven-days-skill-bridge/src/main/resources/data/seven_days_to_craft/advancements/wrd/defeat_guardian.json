@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:diamond_sword"},"title":"Dungeon Guardian","description":"Defeat a dungeon boss or guardian.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:crafting_table"},"title":"Training Progress","description":"Craft, obtain or use the required item.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:raw_iron"},"title":"Ore Sense Confirmed","description":"Mine an exposed ore in darkness.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

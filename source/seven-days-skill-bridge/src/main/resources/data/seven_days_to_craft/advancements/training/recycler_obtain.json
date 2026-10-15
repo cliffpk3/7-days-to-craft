@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"corail_recycler:recycler"},"title":"Obtain a Recycler","description":"Receive a Recycler from any source.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

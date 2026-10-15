@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"grapplemod:grapplinghook"},"title":"Grappling Practice","description":"Attach a Grappling Hook to a solid block.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

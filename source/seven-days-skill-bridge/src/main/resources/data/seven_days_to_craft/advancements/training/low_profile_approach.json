@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:spyglass"},"title":"Undetected Approach","description":"Sneak close to an unaware hostile monster.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"cgm:workbench"},"title":"Workbench Ready","description":"Craft or interact with a CGM Workbench.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

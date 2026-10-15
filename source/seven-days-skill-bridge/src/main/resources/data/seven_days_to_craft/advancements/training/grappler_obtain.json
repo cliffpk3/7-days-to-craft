@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"grapplemod:grapplinghook"},"title":"Obtain a Grappling Hook","description":"Receive a standard Grappling Hook from any source.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

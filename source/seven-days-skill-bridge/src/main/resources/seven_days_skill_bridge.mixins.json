@@ -1,0 +1,23 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "dev.sevendaystocraft.skillbridge.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "client": [
+    "FTBQuestTrackerMixin",
+    "MilestoneTrainingFocusMixin",
+    "OreSenseLightMixin",
+    "OreSenseLightEngineMixin",
+    "XaeroRestrictionEffectsMixin",
+    "AggroIndicatorMilestoneMixin"
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  },
+  "mixins": [
+    "MapAtlasGateMixin",
+    "QuarkBackpackEquipMixin",
+    "CuriosBackpackQuickMoveMixin",
+    "WorkbenchEfficiencyMixin"
+  ]
+}

@@ -21,19 +21,29 @@ import java.util.concurrent.ConcurrentHashMap;
 @Mod.EventBusSubscriber(modid = SevenDaysLocks.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public final class HordeCountdown {
     private static final Map<UUID, Snapshot> LAST_ANNOUNCEMENT = new ConcurrentHashMap<>();
+    private static final String WORLD_CALENDAR_MIGRATED = "7dtc_world_horde_calendar_v1";
 
     private HordeCountdown() {}
 
     @SubscribeEvent
+    public static void onLogin(PlayerEvent.PlayerLoggedInEvent event) {
+        if (event.getEntity() instanceof ServerPlayer player) migrateSchedule(player);
+    }
+
+    @SubscribeEvent
     public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
         if (event.phase != TickEvent.Phase.END || !(event.player instanceof ServerPlayer player) || player.tickCount % 20 != 0) return;
-        if (!(player.level() instanceof ServerLevel level)) return;
+        ServerLevel level = player.server.getLevel(ServerLevel.OVERWORLD);
+        if (level == null) return;
 
         HordeEvent horde = HordeSavedData.getData(level).getEvent(player);
-        int currentDay = horde.getCurrentDay(player);
+        migrateSchedule(player);
+        // Tick 0 is 06:00 in Minecraft. The +6000 shift advances the
+        // calendar when the visible clock reaches 00:00.
+        int currentDay = (int) Math.floorDiv(level.getDayTime() + 6000L, 24000L);
         int nextDay = horde.getNextDay();
         boolean active = horde.isActive();
-        int daysLeft = Math.max(0, nextDay - currentDay);
+        int daysLeft = Math.max(0, nextDay - 1 - currentDay);
 
         Snapshot current = new Snapshot(currentDay, daysLeft, active);
         Snapshot previous = LAST_ANNOUNCEMENT.put(player.getUUID(), current);
@@ -44,6 +54,20 @@ public final class HordeCountdown {
     @SubscribeEvent
     public static void onLogout(PlayerEvent.PlayerLoggedOutEvent event) {
         LAST_ANNOUNCEMENT.remove(event.getEntity().getUUID());
+    }
+
+    private static void migrateSchedule(ServerPlayer player) {
+        if (player.getPersistentData().getBoolean(WORLD_CALENDAR_MIGRATED)) return;
+        ServerLevel level = player.server.getLevel(ServerLevel.OVERWORLD);
+        if (level == null) return;
+        HordeSavedData data = HordeSavedData.getData(level);
+        HordeEvent horde = data.getEvent(player);
+        if (horde.isActive()) return;
+        int worldDay = (int) Math.floorDiv(level.getDayTime(), 24000L);
+        int nextWorldHorde = (Math.floorDiv(worldDay, 7) + 1) * 7;
+        horde.setNextDay(nextWorldHorde);
+        data.setDirty();
+        player.getPersistentData().putBoolean(WORLD_CALENDAR_MIGRATED, true);
     }
 
     private static void showTitle(ServerPlayer player, int daysLeft, boolean active) {

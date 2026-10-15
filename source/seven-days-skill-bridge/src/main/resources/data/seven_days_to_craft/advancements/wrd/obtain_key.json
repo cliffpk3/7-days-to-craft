@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"wrd:keystrongholdchest_iron"},"title":"Dungeon Key","description":"Obtain a key used by the dungeon's locked caches.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

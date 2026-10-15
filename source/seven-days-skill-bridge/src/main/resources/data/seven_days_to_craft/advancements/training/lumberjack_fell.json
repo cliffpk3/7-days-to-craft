@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:diamond_axe"},"title":"Lumberjack Practice","description":"Break a tree log with an axe.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

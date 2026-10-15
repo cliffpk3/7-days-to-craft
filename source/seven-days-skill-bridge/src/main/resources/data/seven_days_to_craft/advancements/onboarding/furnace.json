@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:furnace"},"title":"Furnace Ready","description":"Craft, obtain or use a furnace.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

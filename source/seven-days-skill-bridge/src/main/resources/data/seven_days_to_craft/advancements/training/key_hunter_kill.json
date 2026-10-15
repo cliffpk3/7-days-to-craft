@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"wrd:keystrongholdchest_iron"},"title":"Key Hunter Practice","description":"Defeat a hostile monster with Key Hunter active.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

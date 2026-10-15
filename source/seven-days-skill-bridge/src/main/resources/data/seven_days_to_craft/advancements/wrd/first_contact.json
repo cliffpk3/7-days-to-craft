@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"wrd:keystrongholdchest_iron"},"title":"A Dungeon Ahead","description":"Discover a Wesley's Roguelike Dungeon entrance or portal.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"create:mechanical_arm"},"title":"Automation Inspected","description":"Interact with a Create automation component.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

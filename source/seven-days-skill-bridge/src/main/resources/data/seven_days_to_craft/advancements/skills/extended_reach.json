@@ -1,0 +1,8 @@
+{
+  "criteria": {
+    "completed": {
+      "trigger": "minecraft:tick",
+      "conditions": { "player": { "nbt": "{Tags:[\"7dtc_extended_reach\"]}" } }
+    }
+  }
+}

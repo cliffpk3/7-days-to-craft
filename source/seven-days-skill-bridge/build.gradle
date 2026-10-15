@@ -1,0 +1,31 @@
+plugins { id 'net.minecraftforge.gradle' version '5.1.+' }
+group='dev.sevendaystocraft'
+version='1.0.1'
+archivesBaseName='seven-days-skill-bridge'
+java.toolchain.languageVersion=JavaLanguageVersion.of(17)
+minecraft { mappings channel:'official', version:'1.20.1' }
+repositories { mavenCentral() }
+dependencies {
+ minecraft 'net.minecraftforge:forge:1.20.1-47.1.3'
+ compileOnly fg.deobf(files('../../mods/ParCool-1.20.1-3.2.1.2-R.jar'))
+ compileOnly fg.deobf(files('../../mods/puffish_skills-0.19.1-1.20-forge.jar'))
+ compileOnly fg.deobf(files('../../mods/architectury-9.2.14-forge.jar'))
+ compileOnly fg.deobf(files('../../mods/ftb-library-forge-2001.2.2.jar'))
+ compileOnly fg.deobf(files('../../mods/ftb-teams-forge-2001.3.0.jar'))
+ compileOnly fg.deobf(files('../../mods/ftb-quests-forge-2001.4.6.jar'))
+ compileOnly fg.deobf(files('../../mods/curios-forge-5.14.1+1.20.1.jar'))
+ compileOnly fg.deobf(files('../../mods/map_atlases-1.20-6.0.20.jar'))
+ compileOnly fg.deobf(files('../../mods/moonlight-1.20-2.16.35-forge.jar'))
+}
+jar { manifest { attributes(['Specification-Title':'seven_days_skill_bridge','Specification-Vendor':'7 Days to Craft','Specification-Version':'1','Implementation-Title':project.name,'Implementation-Version':project.jar.archiveVersion,'Implementation-Vendor':'7 Days to Craft','MixinConfigs':'seven_days_skill_bridge.mixins.json']) } }
+jar.finalizedBy('reobfJar')
+tasks.withType(JavaCompile).configureEach {
+ options.encoding='UTF-8'
+ // Keep javac's classpath handles outside the Gradle daemon. This avoids
+ // Windows locking dependency jars when the build cache lives in a synced
+ // or sandboxed workspace.
+ options.fork=true
+}
+if (project.hasProperty('skipCompile')) {
+ tasks.named('compileJava') { enabled = false }
+}

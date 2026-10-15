@@ -68,7 +68,7 @@
 	#Do the daylight cycle (and active horde events get paused while there are no players online.).
 	pauseEventServer = true
 	#Are horde events tracked by player play time instead of world time.
-	hordeEventByPlayerTime = true
+	hordeEventByPlayerTime = false
 	#How many ticks after a hordes scheduled time can it start?
 	hordeStartBuffer = 1200
 	#How many attempts should horde events make to avoid spawning mobs in light areas or outside their spawn type.

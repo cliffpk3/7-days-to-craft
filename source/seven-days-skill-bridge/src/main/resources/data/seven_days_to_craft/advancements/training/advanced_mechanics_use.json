@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"create:mechanical_press"},"title":"Mechanical Processing","description":"Interact with a Create processing component.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

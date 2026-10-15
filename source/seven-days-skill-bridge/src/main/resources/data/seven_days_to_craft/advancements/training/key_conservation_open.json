@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"wrd:keystrongholdchest_gold"},"title":"Conservation Test","description":"Open a locked chest with Key Conservation active.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

@@ -1,0 +1,49 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="seven_days_skill_bridge"
+version="1.0.1"
+displayName="7 Days to Craft - Skill Bridge"
+authors="7 Days to Craft"
+description='''Enforces skill-tree unlocks for ParCool and other progression systems.'''
+displayTest="MATCH_VERSION"
+[[dependencies.seven_days_skill_bridge]]
+modId="forge"
+mandatory=true
+versionRange="[47.1.3,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.seven_days_skill_bridge]]
+modId="parcool"
+mandatory=true
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.seven_days_skill_bridge]]
+modId="puffish_skills"
+mandatory=true
+versionRange="[0.19.1,)"
+ordering="AFTER"
+side="BOTH"
+
+
+[[dependencies.seven_days_skill_bridge]]
+modId="ftbquests"
+mandatory=true
+versionRange="[2001.4.6,)"
+ordering="AFTER"
+side="CLIENT"
+[[dependencies.seven_days_skill_bridge]]
+modId="glowingores"
+mandatory=true
+versionRange="[1.20.1-2.9,)"
+ordering="AFTER"
+side="CLIENT"
+
+[[dependencies.seven_days_skill_bridge]]
+modId="map_atlases"
+mandatory=true
+versionRange="[1.20-6.0.20,)"
+ordering="AFTER"
+side="BOTH"

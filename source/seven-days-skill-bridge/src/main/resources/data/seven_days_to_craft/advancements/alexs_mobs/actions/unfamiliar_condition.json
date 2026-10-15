@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"alexsmobs:poison_bottle"},"title":"Unfamiliar Condition","description":"Experience a status effect caused by an Alex's Mobs creature.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"quark:backpack"},"title":"Equip the Backpack","description":"Equip it in the Curios Back slot.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

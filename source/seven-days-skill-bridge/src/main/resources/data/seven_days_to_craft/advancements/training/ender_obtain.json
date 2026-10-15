@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"grapplemod:launcheritem"},"title":"Obtain Ender Traversal Equipment","description":"Receive an Ender traversal item from any source.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

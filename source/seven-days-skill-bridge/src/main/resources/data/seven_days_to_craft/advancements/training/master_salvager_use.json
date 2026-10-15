@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"minecraft:smithing_table"},"title":"Master Salvager Practice","description":"Use a Recycler with Master Salvager active.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}
