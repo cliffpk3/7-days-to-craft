@@ -63,7 +63,7 @@
    description: [
     "The custom Workbench is the main catalog for weapons, equipment, utilities and progression items."
     ""
-    "Obtain a Workbench and inspect its categories before continuing."
+    "Craft or interact with a CGM Workbench and inspect its categories before continuing."
    ]
    icon: "cgm:workbench"
    id: "7D7C110000000003"
@@ -71,7 +71,7 @@
     { count: 8, id: "7D7C1A0000000004", item: "minecraft:iron_ingot", type: "item" }
     { count: 8, id: "7D7C1A0000000005", item: "minecraft:copper_ingot", type: "item" }
    ]
-   tasks: [{ id: "7D7C1B0000000003", item: "cgm:workbench", type: "item" }]
+   tasks: [{ advancement: "seven_days_to_craft:onboarding/workbench", criterion: "completed", id: "7D7C1B0000000003", title: "Craft, obtain or interact with a CGM Workbench", type: "advancement" }]
    title: "The Workbench"
    x: 6.0d
    y: 0.0d
