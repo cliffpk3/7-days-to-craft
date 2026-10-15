@@ -1,0 +1,47 @@
+modLoader="javafml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="seven_days_locks"
+version="1.0.1"
+displayName="7 Days to Craft: Locked Loot"
+authors="7 Days to Craft"
+description='''Persistent tiered locks, keys and boss awareness balancing.'''
+[[dependencies.seven_days_locks]]
+modId="forge"
+mandatory=true
+versionRange="[47,)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.seven_days_locks]]
+modId="minecraft"
+mandatory=true
+versionRange="[1.20.1,1.21)"
+ordering="NONE"
+side="BOTH"
+[[dependencies.seven_days_locks]]
+modId="wrd"
+mandatory=true
+versionRange="[2.0.0,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.seven_days_locks]]
+modId="infernalmobs"
+mandatory=true
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.seven_days_locks]]
+modId="hordes"
+mandatory=true
+versionRange="[1.6.3,)"
+ordering="AFTER"
+side="BOTH"
+
+[[dependencies.seven_days_locks]]
+modId="trashslot"
+mandatory=true
+versionRange="[15.1.0,)"
+ordering="AFTER"
+side="BOTH"

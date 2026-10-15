@@ -15,6 +15,7 @@ git rev-parse --is-inside-work-tree >nul 2>nul || (
   exit /b 1
 )
 
+powershell -NoProfile -ExecutionPolicy Bypass -File "tools\enforce-mob-policy.ps1" || goto :erro
 powershell -NoProfile -ExecutionPolicy Bypass -File "tools\split-large-mod.ps1" || goto :erro
 git add -A
 

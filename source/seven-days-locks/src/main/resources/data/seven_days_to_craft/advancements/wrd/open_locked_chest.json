@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"wrd:keystrongholdchest_iron"},"title":"Use a Dungeon Key","description":"Open a locked chest inside a Wesley's Roguelike Dungeon.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}

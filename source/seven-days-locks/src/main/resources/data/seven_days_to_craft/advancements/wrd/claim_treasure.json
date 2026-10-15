@@ -1,0 +1,1 @@
+{"display":{"icon":{"item":"wrd:keystrongholdchest_treasure"},"title":"Claim the Dungeon Treasure","description":"Open a completion treasure chest in a Wesley's Roguelike Dungeon.","show_toast":false,"announce_to_chat":false,"hidden":true},"criteria":{"completed":{"trigger":"minecraft:impossible"}}}
