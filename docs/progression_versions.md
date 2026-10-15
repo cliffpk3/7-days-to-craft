@@ -18,3 +18,5 @@ This covers the pack's configured iron features. Minecraft's separate, rare nois
 - Provide a second bounded source for gun blueprints and a useful conversion for duplicates, so unlucky players can still progress.
 - Test time to first firearm and iron acquired before hordes 1 and 2 in a new world.
 - Discuss world danger milestones after horde 1. A flat 50% increase to every mob is only an idea at this stage; no change has been applied.
+
+- `progression-v3.1-quest-interaction`: onboarding CGM Workbench objective completes only on crafting or interacting with the block. Merely possessing a Workbench no longer completes it.
