@@ -6,3 +6,15 @@
 - `progression-v3-iron-distance`: spawn-distance based iron vein sizes, configurable per worldgen band.
 
 The original world spawn is the proposed distance anchor for V3. Generated chunks keep their old ores. Later difficulty escalation after the first horde is a planning item only.
+
+## V3: iron by world-spawn distance
+
+`config/7dtc_iron_distance.json` controls the three radius limits and four multipliers. Default bands: 0-512 blocks = 50%, 513-1024 = 65%, 1025-1536 = 80%, farther = 100%. The calculation uses horizontal distance from the Overworld's shared spawn, not player bed position. The worldgen feature applies stochastic rounding to the original vein sizes (9, 4, and 7), so the percentage is an expected size rather than a hard exact block count. Ore placement attempts and height ranges remain unchanged. A server restart is required to reload the configuration; only new chunks receive new generation.
+
+This covers the pack's configured iron features. Minecraft's separate, rare noise-driven giant ore veins are outside these configured features and should be checked during field testing before claiming a universal maximum for all iron deposits.
+
+## Next design review
+
+- Provide a second bounded source for gun blueprints and a useful conversion for duplicates, so unlucky players can still progress.
+- Test time to first firearm and iron acquired before hordes 1 and 2 in a new world.
+- Discuss world danger milestones after horde 1. A flat 50% increase to every mob is only an idea at this stage; no change has been applied.

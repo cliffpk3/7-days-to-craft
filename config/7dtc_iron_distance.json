@@ -1,0 +1,14 @@
+{
+  "maximumDistances": [
+    512,
+    1024,
+    1536
+  ],
+  "sizeMultipliers": [
+    0.5,
+    0.65,
+    0.8,
+    1.0
+  ],
+  "minimumSize": 1
+}
