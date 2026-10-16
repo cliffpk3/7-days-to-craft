@@ -1,0 +1,51 @@
+{
+	filename: "training_salvager"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000008"
+	order_index: 18
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:shears"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000008"]
+			description: ["Obtain a Recycler. Complete this step to continue Salvager Training."]
+			icon: "corail_recycler:recycler"
+			id: "2D24F95D1CE9DC7F"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/recycler_obtain"
+				criterion: "completed"
+				id: "7D7C350000000801"
+				title: "Obtain a Recycler"
+				type: "advancement"
+			}]
+			title: "Obtain a Recycler"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2D24F95D1CE9DC7F"]
+			description: ["Obtain a Recycler and interact with it while Salvager is active."]
+			icon: "corail_recycler:recycler"
+			id: "7D7C310000000008"
+			rewards: [{
+				id: "7D7C340000000008"
+				item: "wrd:keystrongholdchest_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/salvager_use"
+				criterion: "completed"
+				id: "7D7C350000000802"
+				title: "Interact with the Recycler"
+				type: "advancement"
+			}]
+			title: "Salvager Training"
+			x: 1.8d
+			y: 0.0d
+		}
+	]
+	title: "Salvager"
+}

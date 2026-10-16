@@ -1,0 +1,71 @@
+{
+	filename: "training_enduringvitality"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000016"
+	order_index: 32
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:glistering_melon_slice"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000016"]
+			description: ["Take damage. Complete this step to continue Enduring Vitality Training."]
+			icon: "minecraft:glistering_melon_slice"
+			id: "7D40C0E6B3DE3B0D"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/enduring_vitality_damage"
+				criterion: "completed"
+				id: "7D7C350000001601"
+				title: "Take damage"
+				type: "advancement"
+			}]
+			title: "Take damage"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D40C0E6B3DE3B0D"]
+			description: ["Avoid further damage. Complete this step to continue Enduring Vitality Training."]
+			icon: "minecraft:glistering_melon_slice"
+			id: "1F618EAC81DFB16E"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/enduring_vitality_wait"
+				criterion: "completed"
+				id: "7D7C350000001602"
+				title: "Avoid further damage"
+				type: "advancement"
+			}]
+			title: "Avoid further damage"
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1F618EAC81DFB16E"]
+			description: [
+				"After taking damage, remain safe and observe the slow passive recovery."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."
+			]
+			icon: "minecraft:glistering_melon_slice"
+			id: "7D7C310000000016"
+			rewards: [{
+				id: "7D7C340000000016"
+				item: "wrd:keystrongholdchest_treasure"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/enduring_vitality_recovery"
+				criterion: "completed"
+				id: "7D7C350000001603"
+				title: "Observe slow passive recovery"
+				type: "advancement"
+			}]
+			title: "Enduring Vitality Training"
+			x: 3.6d
+			y: 0.0d
+		}
+	]
+	title: "Enduring Vitality"
+}

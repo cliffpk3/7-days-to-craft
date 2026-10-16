@@ -1,0 +1,35 @@
+{
+	filename: "training_keyconservation"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000017"
+	order_index: 33
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "wrd:keystrongholdchest_gold"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000017"]
+			description: ["Bring the matching key and open a locked chest while Key Conservation is active."]
+			icon: "wrd:keystrongholdchest_gold"
+			id: "7D7C310000000017"
+			rewards: [{
+				id: "7D7C340000000017"
+				item: "wrd:keystrongholdchest_treasure"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/key_conservation_open"
+				criterion: "completed"
+				id: "7D7C350000001701"
+				title: "Open a locked chest with Key Conservation active"
+				type: "advancement"
+			}]
+			title: "Key Conservation Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Key Conservation"
+}

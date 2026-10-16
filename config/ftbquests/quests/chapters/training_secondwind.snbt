@@ -1,0 +1,71 @@
+{
+	filename: "training_secondwind"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000015"
+	order_index: 31
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:potion"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000015"]
+			description: ["Kill a hostile mob while wounded. Complete this step to continue Second Wind Training."]
+			icon: "minecraft:potion"
+			id: "2A9219D7C357DC99"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/second_wind_wounded_kill"
+				criterion: "completed"
+				id: "7D7C350000001501"
+				title: "Kill a hostile mob while wounded"
+				type: "advancement"
+			}]
+			title: "Kill a hostile mob while wounded"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2A9219D7C357DC99"]
+			description: ["Trigger Second Wind. Complete this step to continue Second Wind Training."]
+			icon: "minecraft:potion"
+			id: "16D87BFCDB7299C9"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/second_wind_trigger"
+				criterion: "completed"
+				id: "7D7C350000001502"
+				title: "Trigger Second Wind"
+				type: "advancement"
+			}]
+			title: "Trigger Second Wind"
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["16D87BFCDB7299C9"]
+			description: [
+				"After killing a hostile mob while wounded, stay alive through the four-second Second Wind recovery."
+				""
+				"Complete this lesson once to claim its Level 4 Key."
+			]
+			icon: "minecraft:potion"
+			id: "7D7C310000000015"
+			rewards: [{
+				id: "7D7C340000000015"
+				item: "wrd:keystrongholdchest_treasure"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/second_wind_recover"
+				criterion: "completed"
+				id: "7D7C350000001503"
+				title: "Complete the four-second recovery"
+				type: "advancement"
+			}]
+			title: "Second Wind Training"
+			x: 3.6d
+			y: 0.0d
+		}
+	]
+	title: "Second Wind"
+}

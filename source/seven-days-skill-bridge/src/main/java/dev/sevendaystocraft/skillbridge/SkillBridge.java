@@ -1337,7 +1337,7 @@ public final class SkillBridge {
         private static boolean enderTraversal;
         private static boolean threatSense;
         private static boolean dayTime;
-        private record Notice(String title, String message, long duration, int accent) {}
+        private record Notice(String title, String message, long duration, int accent, boolean compact) {}
         private static final Deque<Notice> NOTICE_QUEUE = new ArrayDeque<>();
         private static final Map<ResourceLocation, Integer> LAST_EFFECTS = new HashMap<>();
         private static Notice activeNotice;
@@ -1347,7 +1347,7 @@ public final class SkillBridge {
         private static boolean effectsInitialized;
 
         static void enqueueNotice(String title, String message, long duration, int accent) {
-            NOTICE_QUEUE.addLast(new Notice(title, message, duration, accent));
+            NOTICE_QUEUE.addLast(new Notice(title, message, duration, accent, false));
         }
 
         public static boolean hasThreatSense() {
@@ -1379,7 +1379,12 @@ public final class SkillBridge {
                 if (effectsInitialized && (previous == null || effect.getAmplifier() > previous)) {
                     String kind = effect.getEffect().getCategory() == MobEffectCategory.HARMFUL ? "DEBUFF" : "BUFF";
                     int accent = effect.getEffect().getCategory() == MobEffectCategory.HARMFUL ? 0xFFFF5555 : 0xFF55FF55;
-                    enqueueNotice(kind + ": " + effect.getEffect().getDisplayName().getString(), describeEffect(id, effect), 3200L, accent);
+                    String description = describeEffect(id, effect);
+                    // Unknown mod effects already have the normal status icon. Do not
+                    // invent a misleading explanation for mechanics we cannot verify.
+                    if (description != null) {
+                        NOTICE_QUEUE.addLast(new Notice(kind + ": " + effect.getEffect().getDisplayName().getString(), description, 2800L, accent, true));
+                    }
                 }
             }
             LAST_EFFECTS.clear();
@@ -1393,14 +1398,17 @@ public final class SkillBridge {
             String duration = effect.isInfiniteDuration() ? "Permanent" : "Duration: " + seconds + " seconds";
             String key = id.toString();
             String impact;
-            if (key.contains("infect")) impact = "You are infected. Your hunger will drain faster.";
+            if (key.equals("alexsmobs:earthquake")) impact = "The Rocky Roller's tremor shakes your view.";
+            else if (key.equals("alexsmobs:exsanguination")) impact = "Bleeding damages you over time.";
+            else if (key.equals("alexsmobs:ender_flu")) impact = "Ender infection can hurt you and release Enderiophages.";
+            else if (key.equals("hordes:infected")) impact = "Infection drains hunger; later stages can slow you.";
             else if (effect.getEffect() == MobEffects.DAMAGE_RESISTANCE) impact = "You take " + Math.min(80, level * 20) + "% less damage.";
             else if (effect.getEffect() == MobEffects.MOVEMENT_SPEED) impact = "Your movement speed is increased by " + (level * 20) + "%.";
             else if (effect.getEffect() == MobEffects.MOVEMENT_SLOWDOWN) impact = "Your movement speed is reduced by " + (level * 15) + "%.";
             else if (effect.getEffect() == MobEffects.DAMAGE_BOOST) impact = "Your melee attacks deal " + (level * 3) + " extra damage.";
             else if (effect.getEffect() == MobEffects.WEAKNESS) impact = "Your melee attacks deal less damage.";
-            else if (effect.getEffect() == MobEffects.DIG_SPEED) impact = "Mining and attack speed are increased.";
-            else if (effect.getEffect() == MobEffects.DIG_SLOWDOWN) impact = "Mining and attack speed are reduced.";
+            else if (effect.getEffect() == MobEffects.DIG_SPEED) impact = "Mining speed is increased.";
+            else if (effect.getEffect() == MobEffects.DIG_SLOWDOWN) impact = "Mining speed is reduced.";
             else if (effect.getEffect() == MobEffects.HUNGER) impact = "Your hunger drains faster.";
             else if (effect.getEffect() == MobEffects.REGENERATION) impact = "You regenerate health over time.";
             else if (effect.getEffect() == MobEffects.POISON) impact = "You take periodic poison damage, but it cannot kill you.";
@@ -1411,8 +1419,7 @@ public final class SkillBridge {
             else if (effect.getEffect() == MobEffects.INVISIBILITY) impact = "Most creatures have more difficulty seeing you.";
             else if (effect.getEffect() == MobEffects.ABSORPTION) impact = "You have temporary absorption hearts.";
             else if (effect.getEffect() == MobEffects.HEALTH_BOOST) impact = "Your maximum health is temporarily increased.";
-            else if (effect.getEffect().getCategory() == MobEffectCategory.HARMFUL) impact = "A harmful condition is now affecting you.";
-            else impact = "A beneficial condition is now affecting you.";
+            else return null;
             return impact + " " + duration + (level > 1 ? " (Level " + level + ")" : "");
         }
 
@@ -1472,6 +1479,22 @@ public final class SkillBridge {
             }
             if (activeNotice == null) return;
             var minecraft = Minecraft.getInstance();
+            if (activeNotice.compact()) {
+                String message = activeNotice.title() + ": " + activeNotice.message();
+                int maxWidth = Math.min(350, event.getWindow().getGuiScaledWidth() - 24);
+                List<net.minecraft.util.FormattedCharSequence> lines = minecraft.font.split(Component.literal(message), maxWidth);
+                int textWidth = 0;
+                for (var line : lines) textWidth = Math.max(textWidth, minecraft.font.width(line));
+                int left = (event.getWindow().getGuiScaledWidth() - textWidth) / 2;
+                int top = event.getWindow().getGuiScaledHeight() - 82 - (lines.size() - 1) * 10;
+                event.getGuiGraphics().fill(left - 4, top - 2, left + textWidth + 4, top + lines.size() * 10 + 1, 0x99000000);
+                int y = top;
+                for (var line : lines) {
+                    event.getGuiGraphics().drawString(minecraft.font, line, left, y, activeNotice.accent(), true);
+                    y += 10;
+                }
+                return;
+            }
             int maxTextWidth = Math.min(360, event.getWindow().getGuiScaledWidth() - 40);
             List<net.minecraft.util.FormattedCharSequence> lines = minecraft.font.split(Component.literal(activeNotice.message()), maxTextWidth - 20);
             int contentWidth = minecraft.font.width(activeNotice.title());

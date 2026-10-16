@@ -1,0 +1,71 @@
+{
+	filename: "training_sentryengineering"
+	group: "7D7C000000000001"
+	id: "7D7C3A000000000F"
+	order_index: 25
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:dispenser"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C36000000000F"]
+			description: ["Craft, obtain or interact with a Basic Turret. Complete this step to continue Sentry Engineering Training."]
+			icon: "seven_days_defense:basic_turret"
+			id: "0F3933265C433E99"
+			tasks: [{
+				advancement: "seven_days_defense:training/basic_crafted"
+				criterion: "completed"
+				id: "7D7C3200000200F1"
+				title: "Craft, obtain or interact with a Basic Turret"
+				type: "advancement"
+			}]
+			title: "Craft, obtain or interact with a Basic Turret"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["0F3933265C433E99"]
+			description: ["Install a Basic Turret. Complete this step to continue Sentry Engineering Training."]
+			icon: "seven_days_defense:basic_turret"
+			id: "63895B4F4DA04037"
+			tasks: [{
+				advancement: "seven_days_defense:training/basic_placed"
+				criterion: "completed"
+				id: "7D7C3200000200F2"
+				title: "Install a Basic Turret"
+				type: "advancement"
+			}]
+			title: "Install a Basic Turret"
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["63895B4F4DA04037"]
+			description: [
+				"Craft, obtain or interact with a Basic Turret, then install and load it with turret ammunition."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."
+			]
+			icon: "seven_days_defense:basic_turret"
+			id: "7D7C31000000000F"
+			rewards: [{
+				id: "7D7C34000000000F"
+				item: "wrd:keystrongholdchest_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_defense:training/basic_loaded"
+				criterion: "completed"
+				id: "7D7C3200000200F3"
+				title: "Load compatible ammunition"
+				type: "advancement"
+			}]
+			title: "Sentry Engineering Training"
+			x: 3.6d
+			y: 0.0d
+		}
+	]
+	title: "Sentry Engineering"
+}

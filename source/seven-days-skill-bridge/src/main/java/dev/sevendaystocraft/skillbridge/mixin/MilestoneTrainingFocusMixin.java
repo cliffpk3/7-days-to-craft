@@ -21,7 +21,7 @@ public abstract class MilestoneTrainingFocusMixin {
 
     @Inject(method = "selectChapter", at = @At("RETURN"))
     private void sevenDays$focusFirstAvailableTraining(Chapter chapter, CallbackInfo ci) {
-        if (chapter == null || !"skill_training".equals(chapter.getFilename()) || file.selfTeamData == null) {
+        if (chapter == null || !chapter.getFilename().startsWith("training_") || file.selfTeamData == null) {
             return;
         }
 

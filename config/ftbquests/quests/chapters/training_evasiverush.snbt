@@ -1,0 +1,67 @@
+{
+	filename: "training_evasiverush"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000025"
+	order_index: 47
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:golden_boots"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000025"]
+			description: ["Take damage and trigger Evasive Rush. Complete this step to continue Evasive Rush Training."]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "60E2BBA94CF89236"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/evasive_rush_trigger"
+				criterion: "completed"
+				id: "7D7C350000002501"
+				title: "Take damage and trigger Evasive Rush"
+				type: "advancement"
+			}]
+			title: "Take damage and trigger Evasive Rush"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["60E2BBA94CF89236"]
+			description: [
+				"After you take damage, Evasive Rush increases movement speed by 25% for five seconds."
+				""
+				"The response can activate once every 30 seconds. Take damage, then sprint while the speed boost is active."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D7C310000000025"
+			rewards: [{
+				id: "7D7C340000000025"
+				item: "wrd:keystrongholdchest_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/evasive_rush_sprint"
+				criterion: "completed"
+				id: "7D7C350000002502"
+				title: "Sprint during the five-second boost"
+				type: "advancement"
+			}]
+			title: "Evasive Rush Training"
+			x: 1.8d
+			y: 0.0d
+		}
+	]
+	title: "Evasive Rush"
+}

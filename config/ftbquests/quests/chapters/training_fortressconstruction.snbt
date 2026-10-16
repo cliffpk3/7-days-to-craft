@@ -1,0 +1,55 @@
+{
+	filename: "training_fortressconstruction"
+	group: "7D7C000000000001"
+	id: "7D7C3A000000001B"
+	order_index: 37
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:smooth_stone"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C36000000001B"]
+			description: ["Smelt, obtain or use Smooth Stone. Complete this step to continue Fortress Construction Training."]
+			icon: "minecraft:smooth_stone"
+			id: "08D6F0A8B590F3E4"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/smooth_stone_obtain_or_use"
+				criterion: "completed"
+				id: "7D7C350000001B01"
+				title: "Smelt, obtain or use Smooth Stone"
+				type: "advancement"
+			}]
+			title: "Smelt, obtain or use Smooth Stone"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["08D6F0A8B590F3E4"]
+			description: [
+				"Smelt, obtain or interact with Smooth Stone, then place it as a monster-resistant fortification."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."
+			]
+			icon: "minecraft:smooth_stone"
+			id: "7D7C31000000001B"
+			rewards: [{
+				id: "7D7C34000000001B"
+				item: "wrd:keystrongholdchest_treasure"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/fortress_place"
+				criterion: "completed"
+				id: "7D7C350000001B02"
+				title: "Place Smooth Stone as a fortification"
+				type: "advancement"
+			}]
+			title: "Fortress Construction Training"
+			x: 1.8d
+			y: 0.0d
+		}
+	]
+	title: "Fortress Construction"
+}

@@ -1,17 +1,23 @@
 {
- always_invisible: true
- filename: "wrd_expedition_unlocks"
- group: "7D7C000000000001"
- id: "7D7CB00000000002"
- order_index: 101
- quests: [
-  {
-   id: "7D7CB20000000001"
-   invisible: true
-   tasks: [{ advancement: "seven_days_to_craft:wrd/first_contact", criterion: "completed", id: "7D7CB30000000001", type: "advancement" }]
-   title: "Dungeon Discovery Unlock"
-   x: 0.0d
-   y: 0.0d
-  }
- ]
+	always_invisible: true
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "wrd_expedition_unlocks"
+	group: "7D7C000000000001"
+	id: "7D7CB00000000002"
+	order_index: 7
+	quest_links: [ ]
+	quests: [{
+		id: "7D7CB20000000001"
+		invisible: true
+		tasks: [{
+			advancement: "seven_days_to_craft:wrd/first_contact"
+			criterion: "completed"
+			id: "7D7CB30000000001"
+			type: "advancement"
+		}]
+		title: "Dungeon Discovery Unlock"
+		x: 0.0d
+		y: 0.0d
+	}]
 }

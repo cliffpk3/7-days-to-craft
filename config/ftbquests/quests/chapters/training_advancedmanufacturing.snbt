@@ -1,0 +1,39 @@
+{
+	filename: "training_advancedmanufacturing"
+	group: "7D7C000000000001"
+	id: "7D7C3A000000000E"
+	order_index: 24
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "create:precision_mechanism"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C36000000000E"]
+			description: [
+				"Inspect the advanced Create components now available."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 3 Key."
+			]
+			icon: "create:brass_hand"
+			id: "7D7C31000000000E"
+			rewards: [{
+				id: "7D7C34000000000E"
+				item: "wrd:keystrongholdchest_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/advanced_component_obtain_or_use"
+				criterion: "completed"
+				id: "7D7C350000000E02"
+				title: "Craft, obtain or use an advanced processing component"
+				type: "advancement"
+			}]
+			title: "Advanced Manufacturing Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Advanced Manufacturing"
+}

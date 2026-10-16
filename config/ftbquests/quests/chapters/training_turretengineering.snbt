@@ -1,0 +1,71 @@
+{
+	filename: "training_turretengineering"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000010"
+	order_index: 26
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:observer"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000010"]
+			description: ["Craft, obtain or interact with an Advanced Turret. Complete this step to continue Turret Engineering Training."]
+			icon: "seven_days_defense:advanced_turret"
+			id: "3205B963E0C5D07F"
+			tasks: [{
+				advancement: "seven_days_defense:training/advanced_crafted"
+				criterion: "completed"
+				id: "7D7C320000020101"
+				title: "Craft, obtain or interact with an Advanced Turret"
+				type: "advancement"
+			}]
+			title: "Craft, obtain or interact with an Advanced Turret"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3205B963E0C5D07F"]
+			description: ["Install an Advanced Turret. Complete this step to continue Turret Engineering Training."]
+			icon: "seven_days_defense:advanced_turret"
+			id: "1E0BD6131A40161C"
+			tasks: [{
+				advancement: "seven_days_defense:training/advanced_placed"
+				criterion: "completed"
+				id: "7D7C320000020102"
+				title: "Install an Advanced Turret"
+				type: "advancement"
+			}]
+			title: "Install an Advanced Turret"
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1E0BD6131A40161C"]
+			description: [
+				"Craft, obtain or interact with an advanced or shotgun turret, then verify the shared capacity limit."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 3 Key."
+			]
+			icon: "seven_days_defense:advanced_turret"
+			id: "7D7C310000000010"
+			rewards: [{
+				id: "7D7C340000000010"
+				item: "wrd:keystrongholdchest_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_defense:training/advanced_loaded"
+				criterion: "completed"
+				id: "7D7C320000020103"
+				title: "Load compatible ammunition"
+				type: "advancement"
+			}]
+			title: "Turret Engineering Training"
+			x: 3.6d
+			y: 0.0d
+		}
+	]
+	title: "Turret Engineering"
+}

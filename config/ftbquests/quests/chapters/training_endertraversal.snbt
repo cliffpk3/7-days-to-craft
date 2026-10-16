@@ -1,0 +1,55 @@
+{
+	filename: "training_endertraversal"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000013"
+	order_index: 29
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "grapplemod:launcheritem"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000013"]
+			description: ["Obtain an Ender traversal item. Complete this step to continue Ender Traversal Training."]
+			icon: "grapplemod:enderhook"
+			id: "75B3965B96984F3A"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/ender_obtain"
+				criterion: "completed"
+				id: "7D7C350000001301"
+				title: "Obtain an Ender traversal item"
+				type: "advancement"
+			}]
+			title: "Obtain an Ender traversal item"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["75B3965B96984F3A"]
+			description: [
+				"Use the Ender Staff or Ender Grappling Hook to practice emergency traversal."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."
+			]
+			icon: "grapplemod:enderhook"
+			id: "7D7C310000000013"
+			rewards: [{
+				id: "7D7C340000000013"
+				item: "wrd:keystrongholdchest_treasure"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/ender_use"
+				criterion: "completed"
+				id: "7D7C350000001302"
+				title: "Use an Ender traversal item"
+				type: "advancement"
+			}]
+			title: "Ender Traversal Training"
+			x: 1.8d
+			y: 0.0d
+		}
+	]
+	title: "Ender Traversal"
+}

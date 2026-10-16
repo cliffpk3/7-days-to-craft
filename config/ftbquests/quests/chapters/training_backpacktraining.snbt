@@ -1,0 +1,55 @@
+{
+	filename: "training_backpacktraining"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000003"
+	order_index: 13
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:bundle"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000003"]
+			description: ["Obtain a Quark Backpack. Complete this step to continue Backpack License Training."]
+			icon: "quark:backpack"
+			id: "6E938A1658F92ABD"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/backpack_obtain"
+				criterion: "completed"
+				id: "7D7C350000000301"
+				title: "Obtain a Quark Backpack"
+				type: "advancement"
+			}]
+			title: "Obtain a Quark Backpack"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["6E938A1658F92ABD"]
+			description: [
+				"Obtain a Quark Backpack and equip it in the Curios Back slot."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 1 Key."
+			]
+			icon: "quark:backpack"
+			id: "7D7C310000000003"
+			rewards: [{
+				id: "7D7C340000000003"
+				item: "wrd:keystrongholdchest_iron"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/backpack_equip"
+				criterion: "completed"
+				id: "7D7C350000000302"
+				title: "Equip it in the Curios Back slot"
+				type: "advancement"
+			}]
+			title: "Backpack License Training"
+			x: 1.8d
+			y: 0.0d
+		}
+	]
+	title: "Backpack Training"
+}

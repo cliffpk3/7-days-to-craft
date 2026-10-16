@@ -1,0 +1,71 @@
+{
+	filename: "training_emergencymobility"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000011"
+	order_index: 27
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:firework_rocket"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000011"]
+			description: ["Reach twenty percent health safely. Complete this step to continue Emergency Mobility Training."]
+			icon: "minecraft:firework_rocket"
+			id: "39AAFC048B220B8D"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/emergency_mobility_threshold"
+				criterion: "completed"
+				id: "7D7C350000001101"
+				title: "Reach twenty percent health safely"
+				type: "advancement"
+			}]
+			title: "Reach twenty percent health safely"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["39AAFC048B220B8D"]
+			description: ["Trigger the speed response. Complete this step to continue Emergency Mobility Training."]
+			icon: "minecraft:firework_rocket"
+			id: "397DA1BA4D70008C"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/emergency_mobility_trigger"
+				criterion: "completed"
+				id: "7D7C350000001102"
+				title: "Trigger the speed response"
+				type: "advancement"
+			}]
+			title: "Trigger the speed response"
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["397DA1BA4D70008C"]
+			description: [
+				"At or below 20% health, observe the temporary speed and unlimited stamina response."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."
+			]
+			icon: "minecraft:firework_rocket"
+			id: "7D7C310000000011"
+			rewards: [{
+				id: "7D7C340000000011"
+				item: "wrd:keystrongholdchest_treasure"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/emergency_mobility_sprint"
+				criterion: "completed"
+				id: "7D7C350000001103"
+				title: "Sprint while stamina is preserved"
+				type: "advancement"
+			}]
+			title: "Emergency Mobility Training"
+			x: 3.6d
+			y: 0.0d
+		}
+	]
+	title: "Emergency Mobility"
+}

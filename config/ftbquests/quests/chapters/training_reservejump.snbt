@@ -1,0 +1,39 @@
+{
+	filename: "training_reservejump"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000020"
+	order_index: 42
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:slime_ball"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000020"]
+			description: [
+				"Jump, release the Jump key, then press Jump once more while airborne."
+				""
+				"The second jump has a 30-second cooldown and cannot be used while mounted, gliding or swimming."
+			]
+			icon: "minecraft:slime_ball"
+			id: "7D7C310000000020"
+			rewards: [{
+				id: "7D7C340000000020"
+				item: "wrd:keystrongholdchest_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/double_jump_use"
+				criterion: "completed"
+				id: "7D7C350000002001"
+				title: "Perform a Double Jump"
+				type: "advancement"
+			}]
+			title: "Reserve Jump Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Reserve Jump"
+}

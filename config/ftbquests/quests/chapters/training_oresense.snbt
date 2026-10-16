@@ -1,0 +1,35 @@
+{
+	filename: "training_oresense"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000005"
+	order_index: 15
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:amethyst_shard"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000005"]
+			description: ["Find and mine an exposed ore in a dark place while Ore Sense is active. The ore emits a subtle light at level 6 of 15."]
+			icon: "minecraft:raw_iron"
+			id: "7D7C310000000005"
+			rewards: [{
+				id: "7D7C340000000005"
+				item: "wrd:keystrongholdchest_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/ore_sense_mine"
+				criterion: "completed"
+				id: "7D7C350000000501"
+				title: "Mine an exposed ore in a dark place"
+				type: "advancement"
+			}]
+			title: "Ore Sense Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Ore Sense"
+}

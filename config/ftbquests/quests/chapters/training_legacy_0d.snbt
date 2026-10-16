@@ -1,0 +1,35 @@
+{
+	filename: "training_legacy_0d"
+	group: "7D7C000000000001"
+	id: "7D7C3A000000000D"
+	order_index: 23
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	always_invisible: true
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C36000000000D"]
+			description: ["Build rotational power, then interact with a powered Create processing component."]
+			icon: "create:large_cogwheel"
+			id: "7D7C31000000000D"
+			rewards: [{
+				id: "7D7C34000000000D"
+				item: "wrd:keystrongholdchest_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/advanced_mechanics_use"
+				criterion: "completed"
+				id: "7D7C350000000D01"
+				title: "Interact with a powered Create processing component"
+				type: "advancement"
+			}]
+			title: "Advanced Mechanics Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Mechanical Processing"
+}

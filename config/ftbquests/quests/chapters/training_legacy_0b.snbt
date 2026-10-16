@@ -1,0 +1,39 @@
+{
+	filename: "training_legacy_0b"
+	group: "7D7C000000000001"
+	id: "7D7C3A000000000B"
+	order_index: 21
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	always_invisible: true
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C36000000000B"]
+			description: [
+				"Inspect, obtain or use an advanced ammunition type."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."
+			]
+			icon: "cgm:advanced_bullet"
+			id: "7D7C31000000000B"
+			rewards: [{
+				id: "7D7C34000000000B"
+				item: "wrd:keystrongholdchest_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/advanced_ammunition_obtain_or_use"
+				criterion: "completed"
+				id: "7D7C350000000B02"
+				title: "Craft, obtain or use Advanced Bullets or Shells"
+				type: "advancement"
+			}]
+			title: "Advanced Ammunition Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Ammunition II"
+}

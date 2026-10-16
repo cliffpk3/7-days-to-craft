@@ -1,0 +1,71 @@
+{
+	filename: "training_paintolerance"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000014"
+	order_index: 30
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:totem_of_undying"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000014"]
+			description: ["Reach twenty percent health safely. Complete this step to continue Pain Tolerance Training."]
+			icon: "minecraft:totem_of_undying"
+			id: "3927E6F70D907ACA"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/pain_tolerance_threshold"
+				criterion: "completed"
+				id: "7D7C350000001401"
+				title: "Reach twenty percent health safely"
+				type: "advancement"
+			}]
+			title: "Reach twenty percent health safely"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3927E6F70D907ACA"]
+			description: ["Trigger resistance. Complete this step to continue Pain Tolerance Training."]
+			icon: "minecraft:totem_of_undying"
+			id: "77F3885EA7AE16EC"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/pain_tolerance_trigger"
+				criterion: "completed"
+				id: "7D7C350000001402"
+				title: "Trigger resistance"
+				type: "advancement"
+			}]
+			title: "Trigger resistance"
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["77F3885EA7AE16EC"]
+			description: [
+				"At or below 20% health, observe the temporary resistance effect."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "7D7C310000000014"
+			rewards: [{
+				id: "7D7C340000000014"
+				item: "wrd:keystrongholdchest_treasure"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/pain_tolerance_observe"
+				criterion: "completed"
+				id: "7D7C350000001403"
+				title: "Observe its duration and cooldown"
+				type: "advancement"
+			}]
+			title: "Pain Tolerance Training"
+			x: 3.6d
+			y: 0.0d
+		}
+	]
+	title: "Pain Tolerance"
+}

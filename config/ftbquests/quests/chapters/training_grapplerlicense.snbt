@@ -1,0 +1,67 @@
+{
+	filename: "training_grapplerlicense"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000002"
+	order_index: 12
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:fishing_rod"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000002"]
+			description: ["Obtain a standard Grappling Hook. Complete this step to continue Grappler License Training."]
+			icon: {
+				Count: 1
+				id: "grapplemod:grapplinghook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F749EC9573451CC"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/grappler_obtain"
+				criterion: "completed"
+				id: "7D7C350000000201"
+				title: "Obtain a standard Grappling Hook"
+				type: "advancement"
+			}]
+			title: "Obtain a standard Grappling Hook"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["2F749EC9573451CC"]
+			description: [
+				"Craft or obtain a standard grappling hook and practice safe traversal."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 3 Key."
+			]
+			icon: {
+				Count: 1
+				id: "grapplemod:grapplinghook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D7C310000000002"
+			rewards: [{
+				id: "7D7C340000000002"
+				item: "wrd:keystrongholdchest_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/grappler_use"
+				criterion: "completed"
+				id: "7D7C350000000202"
+				title: "Attach the Grappling Hook to a solid block"
+				type: "advancement"
+			}]
+			title: "Grappler License Training"
+			x: 1.8d
+			y: 0.0d
+		}
+	]
+	title: "Grappler License"
+}

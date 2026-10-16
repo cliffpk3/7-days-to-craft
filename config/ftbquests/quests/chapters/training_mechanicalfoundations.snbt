@@ -1,0 +1,39 @@
+{
+	filename: "training_mechanicalfoundations"
+	group: "7D7C000000000001"
+	id: "7D7C3A000000000C"
+	order_index: 22
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "create:cogwheel"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C36000000000C"]
+			description: [
+				"Craft, obtain or interact with the basic Create mechanical components."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 1 Key."
+			]
+			icon: "create:cogwheel"
+			id: "7D7C31000000000C"
+			rewards: [{
+				id: "7D7C34000000000C"
+				item: "wrd:keystrongholdchest_iron"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/basic_components_obtain_or_use"
+				criterion: "completed"
+				id: "7D7C350000000C01"
+				title: "Craft, obtain or use a Cogwheel and Shaft"
+				type: "advancement"
+			}]
+			title: "Basic Mechanics Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Mechanical Foundations"
+}

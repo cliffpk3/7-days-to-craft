@@ -1,0 +1,39 @@
+{
+	filename: "training_beastrider"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000021"
+	order_index: 43
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:saddle"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000021"]
+			description: [
+				"Train one Alex's Mobs mount: the Komodo Dragon."
+				""
+				"Find a Komodo Dragon, feed it Rotten Flesh until hearts confirm taming, equip a Saddle, then mount it. The milestone also permits other native Alex's Mobs mounts when you discover their own requirements."
+			]
+			icon: "minecraft:saddle"
+			id: "7D7C310000000021"
+			rewards: [{
+				id: "7D7C340000000021"
+				item: "wrd:keystrongholdchest_diamond"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/beast_rider_mount"
+				criterion: "completed"
+				id: "7D7C350000000213"
+				title: "Mount a tamed Komodo Dragon"
+				type: "advancement"
+			}]
+			title: "Beast Rider Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Beast Rider"
+}

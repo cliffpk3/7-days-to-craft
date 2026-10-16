@@ -1,0 +1,35 @@
+{
+	filename: "training_createautomation"
+	group: "7D7C000000000001"
+	id: "7D7C3A000000001A"
+	order_index: 36
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "create:mechanical_arm"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C36000000001A"]
+			description: ["Interact with a Create component used for transport or automatic processing while Create Automation is active."]
+			icon: "create:mechanical_arm"
+			id: "7D7C31000000001A"
+			rewards: [{
+				id: "7D7C34000000001A"
+				item: "wrd:keystrongholdchest_treasure"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/create_automation_use"
+				criterion: "completed"
+				id: "7D7C350000001A01"
+				title: "Interact with a Create automation component"
+				type: "advancement"
+			}]
+			title: "Create Automation Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Create Automation"
+}

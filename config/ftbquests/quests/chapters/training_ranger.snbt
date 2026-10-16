@@ -1,0 +1,45 @@
+{
+	filename: "training_ranger"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000024"
+	order_index: 46
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:bow"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000024"]
+			description: [
+				"Ranger increases damage dealt by ranged weapons by 25%."
+				""
+				"Use a bow, crossbow, or firearm to damage a hostile creature and confirm the specialization."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D7C310000000024"
+			rewards: [{
+				id: "7D7C340000000024"
+				item: "wrd:keystrongholdchest_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/ranger_hit"
+				criterion: "completed"
+				id: "7D7C350000002401"
+				title: "Hit a hostile creature with a ranged weapon"
+				type: "advancement"
+			}]
+			title: "Ranger Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Ranger"
+}

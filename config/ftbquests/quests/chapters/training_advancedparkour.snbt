@@ -1,0 +1,71 @@
+{
+	filename: "training_advancedparkour"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000001"
+	order_index: 11
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:ladder"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000001"]
+			description: ["Grip a ledge. Complete this step to continue Wall Grip Training."]
+			icon: "minecraft:ladder"
+			id: "10AB99EE5189DD73"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/wall_grip_cling"
+				criterion: "completed"
+				id: "7D7C350000000101"
+				title: "Grip a ledge"
+				type: "advancement"
+			}]
+			title: "Grip a ledge"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10AB99EE5189DD73"]
+			description: ["Climb the ledge. Complete this step to continue Wall Grip Training."]
+			icon: "minecraft:ladder"
+			id: "4A0483D28117B5B6"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/wall_grip_climb"
+				criterion: "completed"
+				id: "7D7C350000000102"
+				title: "Climb the ledge"
+				type: "advancement"
+			}]
+			title: "Climb the ledge"
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A0483D28117B5B6"]
+			description: [
+				"Use ledges and block edges to climb or hold position with Parcool."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 1 Key."
+			]
+			icon: "minecraft:ladder"
+			id: "7D7C310000000001"
+			rewards: [{
+				id: "7D7C340000000001"
+				item: "wrd:keystrongholdchest_iron"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/wall_grip_repeat"
+				criterion: "completed"
+				id: "7D7C350000000103"
+				title: "Repeat without taking fall damage"
+				type: "advancement"
+			}]
+			title: "Wall Grip Training"
+			x: 3.6d
+			y: 0.0d
+		}
+	]
+	title: "Advanced Parkour"
+}

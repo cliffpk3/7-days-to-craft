@@ -161,7 +161,10 @@ public final class QuestHud {
         TeamData data = ClientQuestFile.INSTANCE.selfTeamData;
         List<FormattedCharSequence> lines = new ArrayList<>();
         ClientQuestFile.INSTANCE.forAllQuests(quest -> {
-            if (!quest.isVisible(data) || data.isCompleted(quest) || !data.canStartTasks(quest)) return;
+            // FTB may render a quest as visible before its prerequisite is done.
+            // The HUD must only list training after the matching skill unlock.
+            if (!quest.isVisible(data) || !quest.areDependenciesComplete(data)
+                || data.isCompleted(quest) || !data.canStartTasks(quest)) return;
             int progress = quest.getRelativeProgressFromChildren(data);
             MutableComponent title = quest.getTitle().copy()
                 .append(Component.literal(" " + progress + "%").withStyle(ChatFormatting.AQUA));

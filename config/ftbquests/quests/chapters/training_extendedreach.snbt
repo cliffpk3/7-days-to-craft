@@ -1,0 +1,45 @@
+{
+	filename: "training_extendedreach"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000026"
+	order_index: 48
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "divine_weaponry:iron_spear"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000026"]
+			description: [
+				"Extended Reach adds two blocks to your melee attack and entity interaction reach."
+				""
+				"Strike a hostile creature from at least 3.5 blocks away to prove that you can use the extra distance."
+			]
+			icon: {
+				Count: 1
+				id: "divine_weaponry:iron_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D7C310000000026"
+			rewards: [{
+				id: "7D7C340000000026"
+				item: "wrd:keystrongholdchest_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/extended_reach_hit"
+				criterion: "completed"
+				id: "7D7C350000002601"
+				title: "Hit a hostile creature from at least 3.5 blocks away"
+				type: "advancement"
+			}]
+			title: "Extended Reach Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Extended Reach"
+}

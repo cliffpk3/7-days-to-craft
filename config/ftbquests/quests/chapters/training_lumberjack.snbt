@@ -1,0 +1,41 @@
+{
+	filename: "training_lumberjack"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000006"
+	order_index: 16
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:diamond_axe"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000006"]
+			description: ["Use an axe to break a tree log while Lumberjack is active."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D7C310000000006"
+			rewards: [{
+				id: "7D7C340000000006"
+				item: "wrd:keystrongholdchest_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/lumberjack_fell"
+				criterion: "completed"
+				id: "7D7C350000000601"
+				title: "Break a tree log with an axe"
+				type: "advancement"
+			}]
+			title: "Lumberjack Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Lumberjack"
+}

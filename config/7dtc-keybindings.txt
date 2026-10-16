@@ -207,5 +207,5 @@ key_key.l2mods.right:key.keyboard.right
 key_key.l2mods.swap:key.keyboard.r
 key_key.trashslot.toggle:key.keyboard.unknown
 key_key.trashslot.toggleLock:key.keyboard.unknown
-key_key.trashslot.delete:key.keyboard.delete
-key_key.trashslot.deleteAll:key.keyboard.d
+key_key.trashslot.delete:key.keyboard.d
+key_key.trashslot.deleteAll:key.keyboard.unknown

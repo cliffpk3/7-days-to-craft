@@ -1,0 +1,39 @@
+{
+	filename: "training_legacy_09"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000009"
+	order_index: 19
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	always_invisible: true
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000009"]
+			description: [
+				"Inspect the unlocked firearm recipes in the Custom Workbench."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 1 Key."
+			]
+			icon: "cgm:pistol"
+			id: "7D7C310000000009"
+			rewards: [{
+				id: "7D7C340000000009"
+				item: "wrd:keystrongholdchest_iron"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/firearm_obtain_or_use"
+				criterion: "completed"
+				id: "7D7C350000000903"
+				title: "Craft, obtain or use an unlocked firearm"
+				type: "advancement"
+			}]
+			title: "Gunsmithing Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Gunsmithing"
+}

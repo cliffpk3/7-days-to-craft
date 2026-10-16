@@ -1,0 +1,35 @@
+{
+	filename: "training_mastersalvager"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000019"
+	order_index: 35
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:smithing_table"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000019"]
+			description: ["Interact with a Recycler while Master Salvager is active to verify the improved recovery system."]
+			icon: "minecraft:anvil"
+			id: "7D7C310000000019"
+			rewards: [{
+				id: "7D7C340000000019"
+				item: "wrd:keystrongholdchest_treasure"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/master_salvager_use"
+				criterion: "completed"
+				id: "7D7C350000001901"
+				title: "Use a Recycler with Master Salvager active"
+				type: "advancement"
+			}]
+			title: "Master Salvager Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Master Salvager"
+}

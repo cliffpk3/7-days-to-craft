@@ -1,0 +1,39 @@
+{
+	filename: "training_threatsense"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000023"
+	order_index: 45
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:echo_shard"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000023"]
+			description: [
+				"Threat Sense warns you when a dangerous creature has targeted you."
+				""
+				"The warning uses a hostile sound and a red edge effect. The Aggro Indicator exclamation mark is also enabled for every mob that targets you."
+			]
+			icon: "minecraft:echo_shard"
+			id: "7D7C310000000023"
+			rewards: [{
+				id: "7D7C340000000023"
+				item: "wrd:keystrongholdchest_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/threat_sense_alert"
+				criterion: "completed"
+				id: "7D7C350000002301"
+				title: "Receive a dangerous-creature warning"
+				type: "advancement"
+			}]
+			title: "Threat Sense Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Threat Sense"
+}

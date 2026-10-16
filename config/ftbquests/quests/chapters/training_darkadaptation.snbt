@@ -1,0 +1,71 @@
+{
+	filename: "training_darkadaptation"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000018"
+	order_index: 34
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:ender_eye"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000018"]
+			description: ["Enter a very dark area. Complete this step to continue Dark Adaptation Training."]
+			icon: "minecraft:ender_eye"
+			id: "3C082B7171099A1C"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/dark_adaptation_enter"
+				criterion: "completed"
+				id: "7D7C350000001801"
+				title: "Enter a very dark area"
+				type: "advancement"
+			}]
+			title: "Enter a very dark area"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["3C082B7171099A1C"]
+			description: ["Wait for vision to adapt. Complete this step to continue Dark Adaptation Training."]
+			icon: "minecraft:ender_eye"
+			id: "7818C8C34989D2A9"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/dark_adaptation_wait"
+				criterion: "completed"
+				id: "7D7C350000001802"
+				title: "Wait for vision to adapt"
+				type: "advancement"
+			}]
+			title: "Wait for vision to adapt"
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7818C8C34989D2A9"]
+			description: [
+				"Enter a dark cave and observe the limited minimum visibility."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."
+			]
+			icon: "minecraft:ender_eye"
+			id: "7D7C310000000018"
+			rewards: [{
+				id: "7D7C340000000018"
+				item: "wrd:keystrongholdchest_treasure"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/dark_adaptation_confirm"
+				criterion: "completed"
+				id: "7D7C350000001803"
+				title: "Remain in darkness for five seconds"
+				type: "advancement"
+			}]
+			title: "Dark Adaptation Training"
+			x: 3.6d
+			y: 0.0d
+		}
+	]
+	title: "Dark Adaptation"
+}

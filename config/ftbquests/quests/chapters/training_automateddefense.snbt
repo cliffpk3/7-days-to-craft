@@ -1,0 +1,71 @@
+{
+	filename: "training_automateddefense"
+	group: "7D7C000000000001"
+	id: "7D7C3A000000001C"
+	order_index: 38
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:target"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C36000000001C"]
+			description: ["Craft, obtain or interact with an Explosive Turret. Complete this step to continue Automated Defense Training."]
+			icon: "seven_days_defense:explosive_turret"
+			id: "11533E906DEC7EA3"
+			tasks: [{
+				advancement: "seven_days_defense:training/explosive_crafted"
+				criterion: "completed"
+				id: "7D7C3200000201C1"
+				title: "Craft, obtain or interact with an Explosive Turret"
+				type: "advancement"
+			}]
+			title: "Craft, obtain or interact with an Explosive Turret"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["11533E906DEC7EA3"]
+			description: ["Install an Explosive Turret. Complete this step to continue Automated Defense Training."]
+			icon: "seven_days_defense:explosive_turret"
+			id: "5D47F4F93F1DA189"
+			tasks: [{
+				advancement: "seven_days_defense:training/explosive_placed"
+				criterion: "completed"
+				id: "7D7C3200000201C2"
+				title: "Install an Explosive Turret"
+				type: "advancement"
+			}]
+			title: "Install an Explosive Turret"
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["5D47F4F93F1DA189"]
+			description: [
+				"Craft, obtain or interact with an Explosive Turret, then verify that it consumes two shared turret slots."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."
+			]
+			icon: "seven_days_defense:explosive_turret"
+			id: "7D7C31000000001C"
+			rewards: [{
+				id: "7D7C34000000001C"
+				item: "wrd:keystrongholdchest_treasure"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_defense:training/explosive_loaded"
+				criterion: "completed"
+				id: "7D7C3200000201C3"
+				title: "Load compatible ammunition"
+				type: "advancement"
+			}]
+			title: "Automated Defense Training"
+			x: 3.6d
+			y: 0.0d
+		}
+	]
+	title: "Automated Defense"
+}

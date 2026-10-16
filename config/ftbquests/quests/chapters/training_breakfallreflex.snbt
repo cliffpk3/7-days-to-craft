@@ -1,0 +1,71 @@
+{
+	filename: "training_breakfallreflex"
+	group: "7D7C000000000001"
+	id: "7D7C3A0000000012"
+	order_index: 28
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	icon: "minecraft:hay_block"
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000012"]
+			description: ["Wait until the reflex is ready. Complete this step to continue Breakfall Reflex Training."]
+			icon: "minecraft:feather"
+			id: "1BAD083748B1820D"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/breakfall_ready"
+				criterion: "completed"
+				id: "7D7C350000001201"
+				title: "Wait until the reflex is ready"
+				type: "advancement"
+			}]
+			title: "Wait until the reflex is ready"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["1BAD083748B1820D"]
+			description: ["Perform a controlled damaging fall. Complete this step to continue Breakfall Reflex Training."]
+			icon: "minecraft:feather"
+			id: "76FF3AAF76FA4EF5"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/breakfall_fall"
+				criterion: "completed"
+				id: "7D7C350000001202"
+				title: "Perform a controlled damaging fall"
+				type: "advancement"
+			}]
+			title: "Perform a controlled damaging fall"
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["76FF3AAF76FA4EF5"]
+			description: [
+				"Trigger a controlled fall to learn the automatic protection and its cooldown."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."
+			]
+			icon: "minecraft:feather"
+			id: "7D7C310000000012"
+			rewards: [{
+				id: "7D7C340000000012"
+				item: "wrd:keystrongholdchest_treasure"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/breakfall_prevented"
+				criterion: "completed"
+				id: "7D7C350000001203"
+				title: "Confirm prevention and cooldown"
+				type: "advancement"
+			}]
+			title: "Breakfall Reflex Training"
+			x: 3.6d
+			y: 0.0d
+		}
+	]
+	title: "Breakfall Reflex"
+}
