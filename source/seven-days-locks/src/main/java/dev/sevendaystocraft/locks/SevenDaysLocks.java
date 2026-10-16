@@ -132,6 +132,7 @@ public final class SevenDaysLocks {
         LOOT_MODIFIERS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ThreatSense.init();
         CompassIntegration.init();
+        HordeCountdown.init();
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)

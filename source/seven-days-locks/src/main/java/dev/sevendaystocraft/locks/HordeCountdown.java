@@ -1,29 +1,51 @@
 package dev.sevendaystocraft.locks;
 
 import net.minecraft.ChatFormatting;
+import net.minecraft.client.Minecraft;
+import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.network.chat.Component;
-import net.minecraft.network.protocol.game.ClientboundSetSubtitleTextPacket;
-import net.minecraft.network.protocol.game.ClientboundSetTitleTextPacket;
-import net.minecraft.network.protocol.game.ClientboundSetTitlesAnimationPacket;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraftforge.api.distmarker.Dist;
+import net.minecraftforge.client.event.RenderGuiEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.network.NetworkEvent;
+import net.minecraftforge.network.NetworkRegistry;
+import net.minecraftforge.network.PacketDistributor;
+import net.minecraftforge.network.simple.SimpleChannel;
 import net.smileycorp.hordes.hordeevent.capability.HordeEvent;
 import net.smileycorp.hordes.hordeevent.capability.HordeSavedData;
 
 import java.util.Map;
 import java.util.UUID;
 import java.util.concurrent.ConcurrentHashMap;
+import java.util.function.Supplier;
 
 @Mod.EventBusSubscriber(modid = SevenDaysLocks.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public final class HordeCountdown {
     private static final Map<UUID, Snapshot> LAST_ANNOUNCEMENT = new ConcurrentHashMap<>();
     private static final String WORLD_CALENDAR_MIGRATED = "7dtc_world_horde_calendar_v1";
+    private static final String PROTOCOL = "1";
+    private static final SimpleChannel CHANNEL = NetworkRegistry.ChannelBuilder
+        .named(new ResourceLocation(SevenDaysLocks.MOD_ID, "horde_countdown"))
+        .networkProtocolVersion(() -> PROTOCOL)
+        .clientAcceptedVersions(PROTOCOL::equals)
+        .serverAcceptedVersions(PROTOCOL::equals)
+        .simpleChannel();
+    private static boolean initialized;
 
     private HordeCountdown() {}
+
+    static void init() {
+        if (initialized) return;
+        initialized = true;
+        CHANNEL.registerMessage(0, CountdownPacket.class, CountdownPacket::encode,
+            CountdownPacket::decode, CountdownPacket::handle);
+    }
 
     @SubscribeEvent
     public static void onLogin(PlayerEvent.PlayerLoggedInEvent event) {
@@ -81,11 +103,72 @@ public final class HordeCountdown {
             title = Component.literal(daysLeft + (daysLeft == 1 ? " DAY TO HORDE" : " DAYS TO HORDE"))
                 .withStyle(colour, ChatFormatting.BOLD);
         }
-        player.connection.send(new ClientboundSetTitlesAnimationPacket(10, 100, 20));
-        player.connection.send(new ClientboundSetSubtitleTextPacket(
-            Component.literal("Prepare your defenses").withStyle(ChatFormatting.DARK_GRAY)
-        ));
-        player.connection.send(new ClientboundSetTitleTextPacket(title));
+        CHANNEL.send(PacketDistributor.PLAYER.with(() -> player),
+            new CountdownPacket(title.getString(), active || daysLeft == 0 ? 0xFF5555 : daysLeft <= 2 ? 0xFFAA00 : 0xFFFFFF));
+    }
+
+    public record CountdownPacket(String title, int colour) {
+        static void encode(CountdownPacket packet, FriendlyByteBuf buffer) {
+            buffer.writeUtf(packet.title);
+            buffer.writeInt(packet.colour);
+        }
+        static CountdownPacket decode(FriendlyByteBuf buffer) {
+            return new CountdownPacket(buffer.readUtf(), buffer.readInt());
+        }
+        static void handle(CountdownPacket packet, Supplier<NetworkEvent.Context> context) {
+            context.get().enqueueWork(() -> ClientOverlay.show(packet));
+            context.get().setPacketHandled(true);
+        }
+    }
+
+    @Mod.EventBusSubscriber(modid = SevenDaysLocks.MOD_ID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.FORGE)
+    public static final class ClientOverlay {
+        private static final float TITLE_SCALE = 2.4F; // Vanilla title uses 4.0F.
+        private static final float SUBTITLE_SCALE = 2.0F;
+        private static final long FADE_IN = 500L;
+        private static final long STAY = 5000L;
+        private static final long FADE_OUT = 1000L;
+        private static long shownAt;
+        private static CountdownPacket current;
+
+        private ClientOverlay() {}
+
+        private static void show(CountdownPacket packet) {
+            current = packet;
+            shownAt = System.currentTimeMillis();
+        }
+
+        @SubscribeEvent
+        public static void render(RenderGuiEvent.Post event) {
+            Minecraft minecraft = Minecraft.getInstance();
+            if (current == null || minecraft.player == null || minecraft.options.hideGui || minecraft.screen != null) return;
+            long elapsed = System.currentTimeMillis() - shownAt;
+            if (elapsed >= FADE_IN + STAY + FADE_OUT) { current = null; return; }
+            float opacity = elapsed < FADE_IN ? elapsed / (float) FADE_IN
+                : elapsed < FADE_IN + STAY ? 1.0F
+                : (FADE_IN + STAY + FADE_OUT - elapsed) / (float) FADE_OUT;
+            int alpha = Math.max(4, Math.min(255, (int) (opacity * 255.0F)));
+            int width = event.getWindow().getGuiScaledWidth();
+            int height = event.getWindow().getGuiScaledHeight();
+            var graphics = event.getGuiGraphics();
+            var pose = graphics.pose();
+
+            pose.pushPose();
+            pose.translate(width / 2.0F, height / 2.0F - 16.0F, 0);
+            pose.scale(TITLE_SCALE, TITLE_SCALE, 1.0F);
+            Component title = Component.literal(current.title).withStyle(ChatFormatting.BOLD);
+            graphics.drawString(minecraft.font, title, -minecraft.font.width(title) / 2, -5,
+                (alpha << 24) | current.colour, true);
+            pose.popPose();
+
+            pose.pushPose();
+            pose.translate(width / 2.0F, height / 2.0F + 14.0F, 0);
+            pose.scale(SUBTITLE_SCALE, SUBTITLE_SCALE, 1.0F);
+            String subtitle = "Prepare your defenses";
+            graphics.drawString(minecraft.font, subtitle, -minecraft.font.width(subtitle) / 2, -5,
+                (alpha << 24) | 0x555555, true);
+            pose.popPose();
+        }
     }
 
     private record Snapshot(int currentDay, int daysLeft, boolean active) {}

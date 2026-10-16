@@ -4,7 +4,9 @@ import net.minecraft.client.Minecraft;
 import net.minecraft.client.gui.Font;
 import net.minecraft.client.gui.GuiGraphics;
 import net.minecraft.client.gui.components.Button;
+import net.minecraft.client.resources.sounds.SimpleSoundInstance;
 import net.minecraft.network.chat.Component;
+import net.minecraft.sounds.SoundEvents;
 import net.minecraft.world.item.ItemStack;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.Shadow;
@@ -104,10 +106,11 @@ public abstract class WorkbenchScreenMixin {
         Font font = Minecraft.m_91087_().f_91062_;
 
         graphics.m_280168_().m_85836_();
-        graphics.m_280168_().m_252880_(0.0F, 0.0F, 500.0F);
+        // Stay below Minecraft's tooltip layer (z=400), including the panel border.
+        graphics.m_280168_().m_252880_(0.0F, 0.0F, 200.0F);
         graphics.m_280509_(panelX, panelY, panelX + GRID_WIDTH, panelY + GRID_HEIGHT, 0xFFC6C6C6);
         graphics.m_280509_(panelX + 1, panelY + 1, panelX + GRID_WIDTH - 1, panelY + 17, 0xFFC6C6C6);
-        graphics.m_280430_(font, Component.m_237115_("gui.cgm.workbench.catalog"), panelX + 6, panelY + 5, 0xFF303030);
+        graphics.m_280430_(font, Component.m_237115_("gui.cgm.workbench.catalog"), panelX + 6, panelY + 5, 0xFFFFFFFF);
 
         int selectedIndex = getCurrentIndex(tab);
         int start = sevenDaysToCraft$gridPage * GRID_PAGE_SIZE;
@@ -144,7 +147,14 @@ public abstract class WorkbenchScreenMixin {
         }
 
         sevenDaysToCraft$renderWorkbenchBorder(graphics, left, top);
-        if (!hoveredStack.m_41619_()) graphics.m_280153_(font, hoveredStack, mouseX, mouseY);
+        if (!hoveredStack.m_41619_()) sevenDaysToCraft$renderTopTooltip(graphics, font, hoveredStack, mouseX, mouseY);
+        graphics.m_280168_().m_85849_();
+    }
+
+    private static void sevenDaysToCraft$renderTopTooltip(GuiGraphics graphics, Font font, ItemStack stack, int mouseX, int mouseY) {
+        graphics.m_280168_().m_85836_();
+        graphics.m_280168_().m_252880_(0.0F, 0.0F, 1000.0F);
+        graphics.m_280153_(font, stack, mouseX, mouseY);
         graphics.m_280168_().m_85849_();
     }
 
@@ -170,9 +180,9 @@ public abstract class WorkbenchScreenMixin {
 
     private void sevenDaysToCraft$renderMenuButton(GuiGraphics graphics, int x, int y, int width, int height, boolean hovered, boolean selected) {
         // Match Minecraft's beveled menu buttons: light top/left, dark bottom/right,
-        // gray face, and a soft blue face on hover. Gold only marks the selected recipe.
-        int border = selected ? 0xFFD5A039 : 0xFF171717;
-        int face = hovered ? 0xFF9AA8D4 : 0xFF858585;
+        // gray face, and a soft blue face on hover or for the selected recipe.
+        int border = 0xFF171717;
+        int face = hovered || selected ? 0xFF9AA8D4 : 0xFF858585;
         graphics.m_280509_(x, y, x + width, y + height, border);
         graphics.m_280509_(x + 1, y + 1, x + width - 1, y + height - 1, 0xFFEEEEEE);
         graphics.m_280509_(x + 2, y + 2, x + width - 1, y + height - 1, face);
@@ -196,8 +206,14 @@ public abstract class WorkbenchScreenMixin {
         int pageCount = Math.max(1, (recipes.size() + GRID_PAGE_SIZE - 1) / GRID_PAGE_SIZE);
         int controlsY = panelY + GRID_HEIGHT - 17;
         if (pageCount > 1 && mouseY >= controlsY && mouseY < controlsY + 13) {
-            if (mouseX >= panelX + 5 && mouseX < panelX + 25) sevenDaysToCraft$gridPage = Math.max(0, sevenDaysToCraft$gridPage - 1);
-            if (mouseX >= panelX + GRID_WIDTH - 25 && mouseX < panelX + GRID_WIDTH - 5) sevenDaysToCraft$gridPage = Math.min(pageCount - 1, sevenDaysToCraft$gridPage + 1);
+            if (mouseX >= panelX + 5 && mouseX < panelX + 25) {
+                sevenDaysToCraft$gridPage = Math.max(0, sevenDaysToCraft$gridPage - 1);
+                sevenDaysToCraft$playClick();
+            }
+            if (mouseX >= panelX + GRID_WIDTH - 25 && mouseX < panelX + GRID_WIDTH - 5) {
+                sevenDaysToCraft$gridPage = Math.min(pageCount - 1, sevenDaysToCraft$gridPage + 1);
+                sevenDaysToCraft$playClick();
+            }
             cir.setReturnValue(true);
             return;
         }
@@ -220,7 +236,12 @@ public abstract class WorkbenchScreenMixin {
         }
         setCurrentIndex(tab, index);
         sevenDaysToCraft$loadItem(index);
+        sevenDaysToCraft$playClick();
         cir.setReturnValue(true);
+    }
+
+    private static void sevenDaysToCraft$playClick() {
+        Minecraft.m_91087_().m_91106_().m_120367_(SimpleSoundInstance.m_263171_(SoundEvents.f_12490_, 1.0F));
     }
 
     private int getPanelX(int left) {
