@@ -1,0 +1,3 @@
+Manifest-Version: 1.0
+MixinConfigs: seven_days_cgm_workbench.mixins.json
+

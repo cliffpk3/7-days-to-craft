@@ -68,6 +68,7 @@ public final class SevenDaysLocks {
     public static final RegistryObject<Feature<?>> DISTANCE_SCALED_ORE = FEATURES.register(
         "distance_scaled_ore", () -> new DistanceScaledOreFeature(OreConfiguration.CODEC));
     public static final Map<String, RegistryObject<Item>> GUN_BLUEPRINTS = registerGunBlueprints();
+    public static final Map<String, RegistryObject<Item>> DIVINE_BLUEPRINTS = registerDivineBlueprints();
     public static final DeferredRegister<Codec<? extends IGlobalLootModifier>> LOOT_MODIFIERS =
         DeferredRegister.create(ForgeRegistries.Keys.GLOBAL_LOOT_MODIFIER_SERIALIZERS, MOD_ID);
     public static final RegistryObject<Codec<ArtifactLootFilterModifier>> ARTIFACT_LOOT_FILTER =
@@ -82,7 +83,19 @@ public final class SevenDaysLocks {
             "pistol", "machine_pistol", "rifle", "shotgun", "assault_rifle", "heavy_rifle",
             "grenade_launcher", "mini_gun", "bazooka", "blood_sprayer", "stink_ray", "hemolymph_blaster"
         }) {
-            result.put(weapon, ITEMS.register("blueprint_" + weapon, () -> new Item(new Item.Properties().stacksTo(16))));
+            result.put(weapon, ITEMS.register("blueprint_" + weapon, () -> new WeaponBlueprintItem("gun", weapon)));
+        }
+        return Map.copyOf(result);
+    }
+    private static Map<String, RegistryObject<Item>> registerDivineBlueprints() {
+        Map<String, RegistryObject<Item>> result = new LinkedHashMap<>();
+        for (String material : new String[] {"iron", "diamond", "netherite"}) {
+            for (String type : new String[] {"battleaxe", "cutlass", "dagger", "glaive", "hammer", "katana",
+                    "longsword", "rapier", "scythe", "shuriken", "sickle", "spear"}) {
+                String weapon = material + "_" + type;
+                result.put(weapon, ITEMS.register("blueprint_" + weapon,
+                    () -> new WeaponBlueprintItem("divine", weapon)));
+            }
         }
         return Map.copyOf(result);
     }
@@ -322,6 +335,7 @@ public final class SevenDaysLocks {
             DivineWeaponDrops.apply(event);
             EquipmentDrops.apply(event);
             GunBlueprintDrops.apply(event);
+            DivineBlueprintDrops.apply(event);
             removeArtifactDrops(event);
             if (mob.getTags().contains("7dtc_horde_boss")) {
                 mob.spawnAtLocation(key(4));
@@ -451,15 +465,6 @@ public final class SevenDaysLocks {
                 case "rocky_roller", "centipede_head", "murmur", "murmur_head" -> true;
                 default -> false;
             };
-        }
-
-        @SubscribeEvent
-        public static void hideInfernalNameThroughWalls(LivingEvent.LivingTickEvent event) {
-            LivingEntity entity = event.getEntity();
-            if (entity.level().isClientSide() || entity.tickCount % 20 != 0 || !entity.isCustomNameVisible()) return;
-            if (ModList.get().isLoaded("infernalmobs") && InfernalMobsCore.getMobModifiers(entity) != null) {
-                entity.setCustomNameVisible(false);
-            }
         }
 
         private static void award(ServerPlayer player, ResourceLocation id) {

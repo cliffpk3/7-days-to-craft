@@ -6,6 +6,7 @@ per building, so reducing stack sizes alone does not solve the multiplication.
 
 Run this script again after updating either mod.  It keeps the physical
 containers but removes LootTable from the excess block entities.
+It also limits equipment placed directly on village armor stands.
 """
 
 from __future__ import annotations
@@ -98,20 +99,65 @@ def balance_structures(jar_path: Path):
             source = gzip.decompress(jar.read(name))
             root = nbtlib.File.parse(io.BytesIO(source))
             nodes = loot_compounds(root)
-            if len(nodes) <= cap:
-                continue
-            kept = choose_kept(nodes, cap)
-            for node in nodes:
-                if all(node is not existing for existing in kept):
-                    removed_by_table[str(scalar(node["LootTable"]))] += 1
-                    del node["LootTable"]
-                    node.pop("LootTableSeed", None)
             relative = Path(name).relative_to("data")
             target = DATA / relative
+            if len(nodes) > cap:
+                kept = choose_kept(nodes, cap)
+                for node in nodes:
+                    if all(node is not existing for existing in kept):
+                        removed_by_table[str(scalar(node["LootTable"]))] += 1
+                        del node["LootTable"]
+                        node.pop("LootTableSeed", None)
+            armor_removed = limit_armor_stands(root)
+            if len(nodes) <= cap and armor_removed == 0:
+                continue
             target.parent.mkdir(parents=True, exist_ok=True)
-            root.save(target, gzipped=True)
-            changed.append((name, len(nodes), cap))
+            serialized = io.BytesIO()
+            root.write(serialized)
+            if not target.exists() or gzip.decompress(target.read_bytes()) != serialized.getvalue():
+                target.write_bytes(gzip.compress(serialized.getvalue(), mtime=0))
+            changed.append((name, len(nodes), min(len(nodes), cap), armor_removed))
     return changed, removed_by_table
+
+
+def limit_armor_stands(root):
+    """Keep displays, but never hand out whole sets from a village template.
+
+    Heads and non-armor decorations remain.  At most three armor pieces are
+    available per structure, with at most one iron piece and no diamond gear.
+    Only one wearable piece remains on each stand.
+    """
+    stands = [
+        entity.get("nbt", {})
+        for entity in root.get("entities", [])
+        if str(scalar(entity.get("nbt", {}).get("id", ""))) == "minecraft:armor_stand"
+    ]
+    if not stands:
+        return 0
+    kept_total = 0
+    kept_iron = 0
+    removed = 0
+    for stand in stands:
+        kept_on_stand = 0
+        for item in stand.get("ArmorItems", []):
+            name = str(scalar(item.get("id", "")))
+            if not name.endswith(("_boots", "_leggings", "_chestplate", "_helmet")):
+                continue
+            keep = (
+                kept_total < 3
+                and kept_on_stand == 0
+                and not name.startswith("minecraft:diamond_")
+                and (not name.startswith("minecraft:iron_") or kept_iron == 0)
+            )
+            if keep:
+                kept_total += 1
+                kept_on_stand += 1
+                if name.startswith("minecraft:iron_"):
+                    kept_iron += 1
+            else:
+                item.clear()
+                removed += 1
+    return removed
 
 
 def clamp_number_provider(value, maximum):
@@ -185,8 +231,9 @@ def main():
     tables = balance_loot_tables()
     print(f"Balanced {len(structure_changes)} structure templates and {len(tables)} loot tables.")
     print(f"Removed loot assignments from {sum(removed.values())} excess containers.")
-    for name, before, after in structure_changes:
-        print(f"  {before:2} -> {after}: {name}")
+    print(f"Removed {sum(entry[3] for entry in structure_changes)} armor pieces from village stands.")
+    for name, before, after, armor_removed in structure_changes:
+        print(f"  loot {before:2} -> {after}, armor -{armor_removed}: {name}")
 
 
 if __name__ == "__main__":

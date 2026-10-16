@@ -14,7 +14,7 @@
       "id": "stone_crawlers",
       "minY": -64,
       "maxY": 24,
-      "weight": 26,
+      "weight": 20,
       "biomeBias": {
         "dripstone": 2.0,
         "andesite": 1.7,
@@ -24,7 +24,7 @@
       },
       "encounters": [
         {
-          "weight": 6,
+          "weight": 4,
           "minY": -40,
           "maxY": 24,
           "mobs": [
@@ -32,9 +32,9 @@
           ]
         },
         {
-          "weight": 4,
+          "weight": 2,
           "minY": -64,
-          "maxY": -8,
+          "maxY": -24,
           "mobs": [
             "alexsmobs:centipede_head"
           ]
@@ -173,9 +173,9 @@
           ]
         },
         {
-          "weight": 3,
+          "weight": 1.5,
           "minY": -64,
-          "maxY": -8,
+          "maxY": -24,
           "mobs": [
             "alexsmobs:centipede_head"
           ]

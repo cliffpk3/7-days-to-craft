@@ -10,6 +10,8 @@ import net.minecraft.world.entity.item.ItemEntity;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.item.enchantment.EnchantmentHelper;
+import net.minecraft.world.item.enchantment.Enchantments;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.fml.ModList;
 
@@ -56,8 +58,8 @@ final class DivineWeaponDrops {
         boolean infernal = modifiers != null;
 
         double legendaryChance = hordeBoss || threatTier >= 4
-            ? 0.05D
-            : infernal ? Math.min(0.04D, 0.005D * Math.max(1, modifiers.getModSize())) : 0.0D;
+            ? 0.04D
+            : infernal ? Math.min(0.03D, 0.004D * Math.max(1, modifiers.getModSize())) : 0.0D;
         double roll = mob.getRandom().nextDouble();
 
         String[] selected = null;
@@ -67,15 +69,18 @@ final class DivineWeaponDrops {
             legendary = true;
         } else {
             double standard = (roll - legendaryChance) / Math.max(0.0001D, 1.0D - legendaryChance);
+            // Elites remain a better source of equipment even after the global
+            // reduction of direct weapon drops.
+            double eliteMultiplier = infernal ? 1.5D : 1.0D;
             if (threatTier >= 4) {
-                if (standard < 0.08D) selected = DIAMOND;
-                else if (standard < 0.13D) selected = IRON;
+                if (standard < 0.06D * eliteMultiplier) selected = DIAMOND;
+                else if (standard < 0.10D * eliteMultiplier) selected = IRON;
             } else if (threatTier >= 2) {
-                if (standard < 0.08D) selected = IRON;
-                else if (standard < 0.09D) selected = DIAMOND;
+                if (standard < 0.06D * eliteMultiplier) selected = IRON;
+                else if (standard < 0.0675D * eliteMultiplier) selected = DIAMOND;
             } else {
-                if (standard < 0.08D) selected = STONE;
-                else if (standard < 0.09D) selected = IRON;
+                if (standard < 0.06D * eliteMultiplier) selected = STONE;
+                else if (standard < 0.0675D * eliteMultiplier) selected = IRON;
             }
         }
 
@@ -87,6 +92,18 @@ final class DivineWeaponDrops {
         Item item = BuiltInRegistries.ITEM.get(new ResourceLocation(pool[mob.getRandom().nextInt(pool.length)]));
         if (item == Items.AIR) return;
         ItemStack reward = new ItemStack(item);
+        MobModifier modifiers = ModList.get().isLoaded("infernalmobs") ? InfernalMobsCore.getMobModifiers(mob) : null;
+        if (modifiers != null) {
+            int tier = Math.max(1, Math.min(4, ThreatSense.threatTier(mob)));
+            int enchantLevel = 8 + tier * 5 + Math.min(5, modifiers.getModSize()) * 2;
+            reward = EnchantmentHelper.enchantItem(mob.getRandom(), reward, enchantLevel, false);
+            // Some Divine throwable items have no ordinary enchanting-table
+            // candidates. Preserve the elite reward promise for damageable items.
+            if (reward.isDamageableItem() && !reward.isEnchanted()) {
+                int unbreaking = Math.min(3, 1 + tier / 2 + modifiers.getModSize() / 5);
+                reward.enchant(Enchantments.UNBREAKING, unbreaking);
+            }
+        }
         applyFoundDurability(reward, mob, legendary);
         mob.spawnAtLocation(reward);
     }

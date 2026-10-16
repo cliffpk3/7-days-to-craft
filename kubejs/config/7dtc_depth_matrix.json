@@ -148,7 +148,7 @@
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.055,
+      "persecond": 0.044,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
@@ -214,12 +214,12 @@
         "minimum": 1,
         "maximum": 1
       },
-      "persecond": 0.04,
+      "persecond": 0.018,
       "weights": 1,
       "conditions": {
         "dimension": "minecraft:overworld",
         "maxlocal": 2,
-        "maxheight": -8,
+        "maxheight": -24,
         "mindist": 40,
         "maxdist": 64,
         "minheight": -64,

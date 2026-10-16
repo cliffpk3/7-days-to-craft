@@ -104,14 +104,16 @@ public final class OreCavePressure {
     private static EntityType<?> chooseMob(ServerLevel level, int y) {
         String id;
         int roll = level.random.nextInt(100);
-        if (y <= -57) id = roll < 60 ? "alexsmobs:centipede_head" : "realmrpg_demons:demon";
-        else if (y <= -41) id = roll < 45 ? "realmrpg_demons:imp_guard" : roll < 80 ? "alexsmobs:centipede_head" : "realmrpg_demons:demon";
-        else if (y <= -32) id = roll < 45 ? "realmrpg_demons:imp" : roll < 80 ? "alexsmobs:rocky_roller" : "realmrpg_demons:demon";
-        else if (y <= -25) id = roll < 50 ? "realmrpg_demons:imp" : roll < 80 ? "alexsmobs:rocky_roller" : "minecraft:cave_spider";
-        else if (y <= -16) id = roll < 45 ? "realmrpg_demons:chort" : roll < 75 ? "realmrpg_demons:imp" : "alexsmobs:rocky_roller";
-        else if (y <= -8) id = roll < 50 ? "realmrpg_demons:chort" : roll < 75 ? "alexsmobs:rocky_roller" : "alexsmobs:centipede_head";
-        else if (y <= 16) id = roll < 50 ? "realmrpg_demons:chort" : roll < 75 ? "alexsmobs:rocky_roller" : "minecraft:zombie";
-        else id = roll < 55 ? "alexsmobs:rocky_roller" : "minecraft:zombie";
+        // Centipedes are a rare deep-cave encounter; Rocky Rollers remain
+        // recognizable cave threats, but occur a little less often.
+        if (y <= -57) id = roll < 30 ? "alexsmobs:centipede_head" : roll < 60 ? "realmrpg_demons:imp_guard" : "realmrpg_demons:demon";
+        else if (y <= -41) id = roll < 65 ? "realmrpg_demons:imp_guard" : roll < 80 ? "alexsmobs:centipede_head" : "realmrpg_demons:demon";
+        else if (y <= -32) id = roll < 52 ? "realmrpg_demons:imp" : roll < 80 ? "alexsmobs:rocky_roller" : "realmrpg_demons:demon";
+        else if (y <= -25) id = roll < 56 ? "realmrpg_demons:imp" : roll < 80 ? "alexsmobs:rocky_roller" : "minecraft:cave_spider";
+        else if (y <= -16) id = roll < 50 ? "realmrpg_demons:chort" : roll < 80 ? "realmrpg_demons:imp" : "alexsmobs:rocky_roller";
+        else if (y <= -8) id = roll < 70 ? "realmrpg_demons:chort" : roll < 90 ? "alexsmobs:rocky_roller" : "realmrpg_demons:imp";
+        else if (y <= 16) id = roll < 55 ? "realmrpg_demons:chort" : roll < 75 ? "alexsmobs:rocky_roller" : "minecraft:zombie";
+        else id = roll < 45 ? "alexsmobs:rocky_roller" : "minecraft:zombie";
         return ForgeRegistries.ENTITY_TYPES.getValue(new ResourceLocation(id));
     }
 }

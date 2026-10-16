@@ -1,0 +1,6 @@
+{
+  "tier1": { "iron": 0.0015, "diamond": 0.0, "netherite": 0.0 },
+  "tier2": { "iron": 0.005, "diamond": 0.0, "netherite": 0.0 },
+  "tier3": { "iron": 0.008, "diamond": 0.0015, "netherite": 0.0 },
+  "tier4": { "iron": 0.008, "diamond": 0.0035, "netherite": 0.10 }
+}

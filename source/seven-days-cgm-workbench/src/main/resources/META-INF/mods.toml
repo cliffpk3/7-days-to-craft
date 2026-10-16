@@ -1,0 +1,36 @@
+modLoader="lowcodefml"
+loaderVersion="[47,)"
+license="All Rights Reserved"
+[[mods]]
+modId="seven_days_cgm_workbench"
+version="1.4.9"
+displayName="7 Days to Craft - CGM Workbench Extension"
+authors="7 Days to Craft"
+description='''Adds data-driven Workbench tabs, client controls, and integration fixes for 7 Days to Craft.'''
+displayTest="MATCH_VERSION"
+[[dependencies.seven_days_cgm_workbench]]
+modId="cgm"
+mandatory=true
+versionRange="[1.4.20,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.seven_days_cgm_workbench]]
+modId="fracturepoint"
+mandatory=true
+versionRange="[3.0.0,)"
+ordering="AFTER"
+side="BOTH"
+[[dependencies.seven_days_cgm_workbench]]
+modId="advancedcompass"
+mandatory=true
+versionRange="[1.2.15,)"
+ordering="AFTER"
+side="CLIENT"
+[[dependencies.seven_days_cgm_workbench]]
+modId="gravestone"
+mandatory=true
+versionRange="[1.0.15,)"
+ordering="AFTER"
+side="CLIENT"
+
+

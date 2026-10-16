@@ -1,13 +1,13 @@
 {
   "tier1": {
-    "chance": 0.02,
+    "chance": 0.0025,
     "blueprints": [
       "pistol",
       "machine_pistol"
     ]
   },
   "tier2": {
-    "chance": 0.04,
+    "chance": 0.005,
     "blueprints": [
       "rifle",
       "shotgun",
@@ -16,7 +16,7 @@
     ]
   },
   "tier3": {
-    "chance": 0.06,
+    "chance": 0.01,
     "blueprints": [
       "assault_rifle",
       "heavy_rifle",
@@ -25,7 +25,7 @@
     ]
   },
   "tier4": {
-    "chance": 0.1,
+    "chance": 0.015,
     "blueprints": [
       "mini_gun",
       "bazooka"

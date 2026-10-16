@@ -1,1 +1,1 @@
-{"parent":"minecraft:item/generated","textures":{"layer0":"minecraft:item/written_book"}}
+{"parent":"minecraft:item/generated","textures":{"layer0":"create:item/crafting_blueprint"}}

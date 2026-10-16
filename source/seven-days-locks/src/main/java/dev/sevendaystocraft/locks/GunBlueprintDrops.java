@@ -23,7 +23,7 @@ import net.minecraftforge.fml.common.Mod;
 final class GunBlueprintDrops {
     private static final Path CONFIG = Path.of("config", "7dtc_gun_blueprints.json");
     private static final Gson GSON = new Gson();
-    private static double[] chances = {0.0, 0.02, 0.04, 0.06, 0.10};
+    private static double[] chances = {0.0, 0.0025, 0.005, 0.01, 0.015};
     private static String[][] pools = {
         {},
         {"pistol", "machine_pistol"},
@@ -44,7 +44,13 @@ final class GunBlueprintDrops {
             for (int tier = 1; tier <= 4; tier++) {
                 JsonObject setting = root.getAsJsonObject("tier" + tier);
                 if (setting == null) continue;
-                if (setting.has("chance")) nextChances[tier] = Math.max(0, Math.min(1, setting.get("chance").getAsDouble()));
+                if (setting.has("chance")) {
+                    double chance = setting.get("chance").getAsDouble();
+                    if (!Double.isFinite(chance) || chance < 0 || chance > 1) {
+                        throw new IllegalArgumentException("Invalid tier" + tier + " chance");
+                    }
+                    nextChances[tier] = chance;
+                }
                 if (setting.has("blueprints")) {
                     JsonArray entries = setting.getAsJsonArray("blueprints");
                     String[] pool = new String[entries.size()];
@@ -75,6 +81,6 @@ final class GunBlueprintDrops {
         if (pool.length == 0 || mob.getRandom().nextDouble() >= chances[tier]) return;
         String id = "seven_days_locks:blueprint_" + pool[mob.getRandom().nextInt(pool.length)];
         Item item = BuiltInRegistries.ITEM.get(new ResourceLocation(id));
-        if (item != Items.AIR) mob.spawnAtLocation(item);
+        if (item != Items.AIR) mob.spawnAtLocation(WeaponBlueprintItem.rolled(item, mob.getRandom()));
     }
 }
