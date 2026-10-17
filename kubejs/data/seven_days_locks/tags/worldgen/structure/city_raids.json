@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "the_lost_city:city",
+    "the_lost_city:big_city_structure",
+    "the_lost_city:villages_city",
+    "the_lost_city:factory",
+    "the_lost_city:tower"
+  ]
+}

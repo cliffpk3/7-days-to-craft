@@ -1,0 +1,6 @@
+#Defines generation profile to use
+GenerationProfileName = "7dtc_city"
+#Defines buildings profile to use
+BuildingsProfileName = "7dtc_city"
+#Enables Experimental features.
+Experimental = false

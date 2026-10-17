@@ -108,6 +108,9 @@ public final class SevenDaysLocks {
     private static final TagKey<Structure> SETTLEMENTS = TagKey.create(
         Registries.STRUCTURE, new ResourceLocation(MOD_ID, "settlements")
     );
+    private static final TagKey<Structure> CITY_RAIDS = TagKey.create(
+        Registries.STRUCTURE, new ResourceLocation(MOD_ID, "city_raids")
+    );
     private static final String[] KEYS = {"", "wrd:keystrongholdchest_iron", "wrd:keystrongholdchest_gold", "wrd:keystrongholdchest_diamond", "wrd:keystrongholdchest_treasure"};
     private static final String[] TIER_CHESTS = {"minecraft:chest", "quark:ancient_chest", "quark:acacia_chest", "quark:prismarine_chest", "quark:nether_brick_chest"};
     static final String[][] RANK_ITEMS = {
@@ -496,6 +499,17 @@ public final class SevenDaysLocks {
             CompoundTag saved = container.saveWithFullMetadata();
             String lootTable = saved.getString("LootTable");
             if (lootTable.isBlank()) return;
+            StructureStart city = level.structureManager().getStructureWithPieceAt(container.getBlockPos(), CITY_RAIDS);
+            if (city != null && city.isValid()) {
+                long roll = Math.floorMod(mix(level.getSeed() ^ 0x4349545952414944L, container.getBlockPos()), 100L);
+                if (roll < 30L) {
+                    makeSettlementChestOpen(level, container);
+                } else {
+                    int tier = roll < 60L ? 1 : roll < 85L ? 2 : roll < 97L ? 3 : 4;
+                    convertToTierChest(level, container, saved, lootTable, tier);
+                }
+                return;
+            }
             StructureStart settlement = level.structureManager().getStructureWithPieceAt(container.getBlockPos(), SETTLEMENTS);
             if (settlement != null && settlement.isValid()) {
                 String settlementKey = settlementKey(level, settlement);

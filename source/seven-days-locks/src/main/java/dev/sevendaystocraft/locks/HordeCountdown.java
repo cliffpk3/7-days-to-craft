@@ -19,6 +19,7 @@ import net.minecraftforge.network.PacketDistributor;
 import net.minecraftforge.network.simple.SimpleChannel;
 import net.smileycorp.hordes.hordeevent.capability.HordeEvent;
 import net.smileycorp.hordes.hordeevent.capability.HordeSavedData;
+import net.smileycorp.hordes.config.HordeEventConfig;
 
 import java.util.Map;
 import java.util.UUID;
@@ -49,7 +50,10 @@ public final class HordeCountdown {
 
     @SubscribeEvent
     public static void onLogin(PlayerEvent.PlayerLoggedInEvent event) {
-        if (event.getEntity() instanceof ServerPlayer player) migrateSchedule(player);
+        if (event.getEntity() instanceof ServerPlayer player) {
+            LAST_ANNOUNCEMENT.remove(player.getUUID());
+            migrateSchedule(player);
+        }
     }
 
     @SubscribeEvent
@@ -62,10 +66,13 @@ public final class HordeCountdown {
         migrateSchedule(player);
         // Tick 0 is 06:00 in Minecraft. The +6000 shift advances the
         // calendar when the visible clock reaches 00:00.
-        int currentDay = (int) Math.floorDiv(level.getDayTime() + 6000L, 24000L);
+        int currentDay = (int) Math.floorDiv(level.getDayTime() + 6000L, 24000L) + 1;
         int nextDay = horde.getNextDay();
         boolean active = horde.isActive();
-        int daysLeft = Math.max(0, nextDay - 1 - currentDay);
+        long hordeStart = (long) nextDay * HordeEventConfig.dayLength.get()
+            + HordeEventConfig.hordeStartTime.get();
+        int hordeDisplayDay = (int) Math.floorDiv(hordeStart + 6000L, 24000L) + 1;
+        int daysLeft = Math.max(0, hordeDisplayDay - currentDay);
 
         Snapshot current = new Snapshot(currentDay, daysLeft, active);
         Snapshot previous = LAST_ANNOUNCEMENT.put(player.getUUID(), current);
@@ -105,6 +112,10 @@ public final class HordeCountdown {
         }
         CHANNEL.send(PacketDistributor.PLAYER.with(() -> player),
             new CountdownPacket(title.getString(), active || daysLeft == 0 ? 0xFF5555 : daysLeft <= 2 ? 0xFFAA00 : 0xFFFFFF));
+        // The chat copy survives loading screens and exposes server-side delivery
+        // if another HUD mod prevents the overlay from rendering.
+        player.displayClientMessage(title, false);
+        System.out.println("[7DTC Horde Countdown] Sent '" + title.getString() + "' to " + player.getGameProfile().getName());
     }
 
     public record CountdownPacket(String title, int colour) {
@@ -128,22 +139,30 @@ public final class HordeCountdown {
         private static final long FADE_IN = 500L;
         private static final long STAY = 5000L;
         private static final long FADE_OUT = 1000L;
-        private static long shownAt;
+        private static final int DISPLAY_TICKS = (int) ((FADE_IN + STAY + FADE_OUT) / 50L);
+        private static int remainingTicks;
         private static CountdownPacket current;
 
         private ClientOverlay() {}
 
         private static void show(CountdownPacket packet) {
             current = packet;
-            shownAt = System.currentTimeMillis();
+            remainingTicks = DISPLAY_TICKS;
+        }
+
+        @SubscribeEvent
+        public static void clientTick(TickEvent.ClientTickEvent event) {
+            if (event.phase != TickEvent.Phase.END || current == null) return;
+            Minecraft minecraft = Minecraft.getInstance();
+            if (minecraft.player == null || minecraft.screen != null || minecraft.options.hideGui) return;
+            if (--remainingTicks <= 0) current = null;
         }
 
         @SubscribeEvent
         public static void render(RenderGuiEvent.Post event) {
             Minecraft minecraft = Minecraft.getInstance();
             if (current == null || minecraft.player == null || minecraft.options.hideGui || minecraft.screen != null) return;
-            long elapsed = System.currentTimeMillis() - shownAt;
-            if (elapsed >= FADE_IN + STAY + FADE_OUT) { current = null; return; }
+            long elapsed = (DISPLAY_TICKS - remainingTicks) * 50L;
             float opacity = elapsed < FADE_IN ? elapsed / (float) FADE_IN
                 : elapsed < FADE_IN + STAY ? 1.0F
                 : (FADE_IN + STAY + FADE_OUT - elapsed) / (float) FADE_OUT;

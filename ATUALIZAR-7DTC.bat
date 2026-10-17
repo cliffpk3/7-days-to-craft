@@ -23,6 +23,7 @@ if not exist ".git" (
 echo Baixando a versao mais recente...
 git fetch origin main || goto :erro
 git reset --hard origin/main || goto :erro
+powershell -NoProfile -ExecutionPolicy Bypass -File "tools\ensure-forge-runtime.ps1" || goto :erro
 powershell -NoProfile -ExecutionPolicy Bypass -File "tools\restore-large-mod.ps1" || goto :erro
 powershell -NoProfile -ExecutionPolicy Bypass -File "tools\rebuild-depth-spawns.ps1" || goto :erro
 powershell -NoProfile -ExecutionPolicy Bypass -File "tools\enforce-mob-policy.ps1" || goto :erro
