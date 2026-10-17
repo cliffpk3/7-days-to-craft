@@ -112,7 +112,7 @@ public final class SevenDaysLocks {
     private static final String[] TIER_CHESTS = {"minecraft:chest", "quark:ancient_chest", "quark:acacia_chest", "quark:prismarine_chest", "quark:nether_brick_chest"};
     static final String[][] RANK_ITEMS = {
         {},
-        {"artifacts:plastic_drinking_hat", "artifacts:novely_drinking_hat", "artifacts:snorkel", "artifacts:lucky_scarf", "artifacts:panic_necklace", "artifacts:golden_hook", "artifacts:cross_necklace", "artifacts:flippers", "celestial_artifacts:gold_ring", "celestial_artifacts:netherite_ring", "celestial_artifacts:nether_fire", "celestial_artifacts:gluttony_badge", "celestial_artifacts:precious_bracelet", "celestial_artifacts:red_ruby_bracelet", "celestial_artifacts:spirit_bracelet", "celestial_artifacts:cross_necklace", "celestial_artifacts:precious_necklace", "celestial_artifacts:holy_necklace", "celestial_artifacts:red_heart_necklace", "celestial_artifacts:spirit_necklace", "celestial_artifacts:evil_eye", "nameless_trinkets:experience_battery", "nameless_trinkets:experience_magnet", "nameless_trinkets:what_magnet", "nameless_trinkets:explosion_proof_jacket", "nameless_trinkets:creeper_sense", "nameless_trinkets:fractured_nullstone", "nameless_trinkets:miners_soul"},
+        {"artifacts:plastic_drinking_hat", "artifacts:novelty_drinking_hat", "artifacts:snorkel", "artifacts:lucky_scarf", "artifacts:panic_necklace", "artifacts:golden_hook", "artifacts:cross_necklace", "artifacts:flippers", "celestial_artifacts:gold_ring", "celestial_artifacts:netherite_ring", "celestial_artifacts:nether_fire", "celestial_artifacts:gluttony_badge", "celestial_artifacts:precious_bracelet", "celestial_artifacts:red_ruby_bracelet", "celestial_artifacts:spirit_bracelet", "celestial_artifacts:cross_necklace", "celestial_artifacts:precious_necklace", "celestial_artifacts:holy_necklace", "celestial_artifacts:red_heart_necklace", "celestial_artifacts:spirit_necklace", "celestial_artifacts:evil_eye", "nameless_trinkets:experience_battery", "nameless_trinkets:experience_magnet", "nameless_trinkets:what_magnet", "nameless_trinkets:explosion_proof_jacket", "nameless_trinkets:creeper_sense", "nameless_trinkets:fractured_nullstone", "nameless_trinkets:miners_soul"},
         {"artifacts:umbrella", "artifacts:thorn_pendant", "artifacts:charm_of_sinking", "artifacts:obsidian_skull", "artifacts:antidote_vessel", "artifacts:digging_claws", "artifacts:feral_claws", "artifacts:pocket_piston", "artifacts:aqua_dashers", "artifacts:steadfast_spikes", "artifacts:rooted_boots", "celestial_artifacts:gold_ring", "celestial_artifacts:holy_sword", "celestial_artifacts:sands_talisman", "celestial_artifacts:skywalker_scroll", "celestial_artifacts:charming_bracelet", "celestial_artifacts:star_necklace", "celestial_artifacts:gallop_necklace", "celestial_artifacts:fang_necklace", "celestial_artifacts:sea_god_crown", "celestial_artifacts:guardian_eye", "celestial_artifacts:magic_arrow_bag", "celestial_artifacts:spirit_crown", "celestial_artifacts:flame_arrow_bag", "celestial_artifacts:iron_scabbard", "celestial_artifacts:leech_scabbard", "celestial_artifacts:repent_mirror", "celestial_artifacts:backtrack_mirror", "nameless_trinkets:callus", "nameless_trinkets:puffer_fish_liver", "nameless_trinkets:blaze_nucleus", "nameless_trinkets:ice_cube", "nameless_trinkets:amphibious_hands", "nameless_trinkets:spider_legs", "nameless_trinkets:scarab_amulet", "nameless_trinkets:dragons_eye", "nameless_trinkets:four_leaf_clover", "nameless_trinkets:experience_battery"},
         {"artifacts:everlasting_beef", "artifacts:eternal_steak", "artifacts:shock_pendant", "artifacts:flame_pendant", "artifacts:cloud_in_a_bottle", "artifacts:crystal_heart", "artifacts:helium_flamingo", "artifacts:chorus_totem", "artifacts:power_glove", "artifacts:fire_gauntlet", "artifacts:vampiric_glove", "artifacts:pickaxe_heater", "artifacts:running_shoes", "celestial_artifacts:magic_horseshoe", "celestial_artifacts:heart_of_revenge", "celestial_artifacts:life_bracelet", "celestial_artifacts:prayer_crown", "celestial_artifacts:titan_scabbard", "nameless_trinkets:reverse_card", "nameless_trinkets:broken_magnet", "nameless_trinkets:super_magnet", "nameless_trinkets:lucky_rock", "nameless_trinkets:rage_mind", "nameless_trinkets:cracked_crown", "nameless_trinkets:sigil_of_baphomet", "nameless_trinkets:tear_of_the_sea", "nameless_trinkets:true_heart_of_the_sea", "nameless_trinkets:moon_stone", "nameless_trinkets:sleeping_pills", "nameless_trinkets:ethereal_wings", "nameless_trinkets:reforger", "nameless_trinkets:light_gloves", "nameless_trinkets:nelumbo", "nameless_trinkets:dark_nelumbo"},
         {"artifacts:night_vision_goggles", "artifacts:scarf_of_invisibility", "artifacts:bunny_hoppers", "celestial_artifacts:amethyst_ring", "celestial_artifacts:flight_ring", "celestial_artifacts:holy_talisman", "celestial_artifacts:angel_heart", "celestial_artifacts:angel_pearl", "celestial_artifacts:knight_shelter", "celestial_artifacts:solar_magnet", "celestial_artifacts:bearing_stamen", "celestial_artifacts:earth_axe", "celestial_artifacts:earth_pickaxe", "celestial_artifacts:earth_shovel", "nameless_trinkets:missing_page", "nameless_trinkets:broken_ankh", "nameless_trinkets:speed_force", "nameless_trinkets:vampire_blood", "nameless_trinkets:blindfold", "nameless_trinkets:ghast_eye", "nameless_trinkets:wooden_stick", "nameless_trinkets:gods_crown", "nameless_trinkets:fragile_cloud"},
@@ -405,6 +405,11 @@ public final class SevenDaysLocks {
             if (event.getLevel().isClientSide()) return;
             Entity entity = event.getEntity();
             ResourceLocation id = BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType());
+            if (entity instanceof Mob centipede && id != null
+                && id.getNamespace().equals("alexsmobs") && id.getPath().equals("centipede_head")) {
+                var followRange = centipede.getAttribute(Attributes.FOLLOW_RANGE);
+                if (followRange != null) followRange.setBaseValue(8.0);
+            }
             if (entity instanceof Mob mob && id != null && (id.getNamespace().equals("mutantmonsters") || id.getNamespace().equals("mutantsbuff"))) {
                 var followRange = mob.getAttribute(Attributes.FOLLOW_RANGE);
                 if (followRange != null && followRange.getBaseValue() > 18.0) followRange.setBaseValue(18.0);
@@ -642,11 +647,20 @@ public final class SevenDaysLocks {
                 if (sourceLootTable.endsWith("/final_chest")) { rewardRank = 4; chance = 1.0; }
                 else if (sourceLootTable.endsWith("/bone_chest_loot")) { rewardRank = 3; chance = 1.0; }
                 else if (sourceLootTable.endsWith("/treasure_chest_loot")) { rewardRank = 2; chance = 1.0; }
-                else return;
+                else chance = tier >= 3 ? 1.0 : 0.0;
             } else {
-                chance = switch (tier) { case 1 -> 0.15; case 2 -> 0.25; case 3 -> 0.40; case 4 -> 1.0; default -> 0.0; };
+                chance = switch (tier) { case 1 -> 0.15; case 2 -> 0.25; case 3, 4 -> 1.0; default -> 0.0; };
             }
             if (container.getLevel() == null || container.getLevel().random.nextDouble() >= chance) return;
+            boolean fixedDungeonRank = sourceLootTable.startsWith("wrd:")
+                && (sourceLootTable.endsWith("/final_chest")
+                    || sourceLootTable.endsWith("/bone_chest_loot")
+                    || sourceLootTable.endsWith("/treasure_chest_loot"));
+            if (!fixedDungeonRank) {
+                double rankRoll = container.getLevel().random.nextDouble();
+                if (tier == 3) rewardRank = rankRoll < 0.20 ? 2 : 3;
+                else if (tier == 4) rewardRank = rankRoll < 0.25 ? 3 : 4;
+            }
             String[] choices = RANK_ITEMS[rewardRank];
             if (choices.length == 0) return;
             ItemStack reward = new ItemStack(BuiltInRegistries.ITEM.get(new ResourceLocation(choices[container.getLevel().random.nextInt(choices.length)])));

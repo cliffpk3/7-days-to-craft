@@ -1498,7 +1498,7 @@
         "armor": null,
         "armorToughness": null,
         "movementSpeed": null,
-        "followRange": null,
+        "followRange": 8.0,
         "knockbackResistance": null
       },
       "spawn": {

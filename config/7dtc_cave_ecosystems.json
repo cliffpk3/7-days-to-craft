@@ -118,6 +118,15 @@
             "born_in_chaos_v1:dread_hound",
             "born_in_chaos_v1:dire_hound_leader"
           ]
+        },
+        {
+          "weight": 1,
+          "minY": -40,
+          "maxY": -8,
+          "mobs": [
+            "born_in_chaos_v1:dread_hound",
+            "born_in_chaos_v1:nightmare_stalker"
+          ]
         }
       ]
     },
@@ -149,6 +158,24 @@
             "born_in_chaos_v1:decrepit_skeleton",
             "born_in_chaos_v1:skeleton_thrasher"
           ]
+        },
+        {
+          "weight": 4,
+          "minY": -24,
+          "maxY": 16,
+          "mobs": [
+            "born_in_chaos_v1:decaying_zombie",
+            "born_in_chaos_v1:barrel_zombie"
+          ]
+        },
+        {
+          "weight": 1,
+          "minY": -40,
+          "maxY": -8,
+          "mobs": [
+            "born_in_chaos_v1:barrel_zombie",
+            "born_in_chaos_v1:zombie_bruiser"
+          ]
         }
       ]
     },
@@ -178,6 +205,85 @@
           "maxY": -24,
           "mobs": [
             "alexsmobs:centipede_head"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "bone_cult",
+      "minY": -40,
+      "maxY": 24,
+      "weight": 13,
+      "biomeBias": {
+        "tuff": 1.5,
+        "dripstone": 1.2,
+        "lush_caves": 0.7
+      },
+      "encounters": [
+        {
+          "weight": 5,
+          "minY": -24,
+          "maxY": 24,
+          "mobs": [
+            "born_in_chaos_v1:bonescaller",
+            "born_in_chaos_v1:decrepit_skeleton"
+          ]
+        },
+        {
+          "weight": 4,
+          "minY": -24,
+          "maxY": 16,
+          "mobs": [
+            "born_in_chaos_v1:skeleton_demoman",
+            "born_in_chaos_v1:decrepit_skeleton"
+          ]
+        },
+        {
+          "weight": 2,
+          "minY": -40,
+          "maxY": -8,
+          "mobs": [
+            "born_in_chaos_v1:skeleton_thrasher",
+            "born_in_chaos_v1:bonescaller"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "haunted_depths",
+      "minY": -40,
+      "maxY": 16,
+      "weight": 11,
+      "biomeBias": {
+        "deep_caves": 1.5,
+        "thermal": 1.4,
+        "lush_caves": 0.6
+      },
+      "encounters": [
+        {
+          "weight": 5,
+          "minY": -24,
+          "maxY": 16,
+          "mobs": [
+            "born_in_chaos_v1:restless_spirit",
+            "born_in_chaos_v1:spirit_guide"
+          ]
+        },
+        {
+          "weight": 4,
+          "minY": -40,
+          "maxY": 0,
+          "mobs": [
+            "born_in_chaos_v1:seared_spirit",
+            "born_in_chaos_v1:spiritof_chaos"
+          ]
+        },
+        {
+          "weight": 1,
+          "minY": -40,
+          "maxY": -8,
+          "mobs": [
+            "born_in_chaos_v1:nightmare_stalker"
           ]
         }
       ]
