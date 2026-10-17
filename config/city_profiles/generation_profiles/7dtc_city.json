@@ -16,7 +16,9 @@
   "city_biomes": [
     "plains",
     "taiga",
-    "plains",
+    "savanna",
+    "forest",
+    "birch_forest",
     "snowy_plains",
     "sunflower_plains",
     "snowy_taiga"
@@ -80,5 +82,5 @@
     "taiga",
     "windswept_hills"
   ],
-  "disable_small_structures": false
+  "disable_small_structures": true
 }
