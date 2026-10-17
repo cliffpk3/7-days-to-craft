@@ -501,11 +501,18 @@ public final class SevenDaysLocks {
             if (lootTable.isBlank()) return;
             StructureStart city = level.structureManager().getStructureWithPieceAt(container.getBlockPos(), CITY_RAIDS);
             if (city != null && city.isValid()) {
+                boolean militia = lootTable.equals("seven_days_locks:chests/city_militia");
+                if (!militia) {
+                    lootTable = "seven_days_locks:chests/city_infected";
+                    container.setLootTable(new ResourceLocation(lootTable), 0L);
+                    saved = container.saveWithFullMetadata();
+                }
                 long roll = Math.floorMod(mix(level.getSeed() ^ 0x4349545952414944L, container.getBlockPos()), 100L);
-                if (roll < 30L) {
+                if (roll < (militia ? 20L : 30L)) {
                     makeSettlementChestOpen(level, container);
                 } else {
-                    int tier = roll < 60L ? 1 : roll < 85L ? 2 : roll < 97L ? 3 : 4;
+                    int tier = militia ? (roll < 55L ? 2 : roll < 90L ? 3 : 4)
+                        : (roll < 60L ? 1 : roll < 85L ? 2 : roll < 97L ? 3 : 4);
                     convertToTierChest(level, container, saved, lootTable, tier);
                 }
                 return;

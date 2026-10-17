@@ -1,0 +1,22 @@
+{
+  "name": "the_lost_city:spawners_7dtc_militia",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_militia_usunit",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_militia_ruunit",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

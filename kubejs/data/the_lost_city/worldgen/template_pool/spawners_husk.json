@@ -1,0 +1,118 @@
+{
+  "name": "the_lost_city:spawners_husk",
+  "fallback": "minecraft:empty",
+  "elements": [
+    {
+      "weight": 7,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_infected_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 5,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_crawler_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 4,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_runner_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_clicker_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 3,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_revived_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_infected_police_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_boomer_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_infected_military_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 2,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_infected_hazmat_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_faceless_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_divided_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_infected_juggernaut_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_demolisher_spawners_husk",
+        "projection": "rigid"
+      }
+    },
+    {
+      "weight": 1,
+      "element": {
+        "element_type": "minecraft:single_pool_element",
+        "location": "seven_days_locks:city_spawner_night_hunter_spawners_husk",
+        "projection": "rigid"
+      }
+    }
+  ]
+}

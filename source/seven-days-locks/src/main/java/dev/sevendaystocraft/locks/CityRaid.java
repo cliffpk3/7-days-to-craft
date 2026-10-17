@@ -29,7 +29,7 @@ import net.minecraftforge.fml.common.Mod;
 import java.util.HashMap;
 import java.util.Map;
 
-/** First city-raid test profile. Existing hordes and command/spawn-egg tests remain independent. */
+/** Infected city patrols. The police station's militia is supplied by its template spawners. */
 @Mod.EventBusSubscriber(modid = SevenDaysLocks.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public final class CityRaid {
     private static final TagKey<Structure> CITIES = TagKey.create(Registries.STRUCTURE,
@@ -43,8 +43,8 @@ public final class CityRaid {
         "fracturepoint:fsb_squad_leader_helmet", "fracturepoint:fsb_squad_leader_chestplate",
         "fracturepoint:fsb_leggings", "fracturepoint:fsb_boots"};
     private static final Map<Long, Long> LAST_PATROL = new HashMap<>();
-    private static final int PATROL_INTERVAL = 1200;
-    private static final int LOCAL_CAP = 14;
+    private static final int PATROL_INTERVAL = 400;
+    private static final int LOCAL_CAP = 26;
 
     private CityRaid() {}
 
@@ -92,16 +92,17 @@ public final class CityRaid {
         long region = (((long) (player.blockPosition().getX() >> 5)) << 32) ^ ((player.blockPosition().getZ() >> 5) & 0xffffffffL);
         long now = level.getGameTime();
         if (now - LAST_PATROL.getOrDefault(region, Long.MIN_VALUE / 2) < PATROL_INTERVAL) return;
-        int nearby = level.getEntitiesOfClass(Mob.class, player.getBoundingBox().inflate(48, 32, 48), CityRaid::cityMob).size();
+        int nearby = level.getEntitiesOfClass(Mob.class, player.getBoundingBox().inflate(48, 16, 48),
+            mob -> cityMob(mob) || mob.getTags().contains("7dtc_city_raid")).size();
         if (nearby >= LOCAL_CAP) return;
         LAST_PATROL.put(region, now);
-        int members = Math.min(2 + level.random.nextInt(2), LOCAL_CAP - nearby);
-        int roll = level.random.nextInt(100);
-        boolean militia = ModList.get().isLoaded("simpleenemymod") && roll < 18;
-        String[] pool = roll < 18 ? COMMON : roll < 76 ? COMMON : roll < 96 ? SPECIAL : BOSS;
+        int members = Math.min(4 + level.random.nextInt(2), LOCAL_CAP - nearby);
         for (int i = 0; i < members; i++) {
-            String id = militia ? (level.random.nextBoolean() ? "simpleenemymod:ruunit" : "simpleenemymod:usunit")
-                : "zombie_extreme:" + pool[level.random.nextInt(pool.length)];
+            int roll = level.random.nextInt(100);
+            String id = roll < 25 ? (level.random.nextInt(4) == 0 ? "minecraft:husk" : "minecraft:zombie")
+                : "zombie_extreme:" + (roll < 78 ? COMMON[level.random.nextInt(COMMON.length)]
+                    : roll < 97 ? SPECIAL[level.random.nextInt(SPECIAL.length)]
+                    : BOSS[level.random.nextInt(BOSS.length)]);
             spawnNear(level, player, id);
         }
     }
@@ -109,12 +110,12 @@ public final class CityRaid {
     private static void spawnNear(ServerLevel level, ServerPlayer player, String id) {
         for (int attempt = 0; attempt < 12; attempt++) {
             double angle = level.random.nextDouble() * Math.PI * 2;
-            int distance = 24 + level.random.nextInt(19);
+            int distance = 16 + level.random.nextInt(23);
             int x = player.getBlockX() + (int) Math.round(Math.cos(angle) * distance);
             int z = player.getBlockZ() + (int) Math.round(Math.sin(angle) * distance);
             if (!level.hasChunkAt(new BlockPos(x, player.getBlockY(), z))) continue;
             BlockPos pos = level.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, new BlockPos(x, 0, z));
-            if (Math.abs(pos.getY() - player.getBlockY()) > 18 || !cityAt(level, pos)) continue;
+            if (Math.abs(pos.getY() - player.getBlockY()) > 5 || !cityAt(level, pos)) continue;
             if (!level.getBlockState(pos).isAir() || !level.getBlockState(pos.above()).isAir()) continue;
             EntityType<?> type = BuiltInRegistries.ENTITY_TYPE.get(new ResourceLocation(id));
             if (!(type.create(level) instanceof Mob mob)) return;
@@ -140,7 +141,7 @@ public final class CityRaid {
         if (!militia) {
             mob.spawnAtLocation(new ItemStack(Items.ROTTEN_FLESH, major ? 3 : 1));
         }
-        if (militia && level.random.nextDouble() < 0.025 || major && level.random.nextDouble() < 0.04) {
+        if (militia && level.random.nextDouble() < 0.035 || major && level.random.nextDouble() < 0.04) {
             String weapon = BLUEPRINTS[level.random.nextInt(BLUEPRINTS.length)];
             Item item = BuiltInRegistries.ITEM.get(new ResourceLocation("seven_days_locks:blueprint_" + weapon));
             if (item != Items.AIR) mob.spawnAtLocation(WeaponBlueprintItem.rolled(item, level.random));
