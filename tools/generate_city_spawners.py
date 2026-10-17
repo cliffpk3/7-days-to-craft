@@ -9,6 +9,7 @@ import gzip
 import io
 import json
 import zipfile
+from copy import deepcopy
 from pathlib import Path
 
 import nbtlib
@@ -44,6 +45,11 @@ def source(jar: zipfile.ZipFile, name: str) -> nbtlib.File:
 def save_template(name: str, template: nbtlib.File, namespace: str = "seven_days_locks") -> None:
     target = DATA / namespace / "structures" / f"{name}.nbt"
     target.parent.mkdir(parents=True, exist_ok=True)
+    if target.exists():
+        content = io.BytesIO()
+        template.write(content)
+        if gzip.decompress(target.read_bytes()) == content.getvalue():
+            return
     template.save(target, gzipped=True)
 
 
@@ -104,25 +110,45 @@ def main() -> None:
         # The ruined police station is the militia-held building. Existing
         # jigsaw spawners and the built-in spawner become Simple Enemy units.
         police = source(jar, "m_police_station")
+        spawner_state = None
+        police_spawner_nbt = None
         for block in police["blocks"]:
             state = police["palette"][int(block["state"])]["Name"]
             if state == "minecraft:jigsaw" and "spawners_zombie" in str(block.get("nbt", {}).get("pool", "")):
                 block["nbt"]["pool"] = tag.String("the_lost_city:spawners_7dtc_militia")
             if state == "minecraft:spawner":
+                spawner_state = int(block["state"])
                 block["nbt"]["SpawnData"]["entity"]["id"] = tag.String("simpleenemymod:usunit")
                 block["nbt"]["SpawnCount"] = tag.Short(2)
                 block["nbt"]["MaxNearbyEntities"] = tag.Short(8)
                 block["nbt"]["MinSpawnDelay"] = tag.Short(500)
                 block["nbt"]["MaxSpawnDelay"] = tag.Short(1000)
+                police_spawner_nbt = deepcopy(block["nbt"])
             if state in ("minecraft:chest", "minecraft:barrel"):
                 block["nbt"]["LootTable"] = tag.String("seven_days_locks:chests/city_militia")
+        if spawner_state is None or police_spawner_nbt is None:
+            raise ValueError("Police station no longer contains its expected spawner")
+        roof_positions = {(12, 33, 11), (12, 33, 16)}
+        for block in police["blocks"]:
+            if tuple(map(int, block["pos"])) not in roof_positions:
+                continue
+            if police["palette"][int(block["state"])]["Name"] != "minecraft:air":
+                raise ValueError(f"Rooftop spawn position is occupied: {block['pos']}")
+            block["state"] = tag.Int(spawner_state)
+            block["nbt"] = deepcopy(police_spawner_nbt)
+            block["nbt"]["SpawnCount"] = tag.Short(1)
+            block["nbt"]["MaxNearbyEntities"] = tag.Short(4)
+            block["nbt"]["RequiredPlayerRange"] = tag.Short(88)
+            block["nbt"]["SpawnRange"] = tag.Short(3)
+            block["nbt"]["MinSpawnDelay"] = tag.Short(700)
+            block["nbt"]["MaxSpawnDelay"] = tag.Short(1200)
         save_template("m_police_station", police, namespace="the_lost_city")
 
-        for unit in ("usunit", "ruunit"):
+        for unit in ("usunit",):
             variant = source(jar, "spawner_zombie")
             spawner(variant, f"simpleenemymod:{unit}", "the_lost_city:spawners_7dtc_militia")
             save_template(f"city_spawner_militia_{unit}", variant)
-        pool("spawners_7dtc_militia", [("militia_usunit", 1), ("militia_ruunit", 1)])
+        pool("spawners_7dtc_militia", [("militia_usunit", 1)])
 
 
 if __name__ == "__main__":

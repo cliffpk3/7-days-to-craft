@@ -69,6 +69,14 @@ public final class CityRaid {
         Mob mob = event.getEntity();
         MobSpawnType type = event.getSpawnType();
         if (cityMob(mob)) {
+            // The city garrison comes from its own building spawners. Random
+            // Simple Enemy events would mix armies inside the same building.
+            if (entityId(mob).startsWith("simpleenemymod:")
+                && type != MobSpawnType.SPAWNER && type != MobSpawnType.COMMAND
+                && type != MobSpawnType.SPAWN_EGG) {
+                event.setCanceled(true);
+                return;
+            }
             if (!mob.getTags().contains("7dtc_city_raid")
                 && !mob.getTags().contains("7dtc_allow_test_spawn")
                 && type != MobSpawnType.COMMAND && type != MobSpawnType.SPAWN_EGG
