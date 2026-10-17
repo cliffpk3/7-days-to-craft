@@ -35,7 +35,7 @@
     "sunflower_plains",
     "snowy_taiga"
   ],
-  "spawn_skyscraper": true,
+  "spawn_skyscraper": false,
   "skyscraper_spacing": 24,
   "skyscraper_separation": 12,
   "skyscraper_biomes": [
@@ -45,7 +45,7 @@
     "sunflower_plains",
     "snowy_taiga"
   ],
-  "spawn_factory": true,
+  "spawn_factory": false,
   "factory_spacing": 32,
   "factory_separation": 8,
   "factory_biomes": [
@@ -57,7 +57,7 @@
     "forest",
     "birch_forest"
   ],
-  "spawn_survivorscamp": true,
+  "spawn_survivorscamp": false,
   "survivorscamp_spacing": 32,
   "survivorscamp_separation": 8,
   "survivorscamp_biomes": [
@@ -65,7 +65,7 @@
     "forest",
     "taiga"
   ],
-  "spawn_lighthouse": true,
+  "spawn_lighthouse": false,
   "lighthouse_spacing": 32,
   "lighthouse_separation": 8,
   "lighthouse_biomes": [
@@ -73,7 +73,7 @@
     "deep_ocean",
     "warm_ocean"
   ],
-  "spawn_tower": true,
+  "spawn_tower": false,
   "tower_spacing": 32,
   "tower_separation": 8,
   "tower_biomes": [
