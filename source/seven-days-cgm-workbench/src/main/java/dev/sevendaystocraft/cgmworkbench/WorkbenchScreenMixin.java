@@ -33,6 +33,12 @@ public abstract class WorkbenchScreenMixin {
     private static final int GRID_HEIGHT = 182;
     private static final int WORKBENCH_WIDTH = 275;
     private static final int WORKBENCH_HEIGHT = 184;
+    // Matches the blueprint threat tiers, then increasing combat impact within each tier.
+    private static final List<String> FIREARM_ORDER = List.of(
+        "glock_17", "m1911", "db_short",
+        "p320", "uzi", "hk_mp5a5", "m870", "sks_tactical",
+        "m4a1", "ak47", "scar_l", "m1014", "m700", "m249",
+        "deagle", "hk416d", "rpk", "m107");
 
     @Shadow(remap = false)
     private List<Object> tabs;
@@ -77,6 +83,8 @@ public abstract class WorkbenchScreenMixin {
     private void sevenDaysToCraft$addCustomTabs(CallbackInfo ci) {
         addTab("weapons", "seven_days_to_craft:cgm/weapons/", "glock_17");
         addTab("attachments", "seven_days_to_craft:cgm/attachments/", "scope_retro_2x");
+        keepOnlyCuratedRecipes("weapons", "seven_days_to_craft:cgm/weapons/");
+        keepOnlyCuratedRecipes("attachments", "seven_days_to_craft:cgm/attachments/");
         replaceTabIcon("weapons", "glock_17");
         replaceTabIcon("attachments", "scope_retro_2x");
         addTab("equipment", "seven_days_to_craft:cgm/equipment/", "insurgency_commander_helmet");
@@ -392,6 +400,10 @@ public abstract class WorkbenchScreenMixin {
         for (Object tab : tabs) {
             List<Object> recipes = getRecipes(tab);
             if (recipes == null) continue;
+            if (isTab(tab, "weapons")) {
+                recipes.sort((left, right) -> Integer.compare(firearmOrder(left), firearmOrder(right)));
+                continue;
+            }
             recipes.sort((left, right) -> {
                 ItemStack leftStack = (ItemStack) findResultStackQuiet(left);
                 ItemStack rightStack = (ItemStack) findResultStackQuiet(right);
@@ -399,6 +411,42 @@ public abstract class WorkbenchScreenMixin {
                 String rightName = rightStack.m_41619_() ? "" : rightStack.m_41786_().getString();
                 return String.CASE_INSENSITIVE_ORDER.compare(leftName, rightName);
             });
+        }
+    }
+
+    private int firearmOrder(Object recipe) {
+        try {
+            String id = findRecipeId(recipe);
+            int rank = FIREARM_ORDER.indexOf(id.substring(id.lastIndexOf('/') + 1));
+            return rank < 0 ? Integer.MAX_VALUE : rank;
+        } catch (ReflectiveOperationException exception) {
+            return Integer.MAX_VALUE;
+        }
+    }
+
+    private boolean isTab(Object tab, String id) {
+        try {
+            Method getTabKey = tab.getClass().getDeclaredMethod("getTabKey");
+            getTabKey.setAccessible(true);
+            return String.valueOf(getTabKey.invoke(tab)).endsWith("." + id);
+        } catch (ReflectiveOperationException exception) {
+            return false;
+        }
+    }
+
+    private void keepOnlyCuratedRecipes(String tabId, String prefix) {
+        for (Object tab : tabs) {
+            if (!isTab(tab, tabId)) continue;
+            List<Object> recipes = getRecipes(tab);
+            if (recipes == null) return;
+            recipes.removeIf(recipe -> {
+                try {
+                    return !findRecipeId(recipe).startsWith(prefix);
+                } catch (ReflectiveOperationException exception) {
+                    return true;
+                }
+            });
+            return;
         }
     }
     private void removeEmptyTabs() {

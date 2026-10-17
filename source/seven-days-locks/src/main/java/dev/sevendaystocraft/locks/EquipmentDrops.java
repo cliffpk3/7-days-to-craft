@@ -38,7 +38,7 @@ final class EquipmentDrops {
         {},
         {"glock_17", "m1911", "db_short"},
         {"p320", "hk_mp5a5", "uzi", "m870", "sks_tactical"},
-        {"m4a1", "ak47", "scar_l", "m1014", "m700"},
+        {"m4a1", "ak47", "scar_l", "m1014", "m700", "m249"},
         {"deagle", "hk416d", "rpk", "m107"}
     };
 

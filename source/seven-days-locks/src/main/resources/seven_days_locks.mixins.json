@@ -3,6 +3,7 @@
   "minVersion": "0.8",
   "package": "dev.sevendaystocraft.locks.mixin",
   "compatibilityLevel": "JAVA_17",
-  "mixins": ["TaczCgmAmmoMixin"],
+  "mixins": ["TaczCgmAmmoMixin", "TaczCgmScriptMixin"],
+  "client": ["TaczCgmHudMixin"],
   "injectors": {"defaultRequire": 1}
 }

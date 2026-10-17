@@ -1,5 +1,9 @@
 package dev.sevendaystocraft.locks.mixin;
 
+import dev.sevendaystocraft.locks.TaczAmmoTypes;
+import com.tacz.guns.api.TimelessAPI;
+import com.tacz.guns.api.item.IGun;
+import com.tacz.guns.util.AttachmentDataUtils;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.entity.player.Player;
@@ -8,6 +12,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraftforge.items.IItemHandler;
 import net.minecraftforge.items.wrapper.PlayerInvWrapper;
+import net.minecraftforge.common.capabilities.ForgeCapabilities;
 import org.spongepowered.asm.mixin.Mixin;
 import org.spongepowered.asm.mixin.injection.At;
 import org.spongepowered.asm.mixin.injection.Inject;
@@ -20,15 +25,32 @@ public abstract class TaczCgmAmmoMixin {
     private static Item ammoFor(ItemStack gun) {
         if (!gun.hasTag()) return Items.AIR;
         String id = gun.getTag().getString("GunId");
-        String ammo = switch (id) {
-            case "tacz:glock_17", "tacz:m1911", "tacz:p320", "tacz:hk_mp5a5", "tacz:uzi"
-                -> "cgm:basic_bullet";
-            case "tacz:db_short", "tacz:m870", "tacz:m1014" -> "cgm:shell";
-            case "tacz:sks_tactical", "tacz:m4a1", "tacz:ak47", "tacz:scar_l", "tacz:m700", "tacz:m249",
-                "tacz:deagle", "tacz:hk416d", "tacz:rpk", "tacz:m107" -> "cgm:advanced_bullet";
-            default -> "minecraft:air";
-        };
+        String ammo = TaczAmmoTypes.ammoId(id);
+        if (ammo.isEmpty()) return Items.AIR;
         return BuiltInRegistries.ITEM.get(new ResourceLocation(ammo));
+    }
+
+    @Inject(method = "canReload", at = @At("RETURN"), cancellable = true, remap = false)
+    private void sevenDaysToCraft$allowCgmReload(net.minecraft.world.entity.LivingEntity shooter, ItemStack gun,
+                                                   CallbackInfoReturnable<Boolean> callback) {
+        if (!(shooter instanceof Player) || !(gun.getItem() instanceof IGun gunItem)) return;
+        Item ammo = ammoFor(gun);
+        if (ammo == Items.AIR || gunItem.useInventoryAmmo(gun)) return;
+        boolean hasRoom = TimelessAPI.getCommonGunIndex(gunItem.getGunId(gun))
+            .map(index -> gunItem.getCurrentAmmoCount(gun)
+                < AttachmentDataUtils.getAmmoCountWithAttachment(gun, index.getGunData()))
+            .orElse(false);
+        if (!hasRoom) {
+            callback.setReturnValue(false);
+            return;
+        }
+        boolean hasAmmo = shooter.getCapability(ForgeCapabilities.ITEM_HANDLER).map(inventory -> {
+            for (int slot = 0; slot < inventory.getSlots(); slot++) {
+                if (inventory.getStackInSlot(slot).is(ammo)) return true;
+            }
+            return false;
+        }).orElse(false);
+        callback.setReturnValue(hasAmmo);
     }
 
     @Inject(method = "findAndExtractInventoryAmmo", at = @At("HEAD"), cancellable = true, remap = false)

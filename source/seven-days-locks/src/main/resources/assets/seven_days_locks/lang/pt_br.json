@@ -41,5 +41,6 @@
   "item.seven_days_locks.blueprint_tacz_deagle": "Projeto: Deagle",
   "item.seven_days_locks.blueprint_tacz_hk416d": "Projeto: HK416D",
   "item.seven_days_locks.blueprint_tacz_rpk": "Projeto: RPK",
-  "item.seven_days_locks.blueprint_tacz_m107": "Projeto: M107"
+  "item.seven_days_locks.blueprint_tacz_m107": "Projeto: M107",
+  "tooltip.seven_days_locks.tacz_ammo": "Usa munição CGM: %s"
 }
