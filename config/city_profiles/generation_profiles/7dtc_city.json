@@ -24,7 +24,7 @@
     "snowy_taiga"
   ],
   "city_use_expansion_hack": false,
-  "city_spawn_cars": true,
+  "city_spawn_cars": false,
   "spawn_villagers_city": false,
   "villagers_city_spacing": 34,
   "villagers_city_separation": 16,
