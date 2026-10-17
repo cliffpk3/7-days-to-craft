@@ -898,10 +898,7 @@ public final class SkillBridge {
 
             // Construction lessons accept an item from any legitimate source. This
             // covers crafting, loot, trading and items handed over by another player.
-            if (hasAnyItem(player,
-                "cgm:pistol", "cgm:machine_pistol", "cgm:shotgun", "cgm:rifle",
-                "cgm:assault_rifle", "cgm:heavy_rifle", "cgm:sniper_rifle",
-                "cgm:grenade_launcher", "cgm:bazooka", "cgm:mini_gun")) {
+            if (hasItem(player, "tacz:modern_kinetic_gun")) {
                 award(player, new ResourceLocation("seven_days_to_craft", "training/firearm_obtain_or_use"));
             }
             if (hasItem(player, "cgm:basic_bullet")) {

@@ -34,9 +34,12 @@ final class EquipmentDrops {
         }
     };
 
-    private static final String[] FIREARMS = {
-        "cgm:pistol", "cgm:rifle", "cgm:shotgun", "cgm:assault_rifle",
-        "cgm:heavy_rifle", "cgm:machine_pistol", "cgm:grenade_launcher"
+    private static final String[][] FIREARMS = {
+        {},
+        {"glock_17", "m1911", "db_short"},
+        {"p320", "hk_mp5a5", "uzi", "m870", "sks_tactical"},
+        {"m4a1", "ak47", "scar_l", "m1014", "m700"},
+        {"deagle", "hk416d", "rpk", "m107"}
     };
 
     private EquipmentDrops() {}
@@ -64,7 +67,9 @@ final class EquipmentDrops {
             ? 0.010D
             : modifiers == null ? 0.0D : Math.min(0.015D, 0.0015D * Math.max(1, modifiers.getModSize()));
         if (mob.getRandom().nextDouble() < firearmChance) {
-            spawnFoundItem(mob, FIREARMS[mob.getRandom().nextInt(FIREARMS.length)], 0.20D, 0.65D);
+            String[] pool = FIREARMS[tier];
+            ItemStack gun = TaczItems.gun(pool[mob.getRandom().nextInt(pool.length)]);
+            if (!gun.isEmpty()) mob.spawnAtLocation(gun);
         }
     }
 

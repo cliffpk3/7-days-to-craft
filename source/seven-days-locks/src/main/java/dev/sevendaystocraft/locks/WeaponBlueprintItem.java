@@ -32,7 +32,7 @@ public final class WeaponBlueprintItem extends Item {
         ItemStack stack = new ItemStack(item);
         if (!(item instanceof WeaponBlueprintItem blueprint)) return stack;
         double roll = random.nextDouble();
-        int uses = "gun".equals(blueprint.group)
+        int uses = "gun".equals(blueprint.group) || "tacz".equals(blueprint.group)
             ? roll < 0.10D ? 3 : roll < 0.30D ? 2 : 1
             : roll < 0.15D ? 6 : roll < 0.45D ? 3 : 1;
         stack.getOrCreateTag().putInt(USES_TAG, uses);
@@ -42,11 +42,18 @@ public final class WeaponBlueprintItem extends Item {
     @Override
     public void appendHoverText(ItemStack stack, Level level, List<Component> tooltip, TooltipFlag flag) {
         super.appendHoverText(stack, level, tooltip, flag);
+        int uses = remaining(stack);
+        if ("tacz".equals(group)) {
+            tooltip.add(Component.translatable(uses == 1
+                    ? "tooltip.seven_days_locks.blueprint_use"
+                    : "tooltip.seven_days_locks.blueprint_uses",
+                Component.translatable("tacz.gun." + weapon + ".name"), uses).withStyle(ChatFormatting.GRAY));
+            return;
+        }
         String namespace = "gun".equals(group) && !weapon.equals("blood_sprayer")
             && !weapon.equals("stink_ray") && !weapon.equals("hemolymph_blaster") ? "cgm"
             : "gun".equals(group) ? "alexsmobs" : "divine_weaponry";
         Item target = BuiltInRegistries.ITEM.get(new ResourceLocation(namespace, weapon));
-        int uses = remaining(stack);
         tooltip.add(Component.translatable(uses == 1
                 ? "tooltip.seven_days_locks.blueprint_use"
                 : "tooltip.seven_days_locks.blueprint_uses",

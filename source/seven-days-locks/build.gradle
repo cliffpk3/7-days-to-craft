@@ -12,6 +12,6 @@ dependencies {
  compileOnly fg.deobf(files('../../mods/advancedcompass.forge.1.20.1-1.2.15.jar'))
  compileOnly fg.deobf(files('../../mods/trashslot-forge-1.20-15.1.0.jar'))
 }
-jar { manifest { attributes(['Specification-Title':'seven_days_locks','Specification-Vendor':'7 Days to Craft','Specification-Version':'1','Implementation-Title':project.name,'Implementation-Version':project.jar.archiveVersion,'Implementation-Vendor':'7 Days to Craft']) } }
+jar { manifest { attributes(['Specification-Title':'seven_days_locks','Specification-Vendor':'7 Days to Craft','Specification-Version':'1','Implementation-Title':project.name,'Implementation-Version':project.jar.archiveVersion,'Implementation-Vendor':'7 Days to Craft','MixinConfigs':'seven_days_locks.mixins.json']) } }
 jar.finalizedBy('reobfJar')
 tasks.withType(JavaCompile).configureEach { options.encoding='UTF-8' }

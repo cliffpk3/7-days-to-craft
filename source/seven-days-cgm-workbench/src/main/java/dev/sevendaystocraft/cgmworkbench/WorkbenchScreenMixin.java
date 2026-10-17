@@ -75,6 +75,10 @@ public abstract class WorkbenchScreenMixin {
 
     @Inject(method = "createTabs", at = @At("TAIL"), remap = false)
     private void sevenDaysToCraft$addCustomTabs(CallbackInfo ci) {
+        addTab("weapons", "seven_days_to_craft:cgm/weapons/", "glock_17");
+        addTab("attachments", "seven_days_to_craft:cgm/attachments/", "scope_retro_2x");
+        replaceTabIcon("weapons", "glock_17");
+        replaceTabIcon("attachments", "scope_retro_2x");
         addTab("equipment", "seven_days_to_craft:cgm/equipment/", "insurgency_commander_helmet");
         addTab("utilities", "seven_days_to_craft:cgm/utilities/", "quark_backpack");
         addTab("engineering", "seven_days_to_craft:cgm/engineering/", "cogwheel");
@@ -423,6 +427,14 @@ public abstract class WorkbenchScreenMixin {
                 }
             }
             if (matchingRecipes.isEmpty() || iconStack == null) return;
+            for (Object tab : tabs) {
+                Method getTabKey = tab.getClass().getDeclaredMethod("getTabKey");
+                getTabKey.setAccessible(true);
+                if (!String.valueOf(getTabKey.invoke(tab)).endsWith("." + tabId)) continue;
+                List<Object> existingRecipes = getRecipes(tab);
+                if (existingRecipes != null) existingRecipes.addAll(matchingRecipes);
+                return;
+            }
             Class<?> tabClass = Class.forName("com.mrcrayfish.guns.client.screen.WorkbenchScreen$Tab");
             Constructor<?> constructor = tabClass.getDeclaredConstructors()[0];
             constructor.setAccessible(true);

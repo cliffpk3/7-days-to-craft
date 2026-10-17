@@ -85,6 +85,15 @@ public final class SevenDaysLocks {
         }) {
             result.put(weapon, ITEMS.register("blueprint_" + weapon, () -> new WeaponBlueprintItem("gun", weapon)));
         }
+        // Keep the old blueprint items registered so existing saves remain readable.
+        // New firearm progression uses one plan for each curated TaCZ gun.
+        for (String weapon : new String[] {
+            "glock_17", "m1911", "db_short", "p320", "hk_mp5a5", "uzi", "m870", "sks_tactical",
+            "m4a1", "ak47", "scar_l", "m1014", "m700", "m249", "deagle", "hk416d", "rpk", "m107"
+        }) {
+            result.put("tacz_" + weapon, ITEMS.register("blueprint_tacz_" + weapon,
+                () -> new WeaponBlueprintItem("tacz", weapon)));
+        }
         return Map.copyOf(result);
     }
     private static Map<String, RegistryObject<Item>> registerDivineBlueprints() {
@@ -736,12 +745,17 @@ public final class SevenDaysLocks {
             var random = container.getLevel().random;
             double chance = switch (tier) { case 1 -> 0.18; case 2 -> 0.25; case 3 -> 0.30; default -> 0.38; };
             if (random.nextDouble() >= chance) return;
+            if (tier == 4 && random.nextDouble() < 0.03) {
+                String[] guns = {"m4a1", "ak47", "m700", "hk416d"};
+                place(container, paired, TaczItems.gun(guns[random.nextInt(guns.length)]));
+                return;
+            }
             String[][] equipment = {
                 {},
                 {"minecraft:iron_pickaxe", "minecraft:iron_axe", "minecraft:iron_shovel"},
                 {"minecraft:iron_sword", "minecraft:iron_pickaxe", "divine_weaponry:iron_dagger", "divine_weaponry:iron_sickle", "divine_weaponry:iron_spear", "divine_weaponry:iron_cutlass", "divine_weaponry:iron_rapier"},
                 {"minecraft:diamond_pickaxe", "minecraft:diamond_sword", "divine_weaponry:diamond_dagger", "divine_weaponry:diamond_sickle", "divine_weaponry:diamond_spear", "divine_weaponry:diamond_katana", "divine_weaponry:diamond_battleaxe"},
-                {"cgm:pistol", "cgm:rifle", "cgm:shotgun", "cgm:machine_pistol", "cgm:heavy_rifle", "divine_weaponry:apophis_katana", "divine_weaponry:erebus_scythe", "divine_weaponry:hyperion_longsword", "divine_weaponry:mjollnir_hammer", "divine_weaponry:om_spear", "divine_weaponry:zeus_cutlass"}
+                {"divine_weaponry:apophis_katana", "divine_weaponry:erebus_scythe", "divine_weaponry:hyperion_longsword", "divine_weaponry:mjollnir_hammer", "divine_weaponry:om_spear", "divine_weaponry:zeus_cutlass"}
             };
             place(container, paired, stack(equipment[tier][random.nextInt(equipment[tier].length)], 1));
         }

@@ -45,3 +45,10 @@ mandatory=true
 versionRange="[15.1.0,)"
 ordering="AFTER"
 side="BOTH"
+
+[[dependencies.seven_days_locks]]
+modId="tacz"
+mandatory=true
+versionRange="[0,)"
+ordering="AFTER"
+side="BOTH"

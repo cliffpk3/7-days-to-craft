@@ -37,7 +37,8 @@ public final class CityRaid {
     private static final String[] COMMON = {"infected", "crawler", "runner", "clicker", "revived", "infected_police"};
     private static final String[] SPECIAL = {"boomer", "explosive_infected", "infected_military", "infected_hazmat", "faceless", "divided", "inflated"};
     private static final String[] BOSS = {"infected_juggernaut", "demolisher", "chainsaw", "night_hunter", "rat_king", "zero_patient"};
-    private static final String[] BLUEPRINTS = {"pistol", "machine_pistol", "rifle", "shotgun", "assault_rifle", "heavy_rifle"};
+    private static final String[] BLUEPRINTS = {"tacz_glock_17", "tacz_db_short", "tacz_hk_mp5a5", "tacz_m870", "tacz_m4a1", "tacz_ak47", "tacz_m700", "tacz_hk416d"};
+    private static final String[] ATTACHMENTS = {"scope_retro_2x", "scope_acog_ta31", "muzzle_compensator_trident", "grip_vertical_military", "extended_mag_1", "laser_compact"};
     private static final String[] ARMOR = {"fracturepoint:insurgency_commander_helmet", "fracturepoint:insurgency_commander_chestplate",
         "fracturepoint:insurgency_commander_leggings", "fracturepoint:insurgency_commander_boots",
         "fracturepoint:fsb_squad_leader_helmet", "fracturepoint:fsb_squad_leader_chestplate",
@@ -157,6 +158,10 @@ public final class CityRaid {
         if (militia && level.random.nextDouble() < 0.01) {
             Item item = BuiltInRegistries.ITEM.get(new ResourceLocation(ARMOR[level.random.nextInt(ARMOR.length)]));
             if (item != Items.AIR) mob.spawnAtLocation(new ItemStack(item));
+        }
+        if (militia && level.random.nextDouble() < 0.01) {
+            ItemStack attachment = TaczItems.attachment(ATTACHMENTS[level.random.nextInt(ATTACHMENTS.length)]);
+            if (!attachment.isEmpty()) mob.spawnAtLocation(attachment);
         }
     }
 }

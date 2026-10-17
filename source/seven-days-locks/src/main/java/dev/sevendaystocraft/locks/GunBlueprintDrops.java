@@ -26,10 +26,10 @@ final class GunBlueprintDrops {
     private static double[] chances = {0.0, 0.0025, 0.005, 0.01, 0.015};
     private static String[][] pools = {
         {},
-        {"pistol", "machine_pistol"},
-        {"rifle", "shotgun", "blood_sprayer", "stink_ray"},
-        {"assault_rifle", "heavy_rifle", "grenade_launcher", "hemolymph_blaster"},
-        {"mini_gun", "bazooka"}
+        {"tacz_glock_17", "tacz_m1911", "tacz_db_short"},
+        {"tacz_p320", "tacz_hk_mp5a5", "tacz_uzi", "tacz_m870", "tacz_sks_tactical"},
+        {"tacz_m4a1", "tacz_ak47", "tacz_scar_l", "tacz_m1014", "tacz_m700", "tacz_m249"},
+        {"tacz_deagle", "tacz_hk416d", "tacz_rpk", "tacz_m107"}
     };
 
     private GunBlueprintDrops() {}
