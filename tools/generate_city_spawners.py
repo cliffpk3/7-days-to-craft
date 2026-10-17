@@ -128,9 +128,22 @@ def main() -> None:
                 block["nbt"]["LootTable"] = tag.String("seven_days_locks:chests/city_militia")
         if spawner_state is None or police_spawner_nbt is None:
             raise ValueError("Police station no longer contains its expected spawner")
-        roof_positions = {(12, 33, 11), (12, 33, 16)}
+        # Raised posts sit one block inside opposite roof edges so guards can
+        # shoot down to the street without the flat roof blocking their view.
+        roof_posts = ((7, 9), (16, 18))
+        quartz_state = next(i for i, state in enumerate(police["palette"])
+                            if state["Name"] == "minecraft:quartz_block" and "Properties" not in state)
+        roof_platform = {(x + dx, 33, z + dz) for x, z in roof_posts
+                         for dx in (-1, 0, 1) for dz in (-1, 0, 1)}
+        roof_positions = {(x, 34, z) for x, z in roof_posts}
         for block in police["blocks"]:
-            if tuple(map(int, block["pos"])) not in roof_positions:
+            pos = tuple(map(int, block["pos"]))
+            if pos in roof_platform:
+                if police["palette"][int(block["state"])]["Name"] != "minecraft:air":
+                    raise ValueError(f"Rooftop platform position is occupied: {block['pos']}")
+                block["state"] = tag.Int(quartz_state)
+                continue
+            if pos not in roof_positions:
                 continue
             if police["palette"][int(block["state"])]["Name"] != "minecraft:air":
                 raise ValueError(f"Rooftop spawn position is occupied: {block['pos']}")
@@ -139,7 +152,7 @@ def main() -> None:
             block["nbt"]["SpawnCount"] = tag.Short(1)
             block["nbt"]["MaxNearbyEntities"] = tag.Short(4)
             block["nbt"]["RequiredPlayerRange"] = tag.Short(88)
-            block["nbt"]["SpawnRange"] = tag.Short(3)
+            block["nbt"]["SpawnRange"] = tag.Short(1)
             block["nbt"]["MinSpawnDelay"] = tag.Short(700)
             block["nbt"]["MaxSpawnDelay"] = tag.Short(1200)
         save_template("m_police_station", police, namespace="the_lost_city")
