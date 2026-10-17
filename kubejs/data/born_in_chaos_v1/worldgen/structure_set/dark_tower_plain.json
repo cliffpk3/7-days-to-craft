@@ -9,6 +9,10 @@
     "type": "minecraft:random_spread",
     "spacing": 104,
     "separation": 26,
-    "salt": 878827685
+    "salt": 878827685,
+    "exclusion_zone": {
+      "other_set": "the_lost_city:city",
+      "chunk_count": 16
+    }
   }
 }
