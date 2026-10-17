@@ -77,6 +77,7 @@ def pool(name: str, choices: list[tuple[str, int]]) -> None:
                 "element": {
                     "element_type": "minecraft:single_pool_element",
                     "location": f"seven_days_locks:city_spawner_{entity}",
+                    "processors": {"processors": []},
                     "projection": "rigid",
                 },
             }

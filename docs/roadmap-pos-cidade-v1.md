@@ -10,7 +10,7 @@
 
 ## Pendencias e riscos a validar no jogo
 
-1. **Inicializacao apos a instalacao TaCZ:** ainda nao existe log de uma sessao posterior a instalacao dos JARs. Confirmar carregamento, craft/consumo de blueprint, recarga e devolucao das tres municoes CGM, acessorios e comportamento dos soldados.
+1. **Inicializacao apos a instalacao TaCZ:** a sessao de 17/10 as 18:43 carregou o menu, mas caiu ao abrir a lista de mundos por falta do campo `processors` nos seis pools de spawners da cidade. Campo corrigido no gerador e nos arquivos; ainda requer nova abertura de mundo e teste de craft/consumo de blueprint, recarga e devolucao das tres municoes CGM, acessorios e comportamento dos soldados.
 2. **Geracao de cidade nova:** o ultimo log disponivel registra pools subterraneos `the_lost_city:city_under*` vazios/nao encontrados e uma procura por `spawner_husk.nbt`. Os recursos aparecem no JAR, entao verificar a causa em uma nova geracao antes de alterar os pools.
 3. **Alcance da exclusao:** a regra de estrutura considera centros de geracao, nao caixas completas, e nao modifica chunks ja gerados. Verificar cidade nova e suas bordas; outros mods sem estrutura set compativel podem requerer integracao propria.
 4. **Deteccao da cidade:** `CityRaid.cityAt` usa a peca da estrutura. Checar ruas, terracos e subsolo; fora das pecas detectadas, patrulha e filtro de spawns podem nao atuar.

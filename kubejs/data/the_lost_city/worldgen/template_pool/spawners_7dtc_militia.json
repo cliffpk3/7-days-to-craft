@@ -7,6 +7,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_militia_usunit",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     }

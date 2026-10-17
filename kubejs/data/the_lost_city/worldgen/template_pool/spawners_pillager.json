@@ -7,6 +7,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_infected_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -15,6 +18,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_crawler_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -23,6 +29,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_runner_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -31,6 +40,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_clicker_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -39,6 +51,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_revived_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -47,6 +62,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_infected_police_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -55,6 +73,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_boomer_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -63,6 +84,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_infected_military_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -71,6 +95,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_infected_hazmat_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -79,6 +106,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_faceless_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -87,6 +117,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_divided_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -95,6 +128,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_infected_juggernaut_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -103,6 +139,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_demolisher_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     },
@@ -111,6 +150,9 @@
       "element": {
         "element_type": "minecraft:single_pool_element",
         "location": "seven_days_locks:city_spawner_night_hunter_spawners_pillager",
+        "processors": {
+          "processors": []
+        },
         "projection": "rigid"
       }
     }
