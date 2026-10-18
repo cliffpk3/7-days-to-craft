@@ -17,12 +17,6 @@ import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.AxeItem;
-import net.minecraft.world.item.BowItem;
-import net.minecraft.world.item.CrossbowItem;
-import net.minecraft.world.item.enchantment.EnchantmentHelper;
-import net.minecraft.world.item.enchantment.Enchantments;
-import net.minecraft.nbt.ListTag;
-import net.minecraft.nbt.Tag;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.BedBlock;
 import net.minecraft.world.level.block.AbstractFurnaceBlock;
@@ -46,7 +40,6 @@ import net.minecraftforge.client.event.InputEvent;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.entity.player.AttackEntityEvent;
-import net.minecraftforge.event.entity.player.ArrowLooseEvent;
 import net.minecraftforge.event.entity.player.PlayerInteractEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
@@ -58,7 +51,6 @@ import net.minecraft.world.item.trading.MerchantOffer;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.common.Tags;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.loading.FMLPaths;
@@ -84,7 +76,6 @@ import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.function.Supplier;
 import java.util.UUID;
-import java.lang.reflect.Method;
 import org.slf4j.Logger;
 
 @Mod(SkillBridge.MOD_ID)
@@ -106,7 +97,6 @@ public final class SkillBridge {
         CHANNEL.registerMessage(1, SkillUnlockNoticePacket.class, SkillUnlockNoticePacket::encode, SkillUnlockNoticePacket::decode, SkillUnlockNoticePacket::handle);
         SkillsAPI.registerSkillUnlockEvent((player, category, skillId) -> { if (SURVIVOR.equals(category)) Events.onSkillUnlocked(player, skillId); });
         SkillsAPI.registerSkillLockEvent((player, category, skillId) -> { if (SURVIVOR.equals(category)) Events.onSkillLocked(player, skillId); });
-        Events.registerOptionalGunEvents();
     }
 
     /**
@@ -150,21 +140,6 @@ public final class SkillBridge {
     public static final class Events {
         private static final UUID SILENT_STEP_SPEED_ID = UUID.fromString("db60556c-41ba-4b50-a217-b2621dcafcc5");
         private static final UUID EVASIVE_RUSH_SPEED_ID = UUID.fromString("cbad898a-141c-46ee-921f-c3847436f3b7");
-        private static Method cgmGetEntity;
-        private static Method cgmGetStack;
-
-        @SuppressWarnings({"rawtypes", "unchecked"})
-        static void registerOptionalGunEvents() {
-            try {
-                Class eventClass = Class.forName("com.mrcrayfish.guns.event.GunFireEvent$Post").asSubclass(Event.class);
-                cgmGetEntity = eventClass.getMethod("getEntity");
-                cgmGetStack = eventClass.getMethod("getStack");
-                MinecraftForge.EVENT_BUS.addListener(EventPriority.NORMAL, false, eventClass, Events::onOptionalGunFired);
-                LOGGER.info("Ammo Conservation connected to CGM gun fire events");
-            } catch (ReflectiveOperationException missingCgm) {
-                LOGGER.info("CGM gun fire events are unavailable; bow and crossbow recovery remains active");
-            }
-        }
         private record Milestone(String tag, String advancement, long questId) {}
         private record UnlockNotice(String title, String message) {}
         private static final Map<String, UnlockNotice> UNLOCK_NOTICES = Map.ofEntries(
@@ -195,7 +170,7 @@ public final class SkillBridge {
             Map.entry("scavenging_2_cartographyminimap", new UnlockNotice("Cartography", "The Atlas, minimap and waypoint features are now available.")),
             Map.entry("scavenging_2_keyhunter", new UnlockNotice("Key Hunter", "Eligible enemies now have improved chances to drop dungeon keys.")),
             Map.entry("combat_1_graverunner", new UnlockNotice("Grave Runner", "Your post-death protection effects now last 60 seconds longer.")),
-            Map.entry("combat_1_ammoconservation", new UnlockNotice("Ammo Conservation", "Completed shots can now return the arrow or ammunition they consumed.")),
+            Map.entry("combat_1_arrowretrieval", new UnlockNotice("Arrow Retrieval", "Recover ordinary arrows from creatures you shot. Grounded arrows keep their normal pickup behavior.")),
             Map.entry("combat_2_extendedreach", new UnlockNotice("Extended Reach", "Your attacks and entity interactions now reach 2 blocks farther.")),
             Map.entry("combat_2_fieldrecovery", new UnlockNotice("Field Recovery", "Golden Apples now restore 2 permanently lost hearts.")),
             Map.entry("combat_2_threatsense", new UnlockNotice("Threat Sense", "You will now receive a warning when an Elite or Boss targets you.")),
@@ -510,76 +485,6 @@ public final class SkillBridge {
             award(player, new ResourceLocation("seven_days_to_craft", "training/second_wind_wounded_kill"));
             award(player, new ResourceLocation("seven_days_to_craft", "training/second_wind_trigger"));
             player.displayClientMessage(Component.literal("Second Wind activated!"), true);
-        }
-
-        @SubscribeEvent
-        public static void onArrowLoose(ArrowLooseEvent event) {
-            if (event.getLevel().isClientSide() || !(event.getEntity() instanceof ServerPlayer player)) return;
-            if (player.getAbilities().instabuild) return;
-            int rank = getBasicSkillRank(player, "ammoconservation", 4);
-            if (rank <= 0 || player.getRandom().nextFloat() >= 0.10F * rank) return;
-
-            ItemStack weapon = event.getBow();
-            ItemStack recovered;
-            if (weapon.getItem() instanceof CrossbowItem) {
-                if (weapon.getTag() == null) return;
-                ListTag charged = weapon.getTag().getList("ChargedProjectiles", Tag.TAG_COMPOUND);
-                if (charged.isEmpty()) return;
-                recovered = ItemStack.of(charged.getCompound(0));
-            } else if (weapon.getItem() instanceof BowItem) {
-                recovered = player.getProjectile(weapon).copy();
-                if (recovered.isEmpty()) return;
-                if (recovered.is(Items.ARROW)
-                    && EnchantmentHelper.getItemEnchantmentLevel(Enchantments.INFINITY_ARROWS, weapon) > 0) return;
-            } else {
-                return;
-            }
-            recovered.setCount(1);
-            giveRecoveredProjectile(player, recovered);
-        }
-
-        private static void onOptionalGunFired(Event event) {
-            final ServerPlayer player;
-            final ItemStack gun;
-            try {
-                Object entity = cgmGetEntity.invoke(event);
-                if (!(entity instanceof ServerPlayer serverPlayer)) return;
-                player = serverPlayer;
-                Object stack = cgmGetStack.invoke(event);
-                if (!(stack instanceof ItemStack itemStack)) return;
-                gun = itemStack;
-            } catch (ReflectiveOperationException reflectionFailure) {
-                LOGGER.warn("Could not process CGM shot for Ammo Conservation", reflectionFailure);
-                return;
-            }
-            if (player.getAbilities().instabuild) return;
-            int rank = getBasicSkillRank(player, "ammoconservation", 4);
-            if (rank <= 0 || player.getRandom().nextFloat() >= 0.10F * rank) return;
-
-            if (gun.getTag() == null || gun.getTag().getBoolean("IgnoreAmmo")) return;
-            int ammunitionBeforeShot = gun.getTag().getInt("AmmoCount");
-            if (ammunitionBeforeShot <= 0) return;
-            player.server.execute(() -> {
-                if (gun.isEmpty() || gun.getTag() == null) return;
-                int ammunitionAfterShot = gun.getTag().getInt("AmmoCount");
-                // CGM posts GunFireEvent.Post immediately before consuming the
-                // cartridge. Waiting until the handler returns avoids producing
-                // ammunition when Reclaimed or another effect already saved it.
-                if (ammunitionAfterShot < ammunitionBeforeShot) {
-                    gun.getTag().putInt("AmmoCount", Math.min(ammunitionBeforeShot, ammunitionAfterShot + 1));
-                    player.containerMenu.broadcastChanges();
-                    player.displayClientMessage(Component.literal("Ammo Conservation recovered one cartridge.")
-                        .withStyle(net.minecraft.ChatFormatting.GREEN), true);
-                }
-            });
-        }
-
-        private static void giveRecoveredProjectile(ServerPlayer player, ItemStack projectile) {
-            if (!player.getInventory().add(projectile)) player.drop(projectile, false);
-            player.containerMenu.broadcastChanges();
-            player.displayClientMessage(Component.literal("Ammo Conservation recovered ")
-                .append(projectile.getHoverName()).append(Component.literal("."))
-                .withStyle(net.minecraft.ChatFormatting.GREEN), true);
         }
 
         private static void trackWallGripTraining(ServerPlayer player) {

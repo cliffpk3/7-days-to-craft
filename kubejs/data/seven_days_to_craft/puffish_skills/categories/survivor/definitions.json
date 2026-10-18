@@ -294,11 +294,11 @@
         "color": "white"
       },
       {
-        "text": " Ammo Conservation: ",
+        "text": " Arrow Retrieval: ",
         "color": "gold"
       },
       {
-        "text": "40% projectile recovery",
+        "text": "9/18/27/35% arrow recovery on creature hits",
         "color": "gray"
       },
       {
@@ -1624,9 +1624,9 @@
       }
     ]
   },
-  "combat_1_ammoconservation": {
-    "title": "Ammo Conservation",
-    "description": "Each node adds a 10% chance to recover the projectile after a completed shot; maximum 40%. Supports bows, crossbows and CGM firearms; effects that already prevent consumption do not generate extra ammunition.",
+  "combat_1_arrowretrieval": {
+    "title": "Arrow Retrieval",
+    "description": "Four nodes: 9%, 18%, 27% and 35% chance to recover an ordinary arrow that hits a creature. Approach the creature or collect the arrow after it dies. Grounded arrows retain their normal pickup behavior. Does not affect firearms, special arrows, Infinity or piercing arrows.",
     "icon": {
       "type": "item",
       "data": {
@@ -1644,7 +1644,7 @@
       {
         "type": "puffish_skills:tag",
         "data": {
-          "tag": "7dtc_ammo_conservation"
+          "tag": "7dtc_arrow_retrieval"
         }
       }
     ]

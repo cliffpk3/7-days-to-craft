@@ -187,7 +187,7 @@
   "combat_1_slot15": {
     "x": 148,
     "y": -64,
-    "definition": "combat_1_ammoconservation"
+    "definition": "combat_1_arrowretrieval"
   },
   "scavenging_1_slot14": {
     "x": -147,
@@ -207,7 +207,7 @@
   "combat_1_slot16": {
     "x": 185,
     "y": -64,
-    "definition": "combat_1_ammoconservation"
+    "definition": "combat_1_arrowretrieval"
   },
   "scavenging_1_slot17": {
     "x": -184,
@@ -227,7 +227,7 @@
   "combat_1_slot18": {
     "x": 222,
     "y": -64,
-    "definition": "combat_1_ammoconservation"
+    "definition": "combat_1_arrowretrieval"
   },
   "scavenging_1_slot19": {
     "x": -221,
@@ -247,7 +247,7 @@
   "combat_1_slot20": {
     "x": 259,
     "y": -64,
-    "definition": "combat_1_ammoconservation"
+    "definition": "combat_1_arrowretrieval"
   },
   "combat_1_slot21": {
     "x": 259,

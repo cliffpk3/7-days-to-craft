@@ -17,7 +17,7 @@ O risco também deve determinar a recompensa: áreas profundas e perigosas ofere
 - Infernal Mobs promove somente uma parcela pequena e visualmente identificável das criaturas. Essa variação é desejada e será preservada; apenas seus drops serão integrados aos pools controlados do 7DTC.
 - Wesley's Roguelike Dungeons já está com modificadores aleatórios desativados.
 - A curva atual da árvore mantém a intenção antiga de aproximadamente três zumbis para o primeiro ponto: `min(18 + level * 6 + level ^ 1.7, 360)`.
-- Field Dressing e Ammo Conservation possuem implementação real.
+- Field Dressing e Arrow Retrieval possuem implementação real.
 - Prospector, Forager e Scavenger possuem efeitos reais no Skill Bridge e passaram nos testes iniciais de gameplay.
 - As torretas já custam quantidades altas de materiais comuns. Os modelos avançados usam diamantes, redstone, obsidiana e granadas, mas ainda não dependem de um recurso raro específico da progressão subterrânea.
 - Dynamic Lights Reforged está instalado. Ele melhora luz carregada por entidades, mas não aumenta de forma relevante o raio de uma tocha colocada.
@@ -33,7 +33,7 @@ O risco também deve determinar a recompensa: áreas profundas e perigosas ofere
 ### 0.2 Feedback das habilidades — parcialmente concluído
 
 - Field Dressing avisa no action bar quantos recursos adicionais foram gerados.
-- Ammo Conservation avisa quando recupera uma flecha, virote ou cartucho.
+- Arrow Retrieval mantém quatro nós e recupera apenas flechas comuns de criaturas atingidas (9%, 18%, 27%, 35%).
 - Prospector, Forager e Scavenger receberão avisos quando seus efeitos reais forem implementados.
 
 ### Critérios de teste

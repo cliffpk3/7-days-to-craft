@@ -20,5 +20,5 @@ Usar primeiro um mundo de teste ou copia do save. Anotar dia, coordenadas, skill
 ## Etapas seguintes
 
 - Presenca na base para receber a recompensa: adiada ate existir um core ou uma area de base confiavel.
-- Flechas recuperaveis ao se aproximar: aguarda definicao da interacao com Ammo Conservation; depois testar chance por nivel, dono da flecha, Infinity, flechas especiais e inventario cheio.
+- Arrow Retrieval: conferir os quatro níveis (9%, 18%, 27%, 35%), flecha recuperada ao se aproximar do monstro atingido ou após sua morte, dono da flecha, Infinity, flechas especiais, inventário cheio e ausência de reembolso de munição CGM/TaCZ. Flechas fincadas no chão mantêm a coleta nativa.
 - Mais inimigos que puxam na horda: EnhancedAI possui Fisher, mas a funcionalidade e seu modulo pai `Mobs` estao desativados; a tag atual so aceita `minecraft:zombie`. A proxima etapa precisa habilitar ambos sem ativar equipamento/IA aleatorios para zumbis comuns fora da horda, equipar apenas uma parcela controlada dos zumbis de evento e testar alcance, linha de visao, cooldown e seguranca perto de paredes/desniveis.
