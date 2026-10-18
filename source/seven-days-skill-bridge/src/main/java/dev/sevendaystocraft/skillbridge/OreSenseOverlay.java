@@ -18,7 +18,8 @@ import net.minecraftforge.fml.common.Mod;
 /** Client-side Ore Sense state consumed by the Glowing Ores compatibility mixin. */
 @Mod.EventBusSubscriber(modid = SkillBridge.MOD_ID, value = Dist.CLIENT, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public final class OreSenseOverlay {
-    public static final int LIGHT_LEVEL = 6;
+    // Minecraft light levels are integers; 6 * 1.30 = 7.8, rounded to 8.
+    public static final int LIGHT_LEVEL = 8;
     public static final int RANGE = 20;
     private static final int RANGE_SQUARED = RANGE * RANGE;
     private static final TagKey<Block> ORES = TagKey.create(Registries.BLOCK, new ResourceLocation("forge", "ores"));
