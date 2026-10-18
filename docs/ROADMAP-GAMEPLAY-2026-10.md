@@ -15,6 +15,8 @@ Detalhes de instalação e teste: `docs/MILESTONE-SENSE-HEARING-BRUISER-2026-10-
 1. **Validar a instalação recente em jogo:** inicialização, Ore Sense I/II, Animal Sense, Threat Sense, Embedded Arrows, audição dos monstros e regeneração do Bruiser. Registrar defeitos observados antes de novos ajustes nessas mecânicas.
 2. **Próxima milestone: Maintenance funcional.** A árvore já contém quatro nós de 5% (máximo 20%), mas a busca no código encontrou somente a tag `7dtc_maintenance` e o aviso de desbloqueio. Implementar a preservação de durabilidade e testar ferramentas, armas, armaduras, Unbreaking, Mending, reparos e itens de mods. Manter os percentuais atuais até medir o efeito real.
 3. **Depois: Sorte e Key Hunter.** Auditar todas as rolagens de loot antes de escolher se a sorte relativa de +30/60/90% convive com Key Hunter, substitui parte dele ou exclui chaves e blueprints.
+
+**Nota sobre a skill existente:** Scavenger já concede +0,5 no atributo Luck por nó (até +2,5), além de +3% por nó na chance de um item extra elegível ao abrir loot gerado (até 15%). Isso não equivale ao aumento relativo proposto para todos os drops de monstros; a auditoria de Sorte e Key Hunter continua pendente.
 4. **Em seguida: monstros e mundo.** Avaliar separadamente o filtro de criaturas para o tema zumbi, a quebra lenta de blocos e o Core. Cada etapa terá versão, backup e teste próprio.
 
 **Em standby:** mapas regionais dropados por monstros e compartilhamento cartográfico. O item observado pelo jogador ainda não foi identificado; Map Atlases atualmente oferece mapas gratuitos e expansão sem peças. Retomar quando houver o item/ID ou uma regra concreta de geração regional, antes de alterar drops, receitas ou o Atlas.

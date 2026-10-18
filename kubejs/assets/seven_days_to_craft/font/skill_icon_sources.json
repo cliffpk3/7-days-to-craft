@@ -89,13 +89,13 @@
     "texture": "assets/minecraft/textures/item/sweet_berries.png",
     "glyph": "U+E00A"
   },
-  "minecraft:chest": {
+  "nameless_trinkets:four_leaf_clover": {
     "source_node_icon": {
       "type": "item",
-      "value": "minecraft:chest"
+      "value": "nameless_trinkets:four_leaf_clover"
     },
-    "jar": "7-days-to-craft.jar",
-    "texture": "assets/minecraft/textures/item/chest_minecart.png",
+    "jar": "Nameless Trinkets-1.20.1-1.7.8.jar",
+    "texture": "assets/nameless_trinkets/textures/item/four_leaf_clover.png",
     "glyph": "U+E00B"
   },
   "minecraft:emerald": {

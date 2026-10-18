@@ -1568,7 +1568,7 @@
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:chest"
+        "item": "nameless_trinkets:four_leaf_clover"
       }
     },
     "frame": {
