@@ -9,6 +9,7 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.level.block.state.BlockState;
+import net.minecraft.world.level.chunk.ChunkAccess;
 import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -41,7 +42,15 @@ public final class OreSenseOverlay {
     public static int lightEmission(BlockState state, BlockGetter level, BlockPos pos) {
         if (!state.is(ORES)) return state.getLightEmission(level, pos);
         Minecraft minecraft = Minecraft.getInstance();
-        if (!unlocked || minecraft.player == null || minecraft.level != level) return 0;
+        if (!unlocked || minecraft.player == null || minecraft.level == null) return 0;
+        // ChunkAccess scans palettes with BlockPos.ZERO before visiting real
+        // positions. Report a possible source there, then enforce the range
+        // for each actual ore block. ClientLevel calls use the same limit.
+        if (level instanceof ChunkAccess) {
+            if (pos == BlockPos.ZERO) return LIGHT_LEVEL;
+        } else if (minecraft.level != level) {
+            return 0;
+        }
         return minecraft.player.blockPosition().distSqr(pos) <= RANGE_SQUARED ? LIGHT_LEVEL : 0;
     }
 

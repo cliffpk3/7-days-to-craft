@@ -12,6 +12,6 @@ Em 18/10/2026, removemos a emissao global de luz dos minerios no getter sem posi
 
 - `gradlew --offline clean build` com JDK 17: passou.
 - Hash SHA-256 do JAR compilado igual ao instalado: `6FA8B007B2C56B7F59F9C32CE09DB18E80340F4F95CD8475FAC42ECEFD415E41`.
-- Falta validar visualmente no jogo: minerio a 19/20/21 blocos, com skill ligada e desligada, depois de se afastar e retornar; repetir com shaders ativos.
+- Teste visual do usuario: falhou; minerios proximos deixaram de brilhar. Esta versao foi substituida pela `ore-sense-range-v2-20261018`.
 
 Esta correcao limita a luz produzida pela skill. Qualquer brilho visual independente aplicado pelo shader ou por outro mod deve ser avaliado separadamente durante o teste em jogo.
