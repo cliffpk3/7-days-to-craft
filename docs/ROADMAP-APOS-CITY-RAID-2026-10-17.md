@@ -18,7 +18,7 @@ Estas propostas foram registradas para análise depois da instalação dos mods 
 
 ## Monstros e mundo
 
-- Investigar quebra lenta de blocos por monstros; os equipados com picareta devem quebrar mais rapidamente. Definir lista de blocos protegidos e limites para não destruir bases fora de combate.
+- Avaliar quebra de blocos por todos os zumbis: muito lenta e proporcional à resistência do bloco; zumbis equipados com picareta quebram em velocidade normal para a ferramenta e o material. Definir blocos protegidos, interação com reforço, limites de tentativas simultâneas e impacto no TPS antes de implementar.
 - Avaliar substituição gradual de monstros místicos por zumbis variados e humanos armados, preservando diversidade de encontros e progressão por região.
 - Auditar vilarejos e suas fontes de recursos antes de decidir entre remover o mod ou reduzir loot, armaduras e estruturas.
 

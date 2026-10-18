@@ -19,6 +19,13 @@ Detalhes de instalação e teste: `docs/MILESTONE-SENSE-HEARING-BRUISER-2026-10-
 **Nota sobre a skill existente:** Scavenger já concede +0,5 no atributo Luck por nó (até +2,5), além de +3% por nó na chance de um item extra elegível ao abrir loot gerado (até 15%). Isso não equivale ao aumento relativo proposto para todos os drops de monstros; a auditoria de Sorte e Key Hunter continua pendente.
 4. **Em seguida: monstros e mundo.** Avaliar separadamente o filtro de criaturas para o tema zumbi, a quebra lenta de blocos e o Core. Cada etapa terá versão, backup e teste próprio.
 
+### Quebra de blocos por zumbis — proposta para avaliação
+
+- Todos os zumbis devem conseguir avançar quebrando blocos, porém lentamente. O tempo de quebra deve crescer com a resistência do bloco; materiais resistentes não podem ceder tão rápido quanto madeira ou terra.
+- Zumbis equipados com picareta, inclusive os tipos que já existem no pack, devem quebrar em velocidade normal apropriada à ferramenta e ao material. A picareta não deve tornar instantânea a quebra de blocos resistentes.
+- Antes da implementação, definir alcance, escolha do bloco, cooperação entre zumbis, persistência do progresso e regras para blocos protegidos/reforçados. Medir TPS e quantidade de tentativas simultâneas em uma horda e em cidades.
+- Validar em cópia do mundo com madeira, pedra, minério, obsidiana e blocos reforçados; incluir zumbis comuns e com picareta. A aprovação dos valores e exceções fica para a etapa de design.
+
 **Em standby:** mapas regionais dropados por monstros e compartilhamento cartográfico. O item observado pelo jogador ainda não foi identificado; Map Atlases atualmente oferece mapas gratuitos e expansão sem peças. Retomar quando houver o item/ID ou uma regra concreta de geração regional, antes de alterar drops, receitas ou o Atlas.
 
 ## Atualização executada em 12/10/2026

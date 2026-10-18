@@ -41,7 +41,7 @@ Cada etapa abaixo e independente, com versao/milestone, teste e rollback. A etap
 | 9 | Sorte de drops +30/60/90% relativos e interacao com Key Hunter | alto | Auditoria de todas as tabelas, chaves, elites, blueprints e limite de 100% |
 | 10 | Filtrar monstros para zumbis/derivados/humanos armados | alto | Revisao de cavernas, superficie, horda, quests, loot e bosses antes de remover mods |
 | 11 | Fragmentos de mapa dos mobs locais e compartilhamento entre jogadores — **standby** ate identificar o item observado | alto | Descoberta progressiva, sincronizacao e protecao contra exploracao por farm |
-| 12 | Quebra lenta de blocos por todos os monstros; picareta acelera | muito alto | Regras de protecao de base, griefing, performance e estrategia de horda |
+| 12 | Todos os zumbis quebram blocos lentamente conforme a resistencia; zumbis com picareta quebram em velocidade normal para ferramenta/material | muito alto | Tempo por material, blocos protegidos/reforcados, limite de tentativas simultaneas, TPS em hordas/cidades e estrategia de base |
 | 13 | Core individual, foco da horda, eliminacao/revivificacao e derrota coletiva | muito alto | Prototipo separado com persistencia, multiplayer, desconexao, recuperacao e upgrades |
 
 Antes de cada etapa: confirmar design e numeros, criar milestone, testar em mundo descartavel e em save de copia, e so entao distribuir.
