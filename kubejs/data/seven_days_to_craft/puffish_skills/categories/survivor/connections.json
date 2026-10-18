@@ -82,16 +82,8 @@
         "mobility_1_slot20"
       ],
       [
-        "mobility_1_slot26",
-        "mobility_1_slot22"
-      ],
-      [
         "mobility_1_slot08",
         "mobility_1_slot09"
-      ],
-      [
-        "mobility_1_slot12",
-        "mobility_1_slot11"
       ]
     ]
   },
@@ -502,14 +494,6 @@
         "mobility_root"
       ],
       [
-        "mobility_root",
-        "mobility_1_slot25"
-      ],
-      [
-        "mobility_1_slot25",
-        "mobility_2_slot02"
-      ],
-      [
         "mobility_2_slot02",
         "mobility_1_slot14"
       ],
@@ -570,14 +554,6 @@
         "mobility_2_slot05"
       ],
       [
-        "mobility_2_slot05",
-        "mobility_1_slot22"
-      ],
-      [
-        "mobility_1_slot22",
-        "mobility_1_slot23"
-      ],
-      [
         "mobility_1_slot23",
         "mobility_1_slot24"
       ],
@@ -618,22 +594,6 @@
         "mobility_1_slot08"
       ],
       [
-        "mobility_1_slot08",
-        "mobility_1_slot07"
-      ],
-      [
-        "mobility_1_slot07",
-        "mobility_1_slot06"
-      ],
-      [
-        "mobility_1_slot06",
-        "mobility_1_slot12"
-      ],
-      [
-        "mobility_1_slot12",
-        "mobility_2_slot01"
-      ],
-      [
         "engineering_root",
         "engineering_1_slot26"
       ],
@@ -664,6 +624,22 @@
       [
         "scavenging_1_slot27",
         "scavenging_1_slot19"
+      ],
+      [
+        "mobility_root",
+        "mobility_2_slot02"
+      ],
+      [
+        "mobility_1_slot08",
+        "mobility_1_slot06"
+      ],
+      [
+        "mobility_1_slot06",
+        "mobility_2_slot01"
+      ],
+      [
+        "mobility_2_slot05",
+        "mobility_1_slot23"
       ]
     ],
     "unidirectional": [

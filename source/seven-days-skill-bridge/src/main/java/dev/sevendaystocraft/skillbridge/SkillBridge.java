@@ -195,7 +195,7 @@ public final class SkillBridge {
             new Milestone("7dtc_low_profile","low_profile",0x7D7C31000000001FL),new Milestone("7dtc_double_jump","double_jump",0x7D7C310000000020L),new Milestone("7dtc_beast_rider","beast_rider",0x7D7C310000000021L),new Milestone("7dtc_threat_sense","threat_sense",0x7D7C310000000023L),new Milestone("7dtc_ranger","ranger",0x7D7C310000000024L),new Milestone("7dtc_evasive_rush","evasive_rush",0x7D7C310000000025L),new Milestone("7dtc_extended_reach","extended_reach",0x7D7C310000000026L));
         private static final Map<String,String> FINAL_SKILLS=Map.ofEntries(Map.entry("mobility_3_slot01","mobility:emergency_mobility"),Map.entry("mobility_3_slot02","mobility:breakfall_reflex"),Map.entry("mobility_3_slot03","mobility:ender_traversal"),Map.entry("combat_3_slot01","combat:enduring_vitality"),Map.entry("combat_3_slot02","combat:pain_tolerance"),Map.entry("combat_3_slot03","combat:second_wind"),Map.entry("scavenging_3_slot01","scavenging:key_conservation"),Map.entry("scavenging_3_slot02","scavenging:dark_adaptation"),Map.entry("scavenging_3_slot03","scavenging:master_salvager"),Map.entry("engineering_3_slot01","engineering:create_automation"),Map.entry("engineering_3_slot02","engineering:fortress_construction"),Map.entry("engineering_3_slot03","engineering:automated_defense"));
         private static final Map<String,String> PATH_STARTS=Map.ofEntries(
-            Map.entry("mobility_1_slot25","mobility"),Map.entry("mobility_1_slot01","mobility"),Map.entry("mobility_1_slot27","mobility"),
+            Map.entry("mobility_2_slot02","mobility"),Map.entry("mobility_1_slot01","mobility"),Map.entry("mobility_1_slot27","mobility"),
             Map.entry("combat_1_slot01","combat"),Map.entry("combat_1_slot02","combat"),Map.entry("combat_1_slot26","combat"),
             Map.entry("scavenging_1_slot01","scavenging"),Map.entry("scavenging_1_slot02","scavenging"),Map.entry("scavenging_1_slot24","scavenging"),
             Map.entry("engineering_1_slot02","engineering"),Map.entry("engineering_1_slot26","engineering"),Map.entry("engineering_1_slot01","engineering"));
@@ -917,7 +917,8 @@ public final class SkillBridge {
         private static void applyEfficientMetabolism(ServerPlayer player) {
             var data = player.getPersistentData();
             float current = player.getFoodData().getExhaustionLevel();
-            if (!player.getTags().contains("7dtc_efficient_metabolism")) {
+            int rank = getBasicSkillRank(player, "efficientmetabolism", 4);
+            if (rank <= 0) {
                 data.putFloat("7dtc_previous_exhaustion", current);
                 return;
             }
@@ -931,7 +932,7 @@ public final class SkillBridge {
             float generated = current - previous;
             if (generated < -0.001F) generated += 4.0F;
             if (generated > 0.0F && generated <= 4.0F) {
-                current = Math.max(0.0F, current - (generated * 0.03F));
+                current = Math.max(0.0F, current - (generated * 0.07F * rank));
                 player.getFoodData().setExhaustion(current);
             }
             data.putFloat("7dtc_previous_exhaustion", current);

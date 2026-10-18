@@ -465,11 +465,6 @@
     "y": 277,
     "definition": "engineering_1_toolproficiency"
   },
-  "mobility_1_slot07": {
-    "x": 32,
-    "y": -278,
-    "definition": "mobility_1_conditioning"
-  },
   "engineering_1_slot09": {
     "x": -32,
     "y": 314,
@@ -514,11 +509,6 @@
     "x": -32,
     "y": 203,
     "definition": "engineering_1_toolproficiency"
-  },
-  "mobility_1_slot12": {
-    "x": 32,
-    "y": -204,
-    "definition": "mobility_1_conditioning"
   },
   "engineering_2_slot06": {
     "x": 0,
@@ -655,11 +645,6 @@
     "y": 258,
     "definition": "engineering_1_repairefficiency"
   },
-  "mobility_1_slot22": {
-    "x": 64,
-    "y": -259,
-    "definition": "mobility_1_conditioning"
-  },
   "engineering_1_slot24": {
     "x": -64,
     "y": 221,
@@ -714,11 +699,6 @@
     "x": 32,
     "y": 92,
     "definition": "engineering_1_maintenance"
-  },
-  "mobility_1_slot25": {
-    "x": -32,
-    "y": -96,
-    "definition": "mobility_1_conditioning"
   },
   "engineering_2_slot04": {
     "x": -96,
