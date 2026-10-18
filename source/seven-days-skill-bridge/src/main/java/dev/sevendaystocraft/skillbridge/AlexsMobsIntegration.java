@@ -45,9 +45,6 @@ public final class AlexsMobsIntegration {
         Map.entry("alexsmobs:tarantula_hawk_elytra", new Gate("7dtc_ender_traversal", "Ender Traversal")),
         Map.entry("alexsmobs:straddleboard", new Gate("7dtc_ender_traversal", "Ender Traversal")),
         Map.entry("alexsmobs:dimensional_carver", new Gate("7dtc_ender_traversal", "Ender Traversal")),
-        Map.entry("alexsmobs:echolocator", new Gate("7dtc_cartography", "Cartography")),
-        Map.entry("alexsmobs:endolocator", new Gate("7dtc_cartography", "Cartography")),
-        Map.entry("alexsmobs:pupfish_locator", new Gate("7dtc_cartography", "Cartography")),
         Map.entry("alexsmobs:transmutation_table", new Gate("7dtc_master_salvager", "Master Salvager"))
     );
     private static final Set<String> DISABLED_ITEMS = Set.of("alexsmobs:unsettling_kimono", "alexsmobs:sculk_boomer");

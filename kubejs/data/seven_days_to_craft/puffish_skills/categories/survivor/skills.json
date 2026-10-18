@@ -12,7 +12,7 @@
   "scavenging_1_slot01": {
     "x": -92,
     "y": 32,
-    "definition": "scavenging_1_fielddressing"
+    "definition": "scavenging_1_forager"
   },
   "combat_1_slot01": {
     "x": 93,
@@ -177,7 +177,7 @@
   "combat_2_slot04": {
     "x": 130,
     "y": -96,
-    "definition": "combat_2_threatsense"
+    "definition": "combat_2_embeddedarrows"
   },
   "scavenging_1_slot15": {
     "x": -147,
@@ -262,7 +262,7 @@
   "scavenging_1_slot20": {
     "x": -147,
     "y": 64,
-    "definition": "scavenging_1_fielddressing"
+    "definition": "scavenging_1_animalsense"
   },
   "combat_1_slot22": {
     "x": 148,
@@ -282,7 +282,7 @@
   "scavenging_1_slot21": {
     "x": -258,
     "y": 64,
-    "definition": "scavenging_1_fielddressing"
+    "definition": "scavenging_1_animalsense"
   },
   "combat_1_slot23": {
     "x": 259,
@@ -292,7 +292,7 @@
   "scavenging_1_slot22": {
     "x": -221,
     "y": 64,
-    "definition": "scavenging_1_fielddressing"
+    "definition": "scavenging_1_animalsense"
   },
   "combat_1_slot24": {
     "x": 222,
@@ -302,7 +302,7 @@
   "scavenging_1_slot23": {
     "x": -184,
     "y": 64,
-    "definition": "scavenging_1_fielddressing"
+    "definition": "scavenging_1_animalsense"
   },
   "combat_1_slot25": {
     "x": 185,
@@ -357,7 +357,7 @@
   "combat_2_slot06": {
     "x": 278,
     "y": 96,
-    "definition": "combat_2_fieldrecovery"
+    "definition": "combat_2_threatsense2"
   },
   "survivor_root": {
     "x": 0,
@@ -743,6 +743,6 @@
   "scavenging_2_slot05": {
     "x": -277,
     "y": -96,
-    "definition": "scavenging_2_cartographyminimap"
+    "definition": "scavenging_2_oresense2"
   }
 }

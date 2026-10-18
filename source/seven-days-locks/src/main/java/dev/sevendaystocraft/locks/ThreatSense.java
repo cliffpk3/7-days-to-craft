@@ -135,6 +135,12 @@ public final class ThreatSense {
         return registered;
     }
 
+    /** Null means this mob has no explicit classification; hearing may estimate one locally. */
+    static Integer registeredTier(LivingEntity mob) {
+        ResourceLocation id = ForgeRegistries.ENTITY_TYPES.getKey(mob.getType());
+        return id == null ? null : THREAT_TIERS.get(id);
+    }
+
     private static void loadRegistry() {
         THREAT_TIERS.clear();
         if (!Files.isRegularFile(REGISTRY)) return;

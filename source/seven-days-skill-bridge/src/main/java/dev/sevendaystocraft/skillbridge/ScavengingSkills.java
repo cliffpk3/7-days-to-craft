@@ -115,7 +115,7 @@ public final class ScavengingSkills {
         data.putLong("7dtc_forager_tick", now);
         data.putLong("7dtc_forager_pos", event.getPos().asLong());
 
-        int rank = SkillBridge.getBasicSkillRank(player, "forager", 8);
+        int rank = SkillBridge.getBasicSkillRank(player, "forager", 9);
         if (rank <= 0 || player.getRandom().nextDouble() >= rank * 0.025D) return;
 
         Block.popResource(level, event.getPos(), new ItemStack(Items.SWEET_BERRIES));

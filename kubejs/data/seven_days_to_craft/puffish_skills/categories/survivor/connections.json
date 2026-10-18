@@ -662,14 +662,6 @@
         "scavenging_1_slot26"
       ],
       [
-        "scavenging_1_slot26",
-        "scavenging_2_slot05"
-      ],
-      [
-        "scavenging_2_slot05",
-        "scavenging_1_slot27"
-      ],
-      [
         "scavenging_1_slot27",
         "scavenging_1_slot19"
       ]
@@ -738,6 +730,10 @@
       [
         "scavenging_2_slot05",
         "scavenging_3_slot02"
+      ],
+      [
+        "scavenging_2_slot04",
+        "scavenging_2_slot05"
       ]
     ]
   }

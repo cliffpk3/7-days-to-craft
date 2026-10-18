@@ -82,7 +82,7 @@ import org.slf4j.Logger;
 public final class SkillBridge {
     public static final String MOD_ID = "seven_days_skill_bridge";
     public static final Logger LOGGER = LogUtils.getLogger();
-    private static final String PROTOCOL = "4";
+    private static final String PROTOCOL = "5";
     private static final ResourceLocation SURVIVOR = new ResourceLocation("seven_days_to_craft", "survivor");
     private static volatile Map<String, String> SKILL_DEFINITIONS = Map.of();
     private static final SimpleChannel CHANNEL = NetworkRegistry.ChannelBuilder
@@ -159,21 +159,23 @@ public final class SkillBridge {
             Map.entry("engineering_2_structuralengineering", new UnlockNotice("Structural Engineering", "Advanced fortification paths are now available.")),
             Map.entry("engineering_2_advancedmanufacturing", new UnlockNotice("Advanced Manufacturing", "Advanced Create components are now available.")),
             Map.entry("engineering_2_turretengineering", new UnlockNotice("Turret Engineering", "Auto and Shotgun Turrets are now available. Turret capacity: 2.")),
-            Map.entry("scavenging_1_fielddressing", new UnlockNotice("Field Dressing", "Eligible animals can now yield extra resources.")),
+            Map.entry("scavenging_1_animalsense", new UnlockNotice("Animal Sense", "Passive food animals now appear nearby on Advanced Compass.")),
             Map.entry("scavenging_1_prospector", new UnlockNotice("Prospector", "Eligible ore blocks can now yield one extra raw ore.")),
             Map.entry("scavenging_1_forager", new UnlockNotice("Forager", "Wild Sweet Berry Bushes can now yield an extra berry.")),
             Map.entry("scavenging_1_scavenger", new UnlockNotice("Scavenger", "Newly opened generated loot can now contain one extra eligible stack.")),
             Map.entry("scavenging_2_oresense", new UnlockNotice("Ore Sense", "You can now see nearby ore blocks glowing in dark places (20 block range).")),
+            Map.entry("scavenging_2_oresense2", new UnlockNotice("Ore Sense II", "Loaded ore blocks now glow without a distance limit.")),
             Map.entry("scavenging_2_salvager", new UnlockNotice("Salvager", "You can now place and use the Recycler.")),
             Map.entry("scavenging_2_lumberjack", new UnlockNotice("Lumberjack", "Breaking the lowest log with an axe can now fell the whole tree.")),
             Map.entry("scavenging_2_backpacktraining", new UnlockNotice("Backpack Training", "You can now equip and open Quark Backpacks in the Curios Back slot.")),
-            Map.entry("scavenging_2_cartographyminimap", new UnlockNotice("Cartography", "The Atlas, minimap and waypoint features are now available.")),
             Map.entry("scavenging_2_keyhunter", new UnlockNotice("Key Hunter", "Eligible enemies now have improved chances to drop dungeon keys.")),
             Map.entry("combat_1_graverunner", new UnlockNotice("Grave Runner", "Your post-death protection effects now last 60 seconds longer.")),
             Map.entry("combat_1_arrowretrieval", new UnlockNotice("Arrow Retrieval", "Recover ordinary arrows from creatures you shot. Grounded arrows keep their normal pickup behavior.")),
+            Map.entry("combat_2_embeddedarrows", new UnlockNotice("Embedded Arrows", "Monsters you shot can return one ordinary arrow after death (30% chance).")),
             Map.entry("combat_2_extendedreach", new UnlockNotice("Extended Reach", "Your attacks and entity interactions now reach 2 blocks farther.")),
             Map.entry("combat_2_fieldrecovery", new UnlockNotice("Field Recovery", "Golden Apples now restore 2 permanently lost hearts.")),
-            Map.entry("combat_2_threatsense", new UnlockNotice("Threat Sense", "You will now receive a warning when an Elite or Boss targets you.")),
+            Map.entry("combat_2_threatsense", new UnlockNotice("Threat Sense I", "Detect nearby hostile monsters within 10 blocks and receive Elite or Boss aggro warnings.")),
+            Map.entry("combat_2_threatsense2", new UnlockNotice("Threat Sense II", "Detect hostile monsters within 30 blocks.")),
             Map.entry("combat_2_ranger", new UnlockNotice("Ranger", "Bows, crossbows and compatible firearms now deal 25% more damage.")),
             Map.entry("mobility_3_emergencymobility", new UnlockNotice("Emergency Mobility", "At critical health, you can gain speed and unlimited Parkour stamina.")),
             Map.entry("mobility_3_breakfallreflex", new UnlockNotice("Breakfall Reflex", "You can now completely prevent one fall every 30 seconds.")),
@@ -189,7 +191,7 @@ public final class SkillBridge {
             Map.entry("engineering_3_automateddefense", new UnlockNotice("Automated Defense", "Explosive Turrets and advanced modules are now available. Turret capacity: 3."))
         );
         private static final List<Milestone> MILESTONES = List.of(
-            new Milestone("7dtc_parcool_wall_grip","wall_grip",0x7D7C310000000001L),new Milestone("7dtc_grappler","grappler_license",0x7D7C310000000002L),new Milestone("7dtc_backpack","backpack_license",0x7D7C310000000003L),new Milestone("7dtc_cartography","cartography",0x7D7C310000000004L),new Milestone("7dtc_ore_sense","ore_sense",0x7D7C310000000005L),new Milestone("7dtc_lumberjack","lumberjack",0x7D7C310000000006L),new Milestone("7dtc_key_hunter","key_hunter",0x7D7C310000000007L),new Milestone("7dtc_salvager","salvager",0x7D7C310000000008L),new Milestone("7dtc_gunsmithing","gunsmithing",0x7D7C310000000009L),new Milestone("7dtc_ammunition_1","ammunition_1",0x7D7C31000000000AL),new Milestone("7dtc_ammunition_2","ammunition_2",0x7D7C31000000000BL),new Milestone("7dtc_mechanics_1","mechanics_1",0x7D7C31000000000CL),new Milestone("7dtc_mechanics_2","mechanics_2",0x7D7C31000000000DL),new Milestone("7dtc_automation","advanced_manufacturing",0x7D7C31000000000EL),new Milestone("7dtc_sentry_engineering","sentry_engineering",0x7D7C31000000000FL),new Milestone("7dtc_turret_engineering","turret_engineering",0x7D7C310000000010L),new Milestone("7dtc_adrenaline_rush","emergency_mobility",0x7D7C310000000011L),new Milestone("7dtc_breakfall_reflex","breakfall_reflex",0x7D7C310000000012L),new Milestone("7dtc_ender_traversal","ender_traversal",0x7D7C310000000013L),new Milestone("7dtc_pain_tolerance","pain_tolerance",0x7D7C310000000014L),new Milestone("7dtc_second_wind","second_wind",0x7D7C310000000015L),new Milestone("7dtc_enduring_vitality","enduring_vitality",0x7D7C310000000016L),new Milestone("7dtc_key_conservation","key_conservation",0x7D7C310000000017L),new Milestone("7dtc_dark_adaptation","dark_adaptation",0x7D7C310000000018L),new Milestone("7dtc_master_salvager","master_salvager",0x7D7C310000000019L),new Milestone("7dtc_create_automation","create_automation",0x7D7C31000000001AL),new Milestone("7dtc_fortress_construction","fortress_construction",0x7D7C31000000001BL),new Milestone("7dtc_automated_defense","automated_defense",0x7D7C31000000001CL),
+            new Milestone("7dtc_parcool_wall_grip","wall_grip",0x7D7C310000000001L),new Milestone("7dtc_grappler","grappler_license",0x7D7C310000000002L),new Milestone("7dtc_backpack","backpack_license",0x7D7C310000000003L),new Milestone("7dtc_ore_sense_2","ore_sense_2",0x7D7C310000000004L),new Milestone("7dtc_ore_sense","ore_sense",0x7D7C310000000005L),new Milestone("7dtc_lumberjack","lumberjack",0x7D7C310000000006L),new Milestone("7dtc_key_hunter","key_hunter",0x7D7C310000000007L),new Milestone("7dtc_salvager","salvager",0x7D7C310000000008L),new Milestone("7dtc_gunsmithing","gunsmithing",0x7D7C310000000009L),new Milestone("7dtc_ammunition_1","ammunition_1",0x7D7C31000000000AL),new Milestone("7dtc_ammunition_2","ammunition_2",0x7D7C31000000000BL),new Milestone("7dtc_mechanics_1","mechanics_1",0x7D7C31000000000CL),new Milestone("7dtc_mechanics_2","mechanics_2",0x7D7C31000000000DL),new Milestone("7dtc_automation","advanced_manufacturing",0x7D7C31000000000EL),new Milestone("7dtc_sentry_engineering","sentry_engineering",0x7D7C31000000000FL),new Milestone("7dtc_turret_engineering","turret_engineering",0x7D7C310000000010L),new Milestone("7dtc_adrenaline_rush","emergency_mobility",0x7D7C310000000011L),new Milestone("7dtc_breakfall_reflex","breakfall_reflex",0x7D7C310000000012L),new Milestone("7dtc_ender_traversal","ender_traversal",0x7D7C310000000013L),new Milestone("7dtc_pain_tolerance","pain_tolerance",0x7D7C310000000014L),new Milestone("7dtc_second_wind","second_wind",0x7D7C310000000015L),new Milestone("7dtc_enduring_vitality","enduring_vitality",0x7D7C310000000016L),new Milestone("7dtc_key_conservation","key_conservation",0x7D7C310000000017L),new Milestone("7dtc_dark_adaptation","dark_adaptation",0x7D7C310000000018L),new Milestone("7dtc_master_salvager","master_salvager",0x7D7C310000000019L),new Milestone("7dtc_create_automation","create_automation",0x7D7C31000000001AL),new Milestone("7dtc_fortress_construction","fortress_construction",0x7D7C31000000001BL),new Milestone("7dtc_automated_defense","automated_defense",0x7D7C31000000001CL),
             new Milestone("7dtc_low_profile","low_profile",0x7D7C31000000001FL),new Milestone("7dtc_double_jump","double_jump",0x7D7C310000000020L),new Milestone("7dtc_beast_rider","beast_rider",0x7D7C310000000021L),new Milestone("7dtc_threat_sense","threat_sense",0x7D7C310000000023L),new Milestone("7dtc_ranger","ranger",0x7D7C310000000024L),new Milestone("7dtc_evasive_rush","evasive_rush",0x7D7C310000000025L),new Milestone("7dtc_extended_reach","extended_reach",0x7D7C310000000026L));
         private static final Map<String,String> FINAL_SKILLS=Map.ofEntries(Map.entry("mobility_3_slot01","mobility:emergency_mobility"),Map.entry("mobility_3_slot02","mobility:breakfall_reflex"),Map.entry("mobility_3_slot03","mobility:ender_traversal"),Map.entry("combat_3_slot01","combat:enduring_vitality"),Map.entry("combat_3_slot02","combat:pain_tolerance"),Map.entry("combat_3_slot03","combat:second_wind"),Map.entry("scavenging_3_slot01","scavenging:key_conservation"),Map.entry("scavenging_3_slot02","scavenging:dark_adaptation"),Map.entry("scavenging_3_slot03","scavenging:master_salvager"),Map.entry("engineering_3_slot01","engineering:create_automation"),Map.entry("engineering_3_slot02","engineering:fortress_construction"),Map.entry("engineering_3_slot03","engineering:automated_defense"));
         private static final Map<String,String> PATH_STARTS=Map.ofEntries(
@@ -199,10 +201,7 @@ public final class SkillBridge {
             Map.entry("engineering_1_slot02","engineering"),Map.entry("engineering_1_slot26","engineering"),Map.entry("engineering_1_slot01","engineering"));
         private record RepeatGate(String capability, String tag, int cost) {}
         private static final Map<String,RepeatGate> REPEAT_GATES=Map.ofEntries(
-            Map.entry("combat_2_slot04",new RepeatGate("threat_sense","7dtc_threat_sense",2)),
-            Map.entry("combat_2_slot02",new RepeatGate("threat_sense","7dtc_threat_sense",2)),
             Map.entry("combat_2_slot01",new RepeatGate("field_recovery","7dtc_field_recovery",2)),
-            Map.entry("combat_2_slot06",new RepeatGate("field_recovery","7dtc_field_recovery",2)),
             Map.entry("engineering_2_slot04",new RepeatGate("automation","7dtc_automation",4)),
             Map.entry("engineering_2_slot06",new RepeatGate("automation","7dtc_automation",4))
         );
@@ -349,28 +348,6 @@ public final class SkillBridge {
             if (rank > 0 && player.getMainHandItem().isCorrectToolForDrops(event.getState())) {
                 event.setNewSpeed(event.getNewSpeed() * (1.0F + 0.03F * rank));
             }
-        }
-
-        @SubscribeEvent
-        public static void onAnimalDrops(LivingDropsEvent event) {
-            if (!(event.getEntity() instanceof Animal) || !(event.getSource().getEntity() instanceof ServerPlayer player)) return;
-            int rank = getBasicSkillRank(player, "fielddressing", 5);
-            if (rank <= 0) return;
-            double bonus = rank * 0.06;
-            int bonusDrops = 0;
-            for (var drop : event.getDrops()) {
-                int count = drop.getItem().getCount();
-                double expected = count * bonus;
-                int extra = (int)Math.floor(expected);
-                if (player.getRandom().nextDouble() < expected - extra) extra++;
-                if (extra > 0) {
-                    drop.getItem().grow(extra);
-                    bonusDrops += extra;
-                }
-            }
-            if (bonusDrops > 0) player.displayClientMessage(
-                Component.literal("Field Dressing: +" + bonusDrops + " bonus resource" + (bonusDrops == 1 ? "." : "s."))
-                    .withStyle(net.minecraft.ChatFormatting.GREEN), true);
         }
 
         @SubscribeEvent
@@ -554,8 +531,6 @@ public final class SkillBridge {
             applyEnduringVitality(player);
             applyDarkAdaptation(player);
             applyMovementSkills(player);
-            applyXaeroRestrictions(player);
-            trackCartographyTraining(player);
             trackLowProfileTraining(player);
             enforceBackpackAccess(player);
             enforceTraversalEquipment(player);
@@ -695,24 +670,6 @@ public final class SkillBridge {
                 return;
             }
             award(player, new ResourceLocation("seven_days_to_craft", "training/backpack_equip"));
-        }
-        private static void applyXaeroRestrictions(ServerPlayer player) {
-            if (player.tickCount % 20 != 0) return;
-            applyXaeroRestriction(player, "xaerominimap:no_minimap", !player.getTags().contains("7dtc_minimap"));
-            applyXaeroRestriction(player, "xaerominimap:no_waypoints", !player.getTags().contains("7dtc_waypoints"));
-        }
-
-        private static void applyXaeroRestriction(ServerPlayer player, String effectId, boolean restricted) {
-            var effect = BuiltInRegistries.MOB_EFFECT.getOptional(new ResourceLocation(effectId));
-            if (effect.isEmpty()) return;
-            if (!restricted) {
-                player.removeEffect(effect.get());
-                return;
-            }
-            MobEffectInstance current = player.getEffect(effect.get());
-            if (current == null || current.getDuration() < 40) {
-                player.addEffect(new MobEffectInstance(effect.get(), 80, 0, false, false, false));
-            }
         }
         private static void enforceBackpackAccess(ServerPlayer player) {
             if (player.tickCount % 5 != 0) return;
@@ -872,24 +829,6 @@ public final class SkillBridge {
                 || path.equals("chute") || path.equals("smart_chute")
                 || path.equals("brass_funnel") || path.equals("brass_tunnel")
                 || path.equals("content_observer") || path.equals("stockpile_switch");
-        }
-
-        private static void trackCartographyTraining(ServerPlayer player) {
-            if (!player.getTags().contains("7dtc_cartography") || player.tickCount % 20 != 0) return;
-            var data = player.getPersistentData();
-            String dimension = player.level().dimension().location().toString();
-            if (!dimension.equals(data.getString("7dtc_cartography_dimension"))) {
-                data.putString("7dtc_cartography_dimension", dimension);
-                data.putLong("7dtc_cartography_start", player.blockPosition().asLong());
-                return;
-            }
-            BlockPos start = BlockPos.of(data.getLong("7dtc_cartography_start"));
-            BlockPos current = player.blockPosition();
-            long dx = current.getX() - start.getX();
-            long dz = current.getZ() - start.getZ();
-            if (dx * dx + dz * dz >= 64L * 64L) {
-                award(player, new ResourceLocation("seven_days_to_craft", "training/cartography_travel"));
-            }
         }
 
         private static void trackLowProfileTraining(ServerPlayer player) {
@@ -1133,28 +1072,30 @@ public final class SkillBridge {
             if (category.map(value -> value.getSpentPoints(player) > 0).orElse(false)) {
                 award(player, new ResourceLocation("seven_days_to_craft", "onboarding/first_skill"));
             }
-            boolean oreSense = player.getTags().contains("7dtc_ore_sense");
+            int oreSenseRange = player.getTags().contains("7dtc_ore_sense_2")
+                && player.getTags().contains("7dtc_ore_sense") ? Integer.MAX_VALUE
+                : player.getTags().contains("7dtc_ore_sense") ? 20 : 0;
             boolean grappler = player.getTags().contains("7dtc_grappler");
             boolean enderTraversal = player.getTags().contains("7dtc_ender_traversal");
             boolean threatSense = player.getTags().contains("7dtc_threat_sense");
             boolean dayTime = hasUnlockedDefinition(player, "survivor_root");
             int previous = player.getPersistentData().getInt("7dtc_last_skill_points");
-            boolean previousOreSense = player.getPersistentData().getBoolean("7dtc_last_ore_sense");
+            int previousOreSenseRange = player.getPersistentData().getInt("7dtc_last_ore_sense_range");
             boolean previousGrappler = player.getPersistentData().getBoolean("7dtc_last_grappler");
             boolean previousEnderTraversal = player.getPersistentData().getBoolean("7dtc_last_ender_traversal");
             boolean previousThreatSense = player.getPersistentData().getBoolean("7dtc_last_threat_sense");
             boolean previousDayTime = player.getPersistentData().getBoolean("7dtc_last_day_time");
-            if (force || points != previous || oreSense != previousOreSense
+            if (force || points != previous || oreSenseRange != previousOreSenseRange
                 || grappler != previousGrappler || enderTraversal != previousEnderTraversal
                 || threatSense != previousThreatSense || dayTime != previousDayTime) {
                 player.getPersistentData().putInt("7dtc_last_skill_points", points);
-                player.getPersistentData().putBoolean("7dtc_last_ore_sense", oreSense);
+                player.getPersistentData().putInt("7dtc_last_ore_sense_range", oreSenseRange);
                 player.getPersistentData().putBoolean("7dtc_last_grappler", grappler);
                 player.getPersistentData().putBoolean("7dtc_last_ender_traversal", enderTraversal);
                 player.getPersistentData().putBoolean("7dtc_last_threat_sense", threatSense);
                 player.getPersistentData().putBoolean("7dtc_last_day_time", dayTime);
                 CHANNEL.send(PacketDistributor.PLAYER.with(() -> player),
-                    new SkillPointsPacket(points, oreSense, grappler, enderTraversal, threatSense, dayTime));
+                    new SkillPointsPacket(points, oreSenseRange, grappler, enderTraversal, threatSense, dayTime));
             }
         }
 
@@ -1192,17 +1133,17 @@ public final class SkillBridge {
         }
     }
 
-    public record SkillPointsPacket(int points, boolean oreSense, boolean grappler, boolean enderTraversal, boolean threatSense, boolean dayTime) {
+    public record SkillPointsPacket(int points, int oreSenseRange, boolean grappler, boolean enderTraversal, boolean threatSense, boolean dayTime) {
         static void encode(SkillPointsPacket packet, FriendlyByteBuf buffer) {
             buffer.writeVarInt(packet.points);
-            buffer.writeBoolean(packet.oreSense);
+            buffer.writeVarInt(packet.oreSenseRange);
             buffer.writeBoolean(packet.grappler);
             buffer.writeBoolean(packet.enderTraversal);
             buffer.writeBoolean(packet.threatSense);
             buffer.writeBoolean(packet.dayTime);
         }
         static SkillPointsPacket decode(FriendlyByteBuf buffer) {
-            return new SkillPointsPacket(buffer.readVarInt(), buffer.readBoolean(), buffer.readBoolean(), buffer.readBoolean(), buffer.readBoolean(), buffer.readBoolean());
+            return new SkillPointsPacket(buffer.readVarInt(), buffer.readVarInt(), buffer.readBoolean(), buffer.readBoolean(), buffer.readBoolean(), buffer.readBoolean());
         }
         static void handle(SkillPointsPacket packet, Supplier<NetworkEvent.Context> context) {
             context.get().enqueueWork(() -> {
@@ -1211,7 +1152,7 @@ public final class SkillBridge {
                 ClientOverlay.enderTraversal = packet.enderTraversal;
                 ClientOverlay.threatSense = packet.threatSense;
                 ClientOverlay.dayTime = packet.dayTime;
-                OreSenseOverlay.setUnlocked(packet.oreSense);
+                OreSenseOverlay.setRange(packet.oreSenseRange);
             });
             context.get().setPacketHandled(true);
         }

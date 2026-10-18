@@ -51,7 +51,7 @@
 			id: "7D7C360000000004"
 			invisible: true
 			tasks: [{
-				advancement: "seven_days_to_craft:skills/cartography"
+				advancement: "seven_days_to_craft:skills/ore_sense_2"
 				criterion: "completed"
 				id: "7D7C370000000004"
 				type: "advancement"

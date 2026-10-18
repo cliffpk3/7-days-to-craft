@@ -27,6 +27,7 @@ public final class ArrowRetrieval {
     private static final String PENDING = "7dtc_arrow_retrieval_pending";
     private static final String OWNER = "owner";
     private static final String EXPIRES = "expires";
+    private static final String APPROACH = "approach";
     private static final double[] CHANCES = {0, 0.09, 0.18, 0.27, 0.35};
 
     private ArrowRetrieval() {}
@@ -43,7 +44,10 @@ public final class ArrowRetrieval {
         if (arrow.getPersistentData().getBoolean(PROCESSED)) return;
         arrow.getPersistentData().putBoolean(PROCESSED, true);
         int rank = SkillBridge.getBasicSkillRank(shooter, "arrowretrieval", 4);
-        if (rank == 0 || shooter.getRandom().nextDouble() >= CHANCES[rank]) return;
+        boolean approach = rank > 0 && shooter.getRandom().nextDouble() < CHANCES[rank];
+        boolean afterKill = shooter.getTags().contains("7dtc_embedded_arrows")
+            && shooter.getRandom().nextDouble() < 0.30D;
+        if (!approach && !afterKill) return;
 
         CompoundTag data = victim.getPersistentData();
         ListTag pending = data.getList(PENDING, Tag.TAG_COMPOUND);
@@ -51,6 +55,7 @@ public final class ArrowRetrieval {
         CompoundTag entry = new CompoundTag();
         entry.putUUID(OWNER, shooter.getUUID());
         entry.putLong(EXPIRES, victim.level().getGameTime() + 2400);
+        entry.putBoolean(APPROACH, approach);
         pending.add(entry);
         data.put(PENDING, pending);
     }
@@ -73,7 +78,8 @@ public final class ArrowRetrieval {
             for (int i = 0; i < pending.size(); i++) {
                 CompoundTag entry = pending.getCompound(i);
                 if (entry.getLong(EXPIRES) < player.level().getGameTime()) continue;
-                if (entry.hasUUID(OWNER) && entry.getUUID(OWNER).equals(player.getUUID())) {
+                if (entry.hasUUID(OWNER) && entry.getUUID(OWNER).equals(player.getUUID())
+                    && (!entry.contains(APPROACH) || entry.getBoolean(APPROACH))) {
                     ItemStack arrow = new ItemStack(Items.ARROW);
                     if (!player.getInventory().add(arrow)) {
                         remaining.add(entry); // Retry when inventory space is available.

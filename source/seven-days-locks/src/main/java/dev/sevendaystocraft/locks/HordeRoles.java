@@ -29,6 +29,7 @@ import net.minecraftforge.client.event.RenderLivingEvent;
 import net.minecraftforge.event.entity.EntityEvent;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
+import net.minecraftforge.event.entity.living.LivingDamageEvent;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.event.entity.living.LivingExperienceDropEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
@@ -62,6 +63,9 @@ public final class HordeRoles {
     private static final String BOSS_SPAWNED = "7dtc_horde_boss_spawned";
     private static final String ONLINE_PLAYERS = "7dtc_horde_online_players";
     private static final String REWARD_DAY = "7dtc_horde_reward_day";
+    private static final String BRUISER_LAST_HIT = "7dtc_bruiser_last_hit";
+    private static final int BRUISER_REGEN_DELAY = 20 * 10;
+    private static final int BRUISER_REGEN_INTERVAL = 20 * 3;
     private static final Set<Mob> FISHER_GOALS = Collections.newSetFromMap(new WeakHashMap<>());
     private static final String[] MUTANT_BOSSES = {
         "mutantmonsters:mutant_zombie", "mutantmonsters:mutant_skeleton",
@@ -100,6 +104,8 @@ public final class HordeRoles {
     @SubscribeEvent(priority = EventPriority.LOWEST)
     public static void restoreFisherRod(EntityJoinLevelEvent event) {
         if (event.getLevel().isClientSide() || !(event.getEntity() instanceof Mob mob)) return;
+        if (isZombieBruiser(mob) && !mob.getPersistentData().contains(BRUISER_LAST_HIT))
+            mob.getPersistentData().putLong(BRUISER_LAST_HIT, mob.level().getGameTime());
         if (mob.getTags().contains("7dtc_horde_bruiser")) {
             var armor = mob.getAttribute(Attributes.ARMOR);
             if (armor != null) armor.setBaseValue(Math.max(8.0D, armor.getBaseValue()));
@@ -227,7 +233,12 @@ public final class HordeRoles {
 
     @SubscribeEvent
     public static void onRoleTick(LivingEvent.LivingTickEvent event) {
-        if (!(event.getEntity() instanceof Mob mob) || mob.level().isClientSide() || mob.tickCount % 20 != 0) return;
+        if (!(event.getEntity() instanceof Mob mob) || mob.level().isClientSide()) return;
+        if (isZombieBruiser(mob) && mob.tickCount % BRUISER_REGEN_INTERVAL == 0
+            && mob.level().getGameTime() - mob.getPersistentData().getLong(BRUISER_LAST_HIT) >= BRUISER_REGEN_DELAY
+            && mob.getHealth() > 0 && mob.getHealth() < mob.getMaxHealth())
+            mob.heal(1.0F);
+        if (mob.tickCount % 20 != 0) return;
         if (hasRole(mob, "summoner")) tickSummoner(mob);
         if (!(mob instanceof Zombie zombie)) return;
         if (hasRole(zombie, "breaker") && zombie.tickCount % 100 == 0) breakObstacle(zombie);
@@ -266,6 +277,17 @@ public final class HordeRoles {
             player.addEffect(new MobEffectInstance(MobEffects.MOVEMENT_SLOWDOWN, 20 * 6, 1));
             player.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 20 * 6, 0));
         }
+    }
+
+    @SubscribeEvent
+    public static void delayBruiserRegeneration(LivingDamageEvent event) {
+        if (!event.getEntity().level().isClientSide() && event.getAmount() > 0 && isZombieBruiser(event.getEntity()))
+            event.getEntity().getPersistentData().putLong(BRUISER_LAST_HIT, event.getEntity().level().getGameTime());
+    }
+
+    private static boolean isZombieBruiser(LivingEntity entity) {
+        return BuiltInRegistries.ENTITY_TYPE.getKey(entity.getType()).toString()
+            .equals("born_in_chaos_v1:zombie_bruiser");
     }
 
     @SubscribeEvent

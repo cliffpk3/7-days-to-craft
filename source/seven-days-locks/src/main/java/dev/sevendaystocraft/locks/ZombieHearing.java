@@ -10,7 +10,9 @@ import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.PathfinderMob;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.goal.Goal;
+import net.minecraft.world.entity.monster.Enemy;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.phys.AABB;
 import net.minecraftforge.common.ForgeConfigSpec;
@@ -31,7 +33,7 @@ import java.util.List;
 import java.util.Locale;
 import java.util.Map;
 
-/** Server-side, bounded zombie investigation of gunshots and militia screams. */
+/** Server-side, bounded hostile-mob investigation of gunshots and militia screams. */
 @Mod.EventBusSubscriber(modid = SevenDaysLocks.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public final class ZombieHearing {
     private static final String PREFIX = "7dtc_heard_noise_";
@@ -55,8 +57,8 @@ public final class ZombieHearing {
 
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
-        builder.comment("7DTC zombie hearing; affects loaded zombies outside the horde."
-            + " Stronger variants hear at half of the configured radii.").push("hearing");
+        builder.comment("7DTC monster hearing; affects loaded hostile pathfinding mobs outside the horde."
+            + " Higher threat tiers have shorter hearing radii.").push("hearing");
         ENABLED = builder.define("enabled", true);
         GUNSHOT_RADIUS = builder.comment("Maximum distance for an unsuppressed gunshot, in blocks.")
             .defineInRange("gunshotRadius", 48, 0, 96);
@@ -66,7 +68,7 @@ public final class ZombieHearing {
             .defineInRange("screamRadius", 24, 0, 96);
         ZOMBIE_CRY_RADIUS = builder.comment("Maximum distance for a dying zombie's cry, in blocks.")
             .defineInRange("zombieCryRadius", 14, 0, 48);
-        MAX_RESPONDERS = builder.comment("Maximum zombies responding to one sound.")
+        MAX_RESPONDERS = builder.comment("Maximum monsters responding to one sound.")
             .defineInRange("maxResponders", 16, 1, 40);
         builder.pop();
         SPEC = builder.build();
@@ -86,7 +88,7 @@ public final class ZombieHearing {
     @SubscribeEvent
     public static void onJoin(EntityJoinLevelEvent event) {
         if (event.getLevel().isClientSide() || !(event.getEntity() instanceof PathfinderMob mob)
-            || !CityAmbientEncounter.isCityZombie(mob)) return;
+            || !hearsSound(mob)) return;
         mob.goalSelector.addGoal(3, new InvestigateSoundGoal(mob));
     }
 
@@ -94,7 +96,7 @@ public final class ZombieHearing {
     public static void onCombatTargetChange(LivingChangeTargetEvent event) {
         if ((event.getNewTarget() != null || event.getOriginalTarget() != null)
             && event.getEntity() instanceof PathfinderMob mob
-            && !mob.level().isClientSide() && CityAmbientEncounter.isCityZombie(mob)) {
+            && !mob.level().isClientSide() && hearsSound(mob)) {
             markCombat(mob);
         }
     }
@@ -103,8 +105,13 @@ public final class ZombieHearing {
     public static void onHurt(LivingHurtEvent event) {
         if (event.getSource().getEntity() instanceof LivingEntity
             && event.getEntity() instanceof PathfinderMob mob
-            && !mob.level().isClientSide() && CityAmbientEncounter.isCityZombie(mob)) {
+            && !mob.level().isClientSide() && hearsSound(mob)) {
             markCombat(mob);
+            // Some dungeon mobs do not naturally retaliate against Simple Enemy units.
+            // A direct hit starts combat, so investigation must not override this target.
+            if (event.getSource().getEntity() instanceof Mob attacker
+                && BuiltInRegistries.ENTITY_TYPE.getKey(attacker.getType()).getNamespace().equals("simpleenemymod")
+                && mob.getTarget() == null) mob.setTarget(attacker);
         }
     }
 
@@ -161,16 +168,34 @@ public final class ZombieHearing {
         return path.contains("silenc") || path.contains("suppress");
     }
 
-    private static boolean hasFullHearingRange(Mob mob) {
-        if (ThreatSense.threatTier(mob) >= 2) return false;
+    private static boolean hearsSound(PathfinderMob mob) {
+        if (!(mob instanceof Enemy)) return false;
         ResourceLocation id = BuiltInRegistries.ENTITY_TYPE.getKey(mob.getType());
-        if (id == null) return true;
-        if (switch (id.toString()) {
-            case "minecraft:zombie", "zombie_extreme:infected",
-                 "zombie_extreme:runner", "zombie_extreme:crawler" -> true;
-            default -> false;
-        }) return true;
-        return !id.getNamespace().equals("zombie_extreme");
+        return id != null && !id.getNamespace().equals("simpleenemymod");
+    }
+
+    private static int hearingTier(PathfinderMob mob) {
+        Integer registered = ThreatSense.registeredTier(mob);
+        if (registered != null && registered > 0) return registered;
+        // Local fallback only: loot and skill threat rankings remain unchanged.
+        double health = mob.getMaxHealth();
+        double damage = mob.getAttribute(Attributes.ATTACK_DAMAGE) == null ? 0
+            : mob.getAttributeValue(Attributes.ATTACK_DAMAGE);
+        double armor = mob.getAttribute(Attributes.ARMOR) == null ? 0
+            : mob.getAttributeValue(Attributes.ARMOR);
+        if (health >= 100 || damage >= 15) return 4;
+        if (health >= 50 || damage >= 10) return 3;
+        if (health >= 30 || damage >= 6 || armor >= 8) return 2;
+        return 1;
+    }
+
+    private static double hearingMultiplier(PathfinderMob mob) {
+        return switch (hearingTier(mob)) {
+            case 2 -> 0.75D;
+            case 3 -> 0.50D;
+            case 4 -> 0.35D;
+            default -> 1.0D;
+        };
     }
 
     private static void alert(ServerLevel level, BlockPos sound, int radius, int maxResponders) {
@@ -178,11 +203,11 @@ public final class ZombieHearing {
         double maxDistanceSq = (double) radius * radius;
         AABB area = new AABB(sound).inflate(radius, Math.min(radius, 24), radius);
         List<PathfinderMob> nearby = level.getEntitiesOfClass(PathfinderMob.class, area,
-            mob -> mob.isAlive() && CityAmbientEncounter.isCityZombie(mob)
+            mob -> mob.isAlive() && hearsSound(mob)
                 && !mob.getTags().contains("7dtc_horde_spawn")
                 && !inCombat(mob) && mob.distanceToSqr(sound.getX() + 0.5,
                     sound.getY() + 0.5, sound.getZ() + 0.5)
-                    <= (hasFullHearingRange(mob) ? maxDistanceSq : maxDistanceSq * 0.25D));
+                    <= maxDistanceSq * Math.pow(hearingMultiplier(mob), 2));
         nearby.sort(Comparator.comparingDouble(mob -> mob.distanceToSqr(sound.getX() + 0.5,
             sound.getY() + 0.5, sound.getZ() + 0.5)));
         int count = Math.min(maxResponders, nearby.size());

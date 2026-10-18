@@ -9,14 +9,12 @@
     "OreSenseLightMixin",
     "OreSensePositionalLightMixin",
     "OreSenseLightEngineMixin",
-    "XaeroRestrictionEffectsMixin",
     "AggroIndicatorMilestoneMixin"
   ],
   "injectors": {
     "defaultRequire": 1
   },
   "mixins": [
-    "MapAtlasGateMixin",
     "QuarkBackpackEquipMixin",
     "CuriosBackpackQuickMoveMixin",
     "WorkbenchEfficiencyMixin"

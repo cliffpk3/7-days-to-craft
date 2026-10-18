@@ -4,6 +4,6 @@
   "package": "dev.sevendaystocraft.locks.mixin",
   "compatibilityLevel": "JAVA_17",
   "mixins": ["TaczCgmAmmoMixin", "TaczCgmScriptMixin", "HordeFisherPullMixin"],
-  "client": ["TaczCgmHudMixin"],
+  "client": ["TaczCgmHudMixin", "CompassSenseRangeMixin"],
   "injectors": {"defaultRequire": 1}
 }

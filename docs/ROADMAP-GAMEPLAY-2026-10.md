@@ -1,5 +1,15 @@
 # Roadmap de gameplay — outubro de 2026
 
+## Revisão preparada em 18/10/2026
+
+O nó inicial de Scavenging passa a Forager. Os quatro nós posteriores de Field Dressing passam a Animal Sense (9/18/27/33 blocos no Advanced Compass). Ranger mantém quatro nós Arrow Retrieval (9/18/27/35%) e sua milestone superior passa a recuperar flechas cravadas no monstro na morte (30%). A trilha inferior de combate tem Threat Sense I (10 blocos) e II (30 blocos). Esta revisão foi compilada, mas ainda precisa de validação no jogo.
+
+O nó antigo Cartography/Minimap passa a Ore Sense II. Ore Sense I ilumina minérios num raio de 20 blocos; o nível II remove o limite para minérios carregados. Xaero Minimap será retirado na instalação do pacote, com backup do JAR. O Atlas continua disponível sem a antiga trava de Cartography. Os tooltips das habilidades pagas mostram o custo real em amarelo.
+
+A audição de disparos e gritos foi estendida a monstros hostis com navegação. O alcance cai conforme a ameaça: tiers 1/2/3/4 usam 100/75/50/35% do raio. Um auditador gera sugestões para mobs novos sem substituir ajustes manuais. O Zombie Bruiser da horda e das cavernas regenera 1 ponto de vida a cada 3 segundos após 10 segundos sem sofrer dano.
+
+Detalhes de instalação e teste: `docs/MILESTONE-SENSE-HEARING-BRUISER-2026-10-18.md`.
+
 ## Atualização executada em 12/10/2026
 
 As etapas autorizadas 1–7 foram implementadas. Prospector, Forager e Scavenger foram validados e marcados como concluídos. O loot nativo do Infernal Mobs foi mantido após auditoria de raridade; Divine Weaponry tornou-se loot exclusivo; a classificação central foi revisada; EnhancedAI deixou de alterar monstros comuns; a matriz de profundidade, equipamento por tier e a nova curva de XP foram instaladas. Fuel Efficiency/Treasure Sense, o componente raro de torretas e o Core permanecem pendentes por decisão. O relatório técnico está em `docs/STATUS-ROADMAP-2026-10-12.md`.

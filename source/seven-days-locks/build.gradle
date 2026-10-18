@@ -15,6 +15,7 @@ dependencies {
  compileOnly fg.deobf(files('../../mods/CGM-Unofficial-1.4.20+Forge+1.20.1.jar'))
  compileOnly fg.deobf(files('../../mods/simpleenemymod-1.20.1-0.1.6-beta-hotfix.jar'))
  compileOnly fg.deobf(files('../../mods/EnhancedAI-2.4.7-mc1.20.1.jar'))
+ compileOnly fg.deobf(files('../../mods/puffish_skills-0.19.1-1.20-forge.jar'))
 }
 jar { manifest { attributes(['Specification-Title':'seven_days_locks','Specification-Vendor':'7 Days to Craft','Specification-Version':'1','Implementation-Title':project.name,'Implementation-Version':project.jar.archiveVersion,'Implementation-Vendor':'7 Days to Craft','MixinConfigs':'seven_days_locks.mixins.json']) } }
 jar.finalizedBy('reobfJar')
