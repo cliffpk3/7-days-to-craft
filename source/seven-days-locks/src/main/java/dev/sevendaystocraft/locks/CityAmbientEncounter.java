@@ -116,7 +116,7 @@ public final class CityAmbientEncounter {
         return false;
     }
 
-    private static boolean isCityZombie(Mob mob) {
+    static boolean isCityZombie(Mob mob) {
         if (!(mob instanceof Enemy)) return false;
         ResourceLocation id = BuiltInRegistries.ENTITY_TYPE.getKey(mob.getType());
         return mob instanceof Zombie || id.getNamespace().equals("zombie_extreme")
