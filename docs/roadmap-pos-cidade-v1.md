@@ -2,7 +2,9 @@
 
 ## Estado confirmado por arquivos
 
-- Cidade: perfil `7dtc_city`, tres pools de carros substituidos por elementos vazios, edificios selecionados e delegacia com soldados `usunit` inclusive no terraco.
+- Cidade: perfil `7dtc_city`, tres pools de carros substituidos por elementos vazios, edificios selecionados, posto fixo com milicia na peca inicial de cidades novas e delegacia opcional com soldados `usunit` inclusive no terraco.
+- Entrada urbana: uma emboscada de 2 a 4 zumbis por jogador/cidade, com registro persistente e ao menos um Runner. Runners urbanos recebem +20% de velocidade base.
+- Combate ambiental urbano: ate dois encontros sorteados por jogador/cidade em setores de 64 blocos; um soldado de esquadra surge 34-52 blocos distante e sem visao direta do jogador. O encontro exige ao menos dois zumbis visiveis para ele, gerando os ausentes perto do soldado. A IA nativa decide os alvos, inclusive jogadores que se aproximarem.
 - Cidade: patrulhas de zumbis com teto local de 26 entidades; spawners de edificios nao entram nesse teto.
 - Armas: 18 TaCZ e 11 acessorios na CGM Workbench; armas selecionadas exigem blueprint. Receitas padrao TaCZ ocultas por filtro.
 - Mundo: 14 conjuntos de estruturas de Born in Chaos agora evitam iniciar em ate 16 chunks do inicio de `the_lost_city:city`.
@@ -17,8 +19,10 @@
 5. **Carga e loot:** spawners de edificios nao estao no teto das patrulhas. Milicianos tem uma rolagem propria de 3,5% para blueprint alem da rolagem generica por tier; chefes urbanos tambem tem 4% extra. Medir kills/hora e blueprints/hora antes de ajustar.
 6. **Ore Sense:** a implementacao possui limite posicional de 20 blocos no motor de luz, mas tambem retorna emissao global para blocos de minerio quando a skill esta ativa. A observacao do usuario de brilho alem de 20 blocos e coerente com essa segunda via; requer correcao e teste visual.
 7. **Armas antigas:** CGM continua instalado para a bancada, munição e torres. Fazer teste de receita, loot, comercio e JEI para confirmar que armas CGM antigas nao oferecem caminhos alternativos.
-8. **Milicia por cidade:** a delegacia ocupada tem peso 1 no pool de casas e pode faltar em uma cidade. Desenhar uma ancora obrigatoria para garantir ao menos um predio de uma faccao por cidade, evitando colisoes com ruas e outros predios.
-9. **Carros em cidades existentes:** a substituicao dos pools jigsaw so vale ao gerar novas estruturas. Carros ja colocados no save permanecem.
+8. **Milicia por cidade:** confirmar em cidade nova que o posto fixo da peca inicial aparece sem colidir com as tres ruas restantes e que os soldados no terraco conseguem atingir a rua. A delegacia adicional continua sujeita ao sorteio.
+9. **Emboscada de entrada:** entrar, sair, morrer e reconectar na mesma cidade com dois jogadores; conferir uma emboscada por jogador/cidade, 2 a 4 zumbis perseguindo e velocidade do Runner. Testar outra cidade para confirmar nova emboscada.
+10. **Combate ambiental:** percorrer setores de 64 blocos e confirmar que o soldado aparece fora da visao direta, com ao menos dois zumbis nas proximidades, enfrenta zumbis usando sua IA nativa, faz ruido perceptivel e pode mirar no jogador quando ele se aproxima. Medir quantidade de encontros, TPS e milicianos ativos com dois ou mais jogadores.
+11. **Carros em cidades existentes:** a substituicao dos pools jigsaw so vale ao gerar novas estruturas. Carros ja colocados no save permanecem.
 
 ## Roteiro de propostas para avaliacao com o usuario
 

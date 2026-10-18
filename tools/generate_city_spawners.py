@@ -87,6 +87,97 @@ def pool(name: str, choices: list[tuple[str, int]]) -> None:
     target.write_text(json.dumps(value, indent=2) + "\n", encoding="utf-8")
 
 
+def militia_start(jar: zipfile.ZipFile, guard_nbt: tag.Compound, chest_nbt: tag.Compound) -> None:
+    """Put one occupied outpost in the mandatory city start piece.
+
+    A weighted house pool cannot guarantee a militia building. The east road
+    connection of the city start becomes a small, fixed command post instead;
+    the other three road connections remain available for city expansion.
+    """
+    start = source(jar, "start")
+    blocks = {tuple(map(int, block["pos"])): block for block in start["blocks"]}
+
+    def state(name: str) -> int:
+        for index, entry in enumerate(start["palette"]):
+            if str(entry["Name"]) == name and "Properties" not in entry:
+                return index
+        start["palette"].append(tag.Compound({"Name": tag.String(name)}))
+        return len(start["palette"]) - 1
+
+    def put(x: int, y: int, z: int, name: str, nbt: tag.Compound | None = None) -> None:
+        block = tag.Compound({
+            "pos": tag.List[tag.Int]([x, y, z]),
+            "state": tag.Int(state(name)),
+        })
+        if nbt is not None:
+            block["nbt"] = deepcopy(nbt)
+        blocks[(x, y, z)] = block
+
+    # Remove only the eastward road connector; north, south and west remain.
+    east = blocks[(22, 0, 11)]
+    if str(start["palette"][int(east["state"])]["Name"]) != "minecraft:jigsaw":
+        raise ValueError("City start east road connector has changed")
+    put(22, 0, 11, "minecraft:smooth_basalt")
+
+    # Explicit air clears the terrain in the newly enlarged start template.
+    for x in range(23, 39):
+        for y in range(20):
+            for z in range(23):
+                put(x, y, z, "minecraft:air")
+    for x in range(23, 25):
+        for z in range(9, 14):
+            put(x, 0, z, "minecraft:cracked_stone_bricks")
+
+    # A low ruined stone command post with an accessible western entrance.
+    for x in range(25, 38):
+        for z in range(4, 19):
+            floor = "minecraft:mossy_stone_bricks" if (x * 7 + z) % 11 == 0 else "minecraft:stone_bricks"
+            put(x, 0, z, floor)
+            put(x, 7, z, "minecraft:cracked_stone_bricks" if (x + z) % 9 == 0 else "minecraft:stone_bricks")
+    for y in range(1, 7):
+        for x in range(25, 38):
+            for z in (4, 18):
+                put(x, y, z, "minecraft:cracked_stone_bricks" if (x + y) % 7 == 0 else "minecraft:stone_bricks")
+        for z in range(5, 18):
+            for x in (25, 37):
+                if x == 25 and z in (10, 11) and y <= 2:
+                    continue
+                put(x, y, z, "minecraft:mossy_stone_bricks" if (z + y) % 8 == 0 else "minecraft:stone_bricks")
+    for x in (29, 33):
+        for z in (4, 18):
+            for y in (3, 4):
+                put(x, y, z, "minecraft:glass")
+    for z in (7, 15):
+        for x in (25, 37):
+            for y in (3, 4):
+                put(x, y, z, "minecraft:glass")
+    for x in range(25, 38):
+        for z in (4, 18):
+            put(x, 8, z, "minecraft:stone_bricks")
+    for z in range(5, 18):
+        for x in (25, 37):
+            put(x, 8, z, "minecraft:stone_bricks")
+
+    # Built-in spawners make the garrison persistent and faction-pure. The
+    # roof pair engages approaching players, while the third guards the loot.
+    for x, y, z in ((29, 8, 8), (34, 8, 14), (34, 1, 8)):
+        settings = deepcopy(guard_nbt)
+        settings["SpawnCount"] = tag.Short(1)
+        settings["MaxNearbyEntities"] = tag.Short(4)
+        settings["RequiredPlayerRange"] = tag.Short(88 if y == 8 else 20)
+        settings["SpawnRange"] = tag.Short(1)
+        settings["MinSpawnDelay"] = tag.Short(700)
+        settings["MaxSpawnDelay"] = tag.Short(1200)
+        put(x, y, z, "minecraft:spawner", settings)
+    loot = deepcopy(chest_nbt)
+    loot["LootTable"] = tag.String("seven_days_locks:chests/city_militia")
+    put(30, 1, 13, "minecraft:chest", loot)
+
+    start["size"] = tag.List[tag.Int]([39, 20, 23])
+    start["blocks"] = tag.List[tag.Compound](blocks.values())
+    save_template("start", start, namespace="the_lost_city")
+
+
 def main() -> None:
     with zipfile.ZipFile(MOD) as jar:
         # The Lost City uses these five pools for its built-in hostile spawners.
@@ -113,6 +204,7 @@ def main() -> None:
         police = source(jar, "m_police_station")
         spawner_state = None
         police_spawner_nbt = None
+        police_chest_nbt = None
         for block in police["blocks"]:
             state = police["palette"][int(block["state"])]["Name"]
             if state == "minecraft:jigsaw" and "spawners_zombie" in str(block.get("nbt", {}).get("pool", "")):
@@ -127,6 +219,7 @@ def main() -> None:
                 police_spawner_nbt = deepcopy(block["nbt"])
             if state in ("minecraft:chest", "minecraft:barrel"):
                 block["nbt"]["LootTable"] = tag.String("seven_days_locks:chests/city_militia")
+                police_chest_nbt = deepcopy(block["nbt"])
         if spawner_state is None or police_spawner_nbt is None:
             raise ValueError("Police station no longer contains its expected spawner")
         # Raised posts sit one block inside opposite roof edges so guards can
@@ -157,6 +250,9 @@ def main() -> None:
             block["nbt"]["MinSpawnDelay"] = tag.Short(700)
             block["nbt"]["MaxSpawnDelay"] = tag.Short(1200)
         save_template("m_police_station", police, namespace="the_lost_city")
+        if police_chest_nbt is None:
+            raise ValueError("Police station no longer contains its expected loot container")
+        militia_start(jar, police_spawner_nbt, police_chest_nbt)
 
         for unit in ("usunit",):
             variant = source(jar, "spawner_zombie")

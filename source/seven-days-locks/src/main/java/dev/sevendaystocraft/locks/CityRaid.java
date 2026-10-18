@@ -1,6 +1,7 @@
 package dev.sevendaystocraft.locks;
 
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.Direction;
 import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.resources.ResourceLocation;
@@ -10,6 +11,9 @@ import net.minecraft.tags.TagKey;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.MobSpawnType;
+import net.minecraft.world.entity.ai.attributes.AttributeInstance;
+import net.minecraft.world.entity.ai.attributes.AttributeModifier;
+import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.monster.Enemy;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -25,9 +29,13 @@ import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModList;
 import net.minecraftforge.fml.common.Mod;
+import net.minecraftforge.registries.ForgeRegistries;
 
+import java.util.ArrayList;
 import java.util.HashMap;
+import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 /** Infected city patrols. The police station's militia is supplied by its template spawners. */
 @Mod.EventBusSubscriber(modid = SevenDaysLocks.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
@@ -46,12 +54,17 @@ public final class CityRaid {
     private static final Map<Long, Long> LAST_PATROL = new HashMap<>();
     private static final int PATROL_INTERVAL = 400;
     private static final int LOCAL_CAP = 26;
+    private static final UUID CITY_RUNNER_SPEED = UUID.fromString("05d35d8b-b644-4256-b743-098574a0652f");
 
     private CityRaid() {}
 
     private static boolean cityAt(ServerLevel level, BlockPos pos) {
+        return cityStart(level, pos) != null;
+    }
+
+    static StructureStart cityStart(ServerLevel level, BlockPos pos) {
         StructureStart start = level.structureManager().getStructureWithPieceAt(pos, CITIES);
-        return start != null && start.isValid();
+        return start != null && start.isValid() ? start : null;
     }
 
     private static String entityId(Mob mob) {
@@ -84,6 +97,14 @@ public final class CityRaid {
                 && (!level.dimension().equals(Level.OVERWORLD) || !cityAt(level, mob.blockPosition()))) {
                 event.setCanceled(true);
             }
+            if (!event.isCanceled() && entityId(mob).equals("zombie_extreme:runner")
+                && cityAt(level, mob.blockPosition())) {
+                AttributeInstance speed = mob.getAttribute(Attributes.MOVEMENT_SPEED);
+                if (speed != null && speed.getModifier(CITY_RUNNER_SPEED) == null) {
+                    speed.addPermanentModifier(new AttributeModifier(CITY_RUNNER_SPEED,
+                        "7DTC city runner pursuit", 0.20D, AttributeModifier.Operation.MULTIPLY_BASE));
+                }
+            }
             return;
         }
         if (!(mob instanceof Enemy)) return;
@@ -94,12 +115,23 @@ public final class CityRaid {
 
     @SubscribeEvent
     public static void onPlayerTick(TickEvent.PlayerTickEvent event) {
-        if (event.phase != TickEvent.Phase.END || !(event.player instanceof ServerPlayer player) || player.tickCount % 200 != 0) return;
+        if (event.phase != TickEvent.Phase.END || !(event.player instanceof ServerPlayer player)
+            || player.isSpectator() || player.tickCount % 40 != 0) return;
         if (!ModList.get().isLoaded("the_lost_city") || !ModList.get().isLoaded("zombie_extreme")) return;
         if (!(player.level() instanceof ServerLevel level) || !level.dimension().equals(Level.OVERWORLD)) return;
-        if (!cityAt(level, player.blockPosition())) return;
+        StructureStart city = cityStart(level, player.blockPosition());
+        if (city == null) return;
         long region = (((long) (player.blockPosition().getX() >> 5)) << 32) ^ ((player.blockPosition().getZ() >> 5) & 0xffffffffL);
         long now = level.getGameTime();
+        CityVisitData visits = CityVisitData.get(level);
+        if (!visits.hasAmbush(player.getUUID(), city.getChunkPos())) {
+            if (spawnEntryAmbush(level, player) >= 2) {
+                visits.markAmbushed(player.getUUID(), city.getChunkPos());
+                LAST_PATROL.put(region, now);
+            }
+            return;
+        }
+        if (player.tickCount % 200 != 0) return;
         if (now - LAST_PATROL.getOrDefault(region, Long.MIN_VALUE / 2) < PATROL_INTERVAL) return;
         int nearby = level.getEntitiesOfClass(Mob.class, player.getBoundingBox().inflate(48, 16, 48),
             mob -> cityMob(mob) || mob.getTags().contains("7dtc_city_raid")).size();
@@ -114,6 +146,67 @@ public final class CityRaid {
                     : BOSS[level.random.nextInt(BOSS.length)]);
             spawnNear(level, player, id);
         }
+    }
+
+    private static int spawnEntryAmbush(ServerLevel level, ServerPlayer player) {
+        int nearby = level.getEntitiesOfClass(Mob.class, player.getBoundingBox().inflate(40, 12, 40),
+            mob -> mob instanceof Enemy).size();
+        if (nearby > LOCAL_CAP - 4) return 0;
+        int members = 2 + level.random.nextInt(3);
+        for (int attempt = 0; attempt < 36; attempt++) {
+            double angle = level.random.nextDouble() * Math.PI * 2;
+            int distance = 13 + level.random.nextInt(11);
+            int x = player.getBlockX() + (int) Math.round(Math.cos(angle) * distance);
+            int z = player.getBlockZ() + (int) Math.round(Math.sin(angle) * distance);
+            if (!level.hasChunk(x >> 4, z >> 4)) continue;
+            BlockPos center = level.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, new BlockPos(x, 0, z));
+            if (Math.abs(center.getY() - player.getBlockY()) > 5 || !cityAt(level, center)) continue;
+            List<Mob> spawned = new ArrayList<>();
+            boolean hasRunner = false;
+            for (int i = 0; i < members; i++) {
+                String id = i == 0 ? "zombie_extreme:runner" : entryMob(level);
+                for (int offset = 0; offset < 8; offset++) {
+                    int px = center.getX() + level.random.nextInt(7) - 3;
+                    int pz = center.getZ() + level.random.nextInt(7) - 3;
+                    if (!level.hasChunk(px >> 4, pz >> 4)) continue;
+                    BlockPos pos = level.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+                        new BlockPos(px, 0, pz));
+                    if (Math.abs(pos.getY() - player.getBlockY()) > 5 || !cityAt(level, pos)
+                        || !level.getBlockState(pos.below()).isFaceSturdy(level, pos.below(), Direction.UP)
+                        || !level.getBlockState(pos).isAir() || !level.getBlockState(pos.above()).isAir()) continue;
+                    EntityType<?> type = ForgeRegistries.ENTITY_TYPES.getValue(new ResourceLocation(id));
+                    if (type == null || !(type.create(level) instanceof Mob mob)) break;
+                    mob.moveTo(pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5,
+                        level.random.nextFloat() * 360F, 0F);
+                    if (!level.noCollision(mob)) continue;
+                    mob.addTag("7dtc_city_raid");
+                    mob.addTag("7dtc_city_entry_ambush");
+                    mob.finalizeSpawn(level, level.getCurrentDifficultyAt(pos), MobSpawnType.EVENT, null, null);
+                    if (level.addFreshEntity(mob)) {
+                        mob.setTarget(player);
+                        mob.getNavigation().moveTo(player, 1.15D);
+                        spawned.add(mob);
+                        if (id.equals("zombie_extreme:runner")) hasRunner = true;
+                        break;
+                    }
+                }
+            }
+            if (spawned.size() >= 2 && hasRunner) return spawned.size();
+            // A partial group is not the requested ambush. Retry on another
+            // street without charging this player for a visit.
+            spawned.forEach(Mob::discard);
+        }
+        return 0;
+    }
+
+    private static String entryMob(ServerLevel level) {
+        int roll = level.random.nextInt(100);
+        if (roll < 35) return "zombie_extreme:runner";
+        if (roll < 55) return "minecraft:zombie";
+        if (roll < 68) return "minecraft:husk";
+        if (roll < 82) return "zombie_extreme:infected";
+        if (roll < 93 && ModList.get().isLoaded("born_in_chaos_v1")) return "born_in_chaos_v1:decaying_zombie";
+        return "zombie_extreme:crawler";
     }
 
     private static void spawnNear(ServerLevel level, ServerPlayer player, String id) {
