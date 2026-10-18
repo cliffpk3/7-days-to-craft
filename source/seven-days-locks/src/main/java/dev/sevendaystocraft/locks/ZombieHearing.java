@@ -162,12 +162,15 @@ public final class ZombieHearing {
     }
 
     private static boolean hasFullHearingRange(Mob mob) {
+        if (ThreatSense.threatTier(mob) >= 2) return false;
         ResourceLocation id = BuiltInRegistries.ENTITY_TYPE.getKey(mob.getType());
-        return id != null && switch (id.toString()) {
+        if (id == null) return true;
+        if (switch (id.toString()) {
             case "minecraft:zombie", "zombie_extreme:infected",
                  "zombie_extreme:runner", "zombie_extreme:crawler" -> true;
             default -> false;
-        };
+        }) return true;
+        return !id.getNamespace().equals("zombie_extreme");
     }
 
     private static void alert(ServerLevel level, BlockPos sound, int radius, int maxResponders) {
