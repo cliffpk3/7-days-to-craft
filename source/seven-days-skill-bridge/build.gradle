@@ -16,6 +16,8 @@ dependencies {
  compileOnly fg.deobf(files('../../mods/curios-forge-5.14.1+1.20.1.jar'))
  compileOnly fg.deobf(files('../../mods/map_atlases-1.20-6.0.20.jar'))
  compileOnly fg.deobf(files('../../mods/moonlight-1.20-2.16.35-forge.jar'))
+ compileOnly fg.deobf(files('../../mods/tacz-1.20.1-1.1.8-hotfix.jar'))
+ compileOnly fg.deobf(files('../../mods/seven-days-locks-1.0.1.jar'))
 }
 jar { manifest { attributes(['Specification-Title':'seven_days_skill_bridge','Specification-Vendor':'7 Days to Craft','Specification-Version':'1','Implementation-Title':project.name,'Implementation-Version':project.jar.archiveVersion,'Implementation-Vendor':'7 Days to Craft','MixinConfigs':'seven_days_skill_bridge.mixins.json']) } }
 jar.finalizedBy('reobfJar')

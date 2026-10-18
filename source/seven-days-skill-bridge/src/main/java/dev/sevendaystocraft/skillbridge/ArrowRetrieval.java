@@ -1,5 +1,7 @@
 package dev.sevendaystocraft.skillbridge;
 
+import com.tacz.guns.entity.EntityKineticBullet;
+import dev.sevendaystocraft.locks.TaczAmmoTypes;
 import net.minecraft.nbt.CompoundTag;
 import net.minecraft.nbt.ListTag;
 import net.minecraft.nbt.Tag;
@@ -10,6 +12,8 @@ import net.minecraft.world.entity.projectile.AbstractArrow;
 import net.minecraft.world.entity.projectile.Arrow;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
+import net.minecraft.core.registries.BuiltInRegistries;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.world.phys.AABB;
 import net.minecraftforge.event.TickEvent;
 import net.minecraftforge.event.entity.living.LivingDamageEvent;
@@ -20,7 +24,7 @@ import net.minecraftforge.fml.common.Mod;
 
 import java.util.UUID;
 
-/** Returns a physical ordinary arrow after a successful creature hit, never gun ammunition. */
+/** Recovers arrows or the CGM ammunition used by curated TaCZ guns after a creature hit. */
 @Mod.EventBusSubscriber(modid = SkillBridge.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public final class ArrowRetrieval {
     private static final String PROCESSED = "7dtc_arrow_retrieval_processed";
@@ -28,15 +32,19 @@ public final class ArrowRetrieval {
     private static final String OWNER = "owner";
     private static final String EXPIRES = "expires";
     private static final String APPROACH = "approach";
-    private static final double[] CHANCES = {0, 0.09, 0.18, 0.27, 0.35};
+    private static final double[] CHANCES = {0, 0.07, 0.14, 0.21, 0.28};
 
     private ArrowRetrieval() {}
 
     @SubscribeEvent
     public static void onDamage(LivingDamageEvent event) {
         LivingEntity victim = event.getEntity();
-        if (victim.level().isClientSide || event.getAmount() <= 0
-            || !(event.getSource().getDirectEntity() instanceof Arrow arrow)
+        if (victim.level().isClientSide || event.getAmount() <= 0) return;
+        if (event.getSource().getDirectEntity() instanceof EntityKineticBullet bullet) {
+            recoverGunAmmo(victim, bullet);
+            return;
+        }
+        if (!(event.getSource().getDirectEntity() instanceof Arrow arrow)
             || !(arrow.getOwner() instanceof ServerPlayer shooter)
             || victim == shooter || !ordinaryRecoverable(arrow)) return;
 
@@ -58,6 +66,28 @@ public final class ArrowRetrieval {
         entry.putBoolean(APPROACH, approach);
         pending.add(entry);
         data.put(PENDING, pending);
+    }
+
+    private static void recoverGunAmmo(LivingEntity victim, EntityKineticBullet bullet) {
+        if (!(bullet.getOwner() instanceof ServerPlayer shooter) || shooter.isCreative()
+            || victim == shooter || bullet.getPersistentData().getBoolean(PROCESSED)) return;
+        bullet.getPersistentData().putBoolean(PROCESSED, true);
+        int rank = SkillBridge.getBasicSkillRank(shooter, "arrowretrieval", 4);
+        if (rank <= 0) return;
+        String ammoId = TaczAmmoTypes.ammoId(bullet.getGunId().toString());
+        if (ammoId.isEmpty()) return;
+
+        // One shotgun blast can create several pellet entities. Roll only once
+        // for pellets arriving within the same brief hit window.
+        if (ammoId.equals("cgm:shell")) {
+            CompoundTag data = shooter.getPersistentData();
+            long now = shooter.level().getGameTime();
+            if (now - data.getLong("7dtc_last_shell_retrieval_roll") < 5L) return;
+            data.putLong("7dtc_last_shell_retrieval_roll", now);
+        }
+        if (shooter.getRandom().nextDouble() >= CHANCES[rank]) return;
+        ItemStack recovered = new ItemStack(BuiltInRegistries.ITEM.get(new ResourceLocation(ammoId)));
+        if (!shooter.getInventory().add(recovered)) shooter.drop(recovered, false);
     }
 
     private static boolean ordinaryRecoverable(Arrow arrow) {

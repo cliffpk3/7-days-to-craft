@@ -89,13 +89,13 @@
     "texture": "assets/minecraft/textures/item/sweet_berries.png",
     "glyph": "U+E00A"
   },
-  "nameless_trinkets:four_leaf_clover": {
+  "seven_days_to_craft:scavenger_clover": {
     "source_node_icon": {
-      "type": "item",
-      "value": "nameless_trinkets:four_leaf_clover"
+      "type": "texture",
+      "value": "seven_days_to_craft:textures/gui/skill/scavenger_clover.png"
     },
-    "jar": "Nameless Trinkets-1.20.1-1.7.8.jar",
-    "texture": "assets/nameless_trinkets/textures/item/four_leaf_clover.png",
+    "jar": "kubejs",
+    "texture": "assets/seven_days_to_craft/textures/gui/skill/scavenger_clover.png",
     "glyph": "U+E00B"
   },
   "minecraft:emerald": {

@@ -3,7 +3,7 @@
 ## Mudanças
 
 - Scavenging: o nó inicial Field Dressing vira Forager; os quatro nós posteriores viram Animal Sense (9/18/27/33 blocos), visível no Advanced Compass apenas para animais passivos que fornecem comida.
-- Ranger: os quatro nós Arrow Retrieval permanecem em 9/18/27/35%. A milestone superior vira Embedded Arrows, com tentativa independente de 30% para recuperar uma flecha comum que acertou um monstro, ao morrer. Uma mesma flecha não é entregue duas vezes.
+- Ranger: os quatro nós Arrow Retrieval passam a 7/14/21/28% para flechas comuns ou munição CGM disparada por armas TaCZ selecionadas ao acertar criaturas. A milestone superior Embedded Arrows mantém tentativa independente de 30% para recuperar uma flecha comum que acertou um monstro, ao morrer. Uma mesma flecha não é entregue duas vezes.
 - Combate inferior: Threat Sense I detecta monstros a 10 blocos; Threat Sense II amplia para 30.
 - Ore Sense I conserva 20 blocos e luz 8/15. O antigo nó Cartography vira Ore Sense II (custo 3), que remove o limite para minérios em chunks carregados. A atualização da iluminação já existente é gradual (12 seções por tick) para evitar um pico de processamento. O Atlas deixa de exigir Cartography; a quest antiga de Cartography foi retirada.
 - Todos os tooltips de skills pagas exibem `Requires N skill points` em amarelo antes da descrição.

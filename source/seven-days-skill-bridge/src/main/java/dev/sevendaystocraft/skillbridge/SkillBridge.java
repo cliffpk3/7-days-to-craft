@@ -170,7 +170,7 @@ public final class SkillBridge {
             Map.entry("scavenging_2_backpacktraining", new UnlockNotice("Backpack Training", "You can now equip and open Quark Backpacks in the Curios Back slot.")),
             Map.entry("scavenging_2_keyhunter", new UnlockNotice("Key Hunter", "Eligible enemies now have improved chances to drop dungeon keys.")),
             Map.entry("combat_1_graverunner", new UnlockNotice("Grave Runner", "Your post-death protection effects now last 60 seconds longer.")),
-            Map.entry("combat_1_arrowretrieval", new UnlockNotice("Arrow Retrieval", "Recover ordinary arrows from creatures you shot. Grounded arrows keep their normal pickup behavior.")),
+            Map.entry("combat_1_arrowretrieval", new UnlockNotice("Arrow Retrieval", "Recover fired arrows or CGM ammunition after hitting creatures.")),
             Map.entry("combat_2_embeddedarrows", new UnlockNotice("Embedded Arrows", "Monsters you shot can return one ordinary arrow after death (30% chance).")),
             Map.entry("combat_2_extendedreach", new UnlockNotice("Extended Reach", "Your attacks and entity interactions now reach 2 blocks farther.")),
             Map.entry("combat_2_fieldrecovery", new UnlockNotice("Field Recovery", "Golden Apples now restore 2 permanently lost hearts.")),
@@ -346,7 +346,7 @@ public final class SkillBridge {
             if (!(player instanceof ServerPlayer serverPlayer)) return;
             int rank = getBasicSkillRank(serverPlayer, "toolproficiency", 6);
             if (rank > 0 && player.getMainHandItem().isCorrectToolForDrops(event.getState())) {
-                event.setNewSpeed(event.getNewSpeed() * (1.0F + 0.03F * rank));
+                event.setNewSpeed(event.getNewSpeed() * (1.0F + 0.10F * rank));
             }
         }
 
@@ -1062,7 +1062,7 @@ public final class SkillBridge {
             if (now - data.getLong("7dtc_enduring_vitality_last_heal") < 900L) return;
 
             award(player, new ResourceLocation("seven_days_to_craft", "training/enduring_vitality_wait"));
-            player.heal(1.0F);
+            player.heal(4.0F);
             award(player, new ResourceLocation("seven_days_to_craft", "training/enduring_vitality_recovery"));
             data.putLong("7dtc_enduring_vitality_last_heal", now);
         }
