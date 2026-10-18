@@ -17,7 +17,7 @@
 3. **Alcance da exclusao:** a regra de estrutura considera centros de geracao, nao caixas completas, e nao modifica chunks ja gerados. Verificar cidade nova e suas bordas; outros mods sem estrutura set compativel podem requerer integracao propria.
 4. **Deteccao da cidade:** `CityRaid.cityAt` usa a peca da estrutura. Checar ruas, terracos e subsolo; fora das pecas detectadas, patrulha e filtro de spawns podem nao atuar.
 5. **Carga e loot:** spawners de edificios nao estao no teto das patrulhas. Milicianos tem uma rolagem propria de 3,5% para blueprint alem da rolagem generica por tier; chefes urbanos tambem tem 4% extra. Medir kills/hora e blueprints/hora antes de ajustar.
-6. **Ore Sense:** a emissao global foi removida na milestone `ore-sense-range-v1-20261018`. Falta o teste visual com minerios a 19/20/21 blocos, inclusive com shaders.
+6. **Ore Sense:** a v1 removeu a emissao global, mas o teste mostrou que tambem apagou os minerios proximos. A v2 (`ore-sense-range-v2-20261018`) foi instalada para corrigir a consulta posicional de luz. Falta o teste visual com minerios a 19/20/21 blocos, inclusive com shaders.
 7. **Armas antigas:** CGM continua instalado para a bancada, munição e torres. Fazer teste de receita, loot, comercio e JEI para confirmar que armas CGM antigas nao oferecem caminhos alternativos.
 8. **Milicia por cidade:** confirmar em cidade nova que o posto fixo da peca inicial aparece sem colidir com as tres ruas restantes e que os soldados no terraco conseguem atingir a rua. A delegacia adicional continua sujeita ao sorteio.
 9. **Emboscada de entrada:** entrar, sair, morrer e reconectar na mesma cidade com dois jogadores; conferir uma emboscada por jogador/cidade, 2 a 4 zumbis perseguindo e velocidade do Runner. Testar outra cidade para confirmar nova emboscada.
@@ -26,7 +26,7 @@
 
 ## Roteiro de propostas para avaliacao com o usuario
 
-Cada etapa abaixo e independente, com versao/milestone, teste e rollback. A etapa 1 foi corrigida no codigo e instalada; as demais propostas seguem para avaliacao pontual com o usuario.
+Cada etapa abaixo e independente, com versao/milestone, teste e rollback. A etapa 1 esta na v2, instalada mas ainda sem validacao no jogo; as demais propostas seguem para avaliacao pontual com o usuario.
 
 | Ordem | Proposta | Porte | Criterio de validacao |
 | --- | --- | --- | --- |
