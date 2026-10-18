@@ -20,3 +20,4 @@ Usar primeiro um mundo de teste ou copia do save. Anotar dia, coordenadas, skill
 
 - Recompensa individual da horda: aguarda definicao do item e de quem e elegivel; depois testar dois jogadores, morte, distancia, desconexao/reconexao e impedir pagamento duplo.
 - Flechas recuperaveis ao se aproximar: aguarda definicao da interacao com Ammo Conservation; depois testar chance por nivel, dono da flecha, Infinity, flechas especiais e inventario cheio.
+- Mais inimigos que puxam na horda: EnhancedAI possui modulo Fisher, mas esta desativado e a tag atual so aceita `minecraft:zombie`. A proxima etapa precisa habilitar o modulo sem mudar zumbis comuns fora da horda, equipar apenas uma parcela controlada dos zumbis de evento e testar alcance, linha de visao, cooldown e seguranca perto de paredes/desniveis.
