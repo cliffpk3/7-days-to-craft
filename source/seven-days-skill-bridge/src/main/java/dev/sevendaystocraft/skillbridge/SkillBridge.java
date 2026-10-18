@@ -14,6 +14,9 @@ import net.minecraft.core.BlockPos;
 import net.minecraft.stats.Stats;
 import net.minecraft.tags.ItemTags;
 import net.minecraft.world.item.Items;
+import net.minecraft.world.InteractionHand;
+import net.minecraft.world.InteractionResult;
+import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.item.AxeItem;
@@ -184,7 +187,7 @@ public final class SkillBridge {
             Map.entry("combat_3_paintolerance", new UnlockNotice("Pain Tolerance", "At critical health, you can now gain Resistance I.")),
             Map.entry("combat_3_secondwind", new UnlockNotice("Second Wind", "Killing a hostile creature can now restore health.")),
             Map.entry("scavenging_3_keyconservation", new UnlockNotice("Key Conservation", "Opening a locked chest now has a 30% chance to preserve its key.")),
-            Map.entry("scavenging_3_darkadaptation", new UnlockNotice("Dark Adaptation", "You can now see more clearly in very dark areas.")),
+            Map.entry("scavenging_3_darkadaptation", new UnlockNotice("Fire Swallower", "Sneak and right-click into the air with a torch to gain Night Vision.")),
             Map.entry("scavenging_3_mastersalvager", new UnlockNotice("Master Salvager", "Workbench dismantling now recovers more eligible materials.")),
             Map.entry("engineering_3_createautomation", new UnlockNotice("Create Automation", "Automatic assembly, logistics, trains and advanced Create systems are now available.")),
             Map.entry("engineering_3_fortressconstruction", new UnlockNotice("Fortress Construction", "You can now place reinforced Smooth Stone fortifications.")),
@@ -536,7 +539,6 @@ public final class SkillBridge {
             applySecondWind(player);
             applyPainToleranceTraining(player);
             applyEnduringVitality(player);
-            applyDarkAdaptation(player);
             applyMovementSkills(player);
             trackLowProfileTraining(player);
             enforceBackpackAccess(player);
@@ -613,6 +615,43 @@ public final class SkillBridge {
             event.setCanceled(true);
             event.setUseBlock(net.minecraftforge.eventbus.api.Event.Result.DENY);
             player.displayClientMessage(Component.literal("Salvager is required to use the Recycler.").withStyle(net.minecraft.ChatFormatting.RED), true);
+        }
+
+        @SubscribeEvent
+        public static void onConsumeFireSwallowerTorch(PlayerInteractEvent.RightClickItem event) {
+            if (!(event.getEntity() instanceof ServerPlayer player)
+                || event.getHand() != InteractionHand.MAIN_HAND
+                || !player.isShiftKeyDown()
+                || event.getItemStack().getItem() != Items.TORCH
+                || !player.getTags().contains("7dtc_dark_adaptation")
+                || player.pick(5.0D, 1.0F, false).getType() != HitResult.Type.MISS) return;
+
+            // Only air use consumes a torch; sneak-clicking a block still places it.
+            event.setCanceled(true);
+            event.setCancellationResult(InteractionResult.SUCCESS);
+            var data = player.getPersistentData();
+            long now = player.level().getGameTime();
+            if (data.contains("7dtc_fire_swallower_last_use") && data.getLong("7dtc_fire_swallower_last_use") == now) return;
+            data.putLong("7dtc_fire_swallower_last_use", now);
+
+            int remaining = (int) Math.max(0L, Math.min(1200L, data.getLong("7dtc_fire_swallower_until") - now));
+            if (remaining > 1000) {
+                player.displayClientMessage(Component.literal("Fire Swallower is full (6 charges)."), true);
+                return;
+            }
+
+            if (!player.getAbilities().instabuild) event.getItemStack().shrink(1);
+            int duration = remaining + 200;
+            data.putLong("7dtc_fire_swallower_until", now + duration);
+            var existing = player.getEffect(MobEffects.NIGHT_VISION);
+            if (existing == null || existing.getDuration() < duration) {
+                player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, duration, 0, false, false, true));
+            }
+            award(player, new ResourceLocation("seven_days_to_craft", "training/dark_adaptation_enter"));
+            if (duration > 200) award(player, new ResourceLocation("seven_days_to_craft", "training/dark_adaptation_wait"));
+            if (duration > 1000) award(player, new ResourceLocation("seven_days_to_craft", "training/dark_adaptation_confirm"));
+            player.displayClientMessage(Component.literal("Fire Swallower: Night Vision "
+                + ((duration + 19) / 20) + "s (" + ((duration + 199) / 200) + "/6 charges)"), true);
         }
 
         @SubscribeEvent
@@ -1047,21 +1086,6 @@ public final class SkillBridge {
             data.putInt("7dtc_second_wind_heals_remaining", remaining);
             data.putLong("7dtc_second_wind_next_heal", now + 20L);
             if (remaining <= 0) award(player, new ResourceLocation("seven_days_to_craft", "training/second_wind_recover"));
-        }
-
-        private static void applyDarkAdaptation(ServerPlayer player) {
-            if (!player.getTags().contains("7dtc_dark_adaptation")) return;
-            var data = player.getPersistentData();
-            if (player.getLightLevelDependentMagicValue() >= 0.30F) {
-                data.remove("7dtc_dark_adaptation_ticks");
-                return;
-            }
-            int ticks = data.getInt("7dtc_dark_adaptation_ticks") + 1;
-            data.putInt("7dtc_dark_adaptation_ticks", ticks);
-            player.addEffect(new MobEffectInstance(MobEffects.NIGHT_VISION, 8, 0, false, false, false));
-            award(player, new ResourceLocation("seven_days_to_craft", "training/dark_adaptation_enter"));
-            if (ticks >= 40) award(player, new ResourceLocation("seven_days_to_craft", "training/dark_adaptation_wait"));
-            if (ticks >= 100) award(player, new ResourceLocation("seven_days_to_craft", "training/dark_adaptation_confirm"));
         }
 
         private static void applyEnduringVitality(ServerPlayer player) {

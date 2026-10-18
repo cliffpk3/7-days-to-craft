@@ -6,49 +6,49 @@
 	default_hide_dependency_lines: false
 	default_quest_shape: ""
 	hide_quest_until_deps_visible: true
-	icon: "minecraft:ender_eye"
+	icon: "minecraft:fire_charge"
 	quest_links: [ ]
 	quests: [
 		{
 			dependencies: ["7D7C360000000018"]
-			description: ["Enter a very dark area. Complete this step to continue Dark Adaptation Training."]
-			icon: "minecraft:ender_eye"
+			description: ["Sneak and right-click into the air with a torch in your main hand. This consumes one torch and grants 10 seconds of Night Vision."]
+			icon: "minecraft:fire_charge"
 			id: "3C082B7171099A1C"
 			tasks: [{
 				advancement: "seven_days_to_craft:training/dark_adaptation_enter"
 				criterion: "completed"
 				id: "7D7C350000001801"
-				title: "Enter a very dark area"
+				title: "Consume a torch"
 				type: "advancement"
 			}]
-			title: "Enter a very dark area"
+			title: "Consume a torch"
 			x: 0.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["3C082B7171099A1C"]
-			description: ["Wait for vision to adapt. Complete this step to continue Dark Adaptation Training."]
-			icon: "minecraft:ender_eye"
+			description: ["Consume another torch before the first charge expires to extend Night Vision."]
+			icon: "minecraft:fire_charge"
 			id: "7818C8C34989D2A9"
 			tasks: [{
 				advancement: "seven_days_to_craft:training/dark_adaptation_wait"
 				criterion: "completed"
 				id: "7D7C350000001802"
-				title: "Wait for vision to adapt"
+				title: "Stack a second charge"
 				type: "advancement"
 			}]
-			title: "Wait for vision to adapt"
+			title: "Stack a second charge"
 			x: 1.8d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7818C8C34989D2A9"]
 			description: [
-				"Enter a dark cave and observe the limited minimum visibility."
+				"Consume torches while the buff is active until six charges are stacked."
 				""
-				"The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."
+				"Each torch adds 10 seconds, up to 60 seconds. Complete this lesson once to claim its Level 4 Key."
 			]
-			icon: "minecraft:ender_eye"
+			icon: "minecraft:fire_charge"
 			id: "7D7C310000000018"
 			rewards: [{
 				id: "7D7C340000000018"
@@ -59,13 +59,13 @@
 				advancement: "seven_days_to_craft:training/dark_adaptation_confirm"
 				criterion: "completed"
 				id: "7D7C350000001803"
-				title: "Remain in darkness for five seconds"
+				title: "Stack six charges"
 				type: "advancement"
 			}]
-			title: "Dark Adaptation Training"
+			title: "Fire Swallower Training"
 			x: 3.6d
 			y: 0.0d
 		}
 	]
-	title: "Dark Adaptation"
+	title: "Fire Swallower"
 }

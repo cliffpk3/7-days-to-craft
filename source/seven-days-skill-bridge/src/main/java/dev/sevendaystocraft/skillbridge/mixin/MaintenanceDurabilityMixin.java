@@ -12,8 +12,7 @@ import org.spongepowered.asm.mixin.injection.callback.CallbackInfoReturnable;
 /** Applies Maintenance before vanilla's Unbreaking roll, preserving their independent chances. */
 @Mixin(ItemStack.class)
 public abstract class MaintenanceDurabilityMixin {
-    @Inject(method = "hurt(ILnet/minecraft/util/RandomSource;Lnet/minecraft/server/level/ServerPlayer;)Z",
-            at = @At("HEAD"), cancellable = true)
+    @Inject(method = "m_220157_", at = @At("HEAD"), cancellable = true, remap = false)
     private void sevenDays$preserveDurability(int amount, RandomSource random, ServerPlayer player,
                                               CallbackInfoReturnable<Boolean> result) {
         if (player == null || amount <= 0 || !((ItemStack) (Object) this).isDamageableItem()) return;

@@ -2585,7 +2585,7 @@
     "required_spent_points": 10
   },
   "scavenging_3_darkadaptation": {
-    "title": "Dark Adaptation",
+    "title": "Fire Swallower",
     "description": [
       {
         "text": "Requires 4 skill points",
@@ -2595,14 +2595,14 @@
         "text": "\n"
       },
       {
-        "text": "Raises minimum visibility in darkness to approximately 25% without granting full Night Vision. Planned Scavenging specialization.",
+        "text": "Sneak and right-click into the air with a torch in your main hand to consume it and gain 10 seconds of Night Vision. Stack up to 6 charges (60 seconds).",
         "color": "gray"
       }
     ],
     "icon": {
       "type": "item",
       "data": {
-        "item": "minecraft:ender_eye"
+        "item": "minecraft:fire_charge"
       }
     },
     "frame": {
