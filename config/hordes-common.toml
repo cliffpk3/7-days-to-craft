@@ -1,7 +1,7 @@
 
 [Misc]
 	#Whether zombies and drowned burn in sunlight.
-	zombiesBurn = true
+	zombiesBurn = false
 	#Whether skeletons and strays burn in sunlight.
 	skeletonsBurn = true
 	#Whether zombie villagers have vanilla curing mechanics or not
@@ -106,7 +106,7 @@
 	#Whether zombie players, drowned players and husk players should be immune to fire damage
 	zombiePlayersFireImmune = false
 	#Whether zombie players and drowned players burn in sunlight.
-	zombiePlayersBurn = true
+	zombiePlayersBurn = false
 	#Whether zombie players, drowned players and husk players are immune to all damage from non player sources.
 	zombiePlayersOnlyHurtByPlayers = false
 	#Whether zombie players, drowned players and husk players store items dropped by the player that spawned them.

@@ -4,6 +4,7 @@ import com.tacz.guns.api.event.common.GunFireEvent;
 import com.tacz.guns.api.item.IGun;
 import com.tacz.guns.api.item.attachment.AttachmentType;
 import net.minecraft.core.BlockPos;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.world.entity.LivingEntity;
@@ -54,7 +55,8 @@ public final class ZombieHearing {
 
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
-        builder.comment("7DTC zombie hearing; affects loaded zombies outside the horde.").push("hearing");
+        builder.comment("7DTC zombie hearing; affects loaded zombies outside the horde."
+            + " Stronger variants hear at half of the configured radii.").push("hearing");
         ENABLED = builder.define("enabled", true);
         GUNSHOT_RADIUS = builder.comment("Maximum distance for an unsuppressed gunshot, in blocks.")
             .defineInRange("gunshotRadius", 48, 0, 96);
@@ -159,6 +161,15 @@ public final class ZombieHearing {
         return path.contains("silenc") || path.contains("suppress");
     }
 
+    private static boolean hasFullHearingRange(Mob mob) {
+        ResourceLocation id = BuiltInRegistries.ENTITY_TYPE.getKey(mob.getType());
+        return id != null && switch (id.toString()) {
+            case "minecraft:zombie", "zombie_extreme:infected",
+                 "zombie_extreme:runner", "zombie_extreme:crawler" -> true;
+            default -> false;
+        };
+    }
+
     private static void alert(ServerLevel level, BlockPos sound, int radius, int maxResponders) {
         if (radius <= 0) return;
         double maxDistanceSq = (double) radius * radius;
@@ -167,7 +178,8 @@ public final class ZombieHearing {
             mob -> mob.isAlive() && CityAmbientEncounter.isCityZombie(mob)
                 && !mob.getTags().contains("7dtc_horde_spawn")
                 && !inCombat(mob) && mob.distanceToSqr(sound.getX() + 0.5,
-                    sound.getY() + 0.5, sound.getZ() + 0.5) <= maxDistanceSq);
+                    sound.getY() + 0.5, sound.getZ() + 0.5)
+                    <= (hasFullHearingRange(mob) ? maxDistanceSq : maxDistanceSq * 0.25D));
         nearby.sort(Comparator.comparingDouble(mob -> mob.distanceToSqr(sound.getX() + 0.5,
             sound.getY() + 0.5, sound.getZ() + 0.5)));
         int count = Math.min(maxResponders, nearby.size());
