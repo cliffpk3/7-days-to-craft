@@ -28,6 +28,7 @@ import java.util.HashMap;
 import java.util.ArrayList;
 import java.util.List;
 import java.util.Map;
+import java.util.UUID;
 
 /** Occasional distant militia-versus-infected encounters inside Lost Cities. */
 @Mod.EventBusSubscriber(modid = SevenDaysLocks.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
@@ -37,13 +38,16 @@ public final class CityAmbientEncounter {
     private static final int CHANCE_PERCENT = 30;
     private static final int MAX_EVENTS_PER_CITY_PLAYER = 2;
     private static final int CITY_COOLDOWN_TICKS = 3600;
+    private static final int ATTEMPT_INTERVAL_TICKS = 600;
     private static final Map<Long, Long> LAST_EVENT = new HashMap<>();
+    private static final Map<UUID, Long> LAST_ATTEMPT = new HashMap<>();
 
     private CityAmbientEncounter() {}
 
     @SubscribeEvent
     public static void onServerStarted(ServerStartedEvent event) {
         LAST_EVENT.clear();
+        LAST_ATTEMPT.clear();
     }
 
     @SubscribeEvent
@@ -68,8 +72,11 @@ public final class CityAmbientEncounter {
         long cityKey = city.getChunkPos().toLong();
         long now = level.getGameTime();
         if (now - LAST_EVENT.getOrDefault(cityKey, Long.MIN_VALUE / 2) < CITY_COOLDOWN_TICKS) return;
+        if (now - LAST_ATTEMPT.getOrDefault(player.getUUID(), Long.MIN_VALUE / 2)
+            < ATTEMPT_INTERVAL_TICKS) return;
         if (!level.getEntitiesOfClass(USunitEntity.class, player.getBoundingBox().inflate(96, 24, 96),
             unit -> unit.getTags().contains(AMBIENT_TAG)).isEmpty()) return;
+        LAST_ATTEMPT.put(player.getUUID(), now);
         if (spawnDistantFirefight(level, player)) {
             visits.markAmbientEvent(player.getUUID(), city.getChunkPos(), sector);
             LAST_EVENT.put(cityKey, now);
