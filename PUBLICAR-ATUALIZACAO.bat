@@ -18,6 +18,7 @@ git rev-parse --is-inside-work-tree >nul 2>nul || (
 powershell -NoProfile -ExecutionPolicy Bypass -File "tools\enforce-mob-policy.ps1" || goto :erro
 powershell -NoProfile -ExecutionPolicy Bypass -File "tools\split-large-mod.ps1" || goto :erro
 git add -A
+powershell -NoProfile -ExecutionPolicy Bypass -File "tools\check-publish-stage.ps1" || goto :erro
 
 git diff --cached --quiet && (
   echo Nenhuma mudanca do modpack para publicar.

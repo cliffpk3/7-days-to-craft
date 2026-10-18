@@ -1,5 +1,5 @@
 
-#7DTC zombie hearing; affects loaded zombies outside the horde. Stronger variants hear at half of the configured radii.
+#7DTC monster hearing; affects loaded hostile pathfinding mobs outside the horde. Higher threat tiers have shorter hearing radii.
 [hearing]
 	enabled = true
 	#Maximum distance for an unsuppressed gunshot, in blocks.
@@ -14,6 +14,7 @@
 	#Maximum distance for a dying zombie's cry, in blocks.
 	#Range: 0 ~ 48
 	zombieCryRadius = 14
-	#Maximum zombies responding to one sound.
+	#Maximum monsters responding to one sound.
 	#Range: 1 ~ 40
 	maxResponders = 16
+

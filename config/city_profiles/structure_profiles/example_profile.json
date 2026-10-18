@@ -1,0 +1,129 @@
+{
+  "name": "example_profile",
+  "author": "Berezka",
+  "version": 1.0,
+  "minecraft_version": 20.1,
+  "allow_plugins": true,
+  "description": "this profile is an example, duplicate it to modify variables (with new name)",
+  "cityStartName": "the_lost_city:start",
+  "allowed_buildings": [
+    "the_lost_city:base1",
+    "the_lost_city:base0",
+    "the_lost_city:police_station1",
+    "the_lost_city:parking_e_1",
+    "the_lost_city:base1",
+    "the_lost_city:base0",
+    "the_lost_city:base1",
+    "the_lost_city:base0",
+    "the_lost_city:greenhouse_r_2_0",
+    "the_lost_city:orange-yellow-house-a-2-0",
+    "the_lost_city:big_house_a_2_0",
+    "the_lost_city:brown-big-house-a-2-0",
+    "the_lost_city:park_street_a_0_1_v1",
+    "the_lost_city:playground_street_a_0_1_v1",
+    "the_lost_city:m_hryshevka",
+    "the_lost_city:gas_station",
+    "the_lost_city:m_workshop",
+    "the_lost_city:m_pizzeria",
+    "the_lost_city:m_pub",
+    "the_lost_city:m_police_station",
+    "the_lost_city:m_skyscraper",
+    "the_lost_city:t_big_house_0",
+    "the_lost_city:m_tc",
+    "the_lost_city:m_library",
+    "the_lost_city:d_city_house1_v1_d2",
+    "the_lost_city:d_city_cinema_v1_d2",
+    "the_lost_city:d_city_house2_v1_d1",
+    "the_lost_city:d_city_shop_v1_d2",
+    "the_lost_city:d_city_shop_v2_d2",
+    "the_lost_city:small-brick-house_by-agrek_d2",
+    "the_lost_city:brick_house28",
+    "the_lost_city:supermarket_lilguy",
+    "the_lost_city:police_station_ruined",
+    "the_lost_city:packed_houses_ruined",
+    "the_lost_city:red_hotel",
+    "the_lost_city:library_ruined_lilguy"
+  ],
+  "disable_default_buildings": true,
+  "spawnSpawners": true,
+  "allowed_road_parts": [
+    "the_lost_city:city_road0",
+    "the_lost_city:city_road0",
+    "the_lost_city:city_road0",
+    "the_lost_city:city_road0",
+    "the_lost_city:city_road0",
+    "the_lost_city:city_road0",
+    "the_lost_city:city_road1",
+    "the_lost_city:city_road2",
+    "the_lost_city:city_road3",
+    "the_lost_city:city_road4",
+    "the_lost_city:city_road5",
+    "the_lost_city:city_road6"
+  ],
+  "disable_default_roads": true,
+  "small_cars": [
+    "the_lost_city:car",
+    "the_lost_city:car2",
+    "the_lost_city:car3",
+    "the_lost_city:car4",
+    "the_lost_city:car5",
+    "the_lost_city:suv_white",
+    "the_lost_city:suv_orange",
+    "the_lost_city:suv_red",
+    "the_lost_city:suv_yellow",
+    "the_lost_city:suv_green",
+    "the_lost_city:suv_black",
+    "the_lost_city:car_black",
+    "the_lost_city:car_yellow",
+    "the_lost_city:car_red",
+    "the_lost_city:car_green",
+    "the_lost_city:truck_empty_green"
+  ],
+  "big_cars": [
+    "the_lost_city:fire_engine",
+    "the_lost_city:bus_ruined_blue",
+    "the_lost_city:truck_full_green"
+  ],
+  "disable_default_cars": true,
+  "under_parts": [
+    "the_lost_city:under1",
+    "the_lost_city:under2"
+  ],
+  "under_parts2": [
+    "the_lost_city:under_3"
+  ],
+  "under_parts3": [
+    "the_lost_city:under_4"
+  ],
+  "under_start_parts": [
+    "the_lost_city:under_start"
+  ],
+  "broken_under_parts": [
+    "the_lost_city:brocken_under1"
+  ],
+  "disable_default_under_parts": true,
+  "disable_default_villagers_city_tiles": false,
+  "skyscraper_parts": [
+    "the_lost_city:skyscraper_standalone",
+    "the_lost_city:skyscraper_standalone2",
+    "the_lost_city:skyscraper_standalone3",
+    "the_lost_city:skyscraper_standalone4"
+  ],
+  "disable_default_skyscraper_parts": true,
+  "factory_parts": [
+    "the_lost_city:factory_overrun"
+  ],
+  "disable_default_factory_parts": true,
+  "survivorscamp_parts": [
+    "the_lost_city:survivor_camp"
+  ],
+  "disable_default_survivorscamp_parts": true,
+  "lighthouse_parts": [
+    "the_lost_city:lighthouse0"
+  ],
+  "disable_default_lighthouse_parts": true,
+  "tower_parts": [
+    "the_lost_city:tower0"
+  ],
+  "disable_default_tower_parts": true
+}

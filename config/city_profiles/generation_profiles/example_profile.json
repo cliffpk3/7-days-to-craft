@@ -1,0 +1,84 @@
+{
+  "name": "example_profile",
+  "author": "user",
+  "version": 1.0,
+  "description": "this profile is an example, duplicate it to modify variables (with new name)",
+  "city_spacing": 34,
+  "city_separation": 8,
+  "city_size": 15,
+  "city_max_distance_from_center": 116,
+  "city_step": "surface_structures",
+  "city_terrain_adaptation": "beard_box",
+  "city_project_start_to_heightmap": "WORLD_SURFACE_WG",
+  "city_start_height": "\"absolute\": 0\n",
+  "city_placement_type": "minecraft:random_spread",
+  "city_projection": "terrain_matching",
+  "city_biomes": [
+    "plains",
+    "taiga",
+    "plains",
+    "snowy_plains",
+    "sunflower_plains",
+    "snowy_taiga"
+  ],
+  "city_use_expansion_hack": false,
+  "city_spawn_cars": true,
+  "spawn_villagers_city": true,
+  "villagers_city_spacing": 34,
+  "villagers_city_separation": 16,
+  "villagers_city_biomes": [
+    "taiga",
+    "plains",
+    "snowy_plains",
+    "sunflower_plains",
+    "snowy_taiga"
+  ],
+  "spawn_skyscraper": true,
+  "skyscraper_spacing": 24,
+  "skyscraper_separation": 12,
+  "skyscraper_biomes": [
+    "taiga",
+    "plains",
+    "snowy_plains",
+    "sunflower_plains",
+    "snowy_taiga"
+  ],
+  "spawn_factory": true,
+  "factory_spacing": 32,
+  "factory_separation": 8,
+  "factory_biomes": [
+    "taiga",
+    "plains",
+    "snowy_plains",
+    "sunflower_plains",
+    "snowy_taiga",
+    "forest",
+    "birch_forest"
+  ],
+  "spawn_survivorscamp": true,
+  "survivorscamp_spacing": 32,
+  "survivorscamp_separation": 8,
+  "survivorscamp_biomes": [
+    "plains",
+    "forest",
+    "taiga"
+  ],
+  "spawn_lighthouse": true,
+  "lighthouse_spacing": 32,
+  "lighthouse_separation": 8,
+  "lighthouse_biomes": [
+    "ocean",
+    "deep_ocean",
+    "warm_ocean"
+  ],
+  "spawn_tower": true,
+  "tower_spacing": 32,
+  "tower_separation": 8,
+  "tower_biomes": [
+    "plains",
+    "forest",
+    "taiga",
+    "windswept_hills"
+  ],
+  "disable_small_structures": false
+}

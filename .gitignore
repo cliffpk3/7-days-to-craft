@@ -9,6 +9,8 @@
 /schematics/
 /server-resource-packs/
 /modpack-backups/
+/backups/
+/staging/
 /local/
 /moonlight-global-datapacks/
 
@@ -42,6 +44,8 @@
 Thumbs.db
 desktop.ini
 .idea/
+**/__pycache__/
+/source/**/build/
 
 # Git mantem as configuracoes do modpack em config/, defaultconfigs/, kubejs/ e tacz/.
 
