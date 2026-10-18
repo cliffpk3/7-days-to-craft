@@ -36,11 +36,11 @@ Cada etapa abaixo e independente, com versao/milestone, teste e rollback. A etap
 | 4 | Grapplers da horda via gancho do EnhancedAI — instalada, falta teste no jogo | medio | Nao prende player em blocos, nao substitui toda a composicao da horda |
 | 5 | Visao de animais no Advanced Compass em 20/30/40 blocos | medio | Icones so com a skill e apenas dentro de cada alcance |
 | 6 | Threat Sense no Advanced Compass em 10/20/30 blocos | medio | Sem revelar mobs por paredes, abaixo da terra ou fora do raio conforme regra acordada |
-| 7 | Durabilidade maior para armas e equipamentos via skill | medio | Desgaste e reparo coerentes com encantamentos e itens de mods |
+| 7 | Tornar Maintenance funcional (quatro nós já existentes, 5% cada) | medio | Desgaste e reparo coerentes com Unbreaking, Mending e itens de mods |
 | 8 | Revisar/remover vilarejos e recursos excessivos | medio/alto | Valor por vilarejo proporcional ao risco, sem afetar cidades abandonadas |
 | 9 | Sorte de drops +30/60/90% relativos e interacao com Key Hunter | alto | Auditoria de todas as tabelas, chaves, elites, blueprints e limite de 100% |
 | 10 | Filtrar monstros para zumbis/derivados/humanos armados | alto | Revisao de cavernas, superficie, horda, quests, loot e bosses antes de remover mods |
-| 11 | Fragmentos de mapa dos mobs locais e compartilhamento entre jogadores | alto | Descoberta progressiva, sincronizacao e protecao contra exploracao por farm |
+| 11 | Fragmentos de mapa dos mobs locais e compartilhamento entre jogadores — **standby** ate identificar o item observado | alto | Descoberta progressiva, sincronizacao e protecao contra exploracao por farm |
 | 12 | Quebra lenta de blocos por todos os monstros; picareta acelera | muito alto | Regras de protecao de base, griefing, performance e estrategia de horda |
 | 13 | Core individual, foco da horda, eliminacao/revivificacao e derrota coletiva | muito alto | Prototipo separado com persistencia, multiplayer, desconexao, recuperacao e upgrades |
 

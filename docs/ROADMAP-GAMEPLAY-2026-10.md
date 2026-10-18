@@ -4,11 +4,20 @@
 
 O nó inicial de Scavenging passa a Forager. Os quatro nós posteriores de Field Dressing passam a Animal Sense (9/18/27/33 blocos no Advanced Compass). Ranger mantém quatro nós Arrow Retrieval (9/18/27/35%) e sua milestone superior passa a recuperar flechas cravadas no monstro na morte (30%). A trilha inferior de combate tem Threat Sense I (10 blocos) e II (30 blocos). Esta revisão foi compilada, mas ainda precisa de validação no jogo.
 
-O nó antigo Cartography/Minimap passa a Ore Sense II. Ore Sense I ilumina minérios num raio de 20 blocos; o nível II remove o limite para minérios carregados. Xaero Minimap será retirado na instalação do pacote, com backup do JAR. O Atlas continua disponível sem a antiga trava de Cartography. Os tooltips das habilidades pagas mostram o custo real em amarelo.
+O nó antigo Cartography/Minimap passa a Ore Sense II. Ore Sense I ilumina minérios num raio de 20 blocos; o nível II remove o limite para minérios carregados. Xaero Minimap foi retirado, com backup do JAR. O Atlas continua disponível sem a antiga trava de Cartography. Os tooltips das habilidades pagas mostram o custo real em amarelo.
 
 A audição de disparos e gritos foi estendida a monstros hostis com navegação. O alcance cai conforme a ameaça: tiers 1/2/3/4 usam 100/75/50/35% do raio. Um auditador gera sugestões para mobs novos sem substituir ajustes manuais. O Zombie Bruiser da horda e das cavernas regenera 1 ponto de vida a cada 3 segundos após 10 segundos sem sofrer dano.
 
 Detalhes de instalação e teste: `docs/MILESTONE-SENSE-HEARING-BRUISER-2026-10-18.md`.
+
+## Fila curta após a instalação de 18/10/2026
+
+1. **Validar a instalação recente em jogo:** inicialização, Ore Sense I/II, Animal Sense, Threat Sense, Embedded Arrows, audição dos monstros e regeneração do Bruiser. Registrar defeitos observados antes de novos ajustes nessas mecânicas.
+2. **Próxima milestone: Maintenance funcional.** A árvore já contém quatro nós de 5% (máximo 20%), mas a busca no código encontrou somente a tag `7dtc_maintenance` e o aviso de desbloqueio. Implementar a preservação de durabilidade e testar ferramentas, armas, armaduras, Unbreaking, Mending, reparos e itens de mods. Manter os percentuais atuais até medir o efeito real.
+3. **Depois: Sorte e Key Hunter.** Auditar todas as rolagens de loot antes de escolher se a sorte relativa de +30/60/90% convive com Key Hunter, substitui parte dele ou exclui chaves e blueprints.
+4. **Em seguida: monstros e mundo.** Avaliar separadamente o filtro de criaturas para o tema zumbi, a quebra lenta de blocos e o Core. Cada etapa terá versão, backup e teste próprio.
+
+**Em standby:** mapas regionais dropados por monstros e compartilhamento cartográfico. O item observado pelo jogador ainda não foi identificado; Map Atlases atualmente oferece mapas gratuitos e expansão sem peças. Retomar quando houver o item/ID ou uma regra concreta de geração regional, antes de alterar drops, receitas ou o Atlas.
 
 ## Atualização executada em 12/10/2026
 
