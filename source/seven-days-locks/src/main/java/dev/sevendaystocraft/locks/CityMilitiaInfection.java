@@ -38,6 +38,7 @@ public final class CityMilitiaInfection {
         unit.setSilent(true);
         level.playSound(null, unit.blockPosition(), SevenDaysLocks.MILITIA_INFECTED_DEATH.get(),
             SoundSource.HOSTILE, 1.25F, 1.0F);
+        ZombieHearing.onMilitiaScream(level, unit.blockPosition());
 
         if (unit.hasEffect(HordesInfection.INFECTED.get())
             || CityRaid.cityStart(level, unit.blockPosition()) == null

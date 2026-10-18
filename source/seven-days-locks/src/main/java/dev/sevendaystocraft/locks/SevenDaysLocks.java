@@ -147,6 +147,7 @@ public final class SevenDaysLocks {
         SOUNDS.register(FMLJavaModLoadingContext.get().getModEventBus());
         FEATURES.register(FMLJavaModLoadingContext.get().getModEventBus());
         LOOT_MODIFIERS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        ZombieHearing.registerConfig();
         ThreatSense.init();
         CompassIntegration.init();
         HordeCountdown.init();

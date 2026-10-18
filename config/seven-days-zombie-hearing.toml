@@ -1,0 +1,18 @@
+# Zombie sound investigation. Changes take effect on the next game or server start.
+[hearing]
+    enabled = true
+    # Maximum distance for an unsuppressed TaCZ or CGM gunshot, in blocks.
+    #Range: 0 ~ 96
+    gunshotRadius = 48
+    # Maximum distance for a TaCZ gun with a silencer, in blocks.
+    #Range: 0 ~ 96
+    silencedRadius = 16
+    # Maximum distance for a militia death scream, in blocks.
+    #Range: 0 ~ 96
+    screamRadius = 24
+    # Maximum distance for a dying zombie's cry, in blocks.
+    #Range: 0 ~ 48
+    zombieCryRadius = 14
+    # Maximum zombies responding to one gunshot; screams and cries use smaller fractions.
+    #Range: 1 ~ 40
+    maxResponders = 16
