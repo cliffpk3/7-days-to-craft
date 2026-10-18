@@ -1,0 +1,14 @@
+{
+  "militia_infected_death": {
+    "subtitle": "subtitles.seven_days_locks.militia_infected_death",
+    "sounds": [
+      "seven_days_locks:militia_infected_death_01",
+      "seven_days_locks:militia_infected_death_02",
+      "seven_days_locks:militia_infected_death_03",
+      "seven_days_locks:militia_infected_death_04",
+      "seven_days_locks:militia_infected_death_05",
+      "seven_days_locks:militia_infected_death_06",
+      "seven_days_locks:militia_infected_death_07"
+    ]
+  }
+}

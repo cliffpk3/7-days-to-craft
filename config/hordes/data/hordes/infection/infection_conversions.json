@@ -5,6 +5,11 @@
 		"protection": 0.15
 	},
 	{
+		"entity": "simpleenemymod:usunit",
+		"converts_to": "minecraft:zombie",
+		"protection": 0.0
+	},
+	{
 		"entity": "minecraft:horse",
 		"converts_to": "minecraft:zombie_horse",
 		"protection": 0.35

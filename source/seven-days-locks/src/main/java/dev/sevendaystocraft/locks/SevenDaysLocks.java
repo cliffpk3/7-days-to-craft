@@ -10,6 +10,7 @@ import net.minecraft.network.chat.Component;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
+import net.minecraft.sounds.SoundEvent;
 import net.minecraft.tags.TagKey;
 import net.minecraft.world.InteractionHand;
 import net.minecraft.world.entity.Entity;
@@ -64,6 +65,9 @@ import java.util.Map;
 public final class SevenDaysLocks {
     public static final String MOD_ID = "seven_days_locks";
     public static final DeferredRegister<Item> ITEMS = DeferredRegister.create(ForgeRegistries.ITEMS, MOD_ID);
+    public static final DeferredRegister<SoundEvent> SOUNDS = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, MOD_ID);
+    public static final RegistryObject<SoundEvent> MILITIA_INFECTED_DEATH = SOUNDS.register(
+        "militia_infected_death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation(MOD_ID, "militia_infected_death")));
     public static final DeferredRegister<Feature<?>> FEATURES = DeferredRegister.create(ForgeRegistries.FEATURES, MOD_ID);
     public static final RegistryObject<Feature<?>> DISTANCE_SCALED_ORE = FEATURES.register(
         "distance_scaled_ore", () -> new DistanceScaledOreFeature(OreConfiguration.CODEC));
@@ -140,6 +144,7 @@ public final class SevenDaysLocks {
 
     public SevenDaysLocks() {
         ITEMS.register(FMLJavaModLoadingContext.get().getModEventBus());
+        SOUNDS.register(FMLJavaModLoadingContext.get().getModEventBus());
         FEATURES.register(FMLJavaModLoadingContext.get().getModEventBus());
         LOOT_MODIFIERS.register(FMLJavaModLoadingContext.get().getModEventBus());
         ThreatSense.init();

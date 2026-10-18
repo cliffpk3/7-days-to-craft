@@ -81,5 +81,6 @@
   "item.seven_days_locks.blueprint_tacz_hk416d": "Blueprint: HK416D",
   "item.seven_days_locks.blueprint_tacz_rpk": "Blueprint: RPK",
   "item.seven_days_locks.blueprint_tacz_m107": "Blueprint: M107",
-  "tooltip.seven_days_locks.tacz_ammo": "Uses CGM ammo: %s"
+  "tooltip.seven_days_locks.tacz_ammo": "Uses CGM ammo: %s",
+  "subtitles.seven_days_locks.militia_infected_death": "Militiaman screams"
 }
