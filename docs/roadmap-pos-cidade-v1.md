@@ -39,7 +39,7 @@ Cada etapa abaixo e independente, com versao/milestone, teste e rollback. A etap
 | 7 | Tornar Maintenance funcional (quatro nós já existentes, 5% cada) | medio | Desgaste e reparo coerentes com Unbreaking, Mending e itens de mods |
 | 8 | Revisar/remover vilarejos e recursos excessivos | medio/alto | Valor por vilarejo proporcional ao risco, sem afetar cidades abandonadas |
 | 9 | Sorte de drops +30/60/90% relativos e interacao com Key Hunter | alto | Auditoria de todas as tabelas, chaves, elites, blueprints e limite de 100% |
-| 10 | Filtrar monstros para zumbis/derivados/humanos armados | alto | Revisao de cavernas, superficie, horda, quests, loot e bosses antes de remover mods |
+| 10 | **Standby:** substituir nas cavernas esqueletos, demonios e outros monstros misticos nao zumbis por variantes zumbis dos mods instalados | alto | Inventario de spawns por profundidade, matriz de substituicoes, variedade, loot, quests, estruturas, elites e desempenho; avaliar antes de alterar configuracoes |
 | 11 | Fragmentos de mapa dos mobs locais e compartilhamento entre jogadores — **standby** ate identificar o item observado | alto | Descoberta progressiva, sincronizacao e protecao contra exploracao por farm |
 | 12 | Todos os zumbis quebram blocos lentamente conforme a resistencia; zumbis com picareta quebram em velocidade normal para ferramenta/material | muito alto | Tempo por material, blocos protegidos/reforcados, limite de tentativas simultaneas, TPS em hordas/cidades e estrategia de base |
 | 13 | Core individual, foco da horda, eliminacao/revivificacao e derrota coletiva | muito alto | Prototipo separado com persistencia, multiplayer, desconexao, recuperacao e upgrades |

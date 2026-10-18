@@ -26,7 +26,9 @@ Detalhes de instalação e teste: `docs/MILESTONE-SENSE-HEARING-BRUISER-2026-10-
 - Antes da implementação, definir alcance, escolha do bloco, cooperação entre zumbis, persistência do progresso e regras para blocos protegidos/reforçados. Medir TPS e quantidade de tentativas simultâneas em uma horda e em cidades.
 - Validar em cópia do mundo com madeira, pedra, minério, obsidiana e blocos reforçados; incluir zumbis comuns e com picareta. A aprovação dos valores e exceções fica para a etapa de design.
 
-**Em standby:** mapas regionais dropados por monstros e compartilhamento cartográfico. O item observado pelo jogador ainda não foi identificado; Map Atlases atualmente oferece mapas gratuitos e expansão sem peças. Retomar quando houver o item/ID ou uma regra concreta de geração regional, antes de alterar drops, receitas ou o Atlas.
+**Em standby — ecossistema das cavernas:** substituir monstros místicos que não são zumbis, inclusive esqueletos e demônios, por variantes zumbis dos mods já instalados. Levantar todos os spawns por bioma/profundidade, classificar força e função dos substitutos e revisar loot, quests, estruturas, elites e desempenho. Preservar variedade e progressão de perigo. Apresentar a matriz de substituições para avaliação antes de alterar as configurações ou remover mods; o escopo inicial é apenas cavernas.
+
+**Em standby — mapas:** mapas regionais dropados por monstros e compartilhamento cartográfico. O item observado pelo jogador ainda não foi identificado; Map Atlases atualmente oferece mapas gratuitos e expansão sem peças. Retomar quando houver o item/ID ou uma regra concreta de geração regional, antes de alterar drops, receitas ou o Atlas.
 
 ## Atualização executada em 12/10/2026
 

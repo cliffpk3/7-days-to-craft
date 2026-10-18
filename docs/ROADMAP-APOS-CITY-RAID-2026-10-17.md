@@ -19,7 +19,7 @@ Estas propostas foram registradas para análise depois da instalação dos mods 
 ## Monstros e mundo
 
 - Avaliar quebra de blocos por todos os zumbis: muito lenta e proporcional à resistência do bloco; zumbis equipados com picareta quebram em velocidade normal para a ferramenta e o material. Definir blocos protegidos, interação com reforço, limites de tentativas simultâneas e impacto no TPS antes de implementar.
-- Avaliar substituição gradual de monstros místicos por zumbis variados e humanos armados, preservando diversidade de encontros e progressão por região.
+- **Standby:** planejar a substituição de esqueletos, demônios e outros monstros místicos não zumbis das cavernas por variantes zumbis dos mods instalados. Inventariar spawns e impactos em loot, quests, estruturas e elites; apresentar a matriz por profundidade antes de alterar o jogo.
 - Auditar vilarejos e suas fontes de recursos antes de decidir entre remover o mod ou reduzir loot, armaduras e estruturas.
 
 ## Exploração e mapa
