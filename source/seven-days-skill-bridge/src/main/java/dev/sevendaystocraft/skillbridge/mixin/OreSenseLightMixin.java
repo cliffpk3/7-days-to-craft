@@ -1,6 +1,5 @@
 package dev.sevendaystocraft.skillbridge.mixin;
 
-import dev.sevendaystocraft.skillbridge.OreSenseOverlay;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.tags.TagKey;
 import net.minecraft.core.registries.Registries;
@@ -22,7 +21,9 @@ public abstract class OreSenseLightMixin {
     @Inject(method = "m_60791_", at = @At("HEAD"), cancellable = true, remap = false)
     private void sevenDays$gateOreLight(CallbackInfoReturnable<Integer> cir) {
         if (m_60734_().builtInRegistryHolder().is(ORES)) {
-            cir.setReturnValue(OreSenseOverlay.isUnlocked() ? OreSenseOverlay.LIGHT_LEVEL : 0);
+            // This getter has no block position. Keep ore emission at zero here;
+            // BlockLightEngine uses the position-aware OreSenseOverlay instead.
+            cir.setReturnValue(0);
         }
     }
 }
