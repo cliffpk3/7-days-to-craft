@@ -13,9 +13,9 @@
 
 ## Estado e instalação
 
-Os JARs compilados estão em `staging/sense-hearing-bruiser-v1-20261018/`. Os JARs anteriores, Xaero Minimap e os JSONs anteriores da árvore estão em `backups/sense-hearing-bruiser-v1-20261018/`. O Minecraft estava aberto durante a preparação; os JARs compilados **não foram instalados** nem o Xaero foi retirado. Os JSONs da árvore e quests foram editados no perfil, mas só devem ser carregados junto com os JARs novos em um próximo início do jogo.
+Os JARs compilados estão em `staging/sense-hearing-bruiser-v1-20261018/`. Os JARs anteriores, Xaero Minimap e os JSONs anteriores da árvore estão em `backups/sense-hearing-bruiser-v1-20261018/`. Depois que o Minecraft foi fechado, os dois JARs foram instalados e verificados por SHA-256; o Xaero Minimap foi movido para o backup com extensão `.disabled`. Os JSONs da árvore e quests já estão no perfil. As mudanças passam a valer no próximo início do jogo.
 
-Quando o jogo fechar, copiar os dois JARs staged para `mods/` e mover `mods/xaerominimap-forge-1.20.1-25.3.10.jar` para fora da pasta `mods/`, mantendo o backup. Um `/reload` isolado não ativa as mudanças nos JARs.
+Um `/reload` isolado não ativa as mudanças nos JARs. Ainda falta validar o carregamento e o comportamento dentro do jogo.
 
 ## Teste dentro do jogo
 
