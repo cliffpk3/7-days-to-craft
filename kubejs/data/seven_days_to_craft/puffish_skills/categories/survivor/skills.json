@@ -408,7 +408,7 @@
   "mobility_1_slot02": {
     "x": 128,
     "y": -148,
-    "definition": "mobility_1_stronglegs"
+    "definition": "mobility_1_efficientmetabolism"
   },
   "engineering_2_slot01": {
     "x": -96,
@@ -428,7 +428,7 @@
   "mobility_1_slot03": {
     "x": 128,
     "y": -185,
-    "definition": "mobility_1_stronglegs"
+    "definition": "mobility_1_efficientmetabolism"
   },
   "engineering_1_slot05": {
     "x": -128,
@@ -438,7 +438,7 @@
   "mobility_1_slot04": {
     "x": 128,
     "y": -222,
-    "definition": "mobility_1_stronglegs"
+    "definition": "mobility_1_efficientmetabolism"
   },
   "engineering_1_slot06": {
     "x": 32,
@@ -448,7 +448,7 @@
   "mobility_1_slot05": {
     "x": -32,
     "y": -241,
-    "definition": "mobility_1_softlanding"
+    "definition": "mobility_1_stronglegs"
   },
   "engineering_1_slot07": {
     "x": -32,
@@ -458,7 +458,7 @@
   "mobility_1_slot06": {
     "x": 32,
     "y": -241,
-    "definition": "mobility_1_efficientmetabolism"
+    "definition": "mobility_1_softlanding"
   },
   "engineering_1_slot08": {
     "x": -32,
@@ -473,7 +473,7 @@
   "mobility_1_slot08": {
     "x": 32,
     "y": -315,
-    "definition": "mobility_1_efficientmetabolism"
+    "definition": "mobility_1_softlanding"
   },
   "engineering_1_slot10": {
     "x": 32,
@@ -503,7 +503,7 @@
   "mobility_1_slot11": {
     "x": -32,
     "y": -204,
-    "definition": "mobility_1_softlanding"
+    "definition": "mobility_1_stronglegs"
   },
   "engineering_1_slot13": {
     "x": -32,
@@ -528,7 +528,7 @@
   "mobility_2_slot02": {
     "x": -96,
     "y": -130,
-    "definition": "mobility_2_lowprofile"
+    "definition": "mobility_2_evasiverush"
   },
   "engineering_1_slot15": {
     "x": 64,
@@ -568,7 +568,7 @@
   "mobility_1_slot16": {
     "x": -128,
     "y": -185,
-    "definition": "mobility_1_efficientmetabolism"
+    "definition": "mobility_1_silentstep"
   },
   "engineering_1_slot18": {
     "x": 64,
@@ -608,7 +608,7 @@
   "mobility_1_slot20": {
     "x": -128,
     "y": -259,
-    "definition": "mobility_1_efficientmetabolism"
+    "definition": "mobility_1_silentstep"
   },
   "engineering_2_slot05": {
     "x": 96,
@@ -618,7 +618,7 @@
   "mobility_2_slot04": {
     "x": -96,
     "y": -278,
-    "definition": "mobility_2_evasiverush"
+    "definition": "mobility_2_reservejump"
   },
   "engineering_1_slot22": {
     "x": -64,
@@ -628,7 +628,7 @@
   "mobility_1_slot21": {
     "x": 64,
     "y": -148,
-    "definition": "mobility_1_softlanding"
+    "definition": "mobility_1_urbanrunner"
   },
   "engineering_1_slot27": {
     "x": -128,
@@ -638,7 +638,7 @@
   "mobility_1_slot26": {
     "x": 128,
     "y": -259,
-    "definition": "mobility_1_stronglegs"
+    "definition": "mobility_1_efficientmetabolism"
   },
   "engineering_1_slot23": {
     "x": -64,
@@ -653,7 +653,7 @@
   "mobility_1_slot23": {
     "x": 64,
     "y": -222,
-    "definition": "mobility_1_softlanding"
+    "definition": "mobility_1_urbanrunner"
   },
   "engineering_1_slot25": {
     "x": -64,
@@ -663,7 +663,7 @@
   "mobility_1_slot24": {
     "x": 64,
     "y": -185,
-    "definition": "mobility_1_softlanding"
+    "definition": "mobility_1_urbanrunner"
   },
   "engineering_3_slot01": {
     "x": 0,
@@ -708,12 +708,12 @@
   "mobility_2_slot05": {
     "x": 96,
     "y": -278,
-    "definition": "mobility_2_reservejump"
+    "definition": "mobility_2_lowprofile"
   },
   "mobility_1_slot27": {
     "x": 32,
     "y": -96,
-    "definition": "mobility_1_softlanding"
+    "definition": "mobility_1_efficientmetabolism"
   },
   "scavenging_1_slot26": {
     "x": -258,
@@ -724,5 +724,25 @@
     "x": -277,
     "y": -96,
     "definition": "scavenging_2_oresense2"
+  },
+  "mobility_1_slot25": {
+    "x": -32,
+    "y": -96,
+    "definition": "mobility_1_urbanrunner"
+  },
+  "mobility_1_slot07": {
+    "x": 32,
+    "y": -278,
+    "definition": "mobility_1_softlanding"
+  },
+  "mobility_1_slot12": {
+    "x": 32,
+    "y": -204,
+    "definition": "mobility_1_softlanding"
+  },
+  "mobility_1_slot22": {
+    "x": 64,
+    "y": -259,
+    "definition": "mobility_1_urbanrunner"
   }
 }

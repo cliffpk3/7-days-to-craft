@@ -84,6 +84,14 @@
       [
         "mobility_1_slot08",
         "mobility_1_slot09"
+      ],
+      [
+        "mobility_1_slot26",
+        "mobility_1_slot22"
+      ],
+      [
+        "mobility_1_slot12",
+        "mobility_1_slot11"
       ]
     ]
   },
@@ -627,18 +635,34 @@
       ],
       [
         "mobility_root",
-        "mobility_2_slot02"
+        "mobility_1_slot25"
       ],
       [
         "mobility_1_slot08",
-        "mobility_1_slot06"
+        "mobility_1_slot07"
       ],
       [
         "mobility_1_slot06",
-        "mobility_2_slot01"
+        "mobility_1_slot12"
       ],
       [
         "mobility_2_slot05",
+        "mobility_1_slot22"
+      ],
+      [
+        "mobility_1_slot25",
+        "mobility_2_slot02"
+      ],
+      [
+        "mobility_1_slot07",
+        "mobility_1_slot06"
+      ],
+      [
+        "mobility_1_slot12",
+        "mobility_2_slot01"
+      ],
+      [
+        "mobility_1_slot22",
         "mobility_1_slot23"
       ]
     ],

@@ -195,7 +195,7 @@ public final class SkillBridge {
             new Milestone("7dtc_low_profile","low_profile",0x7D7C31000000001FL),new Milestone("7dtc_double_jump","double_jump",0x7D7C310000000020L),new Milestone("7dtc_beast_rider","beast_rider",0x7D7C310000000021L),new Milestone("7dtc_threat_sense","threat_sense",0x7D7C310000000023L),new Milestone("7dtc_ranger","ranger",0x7D7C310000000024L),new Milestone("7dtc_evasive_rush","evasive_rush",0x7D7C310000000025L),new Milestone("7dtc_extended_reach","extended_reach",0x7D7C310000000026L));
         private static final Map<String,String> FINAL_SKILLS=Map.ofEntries(Map.entry("mobility_3_slot01","mobility:emergency_mobility"),Map.entry("mobility_3_slot02","mobility:breakfall_reflex"),Map.entry("mobility_3_slot03","mobility:ender_traversal"),Map.entry("combat_3_slot01","combat:enduring_vitality"),Map.entry("combat_3_slot02","combat:pain_tolerance"),Map.entry("combat_3_slot03","combat:second_wind"),Map.entry("scavenging_3_slot01","scavenging:key_conservation"),Map.entry("scavenging_3_slot02","scavenging:dark_adaptation"),Map.entry("scavenging_3_slot03","scavenging:master_salvager"),Map.entry("engineering_3_slot01","engineering:create_automation"),Map.entry("engineering_3_slot02","engineering:fortress_construction"),Map.entry("engineering_3_slot03","engineering:automated_defense"));
         private static final Map<String,String> PATH_STARTS=Map.ofEntries(
-            Map.entry("mobility_2_slot02","mobility"),Map.entry("mobility_1_slot01","mobility"),Map.entry("mobility_1_slot27","mobility"),
+            Map.entry("mobility_1_slot25","mobility"),Map.entry("mobility_1_slot01","mobility"),Map.entry("mobility_1_slot27","mobility"),
             Map.entry("combat_1_slot01","combat"),Map.entry("combat_1_slot02","combat"),Map.entry("combat_1_slot26","combat"),
             Map.entry("scavenging_1_slot01","scavenging"),Map.entry("scavenging_1_slot02","scavenging"),Map.entry("scavenging_1_slot24","scavenging"),
             Map.entry("engineering_1_slot02","engineering"),Map.entry("engineering_1_slot26","engineering"),Map.entry("engineering_1_slot01","engineering"));
@@ -398,6 +398,13 @@ public final class SkillBridge {
         @SubscribeEvent
         public static void onPlayerHurt(LivingHurtEvent event) {
             if (!(event.getEntity() instanceof Player player) || player.level().isClientSide()) return;
+            if (event.getSource().is(DamageTypes.FALL) && player instanceof ServerPlayer serverPlayer) {
+                int softLandingRank = getBasicSkillRank(serverPlayer, "softlanding", 5);
+                if (softLandingRank > 0 && player.getRandom().nextFloat() < 0.06F * softLandingRank) {
+                    event.setCanceled(true);
+                    return;
+                }
+            }
             if (event.getSource().is(DamageTypes.FALL) && player.getTags().contains("7dtc_breakfall_reflex")) {
                 long now = player.level().getGameTime();
                 var data = player.getPersistentData();
@@ -917,7 +924,7 @@ public final class SkillBridge {
         private static void applyEfficientMetabolism(ServerPlayer player) {
             var data = player.getPersistentData();
             float current = player.getFoodData().getExhaustionLevel();
-            int rank = getBasicSkillRank(player, "efficientmetabolism", 4);
+            int rank = getBasicSkillRank(player, "efficientmetabolism", 5);
             if (rank <= 0) {
                 data.putFloat("7dtc_previous_exhaustion", current);
                 return;
@@ -997,14 +1004,17 @@ public final class SkillBridge {
             var speed = player.getAttribute(Attributes.MOVEMENT_SPEED);
             if (speed == null) return;
 
-            boolean silentStep = player.getTags().contains("7dtc_silent_step") && player.isCrouching();
-            boolean hasSilentStep = speed.getModifier(SILENT_STEP_SPEED_ID) != null;
-            if (silentStep && !hasSilentStep) {
+            int silentStepRank = getBasicSkillRank(player, "silentstep", 4);
+            boolean silentStep = silentStepRank > 0 && player.isCrouching();
+            var silentStepModifier = speed.getModifier(SILENT_STEP_SPEED_ID);
+            double silentStepBonus = 0.10D * silentStepRank;
+            if (silentStep && (silentStepModifier == null || Math.abs(silentStepModifier.getAmount() - silentStepBonus) > 0.000001D)) {
+                if (silentStepModifier != null) speed.removeModifier(SILENT_STEP_SPEED_ID);
                 // Minecraft still applies its crouching input multiplier after this
                 // modifier, keeping crouched movement below ordinary walking speed.
-                speed.addTransientModifier(new AttributeModifier(SILENT_STEP_SPEED_ID, "7DTC Silent Step", 0.10D,
+                speed.addTransientModifier(new AttributeModifier(SILENT_STEP_SPEED_ID, "7DTC Silent Step", silentStepBonus,
                     AttributeModifier.Operation.MULTIPLY_TOTAL));
-            } else if (!silentStep && hasSilentStep) {
+            } else if (!silentStep && silentStepModifier != null) {
                 speed.removeModifier(SILENT_STEP_SPEED_ID);
             }
 
