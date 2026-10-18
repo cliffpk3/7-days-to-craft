@@ -45,3 +45,8 @@ Cada etapa abaixo e independente, com versao/milestone, teste e rollback. Nenhum
 | 13 | Core individual, foco da horda, eliminacao/revivificacao e derrota coletiva | muito alto | Prototipo separado com persistencia, multiplayer, desconexao, recuperacao e upgrades |
 
 Antes de cada etapa: confirmar design e numeros, criar milestone, testar em mundo descartavel e em save de copia, e so entao distribuir.
+
+## Ideias de audio e infeccao da milicia para avaliar
+
+- Som de morte condicionado: o Simple Enemy ja registra dois sons de morte para `usunit`, mas os usa em qualquer morte. Um evento Forge de morte pode identificar quando um zumbi matou um miliciano e tocar uma variante de grito com volume e alcance limitados. O audio especifico precisa ser escolhido ou criado; o som por si so nao atrai zumbis sem uma regra de audicao adicional.
+- Conversao: o Zombie Extreme possui efeito de infeccao que mata e cria um `zombie_extreme:infected` quando expira. Nao aplicar esse efeito genericamente a jogadores ou a todos os soldados. Prototipar conversao apenas de milicianos mortos por zumbis ou que morram com a infeccao ativa, com limite local e verificacao de espaco, para evitar geracao dupla, excesso de mobs e loot duplicado. Validar primeiro em copia do save.
