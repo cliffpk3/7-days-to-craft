@@ -96,8 +96,17 @@ public final class HordeRoles {
 
     @SubscribeEvent(priority = EventPriority.LOWEST)
     public static void restoreFisherRod(EntityJoinLevelEvent event) {
-        if (event.getLevel().isClientSide() || !(event.getEntity() instanceof Mob mob)
-            || !hasRole(mob, "fisher")) return;
+        if (event.getLevel().isClientSide() || !(event.getEntity() instanceof Mob mob)) return;
+        if (mob.getTags().stream().anyMatch(tag -> tag.startsWith(ROLE_PREFIX))) {
+            mob.setCustomNameVisible(true);
+            if (hasRole(mob, "breaker") && mob.getCustomName() != null
+                && "Breaker".equals(mob.getCustomName().getString()))
+                mob.setCustomName(Component.literal("Miner").withStyle(ChatFormatting.GOLD));
+            if (hasRole(mob, "tank") && mob.getCustomName() != null
+                && "Tank".equals(mob.getCustomName().getString()))
+                mob.setCustomName(Component.literal("Tanker").withStyle(ChatFormatting.DARK_RED));
+        }
+        if (!hasRole(mob, "fisher")) return;
         // The Hordes fires its role event before finalizeSpawn, which can replace equipment.
         mob.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(Items.FISHING_ROD));
         mob.setDropChance(EquipmentSlot.OFFHAND, 0.0F);
@@ -238,7 +247,7 @@ public final class HordeRoles {
     private static void configureFisher(Mob mob, int horde) {
         mob.addTag(ROLE_PREFIX + "fisher");
         mob.setCustomName(Component.literal("Grappler").withStyle(ChatFormatting.AQUA));
-        mob.setCustomNameVisible(false);
+        mob.setCustomNameVisible(true);
         scaleBase(mob, horde, 1.0, 1.0);
         mob.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(Items.FISHING_ROD));
         mob.setDropChance(EquipmentSlot.OFFHAND, 0.0F);
@@ -246,8 +255,8 @@ public final class HordeRoles {
 
     private static void configureBreaker(Mob mob, int horde) {
         mob.addTag(ROLE_PREFIX + "breaker");
-        mob.setCustomName(Component.literal("Breaker").withStyle(ChatFormatting.GOLD));
-        mob.setCustomNameVisible(false);
+        mob.setCustomName(Component.literal("Miner").withStyle(ChatFormatting.GOLD));
+        mob.setCustomNameVisible(true);
         scaleBase(mob, horde, 1.20, 1.10);
         equip(mob, EquipmentSlot.MAINHAND, "minecraft:iron_pickaxe", 0.0F, false);
         if (mob instanceof Zombie zombie) zombie.setCanBreakDoors(true);
@@ -255,8 +264,8 @@ public final class HordeRoles {
 
     private static void configureTank(Mob mob, int horde, int set) {
         mob.addTag(ROLE_PREFIX + "tank");
-        mob.setCustomName(Component.literal("Tank").withStyle(ChatFormatting.DARK_RED));
-        mob.setCustomNameVisible(false);
+        mob.setCustomName(Component.literal("Tanker").withStyle(ChatFormatting.DARK_RED));
+        mob.setCustomNameVisible(true);
         setBase(mob, Attributes.MAX_HEALTH, 46.0 + horde * 2.0);
         setBase(mob, Attributes.ARMOR, 14.0);
         setBase(mob, Attributes.ARMOR_TOUGHNESS, 4.0);
@@ -271,7 +280,7 @@ public final class HordeRoles {
     private static void configureDisruptor(Mob mob, int horde) {
         mob.addTag(ROLE_PREFIX + "disruptor");
         mob.setCustomName(Component.literal("Disruptor").withStyle(ChatFormatting.DARK_GREEN));
-        mob.setCustomNameVisible(false);
+        mob.setCustomNameVisible(true);
         scaleBase(mob, horde, 1.25, 1.10);
         equip(mob, EquipmentSlot.OFFHAND, "minecraft:fermented_spider_eye", 0.0F, false);
     }
@@ -279,7 +288,7 @@ public final class HordeRoles {
     private static void configureSummoner(Mob mob, int horde) {
         mob.addTag(ROLE_PREFIX + "summoner");
         mob.setCustomName(Component.literal("Summoner").withStyle(ChatFormatting.DARK_PURPLE));
-        mob.setCustomNameVisible(false);
+        mob.setCustomNameVisible(true);
         setBase(mob, Attributes.MAX_HEALTH, 38.0 + horde * 2.0);
         setBase(mob, Attributes.ARMOR, 8.0);
         setBase(mob, Attributes.MOVEMENT_SPEED, 0.17);

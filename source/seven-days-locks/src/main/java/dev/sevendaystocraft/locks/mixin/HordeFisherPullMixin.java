@@ -24,7 +24,7 @@ public abstract class HordeFisherPullMixin {
             callback.cancel();
             return;
         }
-        double force = Math.min(0.55, horizontal * 0.08);
+        double force = Math.min(0.62, horizontal * 0.09);
         Vec3 impulse = new Vec3(towardOwner.x / horizontal * force,
             Mth.clamp(towardOwner.y * 0.04, -0.08, 0.18),
             towardOwner.z / horizontal * force);
