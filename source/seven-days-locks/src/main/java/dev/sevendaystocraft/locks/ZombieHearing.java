@@ -15,6 +15,8 @@ import net.minecraft.world.phys.AABB;
 import net.minecraftforge.common.ForgeConfigSpec;
 import net.minecraftforge.event.entity.EntityJoinLevelEvent;
 import net.minecraftforge.event.entity.living.LivingDeathEvent;
+import net.minecraftforge.event.entity.living.LivingChangeTargetEvent;
+import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.server.ServerStartedEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.ModLoadingContext;
@@ -37,7 +39,9 @@ public final class ZombieHearing {
     private static final String Y = PREFIX + "y";
     private static final String Z = PREFIX + "z";
     private static final String NEXT_GUNSHOT = PREFIX + "next_gunshot";
+    private static final String COMBAT_UNTIL = PREFIX + "combat_until";
     private static final int MEMORY_TICKS = 160;
+    private static final int COMBAT_COOLDOWN_TICKS = 100;
     private static final int GUNSHOT_DEBOUNCE_TICKS = 20;
     private static final ForgeConfigSpec SPEC;
     private static final ForgeConfigSpec.BooleanValue ENABLED;
@@ -82,6 +86,24 @@ public final class ZombieHearing {
         if (event.getLevel().isClientSide() || !(event.getEntity() instanceof PathfinderMob mob)
             || !CityAmbientEncounter.isCityZombie(mob)) return;
         mob.goalSelector.addGoal(3, new InvestigateSoundGoal(mob));
+    }
+
+    @SubscribeEvent
+    public static void onCombatTargetChange(LivingChangeTargetEvent event) {
+        if ((event.getNewTarget() != null || event.getOriginalTarget() != null)
+            && event.getEntity() instanceof PathfinderMob mob
+            && !mob.level().isClientSide() && CityAmbientEncounter.isCityZombie(mob)) {
+            markCombat(mob);
+        }
+    }
+
+    @SubscribeEvent
+    public static void onHurt(LivingHurtEvent event) {
+        if (event.getSource().getEntity() instanceof LivingEntity
+            && event.getEntity() instanceof PathfinderMob mob
+            && !mob.level().isClientSide() && CityAmbientEncounter.isCityZombie(mob)) {
+            markCombat(mob);
+        }
     }
 
     @SubscribeEvent
@@ -144,7 +166,7 @@ public final class ZombieHearing {
         List<PathfinderMob> nearby = level.getEntitiesOfClass(PathfinderMob.class, area,
             mob -> mob.isAlive() && CityAmbientEncounter.isCityZombie(mob)
                 && !mob.getTags().contains("7dtc_horde_spawn")
-                && mob.getTarget() == null && mob.distanceToSqr(sound.getX() + 0.5,
+                && !inCombat(mob) && mob.distanceToSqr(sound.getX() + 0.5,
                     sound.getY() + 0.5, sound.getZ() + 0.5) <= maxDistanceSq);
         nearby.sort(Comparator.comparingDouble(mob -> mob.distanceToSqr(sound.getX() + 0.5,
             sound.getY() + 0.5, sound.getZ() + 0.5)));
@@ -157,6 +179,16 @@ public final class ZombieHearing {
             mob.getPersistentData().putInt(Y, sound.getY());
             mob.getPersistentData().putInt(Z, sound.getZ());
         }
+    }
+
+    private static void markCombat(PathfinderMob mob) {
+        mob.getPersistentData().putLong(COMBAT_UNTIL, mob.level().getGameTime() + COMBAT_COOLDOWN_TICKS);
+        mob.getPersistentData().remove(UNTIL);
+    }
+
+    private static boolean inCombat(PathfinderMob mob) {
+        return mob.getTarget() != null
+            || mob.getPersistentData().getLong(COMBAT_UNTIL) > mob.level().getGameTime();
     }
 
     private static final class InvestigateSoundGoal extends Goal {
@@ -194,7 +226,7 @@ public final class ZombieHearing {
         }
 
         private boolean active() {
-            return ENABLED.get() && mob.isAlive() && mob.getTarget() == null
+            return ENABLED.get() && mob.isAlive() && !inCombat(mob)
                 && !mob.getTags().contains("7dtc_horde_spawn")
                 && mob.getPersistentData().getLong(UNTIL) > mob.level().getGameTime();
         }
