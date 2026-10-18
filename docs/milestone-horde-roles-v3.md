@@ -1,0 +1,8 @@
+# Horde roles v3 — 2026-10-18
+
+- City entry ambushes and recurring city patrols give 5% of eligible ordinary zombies the Grappler role, using the existing `horde.fisherChance` setting. The city's existing 26-mob local cap still applies. Grapplers reuse the horde fishing AI, pull strength, rod with no drop, and nearby line-of-sight nameplate.
+- From the second horde onward, the Tank slot spawns Born in Chaos `zombie_bruiser`. It keeps its native name and appearance. Horde Bruisers receive at least 8 base armor, preserve native health and attacks, and carry no old Tank role or equipment. If the entity is unavailable, the previous Tank remains a fallback.
+- From the fourth horde onward, the Summoner slot spawns vanilla `minecraft:witch`. It retains the Summoner label and the existing two-zombie summoning cycle (maximum four nearby summoned zombies). Hostile mobs cannot acquire the tagged Witch as a target or damage it directly; player attacks remain valid. If Witch creation fails, the old zombie Summoner is a fallback.
+- The Disruptor is unchanged: a hit applies Slowness II and Weakness I for six seconds.
+- Offline Gradle build passed. The combined JAR is staged at `staging/horde-roles-v3-20261018/seven-days-locks-1.0.1.jar`. The installed JAR is backed up at `backups/horde-roles-v3-20261018/`. No running-game JAR replacement was performed.
+- In-game checks after installation: city zombie role frequency and rod pull, Bruiser horde spawn and defenses, Witch summoning and survival near zombies, Witch still vulnerable to players, label line of sight, and no unintended monster hostility toward the Witch.

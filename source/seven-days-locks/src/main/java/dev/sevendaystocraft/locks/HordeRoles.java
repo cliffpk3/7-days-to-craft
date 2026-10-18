@@ -14,6 +14,7 @@ import net.minecraft.world.effect.MobEffects;
 import net.minecraft.world.entity.*;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.monster.Enemy;
+import net.minecraft.world.entity.monster.Witch;
 import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
@@ -31,6 +32,8 @@ import net.minecraftforge.event.entity.living.LivingDeathEvent;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.event.entity.living.LivingExperienceDropEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
+import net.minecraftforge.event.entity.living.LivingAttackEvent;
+import net.minecraftforge.event.entity.living.LivingChangeTargetEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -97,6 +100,10 @@ public final class HordeRoles {
     @SubscribeEvent(priority = EventPriority.LOWEST)
     public static void restoreFisherRod(EntityJoinLevelEvent event) {
         if (event.getLevel().isClientSide() || !(event.getEntity() instanceof Mob mob)) return;
+        if (mob.getTags().contains("7dtc_horde_bruiser")) {
+            var armor = mob.getAttribute(Attributes.ARMOR);
+            if (armor != null) armor.setBaseValue(Math.max(8.0D, armor.getBaseValue()));
+        }
         if (mob.getTags().stream().anyMatch(tag -> tag.startsWith(ROLE_PREFIX))) {
             mob.setCustomNameVisible(true);
             if (hasRole(mob, "breaker") && mob.getCustomName() != null
@@ -123,12 +130,29 @@ public final class HordeRoles {
         int roll = event.getRandom().nextInt(100);
         int fisherStart = horde == 1 ? 10 : 38;
         int fisherSlots = Mth.clamp((int) Math.round(HordeRoleConfig.fisherChance() * 100.0), 0, 30);
-        if (horde >= 4 && roll < 4) configureSummoner(mob, horde);
+        if (horde >= 4 && roll < 4) {
+            Mob witch = replacement(event, "minecraft:witch");
+            configureSummoner(witch == null ? mob : witch, horde);
+        }
         else if (horde >= 3 && roll < 14) configureDisruptor(mob, horde);
-        else if (horde >= 2 && roll < 24) configureTank(mob, horde, event.getRandom().nextInt(TANK_ARMOR.length));
+        else if (horde >= 2 && roll < 24) {
+            Mob bruiser = replacement(event, "born_in_chaos_v1:zombie_bruiser");
+            if (bruiser == null) configureTank(mob, horde, event.getRandom().nextInt(TANK_ARMOR.length));
+            else bruiser.addTag("7dtc_horde_bruiser");
+        }
         else if (roll < (horde == 1 ? 10 : 38)) configureBreaker(mob, horde);
         else if (roll < fisherStart + fisherSlots) configureFisher(mob, horde);
         else configureAssault(mob, horde);
+    }
+
+    private static Mob replacement(HordeSpawnEntityEvent event, String id) {
+        ResourceLocation key = new ResourceLocation(id);
+        if (!BuiltInRegistries.ENTITY_TYPE.containsKey(key)) return null;
+        EntityType<?> type = BuiltInRegistries.ENTITY_TYPE.get(key);
+        if (!(type.create(event.getPlayer().serverLevel()) instanceof Mob replacement)) return null;
+        replacement.addTag(HORDE_SPAWN);
+        event.setEntity(replacement);
+        return replacement;
     }
 
     @SubscribeEvent
@@ -203,9 +227,24 @@ public final class HordeRoles {
 
     @SubscribeEvent
     public static void onRoleTick(LivingEvent.LivingTickEvent event) {
-        if (!(event.getEntity() instanceof Zombie zombie) || zombie.level().isClientSide() || zombie.tickCount % 20 != 0) return;
-        if (hasRole(zombie, "summoner")) tickSummoner(zombie);
+        if (!(event.getEntity() instanceof Mob mob) || mob.level().isClientSide() || mob.tickCount % 20 != 0) return;
+        if (hasRole(mob, "summoner")) tickSummoner(mob);
+        if (!(mob instanceof Zombie zombie)) return;
         if (hasRole(zombie, "breaker") && zombie.tickCount % 100 == 0) breakObstacle(zombie);
+    }
+
+    @SubscribeEvent(priority = EventPriority.HIGHEST)
+    public static void protectSummonerTarget(LivingChangeTargetEvent event) {
+        if (event.getNewTarget() instanceof Witch witch && hasRole(witch, "summoner")
+            && event.getEntity() instanceof Enemy) event.setNewTarget(null);
+        if (event.getEntity() instanceof Witch witch && hasRole(witch, "summoner")
+            && event.getNewTarget() instanceof Enemy) event.setNewTarget(null);
+    }
+
+    @SubscribeEvent(priority = EventPriority.HIGHEST)
+    public static void protectSummonerFromMonsters(LivingAttackEvent event) {
+        if (event.getEntity() instanceof Witch witch && hasRole(witch, "summoner")
+            && event.getSource().getEntity() instanceof Enemy) event.setCanceled(true);
     }
 
     @SubscribeEvent
@@ -251,6 +290,18 @@ public final class HordeRoles {
         scaleBase(mob, horde, 1.0, 1.0);
         mob.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(Items.FISHING_ROD));
         mob.setDropChance(EquipmentSlot.OFFHAND, 0.0F);
+    }
+
+    static void maybeConfigureCityGrappler(Mob mob) {
+        ResourceLocation id = BuiltInRegistries.ENTITY_TYPE.getKey(mob.getType());
+        if (id == null) return;
+        boolean zombie = mob instanceof Zombie
+            || id.getNamespace().equals("zombie_extreme") && Set.of("infected", "crawler", "runner",
+                "clicker", "revived", "infected_police").contains(id.getPath())
+            || id.toString().equals("born_in_chaos_v1:decaying_zombie");
+        if (zombie && mob.getRandom().nextDouble() < HordeRoleConfig.fisherChance()) {
+            configureFisher(mob, 0);
+        }
     }
 
     private static void configureBreaker(Mob mob, int horde) {
@@ -305,7 +356,7 @@ public final class HordeRoles {
         mob.setHealth(mob.getMaxHealth());
     }
 
-    private static void tickSummoner(Zombie summoner) {
+    private static void tickSummoner(Mob summoner) {
         int cooldown = summoner.getPersistentData().getInt("7dtc_summon_cooldown") - 1;
         if (cooldown > 0) { summoner.getPersistentData().putInt("7dtc_summon_cooldown", cooldown); return; }
         summoner.getPersistentData().putInt("7dtc_summon_cooldown", 25 + summoner.getRandom().nextInt(11));

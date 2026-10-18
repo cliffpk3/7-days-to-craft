@@ -11,8 +11,8 @@ final class HordeRoleConfig {
 
     static {
         ForgeConfigSpec.Builder builder = new ForgeConfigSpec.Builder();
-        builder.comment("7DTC horde role settings. Applies to newly spawned horde mobs.").push("horde");
-        FISHER_CHANCE = builder.comment("Fraction of eligible horde zombies assigned the Grappler role. Replaces Assault, not special roles.")
+        builder.comment("7DTC horde and city role settings. Applies to newly spawned mobs.").push("horde");
+        FISHER_CHANCE = builder.comment("Fraction of eligible horde and city zombies assigned the Grappler role. In hordes, replaces Assault, not special roles.")
             .defineInRange("fisherChance", 0.05D, 0.0D, 0.30D);
         builder.pop();
         SPEC = builder.build();

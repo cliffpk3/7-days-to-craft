@@ -188,6 +188,7 @@ public final class CityRaid {
                     mob.addTag("7dtc_city_raid");
                     mob.addTag("7dtc_city_entry_ambush");
                     mob.finalizeSpawn(level, level.getCurrentDifficultyAt(pos), MobSpawnType.EVENT, null, null);
+                    HordeRoles.maybeConfigureCityGrappler(mob);
                     if (level.addFreshEntity(mob)) {
                         mob.setTarget(player);
                         mob.getNavigation().moveTo(player, 1.15D);
@@ -248,6 +249,7 @@ public final class CityRaid {
             mob.moveTo(pos.getX() + 0.5, pos.getY(), pos.getZ() + 0.5, level.random.nextFloat() * 360F, 0F);
             mob.addTag("7dtc_city_raid");
             mob.finalizeSpawn(level, level.getCurrentDifficultyAt(pos), MobSpawnType.EVENT, null, null);
+            HordeRoles.maybeConfigureCityGrappler(mob);
             level.addFreshEntity(mob);
             return;
         }
