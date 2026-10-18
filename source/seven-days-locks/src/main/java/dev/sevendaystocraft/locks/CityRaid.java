@@ -19,9 +19,13 @@ import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.level.ClipContext;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.levelgen.structure.Structure;
 import net.minecraft.world.level.levelgen.structure.StructureStart;
+import net.minecraft.world.phys.BlockHitResult;
+import net.minecraft.world.phys.HitResult;
+import net.minecraft.world.phys.Vec3;
 import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.event.entity.living.MobSpawnEvent;
 import net.minecraftforge.event.TickEvent;
@@ -153,14 +157,15 @@ public final class CityRaid {
             mob -> mob instanceof Enemy).size();
         if (nearby > LOCAL_CAP - 4) return 0;
         int members = 2 + level.random.nextInt(3);
-        for (int attempt = 0; attempt < 36; attempt++) {
+        for (int attempt = 0; attempt < 96; attempt++) {
             double angle = level.random.nextDouble() * Math.PI * 2;
-            int distance = 13 + level.random.nextInt(11);
+            int distance = 26 + level.random.nextInt(17);
             int x = player.getBlockX() + (int) Math.round(Math.cos(angle) * distance);
             int z = player.getBlockZ() + (int) Math.round(Math.sin(angle) * distance);
             if (!level.hasChunk(x >> 4, z >> 4)) continue;
             BlockPos center = level.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES, new BlockPos(x, 0, z));
-            if (Math.abs(center.getY() - player.getBlockY()) > 5 || !cityAt(level, center)) continue;
+            if (Math.abs(center.getY() - player.getBlockY()) > 5 || !cityAt(level, center)
+                || !concealedFromPlayers(level, center)) continue;
             List<Mob> spawned = new ArrayList<>();
             boolean hasRunner = false;
             for (int i = 0; i < members; i++) {
@@ -172,6 +177,7 @@ public final class CityRaid {
                     BlockPos pos = level.getHeightmapPos(Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
                         new BlockPos(px, 0, pz));
                     if (Math.abs(pos.getY() - player.getBlockY()) > 5 || !cityAt(level, pos)
+                        || !concealedFromPlayers(level, pos)
                         || !level.getBlockState(pos.below()).isFaceSturdy(level, pos.below(), Direction.UP)
                         || !level.getBlockState(pos).isAir() || !level.getBlockState(pos.above()).isAir()) continue;
                     EntityType<?> type = ForgeRegistries.ENTITY_TYPES.getValue(new ResourceLocation(id));
@@ -197,6 +203,24 @@ public final class CityRaid {
             spawned.forEach(Mob::discard);
         }
         return 0;
+    }
+
+    // Entry ambushes wait for a street hidden by solid cover from every nearby
+    // player. If none exists, the visit remains pending and retries next tick.
+    private static boolean concealedFromPlayers(ServerLevel level, BlockPos pos) {
+        Vec3 spawnEye = new Vec3(pos.getX() + 0.5D, pos.getY() + 1.4D, pos.getZ() + 0.5D);
+        for (ServerPlayer observer : level.players()) {
+            if (observer.isSpectator()) continue;
+            Vec3 eye = observer.getEyePosition();
+            double distanceSq = eye.distanceToSqr(spawnEye);
+            if (distanceSq < 24.0D * 24.0D) return false;
+            if (distanceSq > 96.0D * 96.0D) continue;
+            BlockHitResult hit = level.clip(new ClipContext(eye, spawnEye,
+                ClipContext.Block.COLLIDER, ClipContext.Fluid.NONE, observer));
+            if (hit.getType() != HitResult.Type.BLOCK
+                || !level.getBlockState(hit.getBlockPos()).canOcclude()) return false;
+        }
+        return true;
     }
 
     private static String entryMob(ServerLevel level) {
