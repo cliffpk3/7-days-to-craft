@@ -64,10 +64,6 @@ public abstract class WorkbenchEfficiencyMixin {
         String namespace = recipeId.getNamespace();
         String path = recipeId.getPath();
         if (namespace.equals("cgm")) {
-            if (path.equals("basic_bullet") && !player.getTags().contains("7dtc_ammunition_1")) return "Ammunition I is required to craft Basic Bullets.";
-            if (path.equals("advanced_bullet") || path.equals("shell") || path.equals("grenade") || path.equals("stun_grenade") || path.equals("missile")) {
-                if (!player.getTags().contains("7dtc_ammunition_2")) return "Ammunition II is required to craft this ammunition.";
-            }
             if (path.equals("assault_rifle") || path.equals("bazooka") || path.equals("grenade_launcher") || path.equals("heavy_rifle") || path.equals("machine_pistol") || path.equals("mini_gun") || path.equals("pistol") || path.equals("rifle") || path.equals("shotgun")) {
                 if (!player.getTags().contains("7dtc_gunsmithing")) return "Gunsmithing is required to craft firearms.";
             }

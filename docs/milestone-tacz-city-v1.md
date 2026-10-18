@@ -2,7 +2,7 @@
 
 ## Escopo
 
-- Carros do The Lost City desativados em novos chunks pelo perfil `7dtc_city`.
+- O perfil `7dtc_city` desativa o gerador opcional de carros, mas os modelos de ruas tambem chamam tres pools jigsaw de carros. Os pools `city_cars`, `small_city_cars` e `big_city_cars` foram substituidos por elementos vazios para novos chunks.
 - Delegacia da cidade ocupada somente por `simpleenemymod:usunit`; dois spawners no terraço ativam a até 88 blocos. Eventos aleatórios de Simple Enemy são bloqueados, para não misturar facções no prédio.
 - 18 armas TaCZ e 11 acessórios selecionados para a CGM Workbench. Armas exigem blueprint específica; a mesa TaCZ não oferece suas receitas padrão.
 - As armas selecionadas recarregam com `cgm:basic_bullet`, `cgm:advanced_bullet` ou `cgm:shell`, conforme a classe definida em `TaczCgmAmmoMixin`.
@@ -21,3 +21,4 @@ O gerador de estruturas é `tools/generate_city_spawners.py`; o catálogo da Wor
 - NBT da delegacia: dois spawners no terraço sobre piso sólido e somente `usunit` no pool da milícia.
 - Ainda requer teste dentro do jogo: carregamento, craft com consumo de blueprint, recarga/descarregamento dos três tipos de munição, abas da Workbench, linha de visão e taxa real de spawn no terraço.
 - Estruturas já geradas em saves existentes não são reconstruídas automaticamente.
+- A delegacia da milicia e uma escolha de peso 1 entre os predios da cidade. Nao ha garantia de uma delegacia por cidade; isso exigira uma ancora obrigatoria na geracao e teste separado.
