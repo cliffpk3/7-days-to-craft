@@ -8,16 +8,17 @@ Usar primeiro um mundo de teste ou copia do save. Anotar dia, coordenadas, skill
 2. **Aparicao da horda:** iniciar uma horda de teste em campo aberto e outra na cidade, com um jogador e depois dois. Esperado: nenhum mob materializa perto ou na tela dos jogadores; as ondas continuam surgindo. Verificar se uma onda e omitida quando nao ha local carregado e oculto.
 3. **Zumbis ao sol:** esperar amanhecer ao lado de zumbi vanilla, zumbi de jogador e variantes Zombie Extreme. Esperado: zumbis nao queimam; esqueletos ainda seguem sua regra de combustao.
 4. **Audicao:** produzir disparos TaCZ com zumbis comuns e fortes sem alvo ativo a distancias abaixo e acima do alcance configurado. Repetir enquanto um zumbi ja persegue um jogador. Esperado: os comuns investigam dentro do raio, os fortes precisam estar 50% mais perto e ninguem abandona um alvo de combate para investigar som.
+5. **Recompensa da horda v1:** com dois jogadores, terminar uma horda sem mortes; cada um recebe uma chave nivel 2 e um cache nivel 2. Repetir com morte e respawn de um jogador, inventario cheio, parada por comando e reconexao. Nao deve haver pagamento ao jogador que morreu nem pagamento duplicado no mesmo dia.
 
 ## Prioridade 2 — integracoes urbanas que precisam de observacao
 
-5. **Cidade nova:** confirmar posto ocupado por milicia, soldados no terraco, ausencia de carros novos, ruas e subsolo gerados corretamente. Cidades/chunks antigos preservam estruturas ja colocadas.
-6. **Entrada na cidade:** com dois jogadores, entrar, sair, morrer e reconectar. Esperado: uma emboscada de 2 a 4 zumbis para cada jogador por cidade; outra cidade permite novo evento.
-7. **Combate ambiental:** observar um esquadrao surgindo fora de vista com zumbis proximos; deve combater zumbis e tambem atacar jogadores que se aproximem. Registrar se ha milicianos ou spawners em excesso e eventuais quedas de TPS.
-8. **Workbench e armas:** verificar receitas/blueprints TaCZ, consumo de munição CGM, HUD de munição e ausencia de craft das armas CGM antigas.
+6. **Cidade nova:** confirmar posto ocupado por milicia, soldados no terraco, ausencia de carros novos, ruas e subsolo gerados corretamente. Cidades/chunks antigos preservam estruturas ja colocadas.
+7. **Entrada na cidade:** com dois jogadores, entrar, sair, morrer e reconectar. Esperado: uma emboscada de 2 a 4 zumbis para cada jogador por cidade; outra cidade permite novo evento.
+8. **Combate ambiental:** observar um esquadrao surgindo fora de vista com zumbis proximos; deve combater zumbis e tambem atacar jogadores que se aproximem. Registrar se ha milicianos ou spawners em excesso e eventuais quedas de TPS.
+9. **Workbench e armas:** verificar receitas/blueprints TaCZ, consumo de municao CGM, HUD de municao e ausencia de craft das armas CGM antigas.
 
 ## Etapas seguintes
 
-- Recompensa individual da horda: aguarda definicao do item e de quem e elegivel; depois testar dois jogadores, morte, distancia, desconexao/reconexao e impedir pagamento duplo.
+- Presenca na base para receber a recompensa: adiada ate existir um core ou uma area de base confiavel.
 - Flechas recuperaveis ao se aproximar: aguarda definicao da interacao com Ammo Conservation; depois testar chance por nivel, dono da flecha, Infinity, flechas especiais e inventario cheio.
 - Mais inimigos que puxam na horda: EnhancedAI possui modulo Fisher, mas esta desativado e a tag atual so aceita `minecraft:zombie`. A proxima etapa precisa habilitar o modulo sem mudar zumbis comuns fora da horda, equipar apenas uma parcela controlada dos zumbis de evento e testar alcance, linha de visao, cooldown e seguranca perto de paredes/desniveis.

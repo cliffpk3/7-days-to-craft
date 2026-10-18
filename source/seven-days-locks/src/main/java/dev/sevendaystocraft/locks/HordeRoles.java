@@ -29,6 +29,7 @@ import net.minecraftforge.event.entity.living.LivingDropsEvent;
 import net.minecraftforge.event.entity.living.LivingExperienceDropEvent;
 import net.minecraftforge.event.entity.living.LivingHurtEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;
+import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.eventbus.api.EventPriority;
 import net.minecraftforge.fml.common.Mod;
@@ -51,6 +52,7 @@ public final class HordeRoles {
     private static final String DEATHS = "7dtc_horde_deaths";
     private static final String BOSS_SPAWNED = "7dtc_horde_boss_spawned";
     private static final String ONLINE_PLAYERS = "7dtc_horde_online_players";
+    private static final String REWARD_DAY = "7dtc_horde_reward_day";
     private static final String[] MUTANT_BOSSES = {
         "mutantmonsters:mutant_zombie", "mutantmonsters:mutant_skeleton",
         "mutantmonsters:mutant_creeper", "mutantmonsters:mutant_enderman"
@@ -135,6 +137,15 @@ public final class HordeRoles {
     }
 
     @SubscribeEvent
+    public static void onPlayerClone(PlayerEvent.Clone event) {
+        if (!event.isWasDeath() || !(event.getEntity() instanceof ServerPlayer player)) return;
+        var previous = event.getOriginal().getPersistentData();
+        var current = player.getPersistentData();
+        if (previous.contains(DEATHS)) current.putInt(DEATHS, previous.getInt(DEATHS));
+        if (previous.contains(REWARD_DAY)) current.putInt(REWARD_DAY, previous.getInt(REWARD_DAY));
+    }
+
+    @SubscribeEvent
     public static void onHordeEnd(HordeEndEvent event) {
         ServerPlayer player = event.getPlayer();
         int threat = Mth.clamp(player.getPersistentData().getInt(THREAT), 0, 5);
@@ -143,6 +154,21 @@ public final class HordeRoles {
         else if (deaths >= 2) threat = Math.max(0, threat - 1);
         player.getPersistentData().putInt(THREAT, threat);
         player.displayClientMessage(Component.literal("Horde threat level: " + threat + "/5").withStyle(ChatFormatting.GOLD), false);
+        if (event.wasCommand() || deaths != 0) return;
+        int day = event.getDay();
+        if (player.getPersistentData().contains(REWARD_DAY)
+            && player.getPersistentData().getInt(REWARD_DAY) == day) return;
+        player.getPersistentData().putInt(REWARD_DAY, day);
+        giveHordeReward(player, new ItemStack(BuiltInRegistries.ITEM.get(
+            new ResourceLocation("wrd", "keystrongholdchest_gold"))));
+        giveHordeReward(player, new ItemStack(SevenDaysLocks.MIMIC_CACHE_2.get()));
+        player.displayClientMessage(Component.literal("Horde survived: Level 2 key and cache awarded.")
+            .withStyle(ChatFormatting.GOLD), false);
+    }
+
+    private static void giveHordeReward(ServerPlayer player, ItemStack reward) {
+        if (!player.getInventory().add(reward)) player.drop(reward, false);
+        player.containerMenu.broadcastChanges();
     }
 
     @SubscribeEvent
