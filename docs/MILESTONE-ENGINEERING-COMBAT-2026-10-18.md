@@ -1,6 +1,6 @@
 # Milestone Engineering, Scavenging e Combat — 18/10/2026
 
-## Preparado; JAR ainda não instalado
+## Instalado; inicialização validada em 18/10/2026
 
 - Maintenance: quatro nós de 10%, máximo 40%. A chance é aplicada a cada dano de durabilidade causado por um jogador, antes de Unbreaking. Sem varredura por tick.
 - Tool Proficiency: seis nós de 10% para a velocidade de quebra com a ferramenta correta, máximo 60%.
@@ -10,7 +10,7 @@
 - O ramo de Ore Sense II recebe ligação das pontas de Prospector e Forager; a ligação direta de Ore Sense I para II foi retirada.
 - Scavenger usa um trevo próprio de 16×16 com cores e contorno próximos dos ícones da árvore. O item do Nameless Trinkets não é alterado.
 
-O JAR compilado está em `staging/engineering-scavenging-v1-20261018/seven-days-skill-bridge-1.0.1.jar`. O JAR anterior e os arquivos de configuração estão em `backups/engineering-scavenging-v1-20261018/`. Instalar somente após fechar o Minecraft e reiniciar para carregar código, árvore e textura.
+O JAR instalado em `mods/seven-days-skill-bridge-1.0.1.jar` corresponde ao build local. O erro de mixin da Maintenance foi corrigido e a inicialização passou desse ponto. Os backups anteriores continuam em `backups/engineering-scavenging-v1-20261018/`. Os efeitos ainda precisam dos testes de gameplay abaixo.
 
 ## Validação em jogo após instalação
 
@@ -22,4 +22,4 @@ O JAR compilado está em `staging/engineering-scavenging-v1-20261018/seven-days-
 
 ## Engenharia estrutural em avaliação
 
-Structural Engineering hoje só concede a tag `7dtc_fortification_4`, sem efeito próprio. Advanced Manufacturing concede `7dtc_automation` e participa do avanço/quest correspondente, mas a busca no código não encontrou bloqueio de receita atrelado a essa tag. Substituir os dois por níveis de reforço exige migrar esse avanço e conferir a rota de Create Automation.
+Structural Engineering hoje só concede a tag `7dtc_fortification_4`, sem efeito próprio. Advanced Manufacturing concede `7dtc_automation` e participa do avanço/quest correspondente. Embora a busca não tenha encontrado bloqueio de receita atrelado a essa tag, ela também controla o reembolso de pontos das duas cópias da milestone compartilhada. Substituir os dois por níveis de reforço exige migrar esse avanço e revisar a rota de Create Automation e o reembolso.

@@ -4,7 +4,7 @@ Usar primeiro um mundo de teste ou copia do save. Anotar dia, coordenadas, skill
 
 ## Prioridade 1 — correcoes instaladas, ainda sem teste de jogo
 
-1. **Ore Sense v2:** ativar a skill e comparar o mesmo minerio a 19, 20 e 21 blocos; aproximar e afastar, inclusive em caverna grande. Repetir com a skill desativada e com shaders. Esperado: brilho somente com a skill e dentro do raio de 20 blocos. A v1 falhou deixando de iluminar ate minerios proximos.
+1. **Ore Sense I/II:** com apenas o nível I, comparar o mesmo minério a 19, 20 e 21 blocos. Com o nível II, confirmar brilho de minérios mais distantes que estejam em chunks carregados. Repetir sem a skill e com shaders; conferir se brilho e desempenho permanecem estáveis.
 2. **Aparicao da horda:** iniciar uma horda de teste em campo aberto e outra na cidade, com um jogador e depois dois. Esperado: nenhum mob materializa perto ou na tela dos jogadores; as ondas continuam surgindo. Verificar se uma onda e omitida quando nao ha local carregado e oculto.
 3. **Zumbis ao sol:** esperar amanhecer ao lado de zumbi vanilla, zumbi de jogador e variantes Zombie Extreme. Esperado: zumbis nao queimam; esqueletos ainda seguem sua regra de combustao.
 4. **Audicao:** produzir disparos TaCZ com zumbis comuns e fortes sem alvo ativo a distancias abaixo e acima do alcance configurado. Repetir enquanto um zumbi ja persegue um jogador. Esperado: os comuns investigam dentro do raio, os fortes precisam estar 50% mais perto e ninguem abandona um alvo de combate para investigar som.
@@ -20,5 +20,7 @@ Usar primeiro um mundo de teste ou copia do save. Anotar dia, coordenadas, skill
 ## Etapas seguintes
 
 - Presenca na base para receber a recompensa: adiada ate existir um core ou uma area de base confiavel.
-- Arrow Retrieval: conferir os quatro níveis (9%, 18%, 27%, 35%), flecha recuperada ao se aproximar do monstro atingido ou após sua morte, dono da flecha, Infinity, flechas especiais, inventário cheio e ausência de reembolso de munição CGM/TaCZ. Flechas fincadas no chão mantêm a coleta nativa.
+- Arrow Retrieval: conferir os quatro níveis (7%, 14%, 21%, 28%) para flechas comuns cravadas e munição CGM consumida por armas TaCZ selecionadas. Testar dono da flecha, Infinity, flechas especiais, inventário cheio, tiro que erra e pellets de shotgun sem múltiplos reembolsos. Embedded Arrows mantém chance separada de 30% após matar a criatura; flechas fincadas no chão mantêm a coleta nativa.
+- Fire Swallower: agachar e clicar com o botão direito no ar com tocha na mão principal. Confirmar consumo de uma tocha, 10 segundos de visão noturna por carga, limite de 60 segundos e colocação normal de tocha ao mirar em bloco. Verificar os três passos da quest e o ícone Fire Charge.
+- Mobility e Engineering: Soft Landing deve negar integralmente o dano de queda em 6% por nó; Maintenance deve preservar durabilidade em 10% por nó (até 40%); Tool Proficiency deve aumentar a velocidade com ferramenta correta em 10% por nó; Enduring Vitality deve curar 4 HP a cada 45 segundos após 20 segundos sem dano. Conferir a nova disposição dos nós e os ícones.
 - Grapplers da horda v1: em mundo de teste, observar a vara em aproximadamente 10% dos zumbis elegíveis da horda, incluindo husks e drowned quando surgirem. Testar alvo visível a até 24 blocos, parede entre mob e player, força do puxão perto de paredes/desníveis, ausência de roubo de itens e vara como drop, zumbis comuns sem Fisher, dois jogadores e gravação/reabertura do mundo. O módulo geral do EnhancedAI segue desativado.

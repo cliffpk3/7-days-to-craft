@@ -13,7 +13,7 @@ Detalhes de instalação e teste: `docs/MILESTONE-SENSE-HEARING-BRUISER-2026-10-
 ## Fila curta após a instalação de 18/10/2026
 
 1. **Validar a instalação recente em jogo:** inicialização, Ore Sense I/II, Animal Sense, Threat Sense, Embedded Arrows, audição dos monstros e regeneração do Bruiser. Registrar defeitos observados antes de novos ajustes nessas mecânicas.
-2. **Maintenance funcional preparada para instalação.** Os quatro nós agora concedem 10% cada (máximo 40%). O JAR compilado aplica a chance antes de Unbreaking. Após a instalação, testar ferramentas, armas, armaduras, Unbreaking, Mending, reparos e itens de mods.
+2. **Maintenance instalada; falta teste em jogo.** Os quatro nós concedem 10% cada (máximo 40%). O JAR compilado aplica a chance antes de Unbreaking e passou pela inicialização após a correção do mixin. Testar ferramentas, armas, armaduras, Unbreaking, Mending, reparos e itens de mods.
 3. **Depois: Sorte e Key Hunter.** Auditar todas as rolagens de loot antes de escolher se a sorte relativa de +30/60/90% convive com Key Hunter, substitui parte dele ou exclui chaves e blueprints.
 
 **Nota sobre a skill existente:** Scavenger já concede +0,5 no atributo Luck por nó (até +2,5), além de +3% por nó na chance de um item extra elegível ao abrir loot gerado (até 15%). Isso não equivale ao aumento relativo proposto para todos os drops de monstros; a auditoria de Sorte e Key Hunter continua pendente.
