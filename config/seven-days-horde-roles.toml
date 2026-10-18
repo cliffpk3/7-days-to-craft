@@ -1,0 +1,5 @@
+# 7DTC horde role settings. Applies to newly spawned horde mobs.
+[horde]
+	# Fraction of eligible horde zombies assigned the Grappler role. Replaces Assault, not special roles.
+	# Range: 0.0 ~ 0.3
+	fisherChance = 0.1

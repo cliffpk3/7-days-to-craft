@@ -17,6 +17,9 @@ import net.minecraft.world.entity.monster.Enemy;
 import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.Items;
+import insane96mcp.enhancedai.modules.mobs.fisher.FisherMobs;
+import insane96mcp.enhancedai.modules.mobs.fisher.FishingTargetGoal;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.Block;
 import net.minecraft.world.level.block.state.BlockState;
@@ -41,6 +44,9 @@ import net.smileycorp.hordes.hordeevent.capability.HordeEvent;
 import net.smileycorp.hordes.hordeevent.capability.HordeSavedData;
 
 import java.util.List;
+import java.util.Collections;
+import java.util.Set;
+import java.util.WeakHashMap;
 
 @Mod.EventBusSubscriber(modid = SevenDaysLocks.MOD_ID, bus = Mod.EventBusSubscriber.Bus.FORGE)
 public final class HordeRoles {
@@ -53,6 +59,7 @@ public final class HordeRoles {
     private static final String BOSS_SPAWNED = "7dtc_horde_boss_spawned";
     private static final String ONLINE_PLAYERS = "7dtc_horde_online_players";
     private static final String REWARD_DAY = "7dtc_horde_reward_day";
+    private static final Set<Mob> FISHER_GOALS = Collections.newSetFromMap(new WeakHashMap<>());
     private static final String[] MUTANT_BOSSES = {
         "mutantmonsters:mutant_zombie", "mutantmonsters:mutant_skeleton",
         "mutantmonsters:mutant_creeper", "mutantmonsters:mutant_enderman"
@@ -87,6 +94,17 @@ public final class HordeRoles {
         }
     }
 
+    @SubscribeEvent(priority = EventPriority.LOWEST)
+    public static void restoreFisherRod(EntityJoinLevelEvent event) {
+        if (event.getLevel().isClientSide() || !(event.getEntity() instanceof Mob mob)
+            || !hasRole(mob, "fisher")) return;
+        // The Hordes fires its role event before finalizeSpawn, which can replace equipment.
+        mob.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(Items.FISHING_ROD));
+        mob.setDropChance(EquipmentSlot.OFFHAND, 0.0F);
+        FisherMobs.hookInventoryChance = 0.0D;
+        if (FISHER_GOALS.add(mob)) mob.goalSelector.addGoal(2, new FishingTargetGoal(mob));
+    }
+
     @SubscribeEvent
     public static void onHordeMob(HordeSpawnEntityEvent event) {
         Mob mob = event.getEntity();
@@ -94,10 +112,13 @@ public final class HordeRoles {
         if (!(mob instanceof Zombie) || mob.getTags().contains(SUMMONED)) return;
         int horde = hordeNumber(event.getDay());
         int roll = event.getRandom().nextInt(100);
+        int fisherStart = horde == 1 ? 10 : 38;
+        int fisherSlots = Mth.clamp((int) Math.round(HordeRoleConfig.fisherChance() * 100.0), 0, 30);
         if (horde >= 4 && roll < 4) configureSummoner(mob, horde);
         else if (horde >= 3 && roll < 14) configureDisruptor(mob, horde);
         else if (horde >= 2 && roll < 24) configureTank(mob, horde, event.getRandom().nextInt(TANK_ARMOR.length));
         else if (roll < (horde == 1 ? 10 : 38)) configureBreaker(mob, horde);
+        else if (roll < fisherStart + fisherSlots) configureFisher(mob, horde);
         else configureAssault(mob, horde);
     }
 
@@ -212,6 +233,15 @@ public final class HordeRoles {
     private static void configureAssault(Mob mob, int horde) {
         mob.addTag(ROLE_PREFIX + "assault");
         scaleBase(mob, horde, 1.0, 1.0);
+    }
+
+    private static void configureFisher(Mob mob, int horde) {
+        mob.addTag(ROLE_PREFIX + "fisher");
+        mob.setCustomName(Component.literal("Grappler").withStyle(ChatFormatting.AQUA));
+        mob.setCustomNameVisible(false);
+        scaleBase(mob, horde, 1.0, 1.0);
+        mob.setItemSlot(EquipmentSlot.OFFHAND, new ItemStack(Items.FISHING_ROD));
+        mob.setDropChance(EquipmentSlot.OFFHAND, 0.0F);
     }
 
     private static void configureBreaker(Mob mob, int horde) {

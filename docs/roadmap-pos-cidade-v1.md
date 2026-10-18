@@ -33,7 +33,7 @@ Cada etapa abaixo e independente, com versao/milestone, teste e rollback. A etap
 | 1 | Corrigir limite real de 20 blocos do Ore Sense | pequeno | Minerios a 19/20/21 blocos, com e sem shaders, em cavernas novas e existentes |
 | 2 | Recompensa da horda para cada jogador elegivel conectado | pequeno/medio | Dois jogadores, incluindo quem esta distante ou morto, recebem exatamente a regra aprovada |
 | 3 | Arrow Retrieval: quatro nós em 9/18/27/35% — instalada, falta teste no jogo | medio | Recuperacao apenas da flecha do dono; sem duplicar flechas infinitas/especiais |
-| 4 | Mais mobs que puxam/reposicionam durante a horda | medio | Nao prende player em blocos, nao substitui toda a composicao da horda |
+| 4 | Grapplers da horda via gancho do EnhancedAI — instalada, falta teste no jogo | medio | Nao prende player em blocos, nao substitui toda a composicao da horda |
 | 5 | Visao de animais no Advanced Compass em 20/30/40 blocos | medio | Icones so com a skill e apenas dentro de cada alcance |
 | 6 | Threat Sense no Advanced Compass em 10/20/30 blocos | medio | Sem revelar mobs por paredes, abaixo da terra ou fora do raio conforme regra acordada |
 | 7 | Durabilidade maior para armas e equipamentos via skill | medio | Desgaste e reparo coerentes com encantamentos e itens de mods |
