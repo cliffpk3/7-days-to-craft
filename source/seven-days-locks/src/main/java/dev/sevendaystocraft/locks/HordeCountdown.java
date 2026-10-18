@@ -112,9 +112,6 @@ public final class HordeCountdown {
         }
         CHANNEL.send(PacketDistributor.PLAYER.with(() -> player),
             new CountdownPacket(title.getString(), active || daysLeft == 0 ? 0xFF5555 : daysLeft <= 2 ? 0xFFAA00 : 0xFFFFFF));
-        // The chat copy survives loading screens and exposes server-side delivery
-        // if another HUD mod prevents the overlay from rendering.
-        player.displayClientMessage(title, false);
         System.out.println("[7DTC Horde Countdown] Sent '" + title.getString() + "' to " + player.getGameProfile().getName());
     }
 
