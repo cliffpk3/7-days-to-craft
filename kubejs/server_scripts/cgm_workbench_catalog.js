@@ -85,6 +85,11 @@ ServerEvents.recipes(event => {
     material('minecraft:crafting_table', 1)
   ])
 
+  // Match Quark's one-arrow, one-torch recipe in the CGM Workbench.
+  add('utilities', 'torch_arrow', 'quark:torch_arrow', [
+    material('minecraft:arrow', 1), material('minecraft:torch', 1)
+  ])
+
   // Create: essential early and intermediate engineering components.
   // Their regular recipes are removed so progression remains centralized in this catalog.
   const createWorkbenchItems = [
