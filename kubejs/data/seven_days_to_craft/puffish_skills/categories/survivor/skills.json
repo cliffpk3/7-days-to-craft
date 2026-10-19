@@ -528,7 +528,7 @@
   "mobility_2_slot02": {
     "x": -96,
     "y": -130,
-    "definition": "mobility_2_evasiverush"
+    "definition": "mobility_2_lowprofile"
   },
   "engineering_1_slot15": {
     "x": 64,
@@ -618,7 +618,7 @@
   "mobility_2_slot04": {
     "x": -96,
     "y": -278,
-    "definition": "mobility_2_reservejump"
+    "definition": "mobility_2_evasiverush"
   },
   "engineering_1_slot22": {
     "x": -64,
@@ -708,7 +708,7 @@
   "mobility_2_slot05": {
     "x": 96,
     "y": -278,
-    "definition": "mobility_2_lowprofile"
+    "definition": "mobility_2_reservejump"
   },
   "mobility_1_slot27": {
     "x": 32,

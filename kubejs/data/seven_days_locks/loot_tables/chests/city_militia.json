@@ -2,23 +2,19 @@
   "type": "minecraft:chest",
   "pools": [
     {
-      "rolls": {
-        "type": "minecraft:uniform",
-        "min": 3,
-        "max": 5
-      },
+      "rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
           "name": "minecraft:bread",
-          "weight": 8,
+          "weight": 5,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3,
-                "max": 7
+                "min": 5,
+                "max": 10
               }
             }
           ]
@@ -26,74 +22,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_beef",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 5
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cgm:basic_bullet",
-          "weight": 8,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 12,
-                "max": 30
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cgm:advanced_bullet",
-          "weight": 6,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 8,
-                "max": 18
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "cgm:shell",
           "weight": 4,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 5,
-                "max": 12
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
-          "weight": 4,
-          "functions": [
-            {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 2,
-                "max": 6
+                "min": 4,
+                "max": 8
               }
             }
           ]
@@ -107,8 +43,62 @@
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 2,
-                "max": 5
+                "min": 3,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "cgm:basic_bullet",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 24,
+                "max": 42
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cgm:advanced_bullet",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 14,
+                "max": 28
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "cgm:shell",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 12,
+                "max": 24
               }
             }
           ]
@@ -120,32 +110,22 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 91
+          "weight": 30
         },
         {
           "type": "minecraft:item",
-          "name": "fracturepoint:fsb_squad_leader_helmet",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "fracturepoint:fsb_squad_leader_chestplate",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "fracturepoint:insurgency_commander_helmet",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "fracturepoint:insurgency_commander_chestplate",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:diamond",
-          "weight": 1
+          "name": "minecraft:arrow",
+          "weight": 70,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 24,
+                "max": 48
+              }
+            }
+          ]
         }
       ]
     },
@@ -154,22 +134,66 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 94
+          "weight": 75
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fracturepoint:fsb_squad_leader_helmet",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fracturepoint:fsb_squad_leader_chestplate",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fracturepoint:insurgency_commander_helmet",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fracturepoint:insurgency_commander_chestplate",
+          "weight": 6
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:empty",
+          "weight": 88
         },
         {
           "type": "minecraft:item",
           "name": "seven_days_locks:blueprint_tacz_glock_17",
-          "weight": 2
+          "weight": 4
         },
         {
           "type": "minecraft:item",
           "name": "seven_days_locks:blueprint_tacz_db_short",
-          "weight": 1
+          "weight": 3
         },
         {
           "type": "minecraft:item",
           "name": "seven_days_locks:blueprint_tacz_hk_mp5a5",
-          "weight": 1
+          "weight": 2
         },
         {
           "type": "minecraft:item",
@@ -188,49 +212,65 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 95
+          "weight": 91
         },
         {
           "type": "minecraft:item",
-          "name": "tacz:attachment",
+          "name": "divine_weaponry:iron_cutlass",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": 18,
+              "treasure": false
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_battleaxe",
           "weight": 2,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{AttachmentId:\"tacz:scope_retro_2x\"}"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 18,
+              "treasure": false
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "tacz:attachment",
-          "weight": 1,
+          "name": "divine_weaponry:iron_dagger",
+          "weight": 2,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{AttachmentId:\"tacz:grip_vertical_military\"}"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 18,
+              "treasure": false
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "tacz:attachment",
-          "weight": 1,
+          "name": "divine_weaponry:diamond_cutlass",
+          "weight": 3,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{AttachmentId:\"tacz:laser_compact\"}"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 26,
+              "treasure": false
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "tacz:attachment",
-          "weight": 1,
+          "name": "divine_weaponry:diamond_battleaxe",
+          "weight": 2,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{AttachmentId:\"tacz:muzzle_compensator_trident\"}"
+              "function": "minecraft:enchant_with_levels",
+              "levels": 26,
+              "treasure": false
             }
           ]
         }
@@ -241,12 +281,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 98
+          "weight": 97
         },
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
-          "weight": 1,
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -257,11 +297,11 @@
         {
           "type": "minecraft:item",
           "name": "tacz:modern_kinetic_gun",
-          "weight": 1,
+          "weight": 2,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{GunId:\"tacz:hk_mp5a5\",GunFireMode:\"SEMI\"}"
+              "tag": "{GunId:\"tacz:db_short\",GunFireMode:\"SEMI\"}"
             }
           ]
         }

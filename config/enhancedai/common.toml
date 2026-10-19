@@ -5,7 +5,7 @@
 "Enable Endermen" = false
 "Enable Ghasts" = false
 "Enable Pets" = false
-"Enable Mobs" = false
+"Enable Mobs" = true
 "Enable Illagers" = false
 "Enable Shulkers" = false
 "Enable Bugs" = false
@@ -381,7 +381,7 @@
 	#Let mobs use ender pearls. Either put ender pearls in main or off hand and when far enough from the target they will throw it. Only mobs in the enhancedai:can_be_pearler entity type tag can be pearler.
 	"Enable Pearler Mobs" = false
 	#Mobs can mine blocks to reach the target. Uses offhand item to mine. Only mobs in the entity type tag enhancedai:can_be_miner can spawn with the ability to mine and blocks in the tag enhancedai:miner_block_blacklist cannot be mined.
-	"Enable Miner Mobs" = false
+	"Enable Miner Mobs" = true
 	"Enable Spawning" = false
 	#Makes mobs ride other mobs
 	"Enable Riding" = false
@@ -389,7 +389,7 @@
 	"Enable Targeting" = false
 	#Use enhancedai:can_open_doors to add more mobs that can open doors.
 	"Enable Open Doors" = false
-	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:no_run_from_explosion to blacklist them
+	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	"Enable Avoid Explosions" = false
 	#Endermen will make the player's item fall from his hands. Add/remove mobs via the enhancedai:can_disrupt_item entity type tag
 	"Enable Item Disruption" = false
@@ -471,21 +471,21 @@
 	[Mobs."Miner Mobs"]
 		#Chance for a mob in the entity type tag enhancedai:can_be_miner to spawn with the miner ability
 		#Range: 0.0 ~ 1.0
-		"Miner Chance" = 0.05
+		"Miner Chance" = 1.0
 		#Mobs with the miner AI will mine only if they have any tool in the off-hand
-		"Can mine with tool only" = true
+		"Can mine with tool only" = false
 		#Mobs with the miner AI will mine only if their off-hand tool can mine targeted blocks (e.g. zombies with shovels will not mine stone). Blocks that require no tool (e.g. planks) will be minable regardless of proper tool or not.
-		"Can mine with proper tool only" = true
+		"Can mine with proper tool only" = false
 		#If 'Can mine with proper tool only' is enabled, mobs with the miner AI will mine blocks that don't require a tool only with the proper tool.
-		"Always require proper tool" = true
+		"Always require proper tool" = false
 		#Mobs with Miner AI will spawn with a Stone Pickaxe that never drops.
-		"Equip Stone Pick" = true
+		"Equip Stone Pick" = false
 		#Mobs can mine from the bottom of the world to this Y level.
 		#Range: -512 ~ 1024
 		"Max Y" = 320
 		#The maximum distance from the target at which the Mobs can mine. Set to 0 to always mine.
 		#Range: 0 ~ 128
-		"Max Distance" = 20
+		"Max Distance" = 8
 		#Mobs with Miner AI will not be able to break tile entities
 		"Blacklist Tile Entities" = true
 		#Multiplier for the time a mob takes to break blocks. E.g. with this set to 2, mobs will take twice the time to mine a block.
@@ -559,7 +559,7 @@
 			#Range: 0.0 ~ 1.0
 			Hard = 0.04
 
-	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:no_run_from_explosion to blacklist them
+	#Mobs will run away from exploding creepers / TNT. Use the entity type tag enhancedai:can_run_from_explosion to whitelist them
 	[Mobs."Avoid Explosions"]
 		#Speed multiplier when the mob runs from explosions and it's within 7 blocks from him.
 		#Range: 0.0 ~ 10.0
