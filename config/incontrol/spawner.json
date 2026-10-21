@@ -458,5 +458,104 @@
       },
       "maxverticaldist": 16
     }
+  },
+  {
+    "attempts": 28,
+    "mob": "minecraft:zombie",
+    "amount": {
+      "minimum": 1,
+      "maximum": 2
+    },
+    "persecond": 0.1,
+    "weights": 1,
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": -55,
+      "maxheight": 48,
+      "mindist": 32,
+      "maxdist": 56,
+      "maxverticaldist": 12,
+      "maxlocal": 5,
+      "norestrictions": true,
+      "and": {
+        "structure": "minecraft:mineshaft",
+        "maxlight": 4
+      },
+      "not": {
+        "biome": [
+          "minecraft:deep_dark"
+        ],
+        "biometags": [
+          "alexscaves:alexs_caves_biomes",
+          "forge:no_default_monsters"
+        ]
+      }
+    }
+  },
+  {
+    "attempts": 28,
+    "mob": "zombie_extreme:runner",
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "persecond": 0.035,
+    "weights": 1,
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": -55,
+      "maxheight": 48,
+      "mindist": 32,
+      "maxdist": 56,
+      "maxverticaldist": 12,
+      "maxlocal": 2,
+      "norestrictions": true,
+      "and": {
+        "structure": "minecraft:mineshaft",
+        "maxlight": 4
+      },
+      "not": {
+        "biome": [
+          "minecraft:deep_dark"
+        ],
+        "biometags": [
+          "alexscaves:alexs_caves_biomes",
+          "forge:no_default_monsters"
+        ]
+      }
+    }
+  },
+  {
+    "attempts": 28,
+    "mob": "minecraft:cave_spider",
+    "amount": {
+      "minimum": 1,
+      "maximum": 1
+    },
+    "persecond": 0.055,
+    "weights": 1,
+    "conditions": {
+      "dimension": "minecraft:overworld",
+      "minheight": -55,
+      "maxheight": 48,
+      "mindist": 32,
+      "maxdist": 56,
+      "maxverticaldist": 12,
+      "maxlocal": 3,
+      "norestrictions": true,
+      "and": {
+        "structure": "minecraft:mineshaft",
+        "maxlight": 4
+      },
+      "not": {
+        "biome": [
+          "minecraft:deep_dark"
+        ],
+        "biometags": [
+          "alexscaves:alexs_caves_biomes",
+          "forge:no_default_monsters"
+        ]
+      }
+    }
   }
 ]
