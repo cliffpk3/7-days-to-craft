@@ -490,7 +490,7 @@
 		"Blacklist Tile Entities" = true
 		#Multiplier for the time a mob takes to break blocks. E.g. with this set to 2, mobs will take twice the time to mine a block.
 		#Range: 0.0 ~ 128.0
-		"Time to break multiplier" = 4
+		"Time to break multiplier" = 2.5
 
 		#Dimensions where mobs can't spawn with the ability to mine.
 		[Mobs."Miner Mobs"."Dimension Blacklist"]
