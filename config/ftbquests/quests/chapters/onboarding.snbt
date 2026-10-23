@@ -128,72 +128,47 @@
 		{
 			dependencies: ["7D7C110000000003"]
 			description: [
-				"Prepare before the first horde cycle. Craft, obtain or use a furnace for food and material processing, then equip a complete set of armor for protection."
+				"Bring back Rotten Flesh from a zombie. You will use it when forging your personal Core."
 				""
-				"The four armor pieces may use any material and do not need to match. Equip a helmet, chestplate, leggings and boots before continuing."
+				"The final cache and key are awarded only after you personally craft and place your Core."
 			]
-			icon: {
-				Count: 1
-				id: "minecraft:shield"
-				tag: {
-					Damage: 0
-				}
-			}
-			id: "7D7C110000000006"
-			rewards: [{
-				id: "7D7C1A0000000009"
-				item: "minecraft:golden_apple"
-				type: "item"
-			}]
-			tasks: [
-				{
-					advancement: "seven_days_to_craft:onboarding/furnace"
-					criterion: "completed"
-					id: "7D7C1B0000000007"
-					title: "Craft, obtain or use a Furnace"
-					type: "advancement"
-				}
-				{
-					advancement: "seven_days_to_craft:onboarding/armor_set"
-					criterion: "completed"
-					id: "7D7C1B0000000011"
-					title: "Equip any complete armor set"
-					type: "advancement"
-				}
-			]
-			title: "Prepare for the First Horde"
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7D7C110000000006"]
-			description: [
-				"Ordinary hostile mobs have a small chance to drop Level 1 Keys. Bring back Rotten Flesh from a zombie to complete your onboarding."
-				""
-				"Your final reward contains an Iron Level 1 Key and a portable locked chest. Place the chest, then unlock it with the key. This onboarding chest always contains one random Rank 1 amulet in addition to its normal Level 1 supplies."
-			]
-			icon: "seven_days_locks:training_cache"
+			icon: "minecraft:rotten_flesh"
 			id: "7D7C110000000007"
-			rewards: [
-				{
-					auto: "enabled"
-					id: "7D7C1A0000000010"
-					item: "wrd:keystrongholdchest_iron"
-					type: "item"
-				}
-				{
-					auto: "enabled"
-					id: "7D7C1A0000000011"
-					item: "seven_days_locks:training_cache"
-					type: "item"
-				}
-			]
 			tasks: [{
 				id: "7D7C1B0000000010"
 				item: "minecraft:rotten_flesh"
 				type: "item"
 			}]
-			title: "Your First Locked Cache"
+			title: "Proof of Survival"
+			x: 8.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D7C110000000007"]
+			description: [
+				"Forge the Knight Statue from Functional Statues yourself, then place your personal Core in the world."
+				""
+				"A placed Core lets you respawn in Survival. Monsters and other players can damage it. Without a placed Core, your health slowly drains; carrying it drains more slowly. If you die without an active Core, you become a stationary spectator until another survivor restores it."
+				""
+				"Only your own crafting and a valid placement grant the Level 1 key and locked cache. Team quest progress alone does not grant these items."
+			]
+			icon: "golemstatue:shielded_knight_statue"
+			id: "7D7C110000000009"
+			tasks: [
+				{
+					advancement: "seven_days_core:onboarding/core_crafted"
+					criterion: "completed"
+					id: "7D7C1B0000000013"
+					type: "advancement"
+				}
+				{
+					advancement: "seven_days_core:onboarding/core_placed"
+					criterion: "completed"
+					id: "7D7C1B0000000014"
+					type: "advancement"
+				}
+			]
+			title: "Establish Your Core"
 			x: 10.0d
 			y: 0.0d
 		}
