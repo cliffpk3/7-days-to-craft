@@ -11,7 +11,7 @@
 			description: [
 				"Welcome to 7 Days to Craft. Craft or use a Crafting Table to establish your first workspace."
 				""
-				"Completing this first step provides the wool needed for a bed. The world becomes more dangerous as the seventh day approaches."
+				"Completing this first step provides the wool needed for a bed. The world becomes more dangerous as the fourth day approaches."
 			]
 			icon: "minecraft:compass"
 			id: "7D7C110000000001"
@@ -69,31 +69,6 @@
 		{
 			dependencies: ["7D7C110000000008"]
 			description: [
-				"Press K to open the skill tree. You begin with skill points available."
-				""
-				"Spend your first point deliberately: skills control movement, scavenging, combat and engineering progression."
-			]
-			icon: "minecraft:experience_bottle"
-			id: "7D7C110000000002"
-			rewards: [{
-				count: 8
-				id: "7D7C1A0000000003"
-				item: "minecraft:leather"
-				type: "item"
-			}]
-			tasks: [{
-				advancement: "seven_days_to_craft:onboarding/first_skill"
-				criterion: "completed"
-				id: "7D7C1B0000000002"
-				type: "advancement"
-			}]
-			title: "Your First Skill"
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7D7C110000000002"]
-			description: [
 				"The custom Workbench is the main catalog for weapons, equipment, utilities and progression items."
 				""
 				"Craft or interact with a CGM Workbench and inspect its categories before continuing."
@@ -122,37 +97,19 @@
 				type: "advancement"
 			}]
 			title: "The Workbench"
-			x: 6.0d
+			x: 4.0d
 			y: 0.0d
 		}
 		{
 			dependencies: ["7D7C110000000003"]
 			description: [
-				"Bring back Rotten Flesh from a zombie. You will use it when forging your personal Core."
-				""
-				"The final cache and key are awarded only after you personally craft and place your Core."
-			]
-			icon: "minecraft:rotten_flesh"
-			id: "7D7C110000000007"
-			tasks: [{
-				id: "7D7C1B0000000010"
-				item: "minecraft:rotten_flesh"
-				type: "item"
-			}]
-			title: "Proof of Survival"
-			x: 8.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7D7C110000000007"]
-			description: [
-				"Forge the Knight Statue from Functional Statues yourself, then place your personal Core in the world."
+				"Craft the TaCZ Stone Statue yourself, then place your personal Core in the world. Click the statue item in this quest to open its recipe."
 				""
 				"A placed Core lets you respawn in Survival. Monsters and other players can damage it. Without a placed Core, your health slowly drains; carrying it drains more slowly. If you die without an active Core, you become a stationary spectator until another survivor restores it."
 				""
 				"Only your own crafting and a valid placement grant the Level 1 key and locked cache. Team quest progress alone does not grant these items."
 			]
-			icon: "golemstatue:shielded_knight_statue"
+			icon: "tacz:statue"
 			id: "7D7C110000000009"
 			tasks: [
 				{
@@ -162,6 +119,11 @@
 					type: "advancement"
 				}
 				{
+					id: "7D7C1B0000000015"
+					item: "tacz:statue"
+					type: "item"
+				}
+				{
 					advancement: "seven_days_core:onboarding/core_placed"
 					criterion: "completed"
 					id: "7D7C1B0000000014"
@@ -169,7 +131,7 @@
 				}
 			]
 			title: "Establish Your Core"
-			x: 10.0d
+			x: 6.0d
 			y: 0.0d
 		}
 	]

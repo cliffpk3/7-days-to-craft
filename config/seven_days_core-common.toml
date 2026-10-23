@@ -1,0 +1,9 @@
+
+#Health drain while a survivor has no placed Core. One health point per interval.
+[survival]
+	#Core in the owner's inventory
+	#Range: 5 ~ 3600
+	carriedDrainSeconds = 90
+	#Core destroyed, dropped or otherwise absent
+	#Range: 5 ~ 3600
+	missingDrainSeconds = 10
