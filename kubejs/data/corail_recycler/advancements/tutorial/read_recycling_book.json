@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:knowledge_book"
+    },
+    "title": {
+      "translate": "advancement.read_recycling_book.title"
+    },
+    "description": {
+      "translate": "advancement.read_recycling_book.desc"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "corail_recycler:tutorial/build_recycler",
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "corail_recycler:read_recycling_book"
+    }
+  }
+}

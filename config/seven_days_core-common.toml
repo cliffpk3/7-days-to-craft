@@ -6,4 +6,5 @@
 	carriedDrainSeconds = 90
 	#Core destroyed, dropped or otherwise absent
 	#Range: 5 ~ 3600
-	missingDrainSeconds = 10
+	missingDrainSeconds = 5
+

@@ -86,40 +86,6 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 81
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_glock_17",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_db_short",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_hk_mp5a5",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_m4a1",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_m700",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
           "weight": 162
         },
         {

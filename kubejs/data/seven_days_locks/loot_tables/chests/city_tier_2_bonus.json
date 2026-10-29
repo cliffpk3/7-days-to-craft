@@ -97,7 +97,7 @@
         {
           "type": "minecraft:item",
           "name": "divine_weaponry:diamond_cutlass",
-          "weight": 3,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -109,7 +109,7 @@
         {
           "type": "minecraft:item",
           "name": "divine_weaponry:diamond_battleaxe",
-          "weight": 2,
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -117,40 +117,6 @@
               "treasure": false
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 44
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_glock_17",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_db_short",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_hk_mp5a5",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_m4a1",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_m700",
-          "weight": 1
         }
       ]
     },
@@ -180,6 +146,62 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{GunId:\"tacz:db_short\",GunFireMode:\"SEMI\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7dtc:blueprint",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.2
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 5,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"melee_iron\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"armor_scrap\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"attachment_medium_scope\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"attachment_light_grip\"}"
             }
           ]
         }

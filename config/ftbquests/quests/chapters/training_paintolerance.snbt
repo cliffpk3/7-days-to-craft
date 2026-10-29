@@ -46,13 +46,13 @@
 			description: [
 				"At or below 20% health, observe the temporary resistance effect."
 				""
-				"The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."
+				"The milestone is active immediately. Complete this lesson once to claim a rare supply bundle."
 			]
 			icon: "minecraft:totem_of_undying"
 			id: "7D7C310000000014"
 			rewards: [{
 				id: "7D7C340000000014"
-				item: "wrd:keystrongholdchest_treasure"
+				item: "seven_days_workbenches:rare_supply_bundle"
 				type: "item"
 			}]
 			tasks: [{

@@ -16,7 +16,7 @@
 			id: "7D7C310000000017"
 			rewards: [{
 				id: "7D7C340000000017"
-				item: "wrd:keystrongholdchest_treasure"
+				item: "seven_days_workbenches:rare_supply_bundle"
 				type: "item"
 			}]
 			tasks: [{

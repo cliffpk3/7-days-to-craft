@@ -46,13 +46,13 @@
 			description: [
 				"Craft, obtain or interact with a Basic Turret, then install and load it with turret ammunition."
 				""
-				"The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."
+				"The milestone is active immediately. Complete this lesson once to claim a medium supply bundle."
 			]
 			icon: "seven_days_defense:basic_turret"
 			id: "7D7C31000000000F"
 			rewards: [{
 				id: "7D7C34000000000F"
-				item: "wrd:keystrongholdchest_gold"
+				item: "seven_days_workbenches:medium_supply_bundle"
 				type: "item"
 			}]
 			tasks: [{

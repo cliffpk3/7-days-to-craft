@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_nugget"
+    },
+    "title": {
+      "translate": "advancement.first_recycle.title"
+    },
+    "description": {
+      "translate": "advancement.first_recycle.desc"
+    },
+    "frame": "goal",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "corail_recycler:tutorial/build_disk",
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "corail_recycler:first_recycle"
+    }
+  }
+}

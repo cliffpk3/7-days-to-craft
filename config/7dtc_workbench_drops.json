@@ -1,0 +1,635 @@
+{
+  "schema": 1,
+  "notes": "Player kills only; summoned/horde mobs excluded. One weighted resource roll per ordinary mob kill, including native loot as the fallback. Each selected stack has count 1. Boss cores retain unique native boss loot.",
+  "sources": [
+    {
+      "mob": "minecraft:zombie",
+      "drops": [
+        {
+          "item": "minecraft:iron_nugget",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:string",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:raw_anthralite",
+          "chance": 0.55,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "hordes:zombie_player",
+      "drops": [
+        {
+          "item": "minecraft:iron_nugget",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:raw_anthralite",
+          "chance": 0.55,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "born_in_chaos_v1:decaying_zombie",
+      "drops": [
+        {
+          "item": "minecraft:iron_nugget",
+          "chance": 0.25,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "zombie_extreme:raw_steel",
+          "chance": 0.65,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "born_in_chaos_v1:zombie_lumberjack",
+      "drops": [
+        {
+          "item": "minecraft:iron_nugget",
+          "chance": 0.35,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "zombie_extreme:raw_aluminum",
+          "chance": 0.65,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "born_in_chaos_v1:zombie_fisherman",
+      "drops": [
+        {
+          "item": "minecraft:string",
+          "chance": 0.55,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "zombie_extreme:raw_lead",
+          "chance": 0.65,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "born_in_chaos_v1:barrel_zombie",
+      "drops": [
+        {
+          "item": "minecraft:gunpowder",
+          "chance": 0.55,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "zombie_extreme:raw_steel",
+          "chance": 0.85,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:copper_gun_frame",
+          "chance": 0.7,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "scguns:cog_minion",
+      "drops": [
+        {
+          "item": "scguns:gun_parts",
+          "chance": 0.15,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:raw_anthralite",
+          "chance": 0.85,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:copper_gun_frame",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "born_in_chaos_v1:zombie_bruiser",
+      "drops": [
+        {
+          "item": "scguns:armor_plate",
+          "chance": 0.25,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "scguns:supply_scamp",
+      "drops": [
+        {
+          "item": "scguns:gun_parts",
+          "chance": 0.4,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:raw_anthralite",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:copper_gun_frame",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "scguns:trauma_unit",
+      "drops": [
+        {
+          "item": "scguns:armor_plate",
+          "chance": 0.35,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "chance": 0.8,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "scguns:cog_knight",
+      "drops": [
+        {
+          "item": "scguns:rapid_firing_unit",
+          "chance": 0.15,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "chance": 0.75,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "scguns:sulfurhead",
+      "drops": [
+        {
+          "item": "scguns:sulfur_chunk",
+          "chance": 0.55,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:raw_phosphor",
+          "chance": 0.25,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "scguns:hive",
+      "drops": [
+        {
+          "item": "scguns:raw_phosphor",
+          "chance": 0.45,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "scguns:scamp_tank",
+      "drops": [
+        {
+          "item": "scguns:heavy_armor_plate",
+          "chance": 0.35,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "scguns:subjugator",
+      "drops": [
+        {
+          "item": "seven_days_workbenches:boss_core",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "mutantmonsters:mutant_zombie",
+      "drops": [
+        {
+          "item": "seven_days_workbenches:boss_core",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "wrd:buff_zombie",
+      "drops": [
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "chance": 0.65,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "scguns:viventrum",
+      "drops": [
+        {
+          "item": "seven_days_workbenches:boss_core",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "scguns:adjudicator",
+      "drops": [
+        {
+          "item": "seven_days_workbenches:boss_core",
+          "chance": 1.0,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "minecraft:husk",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_steel",
+          "chance": 0.9,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "minecraft:drowned",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_lead",
+          "chance": 0.9,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "minecraft:zombie_villager",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_aluminum",
+          "chance": 0.9,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:crawler",
+      "drops": [
+        {
+          "item": "scguns:raw_anthralite",
+          "chance": 0.42,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:infected",
+      "drops": [
+        {
+          "item": "scguns:raw_anthralite",
+          "chance": 0.48,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:runner",
+      "drops": [
+        {
+          "item": "scguns:copper_gun_frame",
+          "chance": 0.44,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:revived",
+      "drops": [
+        {
+          "item": "scguns:raw_anthralite",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:faceless",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_aluminum",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:divided",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_aluminum",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:clicker",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_lead",
+          "chance": 0.55,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:boomer",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_steel",
+          "chance": 0.52,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "chance": 0.25,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:explosive_infected",
+      "drops": [
+        {
+          "item": "minecraft:gunpowder",
+          "chance": 0.5,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "zombie_extreme:raw_steel",
+          "chance": 0.35,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:infected_police",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_steel",
+          "chance": 0.58,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "chance": 0.3,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:military",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_lead",
+          "chance": 0.55,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "chance": 0.32,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:infected_military",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_lead",
+          "chance": 0.6,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "chance": 0.35,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:infected_hazmat",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_aluminum",
+          "chance": 0.58,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "chance": 0.22,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:goon",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_steel",
+          "chance": 0.62,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "chance": 0.3,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:ram",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_aluminum",
+          "chance": 0.64,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "chance": 0.28,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:infected_juggernaut",
+      "drops": [
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "chance": 0.72,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:demolisher",
+      "drops": [
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "chance": 0.72,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:chainsaw",
+      "drops": [
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "chance": 0.64,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:zero_patient",
+      "drops": [
+        {
+          "item": "seven_days_workbenches:boss_core",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:rat_king",
+      "drops": [
+        {
+          "item": "seven_days_workbenches:boss_core",
+          "chance": 1,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:night_hunter",
+      "drops": [
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "chance": 0.7,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,254 @@
+{
+    default_hide_dependency_lines: false
+    default_quest_shape: ""
+    filename: "workbench_progression"
+    group: "7D7C000000000001"
+    hide_quest_until_deps_visible: true
+    icon: "seven_days_workbenches:weapons_workbench"
+    id: "7D7C930000000001"
+    order_index: 2
+    quest_links: [ ]
+    quests: [
+        {
+            dependencies: ["7D7C110000000003"]
+            description: ["Craft a Weapons Workbench at the central Workbench, or interact with one already placed."]
+            icon: "seven_days_workbenches:weapons_workbench"
+            id: "7D7C900000000001"
+            rewards: [{
+                id: "7D7C920000000001"
+                item: "seven_days_workbenches:basic_supply_bundle"
+                type: "item"
+            }]
+            tasks: [{
+                advancement: "seven_days_workbenches:workbenches/weapons_workbench_level_1"
+                criterion: "completed"
+                id: "7D7C910000000001"
+                type: "advancement"
+            }]
+            title: "Craft or Interact with a Weapons Workbench"
+            x: 0.0d
+            y: 0.0d
+        }
+        {
+            dependencies: ["7D7C900000000001"]
+            description: ["Upgrade your Weapons Workbench to Level 2, or interact with one already at Level 2 or higher."]
+            icon: "seven_days_workbenches:weapons_workbench"
+            id: "7D7C900000000002"
+            rewards: [{
+                id: "7D7C920000000002"
+                item: "seven_days_workbenches:medium_supply_bundle"
+                type: "item"
+            }]
+            tasks: [{
+                advancement: "seven_days_workbenches:workbenches/weapons_workbench_level_2"
+                criterion: "completed"
+                id: "7D7C910000000002"
+                type: "advancement"
+            }]
+            title: "Upgrade or Interact with a Level 2 Weapons Workbench"
+            x: 3.0d
+            y: 0.0d
+        }
+        {
+            dependencies: ["7D7C900000000002"]
+            description: ["Upgrade your Weapons Workbench to Level 3, or interact with one already at Level 3 or higher."]
+            icon: "seven_days_workbenches:weapons_workbench"
+            id: "7D7C900000000003"
+            rewards: [{
+                id: "7D7C920000000003"
+                item: "seven_days_workbenches:rare_supply_bundle"
+                type: "item"
+            }]
+            tasks: [{
+                advancement: "seven_days_workbenches:workbenches/weapons_workbench_level_3"
+                criterion: "completed"
+                id: "7D7C910000000003"
+                type: "advancement"
+            }]
+            title: "Upgrade or Interact with a Level 3 Weapons Workbench"
+            x: 6.0d
+            y: 0.0d
+        }
+        {
+            dependencies: ["7D7C110000000003"]
+            description: ["Craft a Armor Workbench at the central Workbench, or interact with one already placed."]
+            icon: "seven_days_workbenches:armor_workbench"
+            id: "7D7C900000000004"
+            rewards: [{
+                id: "7D7C920000000004"
+                item: "seven_days_workbenches:basic_supply_bundle"
+                type: "item"
+            }]
+            tasks: [{
+                advancement: "seven_days_workbenches:workbenches/armor_workbench_level_1"
+                criterion: "completed"
+                id: "7D7C910000000004"
+                type: "advancement"
+            }]
+            title: "Craft or Interact with a Armor Workbench"
+            x: 0.0d
+            y: 3.0d
+        }
+        {
+            dependencies: ["7D7C900000000004"]
+            description: ["Upgrade your Armor Workbench to Level 2, or interact with one already at Level 2 or higher."]
+            icon: "seven_days_workbenches:armor_workbench"
+            id: "7D7C900000000005"
+            rewards: [{
+                id: "7D7C920000000005"
+                item: "seven_days_workbenches:medium_supply_bundle"
+                type: "item"
+            }]
+            tasks: [{
+                advancement: "seven_days_workbenches:workbenches/armor_workbench_level_2"
+                criterion: "completed"
+                id: "7D7C910000000005"
+                type: "advancement"
+            }]
+            title: "Upgrade or Interact with a Level 2 Armor Workbench"
+            x: 3.0d
+            y: 3.0d
+        }
+        {
+            dependencies: ["7D7C900000000005"]
+            description: ["Upgrade your Armor Workbench to Level 3, or interact with one already at Level 3 or higher."]
+            icon: "seven_days_workbenches:armor_workbench"
+            id: "7D7C900000000006"
+            rewards: [{
+                id: "7D7C920000000006"
+                item: "seven_days_workbenches:rare_supply_bundle"
+                type: "item"
+            }]
+            tasks: [{
+                advancement: "seven_days_workbenches:workbenches/armor_workbench_level_3"
+                criterion: "completed"
+                id: "7D7C910000000006"
+                type: "advancement"
+            }]
+            title: "Upgrade or Interact with a Level 3 Armor Workbench"
+            x: 6.0d
+            y: 3.0d
+        }
+        {
+            dependencies: ["7D7C110000000003"]
+            description: ["Craft a Ordnance Workbench at the central Workbench, or interact with one already placed."]
+            icon: "seven_days_workbenches:ordnance_workbench"
+            id: "7D7C900000000007"
+            rewards: [{
+                id: "7D7C920000000007"
+                item: "seven_days_workbenches:basic_supply_bundle"
+                type: "item"
+            }]
+            tasks: [{
+                advancement: "seven_days_workbenches:workbenches/ordnance_workbench_level_1"
+                criterion: "completed"
+                id: "7D7C910000000007"
+                type: "advancement"
+            }]
+            title: "Craft or Interact with a Ordnance Workbench"
+            x: 0.0d
+            y: 6.0d
+        }
+        {
+            dependencies: ["7D7C900000000007"]
+            description: ["Upgrade your Ordnance Workbench to Level 2, or interact with one already at Level 2 or higher."]
+            icon: "seven_days_workbenches:ordnance_workbench"
+            id: "7D7C900000000008"
+            rewards: [{
+                id: "7D7C920000000008"
+                item: "seven_days_workbenches:medium_supply_bundle"
+                type: "item"
+            }]
+            tasks: [{
+                advancement: "seven_days_workbenches:workbenches/ordnance_workbench_level_2"
+                criterion: "completed"
+                id: "7D7C910000000008"
+                type: "advancement"
+            }]
+            title: "Upgrade or Interact with a Level 2 Ordnance Workbench"
+            x: 3.0d
+            y: 6.0d
+        }
+        {
+            dependencies: ["7D7C900000000008"]
+            description: ["Upgrade your Ordnance Workbench to Level 3, or interact with one already at Level 3 or higher."]
+            icon: "seven_days_workbenches:ordnance_workbench"
+            id: "7D7C900000000009"
+            rewards: [{
+                id: "7D7C920000000009"
+                item: "seven_days_workbenches:rare_supply_bundle"
+                type: "item"
+            }]
+            tasks: [{
+                advancement: "seven_days_workbenches:workbenches/ordnance_workbench_level_3"
+                criterion: "completed"
+                id: "7D7C910000000009"
+                type: "advancement"
+            }]
+            title: "Upgrade or Interact with a Level 3 Ordnance Workbench"
+            x: 6.0d
+            y: 6.0d
+        }
+        {
+            dependencies: ["7D7C110000000003"]
+            description: ["Craft a Utility and Potion Workbench at the central Workbench, or interact with one already placed."]
+            icon: "seven_days_workbenches:utility_potion_workbench"
+            id: "7D7C90000000000A"
+            rewards: [{
+                id: "7D7C92000000000A"
+                item: "seven_days_workbenches:basic_supply_bundle"
+                type: "item"
+            }]
+            tasks: [{
+                advancement: "seven_days_workbenches:workbenches/utility_potion_workbench_level_1"
+                criterion: "completed"
+                id: "7D7C91000000000A"
+                type: "advancement"
+            }]
+            title: "Craft or Interact with a Utility and Potion Workbench"
+            x: 0.0d
+            y: 9.0d
+        }
+        {
+            dependencies: ["7D7C90000000000A"]
+            description: ["Upgrade your Utility and Potion Workbench to Level 2, or interact with one already at Level 2 or higher."]
+            icon: "seven_days_workbenches:utility_potion_workbench"
+            id: "7D7C90000000000B"
+            rewards: [{
+                id: "7D7C92000000000B"
+                item: "seven_days_workbenches:medium_supply_bundle"
+                type: "item"
+            }]
+            tasks: [{
+                advancement: "seven_days_workbenches:workbenches/utility_potion_workbench_level_2"
+                criterion: "completed"
+                id: "7D7C91000000000B"
+                type: "advancement"
+            }]
+            title: "Upgrade or Interact with a Level 2 Utility and Potion Workbench"
+            x: 3.0d
+            y: 9.0d
+        }
+        {
+            dependencies: ["7D7C90000000000B"]
+            description: ["Upgrade your Utility and Potion Workbench to Level 3, or interact with one already at Level 3 or higher."]
+            icon: "seven_days_workbenches:utility_potion_workbench"
+            id: "7D7C90000000000C"
+            rewards: [{
+                id: "7D7C92000000000C"
+                item: "seven_days_workbenches:rare_supply_bundle"
+                type: "item"
+            }]
+            tasks: [{
+                advancement: "seven_days_workbenches:workbenches/utility_potion_workbench_level_3"
+                criterion: "completed"
+                id: "7D7C91000000000C"
+                type: "advancement"
+            }]
+            title: "Upgrade or Interact with a Level 3 Utility and Potion Workbench"
+            x: 6.0d
+            y: 9.0d
+        }
+    ]
+    title: "Workbench Progression"
+}

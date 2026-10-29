@@ -20,7 +20,7 @@
 			id: "7D7C310000000021"
 			rewards: [{
 				id: "7D7C340000000021"
-				item: "wrd:keystrongholdchest_diamond"
+				item: "seven_days_workbenches:medium_supply_bundle"
 				type: "item"
 			}]
 			tasks: [{

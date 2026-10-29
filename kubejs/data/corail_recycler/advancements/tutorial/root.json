@@ -1,0 +1,21 @@
+{
+  "display": {
+    "icon": {
+      "item": "corail_recycler:recycler"
+    },
+    "title": {
+      "translate": "advancement.tutorial.title"
+    },
+    "description": {
+      "translate": "advancement.tutorial.desc"
+    },
+    "background": "minecraft:textures/gui/advancements/backgrounds/stone.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "auto": {
+      "trigger": "location"
+    }
+  }
+}

@@ -30,13 +30,13 @@
 			description: [
 				"Smelt, obtain or interact with Smooth Stone, then place it as a monster-resistant fortification."
 				""
-				"The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."
+				"The milestone is active immediately. Complete this lesson once to claim a rare supply bundle."
 			]
 			icon: "minecraft:smooth_stone"
 			id: "7D7C31000000001B"
 			rewards: [{
 				id: "7D7C34000000001B"
-				item: "wrd:keystrongholdchest_treasure"
+				item: "seven_days_workbenches:rare_supply_bundle"
 				type: "item"
 			}]
 			tasks: [{

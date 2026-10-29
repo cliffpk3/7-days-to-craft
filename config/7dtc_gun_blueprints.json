@@ -1,6 +1,6 @@
 {
   "tier1": {
-    "chance": 0.0025,
+    "chance": 0.0,
     "blueprints": [
       "tacz_glock_17",
       "tacz_m1911",
@@ -8,7 +8,7 @@
     ]
   },
   "tier2": {
-    "chance": 0.005,
+    "chance": 0.0,
     "blueprints": [
       "tacz_p320",
       "tacz_hk_mp5a5",
@@ -18,7 +18,7 @@
     ]
   },
   "tier3": {
-    "chance": 0.01,
+    "chance": 0.0,
     "blueprints": [
       "tacz_m4a1",
       "tacz_ak47",
@@ -29,7 +29,7 @@
     ]
   },
   "tier4": {
-    "chance": 0.015,
+    "chance": 0.0,
     "blueprints": [
       "tacz_deagle",
       "tacz_hk416d",

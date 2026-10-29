@@ -1,0 +1,2 @@
+give @s minecraft:bundle{Items:[{id:"minecraft:compass",Count:1b},{id:"minecraft:spyglass",Count:1b},{id:"minecraft:torch",Count:32b},{id:"minecraft:bread",Count:16b},{id:"minecraft:iron_pickaxe",Count:1b}],display:{Name:"{\"text\": \"Lost Cities - kit de exploracao\", \"color\": \"gold\", \"italic\": false}"}} 1
+tellraw @s {"text":"The Lost Cities gera cidades. Este kit tem ferramentas de exploracao; o mod nao adiciona mobs ou itens proprios.","color":"yellow"}

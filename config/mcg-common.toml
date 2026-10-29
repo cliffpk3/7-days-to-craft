@@ -1,0 +1,134 @@
+
+[dismemberment]
+	#Master switch for severing, blood, and altered mob movement.
+	enableGore = true
+	#Multiplier applied to cutting damage accumulated on a body part.
+	#Range: 0.1 ~ 10.0
+	traumaMultiplier = 1.0
+	#Maximum health damage from a hit aimed at a severable non-vital limb.
+	#This leaves enough time to remove multiple limbs without making torso hits harmless.
+	#Range: 0.0 ~ 20.0
+	limbDamageCap = 2.0
+	#Allows mobs that survive decapitation, such as zombies and skeletons,
+	#to acquire and keep attack targets.
+	headlessMobsCanTarget = false
+	#Blood particles emitted by a successful sever.
+	#Range: 0 ~ 200
+	bloodParticles = 28
+	#Ticks before a severed body part fades out and disappears.
+	#Range: 20 ~ 1200
+	severedPartLifetimeTicks = 400
+	#Ticks a supported mob's body remains after the vanilla death animation.
+	#Range: 20 ~ 1200
+	corpseLifetimeTicks = 400
+	#Allows equipment removed by severed body parts to drop as items.
+	#This does not affect vanilla death drops.
+	severedEquipmentDrops = true
+	#Chance that a held item removed by a severed arm drops.
+	#The default matches vanilla mob equipment drop chance.
+	#Range: 0.0 ~ 1.0
+	severedHeldItemDropChance = 0.085
+	#Chance that armor removed by a severed body part drops.
+	#The default matches vanilla mob equipment drop chance.
+	#Range: 0.0 ~ 1.0
+	severedArmorDropChance = 0.085
+	#Chance that dropped damageable severed equipment has low remaining durability.
+	#Low durability means roughly 5% to 25% durability remaining.
+	#Range: 0.0 ~ 1.0
+	severedItemLowDurabilityChance = 0.85
+	#Chance that dropped damageable severed equipment has medium remaining durability.
+	#Medium durability means roughly 25% to 55% durability remaining.
+	#Any remaining chance after low and medium rolls produces high durability.
+	#Range: 0.0 ~ 1.0
+	severedItemMediumDurabilityChance = 0.15
+	#Enables weapon force based severing.
+	#When disabled, severing uses the legacy behavior.
+	forceBasedSevering = false
+	#Allows damaging projectiles, such as arrows, to sever body parts.
+	#Thrown tridents can sever independently of this setting.
+	projectilesSeverLimbs = false
+	#Global force multiplier used only when force based severing is enabled.
+	#Range: 0.0 ~ 3.0
+	severingBaseForceMultiplier = 0.75
+	#How strongly the player's attack cooldown affects severing force.
+	#0 ignores attack charge, 1 fully applies the charge curve.
+	#Range: 0.0 ~ 1.0
+	severingAttackChargeImpact = 0.85
+	#Weapon type multiplier for swords in force based severing mode.
+	#Range: 0.0 ~ 3.0
+	swordSeveringMultiplier = 0.8
+	#Weapon type multiplier for axes in force based severing mode.
+	#Range: 0.0 ~ 3.0
+	axeSeveringMultiplier = 1.45
+	#Weapon type multiplier for tridents in force based severing mode.
+	#Range: 0.0 ~ 3.0
+	tridentSeveringMultiplier = 1.05
+	#Weapon type multiplier for non-standard items in the severing_weapons tag.
+	#Range: 0.0 ~ 3.0
+	taggedWeaponSeveringMultiplier = 1.0
+	#Material multiplier for wooden tier weapons in force based severing mode.
+	#Range: 0.0 ~ 3.0
+	woodSeveringMultiplier = 0.55
+	#Material multiplier for stone tier weapons in force based severing mode.
+	#Range: 0.0 ~ 3.0
+	stoneSeveringMultiplier = 0.85
+	#Material multiplier for iron tier weapons in force based severing mode.
+	#Range: 0.0 ~ 3.0
+	ironSeveringMultiplier = 1.0
+	#Material multiplier for golden tier weapons in force based severing mode.
+	#Range: 0.0 ~ 3.0
+	goldSeveringMultiplier = 0.65
+	#Material multiplier for diamond tier weapons in force based severing mode.
+	#Range: 0.0 ~ 3.0
+	diamondSeveringMultiplier = 1.28
+	#Material multiplier for netherite tier weapons in force based severing mode.
+	#Range: 0.0 ~ 3.0
+	netheriteSeveringMultiplier = 1.38
+	#Allows equipped armor to reduce severing trauma in force based severing mode.
+	armorInfluencesSevering = true
+	#Allows helmets to protect heads from severing in force based severing mode.
+	helmetsProtectHeads = true
+	#Allows chest armor to protect arms from severing in force based severing mode.
+	chestArmorProtectsArms = true
+	#Allows leggings and boots to protect legs from severing in force based severing mode.
+	legArmorProtectsLegs = true
+	#Armor defense score per armor point on protective armor in force based severing mode.
+	#Severing force must overcome the total defense score of the armor covering the hit part.
+	#Blows that fail the contest glance off and cause no severing trauma at all.
+	#Range: 0.0 ~ 0.5
+	armorPointSeveringDefense = 0.12
+	#Armor defense score per armor toughness point on protective armor in force based severing mode.
+	#Higher values make diamond and netherite armor much harder to cut through.
+	#Range: 0.0 ~ 0.5
+	armorToughnessSeveringDefense = 0.25
+
+[mobs]
+	#Enables gore for zombies, husks, drowned, zombie villagers, and giants.
+	enableZombies = true
+	#Enables gore for skeletons, strays, and wither skeletons.
+	enableSkeletons = true
+	#Enables gore for creepers.
+	enableCreepers = true
+	#Enables gore for piglins, piglin brutes, and zombified piglins.
+	enablePiglins = true
+	#Enables gore for endermen.
+	enableEndermen = true
+	#Enables gore for pillagers, vindicators, evokers, and illusioners.
+	enableIllagers = true
+	#Enables gore for witches.
+	enableWitches = true
+	#Enables gore for villagers and wandering traders.
+	enableVillagers = true
+	#Enables gore for cows and mooshrooms.
+	enableCows = true
+	#Enables gore for pigs.
+	enablePigs = true
+	#Enables gore for sheep.
+	enableSheep = true
+	#Enables gore for goats.
+	enableGoats = true
+	#Enables gore for wolves.
+	enableWolves = true
+	#Enables gore for polar bears.
+	enablePolarBears = true
+

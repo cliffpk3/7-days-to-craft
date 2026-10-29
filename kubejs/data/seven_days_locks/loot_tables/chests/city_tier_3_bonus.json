@@ -125,40 +125,6 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 20
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_glock_17",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_db_short",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_hk_mp5a5",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_m4a1",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_m700",
-          "weight": 1
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
           "weight": 44
         },
         {
@@ -191,6 +157,95 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{GunId:\"tacz:hk_mp5a5\",GunFireMode:\"SEMI\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7dtc:blueprint",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.35
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"melee_iron\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"armor_scrap\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"armor_soldier\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"gun_greaser_smg\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"attachment_extended_barrel\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"attachment_silencer\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"ordnance_tactical\"}"
             }
           ]
         }

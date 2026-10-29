@@ -1,0 +1,22 @@
+{
+  "display": {
+    "icon": {
+      "item": "corail_recycler:recycler"
+    },
+    "title": {
+      "translate": "advancement.build_recycler.title"
+    },
+    "description": {
+      "translate": "advancement.build_recycler.desc"
+    },
+    "frame": "task",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "parent": "corail_recycler:tutorial/root",
+  "criteria": {
+    "coded_trigger": {
+      "trigger": "corail_recycler:build_recycler"
+    }
+  }
+}

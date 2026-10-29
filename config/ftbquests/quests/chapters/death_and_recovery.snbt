@@ -8,7 +8,6 @@
 	quest_links: [ ]
 	quests: [
 		{
-			dependencies: ["7D7C110000000001"]
 			description: [
 				"Death leaves a lasting injury: you lose 1 maximum heart per death, up to a total of 3 hearts."
 				""
@@ -40,20 +39,11 @@
 			]
 			icon: "minecraft:golden_apple"
 			id: "7D7C210000000002"
-			rewards: [
-				{
-					count: 4
-					id: "7D7C2A0000000002"
-					item: "minecraft:gold_ingot"
-					type: "item"
-				}
-				{
-					count: 2
-					id: "7D7C2A0000000003"
-					item: "minecraft:apple"
-					type: "item"
-				}
-			]
+			rewards: [{
+				id: "7D7C2A0000000002"
+				item: "seven_days_workbenches:basic_supply_bundle"
+				type: "item"
+			}]
 			tasks: [{
 				advancement: "seven_days_to_craft:medical/recover_heart"
 				criterion: "completed"

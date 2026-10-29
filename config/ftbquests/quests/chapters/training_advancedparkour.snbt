@@ -46,13 +46,13 @@
 			description: [
 				"Use ledges and block edges to climb or hold position with Parcool."
 				""
-				"The milestone is active immediately. Complete this lesson once to claim its Level 1 Key."
+				"The milestone is active immediately. Complete this lesson once to claim a basic supply bundle."
 			]
 			icon: "minecraft:ladder"
 			id: "7D7C310000000001"
 			rewards: [{
 				id: "7D7C340000000001"
-				item: "wrd:keystrongholdchest_iron"
+				item: "seven_days_workbenches:basic_supply_bundle"
 				type: "item"
 			}]
 			tasks: [{

@@ -1,0 +1,12 @@
+
+#Client settings
+[Client]
+	#Allow scrolling to increase / decrease an angle value in the posing screen
+	allowScrolling = true
+	#The id of the default skin to use when a player has no skin set or the skin is not found.
+	#0 = alex_slim, 1 = ari_slim, 2 = efe_slim, 3 = kai_slim, 4 = makena_slim, 5 = noor_slim,
+	#6 = steve_slim, 7 = sunny_slim, 8 = zuri_slim, 9 = alex_wide, 10 = ari_wide, 11 = efe_wide,
+	#12 = kai_wide, 13 = makena_wide, 14 = noor_wide, 15 = steve_wide, 16 = sunny_wide, 17 = zuri_wide
+	#Range: 0 ~ 17
+	defaultSkin = 6
+

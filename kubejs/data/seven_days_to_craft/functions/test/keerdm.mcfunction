@@ -1,0 +1,2 @@
+give @s minecraft:bundle{Items:[{id:"minecraft:compass",Count:1b},{id:"minecraft:spyglass",Count:1b},{id:"minecraft:torch",Count:24b},{id:"minecraft:bread",Count:16b},{id:"minecraft:iron_axe",Count:1b},{id:"minecraft:shears",Count:1b}],display:{Name:"{\"text\": \"Keerdm - kit de exploracao\", \"color\": \"gold\", \"italic\": false}"}} 1
+tellraw @s {"text":"Keerdm amplia edificios e loot em Lost Cities; nao registra novos mobs nem itens proprios.","color":"yellow"}

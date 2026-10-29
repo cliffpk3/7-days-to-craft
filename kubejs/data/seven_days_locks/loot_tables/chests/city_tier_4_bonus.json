@@ -92,7 +92,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "divine_weaponry:netherite_cutlass",
+          "name": "divine_weaponry:diamond_katana",
           "weight": 2,
           "functions": [
             {
@@ -104,7 +104,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "divine_weaponry:netherite_battleaxe",
+          "name": "divine_weaponry:diamond_longsword",
           "weight": 2,
           "functions": [
             {
@@ -113,40 +113,6 @@
               "treasure": false
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": 1,
-      "entries": [
-        {
-          "type": "minecraft:empty",
-          "weight": 11
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_glock_17",
-          "weight": 4
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_db_short",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_hk_mp5a5",
-          "weight": 2
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_m4a1",
-          "weight": 1
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_locks:blueprint_tacz_m700",
-          "weight": 1
         }
       ]
     },
@@ -187,6 +153,139 @@
             {
               "function": "minecraft:set_nbt",
               "tag": "{GunId:\"tacz:hk_mp5a5\",GunFireMode:\"SEMI\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7dtc:blueprint",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.55
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"gun_fencer_thumper\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"gun_callwell\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"gun_combat_shotgun\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"gun_iron_javelin\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"attachment_long_scope\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"attachment_advanced_silencer\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"attachment_weighted_stock\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"armor_commander\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"ordnance_explosive\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"ordnance_rocket\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"ordnance_he_grenade_round\"}"
             }
           ]
         }

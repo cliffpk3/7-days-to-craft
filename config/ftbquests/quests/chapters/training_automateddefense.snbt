@@ -46,13 +46,13 @@
 			description: [
 				"Craft, obtain or interact with an Explosive Turret, then verify that it consumes two shared turret slots."
 				""
-				"The milestone is active immediately. Complete this lesson once to claim its Level 4 Key."
+				"The milestone is active immediately. Complete this lesson once to claim a rare supply bundle."
 			]
 			icon: "seven_days_defense:explosive_turret"
 			id: "7D7C31000000001C"
 			rewards: [{
 				id: "7D7C34000000001C"
-				item: "wrd:keystrongholdchest_treasure"
+				item: "seven_days_workbenches:rare_supply_bundle"
 				type: "item"
 			}]
 			tasks: [{

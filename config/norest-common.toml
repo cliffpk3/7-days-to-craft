@@ -1,0 +1,52 @@
+
+#Daylight Zombies Configuration
+[general]
+	#Enable zombies to spawn during daylight hours
+	enableDaylightSpawning = true
+
+[spawning]
+	#Chance multiplier for zombies to spawn in daylight (0.0-1.0). Controls the density of the spawn attempts.
+	#Range: 0.0 ~ 1.0
+	daylightSpawnChance = 0.35
+	#Maximum BLOCK light level where day-zombies can spawn (0-15).
+	#Set to 0 to prevent spawns in player-lit areas (torches/lanterns).
+	#Range: 0 ~ 15
+	maxSpawnLightLevel = 0
+	#Minimum distance (blocks) from a player a zombie can spawn. Must be at least 5 to prevent inside-player spawning.
+	#Range: > 5
+	spawnDistanceMin = 20
+	#Maximum distance (blocks) from a player a zombie can spawn.
+	#Range: > 10
+	spawnDistanceMax = 50
+	#Minimum seconds between allowed spawns. Controls the 'flow rate' of the horde.
+	#Range: 0 ~ 600
+	spawnRateLimitSeconds = 4
+	#Seconds to wait AFTER the zombie cap is reached before allowing spawns again (The 'Breathing Room').
+	#Range: 0 ~ 3600
+	capResetSeconds = 60
+	#If true, zombies will ONLY spawn on blocks in the whitelist.
+	enableWhitelist = false
+	#List of blocks or tags (prefixed with #) allowed for spawning.
+	whitelist = ["#minecraft:dirt", "minecraft:grass_block"]
+	#List of blocks or tags (prefixed with #) forbidden for spawning.
+	blacklist = ["minecraft:bedrock", "#minecraft:fire"]
+
+[caps]
+	#Base minimum cap for active day-zombies (before per-player scaling).
+	#Range: 0 ~ 500
+	minDaylightZombies = 12
+	#Maximum cap for active day-zombies (Hard limit after per-player scaling).
+	#Range: 1 ~ 1000
+	maxDaylightZombies = 35
+	#Additional day-zombies allowed per player (added to minDaylightZombies).
+	#Range: 0 ~ 100
+	perPlayerAdditionalZombies = 8
+	#If true, killing a day-zombie immediately frees a cap slot (constant stream).
+	#If false, kills do NOT decrement the cap immediately; slots are freed via 'Breathing Room' or Batch Kills.
+	decrementCapOnKill = true
+	#If decrementCapOnKill=false: Number of kills required to trigger a batch reset of the cap.
+	#Range: 0 ~ 10000
+	killsToResetCap = 10
+	#If decrementCapOnKill=false: Should the cap automatically reset after 'capResetSeconds' passes?
+	resetCapOnCooldown = true
+
