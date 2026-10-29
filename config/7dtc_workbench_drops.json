@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "notes": "Player kills only; summoned/horde mobs excluded. One weighted resource roll per ordinary mob kill, including native loot as the fallback. Each selected stack has count 1. Boss cores retain unique native boss loot.",
+  "notes": "Player kills only; summoned/horde mobs excluded. One weighted resource roll per ordinary mob kill, including native loot as the fallback. Each selected stack has count 1. Boss cores retain unique native boss loot. Player zombies are exempt so the Hordes mod can release the items it stored from the deceased player.",
   "sources": [
     {
       "mob": "minecraft:zombie",
@@ -14,23 +14,6 @@
         {
           "item": "minecraft:string",
           "chance": 0.08,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "scguns:raw_anthralite",
-          "chance": 0.55,
-          "min": 1,
-          "max": 1
-        }
-      ]
-    },
-    {
-      "mob": "hordes:zombie_player",
-      "drops": [
-        {
-          "item": "minecraft:iron_nugget",
-          "chance": 0.2,
           "min": 1,
           "max": 1
         },

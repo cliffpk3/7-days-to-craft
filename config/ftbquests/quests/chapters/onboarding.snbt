@@ -11,14 +11,14 @@
 			description: [
 				"Welcome to 7 Days to Craft. Craft or use a Crafting Table to establish your first workspace."
 				""
-				"Completing this first step provides the wool needed for a bed. The world becomes more dangerous as the fourth day approaches."
+				"This first step provides light for your first shelter. Craft your personal Core next; the world becomes more dangerous as the fourth day approaches."
 			]
 			icon: "minecraft:compass"
 			id: "7D7C110000000001"
 			rewards: [{
-				count: 3
+				count: 16
 				id: "7D7C1A0000000001"
-				item: "minecraft:white_wool"
+				item: "minecraft:torch"
 				type: "item"
 			}]
 			tasks: [{
@@ -35,79 +35,11 @@
 		{
 			dependencies: ["7D7C110000000001"]
 			description: [
-				"Use the wool from the previous step and gather wooden planks to make a bed, or interact with an existing bed."
-				""
-				"A shared base may already have one. Using it also completes this step and establishes the same progression."
-			]
-			icon: "minecraft:red_bed"
-			id: "7D7C110000000008"
-			rewards: [
-				{
-					count: 4
-					id: "7D7C1A0000000002"
-					item: "minecraft:bread"
-					type: "item"
-				}
-				{
-					count: 16
-					id: "7D7C1A0000000012"
-					item: "minecraft:torch"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "seven_days_to_craft:onboarding/any_bed"
-				criterion: "completed"
-				id: "7D7C1B0000000009"
-				title: "Craft or interact with any Bed"
-				type: "advancement"
-			}]
-			title: "A Place to Sleep"
-			x: 2.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7D7C110000000008"]
-			description: [
-				"The custom Workbench is the main catalog for weapons, equipment, utilities and progression items."
-				""
-				"Craft or interact with a CGM Workbench and inspect its categories before continuing."
-			]
-			icon: "cgm:workbench"
-			id: "7D7C110000000003"
-			rewards: [
-				{
-					count: 8
-					id: "7D7C1A0000000004"
-					item: "minecraft:iron_ingot"
-					type: "item"
-				}
-				{
-					count: 8
-					id: "7D7C1A0000000005"
-					item: "minecraft:copper_ingot"
-					type: "item"
-				}
-			]
-			tasks: [{
-				advancement: "seven_days_to_craft:onboarding/workbench"
-				criterion: "completed"
-				id: "7D7C1B0000000003"
-				title: "Craft or interact with a CGM Workbench"
-				type: "advancement"
-			}]
-			title: "The Workbench"
-			x: 4.0d
-			y: 0.0d
-		}
-		{
-			dependencies: ["7D7C110000000003"]
-			description: [
 				"Craft the TaCZ Stone Statue yourself, then place your personal Core in the world. Click the single item task to open its recipe."
 				""
 				"Core survival rules begin when you complete this task by placing your statue. After that, a placed Core lets you respawn in Survival. Monsters and other players can damage it. If you move or lose it, your health slowly drains; carrying it drains more slowly. If you die without an active Core, you become a stationary spectator until another survivor restores it."
 				""
-				"Only your own crafting and a valid placement grant the Level 1 key and locked cache. Team quest progress alone does not grant these items."
+				"Only your own crafting and a valid placement grant 3 wool for your bed. Team quest progress alone does not grant this personal reward."
 			]
 			icon: "tacz:statue"
 			id: "7D7C110000000009"
@@ -128,6 +60,68 @@
 				}
 			]
 			title: "Establish Your Core"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D7C110000000009"]
+			description: [
+				"Use the wool from your Core and gather wooden planks to make a bed, or interact with an existing bed."
+				""
+				"A shared base may already have one. Using it also completes this step and establishes the same progression."
+			]
+			icon: "minecraft:red_bed"
+			id: "7D7C110000000008"
+			rewards: [
+				{
+					count: 6
+					id: "7D7C1A0000000002"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "seven_days_to_craft:onboarding/any_bed"
+				criterion: "completed"
+				id: "7D7C1B0000000009"
+				title: "Craft or interact with any Bed"
+				type: "advancement"
+			}]
+			title: "A Place to Sleep"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D7C110000000008"]
+			description: [
+				"The custom Workbench is the main catalog for weapons, equipment, utilities and progression items."
+				""
+				"Craft or interact with a CGM Workbench and inspect its categories before continuing."
+			]
+			icon: "cgm:workbench"
+			id: "7D7C110000000003"
+			rewards: [
+				{
+					count: 1
+					id: "7D7C1A0000000004"
+					item: "wrd:keystrongholdchest_iron"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "7D7C1A0000000005"
+					item: "seven_days_locks:training_cache"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "seven_days_to_craft:onboarding/workbench"
+				criterion: "completed"
+				id: "7D7C1B0000000003"
+				title: "Craft or interact with a CGM Workbench"
+				type: "advancement"
+			}]
+			title: "The Workbench"
 			x: 6.0d
 			y: 0.0d
 		}
