@@ -14,9 +14,9 @@
     "attempts": 50
   },
   "scattered": {
-    "areasize": 8,
-    "chance": 0.7,
-    "weightnone": 30,
+    "areasize": 16,
+    "chance": 0.18,
+    "weightnone": 45,
     "list": [
       {
         "name": "radiotower",
