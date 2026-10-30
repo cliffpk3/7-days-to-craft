@@ -39,10 +39,18 @@
 				""
 				"Core survival rules begin when you complete this task by placing your statue. After that, a placed Core lets you respawn in Survival. Monsters and other players can damage it. If you move or lose it, your health slowly drains; carrying it drains more slowly. If you die without an active Core, you become a stationary spectator until another survivor restores it."
 				""
-				"Only your own crafting and a valid placement grant 3 wool for your bed. Team quest progress alone does not grant this personal reward."
+				"Place your own Core to activate its survival rules. Claim the 3 wool for your bed from this quest's reward icon. Each player still needs to craft their own Core."
 			]
 			icon: "tacz:statue"
 			id: "7D7C110000000009"
+			rewards: [
+				{
+					count: 3
+					id: "7D7C1A0000000006"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
 			tasks: [
 				{
 					id: "7D7C1B0000000014"
