@@ -833,7 +833,7 @@
         "text": "\n"
       },
       {
-        "text": "Hostile mobs acquire you only at 65% of their normal detection distance. Close enemies can still notice and pursue you.",
+        "text": "Hostile mobs acquire you at 65% of their normal follow range. Noise and scent can still draw zombies nearby, and attacks provoke retaliation.",
         "color": "gray"
       }
     ],
