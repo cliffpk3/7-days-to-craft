@@ -46,7 +46,7 @@
 	hordeStartTime = 17984
 	#Amount of days between horde spawns.
 	#Range: > 1
-	hordeSpawnDays = 4
+	hordeSpawnDays = 5
 	#Amount of days a horde event can be randomly delayed by
 	hordeSpawnVariation = 0
 	#Max cap for the number of entities that can exist from the horde at once.
