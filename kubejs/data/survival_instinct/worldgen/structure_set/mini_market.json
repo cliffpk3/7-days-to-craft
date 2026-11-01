@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "survival_instinct:mini_market",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 19,
+    "separation": 18,
+    "salt": 1985302926,
+    "frequency_reduction_method": "default",
+    "frequency": 0.0
+  }
+}

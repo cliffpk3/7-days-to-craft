@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "survival_instinct:gas_station",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 26,
+    "separation": 24,
+    "salt": 2049346621,
+    "frequency_reduction_method": "default",
+    "frequency": 0.0
+  }
+}

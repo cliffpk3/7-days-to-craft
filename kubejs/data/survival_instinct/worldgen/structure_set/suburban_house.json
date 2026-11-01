@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "survival_instinct:suburban_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 24,
+    "separation": 16,
+    "salt": 974272307,
+    "frequency_reduction_method": "default",
+    "frequency": 0.0
+  }
+}

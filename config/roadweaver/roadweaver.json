@@ -1,0 +1,24 @@
+{
+  "roadAppearance": {
+    "roadWidth": 7,
+    "spawnCabinEnabled": false,
+    "allowNatural": false,
+    "allowArtificial": true
+  },
+  "roadsideVillage": {
+    "enabled": true,
+    "maxVillagesPerRoad": 1,
+    "spawnChance": 0.05
+  },
+  "roadsideStructure": {
+    "enabled": true,
+    "maxStructuresPerRoad": 0
+  },
+  "structurePrediction": {
+    "structureWhitelist": [
+      "#minecraft:village"
+    ],
+    "enabled": true,
+    "structureAvoidanceEnabled": true
+  }
+}

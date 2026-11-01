@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "survival_instinct:fire_staton",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 37,
+    "separation": 16,
+    "salt": 1078612771,
+    "frequency_reduction_method": "default",
+    "frequency": 0.0
+  }
+}

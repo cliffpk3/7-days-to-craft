@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "survival_instinct:pharmacy",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 21,
+    "separation": 18,
+    "salt": 1805754573,
+    "frequency_reduction_method": "default",
+    "frequency": 0.0
+  }
+}

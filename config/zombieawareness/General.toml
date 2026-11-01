@@ -3,7 +3,7 @@
 [general]
 	#Max awareness range for zombies
 	#Range: > -2147483648
-	maxPFRangeSense = 20
+	maxPFRangeSense = 36
 	#Prevent non zombies from being attracted to light
 	awareness_Light_OnlyZombies = true
 	#Custom targetting sight range on top of vanilla sight based targetting
@@ -15,10 +15,10 @@
 	seeThroughWalls = false
 	#Effects how far monsters will sense scents from
 	#Range: > -2147483648
-	scentStrength = 20
+	scentStrength = 36
 	#Effects how far monsters will sense sound sources from
 	#Range: > -2147483648
-	soundStrength = 20
+	soundStrength = 36
 	#max rate of spawning sound sources in milliseconds
 	#Range: > -2147483648
 	frequentSoundThreshold = 1000

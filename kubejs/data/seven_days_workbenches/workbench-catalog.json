@@ -1,0 +1,1456 @@
+{
+  "schema": 1,
+  "status": "first_playable_pass",
+  "items": [
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 1,
+      "item": "divine_weaponry:stone_battleaxe",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 1,
+      "item": "divine_weaponry:stone_cutlass",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 1,
+      "item": "divine_weaponry:stone_dagger",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 1,
+      "item": "divine_weaponry:stone_glaive",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 1,
+      "item": "divine_weaponry:stone_hammer",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 1,
+      "item": "divine_weaponry:stone_katana",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 1,
+      "item": "divine_weaponry:stone_longsword",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 1,
+      "item": "divine_weaponry:stone_rapier",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 1,
+      "item": "divine_weaponry:stone_scythe",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 1,
+      "item": "divine_weaponry:stone_shuriken",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 1,
+      "item": "divine_weaponry:stone_sickle",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 1,
+      "item": "divine_weaponry:stone_spear",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 2,
+      "item": "divine_weaponry:iron_battleaxe",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_iron",
+      "source": "zombie_bruiser_or_militia_t2",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 2,
+      "item": "divine_weaponry:iron_cutlass",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_iron",
+      "source": "zombie_bruiser_or_militia_t2",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 2,
+      "item": "divine_weaponry:iron_dagger",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_iron",
+      "source": "zombie_bruiser_or_militia_t2",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 2,
+      "item": "divine_weaponry:iron_glaive",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_iron",
+      "source": "zombie_bruiser_or_militia_t2",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 2,
+      "item": "divine_weaponry:iron_hammer",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_iron",
+      "source": "zombie_bruiser_or_militia_t2",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 2,
+      "item": "divine_weaponry:iron_katana",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_iron",
+      "source": "zombie_bruiser_or_militia_t2",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 2,
+      "item": "divine_weaponry:iron_longsword",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_iron",
+      "source": "zombie_bruiser_or_militia_t2",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 2,
+      "item": "divine_weaponry:iron_rapier",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_iron",
+      "source": "zombie_bruiser_or_militia_t2",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 2,
+      "item": "divine_weaponry:iron_scythe",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_iron",
+      "source": "zombie_bruiser_or_militia_t2",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 2,
+      "item": "divine_weaponry:iron_shuriken",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_iron",
+      "source": "zombie_bruiser_or_militia_t2",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 2,
+      "item": "divine_weaponry:iron_sickle",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_iron",
+      "source": "zombie_bruiser_or_militia_t2",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 2,
+      "item": "divine_weaponry:iron_spear",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_iron",
+      "source": "zombie_bruiser_or_militia_t2",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:diamond_battleaxe",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_dungeon",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:diamond_cutlass",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_dungeon",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:diamond_dagger",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_dungeon",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:diamond_glaive",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_dungeon",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:diamond_hammer",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_dungeon",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:diamond_katana",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_dungeon",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:diamond_longsword",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_dungeon",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:diamond_rapier",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_dungeon",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:diamond_scythe",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_dungeon",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:diamond_shuriken",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_dungeon",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:diamond_sickle",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_dungeon",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:diamond_spear",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_dungeon",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:netherite_battleaxe",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_netherite",
+      "source": "nether_bastion_or_wither",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:netherite_cutlass",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_netherite",
+      "source": "nether_bastion_or_wither",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:netherite_dagger",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_netherite",
+      "source": "nether_bastion_or_wither",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:netherite_glaive",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_netherite",
+      "source": "nether_bastion_or_wither",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:netherite_hammer",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_netherite",
+      "source": "nether_bastion_or_wither",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:netherite_katana",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_netherite",
+      "source": "nether_bastion_or_wither",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:netherite_longsword",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_netherite",
+      "source": "nether_bastion_or_wither",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:netherite_rapier",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_netherite",
+      "source": "nether_bastion_or_wither",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:netherite_scythe",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_netherite",
+      "source": "nether_bastion_or_wither",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:netherite_shuriken",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_netherite",
+      "source": "nether_bastion_or_wither",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:netherite_sickle",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_netherite",
+      "source": "nether_bastion_or_wither",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "melee",
+      "level": 3,
+      "item": "divine_weaponry:netherite_spear",
+      "unlock": "family_blueprint",
+      "blueprint": "melee_netherite",
+      "source": "nether_bastion_or_wither",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 1,
+      "item": "scguns:flintlock_pistol",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface_or_city_t1",
+      "note": "Antique Blueprint firearms have no blueprint gate; level follows ammo and damage."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 1,
+      "item": "scguns:longarm",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface_or_city_t1",
+      "note": "Antique Blueprint firearms have no blueprint gate; level follows ammo and damage."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 1,
+      "item": "scguns:musket",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface_or_city_t1",
+      "note": "Antique Blueprint firearms have no blueprint gate; level follows ammo and damage."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 1,
+      "item": "scguns:scrapper",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface_or_city_t1",
+      "note": "Antique Blueprint firearms have no blueprint gate; level follows ammo and damage."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:pax",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_t2_or_mineshaft",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:makeshift_rifle",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_t2_or_mineshaft",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:defender_pistol",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_t2_or_mineshaft",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:blunderbuss",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_t2_or_mineshaft",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:doublet",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_t2_or_mineshaft",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:handcannon",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_t2_or_mineshaft",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:fencer_carabine",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_t2_or_mineshaft",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:repeating_musket",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_t2_or_mineshaft",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:greaser_smg",
+      "unlock": "individual_blueprint",
+      "blueprint": "gun_greaser_smg",
+      "source": "militia_t2_or_cog_knight",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:laser_musket",
+      "unlock": "family_blueprint",
+      "blueprint": "gun_energy_antique",
+      "source": "osgood_lab_or_cog_chamber",
+      "note": "Technology family blueprint; matching ammunition still has its own gate."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:plasmabuss",
+      "unlock": "family_blueprint",
+      "blueprint": "gun_energy_antique",
+      "source": "osgood_lab_or_cog_chamber",
+      "note": "Technology family blueprint; matching ammunition still has its own gate."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:teslock_rifle",
+      "unlock": "family_blueprint",
+      "blueprint": "gun_energy_antique",
+      "source": "osgood_lab_or_cog_chamber",
+      "note": "Technology family blueprint; matching ammunition still has its own gate."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:fencer_thumper",
+      "unlock": "individual_blueprint",
+      "blueprint": "gun_fencer_thumper",
+      "source": "city_militia_t3_or_t4",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:callwell",
+      "unlock": "individual_blueprint",
+      "blueprint": "gun_callwell",
+      "source": "city_militia_t3",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:combat_shotgun",
+      "unlock": "individual_blueprint",
+      "blueprint": "gun_combat_shotgun",
+      "source": "city_militia_t3_or_t4",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:iron_javelin",
+      "unlock": "individual_blueprint",
+      "blueprint": "gun_iron_javelin",
+      "source": "city_militia_t4",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:cogloader",
+      "unlock": "individual_blueprint",
+      "blueprint": "gun_cogloader",
+      "source": "scguns_cog_chamber_or_cog_knight",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:jackhammer",
+      "unlock": "individual_blueprint",
+      "blueprint": "gun_jackhammer",
+      "source": "scguns_tinkers_citadel_or_adjudicator",
+      "note": ""
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:dark_matter",
+      "unlock": "individual_blueprint",
+      "blueprint": "gun_dark_matter",
+      "source": "end_city_or_end_boss",
+      "note": "End exception; requires specialized ammunition and materials."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:raygun",
+      "unlock": "individual_blueprint",
+      "blueprint": "gun_raygun",
+      "source": "end_city_or_end_boss",
+      "note": "End exception; requires specialized ammunition and materials."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 2,
+      "item": "scguns:medium_scope",
+      "unlock": "individual_blueprint",
+      "blueprint": "attachment_medium_scope",
+      "source": "city_t2_or_militia",
+      "note": "Confirm compatibility and effect in game."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 2,
+      "item": "scguns:extended_barrel",
+      "unlock": "individual_blueprint",
+      "blueprint": "attachment_extended_barrel",
+      "source": "city_t2_or_militia",
+      "note": "Confirm compatibility and effect in game."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 2,
+      "item": "scguns:light_grip",
+      "unlock": "individual_blueprint",
+      "blueprint": "attachment_light_grip",
+      "source": "city_t2_or_militia",
+      "note": "Confirm compatibility and effect in game."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 2,
+      "item": "scguns:silencer",
+      "unlock": "individual_blueprint",
+      "blueprint": "attachment_silencer",
+      "source": "city_t2_or_militia",
+      "note": "Confirm compatibility and effect in game."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 3,
+      "item": "scguns:long_scope",
+      "unlock": "individual_blueprint",
+      "blueprint": "attachment_long_scope",
+      "source": "militia_t4_or_boss",
+      "note": "Confirm compatibility and effect in game."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 3,
+      "item": "scguns:advanced_silencer",
+      "unlock": "individual_blueprint",
+      "blueprint": "attachment_advanced_silencer",
+      "source": "militia_t4_or_boss",
+      "note": "Confirm compatibility and effect in game."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 3,
+      "item": "scguns:weighted_stock",
+      "unlock": "individual_blueprint",
+      "blueprint": "attachment_weighted_stock",
+      "source": "militia_t4_or_boss",
+      "note": "Confirm compatibility and effect in game."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 1,
+      "item": "minecraft:iron_helmet",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "early_iron",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 1,
+      "item": "minecraft:iron_chestplate",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "early_iron",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 1,
+      "item": "minecraft:iron_leggings",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "early_iron",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 1,
+      "item": "minecraft:iron_boots",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "early_iron",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 2,
+      "item": "scguns:scrap_helmet",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_scrap",
+      "source": "city_salvage_or_zombie_elite",
+      "note": "21 armor points across the set; verify defense in game."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 2,
+      "item": "scguns:scrap_chestplate",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_scrap",
+      "source": "city_salvage_or_zombie_elite",
+      "note": "21 armor points across the set; verify defense in game."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 2,
+      "item": "scguns:scrap_leggings",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_scrap",
+      "source": "city_salvage_or_zombie_elite",
+      "note": "21 armor points across the set; verify defense in game."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 2,
+      "item": "scguns:scrap_boots",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_scrap",
+      "source": "city_salvage_or_zombie_elite",
+      "note": "21 armor points across the set; verify defense in game."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 2,
+      "item": "fracturepoint:fsb_soldier_helmet",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_soldier",
+      "source": "militia_t2_or_t3",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 2,
+      "item": "fracturepoint:fsb_soldier_chestplate",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_soldier",
+      "source": "militia_t2_or_t3",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 2,
+      "item": "fracturepoint:fsb_leggings",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_soldier",
+      "source": "militia_t2_or_t3",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 2,
+      "item": "fracturepoint:fsb_boots",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_soldier",
+      "source": "militia_t2_or_t3",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "minecraft:diamond_helmet",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_mining",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "minecraft:diamond_chestplate",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_mining",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "minecraft:diamond_leggings",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_mining",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "minecraft:diamond_boots",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "deep_mining",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "fracturepoint:insurgency_commander_helmet",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_commander",
+      "source": "militia_t4_or_boss",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "fracturepoint:insurgency_commander_chestplate",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_commander",
+      "source": "militia_t4_or_boss",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "fracturepoint:insurgency_commander_leggings",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_commander",
+      "source": "militia_t4_or_boss",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "fracturepoint:insurgency_commander_boots",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_commander",
+      "source": "militia_t4_or_boss",
+      "note": ""
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "scguns:exo_suit_helmet",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_exosuit",
+      "source": "scguns_viventrum_or_high_lab",
+      "note": "Do not enable until movement/defense and fuel cost are measured."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "scguns:exo_suit_chestplate",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_exosuit",
+      "source": "scguns_viventrum_or_high_lab",
+      "note": "Do not enable until movement/defense and fuel cost are measured."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "scguns:exo_suit_leggings",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_exosuit",
+      "source": "scguns_viventrum_or_high_lab",
+      "note": "Do not enable until movement/defense and fuel cost are measured."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "scguns:exo_suit_boots",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_exosuit",
+      "source": "scguns_viventrum_or_high_lab",
+      "note": "Do not enable until movement/defense and fuel cost are measured."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 1,
+      "item": "scguns:powder_and_ball",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "common_metal_and_powder",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 1,
+      "item": "scguns:compact_copper_round",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "common_metal_and_powder",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 1,
+      "item": "scguns:standard_copper_round",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "common_metal_and_powder",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 1,
+      "item": "minecraft:arrow",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "common_metal_and_powder",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 2,
+      "item": "scguns:shotgun_shell",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "iron_copper_gunpowder",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 2,
+      "item": "scguns:compact_advanced_round",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "iron_copper_gunpowder",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 2,
+      "item": "scguns:advanced_round",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "iron_copper_gunpowder",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 2,
+      "item": "scguns:grapeshot",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "iron_copper_gunpowder",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 3,
+      "item": "scguns:energy_core",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "rare_power_components",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 3,
+      "item": "scguns:shock_cell",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "rare_power_components",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "explosives",
+      "level": 2,
+      "item": "scguns:stun_grenade",
+      "unlock": "family_blueprint",
+      "blueprint": "ordnance_tactical",
+      "source": "militia_t2_or_t3",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 3,
+      "item": "scguns:energy_cell",
+      "unlock": "individual_blueprint",
+      "blueprint": "ordnance_energy_cell",
+      "source": "boss_or_special_structure",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 3,
+      "item": "scguns:rocket",
+      "unlock": "individual_blueprint",
+      "blueprint": "ordnance_rocket",
+      "source": "boss_or_special_structure",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 3,
+      "item": "scguns:he_grenade_round",
+      "unlock": "individual_blueprint",
+      "blueprint": "ordnance_he_grenade_round",
+      "source": "boss_or_special_structure",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "explosives",
+      "level": 3,
+      "item": "scguns:grenade",
+      "unlock": "family_blueprint",
+      "blueprint": "ordnance_explosive",
+      "source": "militia_t4_or_boss",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "explosives",
+      "level": 3,
+      "item": "scguns:gas_grenade",
+      "unlock": "family_blueprint",
+      "blueprint": "ordnance_explosive",
+      "source": "militia_t4_or_boss",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "scguns:gun_parts",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_salvage_or_common_materials",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "scguns:stone_gun_barrel",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_salvage_or_common_materials",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "scguns:gun_barrel",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_salvage_or_common_materials",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "scguns:copper_gun_frame",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_salvage_or_common_materials",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "scguns:firing_unit",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_salvage_or_common_materials",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "scguns:wooden_stock",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_salvage_or_common_materials",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "scguns:gun_grip",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_salvage_or_common_materials",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 1,
+      "item": "iron_repair_kits:copper_repair_kit",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 2,
+      "item": "iron_repair_kits:iron_repair_kit",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "utility_workbench_level_2",
+      "note": "Restores 40% of maximum durability in the Central Workbench."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 3,
+      "item": "iron_repair_kits:golden_repair_kit",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "utility_workbench_level_3",
+      "note": "Restores 80% of maximum durability in the Central Workbench."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 1,
+      "item": "quark:torch_arrow",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "ordnance_workbench_level_1",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 1,
+      "item": "zombie_extreme:cloth_bandage",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "common_medical_supplies",
+      "note": "Check effect magnitude before release."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 1,
+      "item": "scguns:enchanted_bandage",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "common_medical_supplies",
+      "note": "Check effect magnitude before release."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 2,
+      "item": "scguns:iron_gun_frame",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "elite_drop_or_utility_craft",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 2,
+      "item": "scguns:gun_magazine",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "elite_drop_or_utility_craft",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 2,
+      "item": "scguns:armor_plate",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "elite_drop_or_utility_craft",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 2,
+      "item": "fracturepoint:nvg_battery",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_t2_or_utility_craft",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 2,
+      "item": "scguns:repair_kit",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_t2_or_utility_craft",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 2,
+      "item": "zombie_extreme:bandage",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_medical_supplies_or_utility_craft",
+      "note": "Keep their original healing and antidote behavior; verify balance in game."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 2,
+      "item": "zombie_extreme:syringe_antidote",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_medical_supplies_or_utility_craft",
+      "note": "Keep their original healing and antidote behavior; verify balance in game."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 3,
+      "item": "scguns:rapid_firing_unit",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "boss_drop_or_expensive_utility_craft",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 3,
+      "item": "scguns:heavy_gun_barrel",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "boss_drop_or_expensive_utility_craft",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 3,
+      "item": "scguns:diamond_steel_gun_frame",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "boss_drop_or_expensive_utility_craft",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 3,
+      "item": "scguns:heavy_armor_plate",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "boss_drop_or_expensive_utility_craft",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 3,
+      "item": "scguns:raw_anthralite",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "boss_drop_or_expensive_utility_craft",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 3,
+      "item": "quark:backpack",
+      "unlock": "family_blueprint",
+      "blueprint": "utility_expedition",
+      "source": "dangerous_structure",
+      "note": "Existing backpack recipe must migrate with this row."
+    }
+  ]
+}

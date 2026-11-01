@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "survival_instinct:old_road",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 37,
+    "separation": 14,
+    "salt": 677926734,
+    "frequency_reduction_method": "default",
+    "frequency": 0.0
+  }
+}

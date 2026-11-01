@@ -1,0 +1,2770 @@
+{
+  "schema": 1,
+  "status": "first_playable_pass",
+  "recipes": [
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "divine_weaponry:stone_battleaxe",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "divine_weaponry:stone_cutlass",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "divine_weaponry:stone_dagger",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "divine_weaponry:stone_glaive",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "divine_weaponry:stone_hammer",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 5
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "divine_weaponry:stone_katana",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 3
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "divine_weaponry:stone_longsword",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "divine_weaponry:stone_rapier",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "divine_weaponry:stone_scythe",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "divine_weaponry:stone_shuriken",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "divine_weaponry:stone_sickle",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "divine_weaponry:stone_spear",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:cobblestone",
+          "count": 3
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "divine_weaponry:iron_battleaxe",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "divine_weaponry:iron_cutlass",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "divine_weaponry:iron_dagger",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "divine_weaponry:iron_glaive",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "divine_weaponry:iron_hammer",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        },
+        {
+          "item": "minecraft:iron_block",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "divine_weaponry:iron_katana",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "divine_weaponry:iron_longsword",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "divine_weaponry:iron_rapier",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "divine_weaponry:iron_scythe",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "divine_weaponry:iron_shuriken",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "divine_weaponry:iron_sickle",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "divine_weaponry:iron_spear",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:diamond_battleaxe",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:diamond_cutlass",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:diamond_dagger",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:diamond_glaive",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:diamond_hammer",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        },
+        {
+          "item": "minecraft:iron_block",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:diamond_katana",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 3
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:diamond_longsword",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:diamond_rapier",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:diamond_scythe",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:diamond_shuriken",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:diamond_sickle",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:diamond_spear",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 3
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:netherite_battleaxe",
+      "count": 1,
+      "materials": [
+        {
+          "item": "divine_weaponry:diamond_battleaxe",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:netherite_cutlass",
+      "count": 1,
+      "materials": [
+        {
+          "item": "divine_weaponry:diamond_cutlass",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:netherite_dagger",
+      "count": 1,
+      "materials": [
+        {
+          "item": "divine_weaponry:diamond_dagger",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:netherite_glaive",
+      "count": 1,
+      "materials": [
+        {
+          "item": "divine_weaponry:diamond_glaive",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:netherite_hammer",
+      "count": 1,
+      "materials": [
+        {
+          "item": "divine_weaponry:diamond_hammer",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:netherite_katana",
+      "count": 1,
+      "materials": [
+        {
+          "item": "divine_weaponry:diamond_katana",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:netherite_longsword",
+      "count": 1,
+      "materials": [
+        {
+          "item": "divine_weaponry:diamond_longsword",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:netherite_rapier",
+      "count": 1,
+      "materials": [
+        {
+          "item": "divine_weaponry:diamond_rapier",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:netherite_scythe",
+      "count": 1,
+      "materials": [
+        {
+          "item": "divine_weaponry:diamond_scythe",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:netherite_shuriken",
+      "count": 1,
+      "materials": [
+        {
+          "item": "divine_weaponry:diamond_shuriken",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:netherite_sickle",
+      "count": 1,
+      "materials": [
+        {
+          "item": "divine_weaponry:diamond_sickle",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "divine_weaponry:netherite_spear",
+      "count": 1,
+      "materials": [
+        {
+          "item": "divine_weaponry:diamond_spear",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "scguns:flintlock_pistol",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:flint",
+          "count": 2
+        },
+        {
+          "item": "minecraft:oak_planks",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_barrel",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "scguns:longarm",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:stone_gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 1
+        },
+        {
+          "item": "scguns:wooden_stock",
+          "count": 1
+        },
+        {
+          "item": "minecraft:flint",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "scguns:musket",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:stone_gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "minecraft:flint",
+          "count": 1
+        },
+        {
+          "item": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "item": "minecraft:stone",
+          "count": 1
+        },
+        {
+          "item": "minecraft:oak_planks",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "scguns:scrapper",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:copper_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_barrel",
+          "count": 1
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:pax",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:copper_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:firing_unit",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_barrel",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:makeshift_rifle",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:copper_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:firing_unit",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_magazine",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:defender_pistol",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:iron_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:firing_unit",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_barrel",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_magazine",
+          "count": 1
+        },
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:blunderbuss",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:stone_gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "minecraft:flint",
+          "count": 1
+        },
+        {
+          "item": "minecraft:cobblestone",
+          "count": 1
+        },
+        {
+          "item": "minecraft:stone",
+          "count": 1
+        },
+        {
+          "item": "minecraft:oak_planks",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:doublet",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:stone_gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 2
+        },
+        {
+          "item": "scguns:wooden_stock",
+          "count": 1
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:handcannon",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:stone_gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 2
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:oak_planks",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:fencer_carabine",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:firing_unit",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 1
+        },
+        {
+          "item": "scguns:stone_gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "scguns:wooden_stock",
+          "count": 1
+        },
+        {
+          "item": "minecraft:oak_planks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:repeating_musket",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:stone_gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "scguns:firing_unit",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_magazine",
+          "count": 1
+        },
+        {
+          "item": "scguns:wooden_stock",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:greaser_smg",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:iron_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:firing_unit",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_barrel",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_magazine",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:laser_musket",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:energy_core",
+          "count": 1
+        },
+        {
+          "item": "scguns:stone_gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_grip",
+          "count": 1
+        },
+        {
+          "item": "minecraft:quartz",
+          "count": 4
+        },
+        {
+          "item": "minecraft:oak_planks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:plasmabuss",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:energy_core",
+          "count": 1
+        },
+        {
+          "item": "scguns:stone_gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_grip",
+          "count": 1
+        },
+        {
+          "item": "minecraft:redstone_block",
+          "count": 1
+        },
+        {
+          "item": "minecraft:oak_planks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:teslock_rifle",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:shock_cell",
+          "count": 1
+        },
+        {
+          "item": "scguns:stone_gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_grip",
+          "count": 1
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:oak_planks",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:fencer_thumper",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:firing_unit",
+          "count": 1
+        },
+        {
+          "item": "scguns:stone_gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 2
+        },
+        {
+          "item": "scguns:wooden_stock",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:callwell",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:iron_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:firing_unit",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_barrel",
+          "count": 1
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:combat_shotgun",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:iron_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "scguns:firing_unit",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 4
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:iron_javelin",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:iron_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:rapid_firing_unit",
+          "count": 1
+        },
+        {
+          "item": "scguns:heavy_gun_barrel",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 4
+        },
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:cogloader",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:diamond_steel_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:rapid_firing_unit",
+          "count": 1
+        },
+        {
+          "item": "scguns:heavy_gun_barrel",
+          "count": 1
+        },
+        {
+          "item": "scguns:gun_magazine",
+          "count": 2
+        },
+        {
+          "item": "minecraft:echo_shard",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:jackhammer",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:diamond_steel_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:rapid_firing_unit",
+          "count": 2
+        },
+        {
+          "item": "scguns:heavy_gun_barrel",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 6
+        },
+        {
+          "item": "minecraft:diamond",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:dark_matter",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:diamond_steel_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:rapid_firing_unit",
+          "count": 2
+        },
+        {
+          "item": "minecraft:ender_pearl",
+          "count": 8
+        },
+        {
+          "item": "minecraft:echo_shard",
+          "count": 2
+        },
+        {
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:raygun",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:diamond_steel_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:rapid_firing_unit",
+          "count": 2
+        },
+        {
+          "item": "minecraft:quartz",
+          "count": 8
+        },
+        {
+          "item": "minecraft:echo_shard",
+          "count": 2
+        },
+        {
+          "item": "minecraft:nether_star",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:medium_scope",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:glass_pane",
+          "count": 2
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "item": "create:copper_nugget",
+          "count": 2
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:extended_barrel",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:gun_barrel",
+          "count": 1
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:light_grip",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:oak_planks",
+          "count": 1
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        {
+          "item": "create:copper_nugget",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:silencer",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:white_wool",
+          "count": 1
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:long_scope",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:glass",
+          "count": 2
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "item": "create:copper_nugget",
+          "count": 2
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:advanced_silencer",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:sponge",
+          "count": 1
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:weighted_stock",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:oak_planks",
+          "count": 3
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 1,
+      "output": "minecraft:iron_helmet",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 1,
+      "output": "minecraft:iron_chestplate",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 1,
+      "output": "minecraft:iron_leggings",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 7
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 1,
+      "output": "minecraft:iron_boots",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 2,
+      "output": "scguns:scrap_helmet",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 5
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 1
+        },
+        {
+          "item": "minecraft:string",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 2,
+      "output": "scguns:scrap_chestplate",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 1
+        },
+        {
+          "item": "minecraft:string",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 2,
+      "output": "scguns:scrap_leggings",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 7
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 1
+        },
+        {
+          "item": "minecraft:string",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 2,
+      "output": "scguns:scrap_boots",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 1
+        },
+        {
+          "item": "minecraft:string",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 2,
+      "output": "fracturepoint:fsb_soldier_helmet",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 5
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 2,
+      "output": "fracturepoint:fsb_soldier_chestplate",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 2,
+      "output": "fracturepoint:fsb_leggings",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 7
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 2,
+      "output": "fracturepoint:fsb_boots",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "minecraft:diamond_helmet",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 5
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "minecraft:diamond_chestplate",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 8
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "minecraft:diamond_leggings",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 7
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "minecraft:diamond_boots",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 4
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "fracturepoint:insurgency_commander_helmet",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 5
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "count": 2
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "fracturepoint:insurgency_commander_chestplate",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 8
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "count": 2
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "fracturepoint:insurgency_commander_leggings",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 7
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "count": 2
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "fracturepoint:insurgency_commander_boots",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 4
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "count": 2
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "scguns:exo_suit_helmet",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 5
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "count": 2
+        },
+        {
+          "item": "scguns:diamond_steel_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:energy_cell",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "scguns:exo_suit_chestplate",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 8
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "count": 2
+        },
+        {
+          "item": "scguns:diamond_steel_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:energy_cell",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "scguns:exo_suit_leggings",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 7
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "count": 2
+        },
+        {
+          "item": "scguns:diamond_steel_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:energy_cell",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "scguns:exo_suit_boots",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 4
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "count": 2
+        },
+        {
+          "item": "scguns:diamond_steel_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:energy_cell",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 1,
+      "output": "scguns:powder_and_ball",
+      "count": 16,
+      "materials": [
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 8
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 1,
+      "output": "scguns:compact_copper_round",
+      "count": 16,
+      "materials": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 2
+        },
+        {
+          "item": "minecraft:flint",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 1,
+      "output": "scguns:standard_copper_round",
+      "count": 16,
+      "materials": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 2
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 1,
+      "output": "minecraft:arrow",
+      "count": 16,
+      "materials": [
+        {
+          "item": "minecraft:flint",
+          "count": 4
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 4
+        },
+        {
+          "item": "minecraft:feather",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 2,
+      "output": "scguns:shotgun_shell",
+      "count": 12,
+      "materials": [
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 8
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 4
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 2,
+      "output": "scguns:compact_advanced_round",
+      "count": 16,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 4
+        },
+        {
+          "item": "minecraft:quartz",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 2,
+      "output": "scguns:advanced_round",
+      "count": 16,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 4
+        },
+        {
+          "item": "minecraft:quartz",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 2,
+      "output": "scguns:grapeshot",
+      "count": 4,
+      "materials": [
+        {
+          "item": "minecraft:gunpowder",
+          "count": 1
+        },
+        {
+          "item": "minecraft:flint",
+          "count": 2
+        },
+        {
+          "item": "minecraft:stick",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 3,
+      "output": "scguns:energy_core",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:redstone_block",
+          "count": 1
+        },
+        {
+          "item": "minecraft:amethyst_shard",
+          "count": 2
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 3,
+      "output": "scguns:shock_cell",
+      "count": 8,
+      "materials": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 8
+        },
+        {
+          "item": "minecraft:quartz",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 2,
+      "output": "scguns:stun_grenade",
+      "count": 2,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 2
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 3
+        },
+        {
+          "item": "minecraft:quartz",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 3,
+      "output": "scguns:energy_cell",
+      "count": 8,
+      "materials": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 8
+        },
+        {
+          "item": "minecraft:quartz",
+          "count": 2
+        },
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 3,
+      "output": "scguns:rocket",
+      "count": 2,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 8
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 3,
+      "output": "scguns:he_grenade_round",
+      "count": 4,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 6
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 3,
+      "output": "scguns:grenade",
+      "count": 2,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 4
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 3,
+      "output": "scguns:gas_grenade",
+      "count": 2,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 3
+        },
+        {
+          "item": "minecraft:spider_eye",
+          "count": 2
+        },
+        {
+          "item": "minecraft:glass_bottle",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "scguns:gun_parts",
+      "count": 2,
+      "materials": [
+        {
+          "item": "minecraft:iron_block",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "scguns:stone_gun_barrel",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:stone",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "scguns:gun_barrel",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "scguns:copper_gun_frame",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "scguns:firing_unit",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "create:zinc_ingot",
+          "count": 1
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "scguns:wooden_stock",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:oak_planks",
+          "count": 4
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "scguns:gun_grip",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:oak_planks",
+          "count": 2
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "iron_repair_kits:copper_repair_kit",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "iron_repair_kits:iron_repair_kit",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 6
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 3,
+      "output": "iron_repair_kits:golden_repair_kit",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 6
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 1,
+      "output": "quark:torch_arrow",
+      "count": 8,
+      "materials": [
+        {
+          "item": "minecraft:arrow",
+          "count": 8
+        },
+        {
+          "item": "minecraft:torch",
+          "count": 8
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "zombie_extreme:cloth_bandage",
+      "count": 2,
+      "materials": [
+        {
+          "item": "minecraft:string",
+          "count": 2
+        },
+        {
+          "item": "minecraft:white_wool",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "scguns:enchanted_bandage",
+      "count": 2,
+      "materials": [
+        {
+          "item": "minecraft:paper",
+          "count": 2
+        },
+        {
+          "item": "minecraft:string",
+          "count": 2
+        },
+        {
+          "item": "minecraft:honey_bottle",
+          "count": 1
+        },
+        {
+          "item": "minecraft:gold_nugget",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "scguns:iron_gun_frame",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "scguns:gun_magazine",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "create:copper_nugget",
+          "count": 3
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "scguns:armor_plate",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "fracturepoint:nvg_battery",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:redstone",
+          "count": 4
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:quartz",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "scguns:repair_kit",
+      "count": 4,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 1
+        },
+        {
+          "item": "minecraft:string",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "zombie_extreme:bandage",
+      "count": 2,
+      "materials": [
+        {
+          "item": "zombie_extreme:cloth_bandage",
+          "count": 2
+        },
+        {
+          "item": "minecraft:honey_bottle",
+          "count": 1
+        },
+        {
+          "item": "minecraft:paper",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "zombie_extreme:syringe_antidote",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:glass_bottle",
+          "count": 1
+        },
+        {
+          "item": "minecraft:gold_ingot",
+          "count": 1
+        },
+        {
+          "item": "minecraft:fermented_spider_eye",
+          "count": 1
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 3,
+      "output": "scguns:rapid_firing_unit",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "create:zinc_ingot",
+          "count": 1
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "count": 1
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 3,
+      "output": "scguns:heavy_gun_barrel",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 5
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 3,
+      "output": "scguns:diamond_steel_gun_frame",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 3,
+      "output": "scguns:heavy_armor_plate",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 3,
+      "output": "scguns:raw_anthralite",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 8
+        },
+        {
+          "item": "minecraft:flint",
+          "count": 2
+        },
+        {
+          "item": "create:zinc_ingot",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 3,
+      "output": "quark:backpack",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:leather",
+          "count": 12
+        },
+        {
+          "item": "minecraft:string",
+          "count": 8
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

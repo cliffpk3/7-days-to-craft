@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "doomsday_structures:gas_station",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "berezka_api:berezkas_structure_placement",
+    "spacing": 20,
+    "separation": 10,
+    "salt": 28032600,
+    "frequency_reduction_method": "default",
+    "frequency": 0.0
+  }
+}

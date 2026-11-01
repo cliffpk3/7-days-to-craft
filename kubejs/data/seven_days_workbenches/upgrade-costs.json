@@ -1,0 +1,182 @@
+{
+  "schema": 1,
+  "status": "tiered_mob_progression",
+  "upgrades": [
+    {
+      "bench": "weapons",
+      "from_level": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 16
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 8
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 4
+        },
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "from_level": 2,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 12
+        },
+        {
+          "item": "scguns:rapid_firing_unit",
+          "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
+        },
+        {
+          "item": "seven_days_workbenches:boss_core",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "from_level": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 16
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 8
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 4
+        },
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "from_level": 2,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 12
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "count": 4
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
+        },
+        {
+          "item": "seven_days_workbenches:boss_core",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "from_level": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 16
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 12
+        },
+        {
+          "item": "scguns:sulfur_chunk",
+          "count": 6
+        },
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "from_level": 2,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 12
+        },
+        {
+          "item": "scguns:sulfur_chunk",
+          "count": 8
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
+        },
+        {
+          "item": "seven_days_workbenches:boss_core",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "from_level": 1,
+      "materials": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 16
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 12
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 8
+        },
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "count": 6
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "from_level": 2,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 12
+        },
+        {
+          "item": "scguns:raw_phosphor",
+          "count": 4
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
+        },
+        {
+          "item": "seven_days_workbenches:boss_core",
+          "count": 2
+        }
+      ]
+    }
+  ]
+}

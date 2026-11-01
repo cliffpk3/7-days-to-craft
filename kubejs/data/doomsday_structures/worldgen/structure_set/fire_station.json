@@ -1,0 +1,16 @@
+{
+  "structures": [
+    {
+      "structure": "doomsday_structures:fire_station",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "berezka_api:berezkas_structure_placement",
+    "spacing": 30,
+    "separation": 20,
+    "salt": 28032659,
+    "frequency_reduction_method": "default",
+    "frequency": 0.0
+  }
+}
