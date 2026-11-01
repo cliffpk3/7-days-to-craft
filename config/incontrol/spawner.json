@@ -98,39 +98,6 @@
   },
   {
     "attempts": 28,
-    "mob": "alexsmobs:rocky_roller",
-    "amount": {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "persecond": 0.044,
-    "weights": 1,
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "maxlocal": 2,
-      "maxheight": 24,
-      "mindist": 40,
-      "maxdist": 64,
-      "minheight": -40,
-      "maxthis": 8,
-      "and": {
-        "maxlight": 0,
-        "cave": true
-      },
-      "not": {
-        "biome": [
-          "minecraft:deep_dark"
-        ],
-        "biometags": [
-          "alexscaves:alexs_caves_biomes",
-          "forge:no_default_monsters"
-        ]
-      },
-      "maxverticaldist": 16
-    }
-  },
-  {
-    "attempts": 28,
     "mob": "minecraft:cave_spider",
     "amount": {
       "minimum": 1,
@@ -146,39 +113,6 @@
       "maxdist": 56,
       "minheight": -48,
       "maxthis": 10,
-      "and": {
-        "maxlight": 0,
-        "cave": true
-      },
-      "not": {
-        "biome": [
-          "minecraft:deep_dark"
-        ],
-        "biometags": [
-          "alexscaves:alexs_caves_biomes",
-          "forge:no_default_monsters"
-        ]
-      },
-      "maxverticaldist": 16
-    }
-  },
-  {
-    "attempts": 28,
-    "mob": "alexsmobs:centipede_head",
-    "amount": {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "persecond": 0.018,
-    "weights": 1,
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "maxlocal": 2,
-      "maxheight": -24,
-      "mindist": 40,
-      "maxdist": 64,
-      "minheight": -64,
-      "maxthis": 8,
       "and": {
         "maxlight": 0,
         "cave": true
@@ -245,39 +179,6 @@
       "maxdist": 56,
       "minheight": -48,
       "maxthis": 8,
-      "and": {
-        "maxlight": 0,
-        "cave": true
-      },
-      "not": {
-        "biome": [
-          "minecraft:deep_dark"
-        ],
-        "biometags": [
-          "alexscaves:alexs_caves_biomes",
-          "forge:no_default_monsters"
-        ]
-      },
-      "maxverticaldist": 16
-    }
-  },
-  {
-    "attempts": 28,
-    "mob": "alexscaves:watcher",
-    "amount": {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "persecond": 0.015,
-    "weights": 1,
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "maxlocal": 1,
-      "maxheight": -24,
-      "mindist": 32,
-      "maxdist": 64,
-      "minheight": -64,
-      "maxthis": 4,
       "and": {
         "maxlight": 0,
         "cave": true
@@ -375,39 +276,6 @@
       "maxheight": -32,
       "mindist": 32,
       "maxdist": 64,
-      "minheight": -64,
-      "maxthis": 3,
-      "and": {
-        "maxlight": 0,
-        "cave": true
-      },
-      "not": {
-        "biome": [
-          "minecraft:deep_dark"
-        ],
-        "biometags": [
-          "alexscaves:alexs_caves_biomes",
-          "forge:no_default_monsters"
-        ]
-      },
-      "maxverticaldist": 16
-    }
-  },
-  {
-    "attempts": 28,
-    "mob": "alexsmobs:murmur",
-    "amount": {
-      "minimum": 1,
-      "maximum": 1
-    },
-    "persecond": 0.008,
-    "weights": 1,
-    "conditions": {
-      "dimension": "minecraft:overworld",
-      "maxlocal": 1,
-      "maxheight": -40,
-      "mindist": 40,
-      "maxdist": 72,
       "minheight": -64,
       "maxthis": 3,
       "and": {

@@ -421,10 +421,10 @@
 	baldEagleSpawnRolls = 0
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
-	tigerSpawnWeight = 30
+	tigerSpawnWeight = 4
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
-	tigerSpawnRolls = 0
+	tigerSpawnRolls = 12
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
 	tarantulaHawkSpawnWeight = 6
@@ -493,10 +493,10 @@
 	manedWolfSpawnRolls = 0
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
-	anacondaSpawnWeight = 12
+	anacondaSpawnWeight = 4
 	#Random roll chance to enable mob spawning. Higher number = lower chance of spawning
 	#Range: > 0
-	anacondaSpawnRolls = 0
+	anacondaSpawnRolls = 12
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
 	anteaterSpawnWeight = 7
@@ -631,7 +631,7 @@
 	underminerSpawnRolls = 1
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
-	murmurSpawnWeight = 5
+	murmurSpawnWeight = 0
 	#Spawn Weight, added to a pool of other mobs for each biome. Higher number = higher chance of spawning. 0 = disable spawn
 	#Range: 0 ~ 1000
 	skunkSpawnWeight = 7

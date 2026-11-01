@@ -24,7 +24,7 @@
       },
       "encounters": [
         {
-          "weight": 4,
+          "weight": 1.0,
           "minY": -40,
           "maxY": 24,
           "mobs": [
@@ -32,11 +32,19 @@
           ]
         },
         {
-          "weight": 2,
+          "weight": 0.4,
           "minY": -64,
           "maxY": -24,
           "mobs": [
             "alexsmobs:centipede_head"
+          ]
+        },
+        {
+          "weight": 8.0,
+          "minY": -64,
+          "maxY": 24,
+          "mobs": [
+            "minecraft:zombie"
           ]
         }
       ]
@@ -86,6 +94,30 @@
           "maxY": -32,
           "mobs": [
             "realmrpg_demons:demon"
+          ]
+        },
+        {
+          "weight": 0.7,
+          "minY": -64,
+          "maxY": -24,
+          "mobs": [
+            "alexsmobs:murmur"
+          ]
+        },
+        {
+          "weight": 0.7,
+          "minY": -64,
+          "maxY": -24,
+          "mobs": [
+            "alexscaves:underzealot"
+          ]
+        },
+        {
+          "weight": 0.5,
+          "minY": -64,
+          "maxY": -32,
+          "mobs": [
+            "alexscaves:watcher"
           ]
         }
       ]
@@ -200,11 +232,19 @@
           ]
         },
         {
-          "weight": 1.5,
+          "weight": 0.4,
           "minY": -64,
           "maxY": -24,
           "mobs": [
             "alexsmobs:centipede_head"
+          ]
+        },
+        {
+          "weight": 0.2,
+          "minY": -64,
+          "maxY": -32,
+          "mobs": [
+            "alexsmobs:mimicube"
           ]
         }
       ]
