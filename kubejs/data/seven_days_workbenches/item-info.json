@@ -1,0 +1,54 @@
+{
+  "schema": 1,
+  "items": [
+    {
+      "item": "scguns:raw_anthralite",
+      "sources": {
+        "pt_br": ["Procure zumbis comuns na superfície e nas estradas."],
+        "en_us": ["Look for common zombies on the surface and along roads."]
+      }
+    },
+    {
+      "item": "zombie_extreme:raw_lead",
+      "sources": {
+        "pt_br": ["Runners são uma fonte comum; procure-os nas rotas de superfície."],
+        "en_us": ["Runners are a common source; seek them along surface routes."]
+      }
+    },
+    {
+      "item": "zombie_extreme:raw_steel",
+      "sources": {
+        "pt_br": ["Infected são a fonte principal na superfície."],
+        "en_us": ["Infected are the main surface source."]
+      }
+    },
+    {
+      "item": "zombie_extreme:raw_aluminum",
+      "sources": {
+        "pt_br": ["Decaying Zombies e Swarmers são fontes de superfície."],
+        "en_us": ["Decaying Zombies and Swarmers are surface sources."]
+      }
+    },
+    {
+      "item": "seven_days_workbenches:elite_mechanism",
+      "uses": {
+        "pt_br": ["Componente de progressão encontrado em monstros de elite."],
+        "en_us": ["Progression component found on elite monsters."]
+      }
+    },
+    {
+      "item": "seven_days_workbenches:boss_core",
+      "uses": {
+        "pt_br": ["Componente de progressão obtido de chefes."],
+        "en_us": ["Progression component obtained from bosses."]
+      }
+    },
+    {
+      "item": "seven_days_workbenches:blueprint",
+      "uses": {
+        "pt_br": ["Clique com o botão direito na bancada correspondente para instalar o projeto."],
+        "en_us": ["Right-click the matching workbench to install this blueprint."]
+      }
+    }
+  ]
+}

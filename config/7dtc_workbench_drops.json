@@ -1,25 +1,67 @@
 {
   "schema": 1,
-  "notes": "Drops apply to player, mob and environmental kills; self-inflicted deaths and summoned/horde mobs are excluded. One weighted resource roll per ordinary mob death, including native loot as the fallback. Each selected stack has count 1. Boss cores retain unique native boss loot. Player zombies are exempt so the Hordes mod can release the items it stored from the deceased player.",
+  "notes": "One weighted outcome per ordinary mob death; 1-2 raw iron and damaged iron gear are uncommon. Player zombies and summoned/horde mobs remain exempt. The source mod determines boss-specific loot.",
   "sources": [
     {
       "mob": "minecraft:zombie",
       "drops": [
         {
           "item": "minecraft:bone",
-          "chance": 0.1,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "minecraft:string",
           "chance": 0.08,
           "min": 1,
           "max": 1
         },
         {
+          "item": "minecraft:string",
+          "chance": 0.06,
+          "min": 1,
+          "max": 1
+        },
+        {
           "item": "scguns:raw_anthralite",
-          "chance": 0.55,
+          "chance": 0.4,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:raw_iron",
+          "chance": 0.06,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "zombie_extreme:bandage",
+          "chance": 0.03,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "zombie_extreme:syringe_antidote",
+          "chance": 0.008,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:iron_helmet",
+          "chance": 0.003,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:iron_chestplate",
+          "chance": 0.003,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:iron_leggings",
+          "chance": 0.003,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:iron_boots",
+          "chance": 0.003,
           "min": 1,
           "max": 1
         }
@@ -35,8 +77,8 @@
           "max": 1
         },
         {
-          "item": "zombie_extreme:raw_steel",
-          "chance": 0.65,
+          "item": "zombie_extreme:raw_aluminum",
+          "chance": 0.55,
           "min": 1,
           "max": 1
         }
@@ -343,6 +385,18 @@
           "chance": 0.42,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "minecraft:raw_iron",
+          "chance": 0.05,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "zombie_extreme:cloth_bandage",
+          "chance": 0.03,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -350,8 +404,26 @@
       "mob": "zombie_extreme:infected",
       "drops": [
         {
-          "item": "scguns:raw_anthralite",
-          "chance": 0.48,
+          "item": "zombie_extreme:raw_steel",
+          "chance": 0.55,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:raw_iron",
+          "chance": 0.07,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "zombie_extreme:cloth_bandage",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "zombie_extreme:syringe_antidote",
+          "chance": 0.012,
           "min": 1,
           "max": 1
         }
@@ -361,8 +433,26 @@
       "mob": "zombie_extreme:runner",
       "drops": [
         {
-          "item": "scguns:copper_gun_frame",
-          "chance": 0.44,
+          "item": "zombie_extreme:raw_lead",
+          "chance": 0.55,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:raw_iron",
+          "chance": 0.05,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "zombie_extreme:bandage",
+          "chance": 0.04,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:iron_boots",
+          "chance": 0.01,
           "min": 1,
           "max": 1
         }
@@ -457,7 +547,25 @@
         },
         {
           "item": "minecraft:iron_nugget",
-          "chance": 0.3,
+          "chance": 0.16,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:raw_iron",
+          "chance": 0.06,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "minecraft:iron_helmet",
+          "chance": 0.03,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "zombie_extreme:syringe_antidote",
+          "chance": 0.015,
           "min": 1,
           "max": 1
         }
@@ -491,7 +599,25 @@
         },
         {
           "item": "minecraft:iron_nugget",
-          "chance": 0.35,
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:raw_iron",
+          "chance": 0.06,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "minecraft:iron_chestplate",
+          "chance": 0.02,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "zombie_extreme:syringe_antidote",
+          "chance": 0.012,
           "min": 1,
           "max": 1
         }
@@ -509,6 +635,18 @@
         {
           "item": "minecraft:gunpowder",
           "chance": 0.22,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "minecraft:raw_iron",
+          "chance": 0.07,
+          "min": 1,
+          "max": 2
+        },
+        {
+          "item": "zombie_extreme:syringe_antidote",
+          "chance": 0.025,
           "min": 1,
           "max": 1
         }
@@ -609,6 +747,17 @@
         {
           "item": "seven_days_workbenches:elite_mechanism",
           "chance": 0.7,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "born_in_chaos_v1:swarmer",
+      "drops": [
+        {
+          "item": "zombie_extreme:raw_aluminum",
+          "chance": 0.55,
           "min": 1,
           "max": 1
         }
