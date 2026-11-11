@@ -1,0 +1,219 @@
+{
+  "id": "big_crate",
+  "display_name": "Big Crate",
+  "description": "Example: large quantity ranges, mixed item/tag matches, multiple pools and independent duplicate behavior.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": false,
+    "spawn_chance": 0.12,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.14
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": false,
+    "time_ticks": 24000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": true,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "bulk_materials",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:crafting_materials",
+            "sa_core:metal_scrap",
+            "sa_core:scrap_nugget",
+            "sa_core:electric_scrap",
+            "sa_core:nails",
+            "sa_core:wire",
+            "sa_core:copper_wire",
+            "sa_core:metal_pipe",
+            "sa_core:cloth",
+            "sa_core:rags",
+            "sa_core:dirty_rags",
+            "sa_core:thread",
+            "sa_core:rope",
+            "sa_core:cardboard",
+            "sa_core:plastic",
+            "sa_core:rubber",
+            "minecraft:string",
+            "minecraft:paper",
+            "minecraft:leather",
+            "minecraft:iron_nugget"
+          ],
+          "weight": 13,
+          "chance": 0.82,
+          "count": {
+            "min": 2,
+            "max": 8
+          }
+        },
+        {
+          "item": "sa_core:nails",
+          "weight": 10,
+          "chance": 0.72,
+          "count": {
+            "min": 4,
+            "max": 16
+          }
+        },
+        {
+          "item": "sa_core:metal_scrap",
+          "weight": 9,
+          "chance": 0.66,
+          "count": {
+            "min": 2,
+            "max": 10
+          }
+        },
+        {
+          "item": "sa_core:wire",
+          "weight": 7,
+          "chance": 0.48,
+          "count": {
+            "min": 1,
+            "max": 6
+          }
+        },
+        {
+          "item": "minecraft:iron_nugget",
+          "weight": 5,
+          "chance": 0.38,
+          "count": {
+            "min": 2,
+            "max": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "tools_and_rare",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:utility_tools",
+            "sa_core:duct_tape",
+            "sa_core:glue",
+            "sa_core:can_opener",
+            "sa_core:pliers",
+            "sa_core:matchbox",
+            "sa_core:scissor",
+            "sa_core:saw",
+            "sa_core:mortar_and_pestle",
+            "sa_combat:flashlight",
+            "sa_combat:repair_kit_i",
+            "minecraft:flint_and_steel",
+            "minecraft:shears"
+          ],
+          "weight": 7,
+          "chance": 0.34,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "matches": [
+            "#sa_decor:melee_weapons",
+            "sa_combat:baseball_bat",
+            "sa_combat:aluminum_baseball_bat",
+            "sa_combat:pipe_wrench",
+            "sa_combat:pipe",
+            "sa_core:crowbar",
+            "sa_combat:kitchen_knife",
+            "sa_combat:combat_knife",
+            "sa_combat:cleaver",
+            "sa_combat:iron_machete",
+            "sa_combat:scrap_knife",
+            "sa_core:screwdrive",
+            "sa_core:claw_hammer",
+            "sa_core:wrench",
+            "sa_core:saw",
+            "sa_core:metal_saw",
+            "sa_core:bolt_cutter",
+            "sa_combat:golf_stick",
+            "sa_combat:police_baton",
+            "sa_combat:rake",
+            "sa_combat:rolling_pin",
+            "sa_combat:plank",
+            "sa_combat:nailed_plank",
+            "sa_combat:wooden_spear",
+            "minecraft:iron_axe",
+            "minecraft:iron_sword"
+          ],
+          "weight": 4,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "sa_combat:repair_kit_i",
+          "weight": 3,
+          "chance": 0.16,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "matches": [
+            "#sa_decor:rare_melee_weapons",
+            "sa_combat:fire_axe",
+            "sa_combat:sledgehammer",
+            "sa_combat:tactical_tomahawk",
+            "sa_combat:katana",
+            "sa_combat:ashen_machete",
+            "sa_combat:chainsaw",
+            "sa_combat:stun_baton"
+          ],
+          "weight": 2,
+          "chance": 0.06,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        }
+      ]
+    }
+  ]
+}

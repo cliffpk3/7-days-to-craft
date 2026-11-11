@@ -1,0 +1,10 @@
+#Duration in gameplay ticks. Repeated doses refresh, never add.
+#Range: 20 ~ 72000
+pauseTicks = 3600
+reduceStageItems = ["survival_instinct:antibiotics"]
+pauseItems = ["survival_instinct:adrenaline_injector", "survival_instinct:morphine_injector", "survival_instinct:adrenaline_syringe", "survival_instinct:morphine_syringe"]
+cureItems = ["survival_instinct:blood_syringe"]
+stopZeBleedingItems = ["scguns:enchanted_bandage", "survival_instinct:bandage", "survival_instinct:medkit_bag", "survival_instinct:survival_medkit"]
+#10/11/2026: player effects always show their icon, except effects from these mods (hidden on purpose).
+hiddenEffectIconNamespaces = ["xaerominimap", "xaeroworldmap"]
+

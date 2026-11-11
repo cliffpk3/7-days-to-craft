@@ -1,0 +1,26 @@
+{
+  "_doc": "Limite de baus trancados por predio das cidades Lost Cities. Por numero de andares: o primeiro maxFloors que couber define o limite. Acima de 3 andares, 1 fica para a metade de baixo e o resto para a de cima. minTierByFloor: nivel minimo do bau trancado a partir do andar. relocateChance: % de baus simples movidos para outro ponto do predio. Predio de varios chunks conta uma vez e usa multiChunk. Baus alem do limite ficam abertos. Relido ao mudar o arquivo.",
+  "byFloors": [
+    {
+      "maxFloors": 3,
+      "limit": 1
+    },
+    {
+      "maxFloors": 9,
+      "limit": 3
+    }
+  ],
+  "default": 4,
+  "multiChunk": 4,
+  "minTierByFloor": [
+    {
+      "minFloor": 4,
+      "tier": 2
+    },
+    {
+      "minFloor": 9,
+      "tier": 3
+    }
+  ],
+  "relocateChance": 35
+}

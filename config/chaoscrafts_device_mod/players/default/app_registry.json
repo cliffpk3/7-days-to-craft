@@ -1,0 +1,86 @@
+{
+  "calculator": {
+    "internalName": "calculator",
+    "displayName": "Calculator",
+    "description": "Default application",
+    "version": "1.0"
+  },
+  "settings": {
+    "internalName": "settings",
+    "displayName": "Settings",
+    "description": "Default application",
+    "version": "1.0"
+  },
+  "notes": {
+    "internalName": "notes",
+    "displayName": "Notes",
+    "description": "A simple note taking application",
+    "version": "1.0"
+  },
+  "marketplace": {
+    "internalName": "marketplace",
+    "displayName": "Marketplace",
+    "description": "Default application",
+    "version": "1.0"
+  },
+  "notepad": {
+    "internalName": "notepad",
+    "displayName": "Notepad",
+    "description": "Default application",
+    "version": "1.0"
+  },
+  "paint": {
+    "internalName": "paint",
+    "displayName": "Paint",
+    "description": "Default application",
+    "version": "1.0"
+  },
+  "terminal": {
+    "internalName": "terminal",
+    "displayName": "Terminal",
+    "description": "Command-line terminal with real system commands (requires Networking addon)",
+    "version": "1.0"
+  },
+  "example": {
+    "internalName": "example",
+    "displayName": "Example App",
+    "description": "A sample add-on app",
+    "version": "1.0"
+  },
+  "messenger": {
+    "internalName": "messenger",
+    "displayName": "Messenger",
+    "description": "WhatsApp-style messaging app",
+    "version": "1.0"
+  },
+  "geometry dash": {
+    "internalName": "geometry dash",
+    "displayName": "Geometry Dash",
+    "description": "A fun rhythm-based platformer",
+    "version": "1.0"
+  },
+  "weather": {
+    "internalName": "weather",
+    "displayName": "Weather",
+    "description": "Check the current weather and forecast",
+    "version": "1.0"
+  },
+  "files": {
+    "internalName": "files",
+    "displayName": "Files",
+    "description": "Default application",
+    "version": "1.0"
+  },
+  "home security": {
+    "internalName": "home security",
+    "displayName": "Home Security",
+    "description": "Monitor cameras and security devices (requires addon)",
+    "version": "1.0"
+  },
+  "sftp": {
+    "internalName": "sftp",
+    "displayName": "Sftp",
+    "description": "Secure file transfer to remote SFTP servers (requires Networking addon)",
+    "version": "1.0"
+  }
+}

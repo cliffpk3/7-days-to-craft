@@ -1,0 +1,12 @@
+{
+  "structures": [
+    { "structure": "chaoszpack_structures:watch_tower_1", "weight": 1 }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 20,
+    "separation": 6,
+    "frequency": 0.0,
+    "salt": 293102321902102
+  }
+}

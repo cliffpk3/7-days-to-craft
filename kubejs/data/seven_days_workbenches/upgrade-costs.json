@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "status": "tiered_mob_progression",
+  "status": "clear_objectives_20261107: L2 = elites (Elite Mechanism), L3 = boss (Boss Core); bench_engines_20261110: N1->N2 pede 1 Vehicle Engine (sa_core:generator) + 2 do metal raro da bancada (provisorio; usuario vai revisitar com quests/chefes)",
   "upgrades": [
     {
       "bench": "weapons",
@@ -8,19 +8,23 @@
       "materials": [
         {
           "item": "minecraft:iron_ingot",
-          "count": 16
-        },
-        {
-          "item": "minecraft:copper_ingot",
           "count": 8
         },
         {
           "item": "scguns:gun_parts",
-          "count": 4
+          "count": 2
         },
         {
           "item": "seven_days_workbenches:elite_mechanism",
-          "count": 6
+          "count": 2
+        },
+        {
+          "item": "sa_core:generator",
+          "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 2
         }
       ]
     },
@@ -30,19 +34,15 @@
       "materials": [
         {
           "item": "minecraft:diamond",
-          "count": 12
+          "count": 6
         },
         {
           "item": "scguns:rapid_firing_unit",
           "count": 1
         },
         {
-          "item": "scguns:diamond_steel_ingot",
-          "count": 1
-        },
-        {
           "item": "seven_days_workbenches:boss_core",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -52,19 +52,27 @@
       "materials": [
         {
           "item": "minecraft:iron_ingot",
-          "count": 16
+          "count": 8
         },
         {
           "item": "minecraft:leather",
-          "count": 8
+          "count": 6
         },
         {
           "item": "scguns:armor_plate",
-          "count": 4
+          "count": 2
         },
         {
           "item": "seven_days_workbenches:elite_mechanism",
-          "count": 6
+          "count": 2
+        },
+        {
+          "item": "sa_core:generator",
+          "count": 1
+        },
+        {
+          "item": "zombie_extreme:titan_plate",
+          "count": 2
         }
       ]
     },
@@ -74,19 +82,15 @@
       "materials": [
         {
           "item": "minecraft:diamond",
-          "count": 12
+          "count": 6
         },
         {
           "item": "scguns:heavy_armor_plate",
-          "count": 4
-        },
-        {
-          "item": "scguns:diamond_steel_ingot",
-          "count": 1
+          "count": 2
         },
         {
           "item": "seven_days_workbenches:boss_core",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -96,19 +100,27 @@
       "materials": [
         {
           "item": "minecraft:iron_ingot",
-          "count": 16
+          "count": 8
         },
         {
           "item": "minecraft:gunpowder",
-          "count": 12
+          "count": 8
         },
         {
           "item": "scguns:sulfur_chunk",
-          "count": 6
+          "count": 4
         },
         {
           "item": "seven_days_workbenches:elite_mechanism",
-          "count": 6
+          "count": 2
+        },
+        {
+          "item": "sa_core:generator",
+          "count": 1
+        },
+        {
+          "item": "survival_instinct:steellium",
+          "count": 2
         }
       ]
     },
@@ -118,19 +130,15 @@
       "materials": [
         {
           "item": "minecraft:diamond",
-          "count": 12
+          "count": 6
         },
         {
           "item": "scguns:sulfur_chunk",
-          "count": 8
-        },
-        {
-          "item": "scguns:diamond_steel_ingot",
-          "count": 1
+          "count": 6
         },
         {
           "item": "seven_days_workbenches:boss_core",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -139,11 +147,11 @@
       "from_level": 1,
       "materials": [
         {
-          "item": "minecraft:copper_ingot",
-          "count": 16
+          "item": "minecraft:iron_ingot",
+          "count": 8
         },
         {
-          "item": "minecraft:iron_ingot",
+          "item": "minecraft:copper_ingot",
           "count": 12
         },
         {
@@ -152,7 +160,15 @@
         },
         {
           "item": "seven_days_workbenches:elite_mechanism",
-          "count": 6
+          "count": 2
+        },
+        {
+          "item": "sa_core:generator",
+          "count": 1
+        },
+        {
+          "item": "sa_core:ashen_steel_ingot",
+          "count": 2
         }
       ]
     },
@@ -162,19 +178,15 @@
       "materials": [
         {
           "item": "minecraft:diamond",
-          "count": 12
+          "count": 6
         },
         {
           "item": "scguns:raw_phosphor",
           "count": 4
         },
         {
-          "item": "scguns:diamond_steel_ingot",
-          "count": 1
-        },
-        {
           "item": "seven_days_workbenches:boss_core",
-          "count": 2
+          "count": 1
         }
       ]
     }

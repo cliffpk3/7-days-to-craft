@@ -31,6 +31,12 @@
           ],
           "name": "scguns:blueprint_scrap"
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.65
+        }
       ]
     },
     {
@@ -46,7 +52,7 @@
         {
           "type": "minecraft:item",
           "name": "seven_days_workbenches:blueprint",
-          "weight": 1,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -57,11 +63,143 @@
         {
           "type": "minecraft:item",
           "name": "seven_days_workbenches:blueprint",
-          "weight": 1,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{UnlockId:\"gun_raygun\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.12
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:long_scope",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:advanced_silencer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:weighted_stock",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:combat_shotgun",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.03
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:long_scope",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:advanced_silencer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:weighted_stock",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:combat_shotgun",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
         }

@@ -10,24 +10,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "WORLD_SURFACE_WG",
-  "biomes": [
-    "minecraft:plains",
-    "minecraft:sunflower_plains",
-    "minecraft:forest",
-    "minecraft:flower_forest",
-    "minecraft:birch_forest",
-    "minecraft:dark_forest",
-    "minecraft:taiga",
-    "minecraft:snowy_taiga",
-    "minecraft:savanna",
-    "minecraft:savanna_plateau",
-    "minecraft:desert",
-    "minecraft:badlands",
-    "minecraft:cherry_grove",
-    "minecraft:meadow",
-    "minecraft:old_growth_birch_forest",
-    "minecraft:old_growth_pine_taiga",
-    "minecraft:old_growth_spruce_taiga"
-  ],
+  "biomes": "#minecraft:is_overworld",
   "use_expansion_hack": false
 }

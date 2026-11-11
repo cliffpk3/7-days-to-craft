@@ -1,0 +1,57 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "fracturepoint:balaclava_eye_slit",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:balaclava_eyes_mouth",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:balaclava_open_face",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_balaclava_acacia",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_balaclava_birch",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_balaclava_dark_oak",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_balaclava_jungle",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_balaclava_mangrove",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_balaclava_oak",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_balaclava_snow",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_balaclava_spruce",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:iz_balaclava",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ratnik_pmk-4",
+      "required": false
+    }
+  ]
+}

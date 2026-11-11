@@ -127,8 +127,8 @@
       "tab": "melee",
       "level": 2,
       "item": "divine_weaponry:iron_battleaxe",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_iron",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:iron_battleaxe",
       "source": "zombie_bruiser_or_militia_t2",
       "note": ""
     },
@@ -137,8 +137,8 @@
       "tab": "melee",
       "level": 2,
       "item": "divine_weaponry:iron_cutlass",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_iron",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:iron_cutlass",
       "source": "zombie_bruiser_or_militia_t2",
       "note": ""
     },
@@ -147,8 +147,8 @@
       "tab": "melee",
       "level": 2,
       "item": "divine_weaponry:iron_dagger",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_iron",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:iron_dagger",
       "source": "zombie_bruiser_or_militia_t2",
       "note": ""
     },
@@ -157,8 +157,8 @@
       "tab": "melee",
       "level": 2,
       "item": "divine_weaponry:iron_glaive",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_iron",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:iron_glaive",
       "source": "zombie_bruiser_or_militia_t2",
       "note": ""
     },
@@ -167,8 +167,8 @@
       "tab": "melee",
       "level": 2,
       "item": "divine_weaponry:iron_hammer",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_iron",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:iron_hammer",
       "source": "zombie_bruiser_or_militia_t2",
       "note": ""
     },
@@ -177,8 +177,8 @@
       "tab": "melee",
       "level": 2,
       "item": "divine_weaponry:iron_katana",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_iron",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:iron_katana",
       "source": "zombie_bruiser_or_militia_t2",
       "note": ""
     },
@@ -187,8 +187,8 @@
       "tab": "melee",
       "level": 2,
       "item": "divine_weaponry:iron_longsword",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_iron",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:iron_longsword",
       "source": "zombie_bruiser_or_militia_t2",
       "note": ""
     },
@@ -197,8 +197,8 @@
       "tab": "melee",
       "level": 2,
       "item": "divine_weaponry:iron_rapier",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_iron",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:iron_rapier",
       "source": "zombie_bruiser_or_militia_t2",
       "note": ""
     },
@@ -207,8 +207,8 @@
       "tab": "melee",
       "level": 2,
       "item": "divine_weaponry:iron_scythe",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_iron",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:iron_scythe",
       "source": "zombie_bruiser_or_militia_t2",
       "note": ""
     },
@@ -217,8 +217,8 @@
       "tab": "melee",
       "level": 2,
       "item": "divine_weaponry:iron_shuriken",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_iron",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:iron_shuriken",
       "source": "zombie_bruiser_or_militia_t2",
       "note": ""
     },
@@ -227,8 +227,8 @@
       "tab": "melee",
       "level": 2,
       "item": "divine_weaponry:iron_sickle",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_iron",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:iron_sickle",
       "source": "zombie_bruiser_or_militia_t2",
       "note": ""
     },
@@ -237,8 +237,8 @@
       "tab": "melee",
       "level": 2,
       "item": "divine_weaponry:iron_spear",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_iron",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:iron_spear",
       "source": "zombie_bruiser_or_militia_t2",
       "note": ""
     },
@@ -367,8 +367,8 @@
       "tab": "melee",
       "level": 3,
       "item": "divine_weaponry:netherite_battleaxe",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_netherite",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:netherite_battleaxe",
       "source": "nether_bastion_or_wither",
       "note": ""
     },
@@ -377,8 +377,8 @@
       "tab": "melee",
       "level": 3,
       "item": "divine_weaponry:netherite_cutlass",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_netherite",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:netherite_cutlass",
       "source": "nether_bastion_or_wither",
       "note": ""
     },
@@ -387,8 +387,8 @@
       "tab": "melee",
       "level": 3,
       "item": "divine_weaponry:netherite_dagger",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_netherite",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:netherite_dagger",
       "source": "nether_bastion_or_wither",
       "note": ""
     },
@@ -397,8 +397,8 @@
       "tab": "melee",
       "level": 3,
       "item": "divine_weaponry:netherite_glaive",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_netherite",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:netherite_glaive",
       "source": "nether_bastion_or_wither",
       "note": ""
     },
@@ -407,8 +407,8 @@
       "tab": "melee",
       "level": 3,
       "item": "divine_weaponry:netherite_hammer",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_netherite",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:netherite_hammer",
       "source": "nether_bastion_or_wither",
       "note": ""
     },
@@ -417,8 +417,8 @@
       "tab": "melee",
       "level": 3,
       "item": "divine_weaponry:netherite_katana",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_netherite",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:netherite_katana",
       "source": "nether_bastion_or_wither",
       "note": ""
     },
@@ -427,8 +427,8 @@
       "tab": "melee",
       "level": 3,
       "item": "divine_weaponry:netherite_longsword",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_netherite",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:netherite_longsword",
       "source": "nether_bastion_or_wither",
       "note": ""
     },
@@ -437,8 +437,8 @@
       "tab": "melee",
       "level": 3,
       "item": "divine_weaponry:netherite_rapier",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_netherite",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:netherite_rapier",
       "source": "nether_bastion_or_wither",
       "note": ""
     },
@@ -447,8 +447,8 @@
       "tab": "melee",
       "level": 3,
       "item": "divine_weaponry:netherite_scythe",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_netherite",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:netherite_scythe",
       "source": "nether_bastion_or_wither",
       "note": ""
     },
@@ -457,8 +457,8 @@
       "tab": "melee",
       "level": 3,
       "item": "divine_weaponry:netherite_shuriken",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_netherite",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:netherite_shuriken",
       "source": "nether_bastion_or_wither",
       "note": ""
     },
@@ -467,8 +467,8 @@
       "tab": "melee",
       "level": 3,
       "item": "divine_weaponry:netherite_sickle",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_netherite",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:netherite_sickle",
       "source": "nether_bastion_or_wither",
       "note": ""
     },
@@ -477,8 +477,8 @@
       "tab": "melee",
       "level": 3,
       "item": "divine_weaponry:netherite_spear",
-      "unlock": "family_blueprint",
-      "blueprint": "melee_netherite",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/divine_weaponry:netherite_spear",
       "source": "nether_bastion_or_wither",
       "note": ""
     },
@@ -617,8 +617,8 @@
       "tab": "firearms",
       "level": 3,
       "item": "scguns:laser_musket",
-      "unlock": "family_blueprint",
-      "blueprint": "gun_energy_antique",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:laser_musket",
       "source": "osgood_lab_or_cog_chamber",
       "note": "Technology family blueprint; matching ammunition still has its own gate."
     },
@@ -627,8 +627,8 @@
       "tab": "firearms",
       "level": 3,
       "item": "scguns:plasmabuss",
-      "unlock": "family_blueprint",
-      "blueprint": "gun_energy_antique",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:plasmabuss",
       "source": "osgood_lab_or_cog_chamber",
       "note": "Technology family blueprint; matching ammunition still has its own gate."
     },
@@ -637,8 +637,8 @@
       "tab": "firearms",
       "level": 3,
       "item": "scguns:teslock_rifle",
-      "unlock": "family_blueprint",
-      "blueprint": "gun_energy_antique",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:teslock_rifle",
       "source": "osgood_lab_or_cog_chamber",
       "note": "Technology family blueprint; matching ammunition still has its own gate."
     },
@@ -1105,28 +1105,8 @@
     {
       "bench": "ordnance",
       "tab": "ammo",
-      "level": 2,
-      "item": "scguns:grapeshot",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "iron_copper_gunpowder",
-      "note": ""
-    },
-    {
-      "bench": "ordnance",
-      "tab": "ammo",
       "level": 3,
       "item": "scguns:energy_core",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "rare_power_components",
-      "note": ""
-    },
-    {
-      "bench": "ordnance",
-      "tab": "ammo",
-      "level": 3,
-      "item": "scguns:shock_cell",
       "unlock": "default",
       "blueprint": "",
       "source": "rare_power_components",
@@ -1137,8 +1117,8 @@
       "tab": "explosives",
       "level": 2,
       "item": "scguns:stun_grenade",
-      "unlock": "family_blueprint",
-      "blueprint": "ordnance_tactical",
+      "unlock": "blueprint",
+      "blueprint": "item/scguns:stun_grenade",
       "source": "militia_t2_or_t3",
       "note": ""
     },
@@ -1147,9 +1127,9 @@
       "tab": "ammo",
       "level": 3,
       "item": "scguns:energy_cell",
-      "unlock": "individual_blueprint",
-      "blueprint": "ordnance_energy_cell",
-      "source": "boss_or_special_structure",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "ordnance_l3_ingredients",
       "note": ""
     },
     {
@@ -1157,9 +1137,9 @@
       "tab": "ammo",
       "level": 3,
       "item": "scguns:rocket",
-      "unlock": "individual_blueprint",
-      "blueprint": "ordnance_rocket",
-      "source": "boss_or_special_structure",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "ordnance_l3_ingredients",
       "note": ""
     },
     {
@@ -1167,9 +1147,9 @@
       "tab": "ammo",
       "level": 3,
       "item": "scguns:he_grenade_round",
-      "unlock": "individual_blueprint",
-      "blueprint": "ordnance_he_grenade_round",
-      "source": "boss_or_special_structure",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "ordnance_l3_ingredients",
       "note": ""
     },
     {
@@ -1177,8 +1157,8 @@
       "tab": "explosives",
       "level": 3,
       "item": "scguns:grenade",
-      "unlock": "family_blueprint",
-      "blueprint": "ordnance_explosive",
+      "unlock": "blueprint",
+      "blueprint": "item/scguns:grenade",
       "source": "militia_t4_or_boss",
       "note": ""
     },
@@ -1187,8 +1167,8 @@
       "tab": "explosives",
       "level": 3,
       "item": "scguns:gas_grenade",
-      "unlock": "family_blueprint",
-      "blueprint": "ordnance_explosive",
+      "unlock": "blueprint",
+      "blueprint": "item/scguns:gas_grenade",
       "source": "militia_t4_or_boss",
       "note": ""
     },
@@ -1306,16 +1286,6 @@
       "bench": "utility_potion",
       "tab": "potions",
       "level": 1,
-      "item": "zombie_extreme:cloth_bandage",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "common_medical_supplies",
-      "note": "Check effect magnitude before release."
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "potions",
-      "level": 1,
       "item": "scguns:enchanted_bandage",
       "unlock": "default",
       "blueprint": "",
@@ -1361,36 +1331,6 @@
       "blueprint": "",
       "source": "city_t2_or_utility_craft",
       "note": ""
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "utilities",
-      "level": 2,
-      "item": "scguns:repair_kit",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "city_t2_or_utility_craft",
-      "note": ""
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "potions",
-      "level": 2,
-      "item": "zombie_extreme:bandage",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "city_medical_supplies_or_utility_craft",
-      "note": "Keep their original healing and antidote behavior; verify balance in game."
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "potions",
-      "level": 2,
-      "item": "zombie_extreme:syringe_antidote",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "city_medical_supplies_or_utility_craft",
-      "note": "Keep their original healing and antidote behavior; verify balance in game."
     },
     {
       "bench": "utility_potion",
@@ -1451,6 +1391,1656 @@
       "blueprint": "utility_expedition",
       "source": "dangerous_structure",
       "note": "Existing backpack recipe must migrate with this row."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 1,
+      "item": "survival_instinct:bandage",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "medical_loot_and_utility_craft",
+      "note": "Medical batch 1; original SI effects retained."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 2,
+      "item": "survival_instinct:antibiotics",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "medical_loot_and_utility_craft",
+      "note": "Medical batch 1; original SI effects retained."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 2,
+      "item": "survival_instinct:adrenaline_injector",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "medical_loot_and_utility_craft",
+      "note": "Medical batch 1; original SI effects retained."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 2,
+      "item": "survival_instinct:morphine_injector",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "medical_loot_and_utility_craft",
+      "note": "Medical batch 1; original SI effects retained."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 2,
+      "item": "survival_instinct:adrenaline_syringe",
+      "unlock": "blueprint",
+      "blueprint": "item/survival_instinct:adrenaline_syringe",
+      "source": "medical_loot_and_utility_craft",
+      "note": "Medical batch 1; original SI effects retained."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 2,
+      "item": "survival_instinct:morphine_syringe",
+      "unlock": "blueprint",
+      "blueprint": "item/survival_instinct:morphine_syringe",
+      "source": "medical_loot_and_utility_craft",
+      "note": "Medical batch 1; original SI effects retained."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 2,
+      "item": "survival_instinct:medkit_bag",
+      "unlock": "blueprint",
+      "blueprint": "item/survival_instinct:medkit_bag",
+      "source": "medical_loot_and_utility_craft",
+      "note": "Medical batch 1; original SI effects retained."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 3,
+      "item": "survival_instinct:survival_medkit",
+      "unlock": "blueprint",
+      "blueprint": "item/survival_instinct:survival_medkit",
+      "source": "medical_loot_and_utility_craft",
+      "note": "Medical batch 1; original SI effects retained."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 3,
+      "item": "survival_instinct:blood_syringe",
+      "unlock": "blueprint",
+      "blueprint": "item/survival_instinct:blood_syringe",
+      "source": "medical_loot_and_utility_craft",
+      "note": "Medical batch 1; original SI effects retained."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 1,
+      "item": "seven_days_traps:wire_trap",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "utility_craft",
+      "note": "96 successful hits; repair with aluminum ingots."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "defense",
+      "level": 2,
+      "item": "scguns:turret_platform",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Base of every turret."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "defense",
+      "level": 2,
+      "item": "scguns:basic_turret",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Medium range; Standard Copper / Advanced Round."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "defense",
+      "level": 2,
+      "item": "scguns:hostile_turret_targeting_module",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Turret targets only hostile mobs."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "defense",
+      "level": 3,
+      "item": "scguns:auto_turret",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Short range, fast fire; Compact rounds."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "defense",
+      "level": 3,
+      "item": "scguns:shotgun_turret",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Very short range; Shotgun Shell."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "defense",
+      "level": 3,
+      "item": "scguns:sniper_turret",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Long range; Advanced Round."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "defense",
+      "level": 3,
+      "item": "scguns:damage_turret_module",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Turret upgrade: damage."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "defense",
+      "level": 3,
+      "item": "scguns:fire_rate_turret_module",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Turret upgrade: fire rate."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "defense",
+      "level": 3,
+      "item": "scguns:range_turret_module",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Turret upgrade: range."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "defense",
+      "level": 3,
+      "item": "scguns:ammo_turret_module",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Turret upgrade: ammo storage."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "defense",
+      "level": 3,
+      "item": "scguns:shell_catcher_turret_module",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Turret upgrade: keeps casings."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "create:andesite_alloy",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "create:shaft",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "create:cogwheel",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "create:large_cogwheel",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "create:gearbox",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "create:clutch",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "create:gearshift",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "create:depot",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 1,
+      "item": "create:water_wheel",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 2,
+      "item": "create:large_water_wheel",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 2,
+      "item": "create:encased_fan",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 2,
+      "item": "create:mechanical_press",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 2,
+      "item": "create:mechanical_mixer",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 2,
+      "item": "grapplemod:grapplinghook",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 2,
+      "item": "corail_recycler:recycler",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "fracturepoint:beta7_nvg_helmet",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_beta7",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "fracturepoint:beta7_chestplate",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_beta7",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "fracturepoint:beta7_leggings",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_beta7",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "fracturepoint:beta7_boots",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_beta7",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "fracturepoint:fsb_squad_leader_helmet",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_squad_leader",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "fracturepoint:fsb_squad_leader_chestplate",
+      "unlock": "family_blueprint",
+      "blueprint": "armor_squad_leader",
+      "source": "workbench",
+      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:arc_worker",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:arc_worker",
+      "source": "scorched_copper",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:astella",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:astella",
+      "source": "scorched_scorched",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:auvtomag",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:auvtomag",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:basker",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:basker",
+      "source": "scorched_wrecker",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:big_bore",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:big_bore",
+      "source": "scorched_frontier",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:birdfeeder",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:birdfeeder",
+      "source": "scorched_copper",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:blooper",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:blooper",
+      "source": "scorched_copper",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 1,
+      "item": "scguns:bomb_lance",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "scorched_ocean",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:boomstick",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:boomstick",
+      "source": "scorched_copper",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:brawler",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:brawler",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:bruiser",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:bruiser",
+      "source": "scorched_copper",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:callwell_conversion",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:callwell_conversion",
+      "source": "scorched_frontier",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:callwell_terminal",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:callwell_terminal",
+      "source": "scorched_frontier",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:carapice",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:carapice",
+      "source": "scorched_end",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:cr4k_mining_laser",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:cr4k_mining_laser",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:crusader",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:crusader",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:cyclone",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:cyclone",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:dozier_rl",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:dozier_rl",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:drill",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:drill",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:drill_conversion",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:drill_conversion",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:earths_corpse",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:earths_corpse",
+      "source": "scorched_scorched",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:echoes_2",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:echoes_2",
+      "source": "scorched_deep_dark",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:flayed_god",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:flayed_god",
+      "source": "scorched_scorched",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:floundergat",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:floundergat",
+      "source": "scorched_ocean",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:forlorn_hope",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:forlorn_hope",
+      "source": "scorched_deep_dark",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:freyr",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:freyr",
+      "source": "scorched_piglin",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:gale",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:gale",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:gattaler",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:gattaler",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:gauss_rifle",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:gauss_rifle",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:grandle",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:grandle",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:grandle_og",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:grandle_og",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:gyrojet_pistol",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:gyrojet_pistol",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:hammer_gl",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:hammer_gl",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:homemaker",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:homemaker",
+      "source": "scorched_wrecker",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:howler",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:howler",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:howler_conversion",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:howler_conversion",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:hullbreaker",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:hullbreaker",
+      "source": "scorched_ocean",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:hyperbaria",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:hyperbaria",
+      "source": "scorched_ocean",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:inertial",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:inertial",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:inquisitor",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:inquisitor",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:iron_spear",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:iron_spear",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:jr_wristbreaker",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:jr_wristbreaker",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:kalaskah",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:kalaskah",
+      "source": "scorched_wrecker",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:killer_23",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:killer_23",
+      "source": "scorched_wrecker",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:krauser",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:krauser",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:libertas",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:libertas",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:llr_director",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:llr_director",
+      "source": "scorched_copper",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:lockewood",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:lockewood",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:locust",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:locust",
+      "source": "scorched_scorched",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:lone_wonder",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:lone_wonder",
+      "source": "scorched_end",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:m22_waltz",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:m22_waltz",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:m3_carabine",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:m3_carabine",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:m3_marksman",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:m3_marksman",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:mak_mkii",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:mak_mkii",
+      "source": "scorched_wrecker",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:mangalitsa",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:mangalitsa",
+      "source": "scorched_piglin",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:marlin",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:marlin",
+      "source": "scorched_ocean",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:mas_55",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:mas_55",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:mas_peddler",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:mas_peddler",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:micina",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:micina",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:minksy",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:minksy",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:mokova",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:mokova",
+      "source": "scorched_wrecker",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:nailer",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:nailer",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:nervepinch",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:nervepinch",
+      "source": "scorched_scorched",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:newborn_cyst",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:newborn_cyst",
+      "source": "scorched_scorched",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:niami",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:niami",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:osgood_50",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:osgood_50",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:plasgun",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:plasgun",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:prima_materia",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:prima_materia",
+      "source": "scorched_scorched",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:prush_gun",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:prush_gun",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:pulsar",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:pulsar",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:pyroclastic_flow",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:pyroclastic_flow",
+      "source": "scorched_piglin",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:railworker",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:railworker",
+      "source": "scorched_wrecker",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:rat_king_and_queen",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:rat_king_and_queen",
+      "source": "scorched_scorched",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:red_raydar",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:red_raydar",
+      "source": "scorched_frontier",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:rg_jigsaw",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:rg_jigsaw",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:rocket_rifle",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:rocket_rifle",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:rusty_gnat",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:rusty_gnat",
+      "source": "scorched_copper",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:saketini",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:saketini",
+      "source": "scorched_frontier",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:saketini_ironport",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:saketini_ironport",
+      "source": "scorched_frontier",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:scratches",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:scratches",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:sculk_resonator",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:sculk_resonator",
+      "source": "scorched_deep_dark",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:sequoia",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:sequoia",
+      "source": "scorched_ocean",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:shard_culler",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:shard_culler",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:shellurker",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:shellurker",
+      "source": "scorched_end",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:soul_drummer",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:soul_drummer",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:spirulida",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:spirulida",
+      "source": "scorched_ocean",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:spitfire",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:spitfire",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:sterilizer",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:sterilizer",
+      "source": "scorched_scorched",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:stigg",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:stigg",
+      "source": "scorched_wrecker",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:stiletto",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:stiletto",
+      "source": "scorched_wrecker",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:terra_incognita",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:terra_incognita",
+      "source": "scorched_scorched",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:thunderhead",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:thunderhead",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:tl_runner",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:tl_runner",
+      "source": "scorched_wrecker",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:trenchur",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:trenchur",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:triquetra",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:triquetra",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:trotters",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:trotters",
+      "source": "scorched_piglin",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:truant",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:truant",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:turnpike",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:turnpike",
+      "source": "scorched_wrecker",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:ultra_knight_hawk",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:ultra_knight_hawk",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:umax_pistol",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:umax_pistol",
+      "source": "scorched_copper",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:uppercut",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:uppercut",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:valora",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:valora",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:venturi",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:venturi",
+      "source": "scorched_iron",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:vulcanic_repeater",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:vulcanic_repeater",
+      "source": "scorched_piglin",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:waltz_conversion",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:waltz_conversion",
+      "source": "scorched_treated_brass",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:weevil",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:weevil",
+      "source": "scorched_end",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:whispers",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:whispers",
+      "source": "scorched_deep_dark",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:whistler",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:whistler",
+      "source": "scorched_copper",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:whizzbanger",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:whizzbanger",
+      "source": "scorched_wrecker",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:winnie",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:winnie",
+      "source": "scorched_frontier",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 2,
+      "item": "scguns:winnie_millend",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:winnie_millend",
+      "source": "scorched_frontier",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "weapons",
+      "tab": "firearms",
+      "level": 3,
+      "item": "scguns:zilk_45",
+      "unlock": "individual_blueprint",
+      "blueprint": "item/scguns:zilk_45",
+      "source": "scorched_diamond_steel",
+      "note": "8/11/2026: converted from the Scorched gun bench recipe."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 1,
+      "item": "survival_instinct:nail",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 1,
+      "item": "scguns:needle",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 1,
+      "item": "scguns:air_canister",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 2,
+      "item": "scguns:reinforced_air_canister",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "surface",
+      "note": ""
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 2,
+      "item": "scguns:heavy_gun_parts",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_salvage_or_common_materials",
+      "note": "9/11/2026: bench route, so firearms do not depend on a press."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 2,
+      "item": "survival_instinct:steellium",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_salvage_or_common_materials",
+      "note": "9/11/2026: trade-up from lower rarity."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 2,
+      "item": "survival_instinct:energy_storage_battery",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_salvage_or_common_materials",
+      "note": "9/11/2026: trade-up from lower rarity."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "components",
+      "level": 3,
+      "item": "survival_instinct:exo_component",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "city_salvage_or_common_materials",
+      "note": "9/11/2026: trade-up from lower rarity."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 2,
+      "item": "sa_core:scrap_multitool",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "utility_workbench_level_2",
+      "note": "Pickaxe, axe and shovel in one tool."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 3,
+      "item": "sa_core:ashen_steel_multitool",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "utility_workbench_level_3",
+      "note": "Upgraded multitool made of ashen steel."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 1,
+      "item": "survival_instinct:homemade_bandage",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "medical_loot_and_utility_craft",
+      "note": "11/11/2026: first step of the bandage chain."
     }
   ]
 }

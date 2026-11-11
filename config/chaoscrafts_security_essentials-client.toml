@@ -1,0 +1,50 @@
+
+[client]
+	#Enable experimental overheating tint/glow effect for the Minigun Turret.
+	experimentalOverheatingTint = false
+	#Maximum distance at which turret sounds can be heard. Volume decreases smoothly by 1% for each 1% of this range and is silent at the limit (blocks).
+	#Range: 1 ~ 256
+	turretSoundRange = 48
+	#Maximum client-side security camera capture rate. 60 FPS requires substantial GPU time for every active feed.
+	#Range: 1 ~ 60
+	cameraMaxFps = 60
+	#Maximum simultaneous local camera feeds rendered by the Home Security app.
+	#Range: 1 ~ 8
+	cameraMaxActiveStreams = 4
+	#Full alternate world renders per player frame. Fixed to one because Minecraft, Embeddium and Oculus share translucent and temporal renderer state; the focused feed is prioritized.
+	#Range: 1 ~ 1
+	cameraCapturesPerRenderTick = 1
+	#Show camera id, capture backend, and sequence number over security feeds for visual validation.
+	cameraDebugOverlay = false
+	#Home Security display treatment: classic_cctv, warm_crt, clean_monitor, or off. This never changes capture output.
+	cameraCrtProfile = "classic_cctv"
+	#Physical CRT projection: wide_analog, native_16_9, or broadcast_4_3. Wide Analog restores the reference bowed surveillance-tube face without changing raw capture output.
+	cameraCrtProjection = "wide_analog"
+	#CRT mesh/effect quality: performance, balanced, or high. Raw camera resolution is unchanged.
+	cameraCrtQuality = "high"
+	#Home Security console theme: industrial_retro or modern_premium.
+	homeSecurityTheme = "industrial_retro"
+	#Freeze decorative CRT shimmer/noise motion while preserving camera and status updates.
+	cameraReducedMotion = false
+	#Increase Home Security control outlines and text separation.
+	homeSecurityHighContrast = false
+	#Global presentation-only CRT effect intensity. Raw camera output is unchanged.
+	#Range: 0.25 ~ 1.0
+	cameraCrtEffectIntensity = 1.0
+	#Analogue static cell size: coarse, medium, or fine. This changes presentation only.
+	cameraStaticDetail = "medium"
+	#How often analogue snow receives a new pattern. Lower rates feel more like old surveillance hardware.
+	#Range: 4 ~ 30
+	cameraStaticRefreshRate = 18
+	#Contrast of unavailable-signal snow.
+	#Range: 0.0 ~ 1.0
+	cameraStaticIntensity = 0.78
+	#Horizontal jitter and broken synchronization strength for unavailable signals.
+	#Range: 0.0 ~ 1.0
+	cameraStaticInterference = 0.4
+	#Vertical hold/rolling-band strength for unavailable signals.
+	#Range: 0.0 ~ 1.0
+	cameraStaticVerticalRoll = 0.35
+	#Analogue static tint: neutral, warm, or cold.
+	cameraStaticColor = "neutral"
+

@@ -1,0 +1,372 @@
+{
+	filename: "7dtc_training_survival"
+	group: "7D7C000000000001"
+	icon: "minecraft:campfire"
+	id: "7D7C090000000004"
+	order_index: 13
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000005"]
+			description: ["Find and mine an exposed ore in a dark place while Ore Sense is active. The ore emits a subtle light at level 6 of 15."]
+			icon: "minecraft:raw_iron"
+			id: "7D7C310000000005"
+			rewards: [{
+				id: "7D7C340000000005"
+				item: "seven_days_workbenches:medium_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/ore_sense_mine"
+				criterion: "completed"
+				id: "7D7C350000000501"
+				title: "Mine an exposed ore in a dark place"
+				type: "advancement"
+			}]
+			title: "Ore Sense Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000006"]
+			description: ["Use an axe to break a tree log while Lumberjack is active."]
+			icon: {
+				Count: 1
+				id: "minecraft:iron_axe"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D7C310000000006"
+			rewards: [{
+				id: "7D7C340000000006"
+				item: "seven_days_workbenches:medium_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/lumberjack_fell"
+				criterion: "completed"
+				id: "7D7C350000000601"
+				title: "Break a tree log with an axe"
+				type: "advancement"
+			}]
+			title: "Lumberjack Training"
+			x: 0.0d
+			y: 2.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000007"]
+			description: ["Defeat a hostile monster while Key Hunter is active. Eligible enemies have an improved chance to drop keys."]
+			icon: "wrd:keystrongholdchest_iron"
+			id: "7D7C310000000007"
+			rewards: [{
+				id: "7D7C340000000007"
+				item: "seven_days_workbenches:medium_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/key_hunter_kill"
+				criterion: "completed"
+				id: "7D7C350000000701"
+				title: "Defeat a hostile monster with Key Hunter active"
+				type: "advancement"
+			}]
+			title: "Key Hunter Training"
+			x: 0.0d
+			y: 4.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000017"]
+			description: ["Bring the matching key and open a locked chest while Key Conservation is active."]
+			icon: "wrd:keystrongholdchest_gold"
+			id: "7D7C310000000017"
+			rewards: [{
+				id: "7D7C340000000017"
+				item: "seven_days_workbenches:rare_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/key_conservation_open"
+				criterion: "completed"
+				id: "7D7C350000001701"
+				title: "Open a locked chest with Key Conservation active"
+				type: "advancement"
+			}]
+			title: "Key Conservation Training"
+			x: 0.0d
+			y: 6.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000003"]
+			description: ["Obtain a Quark Backpack. Complete this step to continue Backpack License Training."]
+			icon: "quark:backpack"
+			id: "6E938A1658F92ABD"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/backpack_obtain"
+				criterion: "completed"
+				id: "7D7C350000000301"
+				title: "Obtain a Quark Backpack"
+				type: "advancement"
+			}]
+			title: "Obtain a Quark Backpack"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["6E938A1658F92ABD"]
+			description: [
+				"Obtain a Quark Backpack and equip it in the Curios Back slot."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim a basic supply bundle."
+			]
+			icon: "quark:backpack"
+			id: "7D7C310000000003"
+			rewards: [{
+				id: "7D7C340000000003"
+				item: "seven_days_workbenches:basic_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/backpack_equip"
+				criterion: "completed"
+				id: "7D7C350000000302"
+				title: "Equip it in the Curios Back slot"
+				type: "advancement"
+			}]
+			title: "Backpack License Training"
+			x: 1.8d
+			y: 8.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000014"]
+			description: ["Reach twenty percent health safely. Complete this step to continue Pain Tolerance Training."]
+			icon: "minecraft:totem_of_undying"
+			id: "3927E6F70D907ACA"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/pain_tolerance_threshold"
+				criterion: "completed"
+				id: "7D7C350000001401"
+				title: "Reach twenty percent health safely"
+				type: "advancement"
+			}]
+			title: "Reach twenty percent health safely"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["3927E6F70D907ACA"]
+			description: ["Trigger resistance. Complete this step to continue Pain Tolerance Training."]
+			icon: "minecraft:totem_of_undying"
+			id: "77F3885EA7AE16EC"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/pain_tolerance_trigger"
+				criterion: "completed"
+				id: "7D7C350000001402"
+				title: "Trigger resistance"
+				type: "advancement"
+			}]
+			title: "Trigger resistance"
+			x: 1.8d
+			y: 10.0d
+		}
+		{
+			dependencies: ["77F3885EA7AE16EC"]
+			description: [
+				"At or below 20% health, observe the temporary resistance effect."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim a rare supply bundle."
+			]
+			icon: "minecraft:totem_of_undying"
+			id: "7D7C310000000014"
+			rewards: [{
+				id: "7D7C340000000014"
+				item: "seven_days_workbenches:rare_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/pain_tolerance_observe"
+				criterion: "completed"
+				id: "7D7C350000001403"
+				title: "Observe its duration and cooldown"
+				type: "advancement"
+			}]
+			title: "Pain Tolerance Training"
+			x: 3.6d
+			y: 10.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000016"]
+			description: ["Take damage. Complete this step to continue Enduring Vitality Training."]
+			icon: "minecraft:glistering_melon_slice"
+			id: "7D40C0E6B3DE3B0D"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/enduring_vitality_damage"
+				criterion: "completed"
+				id: "7D7C350000001601"
+				title: "Take damage"
+				type: "advancement"
+			}]
+			title: "Take damage"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["7D40C0E6B3DE3B0D"]
+			description: ["Avoid further damage. Complete this step to continue Enduring Vitality Training."]
+			icon: "minecraft:glistering_melon_slice"
+			id: "1F618EAC81DFB16E"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/enduring_vitality_wait"
+				criterion: "completed"
+				id: "7D7C350000001602"
+				title: "Avoid further damage"
+				type: "advancement"
+			}]
+			title: "Avoid further damage"
+			x: 1.8d
+			y: 12.0d
+		}
+		{
+			dependencies: ["1F618EAC81DFB16E"]
+			description: [
+				"After taking damage, remain safe and observe the slow passive recovery."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim a rare supply bundle."
+			]
+			icon: "minecraft:glistering_melon_slice"
+			id: "7D7C310000000016"
+			rewards: [{
+				id: "7D7C340000000016"
+				item: "seven_days_workbenches:rare_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/enduring_vitality_recovery"
+				criterion: "completed"
+				id: "7D7C350000001603"
+				title: "Observe slow passive recovery"
+				type: "advancement"
+			}]
+			title: "Enduring Vitality Training"
+			x: 3.6d
+			y: 12.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000018"]
+			description: ["Sneak and right-click into the air with a torch in your main hand. This consumes one torch and grants 10 seconds of Night Vision."]
+			icon: "minecraft:fire_charge"
+			id: "3C082B7171099A1C"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/dark_adaptation_enter"
+				criterion: "completed"
+				id: "7D7C350000001801"
+				title: "Consume a torch"
+				type: "advancement"
+			}]
+			title: "Consume a torch"
+			x: 0.0d
+			y: 14.0d
+		}
+		{
+			dependencies: ["3C082B7171099A1C"]
+			description: ["Consume another torch before the first charge expires to extend Night Vision."]
+			icon: "minecraft:fire_charge"
+			id: "7818C8C34989D2A9"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/dark_adaptation_wait"
+				criterion: "completed"
+				id: "7D7C350000001802"
+				title: "Stack a second charge"
+				type: "advancement"
+			}]
+			title: "Stack a second charge"
+			x: 1.8d
+			y: 14.0d
+		}
+		{
+			dependencies: ["7818C8C34989D2A9"]
+			description: [
+				"Consume torches while the buff is active until six charges are stacked."
+				""
+				"Each torch adds 10 seconds, up to 60 seconds. Complete this lesson once to claim a rare supply bundle."
+			]
+			icon: "minecraft:fire_charge"
+			id: "7D7C310000000018"
+			rewards: [{
+				id: "7D7C340000000018"
+				item: "seven_days_workbenches:rare_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/dark_adaptation_confirm"
+				criterion: "completed"
+				id: "7D7C350000001803"
+				title: "Stack six charges"
+				type: "advancement"
+			}]
+			title: "Fire Swallower Training"
+			x: 3.6d
+			y: 14.0d
+		}
+	
+		{
+			dependencies: ["7D7C36000000001F"]
+			description: ["Sneak within eight blocks of a hostile monster that has not detected you."]
+			icon: "minecraft:fermented_spider_eye"
+			id: "7D7C31000000001F"
+			rewards: [{
+				id: "7D7C34000000001F"
+				item: "seven_days_workbenches:medium_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/low_profile_approach"
+				criterion: "completed"
+				id: "7D7C3500000001F1"
+				title: "Sneak within 8 blocks of an unaware hostile monster"
+				type: "advancement"
+			}]
+			title: "Low Profile Training"
+			x: 0.0d
+			y: 16.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000023"]
+			description: [
+				"Threat Sense warns you when a dangerous creature has targeted you."
+				""
+				"The warning uses a hostile sound and a red edge effect. The Aggro Indicator exclamation mark is also enabled for every mob that targets you."
+			]
+			icon: "minecraft:echo_shard"
+			id: "7D7C310000000023"
+			rewards: [{
+				id: "7D7C340000000023"
+				item: "seven_days_workbenches:medium_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/threat_sense_alert"
+				criterion: "completed"
+				id: "7D7C350000002301"
+				title: "Receive a dangerous-creature warning"
+				type: "advancement"
+			}]
+			title: "Threat Sense Training"
+			x: 0.0d
+			y: 18.0d
+		}
+	
+	]
+	title: "Survival Training"
+}

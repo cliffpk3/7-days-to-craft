@@ -1,0 +1,53 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "celestial_artifacts:flame_arrow_bag",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:iron_scabbard",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:leech_scabbard",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:magic_arrow_bag",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:spirit_arrow_bag",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:titan_scabbard",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:twisted_scabbard",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:ethereal_wings",
+      "required": false
+    },
+    {
+      "id": "quark:backpack",
+      "required": false
+    },
+    {
+      "id": "scguns:air_canister",
+      "required": false
+    },
+    {
+      "id": "scguns:creative_air_canister",
+      "required": false
+    },
+    {
+      "id": "scguns:reinforced_air_canister",
+      "required": false
+    }
+  ]
+}

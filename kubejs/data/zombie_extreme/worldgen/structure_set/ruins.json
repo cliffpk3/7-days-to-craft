@@ -1,0 +1,30 @@
+{
+  "structures": [
+    {
+      "structure": "zombie_extreme:ruin_1",
+      "weight": 1
+    },
+    {
+      "structure": "zombie_extreme:ruin_2",
+      "weight": 1
+    },
+    {
+      "structure": "zombie_extreme:ruin_3",
+      "weight": 1
+    },
+    {
+      "structure": "zombie_extreme:ruin_4",
+      "weight": 1
+    },
+    {
+      "structure": "zombie_extreme:ruin_5",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 56,
+    "separation": 24,
+    "salt": 72110701
+  }
+}

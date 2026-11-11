@@ -1,0 +1,8 @@
+{
+  "notes": "Contagious Zombie (vanilla zombie variant with red glowing eyes). chance: natural spawn outside cities; cityChance: inside Lost Cities; cap: at most capCount within capRadius blocks; any hit on an uninfected player applies hordes:infected for infectionTicks.",
+  "chance": 0.02,
+  "cityChance": 0.06,
+  "capRadius": 64,
+  "capCount": 2,
+  "infectionTicks": 6000
+}

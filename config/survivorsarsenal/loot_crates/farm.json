@@ -1,0 +1,247 @@
+{
+  "id": "farm",
+  "display_name": "Farm",
+  "description": "Example loot profile. Duplicate/copy this preset and adjust pools, weights, chances, behavior and linked kits for your own pack.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": false,
+    "spawn_chance": 0.08,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.12
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": false,
+    "time_ticks": 24000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": true,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "produce",
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "item": "minecraft:carrot",
+          "weight": 8,
+          "chance": 0.64,
+          "count": {
+            "min": 1,
+            "max": 5
+          }
+        },
+        {
+          "item": "minecraft:potato",
+          "weight": 8,
+          "chance": 0.64,
+          "count": {
+            "min": 1,
+            "max": 5
+          }
+        },
+        {
+          "item": "minecraft:apple",
+          "weight": 5,
+          "chance": 0.34,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "item": "minecraft:bread",
+          "weight": 5,
+          "chance": 0.34,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:rotten_foods",
+            "sa_combat:big_burger_rotten",
+            "sa_combat:burger_rotten",
+            "sa_combat:cheese_burger_rotten",
+            "sa_combat:burrito_rotten",
+            "sa_combat:hot_dog_rotten",
+            "sa_combat:taco_rotten",
+            "sa_combat:toast_rotten",
+            "sa_combat:waffles_rotten",
+            "sa_combat:biscuit_rotten",
+            "sa_combat:donut_rotten",
+            "sa_combat:rotten_coxinha",
+            "minecraft:rotten_flesh"
+          ],
+          "weight": 4,
+          "chance": 0.3,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "farm_supplies",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "item": "minecraft:wheat_seeds",
+          "weight": 7,
+          "chance": 0.48,
+          "count": {
+            "min": 1,
+            "max": 8
+          }
+        },
+        {
+          "item": "minecraft:string",
+          "weight": 5,
+          "chance": 0.36,
+          "count": {
+            "min": 1,
+            "max": 5
+          }
+        },
+        {
+          "item": "minecraft:leather",
+          "weight": 4,
+          "chance": 0.28,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "item": "minecraft:egg",
+          "weight": 4,
+          "chance": 0.3,
+          "count": {
+            "min": 1,
+            "max": 4
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:crafting_materials",
+            "sa_core:metal_scrap",
+            "sa_core:scrap_nugget",
+            "sa_core:electric_scrap",
+            "sa_core:nails",
+            "sa_core:wire",
+            "sa_core:copper_wire",
+            "sa_core:metal_pipe",
+            "sa_core:cloth",
+            "sa_core:rags",
+            "sa_core:dirty_rags",
+            "sa_core:thread",
+            "sa_core:rope",
+            "sa_core:cardboard",
+            "sa_core:plastic",
+            "sa_core:rubber",
+            "minecraft:string",
+            "minecraft:paper",
+            "minecraft:leather",
+            "minecraft:iron_nugget"
+          ],
+          "weight": 5,
+          "chance": 0.34,
+          "count": {
+            "min": 1,
+            "max": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "farm_tools",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "item": "minecraft:iron_hoe",
+          "weight": 4,
+          "chance": 0.22,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "minecraft:iron_shovel",
+          "weight": 3,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "sa_combat:rake",
+          "weight": 3,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "minecraft:bucket",
+          "weight": 3,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "minecraft:fishing_rod",
+          "weight": 2,
+          "chance": 0.12,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        }
+      ]
+    }
+  ]
+}

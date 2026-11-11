@@ -1,0 +1,23 @@
+{
+  "_info": "Destino da subestrada de cada estrutura da roleta. anchors = [x, z] no molde original, sem rotacao; o caminho segue rumo ao destino mais proximo da estrada e para ao chegar perto de uma parede real, sem encostar. Estrutura ausente usa a regra antiga. Editavel; vale para estruturas ainda sem subestrada.",
+  "structures": {
+    "doomsday_structures:fire_station": { "entrance": "patio em frente as portas duplas do anexo", "anchors": [[11, 20]] },
+    "doomsday_structures:gas_station": { "entrance": "patio entre a loja e as bombas", "anchors": [[17, 8]] },
+    "doomsday_structures:shops": { "entrance": "estacionamento em frente as lojas", "anchors": [[16, 21]] },
+    "survival_instinct:fire_staton": { "entrance": "frente da porta dupla", "anchors": [[7, 13]] },
+    "survival_instinct:gas_station": { "entrance": "patio entre a loja e as bombas", "anchors": [[27, 26]] },
+    "survival_instinct:hardware_store": { "entrance": "vao de entrada na fachada de vidro", "anchors": [[13, 16]] },
+    "survival_instinct:military_camp": { "entrance": "sem portao no molde: meio do lado cercado mais proximo", "anchors": [[24, -2], [24, 49], [-2, 24], [49, 24]] },
+    "survival_instinct:mini_market": { "entrance": "saida do vestibulo de vidro", "anchors": [[22, 24]] },
+    "survival_instinct:pharmacy": { "entrance": "vao de entrada na fachada", "anchors": [[5, 13]] },
+    "survival_instinct:suburban_house": { "entrance": "frente da porta dupla", "anchors": [[7, 9]] },
+    "survival_instinct:survivor_camp": { "entrance": "centro do acampamento, junto a tenda", "anchors": [[5, 9]] },
+    "survival_instinct:survivor_house": { "entrance": "quintal em frente a porta dos fundos", "anchors": [[7, 19]] },
+    "survival_instinct:the_farm": { "entrance": "abertura norte do corredor central", "anchors": [[16, 7]] },
+    "chaoszpack_structures:watch_tower_1": { "entrance": "ruina sem porta: meio do lado mais proximo", "anchors": [[8, 1], [8, 14], [1, 8], [14, 8]] },
+    "zombie_extreme:build_1": { "entrance": "frente das portas duplas", "anchors": [[2, 10]] },
+    "zombie_extreme:caffe": { "entrance": "uma das duas portas duplas", "anchors": [[0, 8], [8, 0]] },
+    "zombie_extreme:gas_station_1": { "entrance": "patio em frente a porta dupla", "anchors": [[5, 8]] },
+    "zombie_extreme:modern_house_1": { "entrance": "frente da porta lateral", "anchors": [[11, 10]] }
+  }
+}

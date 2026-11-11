@@ -1,8 +1,76 @@
 {
   "benches": [
-    {"bench":"weapons","materials":[{"item":"minecraft:copper_block","count":2},{"item":"minecraft:bone","count":4},{"item":"minecraft:iron_block","count":1},{"item":"scguns:raw_anthralite","count":12}]},
-    {"bench":"armor","materials":[{"item":"minecraft:copper_block","count":2},{"item":"minecraft:iron_block","count":1},{"item":"minecraft:string","count":4},{"item":"zombie_extreme:raw_lead","count":12}]},
-    {"bench":"ordnance","materials":[{"item":"minecraft:copper_block","count":2},{"item":"minecraft:iron_block","count":1},{"item":"minecraft:gunpowder","count":4},{"item":"zombie_extreme:raw_steel","count":12}]},
-    {"bench":"utility_potion","materials":[{"item":"minecraft:copper_block","count":2},{"item":"minecraft:iron_block","count":1},{"item":"minecraft:rotten_flesh","count":4},{"item":"zombie_extreme:raw_aluminum","count":12}]}
+    {
+      "bench": "weapons",
+      "materials": [
+        {
+          "item": "minecraft:oak_log",
+          "count": 4,
+          "tag": "minecraft:logs"
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:crafting_table",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "materials": [
+        {
+          "item": "minecraft:oak_log",
+          "count": 4,
+          "tag": "minecraft:logs"
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:crafting_table",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "materials": [
+        {
+          "item": "minecraft:oak_log",
+          "count": 4,
+          "tag": "minecraft:logs"
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:crafting_table",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "materials": [
+        {
+          "item": "minecraft:oak_log",
+          "count": 4,
+          "tag": "minecraft:logs"
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:crafting_table",
+          "count": 1
+        }
+      ]
+    }
   ]
 }

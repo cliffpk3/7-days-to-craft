@@ -1,0 +1,54 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"armor_commander\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"armor_exosuit\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"armor_beta7\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"armor_squad_leader\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

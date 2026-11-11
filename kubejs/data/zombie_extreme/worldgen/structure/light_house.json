@@ -10,6 +10,6 @@
     "absolute": 0
   },
   "project_start_to_heightmap": "OCEAN_FLOOR_WG",
-  "biomes": "#seven_days_to_craft:never_generate_zombie_extreme_structures",
+  "biomes": "#minecraft:is_beach",
   "use_expansion_hack": false
 }

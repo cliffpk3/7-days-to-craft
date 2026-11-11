@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "cgm:workbench"
+    },
+    "title": "Central Workbench",
+    "description": "Obtain the Central Workbench.",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "completed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "cgm:workbench"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

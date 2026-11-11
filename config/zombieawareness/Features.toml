@@ -2,7 +2,7 @@
 #General mod settings
 [general]
 	#Spawn sound sense sources for monsters to track
-	awareness_Sound = true
+	awareness_Sound = false
 	#Spawn scent/blood sense sources for monsters to track
 	awareness_Scent = true
 	#Monsters see light near player and move towards it

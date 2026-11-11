@@ -1,0 +1,43 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"attachment_long_scope\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"attachment_advanced_silencer\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"attachment_weighted_stock\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

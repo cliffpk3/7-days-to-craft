@@ -18,7 +18,7 @@
             }
           ],
           "name": "scguns:gun_barrel",
-          "weight": 8
+          "weight": 160
         },
         {
           "type": "minecraft:item",
@@ -34,7 +34,7 @@
             }
           ],
           "name": "scguns:gun_parts",
-          "weight": 7
+          "weight": 140
         },
         {
           "type": "minecraft:item",
@@ -50,7 +50,7 @@
             }
           ],
           "name": "scguns:sulfur_chunk",
-          "weight": 7
+          "weight": 140
         },
         {
           "type": "minecraft:item",
@@ -66,7 +66,7 @@
             }
           ],
           "name": "scguns:choke_bomb",
-          "weight": 7
+          "weight": 140
         },
         {
           "type": "minecraft:item",
@@ -82,7 +82,7 @@
             }
           ],
           "name": "scguns:ancient_brass",
-          "weight": 7
+          "weight": 140
         },
         {
           "type": "minecraft:item",
@@ -98,7 +98,7 @@
             }
           ],
           "name": "scguns:gunpowder_dust",
-          "weight": 7
+          "weight": 140
         },
         {
           "type": "minecraft:item",
@@ -114,7 +114,7 @@
             }
           ],
           "name": "minecraft:coal",
-          "weight": 6
+          "weight": 120
         },
         {
           "type": "minecraft:item",
@@ -130,7 +130,7 @@
             }
           ],
           "name": "minecraft:rotten_flesh",
-          "weight": 5
+          "weight": 100
         },
         {
           "type": "minecraft:item",
@@ -146,7 +146,7 @@
             }
           ],
           "name": "scguns:medium_brass_casing",
-          "weight": 2
+          "weight": 40
         },
         {
           "type": "minecraft:item",
@@ -162,7 +162,7 @@
             }
           ],
           "name": "scguns:small_brass_casing",
-          "weight": 2
+          "weight": 40
         },
         {
           "type": "minecraft:item",
@@ -178,22 +178,7 @@
             }
           ],
           "name": "minecraft:gunpowder",
-          "weight": 3
-        },
-        {
-          "type": "minecraft:item",
-          "functions": [
-            {
-              "add": false,
-              "count": {
-                "type": "minecraft:uniform",
-                "max": 2.0,
-                "min": 1.0
-              },
-              "function": "minecraft:set_count"
-            }
-          ],
-          "name": "scguns:powder_keg"
+          "weight": 60
         },
         {
           "type": "minecraft:item",
@@ -210,7 +195,7 @@
             }
           ],
           "name": "scguns:treated_brass_helmet",
-          "weight": 3
+          "weight": 60
         },
         {
           "type": "minecraft:item",
@@ -224,7 +209,8 @@
               }
             }
           ],
-          "name": "scguns:blueprint_scrap"
+          "name": "scguns:blueprint_scrap",
+          "weight": 44
         },
         {
           "type": "minecraft:item",
@@ -238,7 +224,8 @@
               }
             }
           ],
-          "name": "scguns:treated_brass_flare"
+          "name": "scguns:treated_brass_flare",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -252,7 +239,8 @@
               }
             }
           ],
-          "name": "scguns:diamond_steel_flare"
+          "name": "scguns:diamond_steel_flare",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -269,7 +257,7 @@
             }
           ],
           "name": "scguns:treated_brass_boots",
-          "weight": 1
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -286,7 +274,7 @@
             }
           ],
           "name": "scguns:treated_brass_chestplate",
-          "weight": 2
+          "weight": 40
         },
         {
           "type": "minecraft:item",
@@ -303,14 +291,20 @@
             }
           ],
           "name": "scguns:treated_brass_leggings",
-          "weight": 2
+          "weight": 40
         }
       ],
       "rolls": {
         "type": "minecraft:uniform",
         "max": 10.0,
         "min": 3.0
-      }
+      },
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.88686
+        }
+      ]
     },
     {
       "name": "7dtc:blueprint",
@@ -318,14 +312,14 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.18
+          "chance": 0.15963
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
           "name": "seven_days_workbenches:blueprint",
-          "weight": 2,
+          "weight": 120,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -336,22 +330,139 @@
         {
           "type": "minecraft:item",
           "name": "seven_days_workbenches:blueprint",
-          "weight": 1,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{UnlockId:\"gun_energy_antique\"}"
+              "tag": "{\"UnlockId\": \"item/scguns:laser_musket\"}"
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "seven_days_workbenches:blueprint",
-          "weight": 1,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{UnlockId:\"ordnance_energy_cell\"}"
+              "tag": "{\"UnlockId\": \"item/scguns:plasmabuss\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/scguns:teslock_rifle\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:energy_cell",
+          "weight": 133,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.02
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:long_scope",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:advanced_silencer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:weighted_stock",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:combat_shotgun",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:microjet",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 3,
+                "max": 6
+              }
             }
           ]
         }

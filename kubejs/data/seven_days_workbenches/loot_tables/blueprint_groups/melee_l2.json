@@ -1,0 +1,142 @@
+{
+  "type": "minecraft:generic",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:iron_battleaxe\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:iron_cutlass\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:iron_dagger\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:iron_glaive\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:iron_hammer\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:iron_katana\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:iron_longsword\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:iron_rapier\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:iron_scythe\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:iron_shuriken\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:iron_sickle\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:iron_spear\"}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

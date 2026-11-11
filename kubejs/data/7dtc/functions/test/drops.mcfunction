@@ -1,0 +1,4 @@
+tellraw @s {"text":"Teste de drops: comum a 3 blocos; boss a 6. Use mundo de teste. Comum: no máximo 1 raro; boss: equipamentos preservados.","color":"yellow"}
+give @s minecraft:diamond_sword{Enchantments:[{id:"minecraft:sharpness",lvl:5s}]} 1
+summon minecraft:zombie ~3 ~ ~ {NoAI:1b,PersistenceRequired:1b,Tags:["7dtc_drop_review"],HandItems:[{id:"minecraft:diamond_sword",Count:1b},{id:"minecraft:diamond_axe",Count:1b}],HandDropChances:[2.0f,2.0f],ArmorItems:[{},{},{},{id:"minecraft:diamond_helmet",Count:1b}],ArmorDropChances:[0.0f,0.0f,0.0f,2.0f]}
+summon minecraft:zombie ~6 ~ ~ {NoAI:1b,PersistenceRequired:1b,Tags:["7dtc_drop_review","7dtc_horde_boss"],HandItems:[{id:"minecraft:diamond_sword",Count:1b},{id:"minecraft:diamond_axe",Count:1b}],HandDropChances:[2.0f,2.0f],ArmorItems:[{},{},{},{id:"minecraft:diamond_helmet",Count:1b}],ArmorDropChances:[0.0f,0.0f,0.0f,2.0f]}

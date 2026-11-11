@@ -1,0 +1,306 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "field_guide"
+	group: "7D7C000000000001"
+	icon: "minecraft:book"
+	id: "7D7C500000000000"
+	order_index: 2
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Where to find:"
+				"Dropped by: Zombie Bruiser 76%, Cog Knight 75%, Scamp Tank 74%, Infected Juggernaut 72%"
+				""
+				"Used for:"
+				"Workbench upgrades: Weapons L2 (2), Armor L2 (2), Ordnance L2 (2), Utility L2 (2)."
+			]
+			icon: "seven_days_workbenches:elite_mechanism"
+			id: "7D7C500000000001"
+			optional: true
+			tasks: [{
+				id: "7D7C510000000001"
+				item: "seven_days_workbenches:elite_mechanism"
+				type: "item"
+			}]
+			title: "Elite Mechanism"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Dropped by: Zero Patient 100%, Viventrum 100%, Subjugator 100%, Rat King 100%"
+				""
+				"Used for:"
+				"Workbench upgrades: Weapons L3 (1), Armor L3 (1), Ordnance L3 (1), Utility L3 (1)."
+			]
+			icon: "seven_days_workbenches:boss_core"
+			id: "7D7C500000000002"
+			optional: true
+			tasks: [{
+				id: "7D7C510000000002"
+				item: "seven_days_workbenches:boss_core"
+				type: "item"
+			}]
+			title: "Boss Core"
+			x: 1.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Dropped by: Supply Scamp 17%, Cog Minion 9%"
+				"Craft at the Utility Workbench, level 1."
+				""
+				"Used for:"
+				"Workbench upgrades: Weapons L2 (2)."
+				"Used in 15 workbench recipes (hold X on the item)."
+			]
+			icon: "scguns:gun_parts"
+			id: "7D7C500000000003"
+			optional: true
+			tasks: [{
+				id: "7D7C510000000003"
+				item: "scguns:gun_parts"
+				type: "item"
+			}]
+			title: "Gun Parts"
+			x: 3.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Dropped by: Trauma Unit 26%, Zombie Bruiser 24%"
+				"Craft at the Utility Workbench, level 2."
+				""
+				"Used for:"
+				"Workbench upgrades: Armor L2 (2)."
+				"Used in 16 workbench recipes (hold X on the item)."
+			]
+			icon: "scguns:armor_plate"
+			id: "7D7C500000000004"
+			optional: true
+			tasks: [{
+				id: "7D7C510000000004"
+				item: "scguns:armor_plate"
+				type: "item"
+			}]
+			title: "Armor Plate"
+			x: 4.5d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Dropped by: Scamp Tank 26%, Trauma Unit 15%"
+				"Craft at the Utility Workbench, level 3."
+				""
+				"Used for:"
+				"Workbench upgrades: Armor L3 (2)."
+				"Used in 8 workbench recipes (hold X on the item)."
+			]
+			icon: "scguns:heavy_armor_plate"
+			id: "7D7C500000000005"
+			optional: true
+			tasks: [{
+				id: "7D7C510000000005"
+				item: "scguns:heavy_armor_plate"
+				type: "item"
+			}]
+			title: "Heavy Armor Plate"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Dropped by: Cog Knight 15%"
+				"Craft at the Utility Workbench, level 3."
+				""
+				"Used for:"
+				"Workbench upgrades: Weapons L3 (1)."
+				"Used in 6 workbench recipes (hold X on the item)."
+			]
+			icon: "scguns:rapid_firing_unit"
+			id: "7D7C500000000006"
+			optional: true
+			tasks: [{
+				id: "7D7C510000000006"
+				item: "scguns:rapid_firing_unit"
+				type: "item"
+			}]
+			title: "Rapid Firing Unit"
+			x: 0.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Dropped by: Sulfurhead 55%"
+				""
+				"Used for:"
+				"Workbench upgrades: Ordnance L2 (4), Ordnance L3 (6)."
+				"Used in 1 workbench recipes (hold X on the item)."
+			]
+			icon: "scguns:sulfur_chunk"
+			id: "7D7C500000000007"
+			optional: true
+			tasks: [{
+				id: "7D7C510000000007"
+				item: "scguns:sulfur_chunk"
+				type: "item"
+			}]
+			title: "Sulfur Chunk"
+			x: 1.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Dropped by: Hive 45%, Sulfurhead 25%"
+				""
+				"Used for:"
+				"Workbench upgrades: Utility L3 (4)."
+				"Used in 2 workbench recipes (hold X on the item)."
+			]
+			icon: "scguns:raw_phosphor"
+			id: "7D7C500000000008"
+			optional: true
+			tasks: [{
+				id: "7D7C510000000008"
+				item: "scguns:raw_phosphor"
+				type: "item"
+			}]
+			title: "Raw Phosphor"
+			x: 3.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Smelt Raw Lead, dropped by: Drowned 90%, Infected Military 60%, Runner 55%, Military 55%"
+				""
+				"Used for:"
+				"Used in 4 workbench recipes (hold X on the item)."
+			]
+			icon: "zombie_extreme:ignotlead"
+			id: "7D7C500000000009"
+			optional: true
+			tasks: [{
+				id: "7D7C510000000009"
+				item: "zombie_extreme:ignotlead"
+				type: "item"
+			}]
+			title: "Lead Ingot"
+			x: 4.5d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Smelt Raw Steel, dropped by: Husk 90%, Goon 62%, Infected Police 58%, Infected 55%"
+				""
+				"Used for:"
+				"Used in 2 workbench recipes (hold X on the item)."
+			]
+			icon: "zombie_extreme:ignotsteel"
+			id: "7D7C50000000000A"
+			optional: true
+			tasks: [{
+				id: "7D7C51000000000A"
+				item: "zombie_extreme:ignotsteel"
+				type: "item"
+			}]
+			title: "Steel Ingot"
+			x: 6.0d
+			y: 1.5d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Smelt Raw Aluminum, dropped by: Zombie Villager 90%, Zombie Lumberjack 65%, Ram 64%, Infected Hazmat 58%"
+				""
+				"Used for:"
+				"Used in 3 workbench recipes (hold X on the item)."
+			]
+			icon: "zombie_extreme:ignot_aluminum"
+			id: "7D7C50000000000B"
+			optional: true
+			tasks: [{
+				id: "7D7C51000000000B"
+				item: "zombie_extreme:ignot_aluminum"
+				type: "item"
+			}]
+			title: "Aluminum Ingot"
+			x: 0.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Dropped by: Explosive Infected 50%, Barrel Zombie 26%, Boomer 25%, Infected Hazmat 22%"
+				""
+				"Used for:"
+				"Workbench upgrades: Ordnance L2 (8)."
+				"Used in 12 workbench recipes (hold X on the item)."
+			]
+			icon: "minecraft:gunpowder"
+			id: "7D7C50000000000C"
+			optional: true
+			tasks: [{
+				id: "7D7C51000000000C"
+				item: "minecraft:gunpowder"
+				type: "item"
+			}]
+			title: "Gunpowder"
+			x: 1.5d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Smelt Raw Anthralite, dropped by: Revived 50%, Cog Minion 49%, Crawler 42%, Supply Scamp 42%"
+				""
+				"Used for:"
+				"Used in 11 workbench recipes (hold X on the item)."
+			]
+			icon: "scguns:anthralite_ingot"
+			id: "7D7C50000000000D"
+			optional: true
+			tasks: [{
+				id: "7D7C51000000000D"
+				item: "scguns:anthralite_ingot"
+				type: "item"
+			}]
+			title: "Anthralite Ingot"
+			x: 3.0d
+			y: 3.0d
+		}
+		{
+			description: [
+				"Where to find:"
+				"Found in chests (hold Z on the item for the list)."
+				""
+				"Used for:"
+				"Workbench upgrades: Weapons L3 (6), Armor L3 (6), Ordnance L3 (6), Utility L3 (6)."
+				"Used in 37 workbench recipes (hold X on the item)."
+			]
+			icon: "minecraft:diamond"
+			id: "7D7C50000000000E"
+			optional: true
+			tasks: [{
+				id: "7D7C51000000000E"
+				item: "minecraft:diamond"
+				type: "item"
+			}]
+			title: "Diamond"
+			x: 4.5d
+			y: 3.0d
+		}
+	]
+	subtitle: ["Where to find the key materials of the workbench progression. Generated from game data."]
+	title: "Field Guide"
+}

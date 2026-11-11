@@ -1,0 +1,173 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "name": "7dtc_trunk_util",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:bandage",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:alcohol_wipes",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:cloth",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:rope",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:batteries",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:analgesic",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:police_baton_mace",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "name": "7dtc_trunk_gun",
+      "rolls": {
+        "type": "minecraft:uniform",
+        "min": 1,
+        "max": 2
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:gun_parts",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:firing_unit",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:gun_magazine",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:compact_copper_round",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 10
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:shotgun_shell",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 6
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7dtc_trunk_food",
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:mre",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:energy_can",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:chocolate_bar",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:bottle_of_water",
+          "weight": 3
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.5
+        }
+      ]
+    },
+    {
+      "name": "7dtc_titan_plate",
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.04
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "zombie_extreme:titan_plate"
+        }
+      ]
+    }
+  ]
+}

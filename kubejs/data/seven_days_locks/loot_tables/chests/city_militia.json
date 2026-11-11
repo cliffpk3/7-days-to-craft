@@ -7,7 +7,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bread",
-          "weight": 5,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -22,7 +22,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_beef",
-          "weight": 4,
+          "weight": 80,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -37,7 +37,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -49,6 +49,12 @@
             }
           ]
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.80359
+        }
       ]
     },
     {
@@ -59,49 +65,112 @@
       },
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "cgm:basic_bullet",
-          "weight": 5,
-          "functions": [
+          "type": "minecraft:group",
+          "weight": 100,
+          "children": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 24,
-                "max": 42
-              }
+              "type": "minecraft:item",
+              "name": "minecraft:gunpowder",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 3,
+                    "max": 6
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "zombie_extreme:ignotlead",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 3,
+                    "max": 6
+                  }
+                }
+              ]
             }
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "cgm:advanced_bullet",
-          "weight": 4,
-          "functions": [
+          "type": "minecraft:group",
+          "weight": 80,
+          "children": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 14,
-                "max": 28
-              }
+              "type": "minecraft:item",
+              "name": "minecraft:gunpowder",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 4,
+                    "max": 7
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "zombie_extreme:ignotsteel",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 3,
+                    "max": 6
+                  }
+                }
+              ]
             }
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "cgm:shell",
-          "weight": 3,
-          "functions": [
+          "type": "minecraft:group",
+          "weight": 60,
+          "children": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 12,
-                "max": 24
-              }
+              "type": "minecraft:item",
+              "name": "minecraft:gunpowder",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 4,
+                    "max": 8
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "zombie_extreme:ignotlead",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 4
+                  }
+                }
+              ]
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.80359
         }
       ]
     },
@@ -110,12 +179,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 30
+          "weight": 600
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:arrow",
-          "weight": 70,
+          "weight": 1400,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -127,6 +196,12 @@
             }
           ]
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.80359
+        }
       ]
     },
     {
@@ -134,32 +209,32 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 75
+          "weight": 1500
         },
         {
           "type": "minecraft:item",
           "name": "fracturepoint:fsb_squad_leader_helmet",
-          "weight": 6
+          "weight": 10
         },
         {
           "type": "minecraft:item",
           "name": "fracturepoint:fsb_squad_leader_chestplate",
-          "weight": 6
+          "weight": 10
         },
         {
           "type": "minecraft:item",
           "name": "fracturepoint:insurgency_commander_helmet",
-          "weight": 6
+          "weight": 10
         },
         {
           "type": "minecraft:item",
           "name": "fracturepoint:insurgency_commander_chestplate",
-          "weight": 6
+          "weight": 10
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 1,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -171,6 +246,12 @@
             }
           ]
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.80359
+        }
       ]
     },
     {
@@ -178,24 +259,57 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 91
+          "weight": 1820
         },
         {
           "type": "minecraft:item",
           "name": "divine_weaponry:iron_cutlass",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 18,
               "treasure": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "divine_weaponry:iron_battleaxe",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -207,31 +321,97 @@
         {
           "type": "minecraft:item",
           "name": "divine_weaponry:iron_dagger",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 18,
               "treasure": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "divine_weaponry:diamond_cutlass",
-          "weight": 3,
+          "weight": 180,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 26,
               "treasure": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "divine_weaponry:diamond_battleaxe",
-          "weight": 2,
+          "weight": 120,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -240,6 +420,12 @@
             }
           ]
         }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.80359
+        }
       ]
     },
     {
@@ -247,29 +433,93 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 97
+          "weight": 1940
         },
         {
           "type": "minecraft:item",
-          "name": "tacz:modern_kinetic_gun",
-          "weight": 3,
+          "name": "scguns:defender_pistol",
+          "weight": 60,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{GunId:\"tacz:glock_17\",GunFireMode:\"SEMI\"}"
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "tacz:modern_kinetic_gun",
-          "weight": 2,
+          "name": "scguns:doublet",
+          "weight": 40,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{GunId:\"tacz:db_short\",GunFireMode:\"SEMI\"}"
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.80359
         }
       ]
     },
@@ -279,64 +529,680 @@
       "conditions": [
         {
           "condition": "minecraft:random_chance",
-          "chance": 0.28
+          "chance": 0.22501
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/firearms_l2",
+          "weight": 4540
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/attachments_l2",
+          "weight": 3740
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/armor_l2",
+          "weight": 3740
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/explosives_l2",
+          "weight": 3000
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/firearms_l3",
+          "weight": 1740
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/explosives_l3",
+          "weight": 1240
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/attachments_l3",
+          "weight": 1000
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/armor_l3",
+          "weight": 1000
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.13333
         }
       ],
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "seven_days_workbenches:blueprint",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{UnlockId:\"armor_soldier\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_workbenches:blueprint",
-          "weight": 3,
-          "functions": [
-            {
-              "function": "minecraft:set_nbt",
-              "tag": "{UnlockId:\"gun_greaser_smg\"}"
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "seven_days_workbenches:blueprint",
+          "name": "divine_weaponry:diamond_dagger",
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{UnlockId:\"attachment_medium_scope\"}"
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "seven_days_workbenches:blueprint",
+          "name": "divine_weaponry:diamond_cutlass",
           "weight": 1,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{UnlockId:\"attachment_silencer\"}"
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "seven_days_workbenches:blueprint",
+          "name": "scguns:blueprint_scrap",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:energy_cell",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.02
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:blood_syringe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fracturepoint:insurgency_commander_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fracturepoint:fsb_squad_leader_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:grenade",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:lucky_rock",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "name": "7dtc_premium_1",
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "seven_days_workbenches:workbenches/weapons_workbench_level_2": true
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "seven_days_workbenches:workbenches/armor_workbench_level_2": true
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "seven_days_workbenches:workbenches/ordnance_workbench_level_2": true
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "seven_days_workbenches:workbenches/utility_potion_workbench_level_2": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.35
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_longsword",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 10,
+                "max": 18
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_katana",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 10,
+                "max": 18
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_battleaxe",
           "weight": 2,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{UnlockId:\"ordnance_tactical\"}"
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 10,
+                "max": 18
+              }
             }
           ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 15
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iron_repair_kits:copper_repair_kit",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:medkit_bag",
+          "weight": 2
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "name": "7dtc_premium_2",
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "seven_days_workbenches:workbenches/weapons_workbench_level_2": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "seven_days_workbenches:workbenches/armor_workbench_level_2": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "seven_days_workbenches:workbenches/ordnance_workbench_level_2": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "seven_days_workbenches:workbenches/utility_potion_workbench_level_2": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "seven_days_workbenches:workbenches/weapons_workbench_level_3": true
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "seven_days_workbenches:workbenches/armor_workbench_level_3": true
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "seven_days_workbenches:workbenches/ordnance_workbench_level_3": true
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "seven_days_workbenches:workbenches/utility_potion_workbench_level_3": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.35
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_longsword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 28
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_katana",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 20,
+                "max": 28
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 18,
+                "max": 25
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iron_repair_kits:iron_repair_kit",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:steellium",
+          "weight": 3,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:energy_storage_battery",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/firearms_l2",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/armor_l2",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "name": "7dtc_premium_3",
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "seven_days_workbenches:workbenches/weapons_workbench_level_3": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "seven_days_workbenches:workbenches/armor_workbench_level_3": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "seven_days_workbenches:workbenches/ordnance_workbench_level_3": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "seven_days_workbenches:workbenches/utility_potion_workbench_level_3": true
+                  }
+                }
+              }
+            }
+          ]
+        },
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.35
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_longsword",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_katana",
+          "weight": 2,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_chestplate",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:enchant_with_levels",
+              "levels": {
+                "type": "minecraft:uniform",
+                "min": 25,
+                "max": 30
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "iron_repair_kits:golden_repair_kit",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:exo_component",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/firearms_l3",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/armor_l3",
+          "weight": 1
         }
       ]
     }

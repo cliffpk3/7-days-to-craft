@@ -4,7 +4,8 @@ $ErrorActionPreference = 'Stop'
 $registry = Get-Content -Raw -LiteralPath (Join-Path $PackRoot 'kubejs\config\7dtc_mob_registry.json') | ConvertFrom-Json
 $ecosystems = Get-Content -Raw -LiteralPath (Join-Path $PackRoot 'config\7dtc_cave_ecosystems.json') | ConvertFrom-Json
 $depth = Get-Content -Raw -LiteralPath (Join-Path $PackRoot 'kubejs\config\7dtc_depth_matrix.json') | ConvertFrom-Json
-$blueprints = Get-Content -Raw -LiteralPath (Join-Path $PackRoot 'config\7dtc_gun_blueprints.json') | ConvertFrom-Json
+# 7dtc_gun_blueprints.json (TaCZ) foi aposentado em 7/11/2026; a roleta atual e 7dtc_blueprint_drops.json.
+$blueprints = Get-Content -Raw -LiteralPath (Join-Path $PackRoot 'config\7dtc_blueprint_drops.json') | ConvertFrom-Json
 
 $ids = [System.Collections.Generic.HashSet[string]]::new()
 foreach ($encounter in $depth.encounters) { [void]$ids.Add([string]$encounter.mob) }
@@ -26,9 +27,9 @@ foreach ($id in $ids) {
 }
 
 foreach ($tier in 1..4) {
-    $entry = $blueprints.PSObject.Properties["tier$tier"]
+    $entry = $blueprints.tiers.PSObject.Properties["$tier"]
     if ($null -eq $entry -or [double]$entry.Value.chance -lt 0 -or
-        [double]$entry.Value.chance -gt 1 -or @($entry.Value.blueprints).Count -eq 0) {
+        [double]$entry.Value.chance -gt 1 -or @($entry.Value.groups.PSObject.Properties).Count -eq 0) {
         $errors.Add("Pool de blueprint invalido: tier$tier")
     }
 }

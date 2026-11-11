@@ -1,0 +1,169 @@
+{
+  "id": "medicinal_crate",
+  "display_name": "Medicinal Crate",
+  "description": "Example loot profile. Duplicate/copy this preset and adjust pools, weights, chances, behavior and linked kits for your own pack.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": true,
+    "spawn_chance": 0.22,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.08
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": false,
+    "time_ticks": 24000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": false,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "medical_bulk",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:medical_supplies",
+            "sa_combat:bandage",
+            "sa_combat:bandage_sterilized",
+            "sa_combat:plaster",
+            "sa_combat:splint",
+            "sa_combat:alcohol_wipes",
+            "sa_combat:first_aid_kit",
+            "sa_combat:first_aid_spray",
+            "sa_combat:painkiller_pills",
+            "sa_combat:stamina_boost_pills",
+            "sa_combat:painkiller",
+            "sa_combat:stamina_boost",
+            "sa_core:sterilized_rags",
+            "sa_core:antiseptic",
+            "sa_core:medical_adhesive",
+            "sa_core:rubbing_alcohol"
+          ],
+          "weight": 12,
+          "chance": 0.84,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "item": "sa_core:sterilized_rags",
+          "weight": 8,
+          "chance": 0.58,
+          "count": {
+            "min": 1,
+            "max": 4
+          }
+        },
+        {
+          "item": "sa_core:rags",
+          "weight": 7,
+          "chance": 0.5,
+          "count": {
+            "min": 1,
+            "max": 5
+          }
+        },
+        {
+          "item": "sa_combat:splint",
+          "weight": 5,
+          "chance": 0.32,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "sa_core:medical_adhesive",
+          "weight": 4,
+          "chance": 0.26,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "emergency",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:advanced_medical_supplies",
+            "sa_combat:blood_bag",
+            "sa_combat:adrenaline",
+            "sa_combat:morphine",
+            "sa_combat:stim_shot",
+            "sa_combat:first_aid_kit",
+            "sa_combat:first_aid_spray"
+          ],
+          "weight": 6,
+          "chance": 0.28,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "sa_combat:first_aid_kit",
+          "weight": 5,
+          "chance": 0.22,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "sa_combat:first_aid_spray",
+          "weight": 5,
+          "chance": 0.2,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "sa_combat:stim_shot",
+          "weight": 2,
+          "chance": 0.08,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ]
+}

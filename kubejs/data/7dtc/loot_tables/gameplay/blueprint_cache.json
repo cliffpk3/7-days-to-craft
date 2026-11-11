@@ -1,0 +1,193 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:any_of",
+          "terms": [
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "seven_days_workbenches:workbenches/weapons_workbench_level_3": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "seven_days_workbenches:workbenches/armor_workbench_level_3": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "seven_days_workbenches:workbenches/ordnance_workbench_level_3": true
+                  }
+                }
+              }
+            },
+            {
+              "condition": "minecraft:entity_properties",
+              "entity": "this",
+              "predicate": {
+                "type_specific": {
+                  "type": "player",
+                  "advancements": {
+                    "seven_days_workbenches:workbenches/utility_potion_workbench_level_3": true
+                  }
+                }
+              }
+            }
+          ]
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/melee_l3",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/firearms_l3",
+          "weight": 25
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/armor_l3",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/medical_l3",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/attachments_l3",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/explosives_l3",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/gear_l3",
+          "weight": 10
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:inverted",
+          "term": {
+            "condition": "minecraft:any_of",
+            "terms": [
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "seven_days_workbenches:workbenches/weapons_workbench_level_3": true
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "seven_days_workbenches:workbenches/armor_workbench_level_3": true
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "seven_days_workbenches:workbenches/ordnance_workbench_level_3": true
+                    }
+                  }
+                }
+              },
+              {
+                "condition": "minecraft:entity_properties",
+                "entity": "this",
+                "predicate": {
+                  "type_specific": {
+                    "type": "player",
+                    "advancements": {
+                      "seven_days_workbenches:workbenches/utility_potion_workbench_level_3": true
+                    }
+                  }
+                }
+              }
+            ]
+          }
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/melee_l2",
+          "weight": 30
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/firearms_l2",
+          "weight": 20
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/armor_l2",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/medical_l2",
+          "weight": 15
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/attachments_l2",
+          "weight": 10
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/explosives_l2",
+          "weight": 10
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,187 @@
+{
+  "id": "valuables",
+  "display_name": "Valuables",
+  "description": "Example loot profile. Duplicate/copy this preset and adjust pools, weights, chances, behavior and linked kits for your own pack.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": true,
+    "spawn_chance": 0.26,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.14
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": false,
+    "time_ticks": 24000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": false,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "cash",
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "item": "sa_core:money",
+          "weight": 12,
+          "chance": 0.78,
+          "count": {
+            "min": 1,
+            "max": 10
+          }
+        },
+        {
+          "item": "sa_core:money_bundle",
+          "weight": 4,
+          "chance": 0.24,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "minecraft:emerald",
+          "weight": 2,
+          "chance": 0.16,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "minecraft:gold_nugget",
+          "weight": 4,
+          "chance": 0.32,
+          "count": {
+            "min": 1,
+            "max": 6
+          }
+        }
+      ]
+    },
+    {
+      "id": "personal_items",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:valuables",
+            "sa_core:money",
+            "sa_core:money_bundle",
+            "sa_core:cellphone",
+            "sa_core:camera",
+            "sa_core:classic_watch",
+            "sa_combat:currency_wallet",
+            "minecraft:emerald",
+            "minecraft:gold_nugget"
+          ],
+          "weight": 7,
+          "chance": 0.42,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "sa_core:cellphone",
+          "weight": 4,
+          "chance": 0.22,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "sa_core:camera",
+          "weight": 3,
+          "chance": 0.16,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "sa_core:classic_watch",
+          "weight": 3,
+          "chance": 0.14,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "security_clutter",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:junk",
+            "sa_core:empty_can",
+            "sa_core:dented_can",
+            "sa_core:tin_can",
+            "sa_core:empty_glass_bottle",
+            "sa_core:water_bottle_empty",
+            "sa_core:dirty_rags",
+            "sa_core:cardboard",
+            "sa_core:plastic",
+            "minecraft:paper",
+            "minecraft:string",
+            "minecraft:bone",
+            "minecraft:rotten_flesh"
+          ],
+          "weight": 4,
+          "chance": 0.24,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "minecraft:paper",
+          "weight": 4,
+          "chance": 0.26,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        }
+      ]
+    }
+  ]
+}

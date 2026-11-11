@@ -1,0 +1,494 @@
+{
+  "id": "guns",
+  "display_name": "Guns",
+  "description": "Example: TACZ gun NBT plus linked kit items. A successful weapon roll can also spawn matching ammo, an attachment and an SA repair kit through `with`.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": true,
+    "spawn_chance": 0.48,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.15
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": false,
+    "time_ticks": 24000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": false,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "handguns",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "item": "scguns:defender_pistol",
+          "weight": 5,
+          "chance": 0.28,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "item": "scguns:gun_parts",
+              "weight": 1,
+              "chance": 0.32,
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "item": "sa_combat:repair_kit_i",
+              "weight": 1,
+              "chance": 0.16,
+              "count": {
+                "min": 1,
+                "max": 1
+              },
+              "nbt": "{Damage:0}"
+            }
+          ]
+        },
+        {
+          "item": "scguns:handcannon",
+          "weight": 2,
+          "chance": 0.1,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:defender_pistol",
+          "weight": 4,
+          "chance": 0.22,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "item": "scguns:gun_parts",
+              "weight": 1,
+              "chance": 0.22,
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "item": "sa_combat:repair_kit_i",
+              "weight": 1,
+              "chance": 0.14,
+              "count": {
+                "min": 1,
+                "max": 1
+              },
+              "nbt": "{Damage:0}"
+            }
+          ]
+        },
+        {
+          "item": "scguns:defender_pistol",
+          "weight": 3,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "weight": 4,
+          "chance": 0.24,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotlead",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long_guns",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "item": "scguns:makeshift_rifle",
+          "weight": 5,
+          "chance": 0.24,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotsteel",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "item": "scguns:gun_parts",
+              "weight": 1,
+              "chance": 0.28,
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "item": "sa_combat:repair_kit_i",
+              "weight": 1,
+              "chance": 0.16,
+              "count": {
+                "min": 1,
+                "max": 1
+              },
+              "nbt": "{Damage:0}"
+            }
+          ]
+        },
+        {
+          "item": "scguns:makeshift_rifle",
+          "weight": 5,
+          "chance": 0.24,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotsteel",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "item": "scguns:gun_parts",
+              "weight": 1,
+              "chance": 0.22,
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "item": "sa_combat:repair_kit_i",
+              "weight": 1,
+              "chance": 0.16,
+              "count": {
+                "min": 1,
+                "max": 1
+              },
+              "nbt": "{Damage:0}"
+            }
+          ]
+        },
+        {
+          "item": "scguns:fencer_carabine",
+          "weight": 3,
+          "chance": 0.16,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotsteel",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:doublet",
+          "weight": 3,
+          "chance": 0.14,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:blunderbuss",
+          "weight": 2,
+          "chance": 0.09,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "attachments_and_repairs",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "item": "scguns:gun_parts",
+          "weight": 4,
+          "chance": 0.22,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "scguns:gun_parts",
+          "weight": 4,
+          "chance": 0.2,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "scguns:gun_parts",
+          "weight": 4,
+          "chance": 0.2,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "scguns:gun_parts",
+          "weight": 2,
+          "chance": 0.1,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "scguns:gun_parts",
+          "weight": 2,
+          "chance": 0.12,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "sa_combat:repair_kit_i",
+          "weight": 3,
+          "chance": 0.24,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "sa_combat:weapon_parts",
+          "weight": 3,
+          "chance": 0.2,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ]
+    }
+  ]
+}

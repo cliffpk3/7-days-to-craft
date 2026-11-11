@@ -7,9 +7,9 @@
     "railpartheight6": 1
   },
   "multisettings": {
-    "areasize": 10,
+    "areasize": 12,
     "minimum": 1,
-    "maximum": 5,
+    "maximum": 7,
     "correctstylefactor": 0.8,
     "attempts": 50
   },
@@ -100,18 +100,8 @@
   ],
   "citystyles": [
     {
-      "factor": 0.5,
-      "citystyle": "citystyle_border"
-    },
-    {
-      "factor": 9.0,
-      "biomes": {
-        "if_any": [
-          "minecraft:desert",
-          "minecraft:badlands"
-        ]
-      },
-      "citystyle": "citystyle_desert"
+      "factor": 1,
+      "citystyle": "keerdm_zombie_essentials:standard"
     }
   ]
 }

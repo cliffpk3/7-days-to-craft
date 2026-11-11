@@ -1,0 +1,198 @@
+{
+  "id": "small_cardboard_box",
+  "display_name": "Small Cardboard Box",
+  "description": "Example loot profile. Duplicate/copy this preset and adjust pools, weights, chances, behavior and linked kits for your own pack.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": false,
+    "spawn_chance": 0.03,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.24
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": false,
+    "time_ticks": 24000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": true,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "paper_and_clutter",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "item": "minecraft:paper",
+          "weight": 10,
+          "chance": 0.72,
+          "count": {
+            "min": 1,
+            "max": 5
+          }
+        },
+        {
+          "item": "minecraft:string",
+          "weight": 6,
+          "chance": 0.42,
+          "count": {
+            "min": 1,
+            "max": 4
+          }
+        },
+        {
+          "item": "sa_core:cardboard",
+          "weight": 8,
+          "chance": 0.62,
+          "count": {
+            "min": 1,
+            "max": 4
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:junk",
+            "sa_core:empty_can",
+            "sa_core:dented_can",
+            "sa_core:tin_can",
+            "sa_core:empty_glass_bottle",
+            "sa_core:water_bottle_empty",
+            "sa_core:dirty_rags",
+            "sa_core:cardboard",
+            "sa_core:plastic",
+            "minecraft:paper",
+            "minecraft:string",
+            "minecraft:bone",
+            "minecraft:rotten_flesh"
+          ],
+          "weight": 6,
+          "chance": 0.42,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "small_useful",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "item": "sa_core:duct_tape",
+          "weight": 5,
+          "chance": 0.22,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "sa_core:glue",
+          "weight": 4,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "sa_core:battery",
+          "weight": 3,
+          "chance": 0.14,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:snacks",
+            "sa_combat:plain_chips_bag",
+            "sa_combat:barbecue_chips_bag",
+            "sa_combat:salt_vinegar_chips_bag",
+            "sa_combat:sour_cream_onion_chips_bag",
+            "sa_combat:candy_package",
+            "sa_combat:candys",
+            "sa_combat:cereal",
+            "sa_combat:cereal_fruit_loops",
+            "sa_combat:cereal_kelloggys",
+            "sa_combat:fruit_jam",
+            "sa_combat:peanut_butter",
+            "sa_combat:chocolate_bar",
+            "sa_combat:energy_bar",
+            "sa_combat:granola_bar",
+            "sa_combat:smirkers_bar",
+            "sa_combat:sniksnak_bar",
+            "sa_combat:saltine_cracker",
+            "sa_combat:pacoquita",
+            "minecraft:cookie"
+          ],
+          "weight": 4,
+          "chance": 0.2,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:medical_supplies",
+            "sa_combat:bandage",
+            "sa_combat:bandage_sterilized",
+            "sa_combat:plaster",
+            "sa_combat:splint",
+            "sa_combat:alcohol_wipes",
+            "sa_combat:first_aid_kit",
+            "sa_combat:first_aid_spray",
+            "sa_combat:painkiller_pills",
+            "sa_combat:stamina_boost_pills",
+            "sa_combat:painkiller",
+            "sa_combat:stamina_boost",
+            "sa_core:sterilized_rags",
+            "sa_core:antiseptic",
+            "sa_core:medical_adhesive",
+            "sa_core:rubbing_alcohol"
+          ],
+          "weight": 2,
+          "chance": 0.08,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ]
+}

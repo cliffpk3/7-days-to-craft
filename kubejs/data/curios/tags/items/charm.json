@@ -1,0 +1,113 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "celestial_artifacts:demon_heart",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:greedy_heart",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:heart_of_revenge",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:twisted_heart",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:blaze_nucleus",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:broken_magnet",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:callus",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:dark_nelumbo",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:experience_battery",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:fertilizer",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:ice_cube",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:lucky_rock",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:missing_page",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:moon_stone",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:nelumbo",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:puffer_fish_liver",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:reforger",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:reverse_card",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:sleeping_pills",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:speed_force",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:spider_legs",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:super_magnet",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:tear_of_the_sea",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:tick",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:true_heart_of_the_sea",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:vampire_blood",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:what_magnet",
+      "required": false
+    }
+  ]
+}

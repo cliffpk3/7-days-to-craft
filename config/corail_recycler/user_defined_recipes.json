@@ -1,1 +1,41 @@
-[]
+[
+  {
+    "inputItem": "sa_core:cellphone:1",
+    "outputItems": [
+      "survival_instinct:electronic_scrap:2",
+      "corail_recycler:copper_nugget:3"
+    ]
+  },
+  {
+    "inputItem": "sa_core:camera:1",
+    "outputItems": [
+      "survival_instinct:electronic_scrap:2",
+      "minecraft:glass_pane:1"
+    ]
+  },
+  {
+    "inputItem": "sa_core:battery:1",
+    "outputItems": [
+      "survival_instinct:electronic_scrap:1",
+      "corail_recycler:copper_nugget:2"
+    ]
+  },
+  {
+    "inputItem": "sa_core:empty_can:1",
+    "outputItems": [
+      "minecraft:iron_nugget:2"
+    ]
+  },
+  {
+    "inputItem": "sa_core:tin_can:1",
+    "outputItems": [
+      "minecraft:iron_nugget:2"
+    ]
+  },
+  {
+    "inputItem": "sa_core:dented_can:1",
+    "outputItems": [
+      "minecraft:iron_nugget:1"
+    ]
+  }
+]

@@ -1,21 +1,21 @@
 
 [materials]
 	#Range: 0.0 ~ 1.0
-	fireEssenceChance = 0.08
+	fireEssenceChance = 0.0
 	#Range: 0.0 ~ 1.0
-	oceanEssenceChance = 0.08
+	oceanEssenceChance = 0.0
 	#Range: 0.0 ~ 1.0
-	deathEssenceChance = 0.6
+	deathEssenceChance = 0.0
 	#Range: 0 ~ 1000000
 	deathEssenceMinHealth = 100
 	#Range: 0.0 ~ 1.0
-	wardenScleriteChance = 0.5
+	wardenScleriteChance = 0.0
 	#Range: 0.0 ~ 1.0
-	shulkerScrapChance = 0.5
+	shulkerScrapChance = 0.0
 	#Range: 0.0 ~ 1.0
-	lightFragmentChance = 0.05
+	lightFragmentChance = 0.0
 	#Range: 0.0 ~ 1.0
-	midnightFragmentChance = 0.05
+	midnightFragmentChance = 0.0
 	#Range: 0 ~ 100
 	pureNetherStarEffectCount = 12
 

@@ -1,0 +1,224 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wrd:keystrongholdchest_treasure",
+          "weight": 330
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_battleaxe",
+          "weight": 54
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_cutlass",
+          "weight": 54
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_dagger",
+          "weight": 54
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_glaive",
+          "weight": 54
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_hammer",
+          "weight": 54
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_katana",
+          "weight": 54
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_longsword",
+          "weight": 54
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_rapier",
+          "weight": 54
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_scythe",
+          "weight": 54
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_sickle",
+          "weight": 54
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_spear",
+          "weight": 54
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 330
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:survival_medkit",
+          "weight": 132
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:medkit_bag",
+          "weight": 132
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:blood_syringe",
+          "weight": 132
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/firearms_l3",
+          "weight": 264
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/melee_l3",
+          "weight": 165
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/armor_l3",
+          "weight": 132
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/explosives_l3",
+          "weight": 132
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/attachments_l3",
+          "weight": 99
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/gear_l3",
+          "weight": 33
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:rocket",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 110
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:energy_cell",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 4,
+                "max": 8
+              }
+            }
+          ],
+          "weight": 110
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:he_grenade_round",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 110
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "zombie_extreme:ignot_aluminum",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 3,
+                    "max": 5
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:gunpowder",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 6,
+                    "max": 8
+                  }
+                }
+              ]
+            }
+          ],
+          "weight": 231
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:cloud_in_a_bottle",
+          "weight": 88
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:crystal_heart",
+          "weight": 88
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:lucky_rock",
+          "weight": 88
+        }
+      ]
+    }
+  ]
+}

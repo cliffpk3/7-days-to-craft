@@ -1,0 +1,133 @@
+{
+  "_doc": "Cadaveres dormentes (10/11/2026). Na geracao do chunk, cada cadaver listado em 'corpses' tem 'chance' de virar um zumbi parado na mesma pose; ele acorda quando um jogador chega a 'wakeRadius' blocos ou quando leva dano. pose: sitting (sentado num assento invisivel) ou lying (deitado). yawOffset gira o zumbi em graus; yOffset ajusta a altura (sitting: negativo afunda o quadril). Zumbis: so minecraft:zombie (os do Zombie Extreme nao respeitam o modo dormente, 10/11). Relido ao mudar o arquivo. Teste: /7dtc corpses converte todos num raio de 16 blocos, sem sorteio. Remains do Doomsday (10/11): os baixos deitam, os medios sentam; 6, 7, 10 e 1010 (em pe/pendurados) ficam como decoracao.",
+  "chance": 0.4,
+  "wakeRadius": 6,
+  "corpses": {
+    "zombie_extreme:dead_body": {
+      "pose": "sitting",
+      "yawOffset": 0,
+      "yOffset": -0.55
+    },
+    "sa_decor:lying_corpse": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_2": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_22": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_222": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_3": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_33": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_333": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_5": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_55": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_555": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_9": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_99": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_999": {
+      "pose": "lying",
+      "yawOffset": 0,
+      "yOffset": 0
+    },
+    "doomsday_decoration:remains_1": {
+      "pose": "sitting",
+      "yawOffset": 0,
+      "yOffset": -0.55
+    },
+    "doomsday_decoration:remains_11": {
+      "pose": "sitting",
+      "yawOffset": 0,
+      "yOffset": -0.55
+    },
+    "doomsday_decoration:remains_111": {
+      "pose": "sitting",
+      "yawOffset": 0,
+      "yOffset": -0.55
+    },
+    "doomsday_decoration:remains_4": {
+      "pose": "sitting",
+      "yawOffset": 0,
+      "yOffset": -0.55
+    },
+    "doomsday_decoration:remains_44": {
+      "pose": "sitting",
+      "yawOffset": 0,
+      "yOffset": -0.55
+    },
+    "doomsday_decoration:remains_444": {
+      "pose": "sitting",
+      "yawOffset": 0,
+      "yOffset": -0.55
+    },
+    "doomsday_decoration:remains_8": {
+      "pose": "sitting",
+      "yawOffset": 0,
+      "yOffset": -0.55
+    },
+    "doomsday_decoration:remains_88": {
+      "pose": "sitting",
+      "yawOffset": 0,
+      "yOffset": -0.55
+    },
+    "doomsday_decoration:remains_888": {
+      "pose": "sitting",
+      "yawOffset": 0,
+      "yOffset": -0.55
+    },
+    "doomsday_decoration:remains_101010": {
+      "pose": "sitting",
+      "yawOffset": 0,
+      "yOffset": -0.55
+    }
+  },
+  "zombies": [
+    {
+      "id": "minecraft:zombie",
+      "weight": 1
+    }
+  ]
+}

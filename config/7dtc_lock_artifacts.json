@@ -1,0 +1,169 @@
+{
+  "_doc": "Artefatos dos baus trancados (10/11/2026; revisao em docs/7DTC-ARTEFATOS-BAUS-TRANCADOS.md). Fonte unica: o mod de trancas sorteia daqui e tools/7dtc_rarity_index.py usa estas faixas como raridade (cor) dos artefatos. tiers: chance de vir artefato e pesos por raridade. wrd: baus/recompensas das dungeons WRD (chance 1). Relido quando o arquivo muda.",
+  "tiers": {
+    "1": {
+      "chance": 0.5,
+      "weights": {
+        "uncommon": 1
+      }
+    },
+    "2": {
+      "chance": 0.5,
+      "weights": {
+        "uncommon": 40,
+        "rare": 60
+      }
+    },
+    "3": {
+      "chance": 1.0,
+      "weights": {
+        "rare": 60,
+        "epic": 40
+      }
+    },
+    "4": {
+      "chance": 1.0,
+      "weights": {
+        "epic": 90,
+        "legendary": 10
+      }
+    }
+  },
+  "wrd": {
+    "final": {
+      "weights": {
+        "legendary": 1
+      }
+    },
+    "bone": {
+      "tier": 3
+    },
+    "treasure": {
+      "tier": 2
+    }
+  },
+  "pools": {
+    "legendary": [
+      "nameless_trinkets:ethereal_wings",
+      "artifacts:scarf_of_invisibility",
+      "nameless_trinkets:blindfold",
+      "nameless_trinkets:broken_ankh",
+      "artifacts:chorus_totem",
+      "celestial_artifacts:holy_talisman",
+      "nameless_trinkets:gods_crown",
+      "nameless_trinkets:sigil_of_baphomet",
+      "nameless_trinkets:reforger",
+      "artifacts:everlasting_beef",
+      "artifacts:eternal_steak"
+    ],
+    "epic": [
+      "artifacts:crystal_heart",
+      "artifacts:vampiric_glove",
+      "artifacts:power_glove",
+      "artifacts:antidote_vessel",
+      "artifacts:bunny_hoppers",
+      "nameless_trinkets:cracked_crown",
+      "nameless_trinkets:rage_mind",
+      "nameless_trinkets:moon_stone",
+      "nameless_trinkets:lucky_rock",
+      "nameless_trinkets:four_leaf_clover",
+      "nameless_trinkets:wooden_stick",
+      "nameless_trinkets:missing_page",
+      "nameless_trinkets:vampire_blood",
+      "nameless_trinkets:speed_force",
+      "nameless_trinkets:ghast_eye",
+      "celestial_artifacts:angel_heart",
+      "celestial_artifacts:knight_shelter",
+      "celestial_artifacts:angel_pearl",
+      "celestial_artifacts:amethyst_ring",
+      "celestial_artifacts:bearing_stamen",
+      "celestial_artifacts:heart_of_revenge",
+      "celestial_artifacts:life_bracelet",
+      "celestial_artifacts:magic_horseshoe",
+      "celestial_artifacts:titan_scabbard"
+    ],
+    "rare": [
+      "artifacts:lucky_scarf",
+      "nameless_trinkets:miners_soul",
+      "celestial_artifacts:gluttony_badge",
+      "artifacts:feral_claws",
+      "artifacts:steadfast_spikes",
+      "nameless_trinkets:callus",
+      "nameless_trinkets:blaze_nucleus",
+      "nameless_trinkets:dragons_eye",
+      "nameless_trinkets:ice_cube",
+      "nameless_trinkets:puffer_fish_liver",
+      "nameless_trinkets:spider_legs",
+      "celestial_artifacts:guardian_eye",
+      "celestial_artifacts:holy_sword",
+      "celestial_artifacts:spirit_crown",
+      "celestial_artifacts:leech_scabbard",
+      "celestial_artifacts:gallop_necklace",
+      "celestial_artifacts:backtrack_mirror",
+      "celestial_artifacts:fang_necklace",
+      "celestial_artifacts:iron_scabbard",
+      "celestial_artifacts:magic_arrow_bag",
+      "celestial_artifacts:repent_mirror",
+      "celestial_artifacts:sands_talisman",
+      "celestial_artifacts:star_necklace",
+      "artifacts:cloud_in_a_bottle",
+      "artifacts:helium_flamingo",
+      "artifacts:running_shoes",
+      "artifacts:fire_gauntlet",
+      "artifacts:shock_pendant",
+      "artifacts:flame_pendant",
+      "artifacts:pickaxe_heater",
+      "celestial_artifacts:prayer_crown",
+      "nameless_trinkets:super_magnet",
+      "nameless_trinkets:light_gloves",
+      "nameless_trinkets:sleeping_pills",
+      "nameless_trinkets:reverse_card",
+      "nameless_trinkets:dark_nelumbo",
+      "nameless_trinkets:true_heart_of_the_sea",
+      "artifacts:night_vision_goggles",
+      "celestial_artifacts:solar_magnet",
+      "nameless_trinkets:fragile_cloud"
+    ],
+    "uncommon": [
+      "artifacts:cross_necklace",
+      "artifacts:flippers",
+      "artifacts:golden_hook",
+      "artifacts:panic_necklace",
+      "artifacts:snorkel",
+      "artifacts:plastic_drinking_hat",
+      "artifacts:novelty_drinking_hat",
+      "celestial_artifacts:cross_necklace",
+      "celestial_artifacts:evil_eye",
+      "celestial_artifacts:holy_necklace",
+      "celestial_artifacts:nether_fire",
+      "celestial_artifacts:spirit_bracelet",
+      "celestial_artifacts:gold_ring",
+      "celestial_artifacts:netherite_ring",
+      "celestial_artifacts:red_heart_necklace",
+      "celestial_artifacts:red_ruby_bracelet",
+      "celestial_artifacts:spirit_necklace",
+      "nameless_trinkets:experience_battery",
+      "nameless_trinkets:experience_magnet",
+      "nameless_trinkets:explosion_proof_jacket",
+      "nameless_trinkets:fractured_nullstone",
+      "artifacts:umbrella",
+      "artifacts:thorn_pendant",
+      "artifacts:rooted_boots",
+      "artifacts:pocket_piston",
+      "artifacts:obsidian_skull",
+      "artifacts:digging_claws",
+      "artifacts:charm_of_sinking",
+      "artifacts:aqua_dashers",
+      "celestial_artifacts:flame_arrow_bag",
+      "nameless_trinkets:amphibious_hands",
+      "nameless_trinkets:scarab_amulet",
+      "nameless_trinkets:broken_magnet",
+      "nameless_trinkets:nelumbo",
+      "nameless_trinkets:tear_of_the_sea"
+    ]
+  },
+  "excluded": [
+    "nameless_trinkets:creeper_sense",
+    "nameless_trinkets:what_magnet"
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "ironEquivalent": [
+    {
+      "item": "divine_weaponry:iron_battleaxe",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:iron_cutlass",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:iron_dagger",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:iron_glaive",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:iron_hammer",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:iron_katana",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:iron_longsword",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:iron_rapier",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:iron_scythe",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:iron_shuriken",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:iron_sickle",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:iron_spear",
+      "weight": 2
+    },
+    {
+      "item": "survival_instinct:machete",
+      "weight": 2
+    },
+    {
+      "item": "survival_instinct:metal_baseballbat_hammer",
+      "weight": 2
+    },
+    {
+      "item": "survival_instinct:police_baton_mace",
+      "weight": 2
+    },
+    {
+      "item": "zombie_extreme:fireaxe",
+      "weight": 2
+    }
+  ],
+  "diamondEquivalent": [
+    {
+      "item": "divine_weaponry:diamond_battleaxe",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:diamond_cutlass",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:diamond_dagger",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:diamond_glaive",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:diamond_hammer",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:diamond_katana",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:diamond_longsword",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:diamond_rapier",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:diamond_scythe",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:diamond_shuriken",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:diamond_sickle",
+      "weight": 2
+    },
+    {
+      "item": "divine_weaponry:diamond_spear",
+      "weight": 2
+    },
+    {
+      "item": "survival_instinct:hunt_knife",
+      "weight": 2
+    },
+    {
+      "item": "survival_instinct:fire_axe",
+      "weight": 2
+    },
+    {
+      "item": "survival_instinct:tactical_knife",
+      "weight": 1
+    }
+  ],
+  "L2": {
+    "ironChance": 0.08,
+    "diamondChance": 0.01
+  },
+  "L3": {
+    "ironChance": 0.06,
+    "diamondChance": 0.04
+  },
+  "L4": {
+    "ironChance": 0.05,
+    "diamondChance": 0.08
+  }
+}

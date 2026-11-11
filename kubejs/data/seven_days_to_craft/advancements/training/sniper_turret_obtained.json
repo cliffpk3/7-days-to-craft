@@ -1,0 +1,26 @@
+{
+  "display": {
+    "icon": {
+      "item": "scguns:sniper_turret"
+    },
+    "title": "Turret obtained",
+    "description": "Craft or obtain the turret.",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "completed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "scguns:sniper_turret"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

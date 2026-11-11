@@ -59,3 +59,9 @@ desktop.ini
 
 # Backups estruturais de desenvolvimento
 **/backup-before-*/
+
+# 7DTC (11/11/2026): caches, capturas pessoais, mods desativados e o mundo-modelo de teste (~300 MB, local).
+/modernfix/
+/screenshots/
+/7dtc-world-template/
+*.disabled-*

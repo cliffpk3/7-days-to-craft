@@ -1,0 +1,45 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "celestial_artifacts:charming_bracelet",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:emerald_bracelet",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:hidden_bracelet",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:life_bracelet",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:precious_bracelet",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:red_ruby_bracelet",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:scarlet_bracelet",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:spirit_bracelet",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:experience_magnet",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:fractured_nullstone",
+      "required": false
+    }
+  ]
+}

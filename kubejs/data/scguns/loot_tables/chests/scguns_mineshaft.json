@@ -15,50 +15,132 @@
               }
             }
           ],
-          "name": "scguns:blueprint_scrap"
+          "name": "scguns:blueprint_scrap",
+          "weight": 38
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
               "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.8
-              }
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ],
-          "name": "scguns:flintlock_pistol"
+          "name": "scguns:flintlock_pistol",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
               "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.8
-              }
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ],
-          "name": "scguns:longarm"
+          "name": "scguns:longarm",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "functions": [
             {
               "function": "minecraft:set_damage",
-              "damage": {
-                "min": 0.15,
-                "max": 0.8
-              }
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ],
-          "name": "scguns:musket"
+          "name": "scguns:musket",
+          "weight": 20
         },
         {
           "type": "minecraft:empty",
-          "weight": 3
+          "weight": 60
         }
       ]
     },
@@ -81,7 +163,8 @@
               }
             }
           ],
-          "name": "minecraft:gunpowder"
+          "name": "minecraft:gunpowder",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -95,7 +178,8 @@
               }
             }
           ],
-          "name": "scguns:grapeshot"
+          "name": "scguns:powder_and_ball",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -109,7 +193,8 @@
               }
             }
           ],
-          "name": "scguns:copper_flare"
+          "name": "scguns:copper_flare",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -123,11 +208,12 @@
               }
             }
           ],
-          "name": "scguns:wrecker_flare"
+          "name": "scguns:wrecker_flare",
+          "weight": 20
         },
         {
           "type": "minecraft:empty",
-          "weight": 2
+          "weight": 40
         }
       ]
     },
@@ -146,11 +232,12 @@
               }
             }
           ],
-          "name": "scguns:powder_and_ball"
+          "name": "scguns:powder_and_ball",
+          "weight": 20
         },
         {
           "type": "minecraft:empty",
-          "weight": 2
+          "weight": 40
         }
       ]
     },
@@ -167,11 +254,77 @@
         {
           "type": "minecraft:item",
           "name": "seven_days_workbenches:blueprint",
-          "weight": 1,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{UnlockId:\"utility_expedition\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.02
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:long_scope",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:advanced_silencer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:weighted_stock",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:combat_shotgun",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
         }

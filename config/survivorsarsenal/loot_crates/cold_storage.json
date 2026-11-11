@@ -1,0 +1,206 @@
+{
+  "id": "cold_storage",
+  "display_name": "Cold Storage",
+  "description": "Example loot profile. Duplicate/copy this preset and adjust pools, weights, chances, behavior and linked kits for your own pack.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": false,
+    "spawn_chance": 0.04,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.2
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": true,
+    "time_ticks": 72000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": true,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "fresh_or_rotten_food",
+      "rolls": {
+        "min": 1,
+        "max": 4
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:fresh_foods",
+            "sa_combat:burger",
+            "sa_combat:big_burger",
+            "sa_combat:cheese_burger",
+            "sa_combat:burrito",
+            "sa_combat:hot_dog",
+            "sa_combat:taco",
+            "sa_combat:toast",
+            "sa_combat:waffles",
+            "sa_combat:biscuit",
+            "sa_combat:donut",
+            "sa_combat:cheese",
+            "sa_combat:cheese_bread",
+            "sa_combat:coxinha",
+            "sa_combat:meat_pastel",
+            "sa_combat:wind_pastel",
+            "sa_combat:pizza",
+            "sa_combat:pizza_box",
+            "minecraft:apple",
+            "minecraft:bread",
+            "minecraft:carrot",
+            "minecraft:potato",
+            "minecraft:beef",
+            "minecraft:chicken",
+            "minecraft:porkchop"
+          ],
+          "weight": 12,
+          "chance": 0.76,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:rotten_foods",
+            "sa_combat:big_burger_rotten",
+            "sa_combat:burger_rotten",
+            "sa_combat:cheese_burger_rotten",
+            "sa_combat:burrito_rotten",
+            "sa_combat:hot_dog_rotten",
+            "sa_combat:taco_rotten",
+            "sa_combat:toast_rotten",
+            "sa_combat:waffles_rotten",
+            "sa_combat:biscuit_rotten",
+            "sa_combat:donut_rotten",
+            "sa_combat:rotten_coxinha",
+            "minecraft:rotten_flesh"
+          ],
+          "weight": 8,
+          "chance": 0.52,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:drinks",
+            "sa_core:water_bottle",
+            "sa_core:dirty_water_bottle",
+            "sa_combat:grape_juice_box",
+            "sa_combat:berry_juice_box",
+            "sa_combat:apple_juice_box",
+            "sa_combat:orange_juice_box",
+            "sa_combat:peach_juice_bottle",
+            "sa_combat:pineapple_juice_bottle",
+            "sa_combat:milk_box",
+            "sa_combat:milk_gallon",
+            "sa_combat:monster",
+            "sa_combat:energy_drink",
+            "sa_combat:cola",
+            "sa_combat:pepsi",
+            "sa_combat:fanta_orange_soda",
+            "sa_combat:fanta_grape_soda",
+            "sa_combat:guarana_soda",
+            "sa_combat:coffee"
+          ],
+          "weight": 6,
+          "chance": 0.42,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "minecraft:snowball",
+          "weight": 3,
+          "chance": 0.2,
+          "count": {
+            "min": 1,
+            "max": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "leftovers",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:canned_foods",
+            "sa_combat:canned_beans",
+            "sa_combat:canned_carrots",
+            "sa_combat:canned_chilli",
+            "sa_combat:canned_corn",
+            "sa_combat:canned_corned_beef",
+            "sa_combat:canned_dog_food",
+            "sa_combat:canned_evaporated_milk",
+            "sa_combat:canned_fruit_cocktail",
+            "sa_combat:canned_mushroom_soup",
+            "sa_combat:canned_peaches",
+            "sa_combat:canned_peas",
+            "sa_combat:canned_pineapple",
+            "sa_combat:canned_potato",
+            "sa_combat:canned_sardines",
+            "sa_combat:canned_spaghetti_bolognese",
+            "sa_combat:canned_tuna",
+            "sa_combat:canned_vegetable_soup",
+            "sa_combat:canned_fruit_beverage"
+          ],
+          "weight": 5,
+          "chance": 0.28,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "minecraft:bowl",
+          "weight": 4,
+          "chance": 0.26,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "minecraft:glass_bottle",
+          "weight": 3,
+          "chance": 0.2,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ]
+    }
+  ]
+}

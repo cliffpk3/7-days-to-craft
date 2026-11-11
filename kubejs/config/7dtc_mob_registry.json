@@ -7693,6 +7693,262 @@
         "tier": 2,
         "category": "dangerous"
       }
+    },
+    "zombie_extreme:crawler": {
+      "name": "Crawler",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "zombie_extreme:infected": {
+      "name": "Infected",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "zombie_extreme:runner": {
+      "name": "Runner",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "zombie_extreme:revived": {
+      "name": "Revived",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "scguns:cog_minion": {
+      "name": "Cog Minion",
+      "source": "scguns",
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "scguns:supply_scamp": {
+      "name": "Supply Scamp",
+      "source": "scguns",
+      "threat": {
+        "tier": 1,
+        "category": "common hostile"
+      }
+    },
+    "zombie_extreme:faceless": {
+      "name": "Faceless",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "zombie_extreme:divided": {
+      "name": "Divided",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "zombie_extreme:clicker": {
+      "name": "Clicker",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "zombie_extreme:boomer": {
+      "name": "Boomer",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "zombie_extreme:explosive_infected": {
+      "name": "Explosive Infected",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "zombie_extreme:infected_police": {
+      "name": "Infected Police",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "zombie_extreme:military": {
+      "name": "Military",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "zombie_extreme:infected_hazmat": {
+      "name": "Infected Hazmat",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "zombie_extreme:goon": {
+      "name": "Goon",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "zombie_extreme:ram": {
+      "name": "Ram",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "scguns:sulfurhead": {
+      "name": "Sulfurhead",
+      "source": "scguns",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "scguns:hive": {
+      "name": "Hive",
+      "source": "scguns",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "scguns:trauma_unit": {
+      "name": "Trauma Unit",
+      "source": "scguns",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "wrd:buff_zombie": {
+      "name": "Buff Zombie",
+      "source": "wrd",
+      "threat": {
+        "tier": 2,
+        "category": "dangerous"
+      }
+    },
+    "zombie_extreme:infected_military": {
+      "name": "Infected Military",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "zombie_extreme:infected_juggernaut": {
+      "name": "Infected Juggernaut",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "zombie_extreme:demolisher": {
+      "name": "Demolisher",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "zombie_extreme:chainsaw": {
+      "name": "Chainsaw",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "zombie_extreme:night_hunter": {
+      "name": "Night Hunter",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "zombie_extreme:rat_king": {
+      "name": "Rat King",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "scguns:cog_knight": {
+      "name": "Cog Knight",
+      "source": "scguns",
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "scguns:scamp_tank": {
+      "name": "Scamp Tank",
+      "source": "scguns",
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "scguns:subjugator": {
+      "name": "Subjugator",
+      "source": "scguns",
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "scguns:viventrum": {
+      "name": "Viventrum",
+      "source": "scguns",
+      "threat": {
+        "tier": 3,
+        "category": "elite"
+      }
+    },
+    "zombie_extreme:zero_patient": {
+      "name": "Zero Patient",
+      "source": "zombie_extreme",
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
+    },
+    "scguns:adjudicator": {
+      "name": "Adjudicator",
+      "source": "scguns",
+      "threat": {
+        "tier": 4,
+        "category": "boss"
+      }
     }
   }
 }

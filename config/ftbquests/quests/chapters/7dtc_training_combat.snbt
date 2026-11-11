@@ -1,0 +1,214 @@
+{
+	filename: "7dtc_training_combat"
+	group: "7D7C000000000001"
+	icon: "minecraft:iron_sword"
+	id: "7D7C090000000001"
+	order_index: 10
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000009"]
+			description: [
+				"Inspect the unlocked firearm recipes in the Custom Workbench."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 1 Key."
+			]
+			icon: "scguns:defender_pistol"
+			id: "7D7C310000000009"
+			rewards: [{
+				id: "7D7C340000000009"
+				item: "wrd:keystrongholdchest_iron"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/firearm_obtain_or_use"
+				criterion: "completed"
+				id: "7D7C350000000903"
+				title: "Craft, obtain or use an unlocked firearm"
+				type: "advancement"
+			}]
+			title: "Gunsmithing Training"
+			x: 0.0d
+			y: 0.0d
+		}
+	
+		{
+			dependencies: ["7D7C36000000000A"]
+			description: [
+				"Craft, obtain or use a batch of basic ammunition."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 1 Key."
+			]
+			icon: "scguns:standard_copper_round"
+			id: "7D7C31000000000A"
+			rewards: [{
+				id: "7D7C34000000000A"
+				item: "wrd:keystrongholdchest_iron"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/basic_ammunition_obtain_or_use"
+				criterion: "completed"
+				id: "7D7C350000000A02"
+				title: "Craft, obtain or use Basic Bullets"
+				type: "advancement"
+			}]
+			title: "Basic Ammunition Training"
+			x: 0.0d
+			y: 2.0d
+		}
+	
+		{
+			dependencies: ["7D7C36000000000B"]
+			description: [
+				"Inspect, obtain or use an advanced ammunition type."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim its Level 2 Key."
+			]
+			icon: "scguns:advanced_round"
+			id: "7D7C31000000000B"
+			rewards: [{
+				id: "7D7C34000000000B"
+				item: "wrd:keystrongholdchest_gold"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/advanced_ammunition_obtain_or_use"
+				criterion: "completed"
+				id: "7D7C350000000B02"
+				title: "Craft, obtain or use Advanced Bullets or Shells"
+				type: "advancement"
+			}]
+			title: "Advanced Ammunition Training"
+			x: 0.0d
+			y: 4.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000024"]
+			description: [
+				"Ranger increases damage dealt by ranged weapons by 25%."
+				""
+				"Use a bow, crossbow, or firearm to damage a hostile creature and confirm the specialization."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:bow"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D7C310000000024"
+			rewards: [{
+				id: "7D7C340000000024"
+				item: "seven_days_workbenches:medium_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/ranger_hit"
+				criterion: "completed"
+				id: "7D7C350000002401"
+				title: "Hit a hostile creature with a ranged weapon"
+				type: "advancement"
+			}]
+			title: "Ranger Training"
+			x: 0.0d
+			y: 6.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000026"]
+			description: [
+				"Extended Reach adds two blocks to your melee attack and entity interaction reach."
+				""
+				"Strike a hostile creature from at least 3.5 blocks away to prove that you can use the extra distance."
+			]
+			icon: {
+				Count: 1
+				id: "divine_weaponry:iron_spear"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D7C310000000026"
+			rewards: [{
+				id: "7D7C340000000026"
+				item: "seven_days_workbenches:medium_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/extended_reach_hit"
+				criterion: "completed"
+				id: "7D7C350000002601"
+				title: "Hit a hostile creature from at least 3.5 blocks away"
+				type: "advancement"
+			}]
+			title: "Extended Reach Training"
+			x: 0.0d
+			y: 8.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000015"]
+			description: ["Kill a hostile mob while wounded. Complete this step to continue Second Wind Training."]
+			icon: "minecraft:potion"
+			id: "2A9219D7C357DC99"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/second_wind_wounded_kill"
+				criterion: "completed"
+				id: "7D7C350000001501"
+				title: "Kill a hostile mob while wounded"
+				type: "advancement"
+			}]
+			title: "Kill a hostile mob while wounded"
+			x: 0.0d
+			y: 10.0d
+		}
+		{
+			dependencies: ["2A9219D7C357DC99"]
+			description: ["Trigger Second Wind. Complete this step to continue Second Wind Training."]
+			icon: "minecraft:potion"
+			id: "16D87BFCDB7299C9"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/second_wind_trigger"
+				criterion: "completed"
+				id: "7D7C350000001502"
+				title: "Trigger Second Wind"
+				type: "advancement"
+			}]
+			title: "Trigger Second Wind"
+			x: 1.8d
+			y: 10.0d
+		}
+		{
+			dependencies: ["16D87BFCDB7299C9"]
+			description: [
+				"After killing a hostile mob while wounded, stay alive through the four-second Second Wind recovery."
+				""
+				"Complete this lesson once to claim a rare supply bundle."
+			]
+			icon: "minecraft:potion"
+			id: "7D7C310000000015"
+			rewards: [{
+				id: "7D7C340000000015"
+				item: "seven_days_workbenches:rare_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/second_wind_recover"
+				criterion: "completed"
+				id: "7D7C350000001503"
+				title: "Complete the four-second recovery"
+				type: "advancement"
+			}]
+			title: "Second Wind Training"
+			x: 3.6d
+			y: 10.0d
+		}
+	
+	]
+	title: "Combat Training"
+}

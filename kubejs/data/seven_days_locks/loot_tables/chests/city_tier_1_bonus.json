@@ -5,32 +5,70 @@
       "rolls": 1,
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "cgm:basic_bullet",
-          "weight": 5,
-          "functions": [
+          "type": "minecraft:group",
+          "weight": 100,
+          "children": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 12,
-                "max": 24
-              }
+              "type": "minecraft:item",
+              "name": "minecraft:gunpowder",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "zombie_extreme:ignotlead",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 3
+                  }
+                }
+              ]
             }
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "cgm:shell",
-          "weight": 2,
-          "functions": [
+          "type": "minecraft:group",
+          "weight": 40,
+          "children": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 6,
-                "max": 12
-              }
+              "type": "minecraft:item",
+              "name": "minecraft:gunpowder",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 4
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "zombie_extreme:ignotlead",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              ]
             }
           ]
         }
@@ -41,24 +79,57 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 28
+          "weight": 560
         },
         {
           "type": "minecraft:item",
           "name": "divine_weaponry:iron_cutlass",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 18,
               "treasure": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
         },
         {
           "type": "minecraft:item",
           "name": "divine_weaponry:iron_battleaxe",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
@@ -70,12 +141,45 @@
         {
           "type": "minecraft:item",
           "name": "divine_weaponry:iron_dagger",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:enchant_with_levels",
               "levels": 18,
               "treasure": false
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
         }
@@ -86,29 +190,224 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 162
+          "weight": 3240
         },
         {
           "type": "minecraft:item",
-          "name": "tacz:modern_kinetic_gun",
-          "weight": 3,
+          "name": "scguns:defender_pistol",
+          "weight": 60,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{GunId:\"tacz:glock_17\",GunFireMode:\"SEMI\"}"
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "tacz:modern_kinetic_gun",
-          "weight": 2,
+          "name": "scguns:doublet",
+          "weight": 40,
           "functions": [
             {
-              "function": "minecraft:set_nbt",
-              "tag": "{GunId:\"tacz:db_short\",GunFireMode:\"SEMI\"}"
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.24
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_dagger",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_cutlass",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:blueprint_scrap",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:energy_cell",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.02
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:blood_syringe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fracturepoint:insurgency_commander_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fracturepoint:fsb_squad_leader_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:grenade",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:lucky_rock",
+          "weight": 1
         }
       ]
     }

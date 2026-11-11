@@ -1,0 +1,41 @@
+{
+  "type": "minecraft:chest",
+  "random_sequence": "minecraft:chests/trash_bucket_loot",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:loot_table",
+          "name": "7dtc:loot_parts/minecraft/chests/trash_bucket_loot",
+          "weight": 75
+        },
+        {
+          "type": "minecraft:empty",
+          "weight": 25
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:blood_syringe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:survival_medkit",
+          "weight": 3
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,117 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "fracturepoint:beta7_shoulderpads",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:beta7_shoulderpads_ash",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:beta7_shoulderpads_slate",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:beta7_uniform",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:fsb_uniform",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_uniform_acacia",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_uniform_birch",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_uniform_dark_oak",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_uniform_jungle",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_uniform_mangrove",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_uniform_oak",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_uniform_snow",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ghillie_uniform_spruce",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:insurgency_commander_shoulderpads",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:insurgency_commander_uniform",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:iz_uniform_desert",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:iz_uniform_forest",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:iz_uniform_ops",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:iz_uniform_snow",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:iz_uniform_urban",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:nato_shoulderpads",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:nato_shoulderpads_woodland",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ratnik_uniform",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ratnik_uniform_variant",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:ru_shoulderpads",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:soviet_uniform",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:sso_shoulderpads",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:sso_uniform",
+      "required": false
+    }
+  ]
+}

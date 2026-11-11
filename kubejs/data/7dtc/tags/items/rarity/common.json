@@ -1,0 +1,1941 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexscaves:cave_tablet",
+      "required": false
+    },
+    {
+      "id": "alexscaves:chocolate_ice_cream_scoop",
+      "required": false
+    },
+    {
+      "id": "alexscaves:lanternfish",
+      "required": false
+    },
+    {
+      "id": "alexscaves:radgill",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sea_pig",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sweetberry_ice_cream_scoop",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sweetish_fish_red",
+      "required": false
+    },
+    {
+      "id": "alexscaves:tripodfish",
+      "required": false
+    },
+    {
+      "id": "alexscaves:vanilla_ice_cream_scoop",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:acacia_blossom",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:bear_dust",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:bear_fur",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:blobfish",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:capsid",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cockroach_ootheca",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cockroach_wing",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:cosmic_cod",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:fedora",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:fish_bones",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:flying_fish",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:gazelle_horn",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:kangaroo_hide",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:kangaroo_meat",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:leafcutter_ant_pupa",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:lobster_bucket",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:maggot",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:mimicream",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:moose_antler",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:moose_ribs",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:music_disc_thime",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:serrated_shark_tooth",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:shark_tooth",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:anluka_doors",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:bloody_gadfly_eye",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:corpse_maggot",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:cultivated_pumpkin",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:ethereal_spirit",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:fel_lamp",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:fire_dust",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:flaming_evil_pumpkin",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:gnawed_bones",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:holiday_candy",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:infernal_evil_pumpkin",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:lord_pumpkinheads_lamp",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:magical_holiday_candy",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:marigolds",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:mesh_door",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:mint_candy",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:mint_ice_cream",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:monster_flesh",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:monster_skin",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_claw",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:phantom_powder",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:pileof_dark_metal",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:pumpkin_bullet",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:river_mint",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:rotten_fish",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:serpumpkinhead_m",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:shattered_skull",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:smoked_flesh",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:smoldering_scorched_log",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:spiny_shell",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:spiritual_dust",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:trident_hayfork",
+      "required": false
+    },
+    {
+      "id": "create:andesite_alloy",
+      "required": false
+    },
+    {
+      "id": "create:andesite_casing",
+      "required": false
+    },
+    {
+      "id": "create:copper_nugget",
+      "required": false
+    },
+    {
+      "id": "create:whisk",
+      "required": false
+    },
+    {
+      "id": "create:zinc_ingot",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:stone_battleaxe",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:stone_cutlass",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:stone_dagger",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:stone_glaive",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:stone_hammer",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:stone_katana",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:stone_longsword",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:stone_rapier",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:stone_scythe",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:stone_shuriken",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:stone_sickle",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:stone_spear",
+      "required": false
+    },
+    {
+      "id": "minecraft:acacia_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:acacia_sapling",
+      "required": false
+    },
+    {
+      "id": "minecraft:activator_rail",
+      "required": false
+    },
+    {
+      "id": "minecraft:air",
+      "required": false
+    },
+    {
+      "id": "minecraft:andesite",
+      "required": false
+    },
+    {
+      "id": "minecraft:apple",
+      "required": false
+    },
+    {
+      "id": "minecraft:arrow",
+      "required": false
+    },
+    {
+      "id": "minecraft:baked_potato",
+      "required": false
+    },
+    {
+      "id": "minecraft:bamboo",
+      "required": false
+    },
+    {
+      "id": "minecraft:barrel",
+      "required": false
+    },
+    {
+      "id": "minecraft:beef",
+      "required": false
+    },
+    {
+      "id": "minecraft:beetroot",
+      "required": false
+    },
+    {
+      "id": "minecraft:beetroot_seeds",
+      "required": false
+    },
+    {
+      "id": "minecraft:beetroot_soup",
+      "required": false
+    },
+    {
+      "id": "minecraft:bell",
+      "required": false
+    },
+    {
+      "id": "minecraft:birch_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:black_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:blackstone",
+      "required": false
+    },
+    {
+      "id": "minecraft:blaze_powder",
+      "required": false
+    },
+    {
+      "id": "minecraft:blue_ice",
+      "required": false
+    },
+    {
+      "id": "minecraft:blue_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:bone",
+      "required": false
+    },
+    {
+      "id": "minecraft:bone_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:bone_meal",
+      "required": false
+    },
+    {
+      "id": "minecraft:book",
+      "required": false
+    },
+    {
+      "id": "minecraft:bowl",
+      "required": false
+    },
+    {
+      "id": "minecraft:brain_coral",
+      "required": false
+    },
+    {
+      "id": "minecraft:brain_coral_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:bread",
+      "required": false
+    },
+    {
+      "id": "minecraft:brick",
+      "required": false
+    },
+    {
+      "id": "minecraft:brown_mushroom",
+      "required": false
+    },
+    {
+      "id": "minecraft:brown_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:bubble_coral",
+      "required": false
+    },
+    {
+      "id": "minecraft:bubble_coral_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:bucket",
+      "required": false
+    },
+    {
+      "id": "minecraft:cactus",
+      "required": false
+    },
+    {
+      "id": "minecraft:cake",
+      "required": false
+    },
+    {
+      "id": "minecraft:candle",
+      "required": false
+    },
+    {
+      "id": "minecraft:carrot",
+      "required": false
+    },
+    {
+      "id": "minecraft:carved_pumpkin",
+      "required": false
+    },
+    {
+      "id": "minecraft:chain",
+      "required": false
+    },
+    {
+      "id": "minecraft:charcoal",
+      "required": false
+    },
+    {
+      "id": "minecraft:cherry_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:chest_minecart",
+      "required": false
+    },
+    {
+      "id": "minecraft:chicken",
+      "required": false
+    },
+    {
+      "id": "minecraft:chorus_fruit",
+      "required": false
+    },
+    {
+      "id": "minecraft:clay",
+      "required": false
+    },
+    {
+      "id": "minecraft:clay_ball",
+      "required": false
+    },
+    {
+      "id": "minecraft:clock",
+      "required": false
+    },
+    {
+      "id": "minecraft:coal",
+      "required": false
+    },
+    {
+      "id": "minecraft:coal_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:coarse_dirt",
+      "required": false
+    },
+    {
+      "id": "minecraft:cobbled_deepslate",
+      "required": false
+    },
+    {
+      "id": "minecraft:cobblestone",
+      "required": false
+    },
+    {
+      "id": "minecraft:cobweb",
+      "required": false
+    },
+    {
+      "id": "minecraft:cod",
+      "required": false
+    },
+    {
+      "id": "minecraft:comparator",
+      "required": false
+    },
+    {
+      "id": "minecraft:compass",
+      "required": false
+    },
+    {
+      "id": "minecraft:cooked_beef",
+      "required": false
+    },
+    {
+      "id": "minecraft:cooked_chicken",
+      "required": false
+    },
+    {
+      "id": "minecraft:cooked_cod",
+      "required": false
+    },
+    {
+      "id": "minecraft:cooked_mutton",
+      "required": false
+    },
+    {
+      "id": "minecraft:cooked_porkchop",
+      "required": false
+    },
+    {
+      "id": "minecraft:cooked_rabbit",
+      "required": false
+    },
+    {
+      "id": "minecraft:cooked_salmon",
+      "required": false
+    },
+    {
+      "id": "minecraft:cookie",
+      "required": false
+    },
+    {
+      "id": "minecraft:copper_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:copper_ingot",
+      "required": false
+    },
+    {
+      "id": "minecraft:crafting_table",
+      "required": false
+    },
+    {
+      "id": "minecraft:creeper_head",
+      "required": false
+    },
+    {
+      "id": "minecraft:crimson_fungus",
+      "required": false
+    },
+    {
+      "id": "minecraft:crimson_nylium",
+      "required": false
+    },
+    {
+      "id": "minecraft:crimson_roots",
+      "required": false
+    },
+    {
+      "id": "minecraft:cyan_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:dandelion",
+      "required": false
+    },
+    {
+      "id": "minecraft:dark_oak_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:dead_bush",
+      "required": false
+    },
+    {
+      "id": "minecraft:detector_rail",
+      "required": false
+    },
+    {
+      "id": "minecraft:diorite",
+      "required": false
+    },
+    {
+      "id": "minecraft:dirt",
+      "required": false
+    },
+    {
+      "id": "minecraft:disc_fragment_5",
+      "required": false
+    },
+    {
+      "id": "minecraft:dried_kelp",
+      "required": false
+    },
+    {
+      "id": "minecraft:egg",
+      "required": false
+    },
+    {
+      "id": "minecraft:enchanted_book",
+      "required": false
+    },
+    {
+      "id": "minecraft:end_stone",
+      "required": false
+    },
+    {
+      "id": "minecraft:ender_eye",
+      "required": false
+    },
+    {
+      "id": "minecraft:experience_bottle",
+      "required": false
+    },
+    {
+      "id": "minecraft:feather",
+      "required": false
+    },
+    {
+      "id": "minecraft:fern",
+      "required": false
+    },
+    {
+      "id": "minecraft:fire_charge",
+      "required": false
+    },
+    {
+      "id": "minecraft:fire_coral",
+      "required": false
+    },
+    {
+      "id": "minecraft:fire_coral_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:flint",
+      "required": false
+    },
+    {
+      "id": "minecraft:flint_and_steel",
+      "required": false
+    },
+    {
+      "id": "minecraft:flower_pot",
+      "required": false
+    },
+    {
+      "id": "minecraft:furnace",
+      "required": false
+    },
+    {
+      "id": "minecraft:furnace_minecart",
+      "required": false
+    },
+    {
+      "id": "minecraft:ghast_tear",
+      "required": false
+    },
+    {
+      "id": "minecraft:gilded_blackstone",
+      "required": false
+    },
+    {
+      "id": "minecraft:glass",
+      "required": false
+    },
+    {
+      "id": "minecraft:glass_bottle",
+      "required": false
+    },
+    {
+      "id": "minecraft:glass_pane",
+      "required": false
+    },
+    {
+      "id": "minecraft:glistering_melon_slice",
+      "required": false
+    },
+    {
+      "id": "minecraft:glow_berries",
+      "required": false
+    },
+    {
+      "id": "minecraft:glow_ink_sac",
+      "required": false
+    },
+    {
+      "id": "minecraft:glowstone",
+      "required": false
+    },
+    {
+      "id": "minecraft:glowstone_dust",
+      "required": false
+    },
+    {
+      "id": "minecraft:goat_horn",
+      "required": false
+    },
+    {
+      "id": "minecraft:gold_nugget",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_carrot",
+      "required": false
+    },
+    {
+      "id": "minecraft:granite",
+      "required": false
+    },
+    {
+      "id": "minecraft:grass",
+      "required": false
+    },
+    {
+      "id": "minecraft:gravel",
+      "required": false
+    },
+    {
+      "id": "minecraft:gray_dye",
+      "required": false
+    },
+    {
+      "id": "minecraft:gray_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:green_dye",
+      "required": false
+    },
+    {
+      "id": "minecraft:green_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:gunpowder",
+      "required": false
+    },
+    {
+      "id": "minecraft:hanging_roots",
+      "required": false
+    },
+    {
+      "id": "minecraft:hay_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:honeycomb",
+      "required": false
+    },
+    {
+      "id": "minecraft:hopper",
+      "required": false
+    },
+    {
+      "id": "minecraft:hopper_minecart",
+      "required": false
+    },
+    {
+      "id": "minecraft:horn_coral",
+      "required": false
+    },
+    {
+      "id": "minecraft:horn_coral_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:ice",
+      "required": false
+    },
+    {
+      "id": "minecraft:ink_sac",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_bars",
+      "required": false
+    },
+    {
+      "id": "minecraft:iron_nugget",
+      "required": false
+    },
+    {
+      "id": "minecraft:jungle_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:kelp",
+      "required": false
+    },
+    {
+      "id": "minecraft:large_fern",
+      "required": false
+    },
+    {
+      "id": "minecraft:lava_bucket",
+      "required": false
+    },
+    {
+      "id": "minecraft:lead",
+      "required": false
+    },
+    {
+      "id": "minecraft:leather",
+      "required": false
+    },
+    {
+      "id": "minecraft:leather_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:leather_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:leather_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:leather_horse_armor",
+      "required": false
+    },
+    {
+      "id": "minecraft:leather_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:light_blue_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:light_gray_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:light_weighted_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "minecraft:lily_pad",
+      "required": false
+    },
+    {
+      "id": "minecraft:lime_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:lodestone",
+      "required": false
+    },
+    {
+      "id": "minecraft:magenta_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:magma_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:magma_cream",
+      "required": false
+    },
+    {
+      "id": "minecraft:mangrove_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:map",
+      "required": false
+    },
+    {
+      "id": "minecraft:melon_seeds",
+      "required": false
+    },
+    {
+      "id": "minecraft:melon_slice",
+      "required": false
+    },
+    {
+      "id": "minecraft:milk_bucket",
+      "required": false
+    },
+    {
+      "id": "minecraft:minecart",
+      "required": false
+    },
+    {
+      "id": "minecraft:moss_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:moss_carpet",
+      "required": false
+    },
+    {
+      "id": "minecraft:mushroom_stew",
+      "required": false
+    },
+    {
+      "id": "minecraft:music_disc_11",
+      "required": false
+    },
+    {
+      "id": "minecraft:music_disc_13",
+      "required": false
+    },
+    {
+      "id": "minecraft:music_disc_cat",
+      "required": false
+    },
+    {
+      "id": "minecraft:music_disc_otherside",
+      "required": false
+    },
+    {
+      "id": "minecraft:music_disc_pigstep",
+      "required": false
+    },
+    {
+      "id": "minecraft:mutton",
+      "required": false
+    },
+    {
+      "id": "minecraft:name_tag",
+      "required": false
+    },
+    {
+      "id": "minecraft:nether_brick",
+      "required": false
+    },
+    {
+      "id": "minecraft:nether_wart",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherrack",
+      "required": false
+    },
+    {
+      "id": "minecraft:oak_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:oak_planks",
+      "required": false
+    },
+    {
+      "id": "minecraft:oak_pressure_plate",
+      "required": false
+    },
+    {
+      "id": "minecraft:oak_sapling",
+      "required": false
+    },
+    {
+      "id": "minecraft:ochre_froglight",
+      "required": false
+    },
+    {
+      "id": "minecraft:orange_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:packed_ice",
+      "required": false
+    },
+    {
+      "id": "minecraft:paper",
+      "required": false
+    },
+    {
+      "id": "minecraft:pearlescent_froglight",
+      "required": false
+    },
+    {
+      "id": "minecraft:phantom_membrane",
+      "required": false
+    },
+    {
+      "id": "minecraft:piglin_banner_pattern",
+      "required": false
+    },
+    {
+      "id": "minecraft:pink_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:pitcher_pod",
+      "required": false
+    },
+    {
+      "id": "minecraft:player_head",
+      "required": false
+    },
+    {
+      "id": "minecraft:poisonous_potato",
+      "required": false
+    },
+    {
+      "id": "minecraft:popped_chorus_fruit",
+      "required": false
+    },
+    {
+      "id": "minecraft:poppy",
+      "required": false
+    },
+    {
+      "id": "minecraft:porkchop",
+      "required": false
+    },
+    {
+      "id": "minecraft:potato",
+      "required": false
+    },
+    {
+      "id": "minecraft:potion",
+      "required": false
+    },
+    {
+      "id": "minecraft:powered_rail",
+      "required": false
+    },
+    {
+      "id": "minecraft:prismarine_crystals",
+      "required": false
+    },
+    {
+      "id": "minecraft:prismarine_shard",
+      "required": false
+    },
+    {
+      "id": "minecraft:pufferfish",
+      "required": false
+    },
+    {
+      "id": "minecraft:pumpkin",
+      "required": false
+    },
+    {
+      "id": "minecraft:pumpkin_pie",
+      "required": false
+    },
+    {
+      "id": "minecraft:pumpkin_seeds",
+      "required": false
+    },
+    {
+      "id": "minecraft:purple_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:purpur_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:rabbit",
+      "required": false
+    },
+    {
+      "id": "minecraft:rabbit_foot",
+      "required": false
+    },
+    {
+      "id": "minecraft:rabbit_hide",
+      "required": false
+    },
+    {
+      "id": "minecraft:rabbit_stew",
+      "required": false
+    },
+    {
+      "id": "minecraft:rail",
+      "required": false
+    },
+    {
+      "id": "minecraft:raw_copper",
+      "required": false
+    },
+    {
+      "id": "minecraft:raw_copper_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:raw_iron_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:recovery_compass",
+      "required": false
+    },
+    {
+      "id": "minecraft:red_mushroom",
+      "required": false
+    },
+    {
+      "id": "minecraft:red_sand",
+      "required": false
+    },
+    {
+      "id": "minecraft:red_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:redstone_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:repeater",
+      "required": false
+    },
+    {
+      "id": "minecraft:rooted_dirt",
+      "required": false
+    },
+    {
+      "id": "minecraft:rotten_flesh",
+      "required": false
+    },
+    {
+      "id": "minecraft:saddle",
+      "required": false
+    },
+    {
+      "id": "minecraft:salmon",
+      "required": false
+    },
+    {
+      "id": "minecraft:sand",
+      "required": false
+    },
+    {
+      "id": "minecraft:sculk",
+      "required": false
+    },
+    {
+      "id": "minecraft:sculk_catalyst",
+      "required": false
+    },
+    {
+      "id": "minecraft:sculk_sensor",
+      "required": false
+    },
+    {
+      "id": "minecraft:scute",
+      "required": false
+    },
+    {
+      "id": "minecraft:sea_pickle",
+      "required": false
+    },
+    {
+      "id": "minecraft:seagrass",
+      "required": false
+    },
+    {
+      "id": "minecraft:shears",
+      "required": false
+    },
+    {
+      "id": "minecraft:skeleton_skull",
+      "required": false
+    },
+    {
+      "id": "minecraft:smooth_stone",
+      "required": false
+    },
+    {
+      "id": "minecraft:snow_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:snowball",
+      "required": false
+    },
+    {
+      "id": "minecraft:spectral_arrow",
+      "required": false
+    },
+    {
+      "id": "minecraft:spider_eye",
+      "required": false
+    },
+    {
+      "id": "minecraft:splash_potion",
+      "required": false
+    },
+    {
+      "id": "minecraft:sponge",
+      "required": false
+    },
+    {
+      "id": "minecraft:spruce_log",
+      "required": false
+    },
+    {
+      "id": "minecraft:spruce_sapling",
+      "required": false
+    },
+    {
+      "id": "minecraft:spruce_sign",
+      "required": false
+    },
+    {
+      "id": "minecraft:spyglass",
+      "required": false
+    },
+    {
+      "id": "minecraft:stick",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_bricks",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_pickaxe",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:stone_sword",
+      "required": false
+    },
+    {
+      "id": "minecraft:string",
+      "required": false
+    },
+    {
+      "id": "minecraft:sugar",
+      "required": false
+    },
+    {
+      "id": "minecraft:sugar_cane",
+      "required": false
+    },
+    {
+      "id": "minecraft:sunflower",
+      "required": false
+    },
+    {
+      "id": "minecraft:suspicious_stew",
+      "required": false
+    },
+    {
+      "id": "minecraft:sweet_berries",
+      "required": false
+    },
+    {
+      "id": "minecraft:tall_grass",
+      "required": false
+    },
+    {
+      "id": "minecraft:tinted_glass",
+      "required": false
+    },
+    {
+      "id": "minecraft:tipped_arrow",
+      "required": false
+    },
+    {
+      "id": "minecraft:tnt",
+      "required": false
+    },
+    {
+      "id": "minecraft:torch",
+      "required": false
+    },
+    {
+      "id": "minecraft:torchflower_seeds",
+      "required": false
+    },
+    {
+      "id": "minecraft:tripwire_hook",
+      "required": false
+    },
+    {
+      "id": "minecraft:tropical_fish",
+      "required": false
+    },
+    {
+      "id": "minecraft:tube_coral",
+      "required": false
+    },
+    {
+      "id": "minecraft:tube_coral_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:turtle_egg",
+      "required": false
+    },
+    {
+      "id": "minecraft:verdant_froglight",
+      "required": false
+    },
+    {
+      "id": "minecraft:vine",
+      "required": false
+    },
+    {
+      "id": "minecraft:water_bucket",
+      "required": false
+    },
+    {
+      "id": "minecraft:wet_sponge",
+      "required": false
+    },
+    {
+      "id": "minecraft:wheat",
+      "required": false
+    },
+    {
+      "id": "minecraft:wheat_seeds",
+      "required": false
+    },
+    {
+      "id": "minecraft:white_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:wither_skeleton_skull",
+      "required": false
+    },
+    {
+      "id": "minecraft:wooden_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:wooden_pickaxe",
+      "required": false
+    },
+    {
+      "id": "minecraft:wooden_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:wooden_sword",
+      "required": false
+    },
+    {
+      "id": "minecraft:yellow_dye",
+      "required": false
+    },
+    {
+      "id": "minecraft:yellow_wool",
+      "required": false
+    },
+    {
+      "id": "minecraft:zombie_head",
+      "required": false
+    },
+    {
+      "id": "quark:crab_leg",
+      "required": false
+    },
+    {
+      "id": "quark:crab_shell",
+      "required": false
+    },
+    {
+      "id": "sa_core:cellphone",
+      "required": false
+    },
+    {
+      "id": "sa_core:metal_scrap",
+      "required": false
+    },
+    {
+      "id": "sa_core:money",
+      "required": false
+    },
+    {
+      "id": "scguns:ancient_brass",
+      "required": false
+    },
+    {
+      "id": "scguns:anthralite_ingot",
+      "required": false
+    },
+    {
+      "id": "scguns:anthralite_nugget",
+      "required": false
+    },
+    {
+      "id": "scguns:basic_poultice",
+      "required": false
+    },
+    {
+      "id": "scguns:beacon_grenade",
+      "required": false
+    },
+    {
+      "id": "scguns:choke_bomb",
+      "required": false
+    },
+    {
+      "id": "scguns:cold_pack",
+      "required": false
+    },
+    {
+      "id": "scguns:empty_cell",
+      "required": false
+    },
+    {
+      "id": "scguns:empty_tank",
+      "required": false
+    },
+    {
+      "id": "scguns:gun_grip",
+      "required": false
+    },
+    {
+      "id": "scguns:gunpowder_dust",
+      "required": false
+    },
+    {
+      "id": "scguns:hog_round",
+      "required": false
+    },
+    {
+      "id": "scguns:honey_sulfur_poultice",
+      "required": false
+    },
+    {
+      "id": "scguns:large_casing_mold",
+      "required": false
+    },
+    {
+      "id": "scguns:medium_brass_casing",
+      "required": false
+    },
+    {
+      "id": "scguns:medium_copper_casing",
+      "required": false
+    },
+    {
+      "id": "scguns:ocean_flare",
+      "required": false
+    },
+    {
+      "id": "scguns:peal",
+      "required": false
+    },
+    {
+      "id": "scguns:powder_and_ball",
+      "required": false
+    },
+    {
+      "id": "scguns:ribs_glory",
+      "required": false
+    },
+    {
+      "id": "scguns:sculk_cell",
+      "required": false
+    },
+    {
+      "id": "scguns:sculk_flare",
+      "required": false
+    },
+    {
+      "id": "scguns:sheol",
+      "required": false
+    },
+    {
+      "id": "scguns:sheol_dust",
+      "required": false
+    },
+    {
+      "id": "scguns:small_brass_casing",
+      "required": false
+    },
+    {
+      "id": "scguns:small_copper_casing",
+      "required": false
+    },
+    {
+      "id": "scguns:small_iron_casing",
+      "required": false
+    },
+    {
+      "id": "scguns:standard_bullet",
+      "required": false
+    },
+    {
+      "id": "scguns:stone_gun_barrel",
+      "required": false
+    },
+    {
+      "id": "scguns:sulfur_dust",
+      "required": false
+    },
+    {
+      "id": "scguns:treated_iron_blend",
+      "required": false
+    },
+    {
+      "id": "scguns:weird_flesh",
+      "required": false
+    },
+    {
+      "id": "seven_days_traps:wire_trap",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:aluminium",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:apple_juice",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:appliance_magazine",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:automobile_magazine",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:bean_can",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:beer",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:beetroot_seeds_package",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:blue_soda",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:body_armor_plate_i",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:can",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:carrots_package",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:cheese_chips",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:chocolate_bar",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:cloth",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:cod_can",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:coins",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:dungeons_and_combat_magazine",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:electronic_scrap",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:empty_bag",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:empty_bottle",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:empty_can",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:energy_can",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:fruit_can",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:gallon_of_milk",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:gallon_of_water",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:garbage_bag",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:gasoline_can",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:homemade_bandage",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:homemade_impact_bomb",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:lemon_soda",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:meat_can",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:melon_seeds_package",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:military_can",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:milk",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:molotov_cocktail",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:money",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:monster_can",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:nail",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:nails_box",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:orange",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:orange_juice",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:polyethylene_sheet",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:potato_chips",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:potato_package",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:red_soda",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:rice_cookie",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:rope",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:rotten_apple",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:rotten_orange",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:sardine_can",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:sulfur",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:sulfur_dust",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:tequila",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:thread",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:tier_i_kevlar",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:tomato_soup",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:tuna_can",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:wheat_seeds_package",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:whiskey",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:wine",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:wire",
+      "required": false
+    },
+    {
+      "id": "wrd:engraved_purpur_block",
+      "required": false
+    },
+    {
+      "id": "wrd:pur_pur_key",
+      "required": false
+    },
+    {
+      "id": "wrd:purpur_bricks",
+      "required": false
+    },
+    {
+      "id": "wrd:purpur_tiles",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:baseball_bat",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:bronze_nugget",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:canned_beans",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:canned_food",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:canned_fruit",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:canned_soup",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:canned_stew",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:chips",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:cloth",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:good_rag",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:green_apple",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:ignot_aluminum",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:ignot_bronze",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:ignot_tin",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:ignotlead",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:ignotsteel",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:raw_aluminum",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:raw_lead",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:raw_steel",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:rotten_apple",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:sapper_shovel",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:soda",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:steel_shovel",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:titan_nugget",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:vodka",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:whiskey",
+      "required": false
+    }
+  ]
+}

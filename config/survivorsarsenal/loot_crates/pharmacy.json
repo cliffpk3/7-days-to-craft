@@ -1,0 +1,317 @@
+{
+  "id": "pharmacy",
+  "display_name": "Pharmacy",
+  "description": "Example loot profile. Duplicate/copy this preset and adjust pools, weights, chances, behavior and linked kits for your own pack.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": false,
+    "spawn_chance": 0.14,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.08
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": false,
+    "time_ticks": 24000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": false,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "bandages_and_basic_meds",
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "item": "sa_combat:bandage",
+          "weight": 10,
+          "chance": 0.82,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "item": "sa_combat:bandage_sterilized",
+          "weight": 8,
+          "chance": 0.66,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "sa_combat:alcohol_wipes",
+          "weight": 7,
+          "chance": 0.58,
+          "count": {
+            "min": 1,
+            "max": 4
+          }
+        },
+        {
+          "item": "sa_core:sterilized_rags",
+          "weight": 6,
+          "chance": 0.54,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "item": "sa_combat:plaster",
+          "weight": 5,
+          "chance": 0.42,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:medical_supplies",
+            "sa_combat:bandage",
+            "sa_combat:bandage_sterilized",
+            "sa_combat:plaster",
+            "sa_combat:splint",
+            "sa_combat:alcohol_wipes",
+            "sa_combat:first_aid_kit",
+            "sa_combat:first_aid_spray",
+            "sa_combat:painkiller_pills",
+            "sa_combat:stamina_boost_pills",
+            "sa_combat:painkiller",
+            "sa_combat:stamina_boost",
+            "sa_core:sterilized_rags",
+            "sa_core:antiseptic",
+            "sa_core:medical_adhesive",
+            "sa_core:rubbing_alcohol"
+          ],
+          "weight": 10,
+          "chance": 0.72,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "medicine_shelf",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "item": "sa_combat:painkiller_pills",
+          "weight": 8,
+          "chance": 0.44,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "sa_combat:stamina_boost_pills",
+          "weight": 5,
+          "chance": 0.26,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "sa_combat:painkiller",
+          "weight": 5,
+          "chance": 0.32,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "sa_core:antiseptic",
+          "weight": 4,
+          "chance": 0.28,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "matches": [
+            "#sa_decor:herbs",
+            "sa_combat:green_herb",
+            "sa_combat:red_herb",
+            "sa_combat:blue_herb",
+            "sa_combat:yellow_herb",
+            "sa_combat:crushed_green_herb",
+            "sa_combat:crushed_red_herb",
+            "sa_combat:crushed_blue_herb",
+            "sa_combat:crushed_yellow_herb",
+            "sa_combat:mixed_gg_herbs",
+            "sa_combat:mixed_gr_herbs",
+            "sa_combat:mixed_gb_herbs",
+            "sa_combat:mixed_gy_herbs"
+          ],
+          "weight": 5,
+          "chance": 0.34,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "locked_medicine",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:advanced_medical_supplies",
+            "sa_combat:blood_bag",
+            "sa_combat:adrenaline",
+            "sa_combat:morphine",
+            "sa_combat:stim_shot",
+            "sa_combat:first_aid_kit",
+            "sa_combat:first_aid_spray"
+          ],
+          "weight": 5,
+          "chance": 0.24,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "sa_combat:first_aid_kit",
+          "weight": 4,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "sa_combat:first_aid_spray",
+          "weight": 4,
+          "chance": 0.16,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "sa_combat:morphine",
+          "weight": 2,
+          "chance": 0.08,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "sa_combat:adrenaline",
+          "weight": 2,
+          "chance": 0.08,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "pharmacy_clutter",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "item": "minecraft:glass_bottle",
+          "weight": 4,
+          "chance": 0.34,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "item": "minecraft:paper",
+          "weight": 4,
+          "chance": 0.3,
+          "count": {
+            "min": 1,
+            "max": 4
+          }
+        },
+        {
+          "item": "minecraft:string",
+          "weight": 3,
+          "chance": 0.22,
+          "count": {
+            "min": 1,
+            "max": 4
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:trash_loot",
+            "sa_core:empty_can",
+            "sa_core:dented_can",
+            "sa_core:tin_can",
+            "sa_core:empty_glass_bottle",
+            "sa_core:dirty_rags",
+            "sa_core:cardboard",
+            "sa_core:plastic",
+            "sa_combat:garbage_bag",
+            "minecraft:paper",
+            "minecraft:string",
+            "minecraft:rotten_flesh",
+            "minecraft:bone"
+          ],
+          "weight": 3,
+          "chance": 0.22,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "artifacts:chorus_totem",
+      "required": false
+    },
+    {
+      "id": "artifacts:eternal_steak",
+      "required": false
+    },
+    {
+      "id": "artifacts:everlasting_beef",
+      "required": false
+    },
+    {
+      "id": "artifacts:scarf_of_invisibility",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:holy_talisman",
+      "required": false
+    },
+    {
+      "id": "minecraft:nether_star",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:blindfold",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:broken_ankh",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:ethereal_wings",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:gods_crown",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:reforger",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:sigil_of_baphomet",
+      "required": false
+    },
+    {
+      "id": "scguns:dark_matter",
+      "required": false
+    },
+    {
+      "id": "scguns:newborn_cyst",
+      "required": false
+    },
+    {
+      "id": "scguns:rat_king_and_queen",
+      "required": false
+    },
+    {
+      "id": "scguns:raygun",
+      "required": false
+    },
+    {
+      "id": "scguns:whizzbanger",
+      "required": false
+    },
+    {
+      "id": "seven_days_workbenches:boss_core",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:black_juggernaut_helmet",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:black_juggernaut_leggings",
+      "required": false
+    },
+    {
+      "id": "wrd:keystrongholdchest_treasure",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:blueprint_legendary",
+      "required": false
+    }
+  ]
+}

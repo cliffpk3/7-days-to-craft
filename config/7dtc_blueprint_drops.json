@@ -1,0 +1,104 @@
+{
+  "notes": "Blueprint roulette (7/11/2026). Per eligible death: chance by threat tier (kubejs/config/7dtc_mob_registry.json; horde boss = 4, Infernal >= 3, unclassified hostile = 1), then one group by weight x theme multiplier (multiplier key matches part of the group name), then one blueprint from that group loot table. Horde-summoned mobs are excluded.",
+  "tiers": {
+    "1": {
+      "chance": 0.02,
+      "groups": {
+        "seven_days_workbenches:blueprint_groups/melee_l2": 35.0,
+        "seven_days_workbenches:blueprint_groups/firearms_l2": 15.0,
+        "seven_days_workbenches:blueprint_groups/attachments_l2": 10.0,
+        "seven_days_workbenches:blueprint_groups/armor_l2": 15.0,
+        "seven_days_workbenches:blueprint_groups/medical_l2": 15.0,
+        "seven_days_workbenches:blueprint_groups/explosives_l2": 10.0
+      }
+    },
+    "2": {
+      "chance": 0.035,
+      "groups": {
+        "seven_days_workbenches:blueprint_groups/melee_l2": 35.0,
+        "seven_days_workbenches:blueprint_groups/firearms_l2": 15.0,
+        "seven_days_workbenches:blueprint_groups/attachments_l2": 10.0,
+        "seven_days_workbenches:blueprint_groups/armor_l2": 15.0,
+        "seven_days_workbenches:blueprint_groups/medical_l2": 15.0,
+        "seven_days_workbenches:blueprint_groups/explosives_l2": 10.0
+      }
+    },
+    "3": {
+      "chance": 0.05,
+      "groups": {
+        "seven_days_workbenches:blueprint_groups/melee_l2": 14.0,
+        "seven_days_workbenches:blueprint_groups/firearms_l2": 6.0,
+        "seven_days_workbenches:blueprint_groups/attachments_l2": 4.0,
+        "seven_days_workbenches:blueprint_groups/armor_l2": 6.0,
+        "seven_days_workbenches:blueprint_groups/medical_l2": 6.0,
+        "seven_days_workbenches:blueprint_groups/explosives_l2": 4.0,
+        "seven_days_workbenches:blueprint_groups/melee_l3": 10.8,
+        "seven_days_workbenches:blueprint_groups/firearms_l3": 14.4,
+        "seven_days_workbenches:blueprint_groups/attachments_l3": 6.0,
+        "seven_days_workbenches:blueprint_groups/armor_l3": 9.6,
+        "seven_days_workbenches:blueprint_groups/medical_l3": 7.2,
+        "seven_days_workbenches:blueprint_groups/explosives_l3": 8.4,
+        "seven_days_workbenches:blueprint_groups/gear_l3": 3.6
+      }
+    },
+    "4": {
+      "chance": 0.2,
+      "groups": {
+        "seven_days_workbenches:blueprint_groups/melee_l3": 18.0,
+        "seven_days_workbenches:blueprint_groups/firearms_l3": 24.0,
+        "seven_days_workbenches:blueprint_groups/attachments_l3": 10.0,
+        "seven_days_workbenches:blueprint_groups/armor_l3": 16.0,
+        "seven_days_workbenches:blueprint_groups/medical_l3": 12.0,
+        "seven_days_workbenches:blueprint_groups/explosives_l3": 14.0,
+        "seven_days_workbenches:blueprint_groups/gear_l3": 6.0
+      }
+    }
+  },
+  "themes": [
+    {
+      "name": "military",
+      "multipliers": {
+        "firearms": 3,
+        "attachments": 3,
+        "explosives": 3
+      },
+      "mobs": [
+        "zombie_extreme:military",
+        "zombie_extreme:infected_military",
+        "zombie_extreme:infected_police",
+        "zombie_extreme:infected_juggernaut",
+        "zombie_extreme:demolisher",
+        "scguns:cog_knight",
+        "scguns:cog_minion",
+        "scguns:subjugator",
+        "scguns:adjudicator",
+        "scguns:scamp_tank",
+        "scguns:supply_scamp"
+      ]
+    },
+    {
+      "name": "medical",
+      "multipliers": {
+        "medical": 4
+      },
+      "mobs": [
+        "zombie_extreme:infected_hazmat",
+        "zombie_extreme:zero_patient",
+        "scguns:trauma_unit"
+      ]
+    },
+    {
+      "name": "melee",
+      "multipliers": {
+        "melee": 3
+      },
+      "mobs": [
+        "born_in_chaos_v1:zombie_lumberjack",
+        "zombie_extreme:chainsaw",
+        "zombie_extreme:goon",
+        "wrd:buff_zombie",
+        "born_in_chaos_v1:zombie_bruiser"
+      ]
+    }
+  ]
+}

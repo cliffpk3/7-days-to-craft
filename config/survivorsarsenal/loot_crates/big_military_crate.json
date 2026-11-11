@@ -1,0 +1,422 @@
+{
+  "id": "big_military_crate",
+  "display_name": "Big Military Crate",
+  "description": "Example loot profile. Duplicate/copy this preset and adjust pools, weights, chances, behavior and linked kits for your own pack.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": true,
+    "spawn_chance": 0.58,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.08
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": false,
+    "time_ticks": 24000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": false,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "weapons",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "item": "scguns:makeshift_rifle",
+          "weight": 6,
+          "chance": 0.28,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 2,
+                "max": 6
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotsteel",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:makeshift_rifle",
+          "weight": 4,
+          "chance": 0.2,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotsteel",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:makeshift_rifle",
+          "weight": 5,
+          "chance": 0.24,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotsteel",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:fencer_carabine",
+          "weight": 3,
+          "chance": 0.14,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotsteel",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:doublet",
+          "weight": 3,
+          "chance": 0.12,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "ammo_bulk",
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "weight": 9,
+          "chance": 0.78,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotsteel",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "weight": 8,
+          "chance": 0.68,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 2,
+            "max": 6
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotsteel",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 5
+              }
+            }
+          ]
+        },
+        {
+          "weight": 7,
+          "chance": 0.54,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 5
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotsteel",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "chance": 0.36,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 4
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotsteel",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "chance": 0.34,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 4
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotlead",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "military_gear",
+      "rolls": {
+        "min": 0,
+        "max": 3
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:military_gear",
+            "sa_combat:black_tactical_vest",
+            "sa_combat:police_vest",
+            "sa_combat:umbrella_vest",
+            "sa_combat:armor_plate_i",
+            "sa_combat:armor_plate_ii",
+            "sa_combat:armor_plate_iii",
+            "sa_combat:tactical_crossbow",
+            "sa_combat:improvised_crossbow",
+            "sa_combat:frag_grenade",
+            "sa_combat:incendiary_grenade",
+            "sa_combat:smoke_grenade",
+            "sa_combat:molotov",
+            "sa_combat:repair_kit_i",
+            "sa_combat:repair_kit_ii",
+            "sa_combat:repair_kit_iii"
+          ],
+          "weight": 9,
+          "chance": 0.52,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "sa_combat:repair_kit_ii",
+          "weight": 4,
+          "chance": 0.22,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "sa_combat:gauntlet_blueprint",
+          "weight": 1,
+          "chance": 0.012,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:medical_supplies",
+            "sa_combat:bandage",
+            "sa_combat:bandage_sterilized",
+            "sa_combat:plaster",
+            "sa_combat:splint",
+            "sa_combat:alcohol_wipes",
+            "sa_combat:first_aid_kit",
+            "sa_combat:first_aid_spray",
+            "sa_combat:painkiller_pills",
+            "sa_combat:stamina_boost_pills",
+            "sa_combat:painkiller",
+            "sa_combat:stamina_boost",
+            "sa_core:sterilized_rags",
+            "sa_core:antiseptic",
+            "sa_core:medical_adhesive",
+            "sa_core:rubbing_alcohol"
+          ],
+          "weight": 5,
+          "chance": 0.32,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:bags",
+            "sa_combat:leather_backpack",
+            "sa_combat:satchel_black",
+            "sa_combat:satchel_brown",
+            "sa_combat:satchel_green",
+            "sa_combat:satchel_white",
+            "sa_combat:small_backpack_black",
+            "sa_combat:small_backpack_blue",
+            "sa_combat:small_backpack_green",
+            "sa_combat:small_backpack_pink",
+            "sa_combat:duffel_bag_black",
+            "sa_combat:duffel_bag_blue",
+            "sa_combat:duffel_bag_red",
+            "sa_combat:duffel_bag_yellow",
+            "sa_combat:hiking_backpack_black",
+            "sa_combat:hiking_backpack_blue",
+            "sa_combat:hiking_backpack_green",
+            "sa_combat:hiking_backpack_red",
+            "sa_combat:military_backpack_desert",
+            "sa_combat:military_backpack_blue",
+            "sa_combat:military_backpack_camo",
+            "sa_combat:military_backpack_green"
+          ],
+          "weight": 3,
+          "chance": 0.12,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ]
+}

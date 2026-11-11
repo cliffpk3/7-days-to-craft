@@ -17,7 +17,8 @@
               "function": "minecraft:enchant_randomly"
             }
           ],
-          "name": "scguns:super_shotgun"
+          "name": "scguns:super_shotgun",
+          "weight": 6
         },
         {
           "type": "minecraft:item",
@@ -31,11 +32,13 @@
               }
             }
           ],
-          "name": "scguns:gold_flare"
+          "name": "scguns:gold_flare",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
-          "name": "scguns:blueprint_scrap"
+          "name": "scguns:blueprint_scrap",
+          "weight": 31
         },
         {
           "type": "minecraft:item",
@@ -49,11 +52,12 @@
               }
             }
           ],
-          "name": "scguns:shotgun_shell"
+          "name": "scguns:shotgun_shell",
+          "weight": 20
         },
         {
           "type": "minecraft:empty",
-          "weight": 1
+          "weight": 20
         }
       ]
     },
@@ -70,11 +74,223 @@
         {
           "type": "minecraft:item",
           "name": "seven_days_workbenches:blueprint",
-          "weight": 1,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{UnlockId:\"melee_netherite\"}"
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:netherite_battleaxe\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:netherite_cutlass\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:netherite_dagger\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:netherite_glaive\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:netherite_hammer\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:netherite_katana\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:netherite_longsword\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:netherite_rapier\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:netherite_scythe\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:netherite_shuriken\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:netherite_sickle\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{\"UnlockId\": \"item/divine_weaponry:netherite_spear\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.03
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:long_scope",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:advanced_silencer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:weighted_stock",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:combat_shotgun",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:blaze_fuel",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
             }
           ]
         }

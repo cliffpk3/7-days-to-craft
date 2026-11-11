@@ -1,0 +1,10 @@
+#Range: 1 ~ 10000
+capacity = 96
+#Range: 1 ~ 10000
+repairUses = 32
+#Range: 1 ~ 1200
+cooldownTicksPerTarget = 20
+#Range: 0.1 ~ 100.0
+damage = 4.0
+repairItem = "zombie_extreme:ignot_aluminum"
+

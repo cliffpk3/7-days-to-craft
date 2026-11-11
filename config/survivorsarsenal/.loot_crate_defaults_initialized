@@ -1,0 +1,3 @@
+SA Decor loot-crate example profiles initialized.
+Delete any/all JSON profiles freely; reload will not recreate them.
+Use /sa_decor loot restore_defaults to restore missing examples.

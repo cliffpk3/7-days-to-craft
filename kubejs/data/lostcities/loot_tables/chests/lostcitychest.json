@@ -11,7 +11,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bread",
-          "weight": 8,
+          "weight": 160,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -26,7 +26,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:potato",
-          "weight": 6,
+          "weight": 120,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -41,7 +41,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_beef",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -56,7 +56,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:rotten_flesh",
-          "weight": 5,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -71,7 +71,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cobweb",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -86,7 +86,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-          "weight": 5,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -101,7 +101,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_nugget",
-          "weight": 5,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -116,7 +116,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:raw_iron",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -131,7 +131,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:arrow",
-          "weight": 4,
+          "weight": 80,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -150,22 +150,22 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 22
+          "weight": 440
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
-          "weight": 1
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 1
+          "weight": 20
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
-          "weight": 5,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -180,7 +180,7 @@
         {
           "type": "minecraft:item",
           "name": "scguns:shotgun_shell",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -188,6 +188,226 @@
                 "type": "minecraft:uniform",
                 "min": 3,
                 "max": 8
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.063
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_dagger",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_cutlass",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:blueprint_scrap",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:energy_cell",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.01
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:blood_syringe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fracturepoint:insurgency_commander_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fracturepoint:fsb_squad_leader_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:grenade",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:lucky_rock",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sa_core:classic_watch"
+        }
+      ],
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.03
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "sa_core:cellphone",
+          "weight": 8
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sa_core:camera",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sa_core:money",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sa_core:money_bundle",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sa_core:empty_can",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sa_core:empty_glass_bottle",
+          "weight": 10,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "min": 1,
+                "max": 2
               }
             }
           ]

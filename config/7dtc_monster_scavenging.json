@@ -1,0 +1,6 @@
+{
+  "notes": "When a monster (hostile or threat tier >= 1) kills an ordinary animal/NPC, each dropped item unit survives with keepChance and goes into the killer's hidden pack (up to maxStacks stacks). The pack drops when the monster dies, outside monster loot caps; it is lost if the monster despawns. Pets, mounts, named mobs, iron golems and protected drops are never affected.",
+  "enabled": true,
+  "keepChance": 0.35,
+  "maxStacks": 9
+}

@@ -1,0 +1,12 @@
+{
+  "replace": false,
+  "values": [
+    "sa_core:money",
+    "sa_core:money_bundle",
+    "sa_core:classic_watch",
+    "sa_core:cellphone",
+    "sa_core:camera",
+    "sa_core:generator_manual",
+    "sa_core:kevlar"
+  ]
+}

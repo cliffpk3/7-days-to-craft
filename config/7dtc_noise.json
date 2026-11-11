@@ -1,0 +1,23 @@
+{
+  "_doc": "Medidor de ruido 7DTC (10/11/2026). Valores de 0 a 100. Movimento = alvo continuo (multiplicado pelo piso); os eventos somam um pico. decayPerSecond = quanto o ruido cai por segundo. Pisos: loud (metal, cascalho, vidro, madeira), normal (pedra, concreto), soft (grama, terra, areia), quiet (la, tapete, neve, musgo). feedZombieAwareness liga a investigacao dos zumbis pelo Zombie Awareness (fatia 2); zaStrengthPerNoise converte ruido em forca do ponto de som.",
+  "sneakMoving": 5.0,
+  "walking": 15.0,
+  "sprinting": 40.0,
+  "jump": 20.0,
+  "landing": 20.0,
+  "blockBreak": 25.0,
+  "blockPlace": 25.0,
+  "melee": 20.0,
+  "interact": 10.0,
+  "gunshot": 85.0,
+  "gunshotSuppressed": 45.0,
+  "decayPerSecond": 12.0,
+  "floors": {
+    "quiet": 0.4,
+    "normal": 1.0,
+    "loud": 1.5,
+    "soft": 0.7
+  },
+  "feedZombieAwareness": true,
+  "zaStrengthPerNoise": 1.33
+}

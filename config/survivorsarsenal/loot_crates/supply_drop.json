@@ -1,0 +1,593 @@
+{
+  "id": "supply_drop",
+  "display_name": "Supply Drop",
+  "description": "Example: shared/global one-shot loot (`per_player: false`) with several independent pools and no empty/lock/respawn cycle.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": false,
+    "spawn_chance": 0,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": false,
+    "spawn_chance": 0
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": false,
+    "time_ticks": 24000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": false,
+  "allow_duplicates": false,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "essential_supplies",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:canned_foods",
+            "sa_combat:canned_beans",
+            "sa_combat:canned_carrots",
+            "sa_combat:canned_chilli",
+            "sa_combat:canned_corn",
+            "sa_combat:canned_corned_beef",
+            "sa_combat:canned_dog_food",
+            "sa_combat:canned_evaporated_milk",
+            "sa_combat:canned_fruit_cocktail",
+            "sa_combat:canned_mushroom_soup",
+            "sa_combat:canned_peaches",
+            "sa_combat:canned_peas",
+            "sa_combat:canned_pineapple",
+            "sa_combat:canned_potato",
+            "sa_combat:canned_sardines",
+            "sa_combat:canned_spaghetti_bolognese",
+            "sa_combat:canned_tuna",
+            "sa_combat:canned_vegetable_soup",
+            "sa_combat:canned_fruit_beverage"
+          ],
+          "weight": 10,
+          "chance": 1,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "item": "sa_core:water_bottle",
+          "weight": 10,
+          "chance": 1,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:drinks",
+            "sa_core:water_bottle",
+            "sa_core:dirty_water_bottle",
+            "sa_combat:grape_juice_box",
+            "sa_combat:berry_juice_box",
+            "sa_combat:apple_juice_box",
+            "sa_combat:orange_juice_box",
+            "sa_combat:peach_juice_bottle",
+            "sa_combat:pineapple_juice_bottle",
+            "sa_combat:milk_box",
+            "sa_combat:milk_gallon",
+            "sa_combat:monster",
+            "sa_combat:energy_drink",
+            "sa_combat:cola",
+            "sa_combat:pepsi",
+            "sa_combat:fanta_orange_soda",
+            "sa_combat:fanta_grape_soda",
+            "sa_combat:guarana_soda",
+            "sa_combat:coffee"
+          ],
+          "weight": 7,
+          "chance": 1,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:snacks",
+            "sa_combat:plain_chips_bag",
+            "sa_combat:barbecue_chips_bag",
+            "sa_combat:salt_vinegar_chips_bag",
+            "sa_combat:sour_cream_onion_chips_bag",
+            "sa_combat:candy_package",
+            "sa_combat:candys",
+            "sa_combat:cereal",
+            "sa_combat:cereal_fruit_loops",
+            "sa_combat:cereal_kelloggys",
+            "sa_combat:fruit_jam",
+            "sa_combat:peanut_butter",
+            "sa_combat:chocolate_bar",
+            "sa_combat:energy_bar",
+            "sa_combat:granola_bar",
+            "sa_combat:smirkers_bar",
+            "sa_combat:sniksnak_bar",
+            "sa_combat:saltine_cracker",
+            "sa_combat:pacoquita",
+            "minecraft:cookie"
+          ],
+          "weight": 6,
+          "chance": 1,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:medical_supplies",
+            "sa_combat:bandage",
+            "sa_combat:bandage_sterilized",
+            "sa_combat:plaster",
+            "sa_combat:splint",
+            "sa_combat:alcohol_wipes",
+            "sa_combat:first_aid_kit",
+            "sa_combat:first_aid_spray",
+            "sa_combat:painkiller_pills",
+            "sa_combat:stamina_boost_pills",
+            "sa_combat:painkiller",
+            "sa_combat:stamina_boost",
+            "sa_core:sterilized_rags",
+            "sa_core:antiseptic",
+            "sa_core:medical_adhesive",
+            "sa_core:rubbing_alcohol"
+          ],
+          "weight": 8,
+          "chance": 1,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        }
+      ]
+    },
+    {
+      "id": "field_materials",
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:crafting_materials",
+            "sa_core:metal_scrap",
+            "sa_core:scrap_nugget",
+            "sa_core:electric_scrap",
+            "sa_core:nails",
+            "sa_core:wire",
+            "sa_core:copper_wire",
+            "sa_core:metal_pipe",
+            "sa_core:cloth",
+            "sa_core:rags",
+            "sa_core:dirty_rags",
+            "sa_core:thread",
+            "sa_core:rope",
+            "sa_core:cardboard",
+            "sa_core:plastic",
+            "sa_core:rubber",
+            "minecraft:string",
+            "minecraft:paper",
+            "minecraft:leather",
+            "minecraft:iron_nugget"
+          ],
+          "weight": 9,
+          "chance": 0.68,
+          "count": {
+            "min": 1,
+            "max": 5
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:utility_tools",
+            "sa_core:duct_tape",
+            "sa_core:glue",
+            "sa_core:can_opener",
+            "sa_core:pliers",
+            "sa_core:matchbox",
+            "sa_core:scissor",
+            "sa_core:saw",
+            "sa_core:mortar_and_pestle",
+            "sa_combat:flashlight",
+            "sa_combat:repair_kit_i",
+            "minecraft:flint_and_steel",
+            "minecraft:shears"
+          ],
+          "weight": 6,
+          "chance": 0.38,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "weight": 5,
+          "chance": 0.42,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "item": "minecraft:string",
+          "weight": 4,
+          "chance": 0.36,
+          "count": {
+            "min": 1,
+            "max": 4
+          }
+        }
+      ]
+    },
+    {
+      "id": "ammunition",
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "weight": 8,
+          "chance": 0.66,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotlead",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "weight": 6,
+          "chance": 0.48,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 4
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotsteel",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "chance": 0.42,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 4
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotsteel",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "weight": 4,
+          "chance": 0.34,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 4
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotlead",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "matches": [
+            "#sa_decor:ammo",
+            "sa_combat:tactical_bolt",
+            "sa_combat:improvised_bolt",
+            "minecraft:arrow",
+            "minecraft:gunpowder"
+          ],
+          "weight": 5,
+          "chance": 0.44,
+          "count": {
+            "min": 2,
+            "max": 10
+          }
+        }
+      ]
+    },
+    {
+      "id": "field_gear",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:military_gear",
+            "sa_combat:black_tactical_vest",
+            "sa_combat:police_vest",
+            "sa_combat:umbrella_vest",
+            "sa_combat:armor_plate_i",
+            "sa_combat:armor_plate_ii",
+            "sa_combat:armor_plate_iii",
+            "sa_combat:tactical_crossbow",
+            "sa_combat:improvised_crossbow",
+            "sa_combat:frag_grenade",
+            "sa_combat:incendiary_grenade",
+            "sa_combat:smoke_grenade",
+            "sa_combat:molotov",
+            "sa_combat:repair_kit_i",
+            "sa_combat:repair_kit_ii",
+            "sa_combat:repair_kit_iii"
+          ],
+          "weight": 6,
+          "chance": 0.28,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "matches": [
+            "#sa_decor:bags",
+            "sa_combat:leather_backpack",
+            "sa_combat:satchel_black",
+            "sa_combat:satchel_brown",
+            "sa_combat:satchel_green",
+            "sa_combat:satchel_white",
+            "sa_combat:small_backpack_black",
+            "sa_combat:small_backpack_blue",
+            "sa_combat:small_backpack_green",
+            "sa_combat:small_backpack_pink",
+            "sa_combat:duffel_bag_black",
+            "sa_combat:duffel_bag_blue",
+            "sa_combat:duffel_bag_red",
+            "sa_combat:duffel_bag_yellow",
+            "sa_combat:hiking_backpack_black",
+            "sa_combat:hiking_backpack_blue",
+            "sa_combat:hiking_backpack_green",
+            "sa_combat:hiking_backpack_red",
+            "sa_combat:military_backpack_desert",
+            "sa_combat:military_backpack_blue",
+            "sa_combat:military_backpack_camo",
+            "sa_combat:military_backpack_green"
+          ],
+          "weight": 3,
+          "chance": 0.12,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:advanced_medical_supplies",
+            "sa_combat:blood_bag",
+            "sa_combat:adrenaline",
+            "sa_combat:morphine",
+            "sa_combat:stim_shot",
+            "sa_combat:first_aid_kit",
+            "sa_combat:first_aid_spray"
+          ],
+          "weight": 4,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "sa_combat:repair_kit_i",
+          "weight": 4,
+          "chance": 0.24,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        }
+      ]
+    },
+    {
+      "id": "weapon_chance",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "item": "scguns:defender_pistol",
+          "weight": 5,
+          "chance": 0.16,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:doublet",
+          "weight": 3,
+          "chance": 0.1,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:makeshift_rifle",
+          "weight": 2,
+          "chance": 0.07,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotsteel",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "matches": [
+            "#sa_decor:melee_weapons",
+            "sa_combat:baseball_bat",
+            "sa_combat:aluminum_baseball_bat",
+            "sa_combat:pipe_wrench",
+            "sa_combat:pipe",
+            "sa_core:crowbar",
+            "sa_combat:kitchen_knife",
+            "sa_combat:combat_knife",
+            "sa_combat:cleaver",
+            "sa_combat:iron_machete",
+            "sa_combat:scrap_knife",
+            "sa_core:screwdrive",
+            "sa_core:claw_hammer",
+            "sa_core:wrench",
+            "sa_core:saw",
+            "sa_core:metal_saw",
+            "sa_core:bolt_cutter",
+            "sa_combat:golf_stick",
+            "sa_combat:police_baton",
+            "sa_combat:rake",
+            "sa_combat:rolling_pin",
+            "sa_combat:plank",
+            "sa_combat:nailed_plank",
+            "sa_combat:wooden_spear",
+            "minecraft:iron_axe",
+            "minecraft:iron_sword"
+          ],
+          "weight": 5,
+          "chance": 0.22,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        }
+      ]
+    }
+  ]
+}

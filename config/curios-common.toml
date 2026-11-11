@@ -1,5 +1,5 @@
 #List of slots to create or modify.
 #See documentation for syntax: https://docs.illusivesoulworks.com/curios/configuration#slot-configuration
 #
-slots = []
+slots = ["id=head;size=1;operation=SET;order=10", "id=necklace;size=1;operation=SET;order=20", "id=body;size=1;operation=SET;order=30", "id=backpack;size=1;operation=SET;order=40", "id=hands;size=1;operation=SET;order=50", "id=ring;size=1;operation=SET;order=60", "id=belt;size=1;operation=SET;order=70", "id=feet;size=1;operation=SET;order=80", "id=charm;size=1;operation=SET;order=90", "id=scroll;size=1;operation=SET;order=100", "id=back;size=0;operation=SET", "id=mask;size=0;operation=SET", "id=uniform;size=0;operation=SET", "id=shoulderpads;size=0;operation=SET", "id=boots;size=0;operation=SET", "id=bracelet;size=1;operation=SET;order=55", "id=pendant;size=0;operation=SET", "id=heart;size=0;operation=SET", "id=extra;size=0;operation=SET", "id=catastrophe;size=0;operation=SET", "id=trinkets;size=0;operation=SET", "id=legs;size=0;operation=SET", "id=etching;size=0;operation=SET"]
 

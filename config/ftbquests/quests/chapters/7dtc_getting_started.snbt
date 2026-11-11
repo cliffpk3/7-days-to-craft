@@ -1,0 +1,300 @@
+{
+	filename: "7dtc_getting_started"
+	group: "7D7C000000000001"
+	icon: "minecraft:crafting_table"
+	id: "7D7C090000000000"
+	order_index: 0
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: false
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Welcome to 7 Days to Craft. Craft or use a Crafting Table to establish your first workspace."
+				""
+				"This first step provides light for your first shelter. Craft your personal Core next; the world becomes more dangerous as the fourth day approaches."
+			]
+			icon: "minecraft:compass"
+			id: "7D7C110000000001"
+			rewards: [{
+				count: 16
+				id: "7D7C1A0000000001"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:onboarding/crafting_table"
+				criterion: "completed"
+				id: "7D7C1B0000000001"
+				title: "Craft or use a Crafting Table"
+				type: "advancement"
+			}]
+			title: "Welcome, Survivor"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D7C110000000001"]
+			description: [
+				"Craft the TaCZ Stone Statue yourself, then place your personal Core in the world. Click the single item task to open its recipe."
+				""
+				"Core survival rules begin when you complete this task by placing your statue. After that, a placed Core lets you respawn in Survival. Monsters and other players can damage it. If you move or lose it, your health slowly drains; carrying it drains more slowly. If you die without an active Core, you become a stationary spectator until another survivor restores it."
+				""
+				"Place your own Core to activate its survival rules. Claim the 3 wool for your bed from this quest's reward icon. Each player still needs to craft their own Core."
+			]
+			icon: "tacz:statue"
+			id: "7D7C110000000009"
+			rewards: [
+				{
+					count: 3
+					id: "7D7C1A0000000006"
+					item: "minecraft:white_wool"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					id: "7D7C1B0000000014"
+					item: {
+						Count: 1b
+						id: "tacz:statue"
+						tag: {
+							7dtcCoreEstablished: 1b
+							display: {Name: '{"text":"Craft and Plant your Core"}'}
+						}
+					}
+					match_nbt: true
+					title: "Craft and Plant your Core"
+					type: "item"
+				}
+			]
+			title: "Establish Your Core"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D7C110000000009"]
+			description: [
+				"Use the wool from your Core and gather wooden planks to make a bed, or interact with an existing bed."
+				""
+				"A shared base may already have one. Using it also completes this step and establishes the same progression."
+			]
+			icon: "minecraft:red_bed"
+			id: "7D7C110000000008"
+			rewards: [
+				{
+					count: 6
+					id: "7D7C1A0000000002"
+					item: "minecraft:bread"
+					type: "item"
+				}
+			]
+			tasks: [{
+				advancement: "seven_days_to_craft:onboarding/any_bed"
+				criterion: "completed"
+				id: "7D7C1B0000000009"
+				title: "Craft or interact with any Bed"
+				type: "advancement"
+			}]
+			title: "A Place to Sleep"
+			x: 4.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D7C110000000008"]
+			description: [
+				"The custom Workbench is the main catalog for weapons, equipment, utilities and progression items."
+				""
+				"Craft or interact with the Central Workbench and inspect its categories before continuing. It builds the four 7DTC workbenches."
+			]
+			icon: "cgm:workbench"
+			id: "7D7C110000000003"
+			rewards: [{
+				id: "7D7C1A0000000030"
+				item: "seven_days_workbenches:basic_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:onboarding/workbench"
+				criterion: "completed"
+				id: "7D7C1B0000000003"
+				title: "Craft or interact with the Central Workbench"
+				type: "advancement"
+			}]
+			title: "The Workbench"
+			x: 6.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D7C110000000003"]
+			description: [
+				"Build the four 7DTC workbenches at the Central Workbench (4 logs + 3 copper ingots each) and place all four near your Core. In a team, using a workbench someone else placed also counts."
+				""
+				"Weapons: melee, firearms and attachments. Armor: armor sets. Ordnance: ammo, explosives and turrets. Utility: components, tools and medicine."
+				""
+				"Each workbench upgrades twice. Level 2 needs Elite Mechanisms (dropped by elite zombies); level 3 needs a Boss Core (dropped by bosses). Hover any material to see where to find it."
+			]
+			icon: "seven_days_workbenches:weapons_workbench"
+			id: "7D7C110000000030"
+			rewards: [
+				{
+					count: 1
+					id: "7D7C1A0000000004"
+					item: "wrd:keystrongholdchest_iron"
+					type: "item"
+				}
+				{
+					count: 1
+					id: "7D7C1A0000000005"
+					item: "seven_days_locks:training_cache"
+					type: "item"
+				}
+			]
+			tasks: [
+				{
+					advancement: "7dtc:onboarding/place_weapons"
+					criterion: "completed"
+					id: "7D7C1B0000000030"
+					title: "Place or use the Weapons Workbench"
+					type: "advancement"
+				},
+				{
+					advancement: "7dtc:onboarding/place_armor"
+					criterion: "completed"
+					id: "7D7C1B0000000031"
+					title: "Place or use the Armor Workbench"
+					type: "advancement"
+				},
+				{
+					advancement: "7dtc:onboarding/place_ordnance"
+					criterion: "completed"
+					id: "7D7C1B0000000032"
+					title: "Place or use the Ordnance Workbench"
+					type: "advancement"
+				},
+				{
+					advancement: "7dtc:onboarding/place_utility_potion"
+					criterion: "completed"
+					id: "7D7C1B0000000033"
+					title: "Place or use the Utility Workbench"
+					type: "advancement"
+				}
+			]
+			title: "Set Up Your Workbenches"
+			x: 8.0d
+			y: 0.0d
+		}
+	
+		{
+			description: [
+				"Death leaves a lasting injury: you lose 1 maximum heart per death, up to a total of 3 hearts."
+				""
+				"Your Gravestone preserves your inventory. The compass creates a death marker to guide you back. After respawning, you receive 20 seconds of strong damage resistance, 10 seconds of regeneration and 30 seconds of infection immunity."
+			]
+			icon: "minecraft:skeleton_skull"
+			id: "7D7C210000000001"
+			invisible: true
+			rewards: [{
+				id: "7D7C2A0000000001"
+				item: "survival_instinct:blood_syringe"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:medical/first_death"
+				criterion: "completed"
+				id: "7D7C2B0000000001"
+				title: "Die once and come back"
+				type: "advancement"
+			}]
+			title: "Death and Recovery"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["7D7C210000000001"]
+			description: [
+				"Use an Adrenaline Syringe (recovers 1 lost heart) or a Blood Syringe (recovers all of them) while maximum health is reduced. Both are made at the Utility workbench."
+				""
+				"The death penalty can never remove more than 3 hearts. The syringes keep their normal medical effects. Your first death grants one Blood Syringe."
+			]
+			icon: "survival_instinct:adrenaline_syringe"
+			id: "7D7C210000000002"
+			rewards: [{
+					count: 1
+					id: "7D7C2A0000000002"
+					item: {
+						Count: 1b
+						id: "seven_days_workbenches:basic_supply_bundle"
+						tag: {
+							BundleName: "Medical Supply Bundle"
+							BundleTable: "seven_days_workbenches:bundles/medical"
+						}
+					}
+					type: "item"
+				}]
+			tasks: [{
+				advancement: "seven_days_to_craft:medical/recover_heart"
+				criterion: "completed"
+				id: "7D7C2B0000000002"
+				title: "Use a recovery syringe"
+				type: "advancement"
+			}]
+			title: "Treat the Injury"
+			x: 2.0d
+			y: 2.0d
+		}
+	
+		{
+			description: [
+				"A rare local map fell from a common infected. Hold it to inspect its 128-block region."
+				""
+				"Craft an Atlas to preserve this discovery and combine it with maps found elsewhere."
+			]
+			icon: "minecraft:filled_map"
+			id: "7D7C110000000060"
+			invisible: true
+			tasks: [{
+				advancement: "seven_days_to_craft:atlas/found_local_map"
+				criterion: "completed"
+				id: "7D7C1B0000000060"
+				title: "Find a Local Map"
+				type: "advancement"
+			}]
+			title: "A Map From the Dead"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["7D7C110000000060"]
+			description: [
+				"Craft a blank Atlas from a book, slimeball and four sheets of paper."
+				""
+				"Combine the Atlas with your Local Map in the 2x2 inventory grid. The map item is consumed, but its region remains in your Atlas. Further regions require more filled maps from infected drops or quests. Walking alone does not reveal new Atlas tiles."
+			]
+			icon: "map_atlases:atlas"
+			id: "7D7C110000000061"
+			tasks: [
+				{
+					advancement: "seven_days_to_craft:atlas/craft_atlas"
+					criterion: "completed"
+					id: "7D7C1B0000000061"
+					title: "Craft a Blank Atlas"
+					type: "advancement"
+				}
+				{
+					advancement: "seven_days_to_craft:atlas/add_local_map"
+					criterion: "completed"
+					id: "7D7C1B0000000062"
+					title: "Add the Local Map to your Atlas"
+					type: "advancement"
+				}
+			]
+			title: "Build Your Atlas"
+			x: 2.0d
+			y: 4.0d
+		}
+	
+	]
+	title: "Getting Started"
+}

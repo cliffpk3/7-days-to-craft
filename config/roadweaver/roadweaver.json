@@ -3,7 +3,8 @@
     "roadWidth": 7,
     "spawnCabinEnabled": false,
     "allowNatural": false,
-    "allowArtificial": true
+    "allowArtificial": true,
+    "tunnelEnabled": true
   },
   "roadsideVillage": {
     "enabled": true,

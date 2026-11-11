@@ -1,0 +1,390 @@
+{
+	filename: "7dtc_training_mobility"
+	group: "7D7C000000000001"
+	icon: "minecraft:feather"
+	id: "7D7C090000000002"
+	order_index: 11
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	hide_quest_until_deps_visible: true
+	quest_links: [ ]
+	quests: [
+		{
+			dependencies: ["7D7C360000000001"]
+			description: ["Grip a ledge. Complete this step to continue Wall Grip Training."]
+			icon: "minecraft:ladder"
+			id: "10AB99EE5189DD73"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/wall_grip_cling"
+				criterion: "completed"
+				id: "7D7C350000000101"
+				title: "Grip a ledge"
+				type: "advancement"
+			}]
+			title: "Grip a ledge"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["10AB99EE5189DD73"]
+			description: ["Climb the ledge. Complete this step to continue Wall Grip Training."]
+			icon: "minecraft:ladder"
+			id: "4A0483D28117B5B6"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/wall_grip_climb"
+				criterion: "completed"
+				id: "7D7C350000000102"
+				title: "Climb the ledge"
+				type: "advancement"
+			}]
+			title: "Climb the ledge"
+			x: 1.8d
+			y: 0.0d
+		}
+		{
+			dependencies: ["4A0483D28117B5B6"]
+			description: [
+				"Use ledges and block edges to climb or hold position with Parcool."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim a basic supply bundle."
+			]
+			icon: "minecraft:ladder"
+			id: "7D7C310000000001"
+			rewards: [{
+				id: "7D7C340000000001"
+				item: "seven_days_workbenches:basic_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/wall_grip_repeat"
+				criterion: "completed"
+				id: "7D7C350000000103"
+				title: "Repeat without taking fall damage"
+				type: "advancement"
+			}]
+			title: "Wall Grip Training"
+			x: 3.6d
+			y: 0.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000002"]
+			description: ["Obtain a standard Grappling Hook. Complete this step to continue Grappler License Training."]
+			icon: {
+				Count: 1
+				id: "grapplemod:grapplinghook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "2F749EC9573451CC"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/grappler_obtain"
+				criterion: "completed"
+				id: "7D7C350000000201"
+				title: "Obtain a standard Grappling Hook"
+				type: "advancement"
+			}]
+			title: "Obtain a standard Grappling Hook"
+			x: 0.0d
+			y: 2.0d
+		}
+		{
+			dependencies: ["2F749EC9573451CC"]
+			description: [
+				"Craft or obtain a standard grappling hook and practice safe traversal."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim a medium supply bundle."
+			]
+			icon: {
+				Count: 1
+				id: "grapplemod:grapplinghook"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D7C310000000002"
+			rewards: [{
+				id: "7D7C340000000002"
+				item: "seven_days_workbenches:medium_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/grappler_use"
+				criterion: "completed"
+				id: "7D7C350000000202"
+				title: "Attach the Grappling Hook to a solid block"
+				type: "advancement"
+			}]
+			title: "Grappler License Training"
+			x: 1.8d
+			y: 2.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000011"]
+			description: ["Reach twenty percent health safely. Complete this step to continue Emergency Mobility Training."]
+			icon: "minecraft:firework_rocket"
+			id: "39AAFC048B220B8D"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/emergency_mobility_threshold"
+				criterion: "completed"
+				id: "7D7C350000001101"
+				title: "Reach twenty percent health safely"
+				type: "advancement"
+			}]
+			title: "Reach twenty percent health safely"
+			x: 0.0d
+			y: 4.0d
+		}
+		{
+			dependencies: ["39AAFC048B220B8D"]
+			description: ["Trigger the speed response. Complete this step to continue Emergency Mobility Training."]
+			icon: "minecraft:firework_rocket"
+			id: "397DA1BA4D70008C"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/emergency_mobility_trigger"
+				criterion: "completed"
+				id: "7D7C350000001102"
+				title: "Trigger the speed response"
+				type: "advancement"
+			}]
+			title: "Trigger the speed response"
+			x: 1.8d
+			y: 4.0d
+		}
+		{
+			dependencies: ["397DA1BA4D70008C"]
+			description: [
+				"At or below 20% health, observe the temporary speed and unlimited stamina response."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim a rare supply bundle."
+			]
+			icon: "minecraft:firework_rocket"
+			id: "7D7C310000000011"
+			rewards: [{
+				id: "7D7C340000000011"
+				item: "seven_days_workbenches:rare_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/emergency_mobility_sprint"
+				criterion: "completed"
+				id: "7D7C350000001103"
+				title: "Sprint while stamina is preserved"
+				type: "advancement"
+			}]
+			title: "Emergency Mobility Training"
+			x: 3.6d
+			y: 4.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000012"]
+			description: ["Wait until the reflex is ready. Complete this step to continue Breakfall Reflex Training."]
+			icon: "minecraft:feather"
+			id: "1BAD083748B1820D"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/breakfall_ready"
+				criterion: "completed"
+				id: "7D7C350000001201"
+				title: "Wait until the reflex is ready"
+				type: "advancement"
+			}]
+			title: "Wait until the reflex is ready"
+			x: 0.0d
+			y: 6.0d
+		}
+		{
+			dependencies: ["1BAD083748B1820D"]
+			description: ["Perform a controlled damaging fall. Complete this step to continue Breakfall Reflex Training."]
+			icon: "minecraft:feather"
+			id: "76FF3AAF76FA4EF5"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/breakfall_fall"
+				criterion: "completed"
+				id: "7D7C350000001202"
+				title: "Perform a controlled damaging fall"
+				type: "advancement"
+			}]
+			title: "Perform a controlled damaging fall"
+			x: 1.8d
+			y: 6.0d
+		}
+		{
+			dependencies: ["76FF3AAF76FA4EF5"]
+			description: [
+				"Trigger a controlled fall to learn the automatic protection and its cooldown."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim a rare supply bundle."
+			]
+			icon: "minecraft:feather"
+			id: "7D7C310000000012"
+			rewards: [{
+				id: "7D7C340000000012"
+				item: "seven_days_workbenches:rare_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/breakfall_prevented"
+				criterion: "completed"
+				id: "7D7C350000001203"
+				title: "Confirm prevention and cooldown"
+				type: "advancement"
+			}]
+			title: "Breakfall Reflex Training"
+			x: 3.6d
+			y: 6.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000013"]
+			description: ["Obtain an Ender traversal item. Complete this step to continue Ender Traversal Training."]
+			icon: "grapplemod:enderhook"
+			id: "75B3965B96984F3A"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/ender_obtain"
+				criterion: "completed"
+				id: "7D7C350000001301"
+				title: "Obtain an Ender traversal item"
+				type: "advancement"
+			}]
+			title: "Obtain an Ender traversal item"
+			x: 0.0d
+			y: 8.0d
+		}
+		{
+			dependencies: ["75B3965B96984F3A"]
+			description: [
+				"Use the Ender Staff or Ender Grappling Hook to practice emergency traversal."
+				""
+				"The milestone is active immediately. Complete this lesson once to claim a rare supply bundle."
+			]
+			icon: "grapplemod:enderhook"
+			id: "7D7C310000000013"
+			rewards: [{
+				id: "7D7C340000000013"
+				item: "seven_days_workbenches:rare_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/ender_use"
+				criterion: "completed"
+				id: "7D7C350000001302"
+				title: "Use an Ender traversal item"
+				type: "advancement"
+			}]
+			title: "Ender Traversal Training"
+			x: 1.8d
+			y: 8.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000020"]
+			description: [
+				"Jump, release the Jump key, then press Jump once more while airborne."
+				""
+				"The second jump has a 30-second cooldown and cannot be used while mounted, gliding or swimming."
+			]
+			icon: "minecraft:slime_ball"
+			id: "7D7C310000000020"
+			rewards: [{
+				id: "7D7C340000000020"
+				item: "seven_days_workbenches:medium_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/double_jump_use"
+				criterion: "completed"
+				id: "7D7C350000002001"
+				title: "Perform a Double Jump"
+				type: "advancement"
+			}]
+			title: "Reserve Jump Training"
+			x: 0.0d
+			y: 10.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000025"]
+			description: ["Take damage and trigger Evasive Rush. Complete this step to continue Evasive Rush Training."]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "60E2BBA94CF89236"
+			tasks: [{
+				advancement: "seven_days_to_craft:training/evasive_rush_trigger"
+				criterion: "completed"
+				id: "7D7C350000002501"
+				title: "Take damage and trigger Evasive Rush"
+				type: "advancement"
+			}]
+			title: "Take damage and trigger Evasive Rush"
+			x: 0.0d
+			y: 12.0d
+		}
+		{
+			dependencies: ["60E2BBA94CF89236"]
+			description: [
+				"After you take damage, Evasive Rush increases movement speed by 25% for five seconds."
+				""
+				"The response can activate once every 30 seconds. Take damage, then sprint while the speed boost is active."
+			]
+			icon: {
+				Count: 1
+				id: "minecraft:golden_boots"
+				tag: {
+					Damage: 0
+				}
+			}
+			id: "7D7C310000000025"
+			rewards: [{
+				id: "7D7C340000000025"
+				item: "seven_days_workbenches:medium_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/evasive_rush_sprint"
+				criterion: "completed"
+				id: "7D7C350000002502"
+				title: "Sprint during the five-second boost"
+				type: "advancement"
+			}]
+			title: "Evasive Rush Training"
+			x: 1.8d
+			y: 12.0d
+		}
+	
+		{
+			dependencies: ["7D7C360000000021"]
+			description: [
+				"Train one Alex's Mobs mount: the Komodo Dragon."
+				""
+				"Find a Komodo Dragon, feed it Rotten Flesh until hearts confirm taming, equip a Saddle, then mount it. The milestone also permits other native Alex's Mobs mounts when you discover their own requirements."
+			]
+			icon: "minecraft:saddle"
+			id: "7D7C310000000021"
+			rewards: [{
+				id: "7D7C340000000021"
+				item: "seven_days_workbenches:medium_supply_bundle"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_to_craft:training/beast_rider_mount"
+				criterion: "completed"
+				id: "7D7C350000000213"
+				title: "Mount a tamed Komodo Dragon"
+				type: "advancement"
+			}]
+			title: "Beast Rider Training"
+			x: 0.0d
+			y: 14.0d
+		}
+	
+	]
+	title: "Mobility Training"
+}

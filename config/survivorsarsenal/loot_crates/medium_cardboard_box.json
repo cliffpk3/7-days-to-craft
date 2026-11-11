@@ -1,0 +1,257 @@
+{
+  "id": "medium_cardboard_box",
+  "display_name": "Medium Cardboard Box",
+  "description": "Example loot profile. Duplicate/copy this preset and adjust pools, weights, chances, behavior and linked kits for your own pack.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": false,
+    "spawn_chance": 0.04,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.2
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": false,
+    "time_ticks": 24000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": true,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "mixed_storage",
+      "rolls": {
+        "min": 1,
+        "max": 2
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:crafting_materials",
+            "sa_core:metal_scrap",
+            "sa_core:scrap_nugget",
+            "sa_core:electric_scrap",
+            "sa_core:nails",
+            "sa_core:wire",
+            "sa_core:copper_wire",
+            "sa_core:metal_pipe",
+            "sa_core:cloth",
+            "sa_core:rags",
+            "sa_core:dirty_rags",
+            "sa_core:thread",
+            "sa_core:rope",
+            "sa_core:cardboard",
+            "sa_core:plastic",
+            "sa_core:rubber",
+            "minecraft:string",
+            "minecraft:paper",
+            "minecraft:leather",
+            "minecraft:iron_nugget"
+          ],
+          "weight": 9,
+          "chance": 0.64,
+          "count": {
+            "min": 1,
+            "max": 4
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:junk",
+            "sa_core:empty_can",
+            "sa_core:dented_can",
+            "sa_core:tin_can",
+            "sa_core:empty_glass_bottle",
+            "sa_core:water_bottle_empty",
+            "sa_core:dirty_rags",
+            "sa_core:cardboard",
+            "sa_core:plastic",
+            "minecraft:paper",
+            "minecraft:string",
+            "minecraft:bone",
+            "minecraft:rotten_flesh"
+          ],
+          "weight": 8,
+          "chance": 0.54,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:snacks",
+            "sa_combat:plain_chips_bag",
+            "sa_combat:barbecue_chips_bag",
+            "sa_combat:salt_vinegar_chips_bag",
+            "sa_combat:sour_cream_onion_chips_bag",
+            "sa_combat:candy_package",
+            "sa_combat:candys",
+            "sa_combat:cereal",
+            "sa_combat:cereal_fruit_loops",
+            "sa_combat:cereal_kelloggys",
+            "sa_combat:fruit_jam",
+            "sa_combat:peanut_butter",
+            "sa_combat:chocolate_bar",
+            "sa_combat:energy_bar",
+            "sa_combat:granola_bar",
+            "sa_combat:smirkers_bar",
+            "sa_combat:sniksnak_bar",
+            "sa_combat:saltine_cracker",
+            "sa_combat:pacoquita",
+            "minecraft:cookie"
+          ],
+          "weight": 4,
+          "chance": 0.28,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:drinks",
+            "sa_core:water_bottle",
+            "sa_core:dirty_water_bottle",
+            "sa_combat:grape_juice_box",
+            "sa_combat:berry_juice_box",
+            "sa_combat:apple_juice_box",
+            "sa_combat:orange_juice_box",
+            "sa_combat:peach_juice_bottle",
+            "sa_combat:pineapple_juice_bottle",
+            "sa_combat:milk_box",
+            "sa_combat:milk_gallon",
+            "sa_combat:monster",
+            "sa_combat:energy_drink",
+            "sa_combat:cola",
+            "sa_combat:pepsi",
+            "sa_combat:fanta_orange_soda",
+            "sa_combat:fanta_grape_soda",
+            "sa_combat:guarana_soda",
+            "sa_combat:coffee"
+          ],
+          "weight": 3,
+          "chance": 0.22,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "minecraft:book",
+          "weight": 3,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "useful_find",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:utility_tools",
+            "sa_core:duct_tape",
+            "sa_core:glue",
+            "sa_core:can_opener",
+            "sa_core:pliers",
+            "sa_core:matchbox",
+            "sa_core:scissor",
+            "sa_core:saw",
+            "sa_core:mortar_and_pestle",
+            "sa_combat:flashlight",
+            "sa_combat:repair_kit_i",
+            "minecraft:flint_and_steel",
+            "minecraft:shears"
+          ],
+          "weight": 3,
+          "chance": 0.14,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "matches": [
+            "#sa_decor:clothing",
+            "sa_combat:blue_jeans",
+            "sa_combat:green_t_shirt",
+            "sa_combat:leon_s_kennedy_jacket",
+            "sa_combat:rpd_police_hat",
+            "sa_combat:rpd_police_uniform",
+            "sa_combat:rpd_police_pants",
+            "sa_combat:rpd_police_boots",
+            "sa_combat:firefighter_helmet",
+            "sa_combat:firefighter_jacket",
+            "sa_combat:firefighter_pants",
+            "sa_combat:firefighter_boots"
+          ],
+          "weight": 2,
+          "chance": 0.1,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "matches": [
+            "#sa_decor:medical_supplies",
+            "sa_combat:bandage",
+            "sa_combat:bandage_sterilized",
+            "sa_combat:plaster",
+            "sa_combat:splint",
+            "sa_combat:alcohol_wipes",
+            "sa_combat:first_aid_kit",
+            "sa_combat:first_aid_spray",
+            "sa_combat:painkiller_pills",
+            "sa_combat:stamina_boost_pills",
+            "sa_combat:painkiller",
+            "sa_combat:stamina_boost",
+            "sa_core:sterilized_rags",
+            "sa_core:antiseptic",
+            "sa_core:medical_adhesive",
+            "sa_core:rubbing_alcohol"
+          ],
+          "weight": 2,
+          "chance": 0.1,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    }
+  ]
+}

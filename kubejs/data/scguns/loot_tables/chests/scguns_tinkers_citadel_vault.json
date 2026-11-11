@@ -15,7 +15,8 @@
               }
             }
           ],
-          "name": "scguns:blueprint_scrap"
+          "name": "scguns:blueprint_scrap",
+          "weight": 60
         },
         {
           "type": "minecraft:item",
@@ -29,7 +30,8 @@
               }
             }
           ],
-          "name": "scguns:iron_flare"
+          "name": "scguns:iron_flare",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -43,7 +45,8 @@
               }
             }
           ],
-          "name": "scguns:wrecker_flare"
+          "name": "scguns:wrecker_flare",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -57,7 +60,8 @@
               }
             }
           ],
-          "name": "scguns:treated_brass_flare"
+          "name": "scguns:treated_brass_flare",
+          "weight": 20
         },
         {
           "type": "minecraft:item",
@@ -71,7 +75,8 @@
               }
             }
           ],
-          "name": "scguns:diamond_steel_flare"
+          "name": "scguns:diamond_steel_flare",
+          "weight": 20
         }
       ]
     },
@@ -88,7 +93,7 @@
         {
           "type": "minecraft:item",
           "name": "seven_days_workbenches:blueprint",
-          "weight": 4,
+          "weight": 80,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -99,7 +104,7 @@
         {
           "type": "minecraft:item",
           "name": "seven_days_workbenches:blueprint",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -110,11 +115,210 @@
         {
           "type": "minecraft:item",
           "name": "seven_days_workbenches:blueprint",
-          "weight": 1,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_nbt",
-              "tag": "{UnlockId:\"ordnance_explosive\"}"
+              "tag": "{UnlockId:\"item/scguns:grenade\"}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "seven_days_workbenches:blueprint",
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{UnlockId:\"item/scguns:gas_grenade\"}"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.22143
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:blueprint_scrap",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:energy_cell",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:heavy_gun_barrel",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:energy_cell",
+          "weight": 1
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.12
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:long_scope",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:advanced_silencer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:weighted_stock",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:combat_shotgun",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.03
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:long_scope",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:advanced_silencer",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:weighted_stock",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:combat_shotgun",
+          "weight": 1,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.25
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "scguns:osborne_slug",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 4
+              }
             }
           ]
         }

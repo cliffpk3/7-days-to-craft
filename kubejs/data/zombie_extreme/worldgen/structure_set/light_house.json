@@ -1,0 +1,14 @@
+{
+  "structures": [
+    {
+      "structure": "zombie_extreme:light_house",
+      "weight": 1
+    }
+  ],
+  "placement": {
+    "type": "minecraft:random_spread",
+    "spacing": 64,
+    "separation": 24,
+    "salt": 72110702
+  }
+}

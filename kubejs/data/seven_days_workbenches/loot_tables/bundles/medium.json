@@ -1,0 +1,219 @@
+{
+  "type": "minecraft:gift",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "wrd:keystrongholdchest_diamond",
+          "weight": 99
+        },
+        {
+          "type": "minecraft:item",
+          "name": "wrd:keystrongholdchest_gold",
+          "weight": 297
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "weight": 99
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "weight": 99
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "weight": 99
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "weight": 99
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_battleaxe",
+          "weight": 42
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_cutlass",
+          "weight": 42
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_dagger",
+          "weight": 42
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_glaive",
+          "weight": 42
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_hammer",
+          "weight": 42
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_katana",
+          "weight": 42
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_longsword",
+          "weight": 42
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_rapier",
+          "weight": 42
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_scythe",
+          "weight": 42
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_sickle",
+          "weight": 42
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:iron_spear",
+          "weight": 42
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:golden_apple",
+          "weight": 264
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/melee_l2",
+          "weight": 198
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/firearms_l2",
+          "weight": 99
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/attachments_l2",
+          "weight": 66
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/armor_l2",
+          "weight": 99
+        },
+        {
+          "type": "minecraft:loot_table",
+          "name": "seven_days_workbenches:blueprint_groups/medical_l2",
+          "weight": 66
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:gunpowder",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 4,
+                    "max": 6
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "zombie_extreme:ignotsteel",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 3
+                  }
+                }
+              ]
+            }
+          ],
+          "weight": 561
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:antibiotics",
+          "weight": 165
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:adrenaline_injector",
+          "weight": 165
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:morphine_injector",
+          "weight": 165
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:advanced_round",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 12,
+                "max": 16
+              }
+            }
+          ],
+          "weight": 66
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:shotgun_shell",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 8,
+                "max": 12
+              }
+            }
+          ],
+          "weight": 66
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:digging_claws",
+          "weight": 22
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:feral_claws",
+          "weight": 22
+        },
+        {
+          "type": "minecraft:item",
+          "name": "artifacts:obsidian_skull",
+          "weight": 22
+        }
+      ]
+    }
+  ]
+}

@@ -2,52 +2,583 @@
   "schema": 1,
   "items": [
     {
-      "item": "scguns:raw_anthralite",
-      "sources": {
-        "pt_br": ["Procure zumbis comuns na superfície e nas estradas."],
-        "en_us": ["Look for common zombies on the surface and along roads."]
-      }
+      "item": "scguns:raw_anthralite"
     },
     {
       "item": "zombie_extreme:raw_lead",
-      "sources": {
-        "pt_br": ["Runners são uma fonte comum; procure-os nas rotas de superfície."],
-        "en_us": ["Runners are a common source; seek them along surface routes."]
+      "uses": {
+        "pt_br": [
+          "Funda para obter lingote de chumbo: base da munição comum (Ordnance nível 1)."
+        ],
+        "en_us": [
+          "Smelt into lead ingots: base of common ammo (Ordnance level 1)."
+        ]
       }
     },
     {
       "item": "zombie_extreme:raw_steel",
-      "sources": {
-        "pt_br": ["Infected são a fonte principal na superfície."],
-        "en_us": ["Infected are the main surface source."]
+      "uses": {
+        "pt_br": [
+          "Funda para obter lingote de aço: munição avançada (Ordnance nível 2)."
+        ],
+        "en_us": [
+          "Smelt into steel ingots: advanced ammo (Ordnance level 2)."
+        ]
       }
     },
     {
       "item": "zombie_extreme:raw_aluminum",
-      "sources": {
-        "pt_br": ["Decaying Zombies e Swarmers são fontes de superfície."],
-        "en_us": ["Decaying Zombies and Swarmers are surface sources."]
+      "uses": {
+        "pt_br": [
+          "Funda para obter lingote de alumínio: corpo de foguetes/granadas e reparo de armadilhas."
+        ],
+        "en_us": [
+          "Smelt into aluminum ingots: rocket/grenade bodies and trap repair."
+        ]
       }
     },
     {
       "item": "seven_days_workbenches:elite_mechanism",
       "uses": {
-        "pt_br": ["Componente de progressão encontrado em monstros de elite."],
-        "en_us": ["Progression component found on elite monsters."]
+        "en_us": [
+          "Upgrades a workbench to level 2 (2 per workbench). Dropped by elite zombies."
+        ],
+        "pt_br": [
+          "Sobe uma bancada para o nível 2 (2 por bancada). Dropado por zumbis de elite."
+        ]
       }
     },
     {
       "item": "seven_days_workbenches:boss_core",
       "uses": {
-        "pt_br": ["Componente de progressão obtido de chefes."],
-        "en_us": ["Progression component obtained from bosses."]
+        "en_us": [
+          "Upgrades a workbench to level 3 (1 per workbench). Dropped by bosses."
+        ],
+        "pt_br": [
+          "Sobe uma bancada para o nível 3 (1 por bancada). Dropado por chefes."
+        ]
       }
     },
     {
       "item": "seven_days_workbenches:blueprint",
       "uses": {
-        "pt_br": ["Clique com o botão direito na bancada correspondente para instalar o projeto."],
-        "en_us": ["Right-click the matching workbench to install this blueprint."]
+        "pt_br": [
+          "Clique com o botÃ£o direito na bancada correspondente para instalar o projeto."
+        ],
+        "en_us": [
+          "Right-click the matching workbench to install this blueprint."
+        ]
+      }
+    },
+    {
+      "item": "survival_instinct:bandage"
+    },
+    {
+      "item": "survival_instinct:antibiotics"
+    },
+    {
+      "item": "survival_instinct:adrenaline_injector"
+    },
+    {
+      "item": "survival_instinct:morphine_injector"
+    },
+    {
+      "item": "survival_instinct:adrenaline_syringe"
+    },
+    {
+      "item": "survival_instinct:morphine_syringe"
+    },
+    {
+      "item": "survival_instinct:medkit_bag"
+    },
+    {
+      "item": "survival_instinct:survival_medkit"
+    },
+    {
+      "item": "survival_instinct:blood_syringe"
+    },
+    {
+      "item": "seven_days_traps:wire_trap",
+      "uses": {
+        "pt_br": [
+          "Defesa com desgaste por acerto. Use lingote de alumínio na armadilha para reparar."
+        ],
+        "en_us": [
+          "Defense with wear per successful hit. Use aluminum ingots on the trap to repair."
+        ]
+      }
+    },
+    {
+      "item": "scguns:raw_phosphor",
+      "uses": {
+        "pt_br": [
+          "Carga das células de energia e choque (Ordnance nível 3)."
+        ],
+        "en_us": [
+          "Charge for energy and shock cells (Ordnance level 3)."
+        ]
+      }
+    },
+    {
+      "item": "zombie_extreme:ignot_aluminum",
+      "uses": {
+        "pt_br": [
+          "Corpo de foguetes e granadas HE (Ordnance nível 3); repara a armadilha de arame."
+        ],
+        "en_us": [
+          "Body for rockets and HE grenade rounds (Ordnance level 3); repairs the wire trap."
+        ]
+      }
+    },
+    {
+      "item": "zombie_extreme:ignotsteel",
+      "uses": {
+        "pt_br": [
+          "Ponta endurecida da munição avançada (Ordnance nível 2)."
+        ],
+        "en_us": [
+          "Hardened tip for advanced ammo (Ordnance level 2)."
+        ]
+      }
+    },
+    {
+      "item": "zombie_extreme:ignotlead",
+      "uses": {
+        "pt_br": [
+          "Projétil da munição comum e das shotgun shells (Ordnance nível 1–2)."
+        ],
+        "en_us": [
+          "Projectile for common ammo and shotgun shells (Ordnance level 1–2)."
+        ]
+      }
+    },
+    {
+      "item": "scguns:sulfur_chunk",
+      "uses": {
+        "pt_br": [
+          "Carga tóxica da granada de gás (Ordnance nível 3)."
+        ],
+        "en_us": [
+          "Toxic filler for gas grenades (Ordnance level 3)."
+        ]
+      }
+    },
+    {
+      "item": "scguns:turret_platform",
+      "uses": {
+        "en_us": [
+          "Base for every turret. Ordnance level 2, Defense tab."
+        ],
+        "pt_br": [
+          "Base de todas as torretas. Ordnance nível 2, aba Defense."
+        ]
+      }
+    },
+    {
+      "item": "scguns:basic_turret",
+      "uses": {
+        "en_us": [
+          "Medium-range turret (24 blocks). Load Standard Copper or Advanced Rounds. Ordnance level 2."
+        ],
+        "pt_br": [
+          "Torreta de médio alcance (24 blocos). Use Standard Copper ou Advanced Round. Ordnance nível 2."
+        ]
+      }
+    },
+    {
+      "item": "scguns:auto_turret",
+      "uses": {
+        "en_us": [
+          "Fast short-range turret (12 blocks). Load Compact Copper or Compact Advanced Rounds. Ordnance level 3."
+        ],
+        "pt_br": [
+          "Torreta rápida de curto alcance (12 blocos). Use Compact Copper ou Compact Advanced Round. Ordnance nível 3."
+        ]
+      }
+    },
+    {
+      "item": "scguns:shotgun_turret",
+      "uses": {
+        "en_us": [
+          "Close-defense turret (7 blocks). Load Shotgun Shells. Ordnance level 3."
+        ],
+        "pt_br": [
+          "Torreta de defesa próxima (7 blocos). Use Shotgun Shell. Ordnance nível 3."
+        ]
+      }
+    },
+    {
+      "item": "scguns:sniper_turret",
+      "uses": {
+        "en_us": [
+          "Long-range turret (40 blocks). Load Advanced Rounds. Ordnance level 3."
+        ],
+        "pt_br": [
+          "Torreta de longo alcance (40 blocos). Use Advanced Round. Ordnance nível 3."
+        ]
+      }
+    },
+    {
+      "item": "scguns:anthralite_ingot",
+      "uses": {
+        "en_us": [
+          "Smelt Raw Anthralite. Main material of turrets and turret modules (Ordnance, Defense tab)."
+        ],
+        "pt_br": [
+          "Funda Raw Anthralite. Material principal de torretas e módulos (Ordnance, aba Defense)."
+        ]
+      }
+    },
+    {
+      "item": "survival_instinct:nail",
+      "uses": {
+        "pt_br": [
+          "Ingrediente da Needle, munição da Nailer (Ordnance nível 1)."
+        ],
+        "en_us": [
+          "Ingredient of Needles, the Nailer's ammo (Ordnance level 1)."
+        ]
+      }
+    },
+    {
+      "item": "scguns:needle",
+      "uses": {
+        "pt_br": [
+          "Munição de armas de ar. Pode ser recolhida no alvo depois do disparo."
+        ],
+        "en_us": [
+          "Ammo for air guns. Can be collected from the target after firing."
+        ]
+      }
+    },
+    {
+      "item": "scguns:air_canister",
+      "uses": {
+        "pt_br": [
+          "Fonte de ar exigida pelas armas de ar. Enche à mão."
+        ],
+        "en_us": [
+          "Air source required by air guns. Refill by hand."
+        ]
+      }
+    },
+    {
+      "item": "scguns:reinforced_air_canister",
+      "uses": {
+        "pt_br": [
+          "Fonte de ar de maior capacidade para armas de ar."
+        ],
+        "en_us": [
+          "Larger air source for air guns."
+        ]
+      }
+    },
+    {
+      "item": "scguns:krahg_round",
+      "uses": {
+        "pt_br": [
+          "Munição especial: encontrada apenas em drops e baús específicos."
+        ],
+        "en_us": [
+          "Special ammo: found only in drops and specific chests."
+        ]
+      }
+    },
+    {
+      "item": "scguns:osborne_slug",
+      "uses": {
+        "pt_br": [
+          "Munição especial: encontrada apenas em drops e baús específicos."
+        ],
+        "en_us": [
+          "Special ammo: found only in drops and specific chests."
+        ]
+      }
+    },
+    {
+      "item": "scguns:blaze_fuel",
+      "uses": {
+        "pt_br": [
+          "Munição especial: encontrada apenas em drops e baús específicos."
+        ],
+        "en_us": [
+          "Special ammo: found only in drops and specific chests."
+        ]
+      }
+    },
+    {
+      "item": "scguns:syringe",
+      "uses": {
+        "pt_br": [
+          "Munição especial: encontrada apenas em drops e baús específicos."
+        ],
+        "en_us": [
+          "Special ammo: found only in drops and specific chests."
+        ]
+      }
+    },
+    {
+      "item": "scguns:frog_dart",
+      "uses": {
+        "pt_br": [
+          "Munição especial: encontrada apenas em drops e baús específicos."
+        ],
+        "en_us": [
+          "Special ammo: found only in drops and specific chests."
+        ]
+      }
+    },
+    {
+      "item": "scguns:microjet",
+      "uses": {
+        "pt_br": [
+          "Munição especial: encontrada apenas em drops e baús específicos."
+        ],
+        "en_us": [
+          "Special ammo: found only in drops and specific chests."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:amethyst_block",
+      "uses": {
+        "pt_br": [
+          "Pode ser usado no Recycler para obter Amethyst Shard."
+        ],
+        "en_us": [
+          "Can be used on a Recycler to obtain Amethyst Shard."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:copper_ingot",
+      "uses": {
+        "pt_br": [
+          "Pode ser usado no Recycler para obter Copper Nugget."
+        ],
+        "en_us": [
+          "Can be used on a Recycler to obtain Copper Nugget."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:netherite_ingot",
+      "uses": {
+        "pt_br": [
+          "Pode ser usado no Recycler para obter Netherite Nugget."
+        ],
+        "en_us": [
+          "Can be used on a Recycler to obtain Netherite Nugget."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:diamond",
+      "uses": {
+        "pt_br": [
+          "Pode ser usado no Recycler para obter Diamond Shard."
+        ],
+        "en_us": [
+          "Can be used on a Recycler to obtain Diamond Shard."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:iron_ingot",
+      "uses": {
+        "pt_br": [
+          "Pode ser usado no Recycler para obter Iron Nugget."
+        ],
+        "en_us": [
+          "Can be used on a Recycler to obtain Iron Nugget."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:gold_ingot",
+      "uses": {
+        "pt_br": [
+          "Pode ser usado no Recycler para obter Gold Nugget."
+        ],
+        "en_us": [
+          "Can be used on a Recycler to obtain Gold Nugget."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:leather",
+      "uses": {
+        "pt_br": [
+          "Pode ser usado no Recycler para obter Rabbit Hide."
+        ],
+        "en_us": [
+          "Can be used on a Recycler to obtain Rabbit Hide."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:oak_planks",
+      "uses": {
+        "pt_br": [
+          "Pode ser usado no Recycler para obter Stick."
+        ],
+        "en_us": [
+          "Can be used on a Recycler to obtain Stick."
+        ]
+      }
+    },
+    {
+      "item": "wrd:keystrongholdchest_treasure",
+      "uses": {
+        "pt_br": [
+          "Chave: abre um baú trancado de stronghold."
+        ],
+        "en_us": [
+          "Key: opens a locked stronghold chest."
+        ]
+      }
+    },
+    {
+      "item": "artifacts:cloud_in_a_bottle",
+      "uses": {
+        "pt_br": [
+          "Acessório: equipe em um espaço de acessório para receber o efeito."
+        ],
+        "en_us": [
+          "Accessory: equip it in an accessory slot to get its effect."
+        ]
+      }
+    },
+    {
+      "item": "artifacts:crystal_heart",
+      "uses": {
+        "pt_br": [
+          "Acessório: equipe em um espaço de acessório para receber o efeito."
+        ],
+        "en_us": [
+          "Accessory: equip it in an accessory slot to get its effect."
+        ]
+      }
+    },
+    {
+      "item": "artifacts:digging_claws",
+      "uses": {
+        "pt_br": [
+          "Acessório: equipe em um espaço de acessório para receber o efeito."
+        ],
+        "en_us": [
+          "Accessory: equip it in an accessory slot to get its effect."
+        ]
+      }
+    },
+    {
+      "item": "artifacts:feral_claws",
+      "uses": {
+        "pt_br": [
+          "Acessório: equipe em um espaço de acessório para receber o efeito."
+        ],
+        "en_us": [
+          "Accessory: equip it in an accessory slot to get its effect."
+        ]
+      }
+    },
+    {
+      "item": "artifacts:golden_hook",
+      "uses": {
+        "pt_br": [
+          "Acessório: equipe em um espaço de acessório para receber o efeito."
+        ],
+        "en_us": [
+          "Accessory: equip it in an accessory slot to get its effect."
+        ]
+      }
+    },
+    {
+      "item": "artifacts:obsidian_skull",
+      "uses": {
+        "pt_br": [
+          "Acessório: equipe em um espaço de acessório para receber o efeito."
+        ],
+        "en_us": [
+          "Accessory: equip it in an accessory slot to get its effect."
+        ]
+      }
+    },
+    {
+      "item": "nameless_trinkets:lucky_rock",
+      "uses": {
+        "pt_br": [
+          "Acessório: equipe em um espaço de acessório para receber o efeito."
+        ],
+        "en_us": [
+          "Accessory: equip it in an accessory slot to get its effect."
+        ]
+      }
+    },
+    {
+      "item": "nameless_trinkets:miners_soul",
+      "uses": {
+        "pt_br": [
+          "Acessório: equipe em um espaço de acessório para receber o efeito."
+        ],
+        "en_us": [
+          "Accessory: equip it in an accessory slot to get its effect."
+        ]
+      }
+    },
+    {
+      "item": "wrd:keystrongholdchest_diamond",
+      "uses": {
+        "pt_br": [
+          "Chave: abre um baú trancado de stronghold."
+        ],
+        "en_us": [
+          "Key: opens a locked stronghold chest."
+        ]
+      }
+    },
+    {
+      "item": "quark:forgotten_hat",
+      "uses": {
+        "pt_br": [
+          "Acessório: equipe em um espaço de acessório para receber o efeito."
+        ],
+        "en_us": [
+          "Accessory: equip it in an accessory slot to get its effect."
+        ]
+      }
+    },
+    {
+      "item": "wrd:keystrongholdchest_gold",
+      "uses": {
+        "pt_br": [
+          "Chave: abre um baú trancado de stronghold."
+        ],
+        "en_us": [
+          "Key: opens a locked stronghold chest."
+        ]
+      }
+    },
+    {
+      "item": "quark:pathfinders_quill",
+      "uses": {
+        "pt_br": [
+          "Acessório: equipe em um espaço de acessório para receber o efeito."
+        ],
+        "en_us": [
+          "Accessory: equip it in an accessory slot to get its effect."
+        ]
+      }
+    },
+    {
+      "item": "wrd:keystrongholdchest_iron",
+      "uses": {
+        "pt_br": [
+          "Chave: abre um baú trancado de stronghold."
+        ],
+        "en_us": [
+          "Key: opens a locked stronghold chest."
+        ]
       }
     }
   ]

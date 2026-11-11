@@ -30,13 +30,13 @@
           "max": 2
         },
         {
-          "item": "zombie_extreme:bandage",
+          "item": "survival_instinct:bandage",
           "chance": 0.03,
           "min": 1,
           "max": 1
         },
         {
-          "item": "zombie_extreme:syringe_antidote",
+          "item": "survival_instinct:antibiotics",
           "chance": 0.008,
           "min": 1,
           "max": 1
@@ -178,6 +178,18 @@
           "chance": 0.8,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "survival_instinct:steellium",
+          "chance": 0.12,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.04,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -224,6 +236,12 @@
           "chance": 0.8,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "survival_instinct:energy_storage_battery",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -239,6 +257,18 @@
         {
           "item": "seven_days_workbenches:elite_mechanism",
           "chance": 0.75,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:energy_storage_battery",
+          "chance": 0.12,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.05,
           "min": 1,
           "max": 1
         }
@@ -286,6 +316,18 @@
           "chance": 1.0,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "survival_instinct:energy_storage_battery",
+          "chance": 0.12,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -297,6 +339,12 @@
           "chance": 1.0,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.3,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -306,6 +354,12 @@
         {
           "item": "seven_days_workbenches:boss_core",
           "chance": 1.0,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.3,
           "min": 1,
           "max": 1
         }
@@ -330,6 +384,12 @@
           "chance": 1.0,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.3,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -339,6 +399,12 @@
         {
           "item": "seven_days_workbenches:boss_core",
           "chance": 1.0,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.5,
           "min": 1,
           "max": 1
         }
@@ -393,7 +459,7 @@
           "max": 2
         },
         {
-          "item": "zombie_extreme:cloth_bandage",
+          "item": "survival_instinct:bandage",
           "chance": 0.03,
           "min": 1,
           "max": 1
@@ -416,13 +482,13 @@
           "max": 2
         },
         {
-          "item": "zombie_extreme:cloth_bandage",
+          "item": "survival_instinct:bandage",
           "chance": 0.05,
           "min": 1,
           "max": 1
         },
         {
-          "item": "zombie_extreme:syringe_antidote",
+          "item": "survival_instinct:antibiotics",
           "chance": 0.012,
           "min": 1,
           "max": 1
@@ -445,7 +511,7 @@
           "max": 2
         },
         {
-          "item": "zombie_extreme:bandage",
+          "item": "survival_instinct:bandage",
           "chance": 0.04,
           "min": 1,
           "max": 1
@@ -564,8 +630,14 @@
           "max": 1
         },
         {
-          "item": "zombie_extreme:syringe_antidote",
+          "item": "survival_instinct:antibiotics",
           "chance": 0.015,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:steellium",
+          "chance": 0.05,
           "min": 1,
           "max": 1
         }
@@ -583,41 +655,6 @@
         {
           "item": "minecraft:iron_nugget",
           "chance": 0.32,
-          "min": 1,
-          "max": 1
-        }
-      ]
-    },
-    {
-      "mob": "zombie_extreme:infected_military",
-      "drops": [
-        {
-          "item": "zombie_extreme:raw_lead",
-          "chance": 0.6,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "minecraft:iron_nugget",
-          "chance": 0.2,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "minecraft:raw_iron",
-          "chance": 0.06,
-          "min": 1,
-          "max": 2
-        },
-        {
-          "item": "minecraft:iron_chestplate",
-          "chance": 0.02,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "zombie_extreme:syringe_antidote",
-          "chance": 0.012,
           "min": 1,
           "max": 1
         }
@@ -645,8 +682,14 @@
           "max": 2
         },
         {
-          "item": "zombie_extreme:syringe_antidote",
+          "item": "survival_instinct:antibiotics",
           "chance": 0.025,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:energy_storage_battery",
+          "chance": 0.05,
           "min": 1,
           "max": 1
         }
@@ -664,6 +707,12 @@
         {
           "item": "minecraft:iron_nugget",
           "chance": 0.3,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:steellium",
+          "chance": 0.05,
           "min": 1,
           "max": 1
         }
@@ -694,6 +743,18 @@
           "chance": 0.72,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "survival_instinct:steellium",
+          "chance": 0.12,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -703,6 +764,18 @@
         {
           "item": "seven_days_workbenches:elite_mechanism",
           "chance": 0.72,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:steellium",
+          "chance": 0.12,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.05,
           "min": 1,
           "max": 1
         }
@@ -716,6 +789,18 @@
           "chance": 0.64,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "survival_instinct:steellium",
+          "chance": 0.12,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.04,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -725,6 +810,12 @@
         {
           "item": "seven_days_workbenches:boss_core",
           "chance": 1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.5,
           "min": 1,
           "max": 1
         }
@@ -738,6 +829,12 @@
           "chance": 1,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.3,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -749,6 +846,18 @@
           "chance": 0.7,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "survival_instinct:energy_storage_battery",
+          "chance": 0.12,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:exo_component",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -758,6 +867,82 @@
         {
           "item": "zombie_extreme:raw_aluminum",
           "chance": 0.55,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "simpleenemymod:ruunit",
+      "drops": [
+        {
+          "item": "scguns:compact_copper_round",
+          "chance": 0.35,
+          "min": 2,
+          "max": 6
+        },
+        {
+          "item": "scguns:standard_copper_round",
+          "chance": 0.2,
+          "min": 2,
+          "max": 6
+        },
+        {
+          "item": "survival_instinct:bandage",
+          "chance": 0.12,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:mre",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:gun_parts",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:gun_magazine",
+          "chance": 0.03,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "zombie_extreme:infected_military",
+      "drops": [
+        {
+          "item": "scguns:compact_copper_round",
+          "chance": 0.2,
+          "min": 1,
+          "max": 4
+        },
+        {
+          "item": "survival_instinct:military_can",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:bandage",
+          "chance": 0.06,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:gun_parts",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:tier_i_kevlar",
+          "chance": 0.02,
           "min": 1,
           "max": 1
         }

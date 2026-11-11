@@ -1,0 +1,27 @@
+{
+  "display": {
+    "icon": {
+      "item": "scguns:standard_copper_round"
+    },
+    "title": "Turret ammunition",
+    "description": "Have compatible turret ammunition.",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "completed": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "scguns:standard_copper_round",
+              "scguns:advanced_round"
+            ]
+          }
+        ]
+      }
+    }
+  }
+}

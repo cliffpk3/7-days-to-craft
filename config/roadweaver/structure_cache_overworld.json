@@ -271,6 +271,11 @@
       "isVanilla": false
     },
     {
+      "id": "chaoszpack_structures:watch_tower_1",
+      "displayName": "Watch Tower 1",
+      "isVanilla": false
+    },
+    {
       "id": "doomsday_structures:fire_station",
       "displayName": "Fire Station",
       "isVanilla": false
@@ -479,6 +484,56 @@
       "id": "survival_instinct:the_farm",
       "displayName": "The Farm",
       "isVanilla": false
+    },
+    {
+      "id": "zombie_extreme:build_1",
+      "displayName": "Build 1",
+      "isVanilla": false
+    },
+    {
+      "id": "zombie_extreme:caffe",
+      "displayName": "Caffe",
+      "isVanilla": false
+    },
+    {
+      "id": "zombie_extreme:gas_station_1",
+      "displayName": "Gas Station 1",
+      "isVanilla": false
+    },
+    {
+      "id": "zombie_extreme:light_house",
+      "displayName": "Light House",
+      "isVanilla": false
+    },
+    {
+      "id": "zombie_extreme:modern_house_1",
+      "displayName": "Modern House 1",
+      "isVanilla": false
+    },
+    {
+      "id": "zombie_extreme:ruin_1",
+      "displayName": "Ruin 1",
+      "isVanilla": false
+    },
+    {
+      "id": "zombie_extreme:ruin_2",
+      "displayName": "Ruin 2",
+      "isVanilla": false
+    },
+    {
+      "id": "zombie_extreme:ruin_3",
+      "displayName": "Ruin 3",
+      "isVanilla": false
+    },
+    {
+      "id": "zombie_extreme:ruin_4",
+      "displayName": "Ruin 4",
+      "isVanilla": false
+    },
+    {
+      "id": "zombie_extreme:ruin_5",
+      "displayName": "Ruin 5",
+      "isVanilla": false
     }
   ],
   "tags": [
@@ -659,6 +714,26 @@
         "minecraft:monument",
         "minecraft:ocean_ruin_cold",
         "minecraft:ocean_ruin_warm"
+      ]
+    },
+    {
+      "tagId": "seven_days_lostcities_bridge:roadside_structures",
+      "displayName": "#Roadside Structures",
+      "structureIds": [
+        "doomsday_structures:fire_station",
+        "doomsday_structures:gas_station",
+        "doomsday_structures:shops",
+        "survival_instinct:facility",
+        "survival_instinct:fire_staton",
+        "survival_instinct:gas_station",
+        "survival_instinct:hardware_store",
+        "survival_instinct:military_camp",
+        "survival_instinct:mini_market",
+        "survival_instinct:pharmacy",
+        "survival_instinct:suburban_house",
+        "survival_instinct:survivor_camp",
+        "survival_instinct:survivor_house",
+        "survival_instinct:the_farm"
       ]
     },
     {

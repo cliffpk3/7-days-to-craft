@@ -1,0 +1,218 @@
+{
+  "id": "store_shelf",
+  "display_name": "Store Shelf",
+  "description": "Example loot profile. Duplicate/copy this preset and adjust pools, weights, chances, behavior and linked kits for your own pack.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": false,
+    "spawn_chance": 0.04,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.12
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": true,
+    "time_ticks": 72000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": true,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "paper_goods",
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "item": "minecraft:paper",
+          "weight": 12,
+          "chance": 0.86,
+          "count": {
+            "min": 1,
+            "max": 6
+          }
+        },
+        {
+          "item": "minecraft:book",
+          "weight": 7,
+          "chance": 0.44,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "item": "minecraft:map",
+          "weight": 3,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "minecraft:name_tag",
+          "weight": 1,
+          "chance": 0.04,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "small_items",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "item": "sa_core:duct_tape",
+          "weight": 7,
+          "chance": 0.42,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "sa_core:glue",
+          "weight": 6,
+          "chance": 0.34,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        },
+        {
+          "item": "sa_core:battery",
+          "weight": 5,
+          "chance": 0.3,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "sa_core:classic_watch",
+          "weight": 3,
+          "chance": 0.14,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "minecraft:clock",
+          "weight": 2,
+          "chance": 0.1,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        }
+      ]
+    },
+    {
+      "id": "shelf_clutter",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "matches": [
+            "#sa_decor:trash_loot",
+            "sa_core:empty_can",
+            "sa_core:dented_can",
+            "sa_core:tin_can",
+            "sa_core:empty_glass_bottle",
+            "sa_core:dirty_rags",
+            "sa_core:cardboard",
+            "sa_core:plastic",
+            "sa_combat:garbage_bag",
+            "minecraft:paper",
+            "minecraft:string",
+            "minecraft:rotten_flesh",
+            "minecraft:bone"
+          ],
+          "weight": 5,
+          "chance": 0.32,
+          "count": {
+            "min": 1,
+            "max": 3
+          }
+        },
+        {
+          "matches": [
+            "#sa_decor:snacks",
+            "sa_combat:plain_chips_bag",
+            "sa_combat:barbecue_chips_bag",
+            "sa_combat:salt_vinegar_chips_bag",
+            "sa_combat:sour_cream_onion_chips_bag",
+            "sa_combat:candy_package",
+            "sa_combat:candys",
+            "sa_combat:cereal",
+            "sa_combat:cereal_fruit_loops",
+            "sa_combat:cereal_kelloggys",
+            "sa_combat:fruit_jam",
+            "sa_combat:peanut_butter",
+            "sa_combat:chocolate_bar",
+            "sa_combat:energy_bar",
+            "sa_combat:granola_bar",
+            "sa_combat:smirkers_bar",
+            "sa_combat:sniksnak_bar",
+            "sa_combat:saltine_cracker",
+            "sa_combat:pacoquita",
+            "minecraft:cookie"
+          ],
+          "weight": 4,
+          "chance": 0.24,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "sa_core:money",
+          "weight": 3,
+          "chance": 0.16,
+          "count": {
+            "min": 1,
+            "max": 4
+          }
+        }
+      ]
+    }
+  ]
+}

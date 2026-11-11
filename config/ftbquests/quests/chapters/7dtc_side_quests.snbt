@@ -1,0 +1,32 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7dtc_side_quests"
+	group: "7D7C000000000002"
+	icon: "minecraft:compass"
+	id: "7D7C600000000000"
+	order_index: 0
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Side quests are optional events found while exploring:"
+				"survivors asking for help, escorts, searches and places worth a detour."
+				""
+				"They are coming in a future update."
+			]
+			icon: "minecraft:compass"
+			id: "7D7C600000000001"
+			optional: true
+			tasks: [{
+				id: "7D7C610000000001"
+				title: "Coming soon"
+				type: "checkmark"
+			}]
+			title: "Side Quests (coming soon)"
+			x: 0.0d
+			y: 0.0d
+		}
+	]
+	title: "Coming Soon"
+}

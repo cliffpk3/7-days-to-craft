@@ -5,7 +5,7 @@
 	#Protects all mobs from fire
 	protectAllMobs = false
 	#Protects these mods from fire (any mobs with these namespaces)
-	mods = ["iceandfire"]
+	mods = ["iceandfire", "zombie_extreme", "keerdm_zombie_essentials"]
 	#Protects these mobs from fire (any mobs with these ids (namespace:name))
-	mobs = ["minecraft:zombie", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray"]
+	mobs = ["minecraft:zombie", "minecraft:drowned", "minecraft:skeleton", "minecraft:stray", "minecraft:zombie_villager", "hordes:zombie_player", "wrd:buff_zombie", "mutantmonsters:mutant_zombie", "mutantmonsters:mutant_skeleton", "born_in_chaos_v1:baby_skeleton", "born_in_chaos_v1:baby_skeleton_minion", "born_in_chaos_v1:barrel_zombie", "born_in_chaos_v1:bonescaller", "born_in_chaos_v1:bonescaller_not_despawn", "born_in_chaos_v1:controlled_baby_skeleton", "born_in_chaos_v1:decaying_zombie", "born_in_chaos_v1:decaying_zombie_not_despawn", "born_in_chaos_v1:decrepit_skeleton", "born_in_chaos_v1:siamese_skeletons", "born_in_chaos_v1:siamese_skeletonsleft", "born_in_chaos_v1:siamese_skeletonsright", "born_in_chaos_v1:skeleton_demoman", "born_in_chaos_v1:skeleton_thrasher", "born_in_chaos_v1:skeleton_thrasher_not_despawn", "born_in_chaos_v1:supreme_bonescaller", "born_in_chaos_v1:supreme_bonescaller_not_despawn", "born_in_chaos_v1:supreme_bonescaller_stage_2", "born_in_chaos_v1:zombie_bruiser", "born_in_chaos_v1:zombie_clown", "born_in_chaos_v1:zombie_clown_not_despawn", "born_in_chaos_v1:zombie_fisherman", "born_in_chaos_v1:zombie_lumberjack"]
 

@@ -1,0 +1,306 @@
+{
+  "id": "small_gun_cabinet",
+  "display_name": "Small Gun Cabinet",
+  "description": "Example loot profile. Duplicate/copy this preset and adjust pools, weights, chances, behavior and linked kits for your own pack.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": true,
+    "spawn_chance": 0.42,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.14
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": false,
+    "time_ticks": 24000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": false,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "handguns_only",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "item": "scguns:defender_pistol",
+          "weight": 6,
+          "chance": 0.3,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:defender_pistol",
+          "weight": 5,
+          "chance": 0.22,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:defender_pistol",
+          "weight": 4,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:handcannon",
+          "weight": 2,
+          "chance": 0.08,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "pistol_ammo",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "weight": 8,
+          "chance": 0.48,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotlead",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "weight": 6,
+          "chance": 0.36,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 2
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotlead",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "weight": 4,
+          "chance": 0.22,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotlead",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        },
+        {
+          "weight": 2,
+          "chance": 0.1,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotlead",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "small_parts",
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "item": "scguns:gun_parts",
+          "weight": 4,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "scguns:gun_parts",
+          "weight": 3,
+          "chance": 0.14,
+          "count": {
+            "min": 1,
+            "max": 1
+          }
+        },
+        {
+          "item": "sa_combat:weapon_parts",
+          "weight": 3,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 2
+          }
+        },
+        {
+          "item": "sa_combat:repair_kit_i",
+          "weight": 2,
+          "chance": 0.12,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "nbt": "{Damage:0}"
+        }
+      ]
+    }
+  ]
+}

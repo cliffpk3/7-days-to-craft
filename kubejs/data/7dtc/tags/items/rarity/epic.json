@@ -1,0 +1,605 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexscaves:desolate_dagger",
+      "required": false
+    },
+    {
+      "id": "alexscaves:sugar_staff",
+      "required": false
+    },
+    {
+      "id": "artifacts:antidote_vessel",
+      "required": false
+    },
+    {
+      "id": "artifacts:bunny_hoppers",
+      "required": false
+    },
+    {
+      "id": "artifacts:crystal_heart",
+      "required": false
+    },
+    {
+      "id": "artifacts:power_glove",
+      "required": false
+    },
+    {
+      "id": "artifacts:vampiric_glove",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:amethyst_ring",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:angel_heart",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:angel_pearl",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:bearing_stamen",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:heart_of_revenge",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:knight_shelter",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:life_bracelet",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:magic_horseshoe",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:titan_scabbard",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:netherite_battleaxe",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:netherite_cutlass",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:netherite_dagger",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:netherite_glaive",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:netherite_hammer",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:netherite_katana",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:netherite_longsword",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:netherite_rapier",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:netherite_scythe",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:netherite_shuriken",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:netherite_sickle",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:netherite_spear",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:beta7_boots",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:beta7_chestplate",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:beta7_leggings",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:beta7_nvg_helmet",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:fsb_squad_leader_chestplate",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:fsb_squad_leader_helmet",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:insurgency_commander_boots",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:insurgency_commander_chestplate",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:insurgency_commander_helmet",
+      "required": false
+    },
+    {
+      "id": "fracturepoint:insurgency_commander_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:elytra",
+      "required": false
+    },
+    {
+      "id": "minecraft:enchanted_golden_apple",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_axe",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_ingot",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_pickaxe",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_sword",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_upgrade_smithing_template",
+      "required": false
+    },
+    {
+      "id": "minecraft:totem_of_undying",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:hulk_hammer",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:cracked_crown",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:four_leaf_clover",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:ghast_eye",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:lucky_rock",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:missing_page",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:moon_stone",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:rage_mind",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:speed_force",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:vampire_blood",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:wooden_stick",
+      "required": false
+    },
+    {
+      "id": "quark:backpack",
+      "required": false
+    },
+    {
+      "id": "scguns:advanced_silencer",
+      "required": false
+    },
+    {
+      "id": "scguns:arc_worker",
+      "required": false
+    },
+    {
+      "id": "scguns:astella",
+      "required": false
+    },
+    {
+      "id": "scguns:callwell",
+      "required": false
+    },
+    {
+      "id": "scguns:carapice",
+      "required": false
+    },
+    {
+      "id": "scguns:cogloader",
+      "required": false
+    },
+    {
+      "id": "scguns:combat_shotgun",
+      "required": false
+    },
+    {
+      "id": "scguns:cr4k_mining_laser",
+      "required": false
+    },
+    {
+      "id": "scguns:cyclone",
+      "required": false
+    },
+    {
+      "id": "scguns:drill",
+      "required": false
+    },
+    {
+      "id": "scguns:drill_conversion",
+      "required": false
+    },
+    {
+      "id": "scguns:earths_corpse",
+      "required": false
+    },
+    {
+      "id": "scguns:echoes_2",
+      "required": false
+    },
+    {
+      "id": "scguns:exo_suit_boots",
+      "required": false
+    },
+    {
+      "id": "scguns:exo_suit_chestplate",
+      "required": false
+    },
+    {
+      "id": "scguns:exo_suit_helmet",
+      "required": false
+    },
+    {
+      "id": "scguns:exo_suit_leggings",
+      "required": false
+    },
+    {
+      "id": "scguns:fencer_thumper",
+      "required": false
+    },
+    {
+      "id": "scguns:flayed_god",
+      "required": false
+    },
+    {
+      "id": "scguns:forlorn_hope",
+      "required": false
+    },
+    {
+      "id": "scguns:freyr",
+      "required": false
+    },
+    {
+      "id": "scguns:gas_grenade",
+      "required": false
+    },
+    {
+      "id": "scguns:gauss_rifle",
+      "required": false
+    },
+    {
+      "id": "scguns:grenade",
+      "required": false
+    },
+    {
+      "id": "scguns:inertial",
+      "required": false
+    },
+    {
+      "id": "scguns:inquisitor",
+      "required": false
+    },
+    {
+      "id": "scguns:iron_javelin",
+      "required": false
+    },
+    {
+      "id": "scguns:jackhammer",
+      "required": false
+    },
+    {
+      "id": "scguns:krauser",
+      "required": false
+    },
+    {
+      "id": "scguns:laser_musket",
+      "required": false
+    },
+    {
+      "id": "scguns:libertas",
+      "required": false
+    },
+    {
+      "id": "scguns:lockewood",
+      "required": false
+    },
+    {
+      "id": "scguns:locust",
+      "required": false
+    },
+    {
+      "id": "scguns:lone_wonder",
+      "required": false
+    },
+    {
+      "id": "scguns:long_scope",
+      "required": false
+    },
+    {
+      "id": "scguns:mangalitsa",
+      "required": false
+    },
+    {
+      "id": "scguns:marlin",
+      "required": false
+    },
+    {
+      "id": "scguns:mas_55",
+      "required": false
+    },
+    {
+      "id": "scguns:mas_peddler",
+      "required": false
+    },
+    {
+      "id": "scguns:micina",
+      "required": false
+    },
+    {
+      "id": "scguns:minksy",
+      "required": false
+    },
+    {
+      "id": "scguns:nailer",
+      "required": false
+    },
+    {
+      "id": "scguns:nervepinch",
+      "required": false
+    },
+    {
+      "id": "scguns:osborne_slug",
+      "required": false
+    },
+    {
+      "id": "scguns:plasgun",
+      "required": false
+    },
+    {
+      "id": "scguns:plasmabuss",
+      "required": false
+    },
+    {
+      "id": "scguns:prima_materia",
+      "required": false
+    },
+    {
+      "id": "scguns:pyroclastic_flow",
+      "required": false
+    },
+    {
+      "id": "scguns:rg_jigsaw",
+      "required": false
+    },
+    {
+      "id": "scguns:sculk_resonator",
+      "required": false
+    },
+    {
+      "id": "scguns:shard_culler",
+      "required": false
+    },
+    {
+      "id": "scguns:shellurker",
+      "required": false
+    },
+    {
+      "id": "scguns:spirulida",
+      "required": false
+    },
+    {
+      "id": "scguns:sterilizer",
+      "required": false
+    },
+    {
+      "id": "scguns:super_shotgun",
+      "required": false
+    },
+    {
+      "id": "scguns:terra_incognita",
+      "required": false
+    },
+    {
+      "id": "scguns:teslock_rifle",
+      "required": false
+    },
+    {
+      "id": "scguns:tl_runner",
+      "required": false
+    },
+    {
+      "id": "scguns:trotters",
+      "required": false
+    },
+    {
+      "id": "scguns:truant",
+      "required": false
+    },
+    {
+      "id": "scguns:uppercut",
+      "required": false
+    },
+    {
+      "id": "scguns:valora",
+      "required": false
+    },
+    {
+      "id": "scguns:vulcanic_repeater",
+      "required": false
+    },
+    {
+      "id": "scguns:waltz_conversion",
+      "required": false
+    },
+    {
+      "id": "scguns:weevil",
+      "required": false
+    },
+    {
+      "id": "scguns:weighted_stock",
+      "required": false
+    },
+    {
+      "id": "scguns:whispers",
+      "required": false
+    },
+    {
+      "id": "scguns:zilk_45",
+      "required": false
+    },
+    {
+      "id": "seven_days_workbenches:elite_mechanism",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:black_juggernaut_boots",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:black_juggernaut_chestplate",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:blood_syringe",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:exo_component",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:smithing_template_prototype",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:survival_medkit",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:tier_iv_kevlar",
+      "required": false
+    },
+    {
+      "id": "wrd:keystrongholdchest_diamond",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:blueprint_epic",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:experimental_pill",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:juggernaut_suit_boots",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:juggernaut_suit_chestplate",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:juggernaut_suit_helmet",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:juggernaut_suit_leggings",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:uranium",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:uranium_rod",
+      "required": false
+    }
+  ]
+}

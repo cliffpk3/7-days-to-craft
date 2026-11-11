@@ -1,0 +1,28 @@
+
+[general]
+	#Enable experimental client features. When false the laptop fan sound is force-muted.
+	experimentalSettings = false
+	#Enable experimental host apps (Browser and Calendar). Optional app addons manage their own availability.
+	experimentalApps = false
+	#Enable the taskbar weather widget. When enabled, the mod will make HTTP requests to external geolocation/weather APIs to show real-world weather. This sends your IP to third-party services. Disabled by default for privacy.
+	enableWeatherWidget = false
+	#UI scale percent for the mod's UI (1-200). 100 is the default (no change). Values below 100 shrink the UI, above 100 enlarge it.
+	#Range: 1 ~ 200
+	uiScalePercent = 100
+	#UI scale percent to use when Minecraft's GUI scale is 1 (percent 1-200).
+	#Range: 1 ~ 200
+	uiScaleGui1 = 125
+	#UI scale percent to use when Minecraft's GUI scale is 2 (percent 1-200).
+	#Range: 1 ~ 200
+	uiScaleGui2 = 100
+	#UI scale percent to use when Minecraft's GUI scale is 3 (percent 1-200).
+	#Range: 1 ~ 200
+	uiScaleGui3 = 75
+	#UI scale percent to use when Minecraft's GUI scale is 4 (percent 1-200).
+	#Range: 1 ~ 200
+	uiScaleGui4 = 50
+	#Show debug overlay for all button/hitboxes when true. Useful for testing UI scale and hit areas.
+	debugButtons = false
+	#Enable developer mode. When true, the Dev App appears in the marketplace with tools for content creation (e.g. App Page Editor). Default: false.
+	devMode = false
+

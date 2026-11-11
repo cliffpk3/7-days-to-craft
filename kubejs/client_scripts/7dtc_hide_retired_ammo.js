@@ -1,0 +1,2 @@
+// 7DTC (8/11/2026): ammunition merged by tools/7dtc_ammo_unify_20261108.py.
+JEIEvents.hideItems(event => { ["scguns:bearpack_shell", "scguns:beowulf_round", "scguns:buckshot", "scguns:flechette", "scguns:gibbs_round", "scguns:grapeshot", "scguns:hardened_bullet", "scguns:hog_round", "scguns:ramrod_round", "scguns:sculk_cell", "scguns:shatter_round", "scguns:shock_cell", "scguns:shotball", "scguns:shulkshot", "scguns:standard_bullet"].forEach(id => event.hide(id)) })

@@ -1,0 +1,51 @@
+
+#Survivor's Arsenal - Core config
+[sa_core]
+
+	[sa_core.blood]
+		#Master switch do sistema de sangue do SA Core.
+		enableBloodSystem = true
+		#Master switch visual do sangue no client. False desliga todas as particulas de sangue visualmente.
+		enableBlood = true
+		#Se true, entidades vivas soltam sangue quando recebem dano.
+		enableDamageBlood = true
+		#Se true, entidades com Bleeding deixam rastro de sangue no chao.
+		enableBleedingTrail = true
+		#Multiplicador visual da quantidade de sangue em porcentagem. 100 = normal, 50 = metade, 0 = sem particulas.
+		#Range: 0 ~ 300
+		bloodParticleMultiplier = 130
+		#Tempo de vida das manchas de sangue no chao em ticks. 20 ticks = 1 segundo.
+		#Range: 10 ~ 600
+		bloodSplatterLifetimeTicks = 160
+		#Quantidade maxima de particulas de sangue caindo por hit.
+		#Range: 0 ~ 64
+		maxBloodDripsPerHit = 8
+		#Quantidade maxima de manchas de sangue no chao por hit.
+		#Range: 0 ~ 16
+		maxBloodSplattersPerHit = 4
+		#Lista de entidades que nunca devem sangrar.
+		#Use IDs completos, por exemplo: minecraft:iron_golem.
+		#A lista vale tanto para o sangue de dano quanto para o rastro do efeito Bleeding.
+		entityBlacklist = ["minecraft:iron_golem", "minecraft:snow_golem"]
+
+	[sa_core.gasoline_generator]
+		#Capacidade do tanque interno do Gasoline Generator em mB.
+		#Range: 1000 ~ 64000
+		fluidCapacityMb = 8000
+		#Quantidade minima de fluido no tanque para permitir iniciar o gerador em mB.
+		#Range: 1 ~ 64000
+		minStartFluidMb = 100
+		#Consumo de fluido por tick enquanto o gerador esta ligado.
+		#Range: 1 ~ 1000
+		mbPerTick = 1
+		#Energia gerada por tick enquanto ligado.
+		#Range: 1 ~ 100000
+		energyPerTick = 120
+		#Tempo que o gerador permanece visualmente ligado e com o som em loop depois de parar de gerar por tanque de energia cheio.
+		#Se alguma maquina puxar energia durante esse intervalo, o tempo reinicia e o gerador nao fica piscando.
+		#20 ticks = 1 segundo. Padrao: 100 ticks (5 segundos).
+		#Range: 0 ~ 1200
+		idleShutdownDelayTicks = 100
+		#Fluidos aceitos pelo Gasoline Generator. Use IDs, exemplo: sa_core:gasoline.
+		validFluids = ["sa_core:gasoline"]
+

@@ -11,7 +11,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:bread",
-          "weight": 5,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -26,7 +26,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:cooked_beef",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -41,7 +41,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_carrot",
-          "weight": 1,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -65,7 +65,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:iron_ingot",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -80,7 +80,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:copper_ingot",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -95,7 +95,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -110,7 +110,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:string",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -125,7 +125,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:leather",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -140,7 +140,7 @@
         {
           "type": "minecraft:item",
           "name": "zombie_extreme:raw_lead",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -155,7 +155,7 @@
         {
           "type": "minecraft:item",
           "name": "zombie_extreme:raw_steel",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -170,7 +170,7 @@
         {
           "type": "minecraft:item",
           "name": "scguns:raw_anthralite",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -185,7 +185,7 @@
         {
           "type": "minecraft:item",
           "name": "scguns:copper_gun_frame",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -200,7 +200,7 @@
         {
           "type": "minecraft:item",
           "name": "scguns:gun_parts",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -215,7 +215,7 @@
         {
           "type": "minecraft:item",
           "name": "scguns:firing_unit",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -230,7 +230,7 @@
         {
           "type": "minecraft:item",
           "name": "scguns:blueprint_scrap",
-          "weight": 2,
+          "weight": 64,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -245,7 +245,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 1,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -260,7 +260,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gold_ingot",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -280,7 +280,7 @@
         {
           "type": "minecraft:item",
           "name": "scguns:compact_copper_round",
-          "weight": 5,
+          "weight": 100,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -295,7 +295,7 @@
         {
           "type": "minecraft:item",
           "name": "scguns:shotgun_shell",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -309,8 +309,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "scguns:rifle_ammo",
-          "weight": 2,
+          "name": "scguns:standard_copper_round",
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -325,7 +325,7 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:arrow",
-          "weight": 3,
+          "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -338,17 +338,36 @@
           ]
         },
         {
-          "type": "minecraft:item",
-          "name": "cgm:basic_bullet",
-          "weight": 2,
-          "functions": [
+          "type": "minecraft:group",
+          "weight": 40,
+          "children": [
             {
-              "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 16,
-                "max": 32
-              }
+              "type": "minecraft:item",
+              "name": "minecraft:gunpowder",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 4
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "zombie_extreme:ignotlead",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 4
+                  }
+                }
+              ]
             }
           ]
         }
@@ -359,12 +378,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 5
+          "weight": 100
         },
         {
           "type": "minecraft:item",
           "name": "minecraft:golden_apple",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -379,7 +398,42 @@
         {
           "type": "minecraft:item",
           "name": "divine_weaponry:iron_spear",
-          "weight": 1
+          "weight": 20,
+          "functions": [
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.9,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.5
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.8,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.33333
+                }
+              ]
+            },
+            {
+              "function": "minecraft:set_damage",
+              "damage": 0.7,
+              "add": false,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
+                }
+              ]
+            }
+          ]
         }
       ]
     },
@@ -388,12 +442,12 @@
       "entries": [
         {
           "type": "minecraft:empty",
-          "weight": 9
+          "weight": 180
         },
         {
           "type": "minecraft:item",
           "name": "seven_days_workbenches:blueprint",
-          "weight": 2,
+          "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_nbt",
@@ -404,13 +458,49 @@
         {
           "type": "minecraft:item",
           "name": "seven_days_workbenches:blueprint",
-          "weight": 1,
+          "weight": 20,
           "functions": [
             {
               "function": "minecraft:set_nbt",
               "tag": "{UnlockId:\"armor_soldier\"}"
             }
           ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.02
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:blood_syringe",
+          "weight": 3
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fracturepoint:insurgency_commander_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "fracturepoint:fsb_squad_leader_helmet",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:grenade",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "nameless_trinkets:lucky_rock",
+          "weight": 1
         }
       ]
     }

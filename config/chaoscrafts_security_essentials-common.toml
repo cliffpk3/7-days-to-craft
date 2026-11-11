@@ -1,0 +1,45 @@
+
+[gameplay]
+	#The turn speed of the Minigun Turret (degrees per tick).
+	#Range: 0.1 ~ 180.0
+	turretTurnSpeed = 5.0
+	#The range of the Minigun Turret (blocks).
+	#Range: 1.0 ~ 128.0
+	turretRange = 32.0
+	#Rotation offset for the turret model (degrees). Adjust if the turret is not facing the target.
+	#Range: -360.0 ~ 360.0
+	turretRotationOffset = 0.0
+	#The fire rate of the Minigun Turret in Rounds Per Minute (RPM).
+	#Range: 1.0 ~ 10000.0
+	turretRoundsPerMinute = 600.0
+	#The damage per shot of the Minigun Turret.
+	#Range: 0.1 ~ 100.0
+	turretDamage = 2.0
+	#The time it takes for the barrel to spin up before shooting (ticks).
+	#Range: 0 ~ 200
+	turretSpinUpTime = 40
+	#The maximum rotation speed of the barrel (degrees per tick).
+	#Range: 1.0 ~ 360.0
+	turretMaxSpinSpeed = 40.0
+	#The speed of the turret bullets.
+	#Range: 0.1 ~ 10.0
+	turretBulletSpeed = 3.0
+	#The inaccuracy of the turret bullets.
+	#Range: 0.0 ~ 10.0
+	turretBulletInaccuracy = 0.5
+	#The distance (in blocks) the bullet travels straight before spread is applied.
+	#Range: 0.0 ~ 100.0
+	turretBulletSpreadDelay = 10.0
+	#Number of continuous rounds fired before the turret overheats.
+	#Range: 1 ~ 10000
+	turretOverheatThreshold = 500
+	#Time in ticks the turret stays overheated before it can fire again.
+	#Range: 1 ~ 1200
+	turretOverheatCooldown = 100
+	#Master volume for turret spin-up, spinning, firing, and shutdown sounds (percent). Distance falloff is defined by the turret sound profile.
+	#Range: 0 ~ 100
+	turretSoundVolume = 100
+	#The maximum number of rounds an Ammo Box can hold.
+	#Range: 1 ~ 2147483646
+	ammoBoxCapacity = 100
+

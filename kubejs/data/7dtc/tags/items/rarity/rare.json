@@ -1,0 +1,937 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "alexscaves:dark_tatters",
+      "required": false
+    },
+    {
+      "id": "alexscaves:radiant_essence",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:void_worm_eye",
+      "required": false
+    },
+    {
+      "id": "alexsmobs:void_worm_mandible",
+      "required": false
+    },
+    {
+      "id": "artifacts:cloud_in_a_bottle",
+      "required": false
+    },
+    {
+      "id": "artifacts:feral_claws",
+      "required": false
+    },
+    {
+      "id": "artifacts:fire_gauntlet",
+      "required": false
+    },
+    {
+      "id": "artifacts:flame_pendant",
+      "required": false
+    },
+    {
+      "id": "artifacts:helium_flamingo",
+      "required": false
+    },
+    {
+      "id": "artifacts:lucky_scarf",
+      "required": false
+    },
+    {
+      "id": "artifacts:night_vision_goggles",
+      "required": false
+    },
+    {
+      "id": "artifacts:pickaxe_heater",
+      "required": false
+    },
+    {
+      "id": "artifacts:running_shoes",
+      "required": false
+    },
+    {
+      "id": "artifacts:shock_pendant",
+      "required": false
+    },
+    {
+      "id": "artifacts:steadfast_spikes",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:charmof_endurance",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:charmof_fury",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:charmof_power",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:charmof_resistance",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:charmof_stealth",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:dark_upgrade",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:death_totem",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:fangofthe_hound_leader",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:lifestealer_bone",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:nightmare_stalker_skull",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:orbofthe_summoner",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:sea_terror_eye",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:sea_terror_stomach",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:seedof_chaos",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:soul_cutlass",
+      "required": false
+    },
+    {
+      "id": "born_in_chaos_v1:soulbane",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:backtrack_mirror",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:demon_heart",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:fang_necklace",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:gallop_necklace",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:gluttony_badge",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:guardian_eye",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:holy_sword",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:iron_scabbard",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:leech_scabbard",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:magic_arrow_bag",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:prayer_crown",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:repent_mirror",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:sands_talisman",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:solar_magnet",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:spirit_arrow_bag",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:spirit_crown",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:star_necklace",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:thunder_ring",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:traveler_scroll",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:unowned_pendant",
+      "required": false
+    },
+    {
+      "id": "corail_recycler:recycler",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:diamond_battleaxe",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:diamond_cutlass",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:diamond_dagger",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:diamond_glaive",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:diamond_hammer",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:diamond_katana",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:diamond_longsword",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:diamond_rapier",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:diamond_scythe",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:diamond_shuriken",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:diamond_sickle",
+      "required": false
+    },
+    {
+      "id": "divine_weaponry:diamond_spear",
+      "required": false
+    },
+    {
+      "id": "iron_repair_kits:golden_repair_kit",
+      "required": false
+    },
+    {
+      "id": "minecraft:ancient_debris",
+      "required": false
+    },
+    {
+      "id": "minecraft:coast_armor_trim_smithing_template",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_axe",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_block",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_boots",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_chestplate",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_helmet",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_hoe",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_horse_armor",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_leggings",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_pickaxe",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_shovel",
+      "required": false
+    },
+    {
+      "id": "minecraft:diamond_sword",
+      "required": false
+    },
+    {
+      "id": "minecraft:dune_armor_trim_smithing_template",
+      "required": false
+    },
+    {
+      "id": "minecraft:echo_shard",
+      "required": false
+    },
+    {
+      "id": "minecraft:eye_armor_trim_smithing_template",
+      "required": false
+    },
+    {
+      "id": "minecraft:golden_apple",
+      "required": false
+    },
+    {
+      "id": "minecraft:heart_of_the_sea",
+      "required": false
+    },
+    {
+      "id": "minecraft:nautilus_shell",
+      "required": false
+    },
+    {
+      "id": "minecraft:netherite_scrap",
+      "required": false
+    },
+    {
+      "id": "minecraft:rib_armor_trim_smithing_template",
+      "required": false
+    },
+    {
+      "id": "minecraft:sentry_armor_trim_smithing_template",
+      "required": false
+    },
+    {
+      "id": "minecraft:shulker_shell",
+      "required": false
+    },
+    {
+      "id": "minecraft:silence_armor_trim_smithing_template",
+      "required": false
+    },
+    {
+      "id": "minecraft:snout_armor_trim_smithing_template",
+      "required": false
+    },
+    {
+      "id": "minecraft:soul_sand",
+      "required": false
+    },
+    {
+      "id": "minecraft:soul_torch",
+      "required": false
+    },
+    {
+      "id": "minecraft:spire_armor_trim_smithing_template",
+      "required": false
+    },
+    {
+      "id": "minecraft:tide_armor_trim_smithing_template",
+      "required": false
+    },
+    {
+      "id": "minecraft:vex_armor_trim_smithing_template",
+      "required": false
+    },
+    {
+      "id": "minecraft:ward_armor_trim_smithing_template",
+      "required": false
+    },
+    {
+      "id": "minecraft:wild_armor_trim_smithing_template",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_limb",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_pelvis",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_rib",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_shoulder_pad",
+      "required": false
+    },
+    {
+      "id": "mutantmonsters:mutant_skeleton_skull",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:blaze_nucleus",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:callus",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:dark_nelumbo",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:dragons_eye",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:fragile_cloud",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:ice_cube",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:light_gloves",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:miners_soul",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:puffer_fish_liver",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:reverse_card",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:sleeping_pills",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:spider_legs",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:super_magnet",
+      "required": false
+    },
+    {
+      "id": "nameless_trinkets:true_heart_of_the_sea",
+      "required": false
+    },
+    {
+      "id": "quark:diamond_heart",
+      "required": false
+    },
+    {
+      "id": "quark:forgotten_hat",
+      "required": false
+    },
+    {
+      "id": "sa_core:kevlar",
+      "required": false
+    },
+    {
+      "id": "scguns:ammo_turret_module",
+      "required": false
+    },
+    {
+      "id": "scguns:auto_turret",
+      "required": false
+    },
+    {
+      "id": "scguns:auvtomag",
+      "required": false
+    },
+    {
+      "id": "scguns:basker",
+      "required": false
+    },
+    {
+      "id": "scguns:big_bore",
+      "required": false
+    },
+    {
+      "id": "scguns:blooper",
+      "required": false
+    },
+    {
+      "id": "scguns:blueprint_scrap",
+      "required": false
+    },
+    {
+      "id": "scguns:boomstick",
+      "required": false
+    },
+    {
+      "id": "scguns:brawler",
+      "required": false
+    },
+    {
+      "id": "scguns:bruiser",
+      "required": false
+    },
+    {
+      "id": "scguns:callwell_conversion",
+      "required": false
+    },
+    {
+      "id": "scguns:callwell_terminal",
+      "required": false
+    },
+    {
+      "id": "scguns:crusader",
+      "required": false
+    },
+    {
+      "id": "scguns:damage_turret_module",
+      "required": false
+    },
+    {
+      "id": "scguns:defender_pistol",
+      "required": false
+    },
+    {
+      "id": "scguns:diamond_steel_gun_frame",
+      "required": false
+    },
+    {
+      "id": "scguns:dozier_rl",
+      "required": false
+    },
+    {
+      "id": "scguns:enchanted_bandage",
+      "required": false
+    },
+    {
+      "id": "scguns:energy_cell",
+      "required": false
+    },
+    {
+      "id": "scguns:energy_core",
+      "required": false
+    },
+    {
+      "id": "scguns:exo_suit_blueprint",
+      "required": false
+    },
+    {
+      "id": "scguns:fire_rate_turret_module",
+      "required": false
+    },
+    {
+      "id": "scguns:floundergat",
+      "required": false
+    },
+    {
+      "id": "scguns:frog_dart",
+      "required": false
+    },
+    {
+      "id": "scguns:gale",
+      "required": false
+    },
+    {
+      "id": "scguns:gattaler",
+      "required": false
+    },
+    {
+      "id": "scguns:grandle",
+      "required": false
+    },
+    {
+      "id": "scguns:grandle_og",
+      "required": false
+    },
+    {
+      "id": "scguns:gyrojet_pistol",
+      "required": false
+    },
+    {
+      "id": "scguns:hammer_gl",
+      "required": false
+    },
+    {
+      "id": "scguns:he_grenade_round",
+      "required": false
+    },
+    {
+      "id": "scguns:heavy_armor_plate",
+      "required": false
+    },
+    {
+      "id": "scguns:heavy_gun_barrel",
+      "required": false
+    },
+    {
+      "id": "scguns:homemaker",
+      "required": false
+    },
+    {
+      "id": "scguns:howler",
+      "required": false
+    },
+    {
+      "id": "scguns:howler_conversion",
+      "required": false
+    },
+    {
+      "id": "scguns:hullbreaker",
+      "required": false
+    },
+    {
+      "id": "scguns:hyperbaria",
+      "required": false
+    },
+    {
+      "id": "scguns:iron_spear",
+      "required": false
+    },
+    {
+      "id": "scguns:jr_wristbreaker",
+      "required": false
+    },
+    {
+      "id": "scguns:kalaskah",
+      "required": false
+    },
+    {
+      "id": "scguns:killer_23",
+      "required": false
+    },
+    {
+      "id": "scguns:krahg_round",
+      "required": false
+    },
+    {
+      "id": "scguns:llr_director",
+      "required": false
+    },
+    {
+      "id": "scguns:m22_waltz",
+      "required": false
+    },
+    {
+      "id": "scguns:m3_carabine",
+      "required": false
+    },
+    {
+      "id": "scguns:m3_marksman",
+      "required": false
+    },
+    {
+      "id": "scguns:mokova",
+      "required": false
+    },
+    {
+      "id": "scguns:niami",
+      "required": false
+    },
+    {
+      "id": "scguns:night_vision_module",
+      "required": false
+    },
+    {
+      "id": "scguns:osgood_50",
+      "required": false
+    },
+    {
+      "id": "scguns:prush_gun",
+      "required": false
+    },
+    {
+      "id": "scguns:pulsar",
+      "required": false
+    },
+    {
+      "id": "scguns:railworker",
+      "required": false
+    },
+    {
+      "id": "scguns:range_turret_module",
+      "required": false
+    },
+    {
+      "id": "scguns:rapid_firing_unit",
+      "required": false
+    },
+    {
+      "id": "scguns:red_raydar",
+      "required": false
+    },
+    {
+      "id": "scguns:reinforced_air_canister",
+      "required": false
+    },
+    {
+      "id": "scguns:rocket",
+      "required": false
+    },
+    {
+      "id": "scguns:rocket_rifle",
+      "required": false
+    },
+    {
+      "id": "scguns:saketini",
+      "required": false
+    },
+    {
+      "id": "scguns:saketini_ironport",
+      "required": false
+    },
+    {
+      "id": "scguns:scratches",
+      "required": false
+    },
+    {
+      "id": "scguns:sequoia",
+      "required": false
+    },
+    {
+      "id": "scguns:shell_catcher_turret_module",
+      "required": false
+    },
+    {
+      "id": "scguns:shock_cell",
+      "required": false
+    },
+    {
+      "id": "scguns:shotgun_turret",
+      "required": false
+    },
+    {
+      "id": "scguns:sniper_turret",
+      "required": false
+    },
+    {
+      "id": "scguns:soul_drummer",
+      "required": false
+    },
+    {
+      "id": "scguns:spitfire",
+      "required": false
+    },
+    {
+      "id": "scguns:stigg",
+      "required": false
+    },
+    {
+      "id": "scguns:stiletto",
+      "required": false
+    },
+    {
+      "id": "scguns:thunderhead",
+      "required": false
+    },
+    {
+      "id": "scguns:trenchur",
+      "required": false
+    },
+    {
+      "id": "scguns:triquetra",
+      "required": false
+    },
+    {
+      "id": "scguns:turnpike",
+      "required": false
+    },
+    {
+      "id": "scguns:ultra_knight_hawk",
+      "required": false
+    },
+    {
+      "id": "scguns:umax_pistol",
+      "required": false
+    },
+    {
+      "id": "scguns:venturi",
+      "required": false
+    },
+    {
+      "id": "scguns:whistler",
+      "required": false
+    },
+    {
+      "id": "scguns:winnie",
+      "required": false
+    },
+    {
+      "id": "scguns:winnie_millend",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:antibiotics",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:body_armor_plate_ii",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:energy_storage_battery",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:fire_axe",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:lever_mace",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:medkit_bag",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:night_vision_goggles_helmet",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:steellium",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:swat_shield",
+      "required": false
+    },
+    {
+      "id": "survival_instinct:tier_iii_kevlar",
+      "required": false
+    },
+    {
+      "id": "wrd:keystrongholdchest_gold",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:acid_bottle",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:black_ops_glasses_helmet",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:blueprint_rare",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:bronze_wire",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:circuit_diagram",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:civilian_suit_helmet",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:energy_battery",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:night_vision_glasses_helmet",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:pill_against_radiation",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:pill_anti_hunger",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:pill_night_vision",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:pill_psycho",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:ruby",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:stun_stick",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:swat_suit_boots",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:swat_suit_chestplate",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:swat_suit_helmet",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:swat_suit_leggings",
+      "required": false
+    },
+    {
+      "id": "sa_core:ashen_steel_multitool",
+      "required": false
+    },
+    {
+      "id": "zombie_extreme:titan_plate",
+      "required": false
+    }
+  ]
+}

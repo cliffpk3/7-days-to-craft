@@ -1,0 +1,297 @@
+{
+  "pools": [
+    {
+      "name": "keerdm_zombie_essentials:apartment_bathroom_vics",
+      "rolls": {
+        "min": 2,
+        "max": 4
+      },
+      "entries": [
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:water}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 808960
+        },
+        {
+          "type": "item",
+          "name": "minecraft:paper",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 12
+              }
+            }
+          ],
+          "weight": 800000
+        },
+        {
+          "type": "item",
+          "name": "immersive_weathering:moss_clump",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 12
+              }
+            }
+          ],
+          "weight": 400000
+        },
+        {
+          "type": "item",
+          "name": "minecraft:moss_carpet",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 400000
+        },
+        {
+          "type": "item",
+          "name": "minecraft:white_wool",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ],
+          "weight": 606240
+        },
+        {
+          "type": "item",
+          "name": "minecraft:rotten_flesh",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 708120
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bone",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 404600
+        },
+        {
+          "type": "item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Potion:regeneration}"
+            },
+            {
+              "function": "set_count",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ],
+          "weight": 202240
+        },
+        {
+          "type": "item",
+          "name": "minecraft:golden_apple",
+          "weight": 50600
+        },
+        {
+          "type": "item",
+          "name": "minecraft:enchanted_book",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{StoredEnchantments:[{id:sharpness,lvl:1}]}"
+            }
+          ],
+          "weight": 50600
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Damage:73}"
+            }
+          ],
+          "weight": 101400
+        },
+        {
+          "type": "item",
+          "name": "minecraft:bread",
+          "weight": 506480
+        },
+        {
+          "type": "item",
+          "name": "minecraft:flint_and_steel",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Damage:57}"
+            }
+          ],
+          "weight": 151840
+        },
+        {
+          "type": "item",
+          "name": "minecraft:compass",
+          "weight": 80800
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_boots",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Damage:45}"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:16119285}}"
+            }
+          ],
+          "weight": 121360
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_helmet",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Damage:45}"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:16119285}}"
+            }
+          ],
+          "weight": 121360
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_chestplate",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Damage:70}"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:16119285}}"
+            }
+          ],
+          "weight": 101400
+        },
+        {
+          "type": "item",
+          "name": "minecraft:leather_leggings",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Damage:50}"
+            },
+            {
+              "function": "set_nbt",
+              "tag": "{display:{color:16119285}}"
+            }
+          ],
+          "weight": 101400
+        },
+        {
+          "type": "item",
+          "name": "minecraft:string",
+          "functions": [
+            {
+              "function": "set_count",
+              "count": {
+                "min": 2,
+                "max": 4
+              }
+            }
+          ],
+          "weight": 303120
+        },
+        {
+          "type": "item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "set_nbt",
+              "tag": "{Damage:54}"
+            }
+          ],
+          "weight": 200000
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.084
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_dagger",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "divine_weaponry:diamond_cutlass",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:blueprint_scrap",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:energy_cell",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

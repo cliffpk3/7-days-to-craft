@@ -30,5 +30,81 @@
   {
     "left": "minecraft:oak_planks:1",
     "right": "minecraft:stick:4"
+  },
+  {
+    "left": "survival_instinct:police_chestplate:1",
+    "right": "sa_core:metal_scrap:4"
+  },
+  {
+    "left": "survival_instinct:military_chestplate:1",
+    "right": "sa_core:metal_scrap:4"
+  },
+  {
+    "left": "survival_instinct:fire_fighter_chestplate:1",
+    "right": "sa_core:metal_scrap:4"
+  },
+  {
+    "left": "survival_instinct:guillie_chestplate:1",
+    "right": "survival_instinct:cloth:4"
+  },
+  {
+    "left": "survival_instinct:desert_recluit_armor_chestplate:1",
+    "right": "survival_instinct:cloth:4"
+  },
+  {
+    "left": "survival_instinct:pipe_wrench_mace:1",
+    "right": "sa_core:metal_scrap:3"
+  },
+  {
+    "left": "survival_instinct:screwdriver_rapier:1",
+    "right": "sa_core:metal_scrap:2"
+  },
+  {
+    "left": "survival_instinct:steellium_pipe_mace:1",
+    "right": "sa_core:metal_scrap:4"
+  },
+  {
+    "left": "survival_instinct:tier_i_kevlar:1",
+    "right": "survival_instinct:cloth:3"
+  },
+  {
+    "left": "survival_instinct:body_armor_plate_i:1",
+    "right": "sa_core:metal_scrap:2"
+  },
+  {
+    "left": "survival_instinct:empty_can:1",
+    "right": "sa_core:metal_scrap:1"
+  },
+  {
+    "left": "scguns:small_brass_casing:1",
+    "right": "corail_recycler:copper_nugget:3"
+  },
+  {
+    "left": "scguns:medium_brass_casing:1",
+    "right": "corail_recycler:copper_nugget:5"
+  },
+  {
+    "left": "minecraft:iron_helmet:1",
+    "right": "sa_core:metal_scrap:3"
+  },
+  {
+    "left": "minecraft:iron_chestplate:1",
+    "right": "sa_core:metal_scrap:5"
+  },
+  {
+    "left": "minecraft:iron_leggings:1",
+    "right": "sa_core:metal_scrap:4"
+  },
+  {
+    "left": "minecraft:iron_boots:1",
+    "right": "sa_core:metal_scrap:2"
+  },
+  {
+    "left": "minecraft:chainmail_chestplate:1",
+    "right": "sa_core:metal_scrap:3"
+  },
+  {
+    "left": "minecraft:bucket:1",
+    "right": "sa_core:metal_scrap:2"
   }
 ]

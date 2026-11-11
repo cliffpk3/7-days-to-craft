@@ -1,0 +1,93 @@
+
+[fuel_pump]
+	#Fluid used by structure/legacy filled pumps.
+	structureStartFluid = "sa_core:gasoline"
+	#Amount used by structure/legacy filled pumps.
+	#Range: 0 ~ 1000000
+	structureStartAmountMb = 16000
+	#Tank capacity in mB.
+	#Range: 1000 ~ 1000000
+	capacityMb = 16000
+	#Fuel moved per tick while pumping.
+	#Range: 1 ~ 1000
+	transferPerTickMb = 50
+	#Accept any non-lava fluid.
+	allowAnyFluid = false
+	#Allowed fluids: ids or #tags.
+	allowedFluids = ["sa_core:gasoline", "#forge:gasoline"]
+	#Require FE to pump fuel out.
+	requiresEnergy = true
+	#Internal energy buffer.
+	#Range: 1 ~ 1000000
+	energyCapacityFe = 1024
+	#FE used each pump tick.
+	#Range: 0 ~ 1000000
+	energyPerPumpTick = 1
+
+[drinking_fountain]
+	#Tank capacity in mB.
+	#Range: 1000 ~ 1000000
+	capacityMb = 1000
+	#Bottle fill amount in mB.
+	#Range: 1 ~ 1000
+	bottleAmountMb = 250
+	#Direct drink amount in mB.
+	#Range: 1 ~ 1000
+	drinkAmountMb = 50
+
+[compat]
+	#Enable Lootr compatibility.
+	lootrEnabled = true
+	#Enable Rummage compatibility.
+	rummageEnabled = true
+	#Enable random wear for TACZ guns found in loot.
+	gunDurabilityEnabled = true
+	#Minimum durability percent for looted TACZ guns.
+	#Range: 1 ~ 100
+	gunDurabilityMinPercent = 15
+	#Maximum durability percent for looted TACZ guns.
+	#Range: 1 ~ 100
+	gunDurabilityMaxPercent = 85
+
+[loot_display]
+	#Show right-click text for loot crates.
+	showLootCrateInteractionText = true
+	#Show right-click text for loose loot.
+	showLooseLootInteractionText = true
+
+[loose_loot]
+	#Blocks removed after manual Loose Loot is collected.
+	#Only affects blocks marked with the Loot Wand / Loot Manager.
+	#Accepts block ids, #block_tags, or * for every manual Loose Loot block.
+	breakAfterLoot = ["sa_decor:cardboard_box", "sa_decor:medium_cardboard_box", "sa_decor:small_cardboard_box", "sa_decor:small_cardboard_box_stack1", "sa_decor:small_cardboard_box_stack2", "sa_decor:small_cardboard_box_stack3"]
+
+[loot_break_protection]
+	#Protect loot crates from accidental breaking.
+	enabled = true
+	#Only protect respawn/per-player loot crates.
+	requireRespawnOrPerPlayer = true
+	#Allow Shift-breaking protected crates.
+	allowShiftBypass = true
+
+[flies]
+	#Enable ambient flies (particles + buzz).
+	enabled = true
+	#Blocks that spawn flies. Accepts ids, #tags, or "*" for all.
+	#Optional per-block chance with =value, e.g. sa_decor:lying_corpse=0.08
+	#Without =value, uses spawnChance below.
+	blocks = ["sa_decor:lying_corpse=0.08", "sa_decor:trash_props=0.02", "sa_decor:garbage_props=0.02"]
+	#Default fly chance per tick.
+	#Range: 0.0 ~ 1.0
+	spawnChance = 0.034
+	#Fly activation distance.
+	#Range: 4 ~ 48
+	activationDistance = 16
+	#Global fly particle cap per tick.
+	#Range: 1 ~ 200
+	maxParticlesPerTick = 10
+
+[supply_drop]
+	#Loot config id that the air drop's SupplyDrop block is created with.
+	#Must be one of your defined loot configs (e.g. "military").
+	supplyDropLootConfig = "supply_drop"
+

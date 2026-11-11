@@ -1,0 +1,17 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "celestial_artifacts:chaotic_pendant",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:shadow_pendant",
+      "required": false
+    },
+    {
+      "id": "celestial_artifacts:unowned_pendant",
+      "required": false
+    }
+  ]
+}

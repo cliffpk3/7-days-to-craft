@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    {
+      "id": "celestial_artifacts:catastrophe_scroll",
+      "required": false
+    }
+  ]
+}

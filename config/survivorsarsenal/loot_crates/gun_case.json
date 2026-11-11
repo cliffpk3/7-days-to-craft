@@ -1,0 +1,288 @@
+{
+  "id": "gun_case",
+  "display_name": "Gun Case",
+  "description": "Example loot profile. Duplicate/copy this preset and adjust pools, weights, chances, behavior and linked kits for your own pack.",
+  "rolls": {
+    "min": 0,
+    "max": 0
+  },
+  "search": {
+    "enabled": true
+  },
+  "lock": {
+    "enabled": true,
+    "spawn_chance": 0.46,
+    "lockpick": true
+  },
+  "empty": {
+    "enabled": true,
+    "spawn_chance": 0.12
+  },
+  "open_pass": {
+    "enabled": false,
+    "amount": 1,
+    "consume": true,
+    "bypass_lock": true,
+    "bypass_search": true,
+    "items": [],
+    "tags": []
+  },
+  "respawn": {
+    "enabled": false,
+    "time_ticks": 24000,
+    "only_if_empty": true,
+    "clear_before_respawn": true
+  },
+  "per_player": true,
+  "allow_duplicates": false,
+  "clear_before_generate": false,
+  "loot_tables": [],
+  "entries": [],
+  "pools": [
+    {
+      "id": "long_guns_only",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": false,
+      "entries": [
+        {
+          "item": "scguns:makeshift_rifle",
+          "weight": 5,
+          "chance": 0.24,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotsteel",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:makeshift_rifle",
+          "weight": 5,
+          "chance": 0.24,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 2,
+                "max": 5
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotsteel",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:fencer_carabine",
+          "weight": 3,
+          "chance": 0.16,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotsteel",
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:doublet",
+          "weight": 4,
+          "chance": 0.18,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "item": "scguns:blunderbuss",
+          "weight": 2,
+          "chance": 0.1,
+          "count": {
+            "min": 1,
+            "max": 1
+          },
+          "with": [
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "minecraft:gunpowder",
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            },
+            {
+              "weight": 1,
+              "chance": 1,
+              "item": "zombie_extreme:ignotlead",
+              "count": {
+                "min": 1,
+                "max": 1
+              }
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "id": "long_gun_ammo",
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "allow_duplicates": true,
+      "entries": [
+        {
+          "weight": 6,
+          "chance": 0.42,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 5
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotsteel",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 4
+              }
+            }
+          ]
+        },
+        {
+          "weight": 6,
+          "chance": 0.38,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 4
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotsteel",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "weight": 4,
+          "chance": 0.26,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 3
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotsteel",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "weight": 5,
+          "chance": 0.32,
+          "item": "minecraft:gunpowder",
+          "count": {
+            "min": 1,
+            "max": 4
+          },
+          "with": [
+            {
+              "item": "zombie_extreme:ignotlead",
+              "weight": 1,
+              "chance": 1,
+              "count": {
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
