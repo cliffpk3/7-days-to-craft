@@ -1,0 +1,109 @@
+{
+	default_hide_dependency_lines: false
+	default_quest_shape: ""
+	filename: "7dtc_dark_zone"
+	group: "7D7C000000000001"
+	icon: "seven_days_darkzone:7dtc_cracked_bedrock"
+	id: "7D7C700000000000"
+	order_index: 20
+	quest_links: [ ]
+	quests: [
+		{
+			description: [
+				"Deep in the deepslate, inside a ball of amethyst, the bedrock is cracked."
+				"It glows faintly. Break it and a ladder leads down, into the Dark Zone."
+				""
+				"A survey crew went down there when the cracks first opened. None of them came back."
+				"Their caches are still down there, and so are their &eNight Vision Goggles&r:"
+				"the only night vision gear left in this world."
+				""
+				"&7How to find it: dig toward the deepest caves (below Y -24) and look for amethyst."
+			]
+			icon: "seven_days_darkzone:7dtc_cracked_bedrock"
+			id: "7D7C710000000001"
+			invisible: true
+			invisible_until_tasks: 1
+			rewards: [{
+				count: 2
+				id: "7D7C7A0000000001"
+				item: "seven_days_darkzone:7dtc_phosphor_flare"
+				type: "item"
+			}]
+			tasks: [
+				{
+					advancement: "seven_days_darkzone:7dtc_darkzone/deep"
+					criterion: "deep"
+					id: "7D7C7B0000000004"
+					title: "Reach the deepslate (below Y 0)"
+					type: "advancement"
+				}
+				{
+				advancement: "seven_days_darkzone:7dtc_darkzone/entrance_seen"
+				criterion: "seen"
+				id: "7D7C7B0000000001"
+				title: "Find the Cracked Bedrock"
+				type: "advancement"
+				}
+			]
+			title: "Cracked Bedrock"
+			x: 0.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D7C710000000001"]
+			description: [
+				"Down here it is always dark, and the &cHollow Zombies&r are blind. They hunt by sound."
+				""
+				"- Crouch to walk silently. Running is heard from far away."
+				"- Loose scree and old bones crunch even when crouching: go around them."
+				"- Sculk sensors and shriekers call them from across the tunnels."
+				"- Gunshots carry the farthest. Blades are quieter."
+				"- Light keeps new ones from appearing, but does not scare off those already near."
+				"- A thrown &ePhosphor Flare&r cracks loudly where it lands: they go there instead of you."
+				"- Close up, they still see what is right in front of them."
+			]
+			icon: "seven_days_darkzone:hollow_zombie_spawn_egg"
+			hide: true
+			id: "7D7C710000000002"
+			rewards: [{
+				count: 8
+				id: "7D7C7A0000000002"
+				item: "minecraft:torch"
+				type: "item"
+			}]
+			tasks: [{
+				advancement: "seven_days_darkzone:7dtc_darkzone/entered"
+				criterion: "entered"
+				id: "7D7C7B0000000002"
+				title: "Enter the Dark Zone"
+				type: "advancement"
+			}]
+			title: "Hunted by Sound"
+			x: 2.0d
+			y: 0.0d
+		}
+		{
+			dependencies: ["7D7C710000000002"]
+			description: [
+				"The survey crew hid supplies in chests along the tunnels: phosphor, Cat's Eye Moss,"
+				"flares and, sometimes, a pair of their Night Vision Goggles."
+				""
+				"Wear them in the head slot. Nothing else in this world gives lasting night vision;"
+				"the only other way is a Potion of Night Vision brewed with 6 Cat's Eye Moss."
+			]
+			icon: "artifacts:night_vision_goggles"
+			hide: true
+			id: "7D7C710000000003"
+			tasks: [{
+				consume_items: false
+				id: "7D7C7B0000000003"
+				item: "artifacts:night_vision_goggles"
+				type: "item"
+			}]
+			title: "The Lost Crew's Goggles"
+			x: 4.0d
+			y: 0.0d
+		}
+	]
+	title: "The Dark Zone"
+}

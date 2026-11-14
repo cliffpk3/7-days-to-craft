@@ -64,7 +64,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "name": "minecraft:iron_nugget",
           "weight": 60,
           "functions": [
             {
@@ -72,22 +72,22 @@
               "count": {
                 "type": "minecraft:uniform",
                 "min": 3,
-                "max": 6
+                "max": 9
               }
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_ingot",
+          "name": "create:copper_nugget",
           "weight": 60,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 4,
-                "max": 8
+                "min": 9,
+                "max": 27
               }
             }
           ]
@@ -95,14 +95,14 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
-          "weight": 60,
+          "weight": 30,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
-                "type": "minecraft:uniform",
-                "min": 4,
-                "max": 8
+                "min": 1,
+                "max": 3,
+                "type": "minecraft:uniform"
               }
             }
           ]
@@ -245,29 +245,25 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:diamond",
-          "weight": 20,
+          "weight": 7,
           "functions": [
             {
               "function": "minecraft:set_count",
-              "count": {
-                "type": "minecraft:uniform",
-                "min": 1,
-                "max": 2
-              }
+              "count": 1
             }
           ]
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:gold_ingot",
+          "name": "minecraft:gold_nugget",
           "weight": 40,
           "functions": [
             {
               "function": "minecraft:set_count",
               "count": {
                 "type": "minecraft:uniform",
-                "min": 3,
-                "max": 6
+                "min": 7,
+                "max": 20
               }
             }
           ]

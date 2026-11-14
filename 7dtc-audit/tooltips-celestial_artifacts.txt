@@ -1,0 +1,867 @@
+== celestial_artifacts:the_end_dust
+  [#B4B4B4]The End Dust
+  [#B4B4B4]Common
+  [gray]2% chance to drop when players equipped with [Catastrophe Scroll] kill monsters targeting them
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:the_end_dust
+== celestial_artifacts:nebula_cube
+  [#B4B4B4]Nebula Cube
+  [#B4B4B4]Common
+  [gray]Dropped when player failed to get etchings while meeting conditions
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:nebula_cube
+== celestial_artifacts:gold_ring
+  [#5CC85C]Gold Ring
+  [#5CC85C]Uncommon
+  [green]Slot: Ring
+  [green]· Grants wearer: Luck
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:gold_ring
+== celestial_artifacts:amethyst_ring
+  [#B464F0]Amethyst Ring
+  [#B464F0]Epic
+  [green]Slot: Ring
+  [green]· Grants wearer: Night Vision
+  
+  [gray]When worn as ring:
+  [blue]+[blue]10[blue]%[blue] [blue]Attack Damage
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:amethyst_ring
+== celestial_artifacts:diamond_ring
+  [#B4B4B4]Diamond Ring
+  [#B4B4B4]Common
+  [green]Slot: Ring
+  [green]· Grants wearer: Strength
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:diamond_ring
+== celestial_artifacts:emerald_ring
+  [#B4B4B4]Emerald Ring
+  [#B4B4B4]Common
+  [green]Slot: Ring
+  [gray]Press [ALT] to display set effects
+  
+  [gray]When worn as ring:
+  [blue]+[blue]1[blue] [blue]Luck
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:emerald_ring
+== celestial_artifacts:flight_ring
+  [#B4B4B4]Flight Ring
+  [#B4B4B4]Common
+  [green]Slot: Ring
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:flight_ring
+== celestial_artifacts:netherite_ring
+  [#5CC85C]Netherite Ring
+  [#5CC85C]Uncommon
+  [green]Slot: Ring
+  [green]· Grants wearer: Fire Resistance
+  [gray]· [gray]When you are in nether: 
+  [green]-> Reduce damage by 10%
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:netherite_ring
+== celestial_artifacts:ring_of_life
+  [#B4B4B4]Ring Of Life
+  [#B4B4B4]Common
+  [green]Slot: Ring
+  [green]· For every 5 seconds, boost growth on surrounding crops
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:ring_of_life
+== celestial_artifacts:thunder_ring
+  [#3C96F0]Thunder Ring
+  [#3C96F0]Rare
+  [green]Slot: Ring
+  [gray]· [gray]Negates [gray]lightning[gray] damage
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:thunder_ring
+== celestial_artifacts:nether_fire
+  [#5CC85C]Nether Fire
+  [#5CC85C]Uncommon
+  [green]Slot: Ring
+  [gray]· [gray]Negates [gray]fire[gray] damage
+  [green]· Burn target for 5 seconds on hit
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:nether_fire
+== celestial_artifacts:freeze_ring
+  [#B4B4B4]Freeze Ring
+  [#B4B4B4]Common
+  [green]Slot: Ring
+  [gray]· [gray]Negates [gray]freezing[gray] damage
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:freeze_ring
+== celestial_artifacts:war_dead_badge
+  [#B4B4B4]War Dead Badge
+  [#B4B4B4]Common
+  [green]Slot: Charm
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:war_dead_badge
+== celestial_artifacts:undead_charm
+  [#B4B4B4]Undead Charm
+  [#B4B4B4]Common
+  [green]Slot: Charm
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:undead_charm
+== celestial_artifacts:destroyer_badge
+  [#B4B4B4]Destroyer Badge
+  [#B4B4B4]Common
+  [green]Slot: Charm
+  [gray]· When you are at 50% or lower health:
+  [green]-> Increase damage by 20%
+  
+  [gray]When worn as charm:
+  [blue]+[blue]0.4[blue] [blue]Attack Damage
+  [red]x1.5 Damage after Reduction
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:destroyer_badge
+== celestial_artifacts:twisted_brain
+  [#B4B4B4]Twisted Brain
+  [#B4B4B4]Common
+  [green]Slot: Charm
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:twisted_brain
+== celestial_artifacts:corrupt_badge
+  [#B4B4B4]Corrupt Badge
+  [#B4B4B4]Common
+  [green]Slot: Charm
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:corrupt_badge
+== celestial_artifacts:cursed_talisman
+  [#B4B4B4]Cursed Talisman
+  [#B4B4B4]Common
+  [green]Slot: Charm
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:cursed_talisman
+== celestial_artifacts:cursed_protector
+  [#B4B4B4]Cursed Protector
+  [#B4B4B4]Common
+  [green]Slot: Charm
+  [red]This item is disabled
+  
+  [gray]When worn as charm:
+  [blue]+[blue]10[blue] [blue]Knockback Resistance
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:cursed_protector
+== celestial_artifacts:cursed_totem
+  [#B4B4B4]Cursed Totem
+  [#B4B4B4]Common
+  [green]Slot: Charm
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:cursed_totem
+== celestial_artifacts:holy_talisman
+  [#FF9628]Holy Talisman
+  [#FF9628]Legendary
+  [green]Slot: Charm
+  [green]· For every 10 seconds, inflict surrounding mobs with Weakness for mob count x 2 seconds
+  [green]· Reduce incoming damage by 25%. If it's from undead mobs, reduce by 35% instead.
+  [green]· Negate a fatal damage and gain absorption equal to your max health. Cool down: 60 seconds
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:holy_talisman
+== celestial_artifacts:holy_sword
+  [#3C96F0]Holy Sword
+  [#3C96F0]Rare
+  [green]Slot: Charm
+  [green]· Reflect 12% of damage you take
+  [gray]· [gray]Heal the same amount when you deal damage to undead mob
+  [green]· For every life point you lose, increase damage by 2%
+  
+  [gray]When worn as charm:
+  [green]+15% Weapon Crit Rate
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:holy_sword
+== celestial_artifacts:angel_heart
+  [#B464F0]Angel Heart
+  [#B464F0]Epic
+  [green]Slot: Charm
+  [green]· For every 2 seconds, heal 1 health
+  [green]· For every 30 seconds, clear all harmful effects
+  [gray]· When you are at 50% or lower health:
+  [green]-> Reduce damage by 20%
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:angel_heart
+== celestial_artifacts:angel_pearl
+  [#B464F0]Angel Pearl
+  [#B464F0]Epic
+  [green]Slot: Charm
+  [gray]· [gray]Surrounding players gain regeneration:
+  [gray]· [gray]For every beneficial effect you have:
+  [green]-> +8% Regeneration Rate
+  [green]-> +1 Armor
+  [gray]Current bonus:
+  [green]· +0% Regeneration Rate
+  [green]· +0 Armor
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:angel_pearl
+== celestial_artifacts:demon_curse
+  [#B4B4B4]Demon Curse
+  [#B4B4B4]Common
+  [green]Slot: Charm
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:demon_curse
+== celestial_artifacts:knight_shelter
+  [#B464F0]Knight Shelter
+  [#B464F0]Epic
+  [green]Slot: Charm
+  [green]· When you have shield in off hand, heal 1 point every 4 seconds. Heals at double rate when you have shield in main hand.
+  [green]· When you use shield to block damage reflect 30% of the damage blocked
+  
+  [gray]When worn as charm:
+  [blue]+[blue]8[blue] [blue]Armor
+  [blue]+[blue]4[blue] [blue]Damage Absorption
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:knight_shelter
+== celestial_artifacts:soul_box
+  [#B4B4B4]Soul Box
+  [#B4B4B4]Common
+  [green]Slot: Charm
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:soul_box
+== celestial_artifacts:solar_magnet
+  [#3C96F0]Solar Magnet
+  [#3C96F0]Rare
+  [green]Slot: Charm
+  [gray]· [gray]Put down fire in daytime
+  [gray]· [gray]Attract surrounding items
+  [gray]· [gray]At Day:
+  [green]-> Increase damage by 25%
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:solar_magnet
+== celestial_artifacts:gluttony_badge
+  [#3C96F0]Gluttony Badge
+  [#3C96F0]Rare
+  [green]Slot: Charm
+  [green]· Gain Strength (00:02) and Regeneration (00:02) after eating food
+  [green]· For every food point you have, reduce incoming damage by 1%
+  [red]· Grants wearer: Hunger III
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:gluttony_badge
+== celestial_artifacts:magic_horseshoe
+  [#B464F0]Magic Horseshoe
+  [#B464F0]Epic
+  [green]Slot: Charm
+  [green]· Reduce incoming fall damage by 95%
+  
+  [gray]When worn as charm:
+  [blue]+[blue]25[blue]%[blue] [blue]Speed
+  [blue]+[blue]1[blue] [blue]Luck
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:magic_horseshoe
+== celestial_artifacts:bearing_stamen
+  [#B464F0]Bearing Stamen
+  [#B464F0]Epic
+  [green]Slot: Charm
+  [green]· Grants wearer: Regeneration II
+  
+  [gray]When worn as charm:
+  [blue]+[blue]20[blue] [blue]Max Health
+  [green]+25% Regeneration Rate
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:bearing_stamen
+== celestial_artifacts:abyss_will_badge
+  [#B4B4B4]Abyss Will Badge
+  [#B4B4B4]Common
+  [green]Slot: Charm
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:abyss_will_badge
+== celestial_artifacts:sands_talisman
+  [#3C96F0]Sands Talisman
+  [#3C96F0]Rare
+  [green]Slot: Charm
+  [gray]· [gray]+[gray]50[gray]% [gray]Xp Gain
+  [gray]· [gray]When in hot biomes:
+  [green]-> Increase damage by 30%
+  [green]· +1 Looting
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:sands_talisman
+== celestial_artifacts:sacrificial_object
+  [#B4B4B4]Sacrificial Object
+  [#B4B4B4]Common
+  [green]Slot: Charm
+  [red]This item is disabled
+  
+  [gray]When worn as charm:
+  [green]x0.95 Damage after Reduction
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:sacrificial_object
+== celestial_artifacts:heart_of_revenge
+  [#B464F0]Heart Of Revenge
+  [#B464F0]Epic
+  [green]Slot: Celestial - Heart, Charm
+  [green]· On hurt, grants: Strength II (00:03), Resistance (00:03)
+  [gray]· When hurt, for the next 3 seconds:
+  [green]-> Increase damage by 25%
+  
+  [gray]When wearing as Heart:
+  [blue]+[blue]0.06[blue] [blue]Projectile Strength
+  
+  [gray]When worn as charm:
+  [green]+6% Projectile Strength
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:heart_of_revenge
+== celestial_artifacts:twisted_heart
+  [#B4B4B4]Twisted Heart
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Heart, Charm
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:twisted_heart
+== celestial_artifacts:greedy_heart
+  [#B4B4B4]Greedy Heart
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Heart, Charm
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:greedy_heart
+== celestial_artifacts:demon_heart
+  [#3C96F0]Demon Heart
+  [#3C96F0]Rare
+  [green]Slot: Celestial - Heart, Charm
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:demon_heart
+== celestial_artifacts:traveler_scroll
+  [#3C96F0]Traveler Scroll
+  [#3C96F0]Rare
+  [green]Slot: Celestial - Scroll
+  [green]· Gain Speed II (00:15) and Regeneration (00:15) when changing dimensions
+  
+  [gray]When wearing as Scroll:
+  [blue]+[blue]25[blue]%[blue] [blue]Speed
+  [blue]+[blue]25[blue]%[blue] [blue]Flying Speed
+  [blue]+[blue]25[blue]%[blue] [blue]Swim Speed
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:traveler_scroll
+== celestial_artifacts:sea_god_scroll
+  [#B4B4B4]Sea God Scroll
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Scroll
+  [gray]· [gray]Boost mining speed under water
+  [gray]· [gray]When player is in water or rain:
+  [green]-> Grants wearer: Strength II (00:02), Resistance (00:02)
+  [gray]Press [ALT] to display set effects
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:sea_god_scroll
+== celestial_artifacts:skywalker_scroll
+  [#B4B4B4]Skywalker Scroll
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Scroll
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:skywalker_scroll
+== celestial_artifacts:twisted_scroll
+  [#B4B4B4]Twisted Scroll
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Scroll
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:twisted_scroll
+== celestial_artifacts:emerald_bracelet
+  [#B4B4B4]Emerald Bracelet
+  [#B4B4B4]Common
+  [green]Slot: Bracelet, Hands
+  [gray]· When you have 2 or more Luck:
+  [green]-> On hurt, 10% chance to grant: Absorption II (00:05)
+  [green]· +1 Fortune
+  [gray]Press [ALT] to display set effects
+  
+  [gray]When worn as bracelet:
+  [blue]+[blue]0.1[blue] [blue]Weapon Crit Rate
+  
+  [gray]When on hands:
+  [green]+10% Weapon Crit Rate
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:emerald_bracelet
+== celestial_artifacts:life_bracelet
+  [#B464F0]Life Bracelet
+  [#B464F0]Epic
+  [green]Slot: Bracelet, Hands
+  [green]· Grants wearer: Regeneration
+  
+  [gray]When worn as bracelet:
+  [blue]+[blue]0.15[blue] [blue]Regeneration Rate
+  
+  [gray]When on hands:
+  [green]+15% Regeneration Rate
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:life_bracelet
+== celestial_artifacts:precious_bracelet
+  [#B4B4B4]Precious Bracelet
+  [#B4B4B4]Common
+  [green]Slot: Bracelet, Hands
+  [red]This item is disabled
+  
+  [gray]When worn as bracelet:
+  [blue]+[blue]1[blue] [blue]Block Reach
+  [green]+1 Ring Slots
+  
+  [gray]When on hands:
+  [blue]+[blue]1[blue] [blue]Block Reach
+  [green]+1 Ring Slots
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:precious_bracelet
+== celestial_artifacts:red_ruby_bracelet
+  [#5CC85C]Red Ruby Bracelet
+  [#5CC85C]Uncommon
+  [green]Slot: Bracelet, Hands
+  [green]· Reduce incoming fire damage by 90%
+  [green]· On hurt, grants: Strength (00:03)
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:red_ruby_bracelet
+== celestial_artifacts:hidden_bracelet
+  [#B4B4B4]Hidden Bracelet
+  [#B4B4B4]Common
+  [green]Slot: Bracelet, Hands
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:hidden_bracelet
+== celestial_artifacts:scarlet_bracelet
+  [#B4B4B4]Scarlet Bracelet
+  [#B4B4B4]Common
+  [green]Slot: Bracelet, Hands
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:scarlet_bracelet
+== celestial_artifacts:charming_bracelet
+  [#B4B4B4]Charming Bracelet
+  [#B4B4B4]Common
+  [green]Slot: Bracelet, Hands
+  [red]This item is disabled
+  
+  [gray]When worn as bracelet:
+  [blue]+[blue]2[blue] [blue]Armor
+  
+  [gray]When on hands:
+  [blue]+[blue]2[blue] [blue]Armor
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:charming_bracelet
+== celestial_artifacts:spirit_bracelet
+  [#5CC85C]Spirit Bracelet
+  [#5CC85C]Uncommon
+  [green]Slot: Bracelet, Hands
+  [green]· Increase bow / crossbow pulling speed by 100%
+  [green]· Projectiles you shoot will inflict Speed (00:05)
+  [gray]Press [ALT] to display set effects
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:spirit_bracelet
+== celestial_artifacts:unowned_pendant
+  [#3C96F0]Unowned Pendant
+  [#3C96F0]Rare
+  [green]Slot: Celestial - Pendant, Necklace
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:unowned_pendant
+== celestial_artifacts:chaotic_pendant
+  [#B4B4B4]Chaotic Pendant
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Pendant, Necklace
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:chaotic_pendant
+== celestial_artifacts:shadow_pendant
+  [#B4B4B4]Shadow Pendant
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Pendant, Necklace
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:shadow_pendant
+== celestial_artifacts:star_necklace
+  [#3C96F0]Star Necklace
+  [#3C96F0]Rare
+  [green]Slot: Necklace
+  [gray]· [gray]When attacking from behind:
+  [green]-> Increase damage by 40%
+  [gray]· [gray]At Night:
+  [green]-> Grants wearer: Resistance (00:02)
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:star_necklace
+== celestial_artifacts:cross_necklace
+  [#5CC85C]Cross Necklace
+  [#5CC85C]Uncommon
+  [green]Slot: Necklace
+  [green]· Increase invulnerable time by 100%
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:cross_necklace
+== celestial_artifacts:gallop_necklace
+  [#3C96F0]Gallop Necklace
+  [#3C96F0]Rare
+  [green]Slot: Necklace
+  [green]· When you attack while moving, increase damage by 150% of your speed
+  
+  [gray]When around neck:
+  [blue]+[blue]8[blue]%[blue] [blue]Speed
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:gallop_necklace
+== celestial_artifacts:fang_necklace
+  [#3C96F0]Fang Necklace
+  [#3C96F0]Rare
+  [green]Slot: Necklace
+  [gray]· [gray]When target has armor:
+  [green]-> Increase damage by 25%
+  [green]· On hit targets, 50% chance to inflict: Poison III (00:05)
+  
+  [gray]When around neck:
+  [blue]+[blue]10[blue]%[blue] [blue]Attack Speed
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:fang_necklace
+== celestial_artifacts:precious_necklace
+  [#B4B4B4]Precious Necklace
+  [#B4B4B4]Common
+  [green]Slot: Necklace
+  [red]This item is disabled
+  
+  [gray]When around neck:
+  [green]+20% Weapon Crit Damage
+  [green]+1 Charm Slots
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:precious_necklace
+== celestial_artifacts:holy_necklace
+  [#5CC85C]Holy Necklace
+  [#5CC85C]Uncommon
+  [green]Slot: Necklace
+  [green]· Increase invulnerable time by 50%
+  [green]· Gain Resistance (00:02) after healing. Cool down: 3 seconds
+  
+  [gray]When around neck:
+  [blue]+[blue]4[blue] [blue]Max Health
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:holy_necklace
+== celestial_artifacts:heirloom_necklace
+  [#B4B4B4]Heirloom Necklace
+  [#B4B4B4]Common
+  [green]Slot: Necklace
+  [red]This item is disabled
+  
+  [gray]When around neck:
+  [blue]+[blue]2[blue] [blue]Armor
+  [blue]+[blue]5[blue]%[blue] [blue]Speed
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:heirloom_necklace
+== celestial_artifacts:emerald_necklace
+  [#B4B4B4]Emerald Necklace
+  [#B4B4B4]Common
+  [green]Slot: Necklace
+  [green]· 2% chance to gain an emerald when killing mobs
+  [green]· +1 Fortune
+  [gray]Press [ALT] to display set effects
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:emerald_necklace
+== celestial_artifacts:ender_protector
+  [#B4B4B4]Ender Protector
+  [#B4B4B4]Common
+  [green]Slot: Necklace
+  [red]This item is disabled
+  
+  [gray]When around neck:
+  [blue]+[blue]4[blue] [blue]Armor Toughness
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:ender_protector
+== celestial_artifacts:red_heart_necklace
+  [#5CC85C]Red Heart Necklace
+  [#5CC85C]Uncommon
+  [green]Slot: Necklace
+  
+  [gray]When around neck:
+  [blue]+[blue]5[blue]%[blue] [blue]Max Health
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:red_heart_necklace
+== celestial_artifacts:lock_of_abyss
+  [#B4B4B4]Lock Of Abyss
+  [#B4B4B4]Common
+  [green]Slot: Necklace
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:lock_of_abyss
+== celestial_artifacts:spirit_necklace
+  [#5CC85C]Spirit Necklace
+  [#5CC85C]Uncommon
+  [green]Slot: Necklace
+  [green]· On hurt, grants: Speed (00:05)
+  [gray]Press [ALT] to display set effects
+  
+  [gray]When around neck:
+  [green]+25% Projectile Strength
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:spirit_necklace
+== celestial_artifacts:sea_god_crown
+  [#B4B4B4]Sea God Crown
+  [#B4B4B4]Common
+  [green]Slot: Head
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:sea_god_crown
+== celestial_artifacts:prayer_crown
+  [#3C96F0]Prayer Crown
+  [#3C96F0]Rare
+  [green]Slot: Head
+  [green]· Increase invulnerable time by 100%
+  [gray]· [gray]When you are sneaking: 
+  [green]-> Reduce damage by 25%
+  [green]· When you take damage when sneaking, 50% chance to recover 25% of the damage took.
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:prayer_crown
+== celestial_artifacts:abyss_core
+  [#B4B4B4]Abyss Core
+  [#B4B4B4]Common
+  [green]Slot: Head
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:abyss_core
+== celestial_artifacts:guardian_eye
+  [#3C96F0]Guardian Eye
+  [#3C96F0]Rare
+  [green]Slot: Head
+  [gray]· [gray]When player is in water or rain:
+  [green]-> Reduce damage by 20%
+  [red]· Inflict Mining Fatigue II to surrounding mobs.
+  [gray]· [gray]Gain infinite water breathing
+  
+  [gray]When on head:
+  [blue]+[blue]15[blue]%[blue] [blue]Swim Speed
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:guardian_eye
+== celestial_artifacts:evil_eye
+  [#5CC85C]Evil Eye
+  [#5CC85C]Uncommon
+  [green]Slot: Head
+  [gray]· [gray]Immune to Darkness and Blindness effects
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:evil_eye
+== celestial_artifacts:spirit_crown
+  [#3C96F0]Spirit Crown
+  [#3C96F0]Rare
+  [green]Slot: Head
+  [green]· When there are 3 or fewer mobs around you, increase projectile damage by 45%
+  [green]· For every block in between increase projectile damage by 2%
+  [gray]Press [ALT] to display set effects
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:spirit_crown
+== celestial_artifacts:magic_arrow_bag
+  [#3C96F0]Magic Arrow Bag
+  [#3C96F0]Rare
+  [green]Slot: Back, Backpack
+  
+  [gray]When on back:
+  [blue]+[blue]1[blue] [blue]Projectile Strength
+  [blue]+[blue]1[blue] [blue]Arrow Knock Back
+  
+  [gray]When worn as backpack:
+  [green]+100% Projectile Strength
+  [blue]+[blue]1[blue] [blue]Arrow Knock Back
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:magic_arrow_bag
+== celestial_artifacts:flame_arrow_bag
+  [#5CC85C]Flame Arrow Bag
+  [#5CC85C]Uncommon
+  [green]Slot: Back, Backpack
+  [green]· Arrows you shoot will burn target for 60 seconds
+  
+  [gray]When on back:
+  [blue]+[blue]0.1[blue] [blue]Projectile Strength
+  [blue]+[blue]1[blue] [blue]Arrow Knock Back
+  
+  [gray]When worn as backpack:
+  [green]+10% Projectile Strength
+  [blue]+[blue]1[blue] [blue]Arrow Knock Back
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:flame_arrow_bag
+== celestial_artifacts:spirit_arrow_bag
+  [#3C96F0]Spirit Arrow Bag
+  [#3C96F0]Rare
+  [green]Slot: Back, Backpack
+  [gray]Press [ALT] to display set effects
+  
+  [gray]When on back:
+  [blue]+[blue]0.2[blue] [blue]Projectile Strength
+  [blue]+[blue]0.5[blue] [blue]Arrow Speed
+  [blue]+[blue]2[blue] [blue]Arrow Knock Back
+  
+  [gray]When worn as backpack:
+  [green]+20% Projectile Strength
+  [green]+50% Arrow Speed
+  [blue]+[blue]2[blue] [blue]Arrow Knock Back
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:spirit_arrow_bag
+== celestial_artifacts:iron_scabbard
+  [#3C96F0]Iron Scabbard
+  [#3C96F0]Rare
+  [green]Slot: Back, Backpack
+  [green]· For every 10 seconds, grants wearer: Reinforced Blade (00:02)
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:iron_scabbard
+== celestial_artifacts:leech_scabbard
+  [#3C96F0]Leech Scabbard
+  [#3C96F0]Rare
+  [green]Slot: Back, Backpack
+  [green]· For every 10 seconds, grants wearer: Reinforced Blade (00:03)
+  [green]· When you have Reinforced Blade effect, heal 25% of your melee damage dealt
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:leech_scabbard
+== celestial_artifacts:titan_scabbard
+  [#B464F0]Titan Scabbard
+  [#B464F0]Epic
+  [green]Slot: Back, Backpack
+  [green]· For every 7 seconds, grants wearer: Reinforced Blade (00:03)
+  [green]· With Reinforced Blade, when you deal melee damage to mobs with higher max health than you:
+  [green]-> Increase damage by 75%
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:titan_scabbard
+== celestial_artifacts:twisted_scabbard
+  [#B4B4B4]Twisted Scabbard
+  [#B4B4B4]Common
+  [green]Slot: Back, Backpack
+  [red]This item is disabled
+  
+  [gray]When on back:
+  [blue]+[blue]100[blue]%[blue] [blue]Attack Knockback
+  [blue]+[blue]25[blue]%[blue] [blue]Attack Speed
+  [red]-[red]50[red]%[red] [red]Regeneration Rate
+  
+  [gray]When worn as backpack:
+  [blue]+[blue]100[blue]%[blue] [blue]Attack Knockback
+  [blue]+[blue]25[blue]%[blue] [blue]Attack Speed
+  [red]x0.5 Regeneration Rate
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:twisted_scabbard
+== celestial_artifacts:catastrophe_scroll
+  [#B4B4B4]Catastrophe Scroll
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Scroll, Celestial - Catastrophe
+  [red]This item is disabled
+  
+  [gray]When wearing as Scroll:
+  [green]+7 Celestial - Etching Slots
+  [green]+3 Charm Slots
+  
+  [gray]When wearing as Catastrophe:
+  [green]+7 Celestial - Etching Slots
+  [green]+3 Charm Slots
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:catastrophe_scroll
+== celestial_artifacts:chaotic_etching
+  [#B4B4B4]Chaotic Etching
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Etching
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:chaotic_etching
+== celestial_artifacts:origin_etching
+  [#B4B4B4]Origin Etching
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Etching
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:origin_etching
+== celestial_artifacts:life_etching
+  [#B4B4B4]Life Etching
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Etching
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:life_etching
+== celestial_artifacts:truth_etching
+  [#B4B4B4]Truth Etching
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Etching
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:truth_etching
+== celestial_artifacts:desire_etching
+  [#B4B4B4]Desire Etching
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Etching
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:desire_etching
+== celestial_artifacts:nihility_etching
+  [#B4B4B4]Nihility Etching
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Etching
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:nihility_etching
+== celestial_artifacts:end_etching
+  [#B4B4B4]End Etching
+  [#B4B4B4]Common
+  [green]Slot: Celestial - Etching
+  [red]This item is disabled
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:end_etching
+== celestial_artifacts:earth_axe
+  [#B4B4B4]Earth Axe
+  [#B4B4B4]Common
+  
+  [gray]When in Main Hand:
+  [dark_green] [dark_green]17[dark_green] [dark_green]Attack Damage
+  [dark_green] [dark_green]1[dark_green] [dark_green]Attack Speed
+  [dark_green] [dark_green]2.5[dark_green] [dark_green]Attack Range
+  [blue]+[blue]4[blue] [blue]Block Reach
+  [blue]+[blue]2[blue] [blue]Entity Reach
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:earth_axe
+== celestial_artifacts:earth_pickaxe
+  [#B4B4B4]Earth Pickaxe
+  [#B4B4B4]Common
+  
+  [gray]When in Main Hand:
+  [dark_green] [dark_green]12[dark_green] [dark_green]Attack Damage
+  [dark_green] [dark_green]1.5[dark_green] [dark_green]Attack Speed
+  [blue]+[blue]4[blue] [blue]Block Reach
+  [blue]+[blue]2[blue] [blue]Entity Reach
+  [dark_green] [dark_green]3[dark_green] [dark_green]Attack Range
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:earth_pickaxe
+== celestial_artifacts:earth_shovel
+  [#B4B4B4]Earth Shovel
+  [#B4B4B4]Common
+  
+  [gray]When in Main Hand:
+  [dark_green] [dark_green]12.5[dark_green] [dark_green]Attack Damage
+  [dark_green] [dark_green]1[dark_green] [dark_green]Attack Speed
+  [blue]+[blue]4[blue] [blue]Block Reach
+  [blue]+[blue]2[blue] [blue]Entity Reach
+  [dark_green] [dark_green]3[dark_green] [dark_green]Attack Range
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:earth_shovel
+== celestial_artifacts:earth_hoe
+  [#B4B4B4]Earth Hoe
+  [#B4B4B4]Common
+  
+  [gray]When in Main Hand:
+  [dark_green] [dark_green]7[dark_green] [dark_green]Attack Damage
+  [dark_green] [dark_green]4[dark_green] [dark_green]Attack Speed
+  [blue]+[blue]4[blue] [blue]Block Reach
+  [blue]+[blue]2[blue] [blue]Entity Reach
+  [dark_green] [dark_green]3[dark_green] [dark_green]Attack Range
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:earth_hoe
+== celestial_artifacts:repent_mirror
+  [#3C96F0]Repent Mirror
+  [#3C96F0]Rare
+  [green]Teleport player to last death position. Cool down: 10 seconds
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:repent_mirror
+== celestial_artifacts:backtrack_mirror
+  [#3C96F0]Backtrack Mirror
+  [#3C96F0]Rare
+  [green]Teleport player to spawning point. Cool down: 10 seconds
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:backtrack_mirror
+== celestial_artifacts:purified_powder
+  [#B4B4B4]Purified Powder
+  [#B4B4B4]Common
+  [gray]Remove curse on off hand item
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:purified_powder
+== celestial_artifacts:unlucky_potato
+  [#B4B4B4]Unlucky Potato
+  [#B4B4B4]Common
+  [dark_gray]Hold Z: drop sources | X: craft uses | C: how to craft
+  [dark_gray]celestial_artifacts:unlucky_potato

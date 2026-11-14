@@ -24,7 +24,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "zombie_extreme:ignotsteel",
+              "name": "zombie_extreme:raw_steel",
               "functions": [
                 {
                   "function": "minecraft:set_count",

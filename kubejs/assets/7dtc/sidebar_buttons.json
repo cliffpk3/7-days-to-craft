@@ -1,0 +1,26 @@
+{
+	"gamemode.survival": {
+		"group": "ftblibrary:cheat",
+		"icon": ["ftblibrary:icons/blue_button", "7dtc:textures/icons/gamemode_survival.png"],
+		"x": 101,
+		"click": "command:/gamemode survival",
+		"hide_with_nei": true,
+		"requires_op": true
+	},
+	"gamemode.creative": {
+		"group": "ftblibrary:cheat",
+		"icon": ["ftblibrary:icons/blue_button", "7dtc:textures/icons/gamemode_creative.png"],
+		"x": 102,
+		"click": "command:/gamemode creative",
+		"hide_with_nei": true,
+		"requires_op": true
+	},
+	"gamemode.spectator": {
+		"group": "ftblibrary:cheat",
+		"icon": ["ftblibrary:icons/blue_button", "7dtc:textures/icons/gamemode_spectator.png"],
+		"x": 103,
+		"click": "command:/gamemode spectator",
+		"hide_with_nei": true,
+		"requires_op": true
+	}
+}

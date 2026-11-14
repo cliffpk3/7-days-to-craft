@@ -1274,6 +1274,10 @@
       "required": false
     },
     {
+      "id": "minecraft:stone_axe",
+      "required": false
+    },
+    {
       "id": "minecraft:stone_bricks",
       "required": false
     },
@@ -1391,6 +1395,10 @@
     },
     {
       "id": "minecraft:wither_skeleton_skull",
+      "required": false
+    },
+    {
+      "id": "minecraft:wooden_axe",
       "required": false
     },
     {
@@ -1570,6 +1578,14 @@
       "required": false
     },
     {
+      "id": "seven_days_traps:barbed_wire",
+      "required": false
+    },
+    {
+      "id": "seven_days_traps:can_alarm",
+      "required": false
+    },
+    {
       "id": "seven_days_traps:wire_trap",
       "required": false
     },
@@ -1650,7 +1666,7 @@
       "required": false
     },
     {
-      "id": "survival_instinct:empty_bottle",
+      "id": "sa_core:empty_glass_bottle",
       "required": false
     },
     {

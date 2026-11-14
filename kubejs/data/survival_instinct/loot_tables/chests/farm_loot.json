@@ -408,7 +408,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:empty_bottle",
+          "name": "sa_core:empty_glass_bottle",
           "weight": 1,
           "functions": [
             {

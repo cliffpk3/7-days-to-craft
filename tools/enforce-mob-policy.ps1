@@ -57,7 +57,7 @@ if (Test-Path -LiteralPath $compassRoot) {
 }
 
 if ($errors.Count -gt 0) {
-    foreach ($error in $errors) { Write-Error $error }
+    foreach ($problem in $errors) { Write-Error $problem }
     exit 1
 }
 Write-Host "Politica de mobs valida: $($ids.Count) entidades de encontro com nivel/loot; icones restritos a players." -ForegroundColor Green

@@ -284,14 +284,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
-          "weight": 20,
+          "weight": 10,
           "functions": [
             {
               "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
+              "count": 1
             }
           ]
         }
@@ -307,8 +304,7 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "survival_instinct:night_vision_goggles_helmet",
+          "type": "minecraft:empty",
           "weight": 1
         },
         {

@@ -1,0 +1,8 @@
+{
+  "sidebar_button.7dtc.gamemode.survival": "Survival",
+  "sidebar_button.7dtc.gamemode.survival.tooltip": "Switch to Survival mode",
+  "sidebar_button.7dtc.gamemode.creative": "Creative",
+  "sidebar_button.7dtc.gamemode.creative.tooltip": "Switch to Creative mode",
+  "sidebar_button.7dtc.gamemode.spectator": "Spectator",
+  "sidebar_button.7dtc.gamemode.spectator.tooltip": "Switch to Spectator mode"
+}

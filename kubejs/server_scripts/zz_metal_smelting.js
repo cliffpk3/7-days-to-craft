@@ -3,7 +3,7 @@
 ServerEvents.recipes(event => {
   const metals = [
     ['lead', 'zombie_extreme:raw_lead', 'zombie_extreme:ignotlead'],
-    ['steel', 'zombie_extreme:raw_steel', 'zombie_extreme:ignotsteel'],
+    // 12/11/2026: steel unified as Steellium (Utility level 2, 3 raw steel); no ZE steel ingot.
     ['aluminum', 'zombie_extreme:raw_aluminum', 'zombie_extreme:ignot_aluminum']
   ]
   metals.forEach(([name, raw, ingot]) => {

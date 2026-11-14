@@ -24,14 +24,11 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:gunpowder",
-          "weight": 400,
+          "weight": 200,
           "functions": [
             {
               "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
-              }
+              "count": 1
             }
           ]
         },
@@ -65,14 +62,15 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "name": "minecraft:iron_nugget",
           "weight": 60,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
-                "max": 1
+                "max": 2
               }
             }
           ]
@@ -101,14 +99,15 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "name": "minecraft:iron_nugget",
           "weight": 240,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
-                "max": 1
+                "max": 2
               }
             }
           ]
@@ -129,7 +128,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "zombie_extreme:ignotsteel",
+          "name": "zombie_extreme:raw_steel",
           "weight": 120,
           "functions": [
             {
@@ -179,7 +178,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "zombie_extreme:ignotsteel",
+          "name": "zombie_extreme:raw_steel",
           "weight": 100,
           "functions": [
             {
@@ -193,14 +192,15 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:iron_ingot",
+          "name": "minecraft:iron_nugget",
           "weight": 100,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
+                "type": "minecraft:uniform",
                 "min": 1,
-                "max": 1
+                "max": 2
               }
             }
           ]
@@ -245,8 +245,7 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "survival_instinct:night_vision_goggles_helmet",
+          "type": "minecraft:empty",
           "weight": 1
         },
         {

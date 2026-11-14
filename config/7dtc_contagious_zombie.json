@@ -1,8 +1,14 @@
 {
-  "notes": "Contagious Zombie (vanilla zombie variant with red glowing eyes). chance: natural spawn outside cities; cityChance: inside Lost Cities; cap: at most capCount within capRadius blocks; any hit on an uninfected player applies hordes:infected for infectionTicks.",
+  "notes": "Contagious Zombie (vanilla zombie variant with red glowing eyes). chance: natural spawn outside cities; cityChance: inside Lost Cities; cap: at most capCount within capRadius blocks; any hit on an uninfected player applies hordes:infected for infectionTicks. parasiteChance: on death, chance to burst into Zombie Extreme parasites (parasiteMin..parasiteMax, even odds). deepChance/deepY/deepCapCount (13/11/2026): below deepY (the deepslate) and above the bedrock, a new common zombie becomes Contagious with deepChance, up to deepCapCount within capRadius.",
   "chance": 0.02,
   "cityChance": 0.06,
   "capRadius": 64,
   "capCount": 2,
-  "infectionTicks": 6000
+  "infectionTicks": 6000,
+  "parasiteChance": 0.6,
+  "parasiteMin": 2,
+  "parasiteMax": 3,
+  "deepChance": 0.25,
+  "deepY": 0,
+  "deepCapCount": 5
 }

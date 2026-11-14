@@ -201,20 +201,20 @@
 		{
 			description: [
 				"Where to find:"
-				"Smelt Raw Steel, dropped by: Husk 90%, Goon 62%, Infected Police 58%, Infected 55%"
+				"Process 3 Raw Steel at the Utility Workbench level 2. Raw Steel is dropped by: Husk 90%, Goon 62%, Infected Police 58%, Infected 55%"
 				""
 				"Used for:"
-				"Used in 2 workbench recipes (hold X on the item)."
+				"Base metal of level 2: armor, armor plates, gear, advanced ammo (hold X on the item)."
 			]
-			icon: "zombie_extreme:ignotsteel"
+			icon: "survival_instinct:steellium"
 			id: "7D7C50000000000A"
 			optional: true
 			tasks: [{
 				id: "7D7C51000000000A"
-				item: "zombie_extreme:ignotsteel"
+				item: "survival_instinct:steellium"
 				type: "item"
 			}]
-			title: "Steel Ingot"
+			title: "Steellium"
 			x: 6.0d
 			y: 1.5d
 		}

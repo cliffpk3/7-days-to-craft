@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "status": "first_playable_pass; sa_core_multitools_20261110: multiferramentas so na bancada de utilidades (N2 sucata, N3 aco cinzento)",
+  "status": "first_playable_pass; sa_core_multitools_20261110: multiferramentas so na bancada de utilidades (N2 sucata, N3 aco cinzento); recipe_review_20261112; darkzone_balance_20261113",
   "recipes": [
     {
       "bench": "weapons",
@@ -599,6 +599,10 @@
         {
           "item": "minecraft:netherite_ingot",
           "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         }
       ]
     },
@@ -647,6 +651,10 @@
         {
           "item": "minecraft:netherite_ingot",
           "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         }
       ]
     },
@@ -679,6 +687,10 @@
         {
           "item": "minecraft:netherite_ingot",
           "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         }
       ]
     },
@@ -694,6 +706,10 @@
         },
         {
           "item": "minecraft:netherite_ingot",
+          "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
           "count": 1
         }
       ]
@@ -1253,6 +1269,10 @@
         {
           "item": "minecraft:leather",
           "count": 2
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 2
         }
       ]
     },
@@ -1614,12 +1634,8 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 5
-        },
-        {
-          "item": "scguns:armor_plate",
-          "count": 1
+          "item": "survival_instinct:steellium",
+          "count": 2
         },
         {
           "item": "survival_instinct:cloth",
@@ -1634,12 +1650,8 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 8
-        },
-        {
-          "item": "scguns:armor_plate",
-          "count": 1
+          "item": "survival_instinct:steellium",
+          "count": 4
         },
         {
           "item": "survival_instinct:cloth",
@@ -1654,12 +1666,8 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 7
-        },
-        {
-          "item": "scguns:armor_plate",
-          "count": 1
+          "item": "survival_instinct:steellium",
+          "count": 3
         },
         {
           "item": "survival_instinct:cloth",
@@ -1674,12 +1682,8 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 4
-        },
-        {
-          "item": "scguns:armor_plate",
-          "count": 1
+          "item": "survival_instinct:steellium",
+          "count": 2
         },
         {
           "item": "survival_instinct:cloth",
@@ -1694,12 +1698,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 5
+          "item": "survival_instinct:steellium",
+          "count": 2
         },
         {
           "item": "scguns:armor_plate",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -1710,12 +1714,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 8
+          "item": "survival_instinct:steellium",
+          "count": 4
         },
         {
           "item": "scguns:armor_plate",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -1726,12 +1730,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 7
+          "item": "survival_instinct:steellium",
+          "count": 3
         },
         {
           "item": "scguns:armor_plate",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -1742,12 +1746,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 4
+          "item": "survival_instinct:steellium",
+          "count": 2
         },
         {
           "item": "scguns:armor_plate",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -1762,7 +1766,7 @@
           "count": 5
         },
         {
-          "item": "scguns:armor_plate",
+          "item": "zombie_extreme:titan_plate",
           "count": 1
         }
       ]
@@ -1778,7 +1782,7 @@
           "count": 8
         },
         {
-          "item": "scguns:armor_plate",
+          "item": "zombie_extreme:titan_plate",
           "count": 1
         }
       ]
@@ -1794,7 +1798,7 @@
           "count": 7
         },
         {
-          "item": "scguns:armor_plate",
+          "item": "zombie_extreme:titan_plate",
           "count": 1
         }
       ]
@@ -1810,7 +1814,7 @@
           "count": 4
         },
         {
-          "item": "scguns:armor_plate",
+          "item": "zombie_extreme:titan_plate",
           "count": 1
         }
       ]
@@ -1822,15 +1826,11 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:diamond",
-          "count": 5
-        },
-        {
-          "item": "scguns:heavy_armor_plate",
+          "item": "zombie_extreme:titan_plate",
           "count": 2
         },
         {
-          "item": "scguns:armor_plate",
+          "item": "scguns:heavy_armor_plate",
           "count": 2
         }
       ]
@@ -1842,15 +1842,11 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:diamond",
-          "count": 8
+          "item": "zombie_extreme:titan_plate",
+          "count": 4
         },
         {
           "item": "scguns:heavy_armor_plate",
-          "count": 2
-        },
-        {
-          "item": "scguns:armor_plate",
           "count": 2
         }
       ]
@@ -1862,15 +1858,11 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:diamond",
-          "count": 7
+          "item": "zombie_extreme:titan_plate",
+          "count": 3
         },
         {
           "item": "scguns:heavy_armor_plate",
-          "count": 2
-        },
-        {
-          "item": "scguns:armor_plate",
           "count": 2
         }
       ]
@@ -1882,15 +1874,11 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:diamond",
-          "count": 4
-        },
-        {
-          "item": "scguns:heavy_armor_plate",
+          "item": "zombie_extreme:titan_plate",
           "count": 2
         },
         {
-          "item": "scguns:armor_plate",
+          "item": "scguns:heavy_armor_plate",
           "count": 2
         }
       ]
@@ -1902,20 +1890,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:diamond",
-          "count": 5
-        },
-        {
-          "item": "scguns:heavy_armor_plate",
+          "item": "zombie_extreme:titan_plate",
           "count": 2
         },
         {
-          "item": "scguns:diamond_steel_gun_frame",
+          "item": "survival_instinct:exo_component",
           "count": 1
-        },
-        {
-          "item": "scguns:energy_cell",
-          "count": 2
         }
       ]
     },
@@ -1926,20 +1906,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:diamond",
-          "count": 8
+          "item": "zombie_extreme:titan_plate",
+          "count": 4
         },
         {
-          "item": "scguns:heavy_armor_plate",
-          "count": 2
-        },
-        {
-          "item": "scguns:diamond_steel_gun_frame",
+          "item": "survival_instinct:exo_component",
           "count": 1
-        },
-        {
-          "item": "scguns:energy_cell",
-          "count": 2
         }
       ]
     },
@@ -1950,20 +1922,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:diamond",
-          "count": 7
+          "item": "zombie_extreme:titan_plate",
+          "count": 3
         },
         {
-          "item": "scguns:heavy_armor_plate",
-          "count": 2
-        },
-        {
-          "item": "scguns:diamond_steel_gun_frame",
+          "item": "survival_instinct:exo_component",
           "count": 1
-        },
-        {
-          "item": "scguns:energy_cell",
-          "count": 2
         }
       ]
     },
@@ -1974,20 +1938,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:diamond",
-          "count": 4
-        },
-        {
-          "item": "scguns:heavy_armor_plate",
+          "item": "zombie_extreme:titan_plate",
           "count": 2
         },
         {
-          "item": "scguns:diamond_steel_gun_frame",
+          "item": "survival_instinct:exo_component",
           "count": 1
-        },
-        {
-          "item": "scguns:energy_cell",
-          "count": 2
         }
       ]
     },
@@ -2094,7 +2050,7 @@
       "count": 16,
       "materials": [
         {
-          "item": "minecraft:copper_ingot",
+          "item": "create:brass_ingot",
           "count": 2
         },
         {
@@ -2102,8 +2058,8 @@
           "count": 4
         },
         {
-          "item": "zombie_extreme:ignotsteel",
-          "count": 2
+          "item": "survival_instinct:steellium",
+          "count": 1
         }
       ]
     },
@@ -2114,7 +2070,7 @@
       "count": 16,
       "materials": [
         {
-          "item": "minecraft:copper_ingot",
+          "item": "create:brass_ingot",
           "count": 3
         },
         {
@@ -2122,8 +2078,8 @@
           "count": 4
         },
         {
-          "item": "zombie_extreme:ignotsteel",
-          "count": 3
+          "item": "survival_instinct:steellium",
+          "count": 1
         }
       ]
     },
@@ -2140,10 +2096,6 @@
         {
           "item": "minecraft:amethyst_shard",
           "count": 2
-        },
-        {
-          "item": "minecraft:iron_ingot",
-          "count": 4
         },
         {
           "item": "minecraft:diamond",
@@ -2166,12 +2118,8 @@
           "count": 2
         },
         {
-          "item": "minecraft:redstone",
-          "count": 3
-        },
-        {
           "item": "minecraft:quartz",
-          "count": 1
+          "count": 2
         }
       ]
     },
@@ -2208,10 +2156,6 @@
         {
           "item": "minecraft:gunpowder",
           "count": 8
-        },
-        {
-          "item": "minecraft:redstone",
-          "count": 2
         },
         {
           "item": "scguns:gun_parts",
@@ -2270,15 +2214,11 @@
           "count": 3
         },
         {
-          "item": "minecraft:gunpowder",
-          "count": 3
-        },
-        {
           "item": "scguns:sulfur_chunk",
           "count": 2
         },
         {
-          "item": "minecraft:glass_bottle",
+          "item": "sa_core:empty_glass_bottle",
           "count": 2
         }
       ]
@@ -2442,6 +2382,10 @@
         {
           "item": "survival_instinct:steellium",
           "count": 1
+        },
+        {
+          "item": "scguns:raw_phosphor",
+          "count": 1
         }
       ]
     },
@@ -2524,35 +2468,11 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:copper_ingot",
-          "count": 4
+          "item": "survival_instinct:steellium",
+          "count": 2
         },
         {
           "item": "born_in_chaos_v1:monster_skin",
-          "count": 2
-        },
-        {
-          "item": "zombie_extreme:raw_steel",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "bench": "utility_potion",
-      "level": 2,
-      "output": "fracturepoint:nvg_battery",
-      "count": 1,
-      "materials": [
-        {
-          "item": "minecraft:redstone",
-          "count": 4
-        },
-        {
-          "item": "minecraft:copper_ingot",
-          "count": 2
-        },
-        {
-          "item": "minecraft:quartz",
           "count": 2
         }
       ]
@@ -2565,10 +2485,6 @@
       "materials": [
         {
           "item": "scguns:firing_unit",
-          "count": 3
-        },
-        {
-          "item": "scguns:gun_magazine",
           "count": 2
         },
         {
@@ -2576,8 +2492,8 @@
           "count": 4
         },
         {
-          "item": "minecraft:redstone",
-          "count": 4
+          "item": "minecraft:gold_ingot",
+          "count": 1
         }
       ]
     },
@@ -2593,10 +2509,6 @@
         },
         {
           "item": "scguns:heavy_gun_parts",
-          "count": 2
-        },
-        {
-          "item": "survival_instinct:steellium",
           "count": 1
         }
       ]
@@ -2624,35 +2536,11 @@
       "count": 1,
       "materials": [
         {
-          "item": "scguns:armor_plate",
+          "item": "zombie_extreme:titan_plate",
           "count": 2
         },
         {
-          "item": "survival_instinct:body_armor_plate_ii",
-          "count": 2
-        },
-        {
-          "item": "zombie_extreme:raw_steel",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "bench": "utility_potion",
-      "level": 3,
-      "output": "scguns:raw_anthralite",
-      "count": 1,
-      "materials": [
-        {
-          "item": "minecraft:iron_ingot",
-          "count": 8
-        },
-        {
-          "item": "minecraft:flint",
-          "count": 2
-        },
-        {
-          "item": "create:zinc_ingot",
+          "item": "born_in_chaos_v1:monster_skin",
           "count": 2
         }
       ]
@@ -2676,7 +2564,7 @@
           "count": 2
         },
         {
-          "item": "minecraft:iron_ingot",
+          "item": "born_in_chaos_v1:monster_skin",
           "count": 2
         }
       ]
@@ -2692,10 +2580,6 @@
           "count": 1
         },
         {
-          "item": "survival_instinct:cloth",
-          "count": 1
-        },
-        {
           "item": "survival_instinct:alcohol_wipes",
           "count": 1
         }
@@ -2708,7 +2592,7 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:glass_bottle",
+          "item": "sa_core:empty_glass_bottle",
           "count": 1
         },
         {
@@ -2716,17 +2600,8 @@
           "count": 2
         },
         {
-          "item": "minecraft:sugar",
-          "count": 2
-        },
-        {
-          "item": "minecraft:honey_bottle",
-          "count": 1
-        },
-        {
           "item": "minecraft:charcoal",
-          "count": 1,
-          "tag": "minecraft:coals"
+          "count": 1
         }
       ]
     },
@@ -2737,20 +2612,16 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:glass_bottle",
+          "item": "scguns:needle",
           "count": 1
         },
         {
-          "item": "minecraft:iron_nugget",
-          "count": 2
+          "item": "sa_core:empty_glass_bottle",
+          "count": 1
         },
         {
           "item": "minecraft:sugar",
           "count": 3
-        },
-        {
-          "item": "minecraft:redstone",
-          "count": 2
         }
       ]
     },
@@ -2761,21 +2632,16 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:glass_bottle",
+          "item": "scguns:needle",
           "count": 1
         },
         {
-          "item": "minecraft:iron_nugget",
-          "count": 2
+          "item": "sa_core:empty_glass_bottle",
+          "count": 1
         },
         {
           "item": "minecraft:poppy",
           "count": 3
-        },
-        {
-          "item": "minecraft:charcoal",
-          "count": 2,
-          "tag": "minecraft:coals"
         }
       ]
     },
@@ -2791,15 +2657,7 @@
         },
         {
           "item": "minecraft:gold_nugget",
-          "count": 2
-        },
-        {
-          "item": "minecraft:quartz",
-          "count": 1
-        },
-        {
-          "item": "minecraft:sugar",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -2815,15 +2673,7 @@
         },
         {
           "item": "minecraft:gold_nugget",
-          "count": 2
-        },
-        {
-          "item": "minecraft:quartz",
-          "count": 1
-        },
-        {
-          "item": "minecraft:poppy",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -2858,16 +2708,8 @@
           "count": 1
         },
         {
-          "item": "survival_instinct:antibiotics",
-          "count": 2
-        },
-        {
           "item": "survival_instinct:adrenaline_syringe",
           "count": 1
-        },
-        {
-          "item": "survival_instinct:bandage",
-          "count": 2
         },
         {
           "item": "minecraft:gold_ingot",
@@ -2888,18 +2730,6 @@
         {
           "item": "minecraft:golden_apple",
           "count": 1
-        },
-        {
-          "item": "minecraft:ghast_tear",
-          "count": 1
-        },
-        {
-          "item": "minecraft:glass_bottle",
-          "count": 1
-        },
-        {
-          "item": "minecraft:iron_nugget",
-          "count": 2
         }
       ]
     },
@@ -2930,7 +2760,7 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
+          "item": "create:andesite_alloy",
           "count": 4
         },
         {
@@ -2958,16 +2788,8 @@
           "count": 1
         },
         {
-          "item": "scguns:iron_gun_frame",
-          "count": 1
-        },
-        {
           "item": "scguns:gun_barrel",
           "count": 1
-        },
-        {
-          "item": "scguns:anthralite_ingot",
-          "count": 2
         }
       ]
     },
@@ -3006,20 +2828,8 @@
           "count": 1
         },
         {
-          "item": "scguns:iron_gun_frame",
-          "count": 1
-        },
-        {
           "item": "scguns:heavy_gun_barrel",
           "count": 1
-        },
-        {
-          "item": "scguns:gun_barrel",
-          "count": 1
-        },
-        {
-          "item": "scguns:anthralite_ingot",
-          "count": 3
         }
       ]
     },
@@ -3038,16 +2848,8 @@
           "count": 1
         },
         {
-          "item": "scguns:iron_gun_frame",
-          "count": 1
-        },
-        {
           "item": "scguns:heavy_gun_barrel",
           "count": 2
-        },
-        {
-          "item": "scguns:anthralite_ingot",
-          "count": 3
         }
       ]
     },
@@ -3066,16 +2868,8 @@
           "count": 1
         },
         {
-          "item": "scguns:iron_gun_frame",
-          "count": 1
-        },
-        {
           "item": "scguns:heavy_gun_barrel",
           "count": 1
-        },
-        {
-          "item": "scguns:anthralite_ingot",
-          "count": 4
         },
         {
           "item": "minecraft:diamond",
@@ -3288,20 +3082,16 @@
       "count": 1,
       "materials": [
         {
-          "item": "create:shaft",
-          "count": 2
-        },
-        {
           "item": "create:andesite_casing",
           "count": 1
         },
         {
-          "item": "minecraft:redstone",
-          "count": 6
+          "item": "create:shaft",
+          "count": 1
         },
         {
-          "item": "minecraft:iron_ingot",
-          "count": 4
+          "item": "minecraft:redstone",
+          "count": 1
         }
       ]
     },
@@ -3312,20 +3102,16 @@
       "count": 1,
       "materials": [
         {
-          "item": "create:cogwheel",
-          "count": 2
-        },
-        {
           "item": "create:andesite_casing",
           "count": 1
         },
         {
-          "item": "minecraft:redstone",
-          "count": 8
+          "item": "create:cogwheel",
+          "count": 1
         },
         {
-          "item": "minecraft:iron_ingot",
-          "count": 4
+          "item": "minecraft:redstone",
+          "count": 1
         }
       ]
     },
@@ -3403,15 +3189,11 @@
         },
         {
           "item": "create:shaft",
-          "count": 2
-        },
-        {
-          "item": "minecraft:iron_ingot",
-          "count": 8
+          "count": 1
         },
         {
           "item": "minecraft:iron_bars",
-          "count": 4
+          "count": 2
         }
       ]
     },
@@ -3423,19 +3205,15 @@
       "materials": [
         {
           "item": "create:andesite_casing",
-          "count": 2
+          "count": 1
         },
         {
           "item": "create:shaft",
-          "count": 2
+          "count": 1
         },
         {
           "item": "minecraft:iron_block",
-          "count": 2
-        },
-        {
-          "item": "create:cogwheel",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -3447,15 +3225,11 @@
       "materials": [
         {
           "item": "create:andesite_casing",
-          "count": 2
+          "count": 1
         },
         {
           "item": "create:cogwheel",
-          "count": 3
-        },
-        {
-          "item": "minecraft:iron_ingot",
-          "count": 12
+          "count": 1
         },
         {
           "item": "create:whisk",
@@ -3470,20 +3244,16 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 18
+          "item": "minecraft:crossbow",
+          "count": 1
         },
         {
           "item": "survival_instinct:rope",
           "count": 3
         },
         {
-          "item": "minecraft:crossbow",
-          "count": 1
-        },
-        {
-          "item": "minecraft:ender_pearl",
-          "count": 1
+          "item": "survival_instinct:steellium",
+          "count": 2
         }
       ]
     },
@@ -3494,24 +3264,16 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 16
+          "item": "survival_instinct:steellium",
+          "count": 4
         },
         {
           "item": "minecraft:copper_ingot",
-          "count": 12
+          "count": 8
         },
         {
           "item": "minecraft:redstone",
-          "count": 12
-        },
-        {
-          "item": "minecraft:diamond",
-          "count": 2
-        },
-        {
-          "item": "minecraft:crafting_table",
-          "count": 1
+          "count": 8
         }
       ]
     },
@@ -3522,27 +3284,15 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 30
-        },
-        {
-          "item": "minecraft:diamond",
-          "count": 2
-        },
-        {
           "item": "minecraft:diamond_helmet",
           "count": 1
         },
         {
+          "item": "scguns:heavy_armor_plate",
+          "count": 1
+        },
+        {
           "item": "minecraft:tinted_glass",
-          "count": 4
-        },
-        {
-          "item": "minecraft:amethyst_shard",
-          "count": 6
-        },
-        {
-          "item": "minecraft:comparator",
           "count": 2
         }
       ]
@@ -3554,28 +3304,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 50
-        },
-        {
-          "item": "minecraft:diamond",
-          "count": 5
-        },
-        {
           "item": "minecraft:diamond_chestplate",
           "count": 1
         },
         {
-          "item": "minecraft:obsidian",
-          "count": 5
-        },
-        {
-          "item": "minecraft:leather",
-          "count": 12
-        },
-        {
-          "item": "minecraft:echo_shard",
-          "count": 1
+          "item": "scguns:heavy_armor_plate",
+          "count": 3
         }
       ]
     },
@@ -3586,28 +3320,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 40
-        },
-        {
-          "item": "minecraft:diamond",
-          "count": 3
-        },
-        {
           "item": "minecraft:diamond_leggings",
           "count": 1
         },
         {
-          "item": "minecraft:copper_ingot",
-          "count": 10
-        },
-        {
-          "item": "minecraft:string",
-          "count": 14
-        },
-        {
-          "item": "minecraft:amethyst_shard",
-          "count": 4
+          "item": "scguns:heavy_armor_plate",
+          "count": 2
         }
       ]
     },
@@ -3618,28 +3336,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 26
-        },
-        {
-          "item": "minecraft:diamond",
-          "count": 2
-        },
-        {
           "item": "minecraft:diamond_boots",
           "count": 1
         },
         {
-          "item": "minecraft:leather",
-          "count": 10
-        },
-        {
-          "item": "minecraft:slime_ball",
-          "count": 4
-        },
-        {
-          "item": "minecraft:feather",
-          "count": 8
+          "item": "scguns:heavy_armor_plate",
+          "count": 1
         }
       ]
     },
@@ -3650,28 +3352,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 32
-        },
-        {
-          "item": "minecraft:diamond",
-          "count": 2
-        },
-        {
           "item": "minecraft:diamond_helmet",
           "count": 1
         },
         {
-          "item": "minecraft:leather",
-          "count": 6
-        },
-        {
-          "item": "minecraft:redstone",
-          "count": 6
-        },
-        {
-          "item": "minecraft:gray_dye",
-          "count": 4
+          "item": "zombie_extreme:titan_plate",
+          "count": 1
         }
       ]
     },
@@ -3682,28 +3368,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "minecraft:iron_ingot",
-          "count": 48
-        },
-        {
-          "item": "minecraft:diamond",
-          "count": 4
-        },
-        {
           "item": "minecraft:diamond_chestplate",
           "count": 1
         },
         {
-          "item": "minecraft:leather",
-          "count": 14
-        },
-        {
-          "item": "minecraft:obsidian",
-          "count": 3
-        },
-        {
-          "item": "minecraft:gray_dye",
-          "count": 6
+          "item": "zombie_extreme:titan_plate",
+          "count": 2
         }
       ]
     },
@@ -3730,10 +3400,6 @@
           "count": 1
         },
         {
-          "item": "scguns:anthralite_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:gun_grip",
           "count": 1
         }
@@ -3751,10 +3417,6 @@
         },
         {
           "item": "scguns:heavy_gun_parts",
-          "count": 1
-        },
-        {
-          "item": "scguns:scorched_ingot",
           "count": 1
         },
         {
@@ -3815,10 +3477,6 @@
         },
         {
           "item": "scguns:gun_parts",
-          "count": 1
-        },
-        {
-          "item": "scguns:treated_iron_ingot",
           "count": 1
         },
         {
@@ -3904,10 +3562,6 @@
         },
         {
           "item": "scguns:copper_gun_frame",
-          "count": 1
-        },
-        {
-          "item": "minecraft:copper_ingot",
           "count": 1
         },
         {
@@ -4252,10 +3906,6 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:gun_grip",
           "count": 1
         }
@@ -4321,9 +3971,8 @@
           "count": 2
         },
         {
-          "item": "minecraft:oak_planks",
-          "count": 1,
-          "tag": "minecraft:planks"
+          "item": "scguns:diamond_steel_ingot",
+          "count": 2
         }
       ]
     },
@@ -4342,10 +3991,6 @@
           "count": 1
         },
         {
-          "item": "scguns:scorched_ingot",
-          "count": 2
-        },
-        {
           "item": "scguns:scorched_gun_frame",
           "count": 1
         },
@@ -4356,6 +4001,10 @@
         {
           "item": "scguns:gun_grip",
           "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 2
         }
       ]
     },
@@ -4416,10 +4065,6 @@
         {
           "item": "scguns:gun_barrel",
           "count": 1
-        },
-        {
-          "item": "scguns:scorched_ingot",
-          "count": 2
         }
       ]
     },
@@ -4535,10 +4180,6 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:treated_brass_gun_frame",
           "count": 1
         },
@@ -4599,10 +4240,6 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:treated_brass_gun_frame",
           "count": 1
         },
@@ -4631,10 +4268,6 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:treated_brass_gun_frame",
           "count": 1
         },
@@ -4660,10 +4293,6 @@
         },
         {
           "item": "scguns:gun_parts",
-          "count": 1
-        },
-        {
-          "item": "scguns:treated_brass_ingot",
           "count": 1
         },
         {
@@ -4727,10 +4356,6 @@
           "count": 2
         },
         {
-          "item": "scguns:treated_brass_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:treated_brass_gun_frame",
           "count": 1
         },
@@ -4756,10 +4381,6 @@
         },
         {
           "item": "scguns:gun_parts",
-          "count": 1
-        },
-        {
-          "item": "scguns:treated_iron_ingot",
           "count": 1
         },
         {
@@ -4791,10 +4412,6 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
-          "count": 2
-        },
-        {
           "item": "scguns:treated_brass_gun_frame",
           "count": 1
         },
@@ -4821,10 +4438,6 @@
         {
           "item": "scguns:heavy_gun_parts",
           "count": 1
-        },
-        {
-          "item": "scguns:treated_brass_ingot",
-          "count": 2
         },
         {
           "item": "scguns:treated_brass_gun_frame",
@@ -4860,10 +4473,6 @@
         },
         {
           "item": "scguns:treated_iron_gun_frame",
-          "count": 2
-        },
-        {
-          "item": "scguns:treated_iron_ingot",
           "count": 2
         },
         {
@@ -4919,10 +4528,6 @@
           "count": 1
         },
         {
-          "item": "scguns:diamond_steel_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:diamond_steel_gun_frame",
           "count": 1
         },
@@ -4948,10 +4553,6 @@
         },
         {
           "item": "scguns:heavy_gun_parts",
-          "count": 1
-        },
-        {
-          "item": "scguns:diamond_steel_ingot",
           "count": 1
         },
         {
@@ -4983,10 +4584,6 @@
           "count": 1
         },
         {
-          "item": "minecraft:iron_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:iron_gun_frame",
           "count": 1
         },
@@ -5012,10 +4609,6 @@
         },
         {
           "item": "scguns:heavy_gun_parts",
-          "count": 1
-        },
-        {
-          "item": "scguns:treated_brass_ingot",
           "count": 1
         },
         {
@@ -5047,10 +4640,6 @@
           "count": 1
         },
         {
-          "item": "minecraft:iron_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:treated_iron_gun_frame",
           "count": 1
         },
@@ -5076,10 +4665,6 @@
         },
         {
           "item": "scguns:heavy_gun_parts",
-          "count": 1
-        },
-        {
-          "item": "scguns:treated_iron_ingot",
           "count": 1
         },
         {
@@ -5143,10 +4728,6 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:treated_brass_gun_frame",
           "count": 1
         },
@@ -5172,10 +4753,6 @@
         },
         {
           "item": "scguns:gun_parts",
-          "count": 1
-        },
-        {
-          "item": "minecraft:copper_ingot",
           "count": 1
         },
         {
@@ -5207,10 +4784,6 @@
           "count": 1
         },
         {
-          "item": "scguns:diamond_steel_ingot",
-          "count": 2
-        },
-        {
           "item": "scguns:diamond_steel_gun_frame",
           "count": 1
         },
@@ -5239,10 +4812,6 @@
           "count": 1
         },
         {
-          "item": "scguns:scorched_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:scorched_gun_frame",
           "count": 1
         },
@@ -5253,6 +4822,10 @@
         {
           "item": "scguns:gun_grip",
           "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 2
         }
       ]
     },
@@ -5273,10 +4846,6 @@
         {
           "item": "scguns:treated_brass_gun_frame",
           "count": 2
-        },
-        {
-          "item": "scguns:anthralite_ingot",
-          "count": 1
         },
         {
           "item": "scguns:gun_grip",
@@ -5335,10 +4904,6 @@
           "count": 1
         },
         {
-          "item": "minecraft:iron_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:iron_gun_frame",
           "count": 1
         },
@@ -5365,10 +4930,6 @@
         {
           "item": "scguns:gun_parts",
           "count": 1
-        },
-        {
-          "item": "minecraft:iron_ingot",
-          "count": 2
         },
         {
           "item": "scguns:iron_gun_frame",
@@ -5455,10 +5016,6 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:iron_gun_frame",
           "count": 1
         },
@@ -5487,10 +5044,6 @@
           "count": 1
         },
         {
-          "item": "scguns:diamond_steel_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:diamond_steel_gun_frame",
           "count": 1
         },
@@ -5516,10 +5069,6 @@
         },
         {
           "item": "scguns:heavy_gun_parts",
-          "count": 1
-        },
-        {
-          "item": "scguns:diamond_steel_ingot",
           "count": 1
         },
         {
@@ -5581,10 +5130,6 @@
         {
           "item": "scguns:heavy_gun_parts",
           "count": 1
-        },
-        {
-          "item": "scguns:diamond_steel_ingot",
-          "count": 2
         },
         {
           "item": "scguns:diamond_steel_gun_frame",
@@ -5679,10 +5224,6 @@
           "count": 1
         },
         {
-          "item": "scguns:scorched_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:scorched_gun_frame",
           "count": 1
         },
@@ -5708,10 +5249,6 @@
         },
         {
           "item": "scguns:gun_magazine",
-          "count": 1
-        },
-        {
-          "item": "scguns:scorched_ingot",
           "count": 1
         },
         {
@@ -5741,10 +5278,6 @@
         {
           "item": "scguns:gun_parts",
           "count": 1
-        },
-        {
-          "item": "scguns:treated_brass_ingot",
-          "count": 2
         },
         {
           "item": "scguns:treated_brass_gun_frame",
@@ -5804,10 +5337,6 @@
         },
         {
           "item": "scguns:heavy_gun_parts",
-          "count": 1
-        },
-        {
-          "item": "scguns:diamond_steel_ingot",
           "count": 1
         },
         {
@@ -6000,12 +5529,12 @@
           "count": 1
         },
         {
-          "item": "scguns:anthralite_ingot",
+          "item": "scguns:gun_grip",
           "count": 1
         },
         {
-          "item": "scguns:gun_grip",
-          "count": 1
+          "item": "scguns:diamond_steel_ingot",
+          "count": 2
         }
       ]
     },
@@ -6053,10 +5582,6 @@
           "count": 1
         },
         {
-          "item": "scguns:diamond_steel_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:diamond_steel_gun_frame",
           "count": 1
         },
@@ -6082,10 +5607,6 @@
         },
         {
           "item": "scguns:gun_parts",
-          "count": 1
-        },
-        {
-          "item": "minecraft:iron_ingot",
           "count": 1
         },
         {
@@ -6450,10 +5971,6 @@
           "count": 1
         },
         {
-          "item": "scguns:scorched_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:scorched_gun_frame",
           "count": 1
         },
@@ -6479,10 +5996,6 @@
         },
         {
           "item": "scguns:heavy_gun_parts",
-          "count": 1
-        },
-        {
-          "item": "scguns:treated_iron_ingot",
           "count": 1
         },
         {
@@ -6542,10 +6055,6 @@
           "count": 1
         },
         {
-          "item": "scguns:scorched_ingot",
-          "count": 2
-        },
-        {
           "item": "scguns:scorched_gun_frame",
           "count": 1
         },
@@ -6556,6 +6065,10 @@
         {
           "item": "scguns:gun_grip",
           "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 2
         }
       ]
     },
@@ -6667,10 +6180,6 @@
           "count": 1
         },
         {
-          "item": "minecraft:iron_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:iron_gun_frame",
           "count": 1
         },
@@ -6739,10 +6248,6 @@
           "count": 1
         },
         {
-          "item": "scguns:diamond_steel_ingot",
-          "count": 2
-        },
-        {
           "item": "scguns:heavy_gun_barrel",
           "count": 1
         },
@@ -6764,10 +6269,6 @@
         },
         {
           "item": "scguns:heavy_gun_parts",
-          "count": 1
-        },
-        {
-          "item": "scguns:treated_iron_ingot",
           "count": 1
         },
         {
@@ -6867,10 +6368,6 @@
           "count": 1
         },
         {
-          "item": "scguns:diamond_steel_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:heavy_gun_barrel",
           "count": 1
         },
@@ -6920,10 +6417,6 @@
       "materials": [
         {
           "item": "scguns:firing_unit",
-          "count": 1
-        },
-        {
-          "item": "minecraft:iron_ingot",
           "count": 1
         },
         {
@@ -7087,10 +6580,6 @@
           "count": 1
         },
         {
-          "item": "minecraft:copper_ingot",
-          "count": 1
-        },
-        {
           "item": "scguns:copper_gun_frame",
           "count": 1
         },
@@ -7213,10 +6702,6 @@
           "count": 1
         },
         {
-          "item": "scguns:diamond_steel_ingot",
-          "count": 2
-        },
-        {
           "item": "scguns:diamond_steel_gun_frame",
           "count": 1
         },
@@ -7305,11 +6790,7 @@
           "count": 1
         },
         {
-          "item": "zombie_extreme:raw_steel",
-          "count": 4
-        },
-        {
-          "item": "minecraft:iron_ingot",
+          "item": "survival_instinct:steellium",
           "count": 2
         }
       ]
@@ -7322,11 +6803,7 @@
       "materials": [
         {
           "item": "zombie_extreme:raw_steel",
-          "count": 8
-        },
-        {
-          "item": "minecraft:iron_ingot",
-          "count": 2
+          "count": 3
         }
       ]
     },
@@ -7358,15 +6835,11 @@
       "materials": [
         {
           "item": "survival_instinct:steellium",
-          "count": 3
+          "count": 2
         },
         {
           "item": "survival_instinct:energy_storage_battery",
           "count": 1
-        },
-        {
-          "item": "scguns:gun_parts",
-          "count": 2
         }
       ]
     },
@@ -7387,10 +6860,6 @@
         {
           "item": "survival_instinct:steellium",
           "count": 1
-        },
-        {
-          "item": "minecraft:stick",
-          "count": 2
         }
       ]
     },
@@ -7409,10 +6878,6 @@
           "count": 2
         },
         {
-          "item": "sa_core:duct_tape",
-          "count": 2
-        },
-        {
           "item": "sa_core:scrap_multitool",
           "count": 1
         }
@@ -7427,6 +6892,294 @@
         {
           "item": "survival_instinct:cloth",
           "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "seven_days_skill_bridge:predator_eye_drops",
+      "count": 1,
+      "materials": [
+        {
+          "item": "sa_core:empty_glass_bottle",
+          "count": 1
+        },
+        {
+          "item": "minecraft:spider_eye",
+          "count": 2
+        },
+        {
+          "item": "scguns:raw_phosphor",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "seven_days_traps:barbed_wire",
+      "count": 2,
+      "materials": [
+        {
+          "item": "survival_instinct:wire",
+          "count": 2
+        },
+        {
+          "item": "survival_instinct:nail",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "seven_days_traps:can_alarm",
+      "count": 1,
+      "materials": [
+        {
+          "item": "survival_instinct:empty_can",
+          "count": 4
+        },
+        {
+          "item": "minecraft:string",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "seven_days_traps:bear_trap",
+      "count": 1,
+      "materials": [
+        {
+          "item": "survival_instinct:steellium",
+          "count": 2
+        },
+        {
+          "item": "survival_instinct:rope",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 1,
+      "output": "minecraft:gunpowder",
+      "count": 2,
+      "materials": [
+        {
+          "item": "scguns:sulfur_chunk",
+          "count": 1
+        },
+        {
+          "item": "minecraft:charcoal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 2,
+      "output": "create:brass_ingot",
+      "count": 2,
+      "materials": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "item": "create:zinc_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "survival_instinct:batteries",
+      "count": 2,
+      "materials": [
+        {
+          "item": "create:zinc_ingot",
+          "count": 1
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 3,
+      "output": "zombie_extreme:titan_plate",
+      "count": 1,
+      "materials": [
+        {
+          "item": "zombie_extreme:ignot_titan",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 1,
+      "output": "seven_days_workbenches:7dtc_small_backpack",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:leather",
+          "count": 3
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 4
+        },
+        {
+          "item": "survival_instinct:rope",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "seven_days_workbenches:7dtc_medium_backpack",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:leather",
+          "count": 4
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 6
+        },
+        {
+          "item": "survival_instinct:rope",
+          "count": 2
+        },
+        {
+          "item": "survival_instinct:steellium",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "scguns:diamond_steel_ingot",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "item": "scguns:raw_phosphor",
+          "count": 2
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "scguns:diamond_steel_helmet",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 2
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "scguns:diamond_steel_chestplate",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 4
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 4
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "scguns:diamond_steel_leggings",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 3
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 3
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "armor",
+      "level": 3,
+      "output": "scguns:diamond_steel_boots",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 2
+        },
+        {
+          "item": "minecraft:leather",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "seven_days_darkzone:7dtc_phosphor_flare",
+      "count": 2,
+      "materials": [
+        {
+          "item": "scguns:raw_phosphor",
+          "count": 1
+        },
+        {
+          "item": "minecraft:paper",
+          "count": 1
         }
       ]
     }

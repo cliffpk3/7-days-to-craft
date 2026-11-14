@@ -85,12 +85,12 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_iron",
+          "name": "minecraft:iron_nugget",
           "weight": 40
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_copper",
+          "name": "create:copper_nugget",
           "weight": 60
         },
         {

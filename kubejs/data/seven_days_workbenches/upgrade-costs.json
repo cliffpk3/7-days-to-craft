@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "status": "clear_objectives_20261107: L2 = elites (Elite Mechanism), L3 = boss (Boss Core); bench_engines_20261110: N1->N2 pede 1 Vehicle Engine (sa_core:generator) + 2 do metal raro da bancada (provisorio; usuario vai revisitar com quests/chefes)",
+  "status": "clear_objectives_20261107: L2 = elites (Elite Mechanism), L3 = boss (Boss Core); bench_engines_20261110: N1->N2 pede 1 Vehicle Engine (sa_core:generator) + 2 do metal raro da bancada (provisorio; usuario vai revisitar com quests/chefes); darkzone_balance_20261113: N2->N3 pede 3 aços de diamante (fósforo da zona escura)",
   "upgrades": [
     {
       "bench": "weapons",
@@ -23,7 +23,7 @@
           "count": 1
         },
         {
-          "item": "scguns:diamond_steel_ingot",
+          "item": "survival_instinct:steellium",
           "count": 2
         }
       ]
@@ -33,8 +33,8 @@
       "from_level": 2,
       "materials": [
         {
-          "item": "minecraft:diamond",
-          "count": 6
+          "item": "scguns:diamond_steel_ingot",
+          "count": 3
         },
         {
           "item": "scguns:rapid_firing_unit",
@@ -81,8 +81,8 @@
       "from_level": 2,
       "materials": [
         {
-          "item": "minecraft:diamond",
-          "count": 6
+          "item": "scguns:diamond_steel_ingot",
+          "count": 3
         },
         {
           "item": "scguns:heavy_armor_plate",
@@ -129,8 +129,8 @@
       "from_level": 2,
       "materials": [
         {
-          "item": "minecraft:diamond",
-          "count": 6
+          "item": "scguns:diamond_steel_ingot",
+          "count": 3
         },
         {
           "item": "scguns:sulfur_chunk",
@@ -177,8 +177,8 @@
       "from_level": 2,
       "materials": [
         {
-          "item": "minecraft:diamond",
-          "count": 6
+          "item": "scguns:diamond_steel_ingot",
+          "count": 3
         },
         {
           "item": "scguns:raw_phosphor",

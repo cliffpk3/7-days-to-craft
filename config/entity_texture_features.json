@@ -8,7 +8,7 @@
   "enableEmissiveTextures": true,
   "enableEnchantedTextures": true,
   "enableEmissiveBlockEntities": true,
-  "emissiveRenderMode": "DULL",
+  "emissiveRenderMode": "BRIGHT",
   "alwaysCheckVanillaEmissiveSuffix": true,
   "enableArmorAndTrims": true,
   "skinFeaturesEnabled": true,

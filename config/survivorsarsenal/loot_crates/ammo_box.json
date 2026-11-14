@@ -48,12 +48,12 @@
       "allow_duplicates": true,
       "entries": [
         {
-          "weight": 10,
+          "weight": 5,
           "chance": 0.82,
           "item": "minecraft:gunpowder",
           "count": {
             "min": 1,
-            "max": 3
+            "max": 1
           },
           "with": [
             {
@@ -68,12 +68,12 @@
           ]
         },
         {
-          "weight": 8,
+          "weight": 4,
           "chance": 0.66,
           "item": "minecraft:gunpowder",
           "count": {
             "min": 1,
-            "max": 2
+            "max": 1
           },
           "with": [
             {
@@ -88,16 +88,16 @@
           ]
         },
         {
-          "weight": 8,
+          "weight": 4,
           "chance": 0.64,
           "item": "minecraft:gunpowder",
           "count": {
             "min": 1,
-            "max": 5
+            "max": 2
           },
           "with": [
             {
-              "item": "zombie_extreme:ignotsteel",
+              "item": "zombie_extreme:raw_steel",
               "weight": 1,
               "chance": 1,
               "count": {
@@ -108,16 +108,16 @@
           ]
         },
         {
-          "weight": 7,
+          "weight": 4,
           "chance": 0.56,
           "item": "minecraft:gunpowder",
           "count": {
             "min": 1,
-            "max": 5
+            "max": 2
           },
           "with": [
             {
-              "item": "zombie_extreme:ignotsteel",
+              "item": "zombie_extreme:raw_steel",
               "weight": 1,
               "chance": 1,
               "count": {
@@ -128,12 +128,12 @@
           ]
         },
         {
-          "weight": 5,
+          "weight": 2,
           "chance": 0.38,
           "item": "minecraft:gunpowder",
           "count": {
             "min": 1,
-            "max": 4
+            "max": 2
           },
           "with": [
             {
@@ -173,16 +173,16 @@
       "allow_duplicates": true,
       "entries": [
         {
-          "weight": 4,
+          "weight": 2,
           "chance": 0.28,
           "item": "minecraft:gunpowder",
           "count": {
             "min": 1,
-            "max": 3
+            "max": 1
           },
           "with": [
             {
-              "item": "zombie_extreme:ignotsteel",
+              "item": "zombie_extreme:raw_steel",
               "weight": 1,
               "chance": 1,
               "count": {
@@ -193,7 +193,7 @@
           ]
         },
         {
-          "weight": 3,
+          "weight": 2,
           "chance": 0.22,
           "item": "minecraft:gunpowder",
           "count": {
@@ -213,7 +213,7 @@
           ]
         },
         {
-          "weight": 2,
+          "weight": 1,
           "chance": 0.12,
           "item": "minecraft:gunpowder",
           "count": {
@@ -233,7 +233,7 @@
           ]
         },
         {
-          "weight": 2,
+          "weight": 1,
           "chance": 0.08,
           "item": "minecraft:gunpowder",
           "count": {
@@ -242,7 +242,7 @@
           },
           "with": [
             {
-              "item": "zombie_extreme:ignotsteel",
+              "item": "zombie_extreme:raw_steel",
               "weight": 1,
               "chance": 1,
               "count": {

@@ -478,6 +478,10 @@
       "required": false
     },
     {
+      "id": "sa_core:ashen_steel_multitool",
+      "required": false
+    },
+    {
       "id": "sa_core:kevlar",
       "required": false
     },
@@ -882,6 +886,10 @@
       "required": false
     },
     {
+      "id": "zombie_extreme:ignot_titan",
+      "required": false
+    },
+    {
       "id": "zombie_extreme:night_vision_glasses_helmet",
       "required": false
     },
@@ -926,12 +934,9 @@
       "required": false
     },
     {
-      "id": "sa_core:ashen_steel_multitool",
-      "required": false
-    },
-    {
       "id": "zombie_extreme:titan_plate",
       "required": false
-    }
+    },
+    "seven_days_workbenches:7dtc_medium_backpack"
   ]
 }

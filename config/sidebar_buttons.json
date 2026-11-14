@@ -6,9 +6,14 @@
 		"quests": true
 	},
 	"ftblibrary": {
-		"toggle.gamemode": true,
+		"toggle.gamemode": false,
 		"toggle.rain": true,
 		"toggle.day": true,
 		"toggle.night": true
+	},
+	"7dtc": {
+		"gamemode.survival": true,
+		"gamemode.creative": true,
+		"gamemode.spectator": true
 	}
 }

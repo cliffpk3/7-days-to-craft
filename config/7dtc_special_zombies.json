@@ -1,0 +1,22 @@
+{
+  "_doc": "Zumbis reconheciveis (12/11/2026). climber/screamer: chance por zumbi comum novo, a partir de minDay (dia do mundo). Escalador: sobe paredes, mais rapido (climberSpeed), menos vida (climberHealth). Gritador: ao ver um jogador grita e chama zumbis parados a ate screamRadius blocos; repete a cada screamCooldownTicks enquanto persegue. grapplerAsFisherman: o fisgador da entrada da cidade vira o Zombie Fisherman do Born in Chaos.",
+  "climberChance": 0.03,
+  "screamerChance": 0.04,
+  "climberMinDay": 4,
+  "screamerMinDay": 2,
+  "climberSpeed": 0.35,
+  "climberHealth": 14.0,
+  "screamRadius": 30.0,
+  "screamCooldownTicks": 400,
+  "grapplerAsFisherman": true,
+  "_doc_swarmer": "Swarmer (Born in Chaos, 12/11/2026): perseguindo um jogador a ate swarmerSpitRange blocos e com visao dele, cospe swarmerSpitCount Swarms (Scorched Guns, somem sozinhos em 60 s, sem drop) a cada swarmerSpitCooldownTicks; no maximo swarmerSwarmCap Swarms vivos em volta dele.",
+  "swarmerSpit": true,
+  "swarmerSpitRange": 14,
+  "swarmerSpitCooldownTicks": 200,
+  "swarmerSpitCount": 1,
+  "swarmerSwarmCap": 1,
+  "_doc_climberCaves": "13/11/2026 (usuario): em cavernas (sem ceu visivel) a chance de Escalador cresce com a profundidade, de climberChance em climberCaveTopY ate climberCaveChance em climberCaveBottomY.",
+  "climberCaveChance": 0.2,
+  "climberCaveTopY": 48,
+  "climberCaveBottomY": -56
+}

@@ -62,7 +62,7 @@
               "item": "minecraft:gunpowder",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             },
             {
@@ -139,7 +139,7 @@
               "item": "minecraft:gunpowder",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             },
             {
@@ -187,7 +187,7 @@
               "item": "minecraft:gunpowder",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             },
             {
@@ -202,12 +202,12 @@
           ]
         },
         {
-          "weight": 4,
+          "weight": 2,
           "chance": 0.24,
           "item": "minecraft:gunpowder",
           "count": {
             "min": 1,
-            "max": 2
+            "max": 1
           },
           "with": [
             {
@@ -245,14 +245,14 @@
               "chance": 1,
               "item": "minecraft:gunpowder",
               "count": {
-                "min": 2,
-                "max": 5
+                "min": 1,
+                "max": 2
               }
             },
             {
               "weight": 1,
               "chance": 1,
-              "item": "zombie_extreme:ignotsteel",
+              "item": "zombie_extreme:raw_steel",
               "count": {
                 "min": 1,
                 "max": 4
@@ -293,14 +293,14 @@
               "chance": 1,
               "item": "minecraft:gunpowder",
               "count": {
-                "min": 2,
-                "max": 5
+                "min": 1,
+                "max": 2
               }
             },
             {
               "weight": 1,
               "chance": 1,
-              "item": "zombie_extreme:ignotsteel",
+              "item": "zombie_extreme:raw_steel",
               "count": {
                 "min": 1,
                 "max": 4
@@ -342,13 +342,13 @@
               "item": "minecraft:gunpowder",
               "count": {
                 "min": 1,
-                "max": 3
+                "max": 1
               }
             },
             {
               "weight": 1,
               "chance": 1,
-              "item": "zombie_extreme:ignotsteel",
+              "item": "zombie_extreme:raw_steel",
               "count": {
                 "min": 1,
                 "max": 3
@@ -371,7 +371,7 @@
               "item": "minecraft:gunpowder",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 2
               }
             },
             {
@@ -400,7 +400,7 @@
               "item": "minecraft:gunpowder",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             },
             {

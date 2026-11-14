@@ -37,5 +37,137 @@
     "outputItems": [
       "minecraft:iron_nugget:1"
     ]
+  },
+  {
+    "inputItem": "survival_instinct:appliance_magazine:1",
+    "outputItems": [
+      "minecraft:paper:3"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:automobile_magazine:1",
+    "outputItems": [
+      "minecraft:paper:3"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:dungeons_and_combat_magazine:1",
+    "outputItems": [
+      "minecraft:paper:3"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:wheat_seeds_package:1",
+    "outputItems": [
+      "minecraft:wheat_seeds:6"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:beetroot_seeds_package:1",
+    "outputItems": [
+      "minecraft:beetroot_seeds:6"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:melon_seeds_package:1",
+    "outputItems": [
+      "minecraft:melon_seeds:6"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:pumpkin_seeds_package:1",
+    "outputItems": [
+      "minecraft:pumpkin_seeds:6"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:carrots_package:1",
+    "outputItems": [
+      "minecraft:carrot:3"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:potato_package:1",
+    "outputItems": [
+      "minecraft:potato:3"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:coins:1",
+    "outputItems": [
+      "corail_recycler:copper_nugget:3"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:money:1",
+    "outputItems": [
+      "minecraft:paper:2"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:can:1",
+    "outputItems": [
+      "minecraft:iron_nugget:2"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:aluminium:1",
+    "outputItems": [
+      "sa_core:metal_scrap:2"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:polyethylene_sheet:1",
+    "outputItems": [
+      "minecraft:string:2"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:sulfur:1",
+    "outputItems": [
+      "minecraft:gunpowder:2"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:sulfur_dust:1",
+    "outputItems": [
+      "minecraft:gunpowder:1"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:tier_iii_kevlar:1",
+    "outputItems": [
+      "survival_instinct:cloth:6"
+    ]
+  },
+  {
+    "inputItem": "sa_core:jerry_can:1",
+    "outputItems": [
+      "sa_core:metal_scrap:3"
+    ]
+  },
+  {
+    "inputItem": "scguns:small_copper_casing:1",
+    "outputItems": [
+      "corail_recycler:copper_nugget:2"
+    ]
+  },
+  {
+    "inputItem": "scguns:small_iron_casing:1",
+    "outputItems": [
+      "minecraft:iron_nugget:2"
+    ]
+  },
+  {
+    "inputItem": "survival_instinct:body_armor_plate_ii:1",
+    "outputItems": [
+      "survival_instinct:steellium:1"
+    ]
+  },
+  {
+    "inputItem": "zombie_extreme:ignotsteel:1",
+    "outputItems": [
+      "zombie_extreme:raw_steel:1"
+    ]
   }
 ]

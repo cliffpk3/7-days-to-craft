@@ -11,20 +11,289 @@
   "sectorCooldownTicks": 1200,
   "families": [
     {
-      "id": "stone_crawlers",
+      "id": "infected_miners",
       "minY": -64,
       "maxY": 24,
-      "weight": 20,
+      "weight": 24,
       "biomeBias": {
-        "dripstone": 2.0,
-        "andesite": 1.7,
-        "diorite": 1.4,
-        "granite": 1.3,
-        "lush_caves": 0.65
+        "dripstone": 1.5,
+        "andesite": 1.3
       },
       "encounters": [
         {
-          "weight": 1.0,
+          "weight": 6,
+          "minY": -64,
+          "maxY": 24,
+          "mobs": [
+            "minecraft:zombie",
+            "minecraft:zombie"
+          ]
+        },
+        {
+          "weight": 4,
+          "minY": -64,
+          "maxY": 24,
+          "mobs": [
+            "zombie_extreme:infected",
+            "minecraft:zombie"
+          ]
+        },
+        {
+          "weight": 2,
+          "minY": -40,
+          "maxY": 24,
+          "mobs": [
+            "zombie_extreme:infected_hazmat",
+            "zombie_extreme:infected"
+          ]
+        }
+      ],
+      "signature": {
+        "item": "create:raw_zinc",
+        "chance": 0.35,
+        "min": 1,
+        "max": 2
+      }
+    },
+    {
+      "id": "restless_dead",
+      "minY": -40,
+      "maxY": 32,
+      "weight": 16,
+      "biomeBias": {},
+      "encounters": [
+        {
+          "weight": 4,
+          "minY": -40,
+          "maxY": 32,
+          "mobs": [
+            "born_in_chaos_v1:decaying_zombie",
+            "born_in_chaos_v1:decaying_zombie"
+          ]
+        },
+        {
+          "weight": 2,
+          "minY": -40,
+          "maxY": 32,
+          "mobs": [
+            "born_in_chaos_v1:zombie_bruiser"
+          ]
+        },
+        {
+          "weight": 1.5,
+          "minY": -40,
+          "maxY": 24,
+          "mobs": [
+            "born_in_chaos_v1:decaying_zombie",
+            "born_in_chaos_v1:decaying_zombie"
+          ]
+        }
+      ],
+      "signature": {
+        "item": "minecraft:gold_nugget",
+        "chance": 0.35,
+        "min": 2,
+        "max": 4
+      }
+    },
+    {
+      "id": "bloated",
+      "minY": -48,
+      "maxY": 16,
+      "weight": 12,
+      "biomeBias": {},
+      "encounters": [
+        {
+          "weight": 3,
+          "minY": -48,
+          "maxY": 16,
+          "mobs": [
+            "zombie_extreme:boomer"
+          ]
+        },
+        {
+          "weight": 2,
+          "minY": -48,
+          "maxY": 16,
+          "mobs": [
+            "zombie_extreme:inflated",
+            "minecraft:zombie"
+          ]
+        },
+        {
+          "weight": 1,
+          "minY": -48,
+          "maxY": 0,
+          "mobs": [
+            "zombie_extreme:explosive_infected"
+          ]
+        }
+      ],
+      "signature": {
+        "item": "scguns:sulfur_chunk",
+        "chance": 0.35,
+        "min": 1,
+        "max": 2
+      }
+    },
+    {
+      "id": "blind_hunters",
+      "minY": -64,
+      "maxY": 0,
+      "weight": 12,
+      "biomeBias": {
+        "lush_caves": 1.4
+      },
+      "encounters": [
+        {
+          "weight": 3,
+          "minY": -64,
+          "maxY": 0,
+          "mobs": [
+            "zombie_extreme:clicker",
+            "zombie_extreme:clicker"
+          ]
+        },
+        {
+          "weight": 1.5,
+          "minY": -64,
+          "maxY": -16,
+          "mobs": [
+            "zombie_extreme:faceless"
+          ]
+        }
+      ],
+      "signature": {
+        "item": "scguns:raw_phosphor",
+        "chance": 0.117,
+        "min": 1,
+        "max": 2
+      }
+    },
+    {
+      "id": "crawlers",
+      "minY": -48,
+      "maxY": 24,
+      "weight": 12,
+      "biomeBias": {},
+      "encounters": [
+        {
+          "weight": 3,
+          "minY": -48,
+          "maxY": 24,
+          "mobs": [
+            "zombie_extreme:crawler",
+            "zombie_extreme:crawler"
+          ]
+        },
+        {
+          "weight": 1,
+          "minY": -48,
+          "maxY": 0,
+          "mobs": [
+            "zombie_extreme:fetus",
+            "zombie_extreme:crawler"
+          ]
+        }
+      ],
+      "signature": {
+        "item": "minecraft:amethyst_shard",
+        "chance": 0.35,
+        "min": 1,
+        "max": 2
+      }
+    },
+    {
+      "id": "deep_horrors",
+      "minY": -64,
+      "maxY": -16,
+      "weight": 8,
+      "biomeBias": {},
+      "encounters": [
+        {
+          "weight": 2,
+          "minY": -64,
+          "maxY": -16,
+          "mobs": [
+            "zombie_extreme:night_hunter"
+          ]
+        },
+        {
+          "weight": 1,
+          "minY": -64,
+          "maxY": -32,
+          "mobs": [
+            "zombie_extreme:infected_juggernaut"
+          ]
+        },
+        {
+          "weight": 0.6,
+          "minY": -64,
+          "maxY": -40,
+          "mobs": [
+            "zombie_extreme:demolisher"
+          ]
+        }
+      ],
+      "signature": {
+        "item": "zombie_extreme:raw_titan",
+        "chance": 0.3,
+        "min": 1,
+        "max": 2,
+        "rare": "minecraft:diamond",
+        "rareChance": 0.05
+      }
+    },
+    {
+      "id": "cave_fauna",
+      "minY": -64,
+      "maxY": 24,
+      "weight": 8,
+      "biomeBias": {},
+      "encounters": [
+        {
+          "weight": 2,
+          "minY": -64,
+          "maxY": 24,
+          "mobs": [
+            "minecraft:cave_spider",
+            "minecraft:cave_spider"
+          ]
+        },
+        {
+          "weight": 1,
+          "minY": -40,
+          "maxY": 24,
+          "mobs": [
+            "born_in_chaos_v1:dread_hound"
+          ]
+        },
+        {
+          "weight": 0.6,
+          "minY": -40,
+          "maxY": 24,
+          "mobs": [
+            "born_in_chaos_v1:dire_hound_leader",
+            "born_in_chaos_v1:dread_hound"
+          ]
+        }
+      ],
+      "signature": {
+        "item": "born_in_chaos_v1:monster_skin",
+        "chance": 0.35,
+        "min": 1,
+        "max": 2
+      }
+    },
+    {
+      "id": "cave_natives",
+      "minY": -64,
+      "maxY": 24,
+      "weight": 8,
+      "biomeBias": {},
+      "encounters": [
+        {
+          "weight": 2,
           "minY": -40,
           "maxY": 24,
           "mobs": [
@@ -32,7 +301,16 @@
           ]
         },
         {
-          "weight": 0.4,
+          "weight": 0.8,
+          "minY": -40,
+          "maxY": 24,
+          "mobs": [
+            "alexsmobs:rocky_roller",
+            "alexsmobs:rocky_roller"
+          ]
+        },
+        {
+          "weight": 1,
           "minY": -64,
           "maxY": -24,
           "mobs": [
@@ -40,293 +318,38 @@
           ]
         },
         {
-          "weight": 8.0,
+          "weight": 0.8,
           "minY": -64,
-          "maxY": 24,
-          "mobs": [
-            "minecraft:zombie"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "demonkin",
-      "minY": -64,
-      "maxY": -16,
-      "weight": 27,
-      "biomeBias": {
-        "thermal": 1.8,
-        "deep_caves": 1.6,
-        "dripstone": 0.9,
-        "lush_caves": 0.5
-      },
-      "encounters": [
-        {
-          "weight": 5,
-          "minY": -48,
-          "maxY": -16,
-          "mobs": [
-            "realmrpg_demons:imp",
-            "realmrpg_demons:imp"
-          ]
-        },
-        {
-          "weight": 3,
-          "minY": -48,
-          "maxY": -24,
-          "mobs": [
-            "realmrpg_demons:imp",
-            "realmrpg_demons:imp_guard"
-          ]
-        },
-        {
-          "weight": 2,
-          "minY": -64,
-          "maxY": -24,
-          "mobs": [
-            "realmrpg_demons:chort",
-            "realmrpg_demons:imp_guard"
-          ]
-        },
-        {
-          "weight": 1,
-          "minY": -64,
-          "maxY": -32,
-          "mobs": [
-            "realmrpg_demons:demon"
-          ]
-        },
-        {
-          "weight": 0.7,
-          "minY": -64,
-          "maxY": -24,
+          "maxY": 0,
           "mobs": [
             "alexsmobs:murmur"
           ]
         },
         {
-          "weight": 0.7,
+          "weight": 0.8,
           "minY": -64,
-          "maxY": -24,
+          "maxY": -16,
           "mobs": [
+            "alexscaves:underzealot",
             "alexscaves:underzealot"
           ]
         },
         {
           "weight": 0.5,
           "minY": -64,
-          "maxY": -32,
+          "maxY": -24,
           "mobs": [
             "alexscaves:watcher"
           ]
         }
-      ]
-    },
-    {
-      "id": "dread_hounds",
-      "minY": -40,
-      "maxY": 24,
-      "weight": 18,
-      "biomeBias": {
-        "lush_caves": 1.6,
-        "forest": 1.3,
-        "thermal": 0.7
-      },
-      "encounters": [
-        {
-          "weight": 8,
-          "minY": -40,
-          "maxY": 24,
-          "mobs": [
-            "born_in_chaos_v1:dread_hound",
-            "born_in_chaos_v1:dread_hound"
-          ]
-        },
-        {
-          "weight": 2,
-          "minY": -40,
-          "maxY": -8,
-          "mobs": [
-            "born_in_chaos_v1:dread_hound",
-            "born_in_chaos_v1:dire_hound_leader"
-          ]
-        },
-        {
-          "weight": 1,
-          "minY": -40,
-          "maxY": -8,
-          "mobs": [
-            "born_in_chaos_v1:dread_hound",
-            "born_in_chaos_v1:nightmare_stalker"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "restless_dead",
-      "minY": -40,
-      "maxY": 32,
-      "weight": 24,
-      "biomeBias": {
-        "tuff": 1.5,
-        "dripstone": 0.85,
-        "lush_caves": 0.7
-      },
-      "encounters": [
-        {
-          "weight": 6,
-          "minY": -24,
-          "maxY": 32,
-          "mobs": [
-            "born_in_chaos_v1:decaying_zombie",
-            "born_in_chaos_v1:decrepit_skeleton"
-          ]
-        },
-        {
-          "weight": 4,
-          "minY": -40,
-          "maxY": -8,
-          "mobs": [
-            "born_in_chaos_v1:decrepit_skeleton",
-            "born_in_chaos_v1:skeleton_thrasher"
-          ]
-        },
-        {
-          "weight": 4,
-          "minY": -24,
-          "maxY": 16,
-          "mobs": [
-            "born_in_chaos_v1:decaying_zombie",
-            "born_in_chaos_v1:barrel_zombie"
-          ]
-        },
-        {
-          "weight": 1,
-          "minY": -40,
-          "maxY": -8,
-          "mobs": [
-            "born_in_chaos_v1:barrel_zombie",
-            "born_in_chaos_v1:zombie_bruiser"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "infested_passages",
-      "minY": -64,
-      "maxY": 0,
-      "weight": 15,
-      "biomeBias": {
-        "infested": 2.2,
-        "lush_caves": 1.5,
-        "dripstone": 0.8
-      },
-      "encounters": [
-        {
-          "weight": 7,
-          "minY": -48,
-          "maxY": 0,
-          "mobs": [
-            "minecraft:cave_spider",
-            "minecraft:cave_spider"
-          ]
-        },
-        {
-          "weight": 0.4,
-          "minY": -64,
-          "maxY": -24,
-          "mobs": [
-            "alexsmobs:centipede_head"
-          ]
-        },
-        {
-          "weight": 0.2,
-          "minY": -64,
-          "maxY": -32,
-          "mobs": [
-            "alexsmobs:mimicube"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "bone_cult",
-      "minY": -40,
-      "maxY": 24,
-      "weight": 13,
-      "biomeBias": {
-        "tuff": 1.5,
-        "dripstone": 1.2,
-        "lush_caves": 0.7
-      },
-      "encounters": [
-        {
-          "weight": 5,
-          "minY": -24,
-          "maxY": 24,
-          "mobs": [
-            "born_in_chaos_v1:bonescaller",
-            "born_in_chaos_v1:decrepit_skeleton"
-          ]
-        },
-        {
-          "weight": 4,
-          "minY": -24,
-          "maxY": 16,
-          "mobs": [
-            "born_in_chaos_v1:skeleton_demoman",
-            "born_in_chaos_v1:decrepit_skeleton"
-          ]
-        },
-        {
-          "weight": 2,
-          "minY": -40,
-          "maxY": -8,
-          "mobs": [
-            "born_in_chaos_v1:skeleton_thrasher",
-            "born_in_chaos_v1:bonescaller"
-          ]
-        }
-      ]
-    },
-    {
-      "id": "haunted_depths",
-      "minY": -40,
-      "maxY": 16,
-      "weight": 11,
-      "biomeBias": {
-        "deep_caves": 1.5,
-        "thermal": 1.4,
-        "lush_caves": 0.6
-      },
-      "encounters": [
-        {
-          "weight": 5,
-          "minY": -24,
-          "maxY": 16,
-          "mobs": [
-            "born_in_chaos_v1:restless_spirit",
-            "born_in_chaos_v1:spirit_guide"
-          ]
-        },
-        {
-          "weight": 4,
-          "minY": -40,
-          "maxY": 0,
-          "mobs": [
-            "born_in_chaos_v1:seared_spirit",
-            "born_in_chaos_v1:spiritof_chaos"
-          ]
-        },
-        {
-          "weight": 1,
-          "minY": -40,
-          "maxY": -8,
-          "mobs": [
-            "born_in_chaos_v1:nightmare_stalker"
-          ]
-        }
-      ]
+      ],
+      "signature": {
+        "item": "born_in_chaos_v1:monster_skin",
+        "chance": 0.3,
+        "min": 1,
+        "max": 2
+      }
     }
-  ]
+  ],
+  "_doc_7dtc_signatures": "12/11/2026: familias zumbi primeiro (Zombie Extreme e Born in Chaos), so cave_fauna nao e zumbi. signature: item, chance, min, max, rare, rareChance; so mobs do ecossistema e guardas de veio (tag 7dtc_family_<id>). 12/11/2026 (usuario): cave_natives traz de volta os nativos de caverna do Alex's Mobs/Caves (Rocky Roller, centopeia, Murmur, Underzealot, Watcher); a centopeia saiu da cave_fauna."
 }

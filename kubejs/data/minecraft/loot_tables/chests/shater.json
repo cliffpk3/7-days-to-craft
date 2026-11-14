@@ -69,20 +69,6 @@
         },
         {
           "type": "minecraft:item",
-          "name": "born_in_chaos_v1:serpumpkinhead_m",
-          "weight": 2,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 0,
-                "max": 1
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
           "name": "born_in_chaos_v1:cultivated_pumpkin",
           "weight": 50,
           "functions": [
@@ -97,14 +83,15 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:copper_ingot",
+          "name": "create:copper_nugget",
           "weight": 35,
           "functions": [
             {
-              "function": "set_count",
+              "function": "minecraft:set_count",
               "count": {
-                "min": 1,
-                "max": 2
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 7
               }
             }
           ]
@@ -323,20 +310,6 @@
               "count": {
                 "min": 1,
                 "max": 3
-              }
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "born_in_chaos_v1:transmuting_elixir",
-          "weight": 1,
-          "functions": [
-            {
-              "function": "set_count",
-              "count": {
-                "min": 1,
-                "max": 1
               }
             }
           ]

@@ -1174,7 +1174,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 1,
       "item": "scguns:gun_parts",
       "unlock": "default",
@@ -1184,7 +1184,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 1,
       "item": "scguns:stone_gun_barrel",
       "unlock": "default",
@@ -1194,7 +1194,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 1,
       "item": "scguns:gun_barrel",
       "unlock": "default",
@@ -1204,7 +1204,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 1,
       "item": "scguns:copper_gun_frame",
       "unlock": "default",
@@ -1214,7 +1214,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 1,
       "item": "scguns:firing_unit",
       "unlock": "default",
@@ -1224,7 +1224,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 1,
       "item": "scguns:wooden_stock",
       "unlock": "default",
@@ -1234,7 +1234,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 1,
       "item": "scguns:gun_grip",
       "unlock": "default",
@@ -1294,7 +1294,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 2,
       "item": "scguns:iron_gun_frame",
       "unlock": "default",
@@ -1304,7 +1304,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 2,
       "item": "scguns:gun_magazine",
       "unlock": "default",
@@ -1314,7 +1314,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 2,
       "item": "scguns:armor_plate",
       "unlock": "default",
@@ -1324,17 +1324,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "utilities",
-      "level": 2,
-      "item": "fracturepoint:nvg_battery",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "city_t2_or_utility_craft",
-      "note": ""
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 3,
       "item": "scguns:rapid_firing_unit",
       "unlock": "default",
@@ -1344,7 +1334,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 3,
       "item": "scguns:heavy_gun_barrel",
       "unlock": "default",
@@ -1354,7 +1344,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 3,
       "item": "scguns:diamond_steel_gun_frame",
       "unlock": "default",
@@ -1364,7 +1354,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 3,
       "item": "scguns:heavy_armor_plate",
       "unlock": "default",
@@ -1374,13 +1364,23 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
-      "level": 3,
-      "item": "scguns:raw_anthralite",
+      "tab": "utilities",
+      "level": 1,
+      "item": "seven_days_workbenches:7dtc_small_backpack",
       "unlock": "default",
       "blueprint": "",
-      "source": "boss_drop_or_expensive_utility_craft",
-      "note": ""
+      "source": "common_materials",
+      "note": "12/11/2026: 1-row backpack (becomes a Quark backpack limited to 1 row)."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 2,
+      "item": "seven_days_workbenches:7dtc_medium_backpack",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "common_materials",
+      "note": "12/11/2026: 2-row backpack (becomes a Quark backpack limited to 2 rows)."
     },
     {
       "bench": "utility_potion",
@@ -1604,7 +1604,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 1,
       "item": "create:andesite_alloy",
       "unlock": "default",
@@ -1614,7 +1614,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 1,
       "item": "create:shaft",
       "unlock": "default",
@@ -1624,7 +1624,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 1,
       "item": "create:cogwheel",
       "unlock": "default",
@@ -1634,7 +1634,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 1,
       "item": "create:large_cogwheel",
       "unlock": "default",
@@ -1644,7 +1644,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 1,
       "item": "create:gearbox",
       "unlock": "default",
@@ -1654,7 +1654,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 1,
       "item": "create:clutch",
       "unlock": "default",
@@ -1664,7 +1664,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 1,
       "item": "create:gearshift",
       "unlock": "default",
@@ -1674,7 +1674,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 1,
       "item": "create:depot",
       "unlock": "default",
@@ -1684,7 +1684,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 1,
       "item": "create:water_wheel",
       "unlock": "default",
@@ -1694,7 +1694,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 2,
       "item": "create:large_water_wheel",
       "unlock": "default",
@@ -1704,7 +1704,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 2,
       "item": "create:encased_fan",
       "unlock": "default",
@@ -1714,7 +1714,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 2,
       "item": "create:mechanical_press",
       "unlock": "default",
@@ -1724,7 +1724,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 2,
       "item": "create:mechanical_mixer",
       "unlock": "default",
@@ -2974,7 +2974,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "weapon_parts",
       "level": 2,
       "item": "scguns:heavy_gun_parts",
       "unlock": "default",
@@ -2984,7 +2984,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 2,
       "item": "survival_instinct:steellium",
       "unlock": "default",
@@ -2994,7 +2994,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 2,
       "item": "survival_instinct:energy_storage_battery",
       "unlock": "default",
@@ -3004,7 +3004,7 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "components",
+      "tab": "engineering",
       "level": 3,
       "item": "survival_instinct:exo_component",
       "unlock": "default",
@@ -3041,6 +3041,146 @@
       "blueprint": "",
       "source": "medical_loot_and_utility_craft",
       "note": "11/11/2026: first step of the bandage chain."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "potions",
+      "level": 2,
+      "item": "seven_days_skill_bridge:predator_eye_drops",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_usable_items",
+      "note": "11/11/2026: hostile outlines through walls for 30 s, only for the user; Hunger I."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 1,
+      "item": "seven_days_traps:barbed_wire",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_traps",
+      "note": "11/11/2026 trap batch; repairable, wear kept on pickup."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 1,
+      "item": "seven_days_traps:can_alarm",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_traps",
+      "note": "11/11/2026 trap batch; repairable, wear kept on pickup."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 2,
+      "item": "seven_days_traps:bear_trap",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_traps",
+      "note": "11/11/2026 trap batch; repairable, wear kept on pickup."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 1,
+      "item": "minecraft:gunpowder",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_cave_data",
+      "note": "11/11/2026: cave minerals batch."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "ammo",
+      "level": 2,
+      "item": "create:brass_ingot",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_cave_data",
+      "note": "11/11/2026: cave minerals batch."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "engineering",
+      "level": 1,
+      "item": "survival_instinct:batteries",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_cave_data",
+      "note": "11/11/2026: cave minerals batch."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "weapon_parts",
+      "level": 3,
+      "item": "zombie_extreme:titan_plate",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_cave_data",
+      "note": "11/11/2026: cave minerals batch."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "weapon_parts",
+      "level": 2,
+      "item": "scguns:diamond_steel_ingot",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "dark_zone_phosphor",
+      "note": "13/11/2026 Dark Zone: needs phosphor, a mineral found only below the bedrock."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "scguns:diamond_steel_helmet",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "dark_zone_phosphor",
+      "note": "13/11/2026 Dark Zone: needs phosphor, a mineral found only below the bedrock."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "scguns:diamond_steel_chestplate",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "dark_zone_phosphor",
+      "note": "13/11/2026 Dark Zone: needs phosphor, a mineral found only below the bedrock."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "scguns:diamond_steel_leggings",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "dark_zone_phosphor",
+      "note": "13/11/2026 Dark Zone: needs phosphor, a mineral found only below the bedrock."
+    },
+    {
+      "bench": "armor",
+      "tab": "equipment",
+      "level": 3,
+      "item": "scguns:diamond_steel_boots",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "dark_zone_phosphor",
+      "note": "13/11/2026 Dark Zone: needs phosphor, a mineral found only below the bedrock."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "utilities",
+      "level": 2,
+      "item": "seven_days_darkzone:7dtc_phosphor_flare",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "dark_zone_phosphor",
+      "note": "13/11/2026: thrown light and noise lure for the Dark Zone."
     }
   ]
 }

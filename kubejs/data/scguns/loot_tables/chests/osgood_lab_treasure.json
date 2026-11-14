@@ -170,15 +170,15 @@
             {
               "add": false,
               "count": {
-                "type": "minecraft:uniform",
-                "max": 15.0,
-                "min": 1.0
+                "min": 1,
+                "max": 5,
+                "type": "minecraft:uniform"
               },
               "function": "minecraft:set_count"
             }
           ],
           "name": "minecraft:gunpowder",
-          "weight": 60
+          "weight": 30
         },
         {
           "type": "minecraft:item",

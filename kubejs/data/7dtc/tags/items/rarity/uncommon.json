@@ -198,6 +198,10 @@
       "required": false
     },
     {
+      "id": "create:brass_ingot",
+      "required": false
+    },
+    {
       "id": "create:clutch",
       "required": false
     },
@@ -518,14 +522,6 @@
       "required": false
     },
     {
-      "id": "minecraft:stone_axe",
-      "required": false
-    },
-    {
-      "id": "minecraft:wooden_axe",
-      "required": false
-    },
-    {
       "id": "nameless_trinkets:amphibious_hands",
       "required": false
     },
@@ -591,6 +587,10 @@
     },
     {
       "id": "sa_core:money_bundle",
+      "required": false
+    },
+    {
+      "id": "sa_core:scrap_multitool",
       "required": false
     },
     {
@@ -879,6 +879,14 @@
     },
     {
       "id": "scguns:wrecker_flare",
+      "required": false
+    },
+    {
+      "id": "seven_days_skill_bridge:predator_eye_drops",
+      "required": false
+    },
+    {
+      "id": "seven_days_traps:bear_trap",
       "required": false
     },
     {
@@ -1222,6 +1230,10 @@
       "required": false
     },
     {
+      "id": "zombie_extreme:raw_titan",
+      "required": false
+    },
+    {
       "id": "zombie_extreme:rubber_sheet",
       "required": false
     },
@@ -1253,9 +1265,6 @@
       "id": "zombie_extreme:tin_plate",
       "required": false
     },
-    {
-      "id": "sa_core:scrap_multitool",
-      "required": false
-    }
+    "seven_days_workbenches:7dtc_small_backpack"
   ]
 }

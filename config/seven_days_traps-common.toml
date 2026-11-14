@@ -1,10 +1,48 @@
 #Range: 1 ~ 10000
-capacity = 96
+capacity = 32
 #Range: 1 ~ 10000
-repairUses = 32
+repairUses = 12
 #Range: 1 ~ 1200
 cooldownTicksPerTarget = 20
 #Range: 0.1 ~ 100.0
 damage = 4.0
 repairItem = "zombie_extreme:ignot_aluminum"
+
+[barbed_wire]
+	#Range: 1 ~ 10000
+	capacity = 48
+	#Range: 1 ~ 10000
+	repairUses = 16
+	#Range: 1 ~ 1200
+	cooldownTicksPerTarget = 20
+	#Range: 0.1 ~ 100.0
+	damage = 1.5
+	repairItem = "survival_instinct:wire"
+
+[bear_trap]
+	#Range: 1 ~ 10000
+	capacity = 12
+	#Range: 1 ~ 10000
+	repairUses = 4
+	#Range: 1 ~ 1200
+	cooldownTicksPerTarget = 100
+	#Range: 0.1 ~ 100.0
+	damage = 6.0
+	repairItem = "survival_instinct:steellium"
+	#Ticks the caught mob cannot move.
+	#Range: 1 ~ 1200
+	holdTicks = 60
+
+[can_alarm]
+	#Range: 1 ~ 10000
+	capacity = 32
+	#Range: 1 ~ 10000
+	repairUses = 8
+	#Ticks between two alarms of the same block.
+	#Range: 1 ~ 1200
+	cooldownTicks = 60
+	repairItem = "survival_instinct:empty_can"
+	#Players within this many blocks get the warning.
+	#Range: 8 ~ 256
+	alertRadius = 64
 

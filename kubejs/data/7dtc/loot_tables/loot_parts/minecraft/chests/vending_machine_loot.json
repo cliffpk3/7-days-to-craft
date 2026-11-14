@@ -167,8 +167,7 @@
       ],
       "entries": [
         {
-          "type": "minecraft:item",
-          "name": "survival_instinct:night_vision_goggles_helmet",
+          "type": "minecraft:empty",
           "weight": 1
         },
         {

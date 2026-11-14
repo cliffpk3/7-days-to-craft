@@ -1,6 +1,7 @@
 {
   "replace": true,
   "values": [
-    "minecraft:zombie"
+    "minecraft:zombie",
+    "born_in_chaos_v1:zombie_fisherman"
   ]
 }

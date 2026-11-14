@@ -177,7 +177,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_iron",
+          "name": "minecraft:iron_nugget",
           "weight": 25,
           "functions": [
             {
@@ -191,7 +191,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_copper",
+          "name": "create:copper_nugget",
           "weight": 35,
           "functions": [
             {
@@ -205,7 +205,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "minecraft:raw_gold",
+          "name": "minecraft:gold_nugget",
           "weight": 20,
           "functions": [
             {

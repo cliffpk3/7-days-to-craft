@@ -12,6 +12,8 @@
   "gunshot": 85.0,
   "gunshotSuppressed": 45.0,
   "decayPerSecond": 12.0,
+  "decayFractionPerSecond": 1.6,
+  "_doc_7dtc_decay": "14/11/2026: o ruido cai decayPerSecond por segundo OU decayFractionPerSecond vezes o valor atual por segundo, o que for maior. Com 1.6, um tiro (85) cai para cerca de 17 em 1 s e some em 2 s; antes levava 7 s.",
   "floors": {
     "quiet": 0.4,
     "normal": 1.0,
@@ -19,5 +21,19 @@
     "soft": 0.7
   },
   "feedZombieAwareness": true,
-  "zaStrengthPerNoise": 1.33
+  "zaStrengthPerNoise": 1.33,
+  "loudAlertMin": 40,
+  "maxResponders": 16,
+  "sightCone": true,
+  "sightConeDegrees": 120,
+  "sightAlwaysWithin": 3,
+  "sightHurtMemoryTicks": 100,
+  "_doc_7dtc_senses": "11/11/2026. loudAlertMin: pico de ruido (tiro 85, vidro 50, garrafa) que manda na hora os hostis parados no alcance de escuta irem ao som (no maximo maxResponders). sightCone: hostil so mira um jogador novo dentro do cone de visao (sightConeDegrees, pela direcao da cabeca); excecoes: a menos de sightAlwaysWithin blocos, se o jogador o feriu nos ultimos sightHurtMemoryTicks ticks, ou se for da horda.",
+  "hearingBlocksPerNoise": 0.4,
+  "hearingMinNoise": 8,
+  "_doc_7dtc_hearing": "Escuta (11/11/2026): a cada segundo, e na hora em picos >= loudAlertMin, hostis sem alvo a ate ruido x hearingBlocksPerNoise blocos vao ate o som (100 = 40 blocos, correr 40 = 16, andar 15 = 6; abaixo de hearingMinNoise nao atrai). decoyImpact (garrafa/lata) usa a mesma escala 0-100 no ponto de impacto. zaStrengthPerNoise nao e mais usado.",
+  "sprintShare": 0.3,
+  "sprintDay": 0.25,
+  "sprintNight": 0.4,
+  "_doc_7dtc_sprint": "12/11/2026: sprintShare = parte dos zumbis que corre ao perseguir um jogador (sorteada uma vez por zumbi); sprintDay/sprintNight = bonus de velocidade (0.25 = +25%) enquanto persegue; some ao perder o alvo."
 }

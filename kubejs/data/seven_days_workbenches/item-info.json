@@ -112,10 +112,12 @@
       "item": "scguns:raw_phosphor",
       "uses": {
         "pt_br": [
-          "Carga das células de energia e choque (Ordnance nível 3)."
+          "Carga das células de energia e choque (Ordnance nível 3).",
+          "Colírio do Predador: ver monstros através das paredes (Utility & Potion nível 2)."
         ],
         "en_us": [
-          "Charge for energy and shock cells (Ordnance level 3)."
+          "Charge for energy and shock cells (Ordnance level 3).",
+          "Predator Eye Drops: see monsters through walls (Utility & Potion level 2)."
         ]
       }
     },
@@ -131,15 +133,7 @@
       }
     },
     {
-      "item": "zombie_extreme:ignotsteel",
-      "uses": {
-        "pt_br": [
-          "Ponta endurecida da munição avançada (Ordnance nível 2)."
-        ],
-        "en_us": [
-          "Hardened tip for advanced ammo (Ordnance level 2)."
-        ]
-      }
+      "item": "zombie_extreme:ignotsteel"
     },
     {
       "item": "zombie_extreme:ignotlead",
@@ -156,10 +150,12 @@
       "item": "scguns:sulfur_chunk",
       "uses": {
         "pt_br": [
-          "Carga tóxica da granada de gás (Ordnance nível 3)."
+          "Pólvora: 1 enxofre + 1 carvão = 2 (Ordnance nível 1).",
+          "Granada de gás (Ordnance nível 3). Minério raro no subsolo, abaixo de Y 16."
         ],
         "en_us": [
-          "Toxic filler for gas grenades (Ordnance level 3)."
+          "Gunpowder: 1 sulfur + 1 charcoal = 2 (Ordnance level 1).",
+          "Gas grenade (Ordnance level 3). Rare ore underground, below Y 16."
         ]
       }
     },
@@ -398,10 +394,12 @@
       "item": "minecraft:gold_ingot",
       "uses": {
         "pt_br": [
-          "Pode ser usado no Recycler para obter Gold Nugget."
+          "Contatos elétricos: rapid firing unit (Utility nível 3); pepitas nas células de energia.",
+          "Kit de reparo dourado e kit médico."
         ],
         "en_us": [
-          "Can be used on a Recycler to obtain Gold Nugget."
+          "Electrical contacts: rapid firing unit (Utility level 3); nuggets in energy cells.",
+          "Golden repair kit and survival medkit."
         ]
       }
     },
@@ -578,6 +576,377 @@
         ],
         "en_us": [
           "Key: opens a locked stronghold chest."
+        ]
+      }
+    },
+    {
+      "item": "survival_instinct:empty_can",
+      "uses": {
+        "pt_br": [
+          "Alarme de latas: aviso quando monstros se aproximam (Utility nível 1)."
+        ],
+        "en_us": [
+          "Can Alarm: warns you when monsters come close (Utility level 1)."
+        ]
+      }
+    },
+    {
+      "item": "create:zinc_ingot",
+      "uses": {
+        "pt_br": [
+          "Latão para munição avançada (Ordnance nível 2), pilhas e bateria NVG (Utility).",
+          "Firing unit (Utility nível 1)."
+        ],
+        "en_us": [
+          "Brass for advanced ammo (Ordnance level 2), batteries and NVG battery (Utility).",
+          "Firing unit (Utility level 1)."
+        ]
+      }
+    },
+    {
+      "item": "create:brass_ingot",
+      "uses": {
+        "pt_br": [
+          "Cápsula da munição avançada (Ordnance nível 2)."
+        ],
+        "en_us": [
+          "Casing for advanced ammo (Ordnance level 2)."
+        ]
+      }
+    },
+    {
+      "item": "create:andesite_alloy",
+      "uses": {
+        "pt_br": [
+          "Liga barata que poupa ferro: plataforma de torreta (Ordnance nível 2) e peças do Create (Utility)."
+        ],
+        "en_us": [
+          "Cheap alloy that saves iron: turret platform (Ordnance level 2) and Create parts (Utility)."
+        ]
+      }
+    },
+    {
+      "item": "zombie_extreme:raw_titan",
+      "uses": {
+        "pt_br": [
+          "Funda para obter lingote de titânio. Muito raro, abaixo de Y −32."
+        ],
+        "en_us": [
+          "Smelt into titanium ingots. Very rare, below Y −32."
+        ]
+      }
+    },
+    {
+      "item": "zombie_extreme:ignot_titan",
+      "uses": {
+        "pt_br": [
+          "Placa de titânio (Utility nível 3): base da placa pesada de armadura."
+        ],
+        "en_us": [
+          "Titanium plate (Utility level 3): base of heavy armor plates."
+        ]
+      }
+    },
+    {
+      "item": "zombie_extreme:titan_plate",
+      "uses": {
+        "pt_br": [
+          "Placa pesada de armadura (Utility nível 3)."
+        ],
+        "en_us": [
+          "Heavy armor plate (Utility level 3)."
+        ]
+      }
+    },
+    {
+      "item": "zombie_extreme:ruby",
+      "uses": {
+        "pt_br": [
+          "Pedra preciosa do subsolo: valiosa para troca com mercadores."
+        ],
+        "en_us": [
+          "Underground gem: valuable for trading with merchants."
+        ]
+      }
+    },
+    {
+      "item": "survival_instinct:body_armor_plate_i"
+    },
+    {
+      "item": "survival_instinct:body_armor_plate_ii"
+    },
+    {
+      "item": "minecraft:enchanted_book",
+      "uses": {
+        "pt_br": [
+          "Na bigorna, aplica o encantamento num item."
+        ],
+        "en_us": [
+          "Apply its enchantment to an item at an anvil."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:experience_bottle",
+      "uses": {
+        "pt_br": [
+          "Arremesse para ganhar experiência."
+        ],
+        "en_us": [
+          "Throw it to gain experience."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:fire_charge",
+      "uses": {
+        "pt_br": [
+          "Acende fogo ou fogueiras; arremessada por dispensador."
+        ],
+        "en_us": [
+          "Lights fires and campfires; a dispenser fires it."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:glistering_melon_slice",
+      "uses": {
+        "pt_br": [
+          "Ingrediente de poção de cura (Suporte de Poções)."
+        ],
+        "en_us": [
+          "Ingredient for healing potions (brewing stand)."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:lava_bucket",
+      "uses": {
+        "pt_br": [
+          "Combustível de fornalha muito duradouro."
+        ],
+        "en_us": [
+          "Very long-lasting furnace fuel."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:map",
+      "uses": {
+        "pt_br": [
+          "Mostra a região ao redor; use para preenchê-lo."
+        ],
+        "en_us": [
+          "Shows the surrounding area; use it to fill it in."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:music_disc_11",
+      "uses": {
+        "pt_br": [
+          "Toca na jukebox."
+        ],
+        "en_us": [
+          "Plays in a jukebox."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:music_disc_13",
+      "uses": {
+        "pt_br": [
+          "Toca na jukebox."
+        ],
+        "en_us": [
+          "Plays in a jukebox."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:music_disc_cat",
+      "uses": {
+        "pt_br": [
+          "Toca na jukebox."
+        ],
+        "en_us": [
+          "Plays in a jukebox."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:music_disc_otherside",
+      "uses": {
+        "pt_br": [
+          "Toca na jukebox."
+        ],
+        "en_us": [
+          "Plays in a jukebox."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:name_tag",
+      "uses": {
+        "pt_br": [
+          "Dá nome a um animal (renomeie na bigorna antes); impede que ele suma."
+        ],
+        "en_us": [
+          "Names a mob (rename it at an anvil first); keeps it from despawning."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:phantom_membrane",
+      "uses": {
+        "pt_br": [
+          "Conserta élitros na bigorna; poção de queda lenta."
+        ],
+        "en_us": [
+          "Repairs elytra at an anvil; slow falling potion."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:rabbit_foot",
+      "uses": {
+        "pt_br": [
+          "Ingrediente de poção de salto (Suporte de Poções)."
+        ],
+        "en_us": [
+          "Ingredient for leaping potions (brewing stand)."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:tipped_arrow",
+      "uses": {
+        "pt_br": [
+          "Flecha com efeito: dispare com arco ou besta."
+        ],
+        "en_us": [
+          "Arrow with an effect: shoot it with a bow or crossbow."
+        ]
+      }
+    },
+    {
+      "item": "minecraft:totem_of_undying",
+      "uses": {
+        "pt_br": [
+          "Na mão, evita uma morte e cura você."
+        ],
+        "en_us": [
+          "Held in hand, cheats death once and heals you."
+        ]
+      }
+    },
+    {
+      "item": "quark:crab_shell",
+      "uses": {
+        "pt_br": [
+          "Ingrediente de poção de resiliência (resistência a empurrão)."
+        ],
+        "en_us": [
+          "Ingredient for resilience potions (knockback resistance)."
+        ]
+      }
+    },
+    {
+      "item": "survival_instinct:garbage_bag",
+      "uses": {
+        "pt_br": [
+          "Clique com o direito para abrir e guardar itens."
+        ],
+        "en_us": [
+          "Right-click to open and store items."
+        ]
+      }
+    },
+    {
+      "item": "survival_instinct:empty_bag",
+      "uses": {
+        "pt_br": [
+          "Clique com o direito para abrir e guardar itens."
+        ],
+        "en_us": [
+          "Right-click to open and store items."
+        ]
+      }
+    },
+    {
+      "item": "scguns:compact_advanced_round",
+      "uses": {
+        "pt_br": [
+          "Munição: carregue a arma de fogo que a usa (veja a descrição da arma)."
+        ],
+        "en_us": [
+          "Ammo: load it into the firearm that uses it (see the gun's tooltip)."
+        ]
+      }
+    },
+    {
+      "item": "scguns:compact_copper_round",
+      "uses": {
+        "pt_br": [
+          "Munição: carregue a arma de fogo que a usa (veja a descrição da arma)."
+        ],
+        "en_us": [
+          "Ammo: load it into the firearm that uses it (see the gun's tooltip)."
+        ]
+      }
+    },
+    {
+      "item": "scguns:empty_cell",
+      "uses": {
+        "pt_br": [
+          "Munição: carregue a arma de fogo que a usa (veja a descrição da arma)."
+        ],
+        "en_us": [
+          "Ammo: load it into the firearm that uses it (see the gun's tooltip)."
+        ]
+      }
+    },
+    {
+      "item": "scguns:he_grenade_round",
+      "uses": {
+        "pt_br": [
+          "Munição: carregue a arma de fogo que a usa (veja a descrição da arma)."
+        ],
+        "en_us": [
+          "Ammo: load it into the firearm that uses it (see the gun's tooltip)."
+        ]
+      }
+    },
+    {
+      "item": "scguns:powder_and_ball",
+      "uses": {
+        "pt_br": [
+          "Munição: carregue a arma de fogo que a usa (veja a descrição da arma)."
+        ],
+        "en_us": [
+          "Ammo: load it into the firearm that uses it (see the gun's tooltip)."
+        ]
+      }
+    },
+    {
+      "item": "scguns:rocket",
+      "uses": {
+        "pt_br": [
+          "Munição: carregue a arma de fogo que a usa (veja a descrição da arma)."
+        ],
+        "en_us": [
+          "Ammo: load it into the firearm that uses it (see the gun's tooltip)."
+        ]
+      }
+    },
+    {
+      "item": "scguns:standard_copper_round",
+      "uses": {
+        "pt_br": [
+          "Munição: carregue a arma de fogo que a usa (veja a descrição da arma)."
+        ],
+        "en_us": [
+          "Ammo: load it into the firearm that uses it (see the gun's tooltip)."
         ]
       }
     }

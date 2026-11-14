@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "notes": "One weighted outcome per ordinary mob death; 1-2 raw iron and damaged iron gear are uncommon. Player zombies and summoned/horde mobs remain exempt. The source mod determines boss-specific loot.",
+  "notes": "One weighted outcome per ordinary mob death; iron nuggets (no raw ore since 12/11/2026: cave minerals stay in caves) and damaged iron gear are uncommon. Player zombies and summoned/horde mobs remain exempt. The source mod determines boss-specific loot.",
   "sources": [
     {
       "mob": "minecraft:zombie",
@@ -24,8 +24,8 @@
           "max": 1
         },
         {
-          "item": "minecraft:raw_iron",
-          "chance": 0.06,
+          "item": "minecraft:iron_nugget",
+          "chance": 0.03,
           "min": 1,
           "max": 2
         },
@@ -119,29 +119,6 @@
       ]
     },
     {
-      "mob": "born_in_chaos_v1:barrel_zombie",
-      "drops": [
-        {
-          "item": "minecraft:gunpowder",
-          "chance": 0.55,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "zombie_extreme:raw_steel",
-          "chance": 0.85,
-          "min": 1,
-          "max": 1
-        },
-        {
-          "item": "scguns:copper_gun_frame",
-          "chance": 0.7,
-          "min": 1,
-          "max": 1
-        }
-      ]
-    },
-    {
       "mob": "scguns:cog_minion",
       "drops": [
         {
@@ -188,6 +165,18 @@
         {
           "item": "survival_instinct:exo_component",
           "chance": 0.04,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "zombie_extreme:raw_steel",
+          "chance": 0.85,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:copper_gun_frame",
+          "chance": 0.7,
           "min": 1,
           "max": 1
         }
@@ -285,7 +274,7 @@
         },
         {
           "item": "scguns:raw_phosphor",
-          "chance": 0.25,
+          "chance": 0.083,
           "min": 1,
           "max": 1
         }
@@ -296,7 +285,7 @@
       "drops": [
         {
           "item": "scguns:raw_phosphor",
-          "chance": 0.45,
+          "chance": 0.15,
           "min": 1,
           "max": 1
         }
@@ -418,6 +407,12 @@
           "chance": 0.9,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "survival_instinct:antibiotics",
+          "chance": 0.004,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -429,6 +424,12 @@
           "chance": 0.9,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "survival_instinct:antibiotics",
+          "chance": 0.004,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -438,6 +439,12 @@
         {
           "item": "zombie_extreme:raw_aluminum",
           "chance": 0.9,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:antibiotics",
+          "chance": 0.004,
           "min": 1,
           "max": 1
         }
@@ -453,14 +460,20 @@
           "max": 1
         },
         {
-          "item": "minecraft:raw_iron",
-          "chance": 0.05,
+          "item": "minecraft:iron_nugget",
+          "chance": 0.025,
           "min": 1,
           "max": 2
         },
         {
           "item": "survival_instinct:bandage",
           "chance": 0.03,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:antibiotics",
+          "chance": 0.004,
           "min": 1,
           "max": 1
         }
@@ -476,8 +489,8 @@
           "max": 1
         },
         {
-          "item": "minecraft:raw_iron",
-          "chance": 0.07,
+          "item": "minecraft:iron_nugget",
+          "chance": 0.035,
           "min": 1,
           "max": 2
         },
@@ -505,8 +518,8 @@
           "max": 1
         },
         {
-          "item": "minecraft:raw_iron",
-          "chance": 0.05,
+          "item": "minecraft:iron_nugget",
+          "chance": 0.025,
           "min": 1,
           "max": 2
         },
@@ -519,6 +532,12 @@
         {
           "item": "minecraft:iron_boots",
           "chance": 0.01,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:antibiotics",
+          "chance": 0.004,
           "min": 1,
           "max": 1
         }
@@ -618,12 +637,6 @@
           "max": 1
         },
         {
-          "item": "minecraft:raw_iron",
-          "chance": 0.06,
-          "min": 1,
-          "max": 2
-        },
-        {
           "item": "minecraft:iron_helmet",
           "chance": 0.03,
           "min": 1,
@@ -676,8 +689,8 @@
           "max": 1
         },
         {
-          "item": "minecraft:raw_iron",
-          "chance": 0.07,
+          "item": "minecraft:iron_nugget",
+          "chance": 0.035,
           "min": 1,
           "max": 2
         },

@@ -1,0 +1,71 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": 1,
+      "conditions": [
+        {
+          "condition": "minecraft:random_chance",
+          "chance": 0.15
+        }
+      ],
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:bandage",
+          "weight": 6,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:alcohol_wipes",
+          "weight": 4,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:analgesic",
+          "weight": 4
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:morphine_syringe",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:antibiotics",
+          "weight": 2
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:adrenaline_syringe",
+          "weight": 1
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:medkit_bag",
+          "weight": 1
+        }
+      ]
+    }
+  ]
+}

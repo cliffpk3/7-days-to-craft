@@ -239,7 +239,7 @@
               "item": "minecraft:gunpowder",
               "count": {
                 "min": 1,
-                "max": 2
+                "max": 1
               }
             },
             {
@@ -268,7 +268,7 @@
               "item": "minecraft:gunpowder",
               "count": {
                 "min": 1,
-                "max": 4
+                "max": 2
               }
             },
             {
@@ -320,12 +320,12 @@
           "nbt": "{Damage:0}"
         },
         {
-          "weight": 5,
+          "weight": 2,
           "chance": 0.26,
           "item": "minecraft:gunpowder",
           "count": {
             "min": 1,
-            "max": 2
+            "max": 1
           },
           "with": [
             {
@@ -340,12 +340,12 @@
           ]
         },
         {
-          "weight": 4,
+          "weight": 2,
           "chance": 0.2,
           "item": "minecraft:gunpowder",
           "count": {
             "min": 1,
-            "max": 4
+            "max": 2
           },
           "with": [
             {

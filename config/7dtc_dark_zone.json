@@ -1,0 +1,15 @@
+{
+  "spawns": {
+    "_doc": "Hollow Zombie spawn rules (13/11/2026). Only below the bedrock (Y < -64), on tunnel floors, never where block light >= maxLight (torches and flares make safe pockets, but do not scare away those already there), minDistance-maxDistance blocks from the player and out of sight. One attempt every intervalTicks per player in the zone; at most maxNear within nearRadius; pairChance for a second one next to it; none during graceTicks after entering the zone. crawlerChance = walks on all fours. They despawn beyond despawnDistance.",
+    "intervalTicks": 80,
+    "maxNear": 8,
+    "nearRadius": 48,
+    "minDistance": 12,
+    "maxDistance": 28,
+    "maxLight": 8,
+    "pairChance": 0.25,
+    "graceTicks": 0,
+    "crawlerChance": 0.35,
+    "despawnDistance": 96
+  }
+}

@@ -1,0 +1,9 @@
+{
+  "feature": "seven_days_to_craft:7dtc_ore_phosphor",
+  "placement": [
+    {
+      "type": "minecraft:count",
+      "count": 0
+    }
+  ]
+}
