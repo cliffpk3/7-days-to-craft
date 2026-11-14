@@ -6,8 +6,8 @@
   "capCount": 2,
   "infectionTicks": 6000,
   "parasiteChance": 0.6,
-  "parasiteMin": 2,
-  "parasiteMax": 3,
+  "parasiteMin": 1,
+  "parasiteMax": 1,
   "deepChance": 0.25,
   "deepY": 0,
   "deepCapCount": 5

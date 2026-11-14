@@ -1,21 +1,23 @@
 {
   "_doc": "Zumbis de estrada (14/11/2026, pedido do usuario: mais pressao nas estradas). Valem a ate 20 blocos de uma estrada de terra/asfalto, fora das cidades. A cada intervalTicks (siteIntervalTicks perto de estruturas de beira de estrada) surge um grupo de groupMin a groupMax zumbis, entre minRadius e maxRadius blocos do jogador, perto da estrada. Limites de zumbis da estrada a ate 64 blocos: dayCap de dia, nightCap a noite, siteCap perto de estruturas. Nada surge se ja houver totalMonsterCap monstros perto. rareChanceDay/Night = chance de cada um ser uma das variantes de rareTypes.",
-  "intervalTicks": 400,
-  "siteIntervalTicks": 300,
+  "intervalTicks": 800,
+  "siteIntervalTicks": 500,
   "groupMin": 1,
   "groupMax": 2,
-  "dayCap": 5,
-  "nightCap": 8,
-  "siteCap": 8,
+  "dayCap": 4,
+  "nightCap": 6,
+  "siteCap": 6,
   "totalMonsterCap": 18,
   "minRadius": 25,
   "maxRadius": 45,
-  "rareChanceDay": 0.2,
-  "rareChanceNight": 0.3,
+  "rareChanceDay": 0.1,
+  "rareChanceNight": 0.25,
   "rareTypes": [
     "zombie_extreme:infected",
     "zombie_extreme:runner",
     "born_in_chaos_v1:decaying_zombie",
     "born_in_chaos_v1:swarmer"
-  ]
+  ],
+  "_doc_20261114b": "14/11/2026 (usuario: spawn muito recorrente): intervalo de volta a 40 s (25 s perto de estruturas); limites 4 de dia, 6 a noite e 6 perto de estruturas. Grupos de 1 a 2 mantidos.",
+  "_doc_20261114c": "14/11/2026 (usuario): de dia prevalece o zumbi comum; variantes 10% de dia e 25% a noite."
 }

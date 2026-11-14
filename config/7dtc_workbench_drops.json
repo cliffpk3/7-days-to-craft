@@ -98,6 +98,12 @@
           "chance": 0.65,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "born_in_chaos_v1:monster_skin",
+          "chance": 0.1,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -179,6 +185,12 @@
           "chance": 0.7,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "born_in_chaos_v1:monster_skin",
+          "chance": 0.25,
+          "min": 1,
+          "max": 2
         }
       ]
     },
@@ -476,6 +488,12 @@
           "chance": 0.004,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "minecraft:spider_eye",
+          "chance": 0.03,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -768,6 +786,18 @@
           "chance": 0.05,
           "min": 1,
           "max": 1
+        },
+        {
+          "item": "scguns:rapid_firing_unit",
+          "chance": 0.1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "chance": 0.15,
+          "min": 1,
+          "max": 1
         }
       ]
     },
@@ -789,6 +819,12 @@
         {
           "item": "survival_instinct:exo_component",
           "chance": 0.05,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "chance": 0.15,
           "min": 1,
           "max": 1
         }
@@ -869,6 +905,12 @@
         {
           "item": "survival_instinct:exo_component",
           "chance": 0.05,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:rapid_firing_unit",
+          "chance": 0.15,
           "min": 1,
           "max": 1
         }
@@ -956,6 +998,12 @@
         {
           "item": "survival_instinct:tier_i_kevlar",
           "chance": 0.02,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "scguns:rapid_firing_unit",
+          "chance": 0.03,
           "min": 1,
           "max": 1
         }

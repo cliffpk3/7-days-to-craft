@@ -1,0 +1,25 @@
+{
+  "_doc": "Zumbis variantes fora das cidades (14/11/2026). Na superficie (ceu visivel) e fora das cidades, o spawn natural de um tipo da lista vinga com dayKeep de dia e nightKeep a noite; quando nao vinga, um zumbi comum surge no lugar. Eventos (hordas, estrada, ruas) nao passam por aqui. Recarrega com /reload.",
+  "enabled": true,
+  "dayKeep": 0.3,
+  "nightKeep": 0.7,
+  "outsideCitiesOnly": true,
+  "surfaceOnly": true,
+  "variants": [
+    "born_in_chaos_v1:decaying_zombie",
+    "born_in_chaos_v1:swarmer",
+    "born_in_chaos_v1:zombie_fisherman",
+    "born_in_chaos_v1:zombie_lumberjack",
+    "born_in_chaos_v1:zombie_bruiser",
+    "born_in_chaos_v1:barrel_zombie",
+    "zombie_extreme:infected",
+    "zombie_extreme:runner",
+    "zombie_extreme:crawler",
+    "zombie_extreme:inflated",
+    "zombie_extreme:boomer",
+    "zombie_extreme:clicker",
+    "zombie_extreme:faceless",
+    "zombie_extreme:infected_hazmat",
+    "zombie_extreme:explosive_infected"
+  ]
+}
