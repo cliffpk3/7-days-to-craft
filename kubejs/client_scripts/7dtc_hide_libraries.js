@@ -1,6 +1,7 @@
-// 7DTC (7/11/2026): hide unobtainable CGM/TaCZ items in JEI; keep the Central Workbench and the Core statue.
+// 7DTC (7/11/2026): hide unobtainable CGM/TaCZ items in JEI; keep the Core statue.
+// 16/11/2026: the Central Workbench is hidden too (the Central Forge replaces it).
 JEIEvents.hideItems(event => {
-  const keep = ['cgm:workbench', 'tacz:statue']
+  const keep = ['tacz:statue']
   Ingredient.of('@cgm').itemIds.forEach(id => { if (!keep.includes(String(id))) event.hide(id) })
   Ingredient.of('@tacz').itemIds.forEach(id => { if (!keep.includes(String(id))) event.hide(id) })
 })

@@ -982,14 +982,14 @@
         "text": "\n"
       },
       {
-        "text": "Adds a 3% chance per node to preserve one common component used in the Custom Workbench; maximum 24%.",
+        "text": "Adds a 3% chance per node to preserve one common component used in the Central Forge; maximum 24%.",
         "color": "gray"
       }
     ],
     "icon": {
       "type": "item",
       "data": {
-        "item": "cgm:workbench"
+        "item": "seven_days_workbenches:7dtc_central_forge"
       }
     },
     "frame": {
@@ -1609,7 +1609,7 @@
         "text": "\n"
       },
       {
-        "text": "Allows placing and using the Recycler to recover part of the base materials from damaged or unwanted equipment.",
+        "text": "Salvage all at the Central Forge gives 25% more primary materials (rounded down). Rare and epic materials never get a bonus.",
         "color": "gray"
       }
     ]
@@ -2633,7 +2633,7 @@
         "text": "\n"
       },
       {
-        "text": "Improves Workbench dismantling efficiency while still excluding rare components. Your first Scavenging specialization opens the other Scavenging paths.",
+        "text": "Salvage all at the Central Forge gives 50% more primary materials instead of 25%. Rare and epic materials never get a bonus. Your first Scavenging specialization opens the other Scavenging paths.",
         "color": "gray"
       }
     ],

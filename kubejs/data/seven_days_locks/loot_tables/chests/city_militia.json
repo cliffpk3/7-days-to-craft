@@ -84,7 +84,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "zombie_extreme:ignotlead",
+              "name": "sa_core:metal_scrap",
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -118,7 +118,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "zombie_extreme:raw_steel",
+              "name": "survival_instinct:raw_steellium",
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -127,6 +127,13 @@
                     "min": 3,
                     "max": 6
                   }
+                }
+              ],
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
                 }
               ]
             }
@@ -152,7 +159,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "zombie_extreme:ignotlead",
+              "name": "sa_core:metal_scrap",
               "functions": [
                 {
                   "function": "minecraft:set_count",

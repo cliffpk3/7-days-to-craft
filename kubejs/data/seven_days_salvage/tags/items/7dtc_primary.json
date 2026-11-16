@@ -1,0 +1,11 @@
+{
+  "replace": true,
+  "values": [
+    "survival_instinct:cloth",
+    "seven_days_salvage:7dtc_chemical",
+    "survival_instinct:electronic_scrap",
+    "sa_core:screws",
+    "fracturepoint:polymer_compound",
+    "sa_core:metal_scrap"
+  ]
+}

@@ -1,3 +1,4 @@
 {
-  "block.sa_core.generator": "Vehicle Engine"
+  "block.sa_core.generator": "Vehicle Engine",
+  "item.sa_core.metal_scrap": "Metal Scrap"
 }

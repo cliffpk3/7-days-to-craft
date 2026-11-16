@@ -104,11 +104,11 @@
 		{
 			dependencies: ["7D7C110000000008"]
 			description: [
-				"The custom Workbench is the main catalog for weapons, equipment, utilities and progression items."
+				"The Central Forge is the main catalog for weapons, equipment, utilities and progression items."
 				""
-				"Craft or interact with the Central Workbench and inspect its categories before continuing. It builds the four 7DTC workbenches."
+				"Craft or interact with the Central Forge and inspect its categories before continuing. It builds the four 7DTC workbenches."
 			]
-			icon: "cgm:workbench"
+			icon: "seven_days_workbenches:7dtc_central_forge"
 			id: "7D7C110000000003"
 			rewards: [{
 				id: "7D7C1A0000000030"
@@ -119,7 +119,7 @@
 				advancement: "seven_days_to_craft:onboarding/workbench"
 				criterion: "completed"
 				id: "7D7C1B0000000003"
-				title: "Craft or interact with the Central Workbench"
+				title: "Craft or interact with the Central Forge"
 				type: "advancement"
 			}]
 			title: "The Workbench"
@@ -129,7 +129,7 @@
 		{
 			dependencies: ["7D7C110000000003"]
 			description: [
-				"Build the four 7DTC workbenches at the Central Workbench (4 logs + 3 copper ingots each) and place all four near your Core. In a team, using a workbench someone else placed also counts."
+				"Build the four 7DTC workbenches at the Central Forge (4 logs + 3 copper ingots each) and place all four near your Core. In a team, using a workbench someone else placed also counts."
 				""
 				"Weapons: melee, firearms and attachments. Armor: armor sets. Ordnance: ammo, explosives and turrets. Utility: components, tools and medicine."
 				""

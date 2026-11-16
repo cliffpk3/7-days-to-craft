@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:rope",
+          "name": "minecraft:string",
           "weight": 20,
           "functions": [
             {
@@ -950,7 +950,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:nails_hammer",
+          "name": "sa_core:claw_hammer",
           "weight": 1,
           "functions": [
             {
@@ -997,7 +997,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:sledge_great_hammer",
+          "name": "divine_weaponry:stone_hammer",
           "weight": 1,
           "functions": [
             {
@@ -1138,7 +1138,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:hand_hammer",
+          "name": "sa_core:claw_hammer",
           "weight": 1,
           "functions": [
             {

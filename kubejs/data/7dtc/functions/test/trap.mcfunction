@@ -7,7 +7,7 @@ give @s minecraft:zombie_spawn_egg 4
 give @s seven_days_traps:barbed_wire 8
 give @s seven_days_traps:bear_trap 2
 give @s seven_days_traps:can_alarm 2
-give @s survival_instinct:wire 4
-give @s zombie_extreme:ignotsteel 4
-give @s survival_instinct:empty_can 4
+give @s sa_core:copper_wire 4
+give @s survival_instinct:raw_steellium 4
+give @s sa_core:empty_can 4
 give @s seven_days_skill_bridge:predator_eye_drops 3

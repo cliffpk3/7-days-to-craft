@@ -87,7 +87,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:empty_can",
+          "name": "sa_core:empty_can",
           "weight": 2,
           "functions": [
             {
@@ -140,7 +140,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:empty_can",
+          "name": "sa_core:empty_can",
           "weight": 3,
           "functions": [
             {
@@ -459,7 +459,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:wire",
+          "name": "sa_core:copper_wire",
           "weight": 3,
           "functions": [
             {
@@ -479,7 +479,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:rope",
+          "name": "minecraft:string",
           "weight": 2
         },
         {

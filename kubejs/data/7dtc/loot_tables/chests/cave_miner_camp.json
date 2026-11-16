@@ -100,7 +100,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:rope",
+          "name": "minecraft:string",
           "weight": 2,
           "functions": [
             {
@@ -115,7 +115,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:batteries",
+          "name": "sa_core:battery",
           "weight": 2,
           "functions": [
             {

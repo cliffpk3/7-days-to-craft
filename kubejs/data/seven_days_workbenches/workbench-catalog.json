@@ -1104,16 +1104,6 @@
     },
     {
       "bench": "ordnance",
-      "tab": "ammo",
-      "level": 3,
-      "item": "scguns:energy_core",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "rare_power_components",
-      "note": ""
-    },
-    {
-      "bench": "ordnance",
       "tab": "explosives",
       "level": 2,
       "item": "scguns:stun_grenade",
@@ -1170,16 +1160,6 @@
       "unlock": "blueprint",
       "blueprint": "item/scguns:gas_grenade",
       "source": "militia_t4_or_boss",
-      "note": ""
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "weapon_parts",
-      "level": 1,
-      "item": "scguns:gun_parts",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "city_salvage_or_common_materials",
       "note": ""
     },
     {
@@ -1260,7 +1240,7 @@
       "unlock": "default",
       "blueprint": "",
       "source": "utility_workbench_level_2",
-      "note": "Restores 40% of maximum durability in the Central Workbench."
+      "note": "Restores 40% of maximum durability in the Central Forge."
     },
     {
       "bench": "utility_potion",
@@ -1270,7 +1250,7 @@
       "unlock": "default",
       "blueprint": "",
       "source": "utility_workbench_level_3",
-      "note": "Restores 80% of maximum durability in the Central Workbench."
+      "note": "Restores 80% of maximum durability in the Central Forge."
     },
     {
       "bench": "ordnance",
@@ -1325,7 +1305,7 @@
     {
       "bench": "utility_potion",
       "tab": "weapon_parts",
-      "level": 3,
+      "level": 2,
       "item": "scguns:rapid_firing_unit",
       "unlock": "default",
       "blueprint": "",
@@ -1335,7 +1315,7 @@
     {
       "bench": "utility_potion",
       "tab": "weapon_parts",
-      "level": 3,
+      "level": 2,
       "item": "scguns:heavy_gun_barrel",
       "unlock": "default",
       "blueprint": "",
@@ -1347,16 +1327,6 @@
       "tab": "weapon_parts",
       "level": 3,
       "item": "scguns:diamond_steel_gun_frame",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "boss_drop_or_expensive_utility_craft",
-      "note": ""
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "weapon_parts",
-      "level": 3,
-      "item": "scguns:heavy_armor_plate",
       "unlock": "default",
       "blueprint": "",
       "source": "boss_drop_or_expensive_utility_craft",
@@ -1737,16 +1707,6 @@
       "tab": "utilities",
       "level": 2,
       "item": "grapplemod:grapplinghook",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "workbench",
-      "note": "Migrated from the legacy CGM Workbench screen (7/11/2026)."
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "utilities",
-      "level": 2,
-      "item": "corail_recycler:recycler",
       "unlock": "default",
       "blueprint": "",
       "source": "workbench",
@@ -2974,46 +2934,6 @@
     },
     {
       "bench": "utility_potion",
-      "tab": "weapon_parts",
-      "level": 2,
-      "item": "scguns:heavy_gun_parts",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "city_salvage_or_common_materials",
-      "note": "9/11/2026: bench route, so firearms do not depend on a press."
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "engineering",
-      "level": 2,
-      "item": "survival_instinct:steellium",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "city_salvage_or_common_materials",
-      "note": "9/11/2026: trade-up from lower rarity."
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "engineering",
-      "level": 2,
-      "item": "survival_instinct:energy_storage_battery",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "city_salvage_or_common_materials",
-      "note": "9/11/2026: trade-up from lower rarity."
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "engineering",
-      "level": 3,
-      "item": "survival_instinct:exo_component",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "city_salvage_or_common_materials",
-      "note": "9/11/2026: trade-up from lower rarity."
-    },
-    {
-      "bench": "utility_potion",
       "tab": "utilities",
       "level": 2,
       "item": "sa_core:scrap_multitool",
@@ -3083,56 +3003,6 @@
       "note": "11/11/2026 trap batch; repairable, wear kept on pickup."
     },
     {
-      "bench": "ordnance",
-      "tab": "ammo",
-      "level": 1,
-      "item": "minecraft:gunpowder",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "7dtc_cave_data",
-      "note": "11/11/2026: cave minerals batch."
-    },
-    {
-      "bench": "ordnance",
-      "tab": "ammo",
-      "level": 2,
-      "item": "create:brass_ingot",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "7dtc_cave_data",
-      "note": "11/11/2026: cave minerals batch."
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "engineering",
-      "level": 1,
-      "item": "survival_instinct:batteries",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "7dtc_cave_data",
-      "note": "11/11/2026: cave minerals batch."
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "weapon_parts",
-      "level": 3,
-      "item": "zombie_extreme:titan_plate",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "7dtc_cave_data",
-      "note": "11/11/2026: cave minerals batch."
-    },
-    {
-      "bench": "utility_potion",
-      "tab": "weapon_parts",
-      "level": 2,
-      "item": "scguns:diamond_steel_ingot",
-      "unlock": "default",
-      "blueprint": "",
-      "source": "dark_zone_phosphor",
-      "note": "13/11/2026 Dark Zone: needs phosphor, a mineral found only below the bedrock."
-    },
-    {
       "bench": "armor",
       "tab": "equipment",
       "level": 3,
@@ -3181,6 +3051,196 @@
       "blueprint": "",
       "source": "dark_zone_phosphor",
       "note": "13/11/2026: thrown light and noise lure for the Dark Zone."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "weapon_parts",
+      "level": 2,
+      "item": "scguns:treated_iron_gun_frame",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_recipes_lot2",
+      "note": "15/11/2026: recipe added so the weapons that use it can be made."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "weapon_parts",
+      "level": 2,
+      "item": "scguns:treated_brass_gun_frame",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_recipes_lot2",
+      "note": "15/11/2026: recipe added so the weapons that use it can be made."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "weapon_parts",
+      "level": 2,
+      "item": "scguns:empty_tank",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_recipes_lot2",
+      "note": "15/11/2026: recipe added so the weapons that use it can be made."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "weapon_parts",
+      "level": 2,
+      "item": "scguns:vehement_coal",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_recipes_lot2",
+      "note": "15/11/2026: recipe added so the weapons that use it can be made."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "weapon_parts",
+      "level": 2,
+      "item": "scguns:large_iron_casing",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_recipes_lot2",
+      "note": "15/11/2026: recipe added so the weapons that use it can be made."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "weapon_parts",
+      "level": 3,
+      "item": "scguns:scorched_gun_frame",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_recipes_lot2",
+      "note": "15/11/2026: recipe added so the weapons that use it can be made."
+    },
+    {
+      "bench": "utility_potion",
+      "tab": "weapon_parts",
+      "level": 3,
+      "item": "scguns:plasma_core",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_recipes_lot2",
+      "note": "15/11/2026: recipe added so the weapons that use it can be made."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 2,
+      "item": "scguns:vertical_grip",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_recipes_lot2",
+      "note": "15/11/2026: recipe added so the weapons that use it can be made."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 1,
+      "item": "scguns:light_stock",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_centralize_20261116",
+      "note": "16/11/2026: moved from the plain crafting table to the bench."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 1,
+      "item": "scguns:iron_bayonet",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_centralize_20261116",
+      "note": "16/11/2026: moved from the plain crafting table to the bench."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 2,
+      "item": "scguns:extended_mag",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_centralize_20261116",
+      "note": "16/11/2026: moved from the plain crafting table to the bench."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 2,
+      "item": "scguns:bump_stock",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_centralize_20261116",
+      "note": "16/11/2026: moved from the plain crafting table to the bench."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 2,
+      "item": "scguns:muzzle_brake",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_centralize_20261116",
+      "note": "16/11/2026: moved from the plain crafting table to the bench."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 2,
+      "item": "scguns:laser_sight",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_centralize_20261116",
+      "note": "16/11/2026: moved from the plain crafting table to the bench."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 2,
+      "item": "scguns:reflex_sight",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_centralize_20261116",
+      "note": "16/11/2026: moved from the plain crafting table to the bench."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 3,
+      "item": "scguns:speed_mag",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_centralize_20261116",
+      "note": "16/11/2026: moved from the plain crafting table to the bench."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 3,
+      "item": "scguns:diamond_bayonet",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_centralize_20261116",
+      "note": "16/11/2026: moved from the plain crafting table to the bench."
+    },
+    {
+      "bench": "weapons",
+      "tab": "attachments",
+      "level": 3,
+      "item": "scguns:netherite_bayonet",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_centralize_20261116",
+      "note": "16/11/2026: moved from the plain crafting table to the bench."
+    },
+    {
+      "bench": "ordnance",
+      "tab": "explosives",
+      "level": 2,
+      "item": "scguns:choke_bomb",
+      "unlock": "default",
+      "blueprint": "",
+      "source": "7dtc_centralize_20261116",
+      "note": "16/11/2026: moved from the plain crafting table to the bench."
     }
   ]
 }

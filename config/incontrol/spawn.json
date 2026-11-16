@@ -10,14 +10,12 @@
     "result": "deny"
   },
   {
-    "_7dtc": "14/11/2026: witches only in swamp huts",
     "when": "onjoin",
     "mob": "minecraft:witch",
     "structure": "minecraft:swamp_hut",
     "result": "default"
   },
   {
-    "_7dtc": "14/11/2026: witches only in swamp huts",
     "when": "onjoin",
     "mob": "minecraft:witch",
     "spawntype": [
@@ -27,7 +25,6 @@
     "result": "deny"
   },
   {
-    "_7dtc": "14/11/2026: slimes only in swamps",
     "when": "onjoin",
     "mob": "minecraft:slime",
     "biome": [
@@ -37,7 +34,6 @@
     "result": "default"
   },
   {
-    "_7dtc": "14/11/2026: slimes only in swamps",
     "when": "onjoin",
     "mob": "minecraft:slime",
     "spawntype": [
@@ -47,21 +43,18 @@
     "result": "deny"
   },
   {
-    "_7dtc": "14/11/2026: endermen only in the End",
     "when": "onjoin",
     "mob": "minecraft:enderman",
     "dimension": "minecraft:overworld",
     "result": "deny"
   },
   {
-    "_7dtc": "14/11/2026: no pillager patrols; outposts stay",
     "when": "onjoin",
     "mob": "minecraft:pillager",
     "spawntype": "patrol",
     "result": "deny"
   },
   {
-    "_7dtc": "14/11/2026 (user): zombie apocalypse; these keep only spawners and structures",
     "when": "onjoin",
     "mob": [
       "minecraft:skeleton",

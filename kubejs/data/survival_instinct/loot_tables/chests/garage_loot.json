@@ -392,7 +392,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:nails_hammer",
+          "name": "sa_core:claw_hammer",
           "weight": 1,
           "functions": [
             {
@@ -439,7 +439,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:steellium_pipe_mace",
+          "name": "divine_weaponry:iron_hammer",
           "weight": 1,
           "functions": [
             {
@@ -558,7 +558,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:wire",
+          "name": "sa_core:copper_wire",
           "weight": 14,
           "functions": [
             {
@@ -588,8 +588,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "zombie_extreme:raw_steel",
-          "weight": 12,
+          "name": "survival_instinct:raw_steellium",
+          "weight": 3,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -623,7 +623,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:wire",
+          "name": "sa_core:copper_wire",
           "weight": 3,
           "functions": [
             {
@@ -653,8 +653,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "zombie_extreme:raw_steel",
-          "weight": 3,
+          "name": "survival_instinct:raw_steellium",
+          "weight": 1,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -663,6 +663,12 @@
                 "min": 1,
                 "max": 3
               }
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
             }
           ]
         },
@@ -673,7 +679,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:rope",
+          "name": "minecraft:string",
           "weight": 2
         }
       ],

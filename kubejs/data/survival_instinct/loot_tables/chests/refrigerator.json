@@ -48,7 +48,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:empty_can",
+          "name": "sa_core:empty_can",
           "weight": 4,
           "functions": [
             {
@@ -380,7 +380,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:empty_can",
+          "name": "sa_core:empty_can",
           "weight": 1,
           "functions": [
             {

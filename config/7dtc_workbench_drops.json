@@ -18,8 +18,8 @@
           "max": 1
         },
         {
-          "item": "scguns:raw_anthralite",
-          "chance": 0.4,
+          "item": "sa_core:metal_scrap",
+          "chance": 0.2,
           "min": 1,
           "max": 1
         },
@@ -77,8 +77,8 @@
           "max": 1
         },
         {
-          "item": "zombie_extreme:raw_aluminum",
-          "chance": 0.55,
+          "item": "sa_core:metal_scrap",
+          "chance": 0.275,
           "min": 1,
           "max": 1
         }
@@ -94,8 +94,8 @@
           "max": 1
         },
         {
-          "item": "zombie_extreme:raw_aluminum",
-          "chance": 0.65,
+          "item": "sa_core:metal_scrap",
+          "chance": 0.325,
           "min": 1,
           "max": 1
         },
@@ -117,8 +117,8 @@
           "max": 1
         },
         {
-          "item": "zombie_extreme:raw_lead",
-          "chance": 0.65,
+          "item": "sa_core:screws",
+          "chance": 0.325,
           "min": 1,
           "max": 1
         }
@@ -134,8 +134,8 @@
           "max": 1
         },
         {
-          "item": "scguns:raw_anthralite",
-          "chance": 0.85,
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "chance": 0.425,
           "min": 1,
           "max": 1
         },
@@ -175,8 +175,8 @@
           "max": 1
         },
         {
-          "item": "zombie_extreme:raw_steel",
-          "chance": 0.85,
+          "item": "survival_instinct:raw_steellium",
+          "chance": 0.425,
           "min": 1,
           "max": 1
         },
@@ -204,8 +204,8 @@
           "max": 1
         },
         {
-          "item": "scguns:raw_anthralite",
-          "chance": 1.0,
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "chance": 0.5,
           "min": 1,
           "max": 1
         },
@@ -415,8 +415,8 @@
       "mob": "minecraft:husk",
       "drops": [
         {
-          "item": "zombie_extreme:raw_steel",
-          "chance": 0.9,
+          "item": "survival_instinct:raw_steellium",
+          "chance": 0.45,
           "min": 1,
           "max": 1
         },
@@ -432,8 +432,8 @@
       "mob": "minecraft:drowned",
       "drops": [
         {
-          "item": "zombie_extreme:raw_lead",
-          "chance": 0.9,
+          "item": "sa_core:screws",
+          "chance": 0.45,
           "min": 1,
           "max": 1
         },
@@ -449,8 +449,8 @@
       "mob": "minecraft:zombie_villager",
       "drops": [
         {
-          "item": "zombie_extreme:raw_aluminum",
-          "chance": 0.9,
+          "item": "sa_core:metal_scrap",
+          "chance": 0.45,
           "min": 1,
           "max": 1
         },
@@ -466,8 +466,8 @@
       "mob": "zombie_extreme:crawler",
       "drops": [
         {
-          "item": "scguns:raw_anthralite",
-          "chance": 0.42,
+          "item": "sa_core:metal_scrap",
+          "chance": 0.21,
           "min": 1,
           "max": 1
         },
@@ -501,8 +501,8 @@
       "mob": "zombie_extreme:infected",
       "drops": [
         {
-          "item": "zombie_extreme:raw_steel",
-          "chance": 0.55,
+          "item": "survival_instinct:raw_steellium",
+          "chance": 0.275,
           "min": 1,
           "max": 1
         },
@@ -530,8 +530,8 @@
       "mob": "zombie_extreme:runner",
       "drops": [
         {
-          "item": "zombie_extreme:raw_lead",
-          "chance": 0.55,
+          "item": "sa_core:screws",
+          "chance": 0.275,
           "min": 1,
           "max": 1
         },
@@ -565,8 +565,8 @@
       "mob": "zombie_extreme:revived",
       "drops": [
         {
-          "item": "scguns:raw_anthralite",
-          "chance": 0.5,
+          "item": "sa_core:metal_scrap",
+          "chance": 0.25,
           "min": 1,
           "max": 1
         }
@@ -576,8 +576,8 @@
       "mob": "zombie_extreme:faceless",
       "drops": [
         {
-          "item": "zombie_extreme:raw_aluminum",
-          "chance": 0.5,
+          "item": "sa_core:metal_scrap",
+          "chance": 0.25,
           "min": 1,
           "max": 1
         }
@@ -587,8 +587,8 @@
       "mob": "zombie_extreme:divided",
       "drops": [
         {
-          "item": "zombie_extreme:raw_aluminum",
-          "chance": 0.5,
+          "item": "sa_core:metal_scrap",
+          "chance": 0.25,
           "min": 1,
           "max": 1
         }
@@ -598,8 +598,8 @@
       "mob": "zombie_extreme:clicker",
       "drops": [
         {
-          "item": "zombie_extreme:raw_lead",
-          "chance": 0.55,
+          "item": "sa_core:screws",
+          "chance": 0.275,
           "min": 1,
           "max": 1
         }
@@ -609,8 +609,8 @@
       "mob": "zombie_extreme:boomer",
       "drops": [
         {
-          "item": "zombie_extreme:raw_steel",
-          "chance": 0.52,
+          "item": "survival_instinct:raw_steellium",
+          "chance": 0.26,
           "min": 1,
           "max": 1
         },
@@ -632,8 +632,8 @@
           "max": 1
         },
         {
-          "item": "zombie_extreme:raw_steel",
-          "chance": 0.35,
+          "item": "survival_instinct:raw_steellium",
+          "chance": 0.175,
           "min": 1,
           "max": 1
         }
@@ -643,8 +643,8 @@
       "mob": "zombie_extreme:infected_police",
       "drops": [
         {
-          "item": "zombie_extreme:raw_steel",
-          "chance": 0.58,
+          "item": "survival_instinct:raw_steellium",
+          "chance": 0.29,
           "min": 1,
           "max": 1
         },
@@ -678,8 +678,8 @@
       "mob": "zombie_extreme:military",
       "drops": [
         {
-          "item": "zombie_extreme:raw_lead",
-          "chance": 0.55,
+          "item": "sa_core:screws",
+          "chance": 0.275,
           "min": 1,
           "max": 1
         },
@@ -695,8 +695,8 @@
       "mob": "zombie_extreme:infected_hazmat",
       "drops": [
         {
-          "item": "zombie_extreme:raw_aluminum",
-          "chance": 0.58,
+          "item": "sa_core:metal_scrap",
+          "chance": 0.29,
           "min": 1,
           "max": 1
         },
@@ -730,8 +730,8 @@
       "mob": "zombie_extreme:goon",
       "drops": [
         {
-          "item": "zombie_extreme:raw_steel",
-          "chance": 0.62,
+          "item": "survival_instinct:raw_steellium",
+          "chance": 0.31,
           "min": 1,
           "max": 1
         },
@@ -753,8 +753,8 @@
       "mob": "zombie_extreme:ram",
       "drops": [
         {
-          "item": "zombie_extreme:raw_aluminum",
-          "chance": 0.64,
+          "item": "sa_core:metal_scrap",
+          "chance": 0.32,
           "min": 1,
           "max": 1
         },
@@ -920,8 +920,8 @@
       "mob": "born_in_chaos_v1:swarmer",
       "drops": [
         {
-          "item": "zombie_extreme:raw_aluminum",
-          "chance": 0.55,
+          "item": "sa_core:metal_scrap",
+          "chance": 0.275,
           "min": 1,
           "max": 1
         }
@@ -1004,6 +1004,81 @@
         {
           "item": "scguns:rapid_firing_unit",
           "chance": 0.03,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "minecraft:zombie",
+      "tag": "7dtc_climber",
+      "_note": "16/11/2026: Climber (agile, caves). Validation pending.",
+      "drops": [
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "chance": 0.15,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:raw_steellium",
+          "chance": 0.1,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "sa_core:metal_scrap",
+          "chance": 0.3,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "minecraft:zombie",
+      "tag": "7dtc_screamer",
+      "_note": "16/11/2026: Screamer. Validation pending.",
+      "drops": [
+        {
+          "item": "seven_days_salvage:7dtc_chemical",
+          "chance": 0.25,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:electronic_scrap",
+          "chance": 0.2,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "sa_core:battery",
+          "chance": 0.08,
+          "min": 1,
+          "max": 1
+        }
+      ]
+    },
+    {
+      "mob": "minecraft:zombie",
+      "tag": "7dtc_contagious",
+      "_note": "16/11/2026: Contagious (infection). Parasites stay. Validation pending.",
+      "drops": [
+        {
+          "item": "seven_days_salvage:7dtc_chemical",
+          "chance": 0.3,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "survival_instinct:antibiotics",
+          "chance": 0.05,
+          "min": 1,
+          "max": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_volatile_compound",
+          "chance": 0.06,
           "min": 1,
           "max": 1
         }

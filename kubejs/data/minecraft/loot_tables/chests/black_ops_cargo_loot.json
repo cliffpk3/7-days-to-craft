@@ -37,8 +37,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "zombie_extreme:raw_steel",
-          "weight": 100,
+          "name": "survival_instinct:raw_steellium",
+          "weight": 25,
           "functions": [
             {
               "function": "set_count",
@@ -51,7 +51,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "zombie_extreme:ignotlead",
+          "name": "sa_core:metal_scrap",
           "weight": 100,
           "functions": [
             {
@@ -80,7 +80,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:sulfur_dust",
+          "name": "scguns:sulfur_chunk",
           "weight": 60,
           "functions": [
             {
@@ -264,7 +264,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:wire",
+          "name": "sa_core:copper_wire",
           "weight": 160,
           "functions": [
             {
@@ -1054,7 +1054,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "zombie_extreme:raw_steel"
+          "name": "survival_instinct:raw_steellium",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
+            }
+          ]
         }
       ]
     }

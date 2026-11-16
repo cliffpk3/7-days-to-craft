@@ -7,5 +7,7 @@
   "item.zombie_extreme.ignot_aluminum": "Aluminum Ingot",
   "item.zombie_extreme.ignot_infected_steel": "Infested Steel Ingot",
   "item.zombie_extreme.ignot_thorium": "Thorium Ingot",
-  "item.zombie_extreme.ignot_tin": "Tin Ingot"
+  "item.zombie_extreme.ignot_tin": "Tin Ingot",
+  "item.zombie_extreme.circuit_diagram": "Circuit Board",
+  "item.zombie_extreme.rubber_sheet": "Rubber Sheet"
 }

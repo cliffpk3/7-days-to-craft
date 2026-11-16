@@ -1,15 +1,6 @@
-// Central Workbench (cgm:workbench block): wood and stone only (7/11/2026, item 13).
-// The first one a player obtains also grants the four 7DTC workbenches (advancement 7dtc:onboarding/central_workbench).
+// Central Workbench (cgm:workbench): 16/11/2026 (user) no longer craftable; the Central Forge replaces it.
+// The Forge recipe (the old Central Workbench recipe plus a furnace) is data in seven-days-workbenches:
+// data/seven_days_workbenches/recipes/7dtc_central_forge.json. Placed Central Workbenches keep working.
 ServerEvents.recipes(event => {
   event.remove({ id: 'cgm:workbench' })
-
-  event.shaped('cgm:workbench', [
-    'PPP',
-    'CTC',
-    'C C'
-  ], {
-    P: '#minecraft:planks',
-    C: '#forge:cobblestone',
-    T: 'minecraft:crafting_table'
-  }).id('seven_days_to_craft:cgm_workbench')
 })

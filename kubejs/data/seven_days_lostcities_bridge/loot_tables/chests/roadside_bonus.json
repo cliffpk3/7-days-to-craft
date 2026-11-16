@@ -71,7 +71,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "zombie_extreme:ignotlead",
+          "name": "sa_core:metal_scrap",
           "weight": 12,
           "functions": [
             {

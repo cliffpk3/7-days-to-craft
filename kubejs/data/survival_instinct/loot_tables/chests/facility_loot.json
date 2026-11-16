@@ -1112,7 +1112,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:sledge_great_hammer",
+          "name": "divine_weaponry:stone_hammer",
           "weight": 1,
           "functions": [
             {

@@ -1,0 +1,6 @@
+{
+  "_comment": "7DTC (16/11/2026): categorias de receita do JEI. Fica so o que e vanilla (minecraft), 7DTC (seven_days_*, sempre), informacao do JEI e missoes (ftbquests), mais as curas de infeccao (hordes). allow = ids de categoria liberados um a um (ex.: create:mixing); hide = ids escondidos mesmo dentro de namespace liberado. Vale ao entrar no mundo; a lista escondida vai para o latest.log (procure '7DTC JEI').",
+  "allow_namespaces": ["minecraft", "jei", "ftbquests"],
+  "allow": ["hordes:infection_cures"],
+  "hide": []
+}

@@ -138,7 +138,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "zombie_extreme:raw_steel",
+              "name": "survival_instinct:raw_steellium",
               "functions": [
                 {
                   "function": "minecraft:set_count",
@@ -147,6 +147,13 @@
                     "min": 2,
                     "max": 3
                   }
+                }
+              ],
+              "weight": 1,
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.25
                 }
               ]
             }
@@ -212,6 +219,119 @@
           "type": "minecraft:item",
           "name": "artifacts:obsidian_skull",
           "weight": 22
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:gun_parts",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 165
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 132,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "sa_core:battery"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "sa_core:copper_wire",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sa_core:fiber_fabric",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 99
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:treated_iron_ingot",
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 1,
+                "max": 2
+              }
+            }
+          ],
+          "weight": 132
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 200,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "survival_instinct:mre",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "survival_instinct:gallon_of_water"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:military_can",
+          "weight": 150,
+          "functions": [
+            {
+              "function": "minecraft:set_count",
+              "count": {
+                "type": "minecraft:uniform",
+                "min": 2,
+                "max": 3
+              }
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:medkit_bag",
+          "weight": 66
         }
       ]
     }

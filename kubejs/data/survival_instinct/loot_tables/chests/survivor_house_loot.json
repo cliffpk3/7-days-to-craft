@@ -34,7 +34,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:can",
+          "name": "sa_core:empty_can",
           "weight": 4,
           "functions": [
             {
@@ -308,7 +308,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:empty_can",
+          "name": "sa_core:empty_can",
           "weight": 4,
           "functions": [
             {
@@ -375,7 +375,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:empty_can",
+          "name": "sa_core:empty_can",
           "weight": 2,
           "functions": [
             {
@@ -806,7 +806,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:sulfur",
+          "name": "scguns:sulfur_chunk",
           "weight": 1,
           "functions": [
             {
@@ -1023,7 +1023,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:plank_with_nails_sword",
+          "name": "divine_weaponry:stone_longsword",
           "weight": 1,
           "functions": [
             {
@@ -1070,7 +1070,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:katana",
+          "name": "divine_weaponry:iron_katana",
           "weight": 1,
           "functions": [
             {
@@ -1117,7 +1117,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:nails_hammer",
+          "name": "sa_core:claw_hammer",
           "weight": 1,
           "functions": [
             {

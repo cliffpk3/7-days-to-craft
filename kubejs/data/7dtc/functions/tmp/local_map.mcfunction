@@ -1,1 +1,0 @@
-7dtcmap local

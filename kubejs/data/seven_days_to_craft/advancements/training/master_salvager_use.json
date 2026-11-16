@@ -1,0 +1,1 @@
+{"display": {"icon": {"item": "minecraft:smithing_table"}, "title": "Master Salvager Practice", "description": "Use Salvage all at the Central Forge with Master Salvager active.", "show_toast": false, "announce_to_chat": false, "hidden": true}, "criteria": {"completed": {"trigger": "minecraft:impossible"}}}

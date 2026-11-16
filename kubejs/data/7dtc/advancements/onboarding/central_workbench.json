@@ -1,10 +1,10 @@
 {
   "display": {
     "icon": {
-      "item": "cgm:workbench"
+      "item": "seven_days_workbenches:7dtc_central_forge"
     },
-    "title": "Central Workbench",
-    "description": "Obtain the Central Workbench.",
+    "title": "Central Forge",
+    "description": "Obtain the Central Forge.",
     "show_toast": false,
     "announce_to_chat": false,
     "hidden": true
@@ -16,6 +16,7 @@
         "items": [
           {
             "items": [
+              "seven_days_workbenches:7dtc_central_forge",
               "cgm:workbench"
             ]
           }

@@ -228,7 +228,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:wire",
+          "name": "sa_core:copper_wire",
           "weight": 20,
           "functions": [
             {

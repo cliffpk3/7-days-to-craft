@@ -72,5 +72,378 @@
         }
       ]
     }
-  ]
+  ],
+  "_comment_20261115": "Central upgrade (user, 15/11/2026): one level for the Central and every bench it builds. Cost = key items of the four old bench upgrades, about half of their sum. Smelt: forge ingots; the forge yields little.",
+  "upgrades": [
+    {
+      "from_level": 1,
+      "materials": [
+        {
+          "item": "sa_core:generator",
+          "count": 2
+        },
+        {
+          "item": "seven_days_workbenches:elite_mechanism",
+          "count": 4
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 16
+        },
+        {
+          "item": "survival_instinct:steellium",
+          "count": 4
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 2
+        },
+        {
+          "item": "scguns:armor_plate",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "from_level": 2,
+      "materials": [
+        {
+          "item": "seven_days_workbenches:boss_core",
+          "count": 2
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 3
+        },
+        {
+          "item": "scguns:raw_phosphor",
+          "count": 4
+        },
+        {
+          "item": "scguns:rapid_firing_unit",
+          "count": 1
+        },
+        {
+          "item": "scguns:heavy_armor_plate",
+          "count": 2
+        }
+      ]
+    }
+  ],
+  "smelt": [
+    {
+      "output": "scguns:treated_iron_ingot",
+      "count": 1,
+      "level": 2,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "survival_instinct:steellium",
+          "count": 1
+        },
+        {
+          "item": "minecraft:coal",
+          "count": 1,
+          "tag": "minecraft:coals"
+        }
+      ]
+    },
+    {
+      "output": "scguns:diamond_steel_ingot",
+      "count": 1,
+      "level": 2,
+      "materials": [
+        {
+          "item": "minecraft:diamond",
+          "count": 1
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "survival_instinct:steellium",
+          "count": 1
+        },
+        {
+          "item": "minecraft:coal",
+          "count": 1,
+          "tag": "minecraft:coals"
+        }
+      ]
+    },
+    {
+      "output": "survival_instinct:steellium",
+      "count": 1,
+      "level": 1,
+      "materials": [
+        {
+          "item": "survival_instinct:raw_steellium",
+          "count": 3
+        },
+        {
+          "item": "minecraft:coal",
+          "count": 1,
+          "tag": "minecraft:coals"
+        }
+      ]
+    }
+  ],
+  "_comment_refine_20261115": "Refine (user, 15/11/2026): family materials of the approved table, uncommon at Central N1, rare at N2, epic at N3. Inputs only from items that already have a source (Screws has none yet). Bench recipes of the same items stay until slice 2 of salvage removes the duplicates and adds sources.",
+  "refine": [
+    {
+      "output": "seven_days_salvage:7dtc_mechanical_component",
+      "count": 1,
+      "level": 1,
+      "materials": [
+        {
+          "item": "sa_core:metal_scrap",
+          "count": 2
+        },
+        {
+          "item": "sa_core:screws",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "scguns:gun_parts",
+      "count": 2,
+      "level": 1,
+      "materials": [
+        {
+          "item": "sa_core:metal_scrap",
+          "count": 3
+        },
+        {
+          "item": "sa_core:screws",
+          "count": 2
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "sa_core:battery",
+      "count": 1,
+      "level": 1,
+      "materials": [
+        {
+          "item": "survival_instinct:electronic_scrap",
+          "count": 2
+        },
+        {
+          "item": "seven_days_salvage:7dtc_chemical",
+          "count": 1
+        },
+        {
+          "item": "sa_core:metal_scrap",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "sa_core:copper_wire",
+      "count": 2,
+      "level": 1,
+      "materials": [
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 1
+        },
+        {
+          "item": "fracturepoint:polymer_compound",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "sa_core:fiber_fabric",
+      "count": 1,
+      "level": 1,
+      "materials": [
+        {
+          "item": "survival_instinct:cloth",
+          "count": 2
+        },
+        {
+          "item": "fracturepoint:polymer_compound",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "sa_core:duct_tape",
+      "count": 2,
+      "level": 1,
+      "materials": [
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
+        },
+        {
+          "item": "fracturepoint:polymer_compound",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_chemical",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "minecraft:gunpowder",
+      "count": 2,
+      "level": 1,
+      "materials": [
+        {
+          "item": "scguns:sulfur_chunk",
+          "count": 1
+        },
+        {
+          "item": "minecraft:charcoal",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "scguns:heavy_gun_parts",
+      "count": 1,
+      "level": 2,
+      "materials": [
+        {
+          "item": "scguns:gun_parts",
+          "count": 2
+        },
+        {
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "survival_instinct:energy_storage_battery",
+      "count": 1,
+      "level": 2,
+      "materials": [
+        {
+          "item": "sa_core:battery",
+          "count": 2
+        },
+        {
+          "item": "sa_core:copper_wire",
+          "count": 2
+        },
+        {
+          "item": "fracturepoint:polymer_compound",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "sa_core:kevlar",
+      "count": 1,
+      "level": 2,
+      "materials": [
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 2
+        },
+        {
+          "item": "sa_core:duct_tape",
+          "count": 1
+        },
+        {
+          "item": "fracturepoint:polymer_compound",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "seven_days_salvage:7dtc_volatile_compound",
+      "count": 1,
+      "level": 2,
+      "materials": [
+        {
+          "item": "seven_days_salvage:7dtc_chemical",
+          "count": 2
+        },
+        {
+          "item": "minecraft:gunpowder",
+          "count": 2
+        },
+        {
+          "item": "fracturepoint:polymer_compound",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "survival_instinct:exo_component",
+      "count": 1,
+      "level": 3,
+      "materials": [
+        {
+          "item": "scguns:heavy_gun_parts",
+          "count": 2
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
+        },
+        {
+          "item": "survival_instinct:energy_storage_battery",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "scguns:energy_core",
+      "count": 1,
+      "level": 3,
+      "materials": [
+        {
+          "item": "survival_instinct:energy_storage_battery",
+          "count": 2
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_volatile_compound",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "output": "scguns:heavy_armor_plate",
+      "count": 1,
+      "level": 3,
+      "materials": [
+        {
+          "item": "sa_core:kevlar",
+          "count": 2
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
+        },
+        {
+          "item": "sa_core:duct_tape",
+          "count": 1
+        }
+      ]
+    }
+  ],
+  "_comment_dedup_20261115": "Materials are made only here (bench duplicates removed 15/11/2026). Plasma Cell is ammo and stays in Ordnance. Diamond Steel smelts at N2 (it was Utility N2 before)."
 }

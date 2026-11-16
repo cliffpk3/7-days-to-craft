@@ -324,7 +324,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:empty_can",
+          "name": "sa_core:empty_can",
           "weight": 60,
           "functions": [
             {
@@ -706,7 +706,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:electric_guitar_greataxe",
+          "name": "divine_weaponry:stone_battleaxe",
           "weight": 1,
           "functions": [
             {

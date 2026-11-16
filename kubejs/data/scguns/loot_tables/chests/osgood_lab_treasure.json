@@ -161,7 +161,7 @@
               "function": "minecraft:set_count"
             }
           ],
-          "name": "scguns:anthralite_ingot",
+          "name": "sa_core:metal_scrap",
           "weight": 40
         },
         {

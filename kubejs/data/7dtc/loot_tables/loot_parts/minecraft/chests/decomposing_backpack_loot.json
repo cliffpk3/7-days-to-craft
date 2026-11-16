@@ -79,7 +79,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:steellium_pipe_mace",
+          "name": "divine_weaponry:iron_hammer",
           "weight": 80,
           "functions": [
             {
@@ -135,7 +135,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:hand_hammer",
+          "name": "sa_core:claw_hammer",
           "weight": 80,
           "functions": [
             {

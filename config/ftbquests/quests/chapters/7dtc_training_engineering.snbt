@@ -323,24 +323,24 @@
 	
 		{
 			dependencies: ["7D7C360000000008"]
-			description: ["Obtain a Recycler. Complete this step to continue Salvager Training."]
-			icon: "corail_recycler:recycler"
+			description: ["Open the Salvage tab of the Central Forge. Complete this step to continue Salvager Training."]
+			icon: "minecraft:grindstone"
 			id: "2D24F95D1CE9DC7F"
 			tasks: [{
 				advancement: "seven_days_to_craft:training/recycler_obtain"
 				criterion: "completed"
 				id: "7D7C350000000801"
-				title: "Obtain a Recycler"
+				title: "Open the Salvage Tab"
 				type: "advancement"
 			}]
-			title: "Obtain a Recycler"
+			title: "Open the Salvage Tab"
 			x: 0.0d
 			y: 16.0d
 		}
 		{
 			dependencies: ["2D24F95D1CE9DC7F"]
-			description: ["Obtain a Recycler and interact with it while Salvager is active."]
-			icon: "corail_recycler:recycler"
+			description: ["Use Salvage all at the Central Forge while Salvager is active."]
+			icon: "minecraft:grindstone"
 			id: "7D7C310000000008"
 			rewards: [{
 				id: "7D7C340000000008"
@@ -351,7 +351,7 @@
 				advancement: "seven_days_to_craft:training/salvager_use"
 				criterion: "completed"
 				id: "7D7C350000000802"
-				title: "Interact with the Recycler"
+				title: "Use Salvage all"
 				type: "advancement"
 			}]
 			title: "Salvager Training"
@@ -361,7 +361,7 @@
 	
 		{
 			dependencies: ["7D7C360000000019"]
-			description: ["Interact with a Recycler while Master Salvager is active to verify the improved recovery system."]
+			description: ["Use Salvage all at the Central Forge while Master Salvager is active."]
 			icon: "minecraft:anvil"
 			id: "7D7C310000000019"
 			rewards: [{
@@ -373,7 +373,7 @@
 				advancement: "seven_days_to_craft:training/master_salvager_use"
 				criterion: "completed"
 				id: "7D7C350000001901"
-				title: "Use a Recycler with Master Salvager active"
+				title: "Use Salvage all with Master Salvager active"
 				type: "advancement"
 			}]
 			title: "Master Salvager Training"

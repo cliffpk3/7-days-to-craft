@@ -139,7 +139,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "zombie_extreme:raw_lead",
+          "name": "sa_core:metal_scrap",
           "weight": 40,
           "functions": [
             {
@@ -154,8 +154,8 @@
         },
         {
           "type": "minecraft:item",
-          "name": "zombie_extreme:raw_steel",
-          "weight": 40,
+          "name": "survival_instinct:raw_steellium",
+          "weight": 10,
           "functions": [
             {
               "function": "minecraft:set_count",
@@ -169,7 +169,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "scguns:raw_anthralite",
+          "name": "sa_core:metal_scrap",
           "weight": 40,
           "functions": [
             {
@@ -353,7 +353,7 @@
             },
             {
               "type": "minecraft:item",
-              "name": "zombie_extreme:ignotlead",
+              "name": "sa_core:metal_scrap",
               "functions": [
                 {
                   "function": "minecraft:set_count",

@@ -404,7 +404,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "zombie_extreme:raw_titan",
+          "name": "sa_core:metal_scrap",
           "weight": 1,
           "functions": [
             {

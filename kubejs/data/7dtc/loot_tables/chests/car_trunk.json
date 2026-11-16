@@ -131,7 +131,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:rope",
+          "name": "minecraft:string",
           "weight": 2
         },
         {
@@ -156,7 +156,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:batteries",
+          "name": "sa_core:battery",
           "weight": 2
         },
         {
@@ -212,7 +212,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:hand_hammer",
+          "name": "sa_core:claw_hammer",
           "weight": 2
         },
         {
@@ -349,7 +349,14 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "zombie_extreme:raw_steel"
+          "name": "survival_instinct:raw_steellium",
+          "weight": 1,
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
+            }
+          ]
         }
       ]
     }

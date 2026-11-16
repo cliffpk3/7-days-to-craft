@@ -16,6 +16,14 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
+        },
+        {
+          "item": "sa_core:screws",
+          "count": 1
         }
       ]
     },
@@ -33,6 +41,10 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
         }
       ]
     },
@@ -49,6 +61,10 @@
         },
         {
           "item": "minecraft:stick",
+          "count": 1
+        },
+        {
+          "item": "survival_instinct:cloth",
           "count": 1
         }
       ]
@@ -67,6 +83,10 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
         }
       ]
     },
@@ -84,6 +104,14 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
+        },
+        {
+          "item": "sa_core:screws",
+          "count": 1
         }
       ]
     },
@@ -100,6 +128,10 @@
         },
         {
           "item": "minecraft:stick",
+          "count": 1
+        },
+        {
+          "item": "survival_instinct:cloth",
           "count": 1
         }
       ]
@@ -118,6 +150,10 @@
         {
           "item": "minecraft:stick",
           "count": 1
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
         }
       ]
     },
@@ -135,6 +171,10 @@
         {
           "item": "minecraft:stick",
           "count": 3
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
         }
       ]
     },
@@ -152,6 +192,14 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
+        },
+        {
+          "item": "sa_core:screws",
+          "count": 1
         }
       ]
     },
@@ -165,6 +213,10 @@
           "item": "minecraft:cobblestone",
           "count": 4,
           "tag": "minecraft:stone_crafting_materials"
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
         }
       ]
     },
@@ -181,6 +233,10 @@
         },
         {
           "item": "minecraft:stick",
+          "count": 1
+        },
+        {
+          "item": "survival_instinct:cloth",
           "count": 1
         }
       ]
@@ -199,6 +255,10 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
         }
       ]
     },
@@ -215,6 +275,18 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
+        },
+        {
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
         }
       ]
     },
@@ -231,6 +303,14 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
         }
       ]
     },
@@ -246,6 +326,10 @@
         },
         {
           "item": "minecraft:stick",
+          "count": 1
+        },
+        {
+          "item": "sa_core:fiber_fabric",
           "count": 1
         }
       ]
@@ -263,6 +347,14 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
         }
       ]
     },
@@ -283,6 +375,18 @@
         {
           "item": "minecraft:iron_block",
           "count": 1
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
+        },
+        {
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
         }
       ]
     },
@@ -298,6 +402,14 @@
         },
         {
           "item": "minecraft:stick",
+          "count": 1
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
           "count": 1
         }
       ]
@@ -315,6 +427,14 @@
         {
           "item": "minecraft:stick",
           "count": 1
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
         }
       ]
     },
@@ -331,6 +451,14 @@
         {
           "item": "minecraft:stick",
           "count": 3
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
         }
       ]
     },
@@ -347,6 +475,18 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
+        },
+        {
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
         }
       ]
     },
@@ -359,6 +499,10 @@
         {
           "item": "minecraft:iron_ingot",
           "count": 4
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
         }
       ]
     },
@@ -374,6 +518,10 @@
         },
         {
           "item": "minecraft:stick",
+          "count": 1
+        },
+        {
+          "item": "sa_core:fiber_fabric",
           "count": 1
         }
       ]
@@ -391,6 +539,14 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
         }
       ]
     },
@@ -407,6 +563,14 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         }
       ]
     },
@@ -423,6 +587,14 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
+        },
+        {
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
         }
       ]
     },
@@ -438,6 +610,10 @@
         },
         {
           "item": "minecraft:stick",
+          "count": 1
+        },
+        {
+          "item": "sa_core:kevlar",
           "count": 1
         }
       ]
@@ -455,6 +631,14 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
+        },
+        {
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
         }
       ]
     },
@@ -475,6 +659,14 @@
         {
           "item": "minecraft:iron_block",
           "count": 1
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         }
       ]
     },
@@ -490,6 +682,14 @@
         },
         {
           "item": "minecraft:stick",
+          "count": 1
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
+        },
+        {
+          "item": "scguns:treated_iron_ingot",
           "count": 1
         }
       ]
@@ -507,6 +707,14 @@
         {
           "item": "minecraft:stick",
           "count": 1
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
+        },
+        {
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
         }
       ]
     },
@@ -523,6 +731,14 @@
         {
           "item": "minecraft:stick",
           "count": 3
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
+        },
+        {
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
         }
       ]
     },
@@ -539,6 +755,14 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         }
       ]
     },
@@ -551,6 +775,10 @@
         {
           "item": "minecraft:diamond",
           "count": 4
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
         }
       ]
     },
@@ -566,6 +794,10 @@
         },
         {
           "item": "minecraft:stick",
+          "count": 1
+        },
+        {
+          "item": "sa_core:kevlar",
           "count": 1
         }
       ]
@@ -583,6 +815,14 @@
         {
           "item": "minecraft:stick",
           "count": 2
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
+        },
+        {
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
         }
       ]
     },
@@ -1459,8 +1699,8 @@
           "count": 1
         },
         {
-          "item": "create:copper_nugget",
-          "count": 2
+          "item": "sa_core:copper_wire",
+          "count": 1
         },
         {
           "item": "minecraft:iron_ingot",
@@ -1492,16 +1732,15 @@
       "materials": [
         {
           "item": "minecraft:oak_planks",
-          "count": 1,
-          "tag": "minecraft:planks"
+          "count": 1
         },
         {
           "item": "minecraft:iron_nugget",
           "count": 1
         },
         {
-          "item": "create:copper_nugget",
-          "count": 2
+          "item": "sa_core:copper_wire",
+          "count": 1
         }
       ]
     },
@@ -1537,8 +1776,8 @@
           "count": 1
         },
         {
-          "item": "create:copper_nugget",
-          "count": 2
+          "item": "sa_core:copper_wire",
+          "count": 1
         },
         {
           "item": "minecraft:iron_ingot",
@@ -1588,6 +1827,10 @@
         {
           "item": "minecraft:iron_ingot",
           "count": 5
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
         }
       ]
     },
@@ -1600,6 +1843,10 @@
         {
           "item": "minecraft:iron_ingot",
           "count": 8
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 2
         }
       ]
     },
@@ -1612,6 +1859,10 @@
         {
           "item": "minecraft:iron_ingot",
           "count": 7
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
         }
       ]
     },
@@ -1624,6 +1875,10 @@
         {
           "item": "minecraft:iron_ingot",
           "count": 4
+        },
+        {
+          "item": "survival_instinct:cloth",
+          "count": 1
         }
       ]
     },
@@ -1634,12 +1889,16 @@
       "count": 1,
       "materials": [
         {
-          "item": "survival_instinct:steellium",
-          "count": 2
+          "item": "sa_core:metal_scrap",
+          "count": 4
         },
         {
-          "item": "survival_instinct:cloth",
-          "count": 2
+          "item": "sa_core:fiber_fabric",
+          "count": 1
+        },
+        {
+          "item": "sa_core:screws",
+          "count": 1
         }
       ]
     },
@@ -1650,11 +1909,15 @@
       "count": 1,
       "materials": [
         {
-          "item": "survival_instinct:steellium",
-          "count": 4
+          "item": "sa_core:metal_scrap",
+          "count": 8
         },
         {
-          "item": "survival_instinct:cloth",
+          "item": "sa_core:fiber_fabric",
+          "count": 2
+        },
+        {
+          "item": "sa_core:screws",
           "count": 2
         }
       ]
@@ -1666,11 +1929,15 @@
       "count": 1,
       "materials": [
         {
-          "item": "survival_instinct:steellium",
-          "count": 3
+          "item": "sa_core:metal_scrap",
+          "count": 6
         },
         {
-          "item": "survival_instinct:cloth",
+          "item": "sa_core:fiber_fabric",
+          "count": 2
+        },
+        {
+          "item": "sa_core:screws",
           "count": 2
         }
       ]
@@ -1682,12 +1949,16 @@
       "count": 1,
       "materials": [
         {
-          "item": "survival_instinct:steellium",
-          "count": 2
+          "item": "sa_core:metal_scrap",
+          "count": 4
         },
         {
-          "item": "survival_instinct:cloth",
-          "count": 2
+          "item": "sa_core:fiber_fabric",
+          "count": 1
+        },
+        {
+          "item": "sa_core:screws",
+          "count": 1
         }
       ]
     },
@@ -1698,8 +1969,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "survival_instinct:steellium",
-          "count": 2
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
         },
         {
           "item": "scguns:armor_plate",
@@ -1714,8 +1989,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "survival_instinct:steellium",
-          "count": 4
+          "item": "scguns:treated_iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 2
         },
         {
           "item": "scguns:armor_plate",
@@ -1730,8 +2009,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "survival_instinct:steellium",
-          "count": 3
+          "item": "scguns:treated_iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 2
         },
         {
           "item": "scguns:armor_plate",
@@ -1746,8 +2029,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "survival_instinct:steellium",
-          "count": 2
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
         },
         {
           "item": "scguns:armor_plate",
@@ -1766,7 +2053,7 @@
           "count": 5
         },
         {
-          "item": "zombie_extreme:titan_plate",
+          "item": "sa_core:kevlar",
           "count": 1
         }
       ]
@@ -1782,8 +2069,8 @@
           "count": 8
         },
         {
-          "item": "zombie_extreme:titan_plate",
-          "count": 1
+          "item": "sa_core:kevlar",
+          "count": 2
         }
       ]
     },
@@ -1798,8 +2085,8 @@
           "count": 7
         },
         {
-          "item": "zombie_extreme:titan_plate",
-          "count": 1
+          "item": "sa_core:kevlar",
+          "count": 2
         }
       ]
     },
@@ -1814,7 +2101,7 @@
           "count": 4
         },
         {
-          "item": "zombie_extreme:titan_plate",
+          "item": "sa_core:kevlar",
           "count": 1
         }
       ]
@@ -1826,12 +2113,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "zombie_extreme:titan_plate",
+          "item": "sa_core:kevlar",
           "count": 2
         },
         {
-          "item": "scguns:heavy_armor_plate",
-          "count": 2
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         }
       ]
     },
@@ -1842,12 +2129,16 @@
       "count": 1,
       "materials": [
         {
-          "item": "zombie_extreme:titan_plate",
-          "count": 4
+          "item": "sa_core:kevlar",
+          "count": 3
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         },
         {
           "item": "scguns:heavy_armor_plate",
-          "count": 2
+          "count": 1
         }
       ]
     },
@@ -1858,12 +2149,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "zombie_extreme:titan_plate",
+          "item": "sa_core:kevlar",
           "count": 3
         },
         {
-          "item": "scguns:heavy_armor_plate",
-          "count": 2
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         }
       ]
     },
@@ -1874,12 +2165,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "zombie_extreme:titan_plate",
+          "item": "sa_core:kevlar",
           "count": 2
         },
         {
-          "item": "scguns:heavy_armor_plate",
-          "count": 2
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         }
       ]
     },
@@ -1890,8 +2181,8 @@
       "count": 1,
       "materials": [
         {
-          "item": "zombie_extreme:titan_plate",
-          "count": 2
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         },
         {
           "item": "survival_instinct:exo_component",
@@ -1906,11 +2197,15 @@
       "count": 1,
       "materials": [
         {
-          "item": "zombie_extreme:titan_plate",
-          "count": 4
+          "item": "scguns:diamond_steel_ingot",
+          "count": 2
         },
         {
           "item": "survival_instinct:exo_component",
+          "count": 1
+        },
+        {
+          "item": "scguns:heavy_gun_parts",
           "count": 1
         }
       ]
@@ -1922,11 +2217,15 @@
       "count": 1,
       "materials": [
         {
-          "item": "zombie_extreme:titan_plate",
-          "count": 3
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         },
         {
           "item": "survival_instinct:exo_component",
+          "count": 1
+        },
+        {
+          "item": "scguns:heavy_gun_parts",
           "count": 1
         }
       ]
@@ -1938,8 +2237,8 @@
       "count": 1,
       "materials": [
         {
-          "item": "zombie_extreme:titan_plate",
-          "count": 2
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         },
         {
           "item": "survival_instinct:exo_component",
@@ -1958,7 +2257,7 @@
           "count": 2
         },
         {
-          "item": "zombie_extreme:ignotlead",
+          "item": "sa_core:metal_scrap",
           "count": 1
         }
       ]
@@ -1978,7 +2277,7 @@
           "count": 2
         },
         {
-          "item": "zombie_extreme:ignotlead",
+          "item": "sa_core:metal_scrap",
           "count": 1
         }
       ]
@@ -1998,7 +2297,7 @@
           "count": 2
         },
         {
-          "item": "zombie_extreme:ignotlead",
+          "item": "sa_core:metal_scrap",
           "count": 2
         }
       ]
@@ -2038,8 +2337,12 @@
           "count": 4
         },
         {
-          "item": "zombie_extreme:ignotlead",
+          "item": "sa_core:metal_scrap",
           "count": 2
+        },
+        {
+          "item": "fracturepoint:polymer_compound",
+          "count": 1
         }
       ]
     },
@@ -2050,7 +2353,7 @@
       "count": 16,
       "materials": [
         {
-          "item": "create:brass_ingot",
+          "item": "minecraft:copper_ingot",
           "count": 2
         },
         {
@@ -2058,7 +2361,7 @@
           "count": 4
         },
         {
-          "item": "survival_instinct:steellium",
+          "item": "scguns:treated_iron_ingot",
           "count": 1
         }
       ]
@@ -2070,7 +2373,7 @@
       "count": 16,
       "materials": [
         {
-          "item": "create:brass_ingot",
+          "item": "minecraft:copper_ingot",
           "count": 3
         },
         {
@@ -2078,27 +2381,7 @@
           "count": 4
         },
         {
-          "item": "survival_instinct:steellium",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "bench": "ordnance",
-      "level": 3,
-      "output": "scguns:energy_core",
-      "count": 1,
-      "materials": [
-        {
-          "item": "minecraft:redstone_block",
-          "count": 1
-        },
-        {
-          "item": "minecraft:amethyst_shard",
-          "count": 2
-        },
-        {
-          "item": "minecraft:diamond",
+          "item": "scguns:treated_iron_ingot",
           "count": 1
         }
       ]
@@ -2119,7 +2402,11 @@
         },
         {
           "item": "minecraft:quartz",
-          "count": 2
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_chemical",
+          "count": 1
         }
       ]
     },
@@ -2150,16 +2437,20 @@
       "count": 2,
       "materials": [
         {
-          "item": "zombie_extreme:ignot_aluminum",
-          "count": 3
+          "item": "seven_days_salvage:7dtc_volatile_compound",
+          "count": 1
         },
         {
           "item": "minecraft:gunpowder",
-          "count": 8
+          "count": 6
         },
         {
           "item": "scguns:gun_parts",
           "count": 1
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
         }
       ]
     },
@@ -2170,15 +2461,15 @@
       "count": 4,
       "materials": [
         {
-          "item": "zombie_extreme:ignot_aluminum",
-          "count": 2
+          "item": "seven_days_salvage:7dtc_volatile_compound",
+          "count": 1
         },
         {
           "item": "minecraft:gunpowder",
-          "count": 6
+          "count": 4
         },
         {
-          "item": "minecraft:redstone",
+          "item": "minecraft:iron_ingot",
           "count": 2
         }
       ]
@@ -2191,15 +2482,19 @@
       "materials": [
         {
           "item": "minecraft:iron_ingot",
-          "count": 4
+          "count": 2
         },
         {
           "item": "minecraft:gunpowder",
-          "count": 4
+          "count": 2
         },
         {
-          "item": "minecraft:redstone",
-          "count": 2
+          "item": "seven_days_salvage:7dtc_volatile_compound",
+          "count": 1
+        },
+        {
+          "item": "sa_core:screws",
+          "count": 1
         }
       ]
     },
@@ -2211,26 +2506,18 @@
       "materials": [
         {
           "item": "minecraft:iron_ingot",
-          "count": 3
+          "count": 2
         },
         {
           "item": "scguns:sulfur_chunk",
           "count": 2
         },
         {
-          "item": "sa_core:empty_glass_bottle",
+          "item": "seven_days_salvage:7dtc_chemical",
           "count": 2
-        }
-      ]
-    },
-    {
-      "bench": "utility_potion",
-      "level": 1,
-      "output": "scguns:gun_parts",
-      "count": 2,
-      "materials": [
+        },
         {
-          "item": "minecraft:iron_block",
+          "item": "sa_core:empty_glass_bottle",
           "count": 1
         }
       ]
@@ -2255,7 +2542,11 @@
       "materials": [
         {
           "item": "minecraft:iron_ingot",
-          "count": 3
+          "count": 2
+        },
+        {
+          "item": "sa_core:metal_scrap",
+          "count": 1
         }
       ]
     },
@@ -2267,7 +2558,11 @@
       "materials": [
         {
           "item": "minecraft:copper_ingot",
-          "count": 6
+          "count": 4
+        },
+        {
+          "item": "sa_core:screws",
+          "count": 2
         }
       ]
     },
@@ -2282,11 +2577,11 @@
           "count": 1
         },
         {
-          "item": "create:zinc_ingot",
+          "item": "seven_days_salvage:7dtc_mechanical_component",
           "count": 1
         },
         {
-          "item": "minecraft:iron_nugget",
+          "item": "sa_core:screws",
           "count": 1
         }
       ]
@@ -2299,11 +2594,10 @@
       "materials": [
         {
           "item": "minecraft:oak_planks",
-          "count": 4,
-          "tag": "minecraft:planks"
+          "count": 4
         },
         {
-          "item": "minecraft:iron_ingot",
+          "item": "sa_core:screws",
           "count": 1
         }
       ]
@@ -2316,11 +2610,10 @@
       "materials": [
         {
           "item": "minecraft:oak_planks",
-          "count": 2,
-          "tag": "minecraft:planks"
+          "count": 2
         },
         {
-          "item": "minecraft:iron_nugget",
+          "item": "survival_instinct:cloth",
           "count": 1
         }
       ]
@@ -2333,7 +2626,7 @@
       "materials": [
         {
           "item": "sa_core:metal_scrap",
-          "count": 6
+          "count": 4
         },
         {
           "item": "minecraft:copper_ingot",
@@ -2341,6 +2634,10 @@
         },
         {
           "item": "survival_instinct:cloth",
+          "count": 1
+        },
+        {
+          "item": "sa_core:screws",
           "count": 1
         }
       ]
@@ -2353,15 +2650,19 @@
       "materials": [
         {
           "item": "sa_core:metal_scrap",
-          "count": 10
+          "count": 6
         },
         {
           "item": "minecraft:iron_ingot",
           "count": 3
         },
         {
-          "item": "survival_instinct:cloth",
-          "count": 2
+          "item": "sa_core:fiber_fabric",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
         }
       ]
     },
@@ -2373,14 +2674,14 @@
       "materials": [
         {
           "item": "sa_core:metal_scrap",
-          "count": 12
+          "count": 8
         },
         {
           "item": "minecraft:gold_ingot",
           "count": 4
         },
         {
-          "item": "survival_instinct:steellium",
+          "item": "scguns:treated_iron_ingot",
           "count": 1
         },
         {
@@ -2433,10 +2734,14 @@
       "materials": [
         {
           "item": "minecraft:iron_ingot",
-          "count": 6
+          "count": 4
         },
         {
           "item": "scguns:gun_parts",
+          "count": 1
+        },
+        {
+          "item": "sa_core:screws",
           "count": 1
         }
       ]
@@ -2449,15 +2754,15 @@
       "materials": [
         {
           "item": "minecraft:iron_ingot",
-          "count": 3
-        },
-        {
-          "item": "create:copper_nugget",
-          "count": 3
-        },
-        {
-          "item": "survival_instinct:wire",
           "count": 2
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
+        },
+        {
+          "item": "sa_core:copper_wire",
+          "count": 1
         }
       ]
     },
@@ -2468,18 +2773,22 @@
       "count": 1,
       "materials": [
         {
-          "item": "survival_instinct:steellium",
-          "count": 2
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "sa_core:fiber_fabric",
+          "count": 1
         },
         {
           "item": "born_in_chaos_v1:monster_skin",
-          "count": 2
+          "count": 1
         }
       ]
     },
     {
       "bench": "utility_potion",
-      "level": 3,
+      "level": 2,
       "output": "scguns:rapid_firing_unit",
       "count": 1,
       "materials": [
@@ -2488,18 +2797,18 @@
           "count": 2
         },
         {
-          "item": "survival_instinct:electronic_scrap",
-          "count": 4
+          "item": "sa_core:battery",
+          "count": 1
         },
         {
-          "item": "minecraft:gold_ingot",
+          "item": "sa_core:copper_wire",
           "count": 1
         }
       ]
     },
     {
       "bench": "utility_potion",
-      "level": 3,
+      "level": 2,
       "output": "scguns:heavy_gun_barrel",
       "count": 1,
       "materials": [
@@ -2524,24 +2833,12 @@
           "count": 1
         },
         {
-          "item": "minecraft:diamond",
-          "count": 5
-        }
-      ]
-    },
-    {
-      "bench": "utility_potion",
-      "level": 3,
-      "output": "scguns:heavy_armor_plate",
-      "count": 1,
-      "materials": [
-        {
-          "item": "zombie_extreme:titan_plate",
-          "count": 2
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
         },
         {
-          "item": "born_in_chaos_v1:monster_skin",
-          "count": 2
+          "item": "scguns:heavy_gun_parts",
+          "count": 1
         }
       ]
     },
@@ -2553,14 +2850,14 @@
       "materials": [
         {
           "item": "minecraft:leather",
-          "count": 6
+          "count": 4
         },
         {
-          "item": "survival_instinct:cloth",
-          "count": 8
+          "item": "sa_core:kevlar",
+          "count": 2
         },
         {
-          "item": "survival_instinct:rope",
+          "item": "minecraft:string",
           "count": 2
         },
         {
@@ -2597,10 +2894,10 @@
         },
         {
           "item": "minecraft:brown_mushroom",
-          "count": 2
+          "count": 1
         },
         {
-          "item": "minecraft:charcoal",
+          "item": "seven_days_salvage:7dtc_chemical",
           "count": 1
         }
       ]
@@ -2621,7 +2918,11 @@
         },
         {
           "item": "minecraft:sugar",
-          "count": 3
+          "count": 2
+        },
+        {
+          "item": "seven_days_salvage:7dtc_chemical",
+          "count": 1
         }
       ]
     },
@@ -2641,7 +2942,11 @@
         },
         {
           "item": "minecraft:poppy",
-          "count": 3
+          "count": 2
+        },
+        {
+          "item": "seven_days_salvage:7dtc_chemical",
+          "count": 1
         }
       ]
     },
@@ -2692,8 +2997,8 @@
           "count": 1
         },
         {
-          "item": "survival_instinct:cloth",
-          "count": 3
+          "item": "sa_core:fiber_fabric",
+          "count": 1
         }
       ]
     },
@@ -2712,8 +3017,8 @@
           "count": 1
         },
         {
-          "item": "minecraft:gold_ingot",
-          "count": 2
+          "item": "sa_core:kevlar",
+          "count": 1
         }
       ]
     },
@@ -2740,15 +3045,15 @@
       "count": 1,
       "materials": [
         {
-          "item": "zombie_extreme:ignot_aluminum",
+          "item": "sa_core:metal_scrap",
           "count": 2
         },
         {
-          "item": "survival_instinct:wire",
-          "count": 3
+          "item": "sa_core:copper_wire",
+          "count": 2
         },
         {
-          "item": "survival_instinct:nails_box",
+          "item": "sa_core:screws",
           "count": 1
         }
       ]
@@ -2760,12 +3065,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "create:andesite_alloy",
-          "count": 4
+          "item": "scguns:treated_iron_ingot",
+          "count": 2
         },
         {
-          "item": "scguns:anthralite_ingot",
-          "count": 2
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
         },
         {
           "item": "minecraft:redstone",
@@ -2800,11 +3105,15 @@
       "count": 1,
       "materials": [
         {
-          "item": "scguns:anthralite_ingot",
-          "count": 3
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
         },
         {
-          "item": "minecraft:iron_ingot",
+          "item": "sa_core:battery",
+          "count": 1
+        },
+        {
+          "item": "sa_core:copper_wire",
           "count": 2
         },
         {
@@ -2884,16 +3193,16 @@
       "count": 1,
       "materials": [
         {
-          "item": "scguns:anthralite_ingot",
-          "count": 3
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
         },
         {
-          "item": "minecraft:iron_ingot",
-          "count": 2
+          "item": "survival_instinct:energy_storage_battery",
+          "count": 1
         },
         {
-          "item": "scguns:gun_parts",
-          "count": 2
+          "item": "scguns:heavy_gun_parts",
+          "count": 1
         }
       ]
     },
@@ -2904,16 +3213,16 @@
       "count": 1,
       "materials": [
         {
-          "item": "scguns:anthralite_ingot",
-          "count": 3
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
         },
         {
-          "item": "minecraft:iron_ingot",
+          "item": "survival_instinct:energy_storage_battery",
+          "count": 1
+        },
+        {
+          "item": "sa_core:copper_wire",
           "count": 2
-        },
-        {
-          "item": "minecraft:copper_ingot",
-          "count": 4
         }
       ]
     },
@@ -2924,8 +3233,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "scguns:anthralite_ingot",
-          "count": 3
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "survival_instinct:energy_storage_battery",
+          "count": 1
         },
         {
           "item": "minecraft:iron_ingot",
@@ -2944,8 +3257,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "scguns:anthralite_ingot",
-          "count": 2
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "survival_instinct:energy_storage_battery",
+          "count": 1
         },
         {
           "item": "minecraft:iron_ingot",
@@ -2964,8 +3281,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "scguns:anthralite_ingot",
-          "count": 2
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "survival_instinct:energy_storage_battery",
+          "count": 1
         },
         {
           "item": "minecraft:iron_ingot",
@@ -3248,32 +3569,12 @@
           "count": 1
         },
         {
-          "item": "survival_instinct:rope",
+          "item": "minecraft:string",
           "count": 3
         },
         {
-          "item": "survival_instinct:steellium",
+          "item": "seven_days_salvage:7dtc_mechanical_component",
           "count": 2
-        }
-      ]
-    },
-    {
-      "bench": "utility_potion",
-      "level": 2,
-      "output": "corail_recycler:recycler",
-      "count": 1,
-      "materials": [
-        {
-          "item": "survival_instinct:steellium",
-          "count": 4
-        },
-        {
-          "item": "minecraft:copper_ingot",
-          "count": 8
-        },
-        {
-          "item": "minecraft:redstone",
-          "count": 8
         }
       ]
     },
@@ -3309,7 +3610,7 @@
         },
         {
           "item": "scguns:heavy_armor_plate",
-          "count": 3
+          "count": 2
         }
       ]
     },
@@ -3325,7 +3626,11 @@
         },
         {
           "item": "scguns:heavy_armor_plate",
-          "count": 2
+          "count": 1
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
         }
       ]
     },
@@ -3356,7 +3661,7 @@
           "count": 1
         },
         {
-          "item": "zombie_extreme:titan_plate",
+          "item": "sa_core:kevlar",
           "count": 1
         }
       ]
@@ -3372,7 +3677,7 @@
           "count": 1
         },
         {
-          "item": "zombie_extreme:titan_plate",
+          "item": "sa_core:kevlar",
           "count": 2
         }
       ]
@@ -4083,7 +4388,7 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
+          "item": "scguns:treated_iron_ingot",
           "count": 1
         },
         {
@@ -4096,8 +4401,7 @@
         },
         {
           "item": "minecraft:oak_planks",
-          "count": 1,
-          "tag": "minecraft:planks"
+          "count": 1
         }
       ]
     },
@@ -4152,7 +4456,7 @@
           "count": 1
         },
         {
-          "item": "scguns:anthralite_ingot",
+          "item": "scguns:diamond_steel_ingot",
           "count": 1
         },
         {
@@ -4476,8 +4780,8 @@
           "count": 2
         },
         {
-          "item": "scguns:treated_iron_block",
-          "count": 1
+          "item": "scguns:treated_iron_ingot",
+          "count": 2
         }
       ]
     },
@@ -4496,7 +4800,7 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
+          "item": "scguns:treated_iron_ingot",
           "count": 1
         },
         {
@@ -4872,7 +5176,7 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
+          "item": "scguns:treated_iron_ingot",
           "count": 2
         },
         {
@@ -4988,7 +5292,7 @@
           "count": 1
         },
         {
-          "item": "scguns:anthralite_ingot",
+          "item": "scguns:diamond_steel_ingot",
           "count": 1
         },
         {
@@ -5308,7 +5612,7 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
+          "item": "scguns:treated_iron_ingot",
           "count": 2
         },
         {
@@ -5368,8 +5672,8 @@
           "count": 1
         },
         {
-          "item": "scguns:scorched_ingot",
-          "count": 2
+          "item": "seven_days_workbenches:boss_core",
+          "count": 1
         },
         {
           "item": "scguns:gun_barrel",
@@ -5457,7 +5761,7 @@
           "count": 1
         },
         {
-          "item": "scguns:anthralite_ingot",
+          "item": "scguns:diamond_steel_ingot",
           "count": 1
         },
         {
@@ -5791,7 +6095,7 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
+          "item": "scguns:treated_iron_ingot",
           "count": 1
         },
         {
@@ -5907,7 +6211,7 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
+          "item": "scguns:treated_iron_ingot",
           "count": 1
         },
         {
@@ -6216,7 +6520,7 @@
           "count": 1
         },
         {
-          "item": "scguns:anthralite_ingot",
+          "item": "scguns:diamond_steel_ingot",
           "count": 1
         },
         {
@@ -6456,7 +6760,7 @@
           "count": 1
         },
         {
-          "item": "scguns:anthralite_ingot",
+          "item": "scguns:diamond_steel_ingot",
           "count": 1
         },
         {
@@ -6484,7 +6788,7 @@
           "count": 1
         },
         {
-          "item": "scguns:treated_brass_ingot",
+          "item": "scguns:treated_iron_ingot",
           "count": 2
         },
         {
@@ -6782,83 +7086,19 @@
     {
       "bench": "utility_potion",
       "level": 2,
-      "output": "scguns:heavy_gun_parts",
-      "count": 1,
-      "materials": [
-        {
-          "item": "scguns:gun_parts",
-          "count": 1
-        },
-        {
-          "item": "survival_instinct:steellium",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "bench": "utility_potion",
-      "level": 2,
-      "output": "survival_instinct:steellium",
-      "count": 1,
-      "materials": [
-        {
-          "item": "zombie_extreme:raw_steel",
-          "count": 3
-        }
-      ]
-    },
-    {
-      "bench": "utility_potion",
-      "level": 2,
-      "output": "survival_instinct:energy_storage_battery",
-      "count": 1,
-      "materials": [
-        {
-          "item": "survival_instinct:batteries",
-          "count": 3
-        },
-        {
-          "item": "survival_instinct:electronic_scrap",
-          "count": 4
-        },
-        {
-          "item": "survival_instinct:wire",
-          "count": 2
-        }
-      ]
-    },
-    {
-      "bench": "utility_potion",
-      "level": 3,
-      "output": "survival_instinct:exo_component",
-      "count": 1,
-      "materials": [
-        {
-          "item": "survival_instinct:steellium",
-          "count": 2
-        },
-        {
-          "item": "survival_instinct:energy_storage_battery",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "bench": "utility_potion",
-      "level": 2,
       "output": "sa_core:scrap_multitool",
       "count": 1,
       "materials": [
         {
           "item": "sa_core:metal_scrap",
-          "count": 6
+          "count": 4
         },
         {
           "item": "sa_core:duct_tape",
           "count": 2
         },
         {
-          "item": "survival_instinct:steellium",
+          "item": "seven_days_salvage:7dtc_mechanical_component",
           "count": 1
         }
       ]
@@ -6870,15 +7110,15 @@
       "count": 1,
       "materials": [
         {
-          "item": "sa_core:ashen_steel_ingot",
-          "count": 3
-        },
-        {
-          "item": "sa_core:ashen_steel_rod",
-          "count": 2
-        },
-        {
           "item": "sa_core:scrap_multitool",
+          "count": 1
+        },
+        {
+          "item": "scguns:diamond_steel_ingot",
+          "count": 1
+        },
+        {
+          "item": "scguns:heavy_gun_parts",
           "count": 1
         }
       ]
@@ -6922,8 +7162,8 @@
       "count": 2,
       "materials": [
         {
-          "item": "survival_instinct:wire",
-          "count": 2
+          "item": "sa_core:copper_wire",
+          "count": 1
         },
         {
           "item": "survival_instinct:nail",
@@ -6938,7 +7178,7 @@
       "count": 1,
       "materials": [
         {
-          "item": "survival_instinct:empty_can",
+          "item": "sa_core:empty_can",
           "count": 4
         },
         {
@@ -6954,76 +7194,12 @@
       "count": 1,
       "materials": [
         {
-          "item": "survival_instinct:steellium",
+          "item": "seven_days_salvage:7dtc_mechanical_component",
           "count": 2
         },
         {
-          "item": "survival_instinct:rope",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "bench": "ordnance",
-      "level": 1,
-      "output": "minecraft:gunpowder",
-      "count": 2,
-      "materials": [
-        {
-          "item": "scguns:sulfur_chunk",
-          "count": 1
-        },
-        {
-          "item": "minecraft:charcoal",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "bench": "ordnance",
-      "level": 2,
-      "output": "create:brass_ingot",
-      "count": 2,
-      "materials": [
-        {
-          "item": "minecraft:copper_ingot",
-          "count": 1
-        },
-        {
-          "item": "create:zinc_ingot",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "bench": "utility_potion",
-      "level": 1,
-      "output": "survival_instinct:batteries",
-      "count": 2,
-      "materials": [
-        {
-          "item": "create:zinc_ingot",
-          "count": 1
-        },
-        {
-          "item": "minecraft:copper_ingot",
-          "count": 1
-        },
-        {
-          "item": "minecraft:redstone",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "bench": "utility_potion",
-      "level": 3,
-      "output": "zombie_extreme:titan_plate",
-      "count": 1,
-      "materials": [
-        {
-          "item": "zombie_extreme:ignot_titan",
-          "count": 2
+          "item": "minecraft:iron_ingot",
+          "count": 3
         }
       ]
     },
@@ -7042,8 +7218,8 @@
           "count": 4
         },
         {
-          "item": "survival_instinct:rope",
-          "count": 1
+          "item": "minecraft:string",
+          "count": 2
         }
       ]
     },
@@ -7058,35 +7234,15 @@
           "count": 4
         },
         {
-          "item": "survival_instinct:cloth",
-          "count": 6
+          "item": "sa_core:fiber_fabric",
+          "count": 3
         },
         {
-          "item": "survival_instinct:rope",
+          "item": "minecraft:string",
           "count": 2
         },
         {
-          "item": "survival_instinct:steellium",
-          "count": 1
-        }
-      ]
-    },
-    {
-      "bench": "utility_potion",
-      "level": 2,
-      "output": "scguns:diamond_steel_ingot",
-      "count": 1,
-      "materials": [
-        {
-          "item": "minecraft:diamond",
-          "count": 1
-        },
-        {
-          "item": "scguns:raw_phosphor",
-          "count": 2
-        },
-        {
-          "item": "minecraft:iron_ingot",
+          "item": "sa_core:screws",
           "count": 1
         }
       ]
@@ -7099,15 +7255,15 @@
       "materials": [
         {
           "item": "scguns:diamond_steel_ingot",
-          "count": 2
+          "count": 1
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
         },
         {
           "item": "minecraft:leather",
           "count": 2
-        },
-        {
-          "item": "scguns:armor_plate",
-          "count": 1
         }
       ]
     },
@@ -7119,7 +7275,11 @@
       "materials": [
         {
           "item": "scguns:diamond_steel_ingot",
-          "count": 4
+          "count": 2
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 2
         },
         {
           "item": "minecraft:leather",
@@ -7139,15 +7299,15 @@
       "materials": [
         {
           "item": "scguns:diamond_steel_ingot",
-          "count": 3
+          "count": 2
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 2
         },
         {
           "item": "minecraft:leather",
           "count": 3
-        },
-        {
-          "item": "scguns:armor_plate",
-          "count": 1
         }
       ]
     },
@@ -7159,7 +7319,11 @@
       "materials": [
         {
           "item": "scguns:diamond_steel_ingot",
-          "count": 2
+          "count": 1
+        },
+        {
+          "item": "sa_core:kevlar",
+          "count": 1
         },
         {
           "item": "minecraft:leather",
@@ -7179,6 +7343,354 @@
         },
         {
           "item": "minecraft:paper",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "scguns:treated_iron_gun_frame",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:treated_iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "scguns:treated_brass_gun_frame",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:treated_iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "minecraft:copper_ingot",
+          "count": 3
+        },
+        {
+          "item": "scguns:gun_parts",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "scguns:empty_tank",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "sa_core:metal_scrap",
+          "count": 1
+        },
+        {
+          "item": "fracturepoint:polymer_compound",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "scguns:vehement_coal",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:coal",
+          "count": 2
+        },
+        {
+          "item": "seven_days_salvage:7dtc_volatile_compound",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 2,
+      "output": "scguns:large_iron_casing",
+      "count": 2,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "sa_core:metal_scrap",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 3,
+      "output": "scguns:scorched_gun_frame",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:diamond_steel_gun_frame",
+          "count": 1
+        },
+        {
+          "item": "scguns:energy_core",
+          "count": 1
+        },
+        {
+          "item": "minecraft:blaze_rod",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "utility_potion",
+      "level": 3,
+      "output": "scguns:plasma_core",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:energy_core",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_volatile_compound",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:vertical_grip",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:gun_grip",
+          "count": 1
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "sa_core:screws",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "scguns:light_stock",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:wooden_stock",
+          "count": 1
+        },
+        {
+          "item": "fracturepoint:polymer_compound",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 1,
+      "output": "scguns:iron_bayonet",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "sa_core:screws",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:extended_mag",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:gun_magazine",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
+        },
+        {
+          "item": "sa_core:screws",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:bump_stock",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:wooden_stock",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
+        },
+        {
+          "item": "fracturepoint:polymer_compound",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:muzzle_brake",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 2
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:laser_sight",
+      "count": 1,
+      "materials": [
+        {
+          "item": "sa_core:battery",
+          "count": 1
+        },
+        {
+          "item": "sa_core:copper_wire",
+          "count": 1
+        },
+        {
+          "item": "minecraft:redstone",
+          "count": 1
+        },
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 2,
+      "output": "scguns:reflex_sight",
+      "count": 1,
+      "materials": [
+        {
+          "item": "minecraft:iron_ingot",
+          "count": 1
+        },
+        {
+          "item": "minecraft:glass_pane",
+          "count": 1
+        },
+        {
+          "item": "sa_core:battery",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:speed_mag",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:gun_magazine",
+          "count": 1
+        },
+        {
+          "item": "scguns:heavy_gun_parts",
+          "count": 1
+        },
+        {
+          "item": "seven_days_salvage:7dtc_mechanical_component",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:diamond_bayonet",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:iron_bayonet",
+          "count": 1
+        },
+        {
+          "item": "minecraft:diamond",
+          "count": 2
+        }
+      ]
+    },
+    {
+      "bench": "weapons",
+      "level": 3,
+      "output": "scguns:netherite_bayonet",
+      "count": 1,
+      "materials": [
+        {
+          "item": "scguns:diamond_bayonet",
+          "count": 1
+        },
+        {
+          "item": "minecraft:netherite_ingot",
+          "count": 1
+        }
+      ]
+    },
+    {
+      "bench": "ordnance",
+      "level": 2,
+      "output": "scguns:choke_bomb",
+      "count": 2,
+      "materials": [
+        {
+          "item": "minecraft:gunpowder",
+          "count": 2
+        },
+        {
+          "item": "seven_days_salvage:7dtc_chemical",
+          "count": 1
+        },
+        {
+          "item": "minecraft:iron_ingot",
           "count": 1
         }
       ]

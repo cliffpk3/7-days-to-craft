@@ -140,7 +140,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:rope",
+          "name": "minecraft:string",
           "weight": 20,
           "functions": [
             {

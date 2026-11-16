@@ -3,7 +3,7 @@ give @s minecraft:gunpowder 48
 give @s minecraft:redstone 24
 give @s zombie_extreme:raw_lead 8
 give @s zombie_extreme:ignotlead 8
-give @s zombie_extreme:ignotsteel 8
+give @s survival_instinct:raw_steellium 8
 give @s zombie_extreme:ignot_aluminum 6
 give @s scguns:raw_phosphor 4
 give @s scguns:sulfur_chunk 2

@@ -355,7 +355,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:rope",
+          "name": "minecraft:string",
           "weight": 6,
           "functions": [
             {
@@ -422,7 +422,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:empty_can",
+          "name": "sa_core:empty_can",
           "weight": 1,
           "functions": [
             {
@@ -475,7 +475,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:lance_pitchfork",
+          "name": "divine_weaponry:stone_spear",
           "weight": 1,
           "functions": [
             {
@@ -654,7 +654,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "survival_instinct:nails_hammer",
+          "name": "sa_core:claw_hammer",
           "weight": 1,
           "functions": [
             {

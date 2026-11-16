@@ -174,31 +174,21 @@
           "children": [
             {
               "type": "minecraft:item",
-              "name": "zombie_extreme:ignot_aluminum",
+              "name": "scguns:treated_iron_ingot",
               "functions": [
                 {
                   "function": "minecraft:set_count",
                   "count": {
                     "type": "minecraft:uniform",
-                    "min": 3,
-                    "max": 5
+                    "min": 2,
+                    "max": 2
                   }
                 }
               ]
             },
             {
               "type": "minecraft:item",
-              "name": "minecraft:gunpowder",
-              "functions": [
-                {
-                  "function": "minecraft:set_count",
-                  "count": {
-                    "type": "minecraft:uniform",
-                    "min": 6,
-                    "max": 8
-                  }
-                }
-              ]
+              "name": "seven_days_salvage:7dtc_volatile_compound"
             }
           ],
           "weight": 231
@@ -217,6 +207,94 @@
           "type": "minecraft:item",
           "name": "nameless_trinkets:lucky_rock",
           "weight": 88
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:heavy_gun_parts",
+          "weight": 132
+        },
+        {
+          "type": "minecraft:item",
+          "name": "sa_core:kevlar",
+          "weight": 99
+        },
+        {
+          "type": "minecraft:item",
+          "name": "survival_instinct:energy_storage_battery",
+          "weight": 99
+        },
+        {
+          "type": "minecraft:item",
+          "name": "scguns:diamond_steel_ingot",
+          "weight": 66
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 200,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "survival_instinct:mre",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 3
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "survival_instinct:gallon_of_water",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 1,
+                    "max": 2
+                  }
+                }
+              ]
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "weight": 100,
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "survival_instinct:energy_can",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 2
+                  }
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "survival_instinct:chocolate_bar",
+              "functions": [
+                {
+                  "function": "minecraft:set_count",
+                  "count": {
+                    "type": "minecraft:uniform",
+                    "min": 2,
+                    "max": 3
+                  }
+                }
+              ]
+            }
+          ]
         }
       ]
     }
