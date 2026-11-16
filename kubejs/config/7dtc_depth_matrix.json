@@ -1,6 +1,6 @@
 {
   "schemaVersion": 2,
-  "notes": "Cave threat test: more frequent encounters, especially tier 2/3 in deep caves. Darkness, biome exclusions and local caps remain; extra encounters stay at least 32 blocks from players.",
+  "notes": "Cave threat test: more frequent encounters, especially tier 2/3 in deep caves. Darkness, biome exclusions and local caps remain; extra encounters stay at least 32 blocks from players. 16/11/2026: encounters include the two mineshaft rules (zombie, runner) that were only in spawner.json since 14/11; tools/rebuild-depth-spawns.ps1 regenerates spawner.json from here.",
   "bands": [
     {
       "id": 1,
@@ -74,6 +74,72 @@
           ]
         },
         "maxverticaldist": 16
+      }
+    },
+    {
+      "attempts": 28,
+      "mob": "minecraft:zombie",
+      "amount": {
+        "minimum": 1,
+        "maximum": 2
+      },
+      "persecond": 0.1,
+      "weights": 1,
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "minheight": -55,
+        "maxheight": 48,
+        "mindist": 32,
+        "maxdist": 56,
+        "maxverticaldist": 12,
+        "maxlocal": 5,
+        "norestrictions": true,
+        "and": {
+          "structure": "minecraft:mineshaft",
+          "maxlight": 4
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
+      }
+    },
+    {
+      "attempts": 28,
+      "mob": "zombie_extreme:runner",
+      "amount": {
+        "minimum": 1,
+        "maximum": 1
+      },
+      "persecond": 0.035,
+      "weights": 1,
+      "conditions": {
+        "dimension": "minecraft:overworld",
+        "minheight": -55,
+        "maxheight": 48,
+        "mindist": 32,
+        "maxdist": 56,
+        "maxverticaldist": 12,
+        "maxlocal": 2,
+        "norestrictions": true,
+        "and": {
+          "structure": "minecraft:mineshaft",
+          "maxlight": 4
+        },
+        "not": {
+          "biome": [
+            "minecraft:deep_dark"
+          ],
+          "biometags": [
+            "alexscaves:alexs_caves_biomes",
+            "forge:no_default_monsters"
+          ]
+        }
       }
     }
   ],
