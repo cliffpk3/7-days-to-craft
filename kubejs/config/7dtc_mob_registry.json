@@ -7493,7 +7493,7 @@
         "knockbackResistance": null
       },
       "spawn": {
-        "allow": true,
+        "allow": false,
         "minY": null,
         "maxY": null,
         "dimensions": [],

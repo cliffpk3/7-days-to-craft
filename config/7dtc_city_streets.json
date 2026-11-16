@@ -1,0 +1,7 @@
+{
+  "_doc": "Zumbis de rua nas cidades (Lost Cities). A cada intervalTicks (20 = 1 s) completa a populacao de rua em volta do jogador ate streetCap zumbis de rua a ate 64 blocos, sem passar de totalMonsterCap monstros no total. Ao entrar na cidade (depois de entryDelay), surge uma vez um grupo de ate entryGroup zumbis. 16/11/2026: regra modesta de 28/10 (14 de rua, 28 no total); antes estava 24 e 40. Vale ao abrir o mundo ou com /reload.",
+  "intervalTicks": 80,
+  "streetCap": 14,
+  "totalMonsterCap": 28,
+  "entryGroup": 4
+}
