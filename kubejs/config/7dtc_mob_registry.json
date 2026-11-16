@@ -7722,6 +7722,9 @@
       "threat": {
         "tier": 1,
         "category": "common hostile"
+      },
+      "spawn": {
+        "allow": true
       }
     },
     "zombie_extreme:revived": {
